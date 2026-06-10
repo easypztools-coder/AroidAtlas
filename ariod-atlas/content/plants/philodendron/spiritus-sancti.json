@@ -1,0 +1,52 @@
+{
+  "name": "Philodendron spiritus-sancti",
+  "slug": "spiritus-sancti",
+  "scientificName": "Philodendron spiritus-sancti",
+  "commonName": "The Holy Grail Philodendron",
+  "statusTag": "Endangered Species",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "spiritus-sancti",
+  "origin": "Espírito Santo, Brazil",
+  "collectorPopularity": 5.0,
+  "rarityStatus": "Extremely Rare",
+  "availability": "Very Low",
+  "priceGuideTier": "££££",
+  "aboutText": "Philodendron spiritus-sancti is legendary within the aroid hobby. Characterized by its extraordinarily elongated, dangling lanceolate leaves with deep sinus lobes, this prized specimen originates from a highly restricted wild habitat in Brazil. Historically fetching thousands of pounds, the emergence of micropropagation and tissue culture has begun shifting market dynamics, though mature, high-character specimens still command premium investments from dedicated collectors.",
+  "quickFacts": {
+    "growthHabit": "Climbing hemiepiphyte on moss pole",
+    "matureSize": "60 - 120 cm leaf length",
+    "light": "Bright, indirect filter",
+    "humidity": "75 - 90%",
+    "temperature": "18 - 28°C",
+    "difficulty": "Advanced",
+    "growthSpeed": "Slow to Moderate"
+  },
+  "morphology": {
+    "leafShape": "Elongated sword-like, sagittate",
+    "leafLength": "60 - 120 cm",
+    "leafWidth": "10 - 15 cm",
+    "petioleColor": "Deep green to maroon base",
+    "venation": "Pinnate, subtle pale midrib",
+    "texture": "Coriaceous, matte leathery",
+    "variegation": "None (Pure form)",
+    "growthHabit": "Climbing with thick aerial anchors"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": 180.00,
+    "threeMonthChangePercent": -32.4,
+    "marketStatus": "Volatile"
+  },
+  "priceHistory": [
+    { "date": "2026-01-11", "medianPriceGBP": 450.00, "dataPointsAnalyzed": 4 },
+    { "date": "2026-02-08", "medianPriceGBP": 380.00, "dataPointsAnalyzed": 6 },
+    { "date": "2026-03-15", "medianPriceGBP": 290.00, "dataPointsAnalyzed": 8 },
+    { "date": "2026-04-19", "medianPriceGBP": 220.00, "dataPointsAnalyzed": 11 },
+    { "date": "2026-05-17", "medianPriceGBP": 195.00, "dataPointsAnalyzed": 14 },
+    { "date": "2026-06-10", "medianPriceGBP": 180.00, "dataPointsAnalyzed": 9 }
+  ],
+  "recommendedPlants": [
+    { "name": "Philodendron joepii", "slug": "joepii", "rarity": "Rare", "price": "££" },
+    { "name": "Anthurium warocqueanum", "slug": "warocqueanum", "rarity": "Very Rare", "price": "£££" }
+  ]
+}
