@@ -55,7 +55,10 @@ export default function PriceChart({
                 fontSize: "12px",
                 color: "#FFFFFF",
               }}
-              labelFormatter={formatDate}
+              labelFormatter={(label) => {
+                if (typeof label === "string") return formatDate(label);
+                return String(label);
+              }}
               formatter={(value) => {
                 const num = typeof value === "number" ? value : 0;
                 return [`£${num.toFixed(2)}`, "Median Price"];

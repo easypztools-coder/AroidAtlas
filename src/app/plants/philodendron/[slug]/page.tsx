@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
-import plantData from "@/content/plants/philodendron/spiritus-sancti.json";
+import fs from "fs";
+import path from "path";
 import PriceChart from "./price-chart";
 
 interface PricePoint {
@@ -63,7 +64,35 @@ interface PlantData {
   recommendedPlants: RecommendedPlant[];
 }
 
-const data = plantData as PlantData;
+function loadPlantData(slug: string): PlantData | null {
+  try {
+    const filePath = path.join(
+      process.cwd(),
+      "content",
+      "plants",
+      "philodendron",
+      `${slug}.json`
+    );
+    const raw = fs.readFileSync(filePath, "utf-8");
+    return JSON.parse(raw) as PlantData;
+  } catch {
+    return null;
+  }
+}
+
+function getAllPlantSlugs(): string[] {
+  const dirPath = path.join(process.cwd(), "content", "plants", "philodendron");
+  if (!fs.existsSync(dirPath)) return [];
+  return fs
+    .readdirSync(dirPath)
+    .filter((f) => f.endsWith(".json"))
+    .map((f) => f.replace(".json", ""));
+}
+
+export function generateStaticParams() {
+  const slugs = getAllPlantSlugs();
+  return slugs.map((slug) => ({ slug }));
+}
 
 interface PageProps {
   params: { slug: string };
@@ -123,6 +152,25 @@ function PopularityStars({ rating }: { rating: number }) {
 }
 
 export default function PlantPage({ params }: PageProps) {
+  const data = loadPlantData(params.slug);
+
+  if (!data) {
+    return (
+      <div className="flex items-center justify-center py-24">
+        <div className="text-center">
+          <p className="text-lg font-heading font-bold text-heading">Plant Not Found</p>
+          <p className="mt-2 text-sm text-muted">No data available for &ldquo;{params.slug}&rdquo;</p>
+          <Link
+            href="/"
+            className="mt-6 inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-background transition hover:bg-primary/90"
+          >
+            Back to Explore
+          </Link>
+        </div>
+      </div>
+    );
+  }
+
   const {
     name,
     scientificName,
@@ -222,19 +270,16 @@ export default function PlantPage({ params }: PageProps) {
 
         {/* Status Row: Collector Popularity, Rarity, Availability, Price Guide */}
         <div className="flex flex-wrap items-center gap-4">
-          {/* Collector Popularity */}
           <span className="inline-flex items-center gap-1.5 rounded-full bg-card px-3 py-1 text-xs font-medium text-muted">
             <PopularityStars rating={collectorPopularity} />
             <span className="ml-1">Popularity</span>
           </span>
-          {/* Rarity */}
           <span className="inline-flex items-center gap-1.5 rounded-full bg-rarity/10 px-3 py-1 text-xs font-medium text-rarity">
             <svg className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="currentColor">
               <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
             </svg>
             {rarityStatus}
           </span>
-          {/* Availability */}
           {availability && (
             <span className="inline-flex items-center gap-1.5 rounded-full bg-card px-3 py-1 text-xs font-medium text-muted">
               <svg className="h-3.5 w-3.5 text-muted" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
@@ -243,14 +288,12 @@ export default function PlantPage({ params }: PageProps) {
               {availability}
             </span>
           )}
-          {/* Price Guide */}
           <span className="inline-flex items-center gap-1.5 rounded-full bg-price/10 px-3 py-1 text-xs font-medium text-price">
             <svg className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="currentColor">
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
             </svg>
             {priceGuideTier}
           </span>
-          {/* Origin */}
           <span className="inline-flex items-center gap-1.5 rounded-full bg-card px-3 py-1 text-xs font-medium text-muted">
             <svg className="h-3.5 w-3.5 text-leaf" viewBox="0 0 24 24" fill="currentColor">
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
@@ -261,7 +304,6 @@ export default function PlantPage({ params }: PageProps) {
 
         {/* Main Feature Image + Sub-Component Circles */}
         <div className="flex gap-4">
-          {/* Main Image */}
           <div className="relative flex-1 aspect-[3/4] overflow-hidden rounded-xl bg-card">
             <Image
               src={`/images/plants/${params.slug}.jpg`}
@@ -273,7 +315,6 @@ export default function PlantPage({ params }: PageProps) {
             />
           </div>
 
-          {/* Sub-Component Detail Circles */}
           <div className="flex flex-col gap-3 justify-center">
             {subComponents.map((comp) => (
               <div
@@ -300,13 +341,10 @@ export default function PlantPage({ params }: PageProps) {
                 key={phase.label}
                 className="flex-1 flex flex-col items-center gap-2"
               >
-                {/* Phase marker */}
                 <div className="relative w-full flex items-center">
-                  {/* Connecting line (before dot) */}
                   {idx > 0 && (
                     <div className="absolute right-1/2 top-0 h-0.5 w-full bg-background" />
                   )}
-                  {/* Dot */}
                   <div
                     className={`relative z-10 mx-auto h-3 w-3 rounded-full ${
                       idx === maturityPhases.length - 1
@@ -328,7 +366,6 @@ export default function PlantPage({ params }: PageProps) {
 
         {/* Split Baseline: Morphology + About + Climate */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Morphology Table */}
           <div>
             <h2 className="mb-4 text-lg font-heading font-bold text-heading">
               Morphology
@@ -350,7 +387,6 @@ export default function PlantPage({ params }: PageProps) {
             </div>
           </div>
 
-          {/* About + Climate Parameters */}
           <div>
             <h2 className="mb-4 text-lg font-heading font-bold text-heading">
               About
@@ -359,7 +395,6 @@ export default function PlantPage({ params }: PageProps) {
               {aboutText}
             </p>
 
-            {/* Local Climate Parameters */}
             <div className="rounded-lg bg-card/60 p-4 border border-card/80">
               <h4 className="text-xs font-semibold text-heading mb-3 uppercase tracking-wider">
                 Climate Profile
@@ -398,7 +433,6 @@ export default function PlantPage({ params }: PageProps) {
       {/* ===== RIGHT SIDEBAR (Cols 8-10) ===== */}
       <div className="lg:col-span-3 space-y-6">
         <div className="sticky top-24 space-y-6">
-          {/* Quick Facts */}
           <div className="rounded-xl bg-card p-5">
             <h3 className="mb-4 text-sm font-semibold text-heading">
               Quick Facts
@@ -415,13 +449,11 @@ export default function PlantPage({ params }: PageProps) {
                 </div>
               ))}
             </div>
-            {/* View Care Guide CTA */}
             <button className="mt-5 w-full rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-background transition hover:bg-primary/90">
               View Care Guide
             </button>
           </div>
 
-          {/* UK Marketplace Dashboard */}
           <div className="rounded-xl bg-card p-5">
             <h3 className="mb-1 text-sm font-semibold text-heading">
               Price History
@@ -434,7 +466,6 @@ export default function PlantPage({ params }: PageProps) {
               currentPrice={marketMetrics.currentMedianPriceGBP}
             />
 
-            {/* Market Status Badge */}
             <div className="mt-3 flex items-center gap-2">
               <span
                 className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider ${
@@ -465,7 +496,6 @@ export default function PlantPage({ params }: PageProps) {
             </div>
           </div>
 
-          {/* Etsy Affiliate Link */}
           <a
             href={`https://www.etsy.com/uk/search?q=${encodeURIComponent(name)}`}
             target="_blank"

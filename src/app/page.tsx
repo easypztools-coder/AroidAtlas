@@ -1,7 +1,21 @@
+import HeroSection from "@/components/HeroSection";
+import FeaturedSpecies from "@/components/FeaturedSpecies";
+import CompareSection from "@/components/CompareSection";
+import MaturityJourney from "@/components/MaturityJourney";
+import IdentifyPlant from "@/components/IdentifyPlant";
+import GenusGrid from "@/components/GenusGrid";
+import CollectionsGrid from "@/components/CollectionsGrid";
+
 export default function Home() {
   return (
-    <div className="flex items-center justify-center py-24">
-      <p className="text-sm text-muted">Select a plant to explore</p>
-    </div>
+    <>
+      <HeroSection />
+      <FeaturedSpecies />
+      <CompareSection />
+      <MaturityJourney />
+      <IdentifyPlant />
+      <GenusGrid />
+      <CollectionsGrid />
+    </>
   );
 }
