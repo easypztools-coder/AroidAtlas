@@ -1,0 +1,53 @@
+{
+  "name": "Monstera 'Devil Monster'",
+  "slug": "devil-monster",
+  "scientificName": "Monstera 'Devil Monster'",
+  "commonName": "Devil Monster Monstera",
+  "statusTag": "Rare Cultivar",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "Devil Monster",
+  "origin": "China (natural mutation) / Thailand (rebranded 2024)",
+  "collectorPopularity": 4.0,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Monstera 'Devil Monster' is a remarkable cultivated variety that emerged from a natural mutation discovered in China, originally referred to as 'Circuit Board Monstera'. It features mint-coloured variegation inherited from the Kunzo White Monster lineage, combined with a rigid, deeply lobed leaf shape from Burle Marx's Flame and a structural, architectural appearance from Jungle Min. This stabilized variegation pattern was developed through years of selective propagation and gained significant popularity in 2024 when it was rebranded in Thailand as 'Devil Monster'.",
+  "quickFacts": {
+    "growthHabit": "Climbing hemiepiphyte on moss pole",
+    "matureSize": "60 - 90 cm leaf length",
+    "light": "Bright, indirect filter",
+    "humidity": "65 - 85%",
+    "temperature": "18 - 28°C",
+    "difficulty": "Intermediate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Rigid, deeply lobed with narrow flame-shaped segments",
+    "leafLength": "60 - 90 cm",
+    "leafWidth": "30 - 50 cm",
+    "petioleColor": "Standard Monstera green",
+    "venation": "Pinnate, distinct green midrib",
+    "texture": "Firm and rigid, thick leaf substance",
+    "variegation": "Mint-coloured variegation",
+    "growthHabit": "Climbing with thick aerial roots"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": 120.00,
+    "threeMonthChangePercent": 5.2,
+    "marketStatus": "Rising"
+  },
+  "priceHistory": [
+    { "date": "2026-01-11", "medianPriceGBP": 95.00, "dataPointsAnalyzed": 3 },
+    { "date": "2026-02-08", "medianPriceGBP": 100.00, "dataPointsAnalyzed": 5 },
+    { "date": "2026-03-15", "medianPriceGBP": 108.00, "dataPointsAnalyzed": 7 },
+    { "date": "2026-04-19", "medianPriceGBP": 115.00, "dataPointsAnalyzed": 9 },
+    { "date": "2026-05-17", "medianPriceGBP": 118.00, "dataPointsAnalyzed": 11 },
+    { "date": "2026-06-10", "medianPriceGBP": 120.00, "dataPointsAnalyzed": 8 }
+  ],
+  "recommendedPlants": [
+    { "name": "Monstera burle marx flame", "slug": "burle-marx-flame", "rarity": "Rare", "price": "£££" },
+    { "name": "Philodendron spiritus-sancti", "slug": "spiritus-sancti", "rarity": "Extremely Rare", "price": "££££" },
+    { "name": "Philodendron billietiae 'Variegated'", "slug": "billietiae-variegated", "rarity": "Rare", "price": "£££" }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "name": "Philodendron billietiae 'Variegated'",
+  "slug": "billietiae-variegated",
+  "scientificName": "Philodendron billietiae 'Variegated'",
+  "commonName": "Variegated Billietiae",
+  "statusTag": "Rare Cultivar",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "billietiae",
+  "origin": "French Guiana, Brazil",
+  "collectorPopularity": 4.5,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Philodendron billietiae 'Variegated' is a stunning variegated form of the beloved billietiae species. Known for its long-stalked, elongated heart-shaped leaves, this cultivar displays striking yellow to cream variegation patterns that contrast beautifully with its rich green base. The bright orange petioles add an additional layer of visual interest, making it a highly sought-after specimen among aroid collectors. Native to the tropical regions of French Guiana and Brazil, this climbing philodendron rewards patient growers with increasingly dramatic foliage as it matures.",
+  "quickFacts": {
+    "growthHabit": "Climbing hemiepiphyte on moss pole",
+    "matureSize": "45 - 75 cm leaf length",
+    "light": "Bright, indirect filter — higher light for variegation",
+    "humidity": "65 - 85%",
+    "temperature": "18 - 28°C",
+    "difficulty": "Intermediate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Elongated cordate (heart-shaped) with acuminate tip",
+    "leafLength": "45 - 75 cm",
+    "leafWidth": "15 - 25 cm",
+    "petioleColor": "Vibrant orange to orange-red",
+    "venation": "Pinnate, distinct green midrib",
+    "texture": "Semi-glossy, firm and waxy",
+    "variegation": "Yellow to cream sectoral and marbled variegation",
+    "growthHabit": "Climbing with thick aerial roots"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": 150.00,
+    "threeMonthChangePercent": -8.5,
+    "marketStatus": "Stable"
+  },
+  "priceHistory": [
+    { "date": "2026-01-11", "medianPriceGBP": 185.00, "dataPointsAnalyzed": 5 },
+    { "date": "2026-02-08", "medianPriceGBP": 175.00, "dataPointsAnalyzed": 7 },
+    { "date": "2026-03-15", "medianPriceGBP": 168.00, "dataPointsAnalyzed": 9 },
+    { "date": "2026-04-19", "medianPriceGBP": 160.00, "dataPointsAnalyzed": 12 },
+    { "date": "2026-05-17", "medianPriceGBP": 155.00, "dataPointsAnalyzed": 10 },
+    { "date": "2026-06-10", "medianPriceGBP": 150.00, "dataPointsAnalyzed": 8 }
+  ],
+  "recommendedPlants": [
+    { "name": "Philodendron spiritus-sancti", "slug": "spiritus-sancti", "rarity": "Extremely Rare", "price": "££££" },
+    { "name": "Philodendron joepii", "slug": "joepii", "rarity": "Rare", "price": "££" },
+    { "name": "Monstera burle marx flame", "slug": "burle-marx-flame", "rarity": "Rare", "price": "£££" }
+  ]
+}

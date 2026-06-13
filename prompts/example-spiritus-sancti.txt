@@ -1,0 +1,136 @@
+AROIDATLAS BOTANICAL PLATE — Philodendron spiritus-sancti
+
+Create a museum-quality botanical plate of Philodendron spiritus-sancti suitable for a premium digital encyclopedia of rare tropical plants.
+
+STYLE REQUIREMENTS
+
+- Scientific botanical illustration
+- Natural history museum quality
+- Photorealistic rendering
+- Botanical accuracy prioritized over aesthetics
+- Cream archival paper background
+- Elegant editorial design
+- Premium field-guide aesthetic
+- Soft studio lighting
+- No fantasy elements
+- No artistic liberties
+
+LAYOUT REQUIREMENTS
+
+Central specimen of Philodendron spiritus-sancti occupies approximately 60 percent of the composition.
+
+Left information panel:
+
+- scientific name: Philodendron spiritus-sancti
+- family: Araceae
+- genus: Philodendron
+- species: spiritus-sancti
+- origin: Espírito Santo, Brazil (critically endangered in its native range; restricted to a very small area of remaining Atlantic Forest)
+
+Right information panel:
+
+Circular morphology callouts showing:
+
+- leaf detail
+- petiole detail
+- aerial roots
+- inflorescence
+
+Lower panel:
+
+- habitat: Tropical moist lowland and montane forest; grows as a hemiepiphyte climbing on tree trunks in shaded understory with high humidity; well-drained organic-rich substrates; elevations from 200–800 m
+- native range map
+- morphology summary
+
+The page should resemble a luxury botanical atlas plate.
+
+WATERMARK
+
+- Include the Aroid Atlas logo watermark discreetly in the lower-right corner of the plate
+- The watermark should be semi-transparent, small, and not obscure any botanical details
+- Logo consists of the text "AROIDATLAS" in a clean, modern sans-serif typeface
+
+--------------------------------
+
+SPECIES MORPHOLOGY
+
+--------------------------------
+
+BOTANICAL ACCURACY REQUIREMENTS
+
+Critical identifying traits for Philodendron spiritus-sancti:
+
+- Extremely long, narrow strap-like leaves with an acuminate tip — the most defining trait
+- Leathery, coriaceous leaf texture — not thin or papery
+- Leaf length-to-width ratio of approximately 10:1
+- Long, terete petioles that are proportionally long relative to the blade
+- Hemiepiphytic climbing growth habit (not self-heading)
+- Glabrous leaves with subtle adaxial gloss (no pubescence)
+- Lanceolate leaf shape — not cordate, not sagittate, not hastate
+
+Morphology:
+
+Leaf Shape:
+Narrowly elliptic to lanceolate, long and strap-like with an acuminate apex; distinctly coriaceous (leathery) leaf blade
+
+Leaf Ratio:
+Extremely elongated, approximately 8:1 to 12:1 length-to-width ratio (leaves 60–90 cm long × 5–10 cm wide)
+
+Texture:
+Leathery (coriaceous), thick and stiff in texture, glabrous on both surfaces with a subtle glossy sheen adaxially
+
+Petiole:
+Long cylindrical petioles, terete in cross-section, proportionally long relative to the leaf blade (40–60 cm), pale green with faint longitudinal striations
+
+Growth Habit:
+Hemiepiphytic scandent (climbing) habit; stems elongate, rooting along internodes; can climb several meters on tree trunks
+
+Mature Size:
+Overall plant height 2–4 m in natural habitat; leaves 60–90 cm long, petioles 40–60 cm; stems 2–3 cm in diameter
+
+Origin:
+Espírito Santo, Brazil (critically endangered in its native range; restricted to a very small area of remaining Atlantic Forest)
+
+Habitat:
+Tropical moist lowland and montane forest; grows as a hemiepiphyte climbing on tree trunks in shaded understory with high humidity; well-drained organic-rich substrates; elevations from 200–800 m
+
+The specimen of Philodendron spiritus-sancti should immediately be recognizable to an experienced collector.
+
+Failure to accurately reproduce species-defining morphology should be considered incorrect.
+
+--------------------------------
+
+NEGATIVE CONSTRAINTS
+
+--------------------------------
+
+Do not generate:
+
+- Heart-shaped or cordate leaves
+- Thin or membranaceous leaf texture
+- Short, squat leaves with low aspect ratio
+- Winged or flattened petioles
+- Rosette or self-heading growth habit
+- Pubescent or hairy leaves
+- Red or coloured abaxial leaf surfaces
+- Variegation of any kind
+- Sagittate or hastate leaf shapes
+- Terrestrial or rhizomatous growth forms
+
+--------------------------------
+
+FINAL REQUIREMENT
+
+--------------------------------
+
+Botanical accuracy is the highest priority.
+
+The illustration style may be stylized.
+
+The morphology must remain faithful to real specimens.
+
+
+
+REFERENCE IMAGE (if provided)
+
+If a reference image of the actual plant is attached, use it as a strict visual guide for morphology, proportions, and colouration. The generated plate must match the reference specimen closely.

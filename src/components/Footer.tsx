@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 
 const footerLinks = {
   explore: {
@@ -48,9 +49,13 @@ export default function Footer() {
           {/* Brand + Newsletter */}
           <div className="col-span-2 md:col-span-1">
             <Link href="/" className="inline-block">
-              <span className="text-lg font-heading font-bold text-primary tracking-tight">
-                Ariod Atlas
-              </span>
+              <Image
+                src="/images/logo.png"
+                alt="Ariod Atlas"
+                width={140}
+                height={38}
+                className="h-9 w-auto"
+              />
             </Link>
             <p className="mt-3 text-xs text-muted leading-relaxed max-w-xs">
               The definitive visual encyclopedia of rare tropical plants.

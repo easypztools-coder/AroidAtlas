@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Navbar() {
@@ -12,9 +13,14 @@ export default function Navbar() {
       <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-6">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 shrink-0">
-          <span className="text-xl font-heading font-bold text-primary tracking-tight">
-            Ariod Atlas
-          </span>
+          <Image
+            src="/images/logo.png"
+            alt="Ariod Atlas"
+            width={120}
+            height={32}
+            className="h-8 w-auto"
+            priority
+          />
         </Link>
 
         {/* Search Bar (Desktop) */}

@@ -1,0 +1,131 @@
+AROIDATLAS BOTANICAL PLATE — Monstera "Devil Monster"
+
+Create a museum-quality botanical plate of the Monstera "Devil Monster" cultivar suitable for a premium digital encyclopedia of rare tropical plants.
+
+STYLE REQUIREMENTS
+
+- Scientific botanical illustration
+- Natural history museum quality
+- Photorealistic rendering
+- Botanical accuracy prioritized over aesthetics
+- Cream archival paper background
+- Elegant editorial design
+- Premium field-guide aesthetic
+- Soft studio lighting
+- No fantasy elements
+- No artistic liberties
+
+LAYOUT REQUIREMENTS
+
+Central specimen of Monstera "Devil Monster" occupies approximately 60 percent of the composition.
+
+Left information panel:
+
+- scientific name: Monstera "Devil Monster"
+- family: Araceae
+- genus: Monstera
+- cultivar: Devil Monster
+- origin: China (natural mutation) / Thailand (rebranded 2024)
+
+Right information panel:
+
+Circular morphology callouts showing:
+
+- leaf detail
+- petiole detail
+- aerial roots
+- inflorescence
+
+Lower panel:
+
+- habitat information
+- native range map
+- morphology summary
+
+The page should resemble a luxury botanical atlas plate.
+
+WATERMARK
+
+- Include the Aroid Atlas logo watermark discreetly in the lower-right corner of the plate
+- The watermark should be semi-transparent, small, and not obscure any botanical details
+- Logo consists of the text "AROIDATLAS" in a clean, modern sans-serif typeface
+
+--------------------------------
+
+SPECIES MORPHOLOGY
+
+--------------------------------
+
+BOTANICAL ACCURACY REQUIREMENTS
+
+Critical identifying traits for Monstera "Devil Monster":
+
+- Mint-coloured variegation inherited from the Kunzo White Monster lineage
+- Rigid, deeply lobed leaf shape inherited from Burle Marx's Flame
+- Structural, architectural leaf appearance inherited from Jungle Min
+- Natural mutation originally discovered in China, referred to as "Circuit Board Monstera"
+- Stabilized variegation pattern through years of selective propagation
+- Highly sought-after cultivated variety that gained popularity in 2024
+
+Morphology:
+
+Leaf Shape:
+Rigid, deeply lobed with narrow flame-shaped segments; structural and architectural appearance combining traits from Burle Marx's Flame and Jungle Min
+
+Leaf Ratio:
+Moderately elongated with deep sinuses between lobes; typical Monstera proportions with more rigid structure
+
+Texture:
+Firm and rigid; thick leaf substance supporting the deeply lobed structure
+
+Petiole:
+Standard Monstera-type petiole; proportionally matched to leaf size
+
+Growth Habit:
+Climbing hemiepiphyte typical of the Monstera genus; benefits from support structure
+
+Mature Size:
+Comparable to standard Monstera deliciosa but with more compact, rigid growth habit
+
+Origin:
+China (originally discovered as a natural mutation, initially called "Circuit Board Monstera"); propagated and stabilized by a private collector over several years; rebranded in Thailand as "Devil Monster" in 2024
+
+Habitat:
+Cultivated tropical houseplant; thrives in bright indirect light with high humidity; well-draining aroid mix
+
+The specimen of Monstera "Devil Monster" should immediately be recognizable to an experienced collector.
+
+Failure to accurately reproduce species-defining morphology should be considered incorrect.
+
+--------------------------------
+
+NEGATIVE CONSTRAINTS
+
+--------------------------------
+
+Do not generate:
+
+- Solid green leaves without variegation
+- Yellow or cream variegation (must be mint-coloured)
+- Thin, floppy leaf texture
+- Shallow or minimal leaf lobing
+- Unlobed juvenile leaves as the primary specimen
+- Unstable or sectoral variegation patterns
+- Fantasy or stylized interpretations
+- Non-Monstera growth habits
+
+--------------------------------
+
+FINAL REQUIREMENT
+
+--------------------------------
+
+Botanical accuracy is the highest priority.
+
+The illustration style may be stylized.
+
+The morphology must remain faithful to real specimens.
+
+REFERENCE IMAGE (if provided)
+
+If a reference image of the actual plant is attached, use it as a strict visual guide for morphology, proportions, and colouration. The generated plate must match the reference specimen closely.
