@@ -1,0 +1,84 @@
+{
+  "snapshot": {
+    "plantSlug": "venom",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia Venom",
+    "checkedAt": "2026-06-14T20:19:24.049Z",
+    "currency": "GBP",
+    "rawResultCount": 28,
+    "acceptedCount": 6,
+    "rejectedCount": 22,
+    "outlierCount": 1,
+    "confidenceScore": "D",
+    "minPrice": 30.225400000000004,
+    "p25Price": 31.736275,
+    "medianPrice": 36.34,
+    "meanPrice": 42.882516666666675,
+    "trimmedMeanPrice": 42.882516666666675,
+    "p75Price": 44.76535,
+    "maxPrice": 76.61420000000001,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 6,
+    "min": 30.225400000000004,
+    "max": 76.61420000000001,
+    "median": 36.34,
+    "mean": 42.882516666666675,
+    "p25": 31.736275,
+    "p75": 44.76535,
+    "iqr": 13.029074999999999,
+    "trimmedMean": 42.882516666666675,
+    "confidenceScore": "D",
+    "rejectedCount": 22,
+    "rejectionReasons": {},
+    "outlierCount": 1
+  },
+  "acceptedListings": [
+    {
+      "soldPrice": 23.700000000000003,
+      "totalPrice": 30.225400000000004,
+      "soldDate": "2026-05-21",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "soldPrice": 25.28,
+      "totalPrice": 30.9917,
+      "soldDate": "2026-06-01",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "soldPrice": 54.510000000000005,
+      "totalPrice": 67.94,
+      "soldDate": "2026-05-17",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "soldPrice": 71.10000000000001,
+      "totalPrice": 76.61420000000001,
+      "soldDate": "2026-04-21",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "soldPrice": 26.86,
+      "totalPrice": 38.71,
+      "soldDate": "2026-03-22",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "soldPrice": 39.5,
+      "totalPrice": 46.7838,
+      "soldDate": "2026-04-03",
+      "listingType": "unknown",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 6,
+  "rejectedCount": 22
+}
