@@ -8,7 +8,7 @@ on:
     # Allow manual trigger from GitHub UI
     inputs:
       plants:
-        description: "Comma-separated list of plant slugs to update (e.g., spiritus-sancti,venom)"
+        description: "Comma-separated plant slugs to update (leave blank to run all enabled plants)"
         required: false
         default: ""
 
@@ -22,16 +22,27 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: Resolve plant slugs
+        id: slugs
+        run: |
+          INPUT="${{ github.event.inputs.plants }}"
+          if [ -n "$INPUT" ]; then
+            echo "slugs=$INPUT" >> $GITHUB_OUTPUT
+          else
+            # Auto-discover all plant JSONs with priceTracking.enabled = true
+            DISCOVERED=$(find content/plants -name "*.json" | \
+              xargs grep -l '"enabled": true' | \
+              xargs -I{} jq -r 'select(.priceTracking.enabled == true) | .slug' {} | \
+              paste -sd ',' -)
+            echo "slugs=$DISCOVERED" >> $GITHUB_OUTPUT
+            echo "Auto-discovered slugs: $DISCOVERED"
+          fi
+
       - name: Call admin price update endpoint
         env:
           ADMIN_PRICE_SECRET: ${{ secrets.ADMIN_PRICE_SECRET }}
         run: |
-          PLANTS="${{ github.event.inputs.plants }}"
-          if [ -z "$PLANTS" ]; then
-            PLANTS="spiritus-sancti"
-          fi
-
-          # Use Vercel deployment URL
+          PLANTS="${{ steps.slugs.outputs.slugs }}"
           SITE_URL="${VERCEL_URL:-https://ariod-atlas.vercel.app}"
 
           mkdir -p content/price-snapshots
@@ -43,29 +54,22 @@ jobs:
 
             RESPONSE=$(curl -s "$SITE_URL/api/admin/prices/update?slug=$slug&secret=$ADMIN_PRICE_SECRET")
 
-            # Parse the snapshot and listings from the response
-            SNAPSHOT=$(echo "$RESPONSE" | jq -r '.snapshot')
-            STATS=$(echo "$RESPONSE" | jq -r '.stats')
-
             if [ "$(echo "$RESPONSE" | jq -r '.success')" = "true" ]; then
               echo "  ✓ Success: $(echo "$RESPONSE" | jq -r '.acceptedCount') accepted, $(echo "$RESPONSE" | jq -r '.rejectedCount') rejected"
 
-              # Save the full data including listings for trend analysis
               mkdir -p "content/price-snapshots/$slug"
 
-              TIMESTAMP=$(echo "$SNAPSHOT" | jq -r '.checkedAt' | tr ':.' '--')
+              TIMESTAMP=$(echo "$RESPONSE" | jq -r '.snapshot.checkedAt' | tr ':.' '--')
 
-              # Save full response including acceptedListings (individual sale dates)
               echo "$RESPONSE" | jq '{snapshot: .snapshot, stats: .stats, acceptedListings: .acceptedListings, acceptedCount: .acceptedCount, rejectedCount: .rejectedCount}' \
                 > "content/price-snapshots/$slug/$TIMESTAMP.json"
 
-              # Save latest
               cp "content/price-snapshots/$slug/$TIMESTAMP.json" "content/price-snapshots/$slug/latest.json"
 
               echo "  ✓ Saved snapshot to content/price-snapshots/$slug/"
             else
               ERROR=$(echo "$RESPONSE" | jq -r '.error // "Unknown error"')
-              echo "  ✗ Failed: $ERROR"
+              echo "  ✗ Failed for $slug: $ERROR"
             fi
           done
 
