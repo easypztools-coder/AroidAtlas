@@ -112,8 +112,24 @@ export async function fetchSoldCompsRaw(
     `[soldcomps] Fetched ${json.items.length} items for "${query}"`
   );
 
-  // ─── Return raw items ───────────────────────────────────────────────────
-  return json.items;
+  // ─── Filter to UK eBay only (GBP currency) ─────────────────────────────
+  const ukItems = json.items.filter(
+    (item) => (item.soldCurrency ?? "GBP").toUpperCase() === "GBP"
+  );
+
+  console.log(
+    `[soldcomps] ${ukItems.length} UK GBP items out of ${json.items.length} total`
+  );
+
+  if (ukItems.length === 0) {
+    console.warn(
+      "[soldcomps] No UK items found. Checking a few sample currencies:",
+      json.items.slice(0, 5).map((i) => i.soldCurrency)
+    );
+  }
+
+  // ─── Return UK items ────────────────────────────────────────────────────
+  return ukItems;
 }
 
 /**
