@@ -69,7 +69,7 @@ function loadPlantData(slug: string): PlantData | null {
       process.cwd(),
       "content",
       "plants",
-      "anthurium",
+      "alocasia",
       `${slug}.json`
     );
     const raw = fs.readFileSync(filePath, "utf-8");
@@ -80,7 +80,7 @@ function loadPlantData(slug: string): PlantData | null {
 }
 
 function getAllPlantSlugs(): string[] {
-  const dirPath = path.join(process.cwd(), "content", "plants", "anthurium");
+  const dirPath = path.join(process.cwd(), "content", "plants", "alocasia");
   if (!fs.existsSync(dirPath)) return [];
   return fs
     .readdirSync(dirPath)
@@ -97,7 +97,7 @@ interface PageProps {
   params: { slug: string };
 }
 
-export default function AnthuriumPlantPage({ params }: PageProps) {
+export default function AlocasiaPlantPage({ params }: PageProps) {
   const data = loadPlantData(params.slug);
 
   if (!data) {
@@ -117,5 +117,5 @@ export default function AnthuriumPlantPage({ params }: PageProps) {
     );
   }
 
-  return <PlantDetailPage data={data} genus="anthurium" />;
+  return <PlantDetailPage data={data} genus="alocasia" />;
 }

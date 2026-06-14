@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "generate-plant-prompt": "npx tsx scripts/generate-plant-prompt.ts"
+    "generate-plant-prompt": "npx tsx scripts/generate-plant-prompt.ts",
+    "fetch-prices": "node scripts/fetch-live-prices.js",
+    "fetch-prices:plant": "node scripts/fetch-live-prices.js --plants"
   },
   "dependencies": {
     "clsx": "^2.1.1",

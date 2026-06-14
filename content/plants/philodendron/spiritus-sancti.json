@@ -45,6 +45,32 @@
     { "date": "2026-05-17", "medianPriceGBP": 195.00, "dataPointsAnalyzed": 14 },
     { "date": "2026-06-10", "medianPriceGBP": 180.00, "dataPointsAnalyzed": 9 }
   ],
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron spiritus sancti",
+    "requiredTerms": ["philodendron"],
+    "acceptedTerms": ["spiritus sancti", "spiritus-sancti", "spiritus sanctus", "pss"],
+    "excludeTerms": [
+      "micans",
+      "splendid",
+      "sodiroi",
+      "ligulatum",
+      "ruizii",
+      "tortum",
+      "recurvifolium",
+      "heraclionum",
+      "poster",
+      "print",
+      "book",
+      "seeds",
+      "artificial",
+      "fake",
+      "care guide"
+    ],
+    "marketCurrency": "GBP"
+  },
   "recommendedPlants": [
     { "name": "Philodendron joepii", "slug": "joepii", "rarity": "Rare", "price": "££" },
     { "name": "Anthurium warocqueanum", "slug": "warocqueanum", "rarity": "Very Rare", "price": "£££" },
