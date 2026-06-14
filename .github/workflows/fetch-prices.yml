@@ -50,14 +50,13 @@ jobs:
             if [ "$(echo "$RESPONSE" | jq -r '.success')" = "true" ]; then
               echo "  ✓ Success: $(echo "$RESPONSE" | jq -r '.acceptedCount') accepted, $(echo "$RESPONSE" | jq -r '.rejectedCount') rejected"
 
-              # Save the full data including listings map from stats
+              # Save the full data including listings for trend analysis
               mkdir -p "content/price-snapshots/$slug"
 
-              # Build the full data object with snapshot and listings
               TIMESTAMP=$(echo "$SNAPSHOT" | jq -r '.checkedAt' | tr ':.' '--')
 
-              # Save timestamped version
-              echo "$RESPONSE" | jq '{snapshot: .snapshot, stats: .stats, acceptedCount: .acceptedCount, rejectedCount: .rejectedCount}' \
+              # Save full response including acceptedListings (individual sale dates)
+              echo "$RESPONSE" | jq '{snapshot: .snapshot, stats: .stats, acceptedListings: .acceptedListings, acceptedCount: .acceptedCount, rejectedCount: .rejectedCount}' \
                 > "content/price-snapshots/$slug/$TIMESTAMP.json"
 
               # Save latest

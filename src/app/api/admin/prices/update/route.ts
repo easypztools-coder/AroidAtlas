@@ -8,24 +8,6 @@ import { filterPlantListings } from "@/lib/prices/filterPlantListings";
 import { classifyListing } from "@/lib/prices/classifyPlantListing";
 import { calculateStats } from "@/lib/prices/calculatePriceStats";
 
-/**
- * ─── ADMIN PRICE UPDATE ──────────────────────────────────────────────────
- *
- * Manual endpoint: /api/admin/prices/update?slug=spiritus-sancti&secret=...
- *
- * Process:
- * 1. Validate secret against ADMIN_PRICE_SECRET
- * 2. Load the plant JSON by slug
- * 3. Confirm priceTracking.enabled = true
- * 4. Call SoldComps
- * 5. Normalise → Filter → Classify → Calculate stats
- * 6. Return results for the GitHub Actions workflow to save
- *
- * Safe for manual weekly use. Never called on page load.
- *
- * ──────────────────────────────────────────────────────────────────────────
- */
-
 const ADMIN_SECRET = process.env.ADMIN_PRICE_SECRET;
 
 export async function GET(request: NextRequest) {
@@ -74,22 +56,12 @@ export async function GET(request: NextRequest) {
 
   // ─── Run pipeline ────────────────────────────────────────────────────────
   try {
-    // 1. Fetch raw data
     const rawItems = await fetchSoldCompsRaw({ query: config.query });
-
-    // 2. Normalise
     const normalised = rawItems.map(normaliseListing);
-
-    // 3. Filter
     const { accepted, rejected } = filterPlantListings(normalised, config);
-
-    // 4. Classify
     const classified = accepted.map(classifyListing);
-
-    // 5. Calculate stats
     const stats = calculateStats(classified, rejected.length);
 
-    // 6. Build snapshot
     const snapshot = {
       plantSlug: slug,
       source: config.source,
@@ -112,6 +84,15 @@ export async function GET(request: NextRequest) {
       notes: "",
     };
 
+    // ─── Build per-listing data for trend aggregation ──────────────────
+    const acceptedListings = classified.map((l) => ({
+      soldPrice: l.soldPrice,
+      totalPrice: l.totalPrice,
+      soldDate: l.soldDate,
+      listingType: l.listingType,
+      currency: l.currency,
+    }));
+
     // Build per-rejection breakdown for debugging
     const rejectionBreakdown: Record<string, string[]> = {};
     for (const r of rejected) {
@@ -126,6 +107,7 @@ export async function GET(request: NextRequest) {
       success: true,
       snapshot,
       stats,
+      acceptedListings, // ← individual listings with dates
       acceptedCount: classified.length,
       rejectedCount: rejected.length,
       rejectionBreakdown,

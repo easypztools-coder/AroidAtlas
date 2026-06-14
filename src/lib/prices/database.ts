@@ -13,7 +13,9 @@ import { PriceSnapshot, PriceListing } from "./types";
  *
  * Structure:
  *   content/price-snapshots/{slug}/latest.json
- *   content/price-snapshots/{slug}/{timestamp}.json (optional, by workflow)
+ *
+ * The latest.json stores:
+ *   { snapshot: PriceSnapshot, stats: ..., acceptedListings: [...], ... }
  *
  * ──────────────────────────────────────────────────────────────────────────
  */
@@ -22,6 +24,24 @@ const BASE_DIR = path.join(process.cwd(), "content", "price-snapshots");
 const GITHUB_RAW =
   "https://raw.githubusercontent.com/easypztools-coder/AriodAtlas/main/content/price-snapshots";
 
+/** Individual listing data saved alongside the snapshot for bucketing by month */
+interface SavedListing {
+  soldPrice: number;
+  totalPrice: number;
+  soldDate: string | null;
+  listingType: string;
+  currency: string;
+}
+
+/** Shape of the saved latest.json */
+interface SavedData {
+  snapshot: PriceSnapshot;
+  stats?: Record<string, unknown>;
+  acceptedListings?: SavedListing[];
+  acceptedCount?: number;
+  rejectedCount?: number;
+}
+
 /**
  * Load the latest snapshot for a given plant slug.
  * Returns null if no snapshot exists.
@@ -29,35 +49,60 @@ const GITHUB_RAW =
 export async function loadLatestSnapshot(
   slug: string
 ): Promise<{ snapshot: PriceSnapshot; listings: PriceListing[] } | null> {
+  let data: SavedData | null = null;
+
   // ─── Try local filesystem first ──────────────────────────────────────────
   try {
     const latestPath = path.join(BASE_DIR, slug, "latest.json");
     if (fs.existsSync(latestPath)) {
       const raw = fs.readFileSync(latestPath, "utf-8");
-      return JSON.parse(raw);
+      data = JSON.parse(raw);
     }
   } catch {
     // Fall through to GitHub fallback
   }
 
   // ─── Fallback to GitHub raw URL ──────────────────────────────────────────
-  try {
-    const url = `${GITHUB_RAW}/${slug}/latest.json`;
-    const response = await fetch(url);
-
-    if (!response.ok) {
-      console.warn(`[database] GitHub raw fetch failed: ${response.status} for ${url}`);
-      return null;
+  if (!data) {
+    try {
+      const url = `${GITHUB_RAW}/${slug}/latest.json`;
+      const response = await fetch(url);
+      if (response.ok) {
+        data = await response.json();
+      }
+    } catch (err) {
+      console.warn(
+        `[database] GitHub raw fetch error for ${slug}: ${err instanceof Error ? err.message : String(err)}`
+      );
     }
-
-    const data = await response.json();
-    return data;
-  } catch (err) {
-    console.warn(
-      `[database] GitHub raw fetch error for ${slug}: ${err instanceof Error ? err.message : String(err)}`
-    );
-    return null;
   }
+
+  if (!data || !data.snapshot) return null;
+
+  // Map listings to the expected PriceListing shape
+  const listings: PriceListing[] = (data.acceptedListings ?? []).map(
+    (l) => ({
+      plantSlug: slug,
+      title: "",
+      normalizedTitle: "",
+      listingType: l.listingType as import("./types").ListingType,
+      lotSize: 1,
+      soldPrice: l.soldPrice,
+      shippingPrice: 0,
+      totalPrice: l.totalPrice,
+      unitPrice: l.totalPrice,
+      currency: l.currency,
+      soldDate: l.soldDate,
+      seller: "",
+      condition: "",
+      url: "",
+      accepted: true,
+      rejectionReason: null,
+      isOutlier: false,
+    })
+  );
+
+  return { snapshot: data.snapshot, listings };
 }
 
 /**

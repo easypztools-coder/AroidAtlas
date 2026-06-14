@@ -8,7 +8,8 @@ import {
   Tooltip,
   ResponsiveContainer,
   Area,
-  AreaChart,
+  ComposedChart,
+  Legend,
 } from "recharts";
 import type { PriceHistoryPoint } from "@/lib/prices/types";
 
@@ -16,15 +17,19 @@ interface PriceHistoryChartProps {
   data: PriceHistoryPoint[];
 }
 
+const MEDIAN_COLOR = "#C3D9A1";
+const BAND_COLOR = "#A3C17A";
+const TEXT_MUTED = "#8B9A92";
+const BG_CARD = "#1A1F1D";
+
 /**
  * PriceHistoryChart — Dark luxury AroidAtlas aesthetic.
  *
  * Shows:
- * - Median price as the main line
- * - Optional p25-p75 range as a shaded band
+ * - Median price as a solid green line
+ * - p25-p75 range as a translucent green band
+ * - Legend explaining the visual elements
  * - Sample size / confidence displayed beneath
- * - Label: "eBay UK sold prices"
- * - Note: "Based on filtered completed listings. Excludes unrelated species, multipacks and statistical outliers."
  */
 export default function PriceHistoryChart({
   data,
@@ -47,7 +52,7 @@ export default function PriceHistoryChart({
       {/* ─── Chart ──────────────────────────────────────────────────────── */}
       <div className="h-48">
         <ResponsiveContainer width="100%" height="100%">
-          <AreaChart data={data}>
+          <ComposedChart data={data}>
             <CartesianGrid
               strokeDasharray="3 3"
               stroke="#2A2F2D"
@@ -59,61 +64,143 @@ export default function PriceHistoryChart({
                 const date = new Date(d);
                 return date.toLocaleDateString("en-GB", {
                   month: "short",
-                  day: "numeric",
+                  year: "2-digit",
                 });
               }}
-              stroke="#8B9A92"
+              stroke={TEXT_MUTED}
               fontSize={10}
               tickLine={false}
             />
             <YAxis
-              stroke="#8B9A92"
+              stroke={TEXT_MUTED}
               fontSize={10}
               tickLine={false}
               tickFormatter={(v) => `£${v.toFixed(0)}`}
+              domain={[0, "auto"]}
             />
             <Tooltip
               contentStyle={{
-                backgroundColor: "#1A1F1D",
+                backgroundColor: BG_CARD,
                 border: "1px solid #2A2F2D",
                 borderRadius: "8px",
                 fontSize: "12px",
                 color: "#FFFFFF",
               }}
-              formatter={(value: unknown) => {
-                const num = typeof value === "number" ? value : parseFloat(String(value ?? "0"));
-                return [`£${(num || 0).toFixed(2)}`, "Median Price"];
+              labelFormatter={(d) => {
+                const date = new Date(d);
+                return date.toLocaleDateString("en-GB", {
+                  month: "long",
+                  year: "numeric",
+                });
+              }}
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
+              formatter={(value: unknown, name: any) => {
+                const num =
+                  typeof value === "number"
+                    ? value
+                    : parseFloat(String(value ?? "0"));
+                const labelMap: Record<string, string> = {
+                  median: "Median",
+                  p25: "25th Percentile",
+                  p75: "75th Percentile",
+                };
+                const key = name ?? "";
+                return [
+                  `£${(num || 0).toFixed(2)}`,
+                  labelMap[key] ?? key,
+                ];
               }}
             />
 
-            {/* p25-p75 range band */}
+            <Legend
+              verticalAlign="bottom"
+              height={24}
+              iconType="rect"
+              iconSize={10}
+              wrapperStyle={{ fontSize: "11px", color: TEXT_MUTED }}
+              formatter={(value: string) => {
+                const legendLabels: Record<string, string> = {
+                  median: "Median Price",
+                  p75Band: "25th–75th Percentile",
+                };
+                return legendLabels[value] ?? value;
+              }}
+            />
+
+            {/* p25–p75 range band (renders behind median line) */}
+            <defs>
+              <linearGradient id="p25p75Grad" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stopColor={BAND_COLOR} stopOpacity={0.2} />
+                <stop offset="100%" stopColor={BAND_COLOR} stopOpacity={0.05} />
+              </linearGradient>
+            </defs>
+
+            {/* Upper bound of band (p75) filled with gradient */}
             <Area
               type="monotone"
               dataKey="p75"
-              stroke="#C3D9A1"
-              strokeWidth={0}
-              fill="#C3D9A1"
-              fillOpacity={0.08}
+              stroke="none"
+              fill="url(#p25p75Grad)"
+              fillOpacity={1}
             />
+            {/* Lower bound of band (p25) — same fill, hides lower portion */}
             <Area
               type="monotone"
               dataKey="p25"
-              stroke="#C3D9A1"
+              stroke="none"
+              fill={BG_CARD}
+              fillOpacity={1}
+            />
+            {/* Band outline — faint dashed lines for p25 and p75 */}
+            <Line
+              type="monotone"
+              dataKey="p75"
+              stroke={BAND_COLOR}
+              strokeWidth={1}
+              strokeDasharray="3 3"
+              dot={false}
+              activeDot={false}
+              legendType="none"
+            />
+            <Line
+              type="monotone"
+              dataKey="p25"
+              stroke={BAND_COLOR}
+              strokeWidth={1}
+              strokeDasharray="3 3"
+              dot={false}
+              activeDot={false}
+              legendType="none"
+            />
+
+            {/* Render a fake data series for the legend key "p75Band" */}
+            <Line
+              dataKey="p75Band"
+              stroke={BAND_COLOR}
               strokeWidth={0}
-              fill="#1A1F1D"
-              fillOpacity={0}
+              strokeDasharray="3 3"
+              dot={false}
+              activeDot={false}
+              legendType="line"
+              isAnimationActive={false}
+              data={data.map((d) => ({
+                ...d,
+                p75Band: null as number | null,
+              }))}
             />
 
             {/* Median line */}
             <Line
               type="monotone"
               dataKey="median"
-              stroke="#C3D9A1"
+              stroke={MEDIAN_COLOR}
               strokeWidth={2}
-              dot={{ fill: "#C3D9A1", strokeWidth: 0, r: 3 }}
-              activeDot={{ fill: "#C3D9A1", strokeWidth: 0, r: 5 }}
+              dot={{ fill: MEDIAN_COLOR, strokeWidth: 0, r: 4 }}
+              activeDot={{ fill: MEDIAN_COLOR, strokeWidth: 0, r: 6 }}
+              name="median"
+              legendType="line"
             />
-          </AreaChart>
+          </ComposedChart>
         </ResponsiveContainer>
       </div>
 
