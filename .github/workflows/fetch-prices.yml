@@ -61,7 +61,7 @@ jobs:
 
               TIMESTAMP=$(echo "$RESPONSE" | jq -r '.snapshot.checkedAt' | tr ':.' '--')
 
-              echo "$RESPONSE" | jq '{snapshot: .snapshot, stats: .stats, acceptedListings: .acceptedListings, acceptedCount: .acceptedCount, rejectedCount: .rejectedCount}' \
+              echo "$RESPONSE" | jq '{snapshot: .snapshot, stats: .stats, acceptedListings: .acceptedListings, acceptedCount: .acceptedCount, rejectedCount: .rejectedCount, rejectionBreakdown: .rejectionBreakdown}' \
                 > "content/price-snapshots/$slug/$TIMESTAMP.json"
 
               cp "content/price-snapshots/$slug/$TIMESTAMP.json" "content/price-snapshots/$slug/latest.json"

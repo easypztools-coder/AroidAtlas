@@ -55,7 +55,7 @@ export async function GET(request: NextRequest) {
 
   // ─── Run pipeline ────────────────────────────────────────────────────────
   try {
-    const rawItems = await fetchSoldCompsRaw({ query: config.query });
+    const rawItems = await fetchSoldCompsRaw({ query: config.query, marketplace: config.marketplace });
     const normalised = rawItems.map(normaliseListing);
     const { accepted, rejected } = filterPlantListings(normalised, config);
     const classified = accepted.map(classifyListing);

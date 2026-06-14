@@ -32,7 +32,7 @@ if (!SOLDCOMPS_API_KEY) {
  * @returns Array of raw SoldComps items
  */
 export async function fetchSoldCompsRaw(
-  params: { query: string; maxResults?: number }
+  params: { query: string; maxResults?: number; marketplace?: string }
 ): Promise<SoldCompsRawItem[]> {
   if (!SOLDCOMPS_API_KEY) {
     throw new Error(
@@ -40,13 +40,16 @@ export async function fetchSoldCompsRaw(
     );
   }
 
-  const { query, maxResults = 240 } = params;
+  const { query, maxResults = 240, marketplace } = params;
 
   // ─── Build URL ──────────────────────────────────────────────────────────
   const url = new URL("https://api.sold-comps.com/v1/scrape");
   url.searchParams.set("keyword", query);
   url.searchParams.set("count", String(maxResults));
   url.searchParams.set("page", "1");
+  if (marketplace) {
+    url.searchParams.set("site", marketplace);
+  }
 
   // ─── Fetch ──────────────────────────────────────────────────────────────
   let response: Response;
