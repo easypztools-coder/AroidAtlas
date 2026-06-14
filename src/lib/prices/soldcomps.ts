@@ -112,24 +112,38 @@ export async function fetchSoldCompsRaw(
     `[soldcomps] Fetched ${json.items.length} items for "${query}"`
   );
 
-  // ─── Filter to UK eBay only (GBP currency) ─────────────────────────────
-  const ukItems = json.items.filter(
-    (item) => (item.soldCurrency ?? "GBP").toUpperCase() === "GBP"
-  );
+  // ─── Accept GBP items, also accept USD items (convert to GBP) ─────────
+  // SoldComps primarily returns US eBay data. We keep USD listings and
+  // convert to GBP (rough rate ~1 USD = 0.79 GBP).
+  const USD_TO_GBP = 0.79;
+
+  const acceptedItems = json.items
+    .map((item) => {
+      const currency = (item.soldCurrency ?? "GBP").toUpperCase();
+      if (currency === "GBP") return item;
+      if (currency === "USD") {
+        // Convert price to GBP by applying exchange rate
+        const priceNum = parseFloat(item.soldPrice?.replace(/[^0-9.\-]/g, "") || "0");
+        const convertedPrice = (priceNum * USD_TO_GBP).toFixed(2);
+        return { ...item, soldCurrency: "GBP", soldPrice: convertedPrice };
+      }
+      return null; // reject other currencies
+    })
+    .filter((item): item is SoldCompsRawItem => item !== null);
 
   console.log(
-    `[soldcomps] ${ukItems.length} UK GBP items out of ${json.items.length} total`
+    `[soldcomps] ${acceptedItems.length} accepted (GBP + USD converted) out of ${json.items.length} total`
   );
 
-  if (ukItems.length === 0) {
+  if (acceptedItems.length === 0) {
     console.warn(
-      "[soldcomps] No UK items found. Checking a few sample currencies:",
+      "[soldcomps] No accepted items found. Sample currencies:",
       json.items.slice(0, 5).map((i) => i.soldCurrency)
     );
   }
 
-  // ─── Return UK items ────────────────────────────────────────────────────
-  return ukItems;
+  // ─── Return accepted items ──────────────────────────────────────────────
+  return acceptedItems;
 }
 
 /**
