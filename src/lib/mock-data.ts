@@ -1,3 +1,6 @@
+import spiritusSanctiData from "../../content/plants/philodendron/spiritus-sancti.json";
+import billietiaeData from "../../content/plants/philodendron/billietiae-variegated.json";
+
 export interface PlantEntry {
   name: string;
   slug: string;
@@ -40,7 +43,7 @@ export const featuredPlants: PlantEntry[] = [
     genus: "Philodendron",
     origin: "Espírito Santo, Brazil",
     rarityStatus: "Extremely Rare",
-    priceGuideTier: "££££",
+    priceGuideTier: spiritusSanctiData.priceGuideTier,
     description:
       "Legendary for its extraordinarily elongated, dangling lanceolate leaves. A prized specimen from a restricted wild habitat in Brazil, now becoming more accessible through micropropagation.",
     imageSlug: "spiritus-sancti",
@@ -79,7 +82,7 @@ export const featuredPlants: PlantEntry[] = [
     genus: "Philodendron",
     origin: "French Guiana, Brazil",
     rarityStatus: "Rare",
-    priceGuideTier: "£££",
+    priceGuideTier: billietiaeData.priceGuideTier,
     description:
       "Stunning variegated form of the beloved billietiae, featuring long-stalked, elongated leaves with striking yellow to cream variegation and orange petioles.",
     imageSlug: "billietiae-variegated",

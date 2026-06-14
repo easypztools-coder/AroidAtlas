@@ -62,11 +62,14 @@ export async function GET(request: NextRequest) {
     const classified = accepted.map(classifyListing);
     const stats = calculateStats(classified, rejected.length);
 
-    // Auto-update priceGuideTier in plant JSON based on trimmed mean
+    // Auto-update priceGuideTier and currentMedianPriceGBP in plant JSON
     if (stats.trimmedMean > 0) {
       const newTier = getPriceRarityTier(stats.trimmedMean).tier;
       const plantJson = JSON.parse(fs.readFileSync(plantPath, "utf-8"));
       plantJson.priceGuideTier = newTier;
+      if (plantJson.marketMetrics) {
+        plantJson.marketMetrics.currentMedianPriceGBP = Math.round(stats.trimmedMean);
+      }
       fs.writeFileSync(plantPath, JSON.stringify(plantJson, null, 2));
     }
 
