@@ -19,6 +19,7 @@ export { filterPlantListings } from "./filterPlantListings";
 export { classifyListing } from "./classifyPlantListing";
 export { calculateStats } from "./calculatePriceStats";
 export { loadLatestSnapshot, listSnapshots } from "./database";
+export { getPriceRarityTier, getStaticTierLabel } from "./priceRarityTier";
 
 // Re-export types for convenience
 export type {

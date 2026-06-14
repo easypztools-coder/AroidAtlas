@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import PriceHistoryChart from "@/components/PriceHistoryChart";
 import type { PriceHistoryPoint } from "@/lib/prices/types";
+import { getPriceRarityTier, getStaticTierLabel } from "@/lib/prices/priceRarityTier";
 
 interface PricePoint {
   date: string;
@@ -157,6 +158,10 @@ export default function PlantDetailPage({
       });
   }, [data.slug]);
 
+  const combinedTier = fairPrice !== null
+    ? getPriceRarityTier(fairPrice)
+    : { tier: data.priceGuideTier, label: getStaticTierLabel(data.priceGuideTier) };
+
   return (
     <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 max-w-7xl mx-auto px-4 py-8 bg-background lg:items-start">
       {/* ===== LEFT COLUMN (Cols 1-7) ===== */}
@@ -228,11 +233,11 @@ export default function PlantDetailPage({
             <PopularityStars rating={data.collectorPopularity} />
             <span className="ml-1">Popularity</span>
           </span>
-          <span className="inline-flex items-center gap-1.5 rounded-full bg-rarity/10 px-3 py-1 text-xs font-medium text-rarity">
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-price/10 px-3 py-1 text-xs font-medium text-price">
             <svg className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
             </svg>
-            {data.rarityStatus}
+            {combinedTier.tier} · {combinedTier.label}
           </span>
           {data.availability && (
             <span className="inline-flex items-center gap-1.5 rounded-full bg-card px-3 py-1 text-xs font-medium text-muted">
@@ -242,12 +247,6 @@ export default function PlantDetailPage({
               {data.availability}
             </span>
           )}
-          <span className="inline-flex items-center gap-1.5 rounded-full bg-price/10 px-3 py-1 text-xs font-medium text-price">
-            <svg className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
-            </svg>
-            {data.priceGuideTier}
-          </span>
           <span className="inline-flex items-center gap-1.5 rounded-full bg-card px-3 py-1 text-xs font-medium text-muted">
             <svg className="h-3.5 w-3.5 text-leaf" viewBox="0 0 24 24" fill="currentColor">
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
@@ -447,11 +446,8 @@ export default function PlantDetailPage({
                     {plant.name}
                   </h3>
                   <div className="mt-2 flex items-center gap-2">
-                    <span className="inline-flex items-center rounded-full bg-leaf/10 px-2 py-0.5 text-[10px] font-medium text-leaf">
-                      {plant.rarity}
-                    </span>
                     <span className="inline-flex items-center rounded-full bg-price/10 px-2 py-0.5 text-[10px] font-medium text-price">
-                      {plant.price}
+                      {plant.price} · {getStaticTierLabel(plant.price)}
                     </span>
                   </div>
                 </div>

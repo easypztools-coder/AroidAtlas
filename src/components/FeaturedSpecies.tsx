@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { featuredPlants } from "@/lib/mock-data";
+import { getStaticTierLabel } from "@/lib/prices/priceRarityTier";
 
 function PlantCard({
   plant,
@@ -63,11 +64,8 @@ function PlantCard({
               {plant.scientificName}
             </h3>
             <div className="mt-2 flex items-center gap-2">
-              <span className="rounded-full bg-primary/15 px-2 py-0.5 text-[10px] font-medium text-primary">
-                {plant.rarityStatus}
-              </span>
               <span className="rounded-full bg-price/15 px-2 py-0.5 text-[10px] font-medium text-price">
-                {plant.priceGuideTier}
+                {plant.priceGuideTier} · {getStaticTierLabel(plant.priceGuideTier)}
               </span>
             </div>
           </div>

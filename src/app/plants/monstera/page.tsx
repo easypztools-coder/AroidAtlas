@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import fs from "fs";
 import path from "path";
+import { getStaticTierLabel } from "@/lib/prices/priceRarityTier";
 
 export const metadata: Metadata = {
   title: "Monstera Species — Iconic Fenestrated Aroids",
@@ -74,8 +75,7 @@ export default function MonsteraPage() {
                 </h3>
                 <p className="mt-1 text-xs text-muted">{plant.commonName}</p>
                 <div className="mt-3 flex items-center gap-2">
-                  <span className="badge-rarity">{plant.rarityStatus}</span>
-                  <span className="badge-price">{plant.priceGuideTier}</span>
+                  <span className="badge-price">{plant.priceGuideTier} · {getStaticTierLabel(plant.priceGuideTier)}</span>
                 </div>
               </div>
             </Link>
