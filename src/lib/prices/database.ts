@@ -7,9 +7,9 @@ import { PriceSnapshot, PriceListing } from "./types";
  *
  * Storage layer for price snapshots.
  *
- * Reads from the repo's content/price-snapshots/{slug}/latest.json.
- * This file is created by the GitHub Actions workflow after fetching
- * from the admin endpoint, then committed back to the repo.
+ * First tries to read from the local filesystem (content/price-snapshots/).
+ * Falls back to fetching from GitHub raw URL (for Vercel deployments
+ * where the file hasn't been deployed yet but is committed to the repo).
  *
  * Structure:
  *   content/price-snapshots/{slug}/latest.json
@@ -19,6 +19,8 @@ import { PriceSnapshot, PriceListing } from "./types";
  */
 
 const BASE_DIR = path.join(process.cwd(), "content", "price-snapshots");
+const GITHUB_RAW =
+  "https://raw.githubusercontent.com/easypztools-coder/AriodAtlas/main/content/price-snapshots";
 
 /**
  * Load the latest snapshot for a given plant slug.
@@ -27,13 +29,33 @@ const BASE_DIR = path.join(process.cwd(), "content", "price-snapshots");
 export async function loadLatestSnapshot(
   slug: string
 ): Promise<{ snapshot: PriceSnapshot; listings: PriceListing[] } | null> {
+  // ─── Try local filesystem first ──────────────────────────────────────────
   try {
     const latestPath = path.join(BASE_DIR, slug, "latest.json");
-    if (!fs.existsSync(latestPath)) return null;
-
-    const raw = fs.readFileSync(latestPath, "utf-8");
-    return JSON.parse(raw);
+    if (fs.existsSync(latestPath)) {
+      const raw = fs.readFileSync(latestPath, "utf-8");
+      return JSON.parse(raw);
+    }
   } catch {
+    // Fall through to GitHub fallback
+  }
+
+  // ─── Fallback to GitHub raw URL ──────────────────────────────────────────
+  try {
+    const url = `${GITHUB_RAW}/${slug}/latest.json`;
+    const response = await fetch(url);
+
+    if (!response.ok) {
+      console.warn(`[database] GitHub raw fetch failed: ${response.status} for ${url}`);
+      return null;
+    }
+
+    const data = await response.json();
+    return data;
+  } catch (err) {
+    console.warn(
+      `[database] GitHub raw fetch error for ${slug}: ${err instanceof Error ? err.message : String(err)}`
+    );
     return null;
   }
 }
