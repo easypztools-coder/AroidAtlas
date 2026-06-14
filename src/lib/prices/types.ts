@@ -1,24 +1,24 @@
 // ─── SoldComps Raw API Response ───────────────────────────────────────────
-// @TODO: Replace these types with the actual SoldComps API response schema.
-// Once you have the real endpoint docs, paste the response shape here.
 
 export interface SoldCompsRawItem {
-  title?: string;
-  soldPrice?: string | number;
-  shippingPrice?: string | number;
-  totalPrice?: string | number;
-  currency?: string;
-  soldDate?: string;
-  seller?: string;
-  condition?: string;
+  itemId: string;
+  title: string;
+  soldPrice: string;
+  soldCurrency: string;
+  shippingPrice?: string;
+  endedAt: string;
   url?: string;
-  // Add any additional fields the API returns
+  condition?: string;
+  sellerUsername?: string;
+  sellerFeedbackScore?: number;
+  sellerPositivePercentage?: number | string;
 }
 
 export interface SoldCompsResponse {
-  items?: SoldCompsRawItem[];
-  data?: { items?: SoldCompsRawItem[] };
-  // Add the actual top-level response shape here
+  keyword: string;
+  totalItems: number;
+  hasNextPage: boolean;
+  items: SoldCompsRawItem[];
 }
 
 // ─── Normalised Listing ────────────────────────────────────────────────────
@@ -40,9 +40,11 @@ export interface NormalisedListing {
 // ─── Listing Classification ────────────────────────────────────────────────
 
 export type ListingType =
-  | "seedling"
-  | "cutting"
+  | "whole_plant"
   | "rooted_cutting"
+  | "unrooted_cutting"
+  | "node"
+  | "seedling"
   | "tc_plantlet"
   | "plug"
   | "established_plant"
@@ -102,7 +104,7 @@ export interface PriceSnapshot {
   source: string;
   marketplace: string;
   query: string;
-  checkedAt: string; // ISO date
+  checkedAt: string;
   currency: string;
   rawResultCount: number;
   acceptedCount: number;

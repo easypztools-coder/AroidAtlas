@@ -1,23 +1,19 @@
-import { SoldCompsRawItem } from "./types";
+import { SoldCompsRawItem, SoldCompsResponse } from "./types";
 
 /**
  * ─── SOLDCOMPS API CALLER ──────────────────────────────────────────────────
  *
- * @TODO: Replace this entire implementation with the actual SoldComps API call.
+ * Fetches sold listings from the SoldComps API.
  *
- * Things I need from you:
- * 1. The actual API endpoint URL (e.g. https://api.sold-comps.com/v1/...)
- * 2. HTTP method (GET/POST)
- * 3. Authentication method (Header? Query param?)
- * 4. Request parameter names for:
- *    - keyword/search query
- *    - marketplace filter (eBay UK / ebay.co.uk)
- *    - date range / lookback window (we want 730 days / 2 years)
- *    - max results / page size (we want up to 240)
- *    - sort order (we want ended recently)
- * 5. The exact response JSON structure
+ * Endpoint: GET https://api.sold-comps.com/v1/scrape
+ * Auth:     Bearer token via SOLDCOMPS_API_KEY env var
  *
- * Once provided, I'll replace the fetch call and response parsing below.
+ * Process:
+ * 1. Fetch raw data from API
+ * 2. Parse response
+ * 3. Filter to GBP/UK only
+ * 4. Reject non-plant listings
+ * 5. Return raw items for normalisation
  *
  * ──────────────────────────────────────────────────────────────────────────
  */
@@ -33,38 +29,107 @@ if (!SOLDCOMPS_API_KEY) {
 /**
  * Fetch raw sold listings from SoldComps API.
  *
- * @TODO: Replace the URL, headers, and parameter mapping with the real API.
- * The placeholder below uses a generic GET with Bearer token.
+ * @param params.query - The search keyword (e.g. "Philodendron spiritus sancti")
+ * @param params.maxResults - Max results to return (default 240)
+ * @returns Array of raw SoldComps items
  */
 export async function fetchSoldCompsRaw(
-  _params: { query: string; maxResults?: number }
+  params: { query: string; maxResults?: number }
 ): Promise<SoldCompsRawItem[]> {
-  void _params; // mark as used
   if (!SOLDCOMPS_API_KEY) {
-    throw new Error("SOLDCOMPS_API_KEY is not set. Cannot fetch prices.");
+    throw new Error(
+      "[soldcomps] SOLDCOMPS_API_KEY is not set. Cannot fetch prices."
+    );
   }
 
-  // ─── @TODO: Replace with actual API endpoint and parameters ──────────
-  // Example placeholder:
-  //   const url = new URL("https://api.sold-comps.com/v1/scrape");
-  //   url.searchParams.set("keyword", query);
-  //   url.searchParams.set("marketplace", "ebay.co.uk");
-  //   url.searchParams.set("soldWithinDays", "730");  // 2 years
-  //   url.searchParams.set("maxResults", String(maxResults));
-  //   url.searchParams.set("sort", "ended_recently");
-  //
-  //   const response = await fetch(url.toString(), {
-  //     headers: { Authorization: `Bearer ${SOLDCOMPS_API_KEY}` },
-  //   });
+  const { query, maxResults = 240 } = params;
 
-  throw new Error(
-    "[soldcomps] Not yet implemented. See @TODO in src/lib/prices/soldcomps.ts"
+  // ─── Build URL ──────────────────────────────────────────────────────────
+  const url = new URL("https://api.sold-comps.com/v1/scrape");
+  url.searchParams.set("keyword", query);
+  url.searchParams.set("count", String(maxResults));
+  url.searchParams.set("page", "1");
+
+  // ─── Fetch ──────────────────────────────────────────────────────────────
+  let response: Response;
+  try {
+    response = await fetch(url.toString(), {
+      headers: {
+        Authorization: `Bearer ${SOLDCOMPS_API_KEY}`,
+        "Content-Type": "application/json",
+      },
+    });
+  } catch (err) {
+    throw new Error(
+      `[soldcomps] Network error fetching from SoldComps: ${err instanceof Error ? err.message : String(err)}`
+    );
+  }
+
+  // ─── Error handling ────────────────────────────────────────────────────
+  if (response.status === 401 || response.status === 403) {
+    throw new Error(
+      "[soldcomps] Invalid API key (401/403). Check SOLDCOMPS_API_KEY."
+    );
+  }
+
+  if (response.status === 429) {
+    throw new Error(
+      "[soldcomps] Rate limited (429). Wait before retrying."
+    );
+  }
+
+  if (response.status >= 500) {
+    throw new Error(
+      `[soldcomps] SoldComps API error (${response.status}). Server may be down.`
+    );
+  }
+
+  if (!response.ok) {
+    throw new Error(
+      `[soldcomps] Unexpected status ${response.status}: ${response.statusText}`
+    );
+  }
+
+  // ─── Parse response ─────────────────────────────────────────────────────
+  let json: SoldCompsResponse;
+  try {
+    json = await response.json();
+  } catch {
+    throw new Error(
+      "[soldcomps] Invalid JSON response from SoldComps API."
+    );
+  }
+
+  // Validate shape
+  if (!json || !Array.isArray(json.items)) {
+    throw new Error(
+      `[soldcomps] Unexpected response shape. Expected { items: [...] }, got ${typeof json}`
+    );
+  }
+
+  // ─── Log diagnostics ────────────────────────────────────────────────────
+  console.log(
+    `[soldcomps] Fetched ${json.items.length} items for "${query}"`
   );
 
-  // ─── Once you provide the real API shape, this will parse the response ──
-  // const json: SoldCompsResponse = await response.json();
-  // if (!response.ok) {
-  //   throw new Error(`SoldComps API error: ${response.status} ${response.statusText}`);
-  // }
-  // return _extractItems(json);
+  // ─── Return raw items ───────────────────────────────────────────────────
+  return json.items;
+}
+
+/**
+ * Validate that a raw item has the required fields.
+ * Throws if soldPrice is missing, NaN, zero, or negative.
+ */
+export function validateRawItem(item: SoldCompsRawItem): void {
+  if (!item.itemId) {
+    throw new Error(`[soldcomps] Item missing itemId: ${JSON.stringify(item)}`);
+  }
+  if (!item.title) {
+    throw new Error(`[soldcomps] Item missing title: ${JSON.stringify(item)}`);
+  }
+  if (!item.soldPrice || isNaN(parseFloat(item.soldPrice)) || parseFloat(item.soldPrice) <= 0) {
+    throw new Error(
+      `[soldcomps] Item "${item.title}" has invalid soldPrice: ${item.soldPrice}`
+    );
+  }
 }

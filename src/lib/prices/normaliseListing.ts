@@ -19,26 +19,24 @@ export function normaliseListing(raw: SoldCompsRawItem): NormalisedListing {
 
   // ─── Total Price ───────────────────────────────────────────────────────
   // If the API provides totalPrice, use it. Otherwise calculate.
-  const totalPrice = raw.totalPrice != null
-    ? parsePrice(raw.totalPrice)
-    : soldPrice + shippingPrice;
+  const totalPrice = soldPrice + shippingPrice;
 
   // ─── Unit Price ────────────────────────────────────────────────────────
   // Default to totalPrice — lot size division happens in classifyPlantListing
   const unitPrice = totalPrice;
 
   // ─── Currency ──────────────────────────────────────────────────────────
-  const currency = (raw.currency ?? "GBP").toUpperCase();
+  const currency = (raw.soldCurrency ?? "GBP").toUpperCase();
 
   // ─── Sold Date ─────────────────────────────────────────────────────────
-  const soldDate = normaliseDate(raw.soldDate);
+  const soldDate = normaliseDate(raw.endedAt);
 
   // ─── Title ─────────────────────────────────────────────────────────────
   const originalTitle = (raw.title ?? "").trim();
   const title = originalTitle.toLowerCase().replace(/\s+/g, " ").trim();
 
   // ─── Seller ────────────────────────────────────────────────────────────
-  const seller = (raw.seller ?? "").trim();
+  const seller = (raw.sellerUsername ?? "").trim();
 
   // ─── Condition ─────────────────────────────────────────────────────────
   const condition = (raw.condition ?? "").trim();

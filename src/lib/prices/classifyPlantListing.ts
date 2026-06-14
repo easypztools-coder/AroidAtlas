@@ -4,9 +4,11 @@ import { NormalisedListing, ClassifiedListing, ListingType } from "./types";
  * Classify a normalised listing into a listing type and detect lot size.
  *
  * Listing types:
+ * - whole_plant: potted/established plant (preferred for chart)
+ * - rooted_cutting: rooted cutting (preferred for chart)
+ * - unrooted_cutting: cutting without roots
+ * - node: just a node / wet stick
  * - tc_plantlet: tissue culture / plantlet
- * - cutting: unrooted cutting / node
- * - rooted_cutting: rooted cutting
  * - seedling: seedling
  * - established_plant: potted plant
  * - mature_plant: mature / XL / large
@@ -45,6 +47,32 @@ export function classifyListing(
   // ─── Listing Type Detection ────────────────────────────────────────────
   let listingType: ListingType = "unknown";
 
+  // Whole plant / established (potted)
+  if (
+    /\bpot\b/.test(title) ||
+    /\bpotted\b/.test(title) ||
+    /\bcm\s*pot\b/.test(title) ||
+    /\bplant\b/.test(title) ||
+    /\bestablished\b/.test(title)
+  ) {
+    listingType = "whole_plant";
+  }
+
+  // Rooted cutting
+  if (/\brooted\b/.test(title) && /\bcutting\b/.test(title)) {
+    listingType = "rooted_cutting";
+  }
+
+  // Unrooted cutting
+  if (/\bunrooted\b/.test(title) || (/\bcutting\b/.test(title) && !/\brooted\b/.test(title))) {
+    listingType = "unrooted_cutting";
+  }
+
+  // Node / wet stick
+  if (/\bnode\b/.test(title) || /\bwet\s*stick\b/.test(title)) {
+    listingType = "node";
+  }
+
   // TC / Tissue Culture
   if (
     /\btc\b/.test(title) ||
@@ -55,30 +83,9 @@ export function classifyListing(
     listingType = "tc_plantlet";
   }
 
-  // Cutting
-  if (/\bcutting\b/.test(title) || /\bnode\b/.test(title) || /\bunrooted\b/.test(title)) {
-    listingType = "cutting";
-  }
-
-  // Rooted cutting (overrides cutting if "rooted" is present)
-  if (/\brooted\b/.test(title) && listingType === "cutting") {
-    listingType = "rooted_cutting";
-  }
-
   // Seedling
   if (/\bseedling\b/.test(title)) {
     listingType = "seedling";
-  }
-
-  // Established plant (potted)
-  if (
-    /\bpot\b/.test(title) ||
-    /\bpotted\b/.test(title) ||
-    /\bcm\s*pot\b/.test(title)
-  ) {
-    if (listingType === "unknown") {
-      listingType = "established_plant";
-    }
   }
 
   // Mature / Large / XL

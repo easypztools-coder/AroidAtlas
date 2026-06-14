@@ -12,7 +12,7 @@ export interface FilterResult {
  * 1. Title must contain ALL requiredTerms
  * 2. Title must contain at least ONE acceptedTerms
  * 3. Title must NOT contain any excludeTerms
- * 4. Currency must be GBP/£
+ * 4. Currency must be GBP
  * 5. totalPrice must be > 0 and numeric
  * 6. totalPrice must be >= £5
  * 7. Title must not be obviously not the target species
@@ -68,7 +68,7 @@ export function filterPlantListings(
     }
 
     // ─── 4. Currency check ──────────────────────────────────────────────
-    if (listing.currency !== "GBP" && !listing.currency.startsWith("£")) {
+    if (listing.currency !== "GBP") {
       rejected.push({
         listing,
         reason: `Currency is ${listing.currency}, not GBP`,

@@ -2,6 +2,12 @@ import { NextRequest, NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
 import type { PriceTrackingConfig } from "@/lib/prices/types";
+import { fetchSoldCompsRaw } from "@/lib/prices/soldcomps";
+import { normaliseListing } from "@/lib/prices/normaliseListing";
+import { filterPlantListings } from "@/lib/prices/filterPlantListings";
+import { classifyListing } from "@/lib/prices/classifyPlantListing";
+import { calculateStats } from "@/lib/prices/calculatePriceStats";
+import { saveSnapshot } from "@/lib/prices/database";
 
 /**
  * ─── ADMIN PRICE UPDATE ──────────────────────────────────────────────────
@@ -12,7 +18,7 @@ import type { PriceTrackingConfig } from "@/lib/prices/types";
  * 1. Validate secret against ADMIN_PRICE_SECRET
  * 2. Load the plant JSON by slug
  * 3. Confirm priceTracking.enabled = true
- * 4. Call SoldComps (via the TODO module)
+ * 4. Call SoldComps
  * 5. Normalise → Filter → Classify → Calculate stats
  * 6. Save snapshot
  * 7. Return results
@@ -68,66 +74,84 @@ export async function GET(request: NextRequest) {
     );
   }
 
-  // ─── Fetch raw data ──────────────────────────────────────────────────────
-  // @TODO: Replace with actual SoldComps call once the API is known
-  // For now, return a clear message about what's needed
-  return NextResponse.json({
-    success: false,
-    message: "SoldComps API not yet integrated. See @TODO in src/lib/prices/soldcomps.ts",
-    warnings: [
-      "The price system is fully built and ready. You just need to:",
-      "1. Replace the fetch call in soldcomps.ts with the real SoldComps endpoint",
-      "2. Run this endpoint: /api/admin/prices/update?slug=spiritus-sancti&secret=YOUR_SECRET",
-      "3. The pipeline will then: fetch → normalise → filter → classify → calculate → save",
-    ],
-    config,
-  });
-}
+  // ─── Run pipeline ────────────────────────────────────────────────────────
+  try {
+    // 1. Fetch raw data
+    const rawItems = await fetchSoldCompsRaw({ query: config.query });
 
-/**
- * Full pipeline (for when the API is ready):
- *
- * async function runPipeline(slug: string, config: PriceTrackingConfig) {
- *   // 1. Fetch raw data
- *   const rawItems = await fetchSoldCompsRaw({ query: config.query });
- *
- *   // 2. Normalise
- *   const normalised = rawItems.map(normaliseListing);
- *
- *   // 3. Filter
- *   const { accepted, rejected } = filterPlantListings(normalised, config);
- *
- *   // 4. Classify
- *   const classified = accepted.map(classifyListing);
- *
- *   // 5. Calculate stats
- *   const stats = calculateStats(classified, rejected.length);
- *
- *   // 6. Save
- *   const snapshot = {
- *     plantSlug: slug,
- *     source: config.source,
- *     marketplace: config.marketplace,
- *     query: config.query,
- *     checkedAt: new Date().toISOString(),
- *     currency: config.marketCurrency,
- *     rawResultCount: rawItems.length,
- *     acceptedCount: classified.length,
- *     rejectedCount: rejected.length,
- *     outlierCount: stats.outlierCount,
- *     confidenceScore: stats.confidenceScore,
- *     minPrice: stats.min,
- *     p25Price: stats.p25,
- *     medianPrice: stats.median,
- *     meanPrice: stats.mean,
- *     trimmedMeanPrice: stats.trimmedMean,
- *     p75Price: stats.p75,
- *     maxPrice: stats.max,
- *     notes: "",
- *   };
- *
- *   await saveSnapshot(snapshot, classified);
- *
- *   return { snapshot, stats, accepted: classified, rejected };
- * }
- */
+    // 2. Normalise
+    const normalised = rawItems.map(normaliseListing);
+
+    // 3. Filter
+    const { accepted, rejected } = filterPlantListings(normalised, config);
+
+    // 4. Classify
+    const classified = accepted.map(classifyListing);
+
+    // 5. Calculate stats
+    const stats = calculateStats(classified, rejected.length);
+
+    // 6. Save snapshot
+    const snapshot = {
+      plantSlug: slug,
+      source: config.source,
+      marketplace: config.marketplace,
+      query: config.query,
+      checkedAt: new Date().toISOString(),
+      currency: config.marketCurrency,
+      rawResultCount: rawItems.length,
+      acceptedCount: classified.length,
+      rejectedCount: rejected.length,
+      outlierCount: stats.outlierCount,
+      confidenceScore: stats.confidenceScore,
+      minPrice: stats.min,
+      p25Price: stats.p25,
+      medianPrice: stats.median,
+      meanPrice: stats.mean,
+      trimmedMeanPrice: stats.trimmedMean,
+      p75Price: stats.p75,
+      maxPrice: stats.max,
+      notes: "",
+    };
+
+    // Map classified listings to PriceListing for storage
+    const priceListings = classified.map((l) => ({
+      plantSlug: slug,
+      title: l.originalTitle,
+      normalizedTitle: l.title,
+      listingType: l.listingType,
+      lotSize: l.lotSize,
+      soldPrice: l.soldPrice,
+      shippingPrice: l.shippingPrice,
+      totalPrice: l.totalPrice,
+      unitPrice: l.unitPrice,
+      currency: l.currency,
+      soldDate: l.soldDate,
+      seller: l.seller,
+      condition: l.condition,
+      url: l.url,
+      accepted: true,
+      rejectionReason: null,
+      isOutlier: false,
+    }));
+
+    await saveSnapshot(snapshot, priceListings);
+
+    return NextResponse.json({
+      success: true,
+      snapshot,
+      stats,
+      acceptedCount: classified.length,
+      rejectedCount: rejected.length,
+      warnings: [],
+    });
+  } catch (err) {
+    return NextResponse.json(
+      {
+        success: false,
+        error: err instanceof Error ? err.message : String(err),
+      },
+      { status: 500 }
+    );
+  }
+}
