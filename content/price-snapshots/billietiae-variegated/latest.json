@@ -1,0 +1,49 @@
+{
+  "snapshot": {
+    "plantSlug": "billietiae-variegated",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron billietiae variegated",
+    "checkedAt": "2026-06-14T20:04:21.250Z",
+    "currency": "GBP",
+    "rawResultCount": 12,
+    "acceptedCount": 1,
+    "rejectedCount": 11,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 135.88,
+    "p25Price": 135.88,
+    "medianPrice": 135.88,
+    "meanPrice": 135.88,
+    "trimmedMeanPrice": 135.88,
+    "p75Price": 135.88,
+    "maxPrice": 135.88,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 1,
+    "min": 135.88,
+    "max": 135.88,
+    "median": 135.88,
+    "mean": 135.88,
+    "p25": 135.88,
+    "p75": 135.88,
+    "iqr": 0,
+    "trimmedMean": 135.88,
+    "confidenceScore": "D",
+    "rejectedCount": 11,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "soldPrice": 86.9,
+      "totalPrice": 135.88,
+      "soldDate": "2026-05-10",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 1,
+  "rejectedCount": 11
+}
