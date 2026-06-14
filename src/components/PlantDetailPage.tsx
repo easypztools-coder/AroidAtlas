@@ -3,7 +3,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import PriceChart from "@/components/PriceChart";
 import PriceHistoryChart from "@/components/PriceHistoryChart";
 import type { PriceHistoryPoint } from "@/lib/prices/types";
 
@@ -424,27 +423,11 @@ export default function PlantDetailPage({
               Price History
             </h3>
             <p className="mb-4 text-xs text-muted">
-              Median GBP — Last {data.priceHistory.length} months
+              eBay UK sold prices — Updated weekly
             </p>
-            <PriceChart
-              data={data.priceHistory}
-              currentPrice={data.marketMetrics.currentMedianPriceGBP}
+            <PriceHistoryChart
+              data={soldCompsData}
             />
-
-            {/* ─── SoldComps Price History (only for spiritus-sancti) ──── */}
-            {data.slug === "spiritus-sancti" && (
-              <div className="mt-4 border-t border-card/50 pt-4">
-                <h4 className="mb-2 text-xs font-semibold text-heading">
-                  eBay UK Sold Prices
-                </h4>
-                <p className="mb-3 text-[10px] text-muted">
-                  Filtered completed listings from SoldComps. Updated weekly.
-                </p>
-                <PriceHistoryChart
-                  data={soldCompsData}
-                />
-              </div>
-            )}
 
             <div className="mt-3 flex items-center gap-2">
               <span

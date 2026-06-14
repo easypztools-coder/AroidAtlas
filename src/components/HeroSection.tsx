@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 import { motion } from "framer-motion";
 import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
@@ -177,7 +178,10 @@ export default function HeroSection() {
               <div className="absolute inset-0 rounded-3xl bg-gradient-to-b from-primary/10 via-primary/5 to-transparent blur-3xl" />
 
               {/* Styled Container for hero plant image */}
-              <div className="glass-card-glow relative flex h-full w-full items-center justify-center overflow-hidden rounded-3xl">
+              <Link
+                href="/plants/philodendron/spiritus-sancti"
+                className="glass-card-glow relative flex h-full w-full items-center justify-center overflow-hidden rounded-3xl"
+              >
                 <Image
                   src="/api/plant-image?genus=philodendron&slug=spiritus-sancti"
                   alt="Philodendron spiritus-sancti — Hero Specimen"
@@ -199,7 +203,7 @@ export default function HeroSection() {
                     Philodendron spiritus-sancti
                   </p>
                 </div>
-              </div>
+              </Link>
             </div>
           </motion.div>
         </div>

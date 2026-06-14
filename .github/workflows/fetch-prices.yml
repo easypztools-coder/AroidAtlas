@@ -2,8 +2,8 @@ name: Fetch Sold Prices
 
 on:
   schedule:
-    # Run every Wednesday at 8:00 AM UTC — once per week to stay within 50 calls/month
-    - cron: "0 8 * * 3"
+    # Run every Wednesday and Saturday at 8:00 AM UTC — twice a week
+    - cron: "0 8 * * 3,6"
   workflow_dispatch:
     # Allow manual trigger from GitHub UI
     inputs:
@@ -17,38 +17,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
-          cache: "npm"
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Fetch sold prices
+      - name: Call admin price update endpoint
         env:
-          SOLDCOMP_API_KEY: ${{ secrets.SOLDCOMP_API_KEY }}
+          ADMIN_PRICE_SECRET: ${{ secrets.ADMIN_PRICE_SECRET }}
+          SITE_URL: "https://ariodatlas.com"
         run: |
-          if [ -n "${{ github.event.inputs.plants }}" ]; then
-            node scripts/fetch-live-prices.js --plants="${{ github.event.inputs.plants }}"
-          else
-            node scripts/fetch-live-prices.js
+          PLANTS="${{ github.event.inputs.plants }}"
+          if [ -z "$PLANTS" ]; then
+            PLANTS="spiritus-sancti"
           fi
 
-      - name: Commit and push changes
-        run: |
-          git config user.name "ariod-atlas-bot"
-          git config user.email "bot@ariodatlas.com"
-          git add content/plants/
-          if git diff --cached --quiet; then
-            echo "No price data changes to commit."
-          else
-            git commit -m "chore: update sold price data [skip ci]"
-            git push
-          fi
+          IFS=',' read -ra SLUGS <<< "$PLANTS"
+          for slug in "${SLUGS[@]}"; do
+            slug=$(echo "$slug" | xargs)  # trim whitespace
+            echo "Fetching prices for: $slug"
+            curl -s -o /dev/null -w "  Status: %{http_code}\n" \
+              "$SITE_URL/api/admin/prices/update?slug=$slug&secret=$ADMIN_PRICE_SECRET"
+          done
