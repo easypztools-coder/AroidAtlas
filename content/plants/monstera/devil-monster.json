@@ -41,13 +41,14 @@
     "enabled": true,
     "source": "soldcomps",
     "marketplace": "ebay.co.uk",
-    "query": "Monstera Devil Monster",
+    "query": "Monstera Devil",
     "requiredTerms": [],
     "acceptedTerms": [
       "monstera devil monster",
       "devil monster monstera",
       "devil monster",
-      "devil's monster"
+      "devil's monster",
+      "monstera devil"
     ],
     "excludeTerms": [
       "seeds", "seed", "corm", "bulb", "rhizome",
