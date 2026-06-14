@@ -1,5 +1,4 @@
-import fs from "fs";
-import path from "path";
+import { put, list, get } from "@vercel/blob";
 import { PriceSnapshot, PriceListing } from "./types";
 
 /**
@@ -7,60 +6,41 @@ import { PriceSnapshot, PriceListing } from "./types";
  *
  * Storage layer for price snapshots.
  *
- * Current implementation: File-based JSON storage in content/price-snapshots/
- * This works immediately without needing a database setup.
+ * Uses Vercel Blob Storage — works on Vercel's serverless runtime.
+ * In local dev, ensure BLOB_READ_WRITE_TOKEN is set in .env.local.
  *
- * @TODO: When Postgres/Supabase/Neon is set up, replace this with:
- *   - A Prisma or Drizzle client
- *   - Or a Supabase query
- *   - The interface below stays the same
+ * Structure:
+ *   price-snapshots/{slug}/{timestamp}.json
+ *   price-snapshots/{slug}/latest.json
  *
  * ──────────────────────────────────────────────────────────────────────────
  */
 
-const SNAPSHOTS_DIR = path.join(process.cwd(), "content", "price-snapshots");
+const BLOB_PREFIX = "price-snapshots";
 
 /**
- * Ensure the snapshots directory exists.
- */
-function ensureDir() {
-  if (!fs.existsSync(SNAPSHOTS_DIR)) {
-    fs.mkdirSync(SNAPSHOTS_DIR, { recursive: true });
-  }
-}
-
-/**
- * Save a price snapshot to disk.
- *
- * Creates:
- *   content/price-snapshots/{slug}/{timestamp}.json
- *   content/price-snapshots/{slug}/latest.json
+ * Save a price snapshot to Vercel Blob.
  */
 export async function saveSnapshot(
   snapshot: PriceSnapshot,
   listings: PriceListing[]
 ): Promise<void> {
-  ensureDir();
-
-  const slugDir = path.join(SNAPSHOTS_DIR, snapshot.plantSlug);
-  if (!fs.existsSync(slugDir)) {
-    fs.mkdirSync(slugDir, { recursive: true });
-  }
-
   const timestamp = snapshot.checkedAt.replace(/[:.]/g, "-");
-  const snapshotPath = path.join(slugDir, `${timestamp}.json`);
-  const latestPath = path.join(slugDir, "latest.json");
-
-  const data = {
-    snapshot,
-    listings,
-  };
+  const data = JSON.stringify({ snapshot, listings }, null, 2);
 
   // Write timestamped file (historical record)
-  fs.writeFileSync(snapshotPath, JSON.stringify(data, null, 2), "utf-8");
+  await put(
+    `${BLOB_PREFIX}/${snapshot.plantSlug}/${timestamp}.json`,
+    data,
+    { contentType: "application/json", access: "public" }
+  );
 
   // Overwrite latest.json (for quick reads)
-  fs.writeFileSync(latestPath, JSON.stringify(data, null, 2), "utf-8");
+  await put(
+    `${BLOB_PREFIX}/${snapshot.plantSlug}/latest.json`,
+    data,
+    { contentType: "application/json", access: "public" }
+  );
 }
 
 /**
@@ -70,15 +50,24 @@ export async function saveSnapshot(
 export async function loadLatestSnapshot(
   slug: string
 ): Promise<{ snapshot: PriceSnapshot; listings: PriceListing[] } | null> {
-  const latestPath = path.join(SNAPSHOTS_DIR, slug, "latest.json");
-
-  if (!fs.existsSync(latestPath)) {
-    return null;
-  }
-
   try {
-    const raw = fs.readFileSync(latestPath, "utf-8");
-    return JSON.parse(raw);
+    const result = await get(`${BLOB_PREFIX}/${slug}/latest.json`, {
+      access: "public",
+    });
+    if (!result || result.statusCode !== 200 || !result.stream) return null;
+
+    // Read the stream into a string
+    const reader = result.stream.getReader();
+    const decoder = new TextDecoder();
+    let text = "";
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      text += decoder.decode(value, { stream: true });
+    }
+    text += decoder.decode(); // flush
+
+    return JSON.parse(text);
   } catch {
     return null;
   }
@@ -88,16 +77,16 @@ export async function loadLatestSnapshot(
  * List all snapshot timestamps for a given plant slug.
  */
 export async function listSnapshots(slug: string): Promise<string[]> {
-  const slugDir = path.join(SNAPSHOTS_DIR, slug);
+  const prefix = `${BLOB_PREFIX}/${slug}/`;
 
-  if (!fs.existsSync(slugDir)) {
+  try {
+    const { blobs } = await list({ prefix });
+    return blobs
+      .filter((b) => b.pathname.endsWith(".json") && !b.pathname.endsWith("latest.json"))
+      .map((b) => b.pathname.replace(`${prefix}`, "").replace(".json", ""))
+      .sort()
+      .reverse();
+  } catch {
     return [];
   }
-
-  return fs
-    .readdirSync(slugDir)
-    .filter((f) => f.endsWith(".json") && f !== "latest.json")
-    .map((f) => f.replace(".json", ""))
-    .sort()
-    .reverse();
 }
