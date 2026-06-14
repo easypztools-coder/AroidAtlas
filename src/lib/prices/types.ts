@@ -159,6 +159,7 @@ export interface PriceHistoryPoint {
 export interface PriceHistoryResponse {
   slug: string;
   history: PriceHistoryPoint[];
+  fairPurchasePrice: number | null;
 }
 
 // ─── Admin Update Response ─────────────────────────────────────────────────

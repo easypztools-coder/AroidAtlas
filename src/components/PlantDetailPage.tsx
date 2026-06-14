@@ -151,6 +151,7 @@ export default function PlantDetailPage({
 
   // ─── Fetch live price history for spiritus-sancti ──────────────────────
   const [soldCompsData, setSoldCompsData] = useState<PriceHistoryPoint[]>([]);
+  const [fairPrice, setFairPrice] = useState<number | null>(null);
 
   useEffect(() => {
     if (data.slug !== "spiritus-sancti") return;
@@ -160,6 +161,9 @@ export default function PlantDetailPage({
       .then((json) => {
         if (json.history && Array.isArray(json.history)) {
           setSoldCompsData(json.history);
+        }
+        if (typeof json.fairPurchasePrice === "number") {
+          setFairPrice(json.fairPurchasePrice);
         }
       })
       .catch(() => {
@@ -428,6 +432,22 @@ export default function PlantDetailPage({
             <PriceHistoryChart
               data={soldCompsData}
             />
+
+            {/* ── Fair Purchase Price ──────────────────────────────────── */}
+            {fairPrice !== null && (
+              <div className="mt-3 rounded-lg border border-green-500/20 bg-green-500/5 px-4 py-3">
+                <div className="flex items-center justify-between">
+                  <span className="text-xs text-muted">Fair Purchase Price</span>
+                  <span className="text-lg font-bold text-green-400">
+                    £{fairPrice.toFixed(0)}
+                  </span>
+                </div>
+                <p className="mt-1 text-[10px] text-muted/60">
+                  Based on recent eBay UK sold prices, excluding top and bottom 20% outliers.
+                  Updated twice weekly.
+                </p>
+              </div>
+            )}
 
             <div className="mt-3 flex items-center gap-2">
               <span

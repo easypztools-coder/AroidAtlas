@@ -7,9 +7,9 @@ import { PriceHistoryResponse, PriceHistoryPoint } from "@/lib/prices/types";
  *
  * Read-only endpoint: /api/plants/[slug]/price-history
  *
- * Groups individual eBay sold listings by month to create a trend.
- * Each listing has a soldDate — we bucket them by month and calculate
- * median/p25/p75 per bucket.
+ * 1. Groups individual eBay sold listings by ISO week to create a trend.
+ * 2. Returns a fairPurchasePrice calculated from the latest snapshot
+ *    (trimmed mean after removing top/bottom 20%, giving a "fair" guide price).
  *
  * Never calls SoldComps. Safe for public consumption.
  *
@@ -33,35 +33,36 @@ export async function GET(
       {
         slug,
         history: [],
+        fairPurchasePrice: null,
         message: "No price data available yet. Run the admin update endpoint first.",
       },
       { status: 200 }
     );
   }
 
-  // ─── Group listings by month using their soldDate ─────────────────────
-  // Each listing has a real sale date from eBay.
-  // We bucket: "2026-01" → [prices...], "2026-02" → [prices...]
-  const months: Record<string, number[]> = {};
+  // ════════════════════════════════════════════════════════════════════════
+  // 1. GROUP LISTINGS BY ISO WEEK
+  // ════════════════════════════════════════════════════════════════════════
+
+  const weeks: Record<string, number[]> = {};
 
   if (snapshot.listings && snapshot.listings.length > 0) {
     for (const listing of snapshot.listings) {
       if (!listing.soldDate) continue;
       const soldPrice = listing.totalPrice ?? listing.soldPrice ?? 0;
       if (soldPrice <= 0) continue;
-      // Extract YYYY-MM from the sold date
-      const monthKey = listing.soldDate.substring(0, 7); // "2026-01"
-      if (!months[monthKey]) months[monthKey] = [];
-      months[monthKey].push(soldPrice);
+
+      // Extract ISO week key from the sold date
+      const weekKey = getISOWeekKey(listing.soldDate);
+      if (!weeks[weekKey]) weeks[weekKey] = [];
+      weeks[weekKey].push(soldPrice);
     }
   }
 
-  // If no individual listings with dates, fall back to the aggregate snapshot
   const history: PriceHistoryPoint[] = [];
 
-  if (Object.keys(months).length > 0) {
-    // Build a trend point for each month
-    for (const [monthKey, prices] of Object.entries(months).sort()) {
+  if (Object.keys(weeks).length > 0) {
+    for (const [weekKey, prices] of Object.entries(weeks).sort()) {
       const sorted = [...prices].sort((a, b) => a - b);
       const n = sorted.length;
       const min = sorted[0];
@@ -75,7 +76,7 @@ export async function GET(
         n >= 30 ? "A" : n >= 15 ? "B" : n >= 5 ? "C" : "D";
 
       history.push({
-        date: `${monthKey}-15T00:00:00.000Z`, // Mid-month date for charting
+        date: isoWeekToMidDate(weekKey),
         median,
         p25,
         p75,
@@ -99,15 +100,35 @@ export async function GET(
     });
   }
 
+  // ════════════════════════════════════════════════════════════════════════
+  // 2. CALCULATE FAIR PURCHASE PRICE
+  // ════════════════════════════════════════════════════════════════════════
+  //
+  // Take all accepted listings from the latest snapshot.
+  // Remove top & bottom 20% (outliers), then calculate trimmed mean.
+  // This gives a "fair" price you'd expect to pay today.
+
+  const allPrices: number[] = (snapshot.listings ?? [])
+    .map((l) => l.totalPrice ?? l.soldPrice ?? 0)
+    .filter((p) => p > 0)
+    .sort((a, b) => a - b);
+
+  const fairPurchasePrice = calculateTrimmedMean(allPrices, 0.2);
+
   const response: PriceHistoryResponse = {
     slug,
     history,
+    fairPurchasePrice,
   };
 
   return NextResponse.json(response);
 }
 
-// ─── Helper: calculate percentile from sorted array ──────────────────────
+// ═══════════════════════════════════════════════════════════════════════════
+// HELPERS
+// ═══════════════════════════════════════════════════════════════════════════
+
+/** Calculate percentile from sorted array */
 function percentile(sorted: number[], p: number): number {
   if (sorted.length === 0) return 0;
   if (sorted.length === 1) return sorted[0];
@@ -117,4 +138,64 @@ function percentile(sorted: number[], p: number): number {
   if (lower === upper) return sorted[lower];
   const frac = index - lower;
   return sorted[lower] + frac * (sorted[upper] - sorted[lower]);
+}
+
+/**
+ * Calculate trimmed mean: remove the top and bottom `trimRatio` fraction
+ * of values, then average the rest.
+ */
+function calculateTrimmedMean(
+  sorted: number[],
+  trimRatio: number
+): number | null {
+  if (sorted.length === 0) return null;
+  if (sorted.length < 5) {
+    // Too few data points — just use regular mean
+    return sorted.reduce((a, b) => a + b, 0) / sorted.length;
+  }
+
+  const trimCount = Math.floor(sorted.length * trimRatio);
+  const trimmed = sorted.slice(trimCount, sorted.length - trimCount);
+
+  if (trimmed.length === 0) return sorted.reduce((a, b) => a + b, 0) / sorted.length;
+
+  return trimmed.reduce((a, b) => a + b, 0) / trimmed.length;
+}
+
+/**
+ * Get an ISO week key from a date string.
+ * Returns format like "2026-W22".
+ */
+function getISOWeekKey(dateStr: string): string {
+  const date = new Date(dateStr);
+  const dayNum = date.getUTCDay() || 7;
+  date.setUTCDate(date.getUTCDate() + 4 - dayNum);
+  const yearStart = new Date(Date.UTC(date.getUTCFullYear(), 0, 1));
+  const weekNo = Math.ceil(
+    ((date.getTime() - yearStart.getTime()) / 86400000 + 1) / 7
+  );
+  return `${date.getUTCFullYear()}-W${String(weekNo).padStart(2, "0")}`;
+}
+
+/**
+ * Convert an ISO week key ("2026-W22") to a mid-week ISO date string
+ * for charting (the Thursday of that week).
+ */
+function isoWeekToMidDate(weekKey: string): string {
+  const [yearStr, weekStr] = weekKey.split("-W");
+  const year = parseInt(yearStr, 10);
+  const week = parseInt(weekStr, 10);
+
+  // Jan 4 is always in week 1 of the ISO calendar
+  const jan4 = new Date(Date.UTC(year, 0, 4));
+  const dayOfWeek = jan4.getUTCDay() || 7;
+  const daysToThursday = 4 - dayOfWeek;
+  const week1Thursday = new Date(jan4);
+  week1Thursday.setUTCDate(jan4.getUTCDate() + daysToThursday);
+
+  // Add weeks
+  const targetDate = new Date(week1Thursday);
+  targetDate.setUTCDate(week1Thursday.getUTCDate() + (week - 1) * 7);
+
+  return targetDate.toISOString();
 }
