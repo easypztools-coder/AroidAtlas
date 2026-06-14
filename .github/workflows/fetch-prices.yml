@@ -20,12 +20,14 @@ jobs:
       - name: Call admin price update endpoint
         env:
           ADMIN_PRICE_SECRET: ${{ secrets.ADMIN_PRICE_SECRET }}
-          SITE_URL: "https://ariodatlas.com"
         run: |
           PLANTS="${{ github.event.inputs.plants }}"
           if [ -z "$PLANTS" ]; then
             PLANTS="spiritus-sancti"
           fi
+
+          # Use Vercel deployment URL from the environment
+          SITE_URL="${VERCEL_URL:-https://ariod-atlas.vercel.app}"
 
           IFS=',' read -ra SLUGS <<< "$PLANTS"
           for slug in "${SLUGS[@]}"; do
