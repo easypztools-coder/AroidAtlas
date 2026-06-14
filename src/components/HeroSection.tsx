@@ -6,6 +6,7 @@ import { motion } from "framer-motion";
 import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import { featuredPlants } from "@/lib/mock-data";
+import { getStaticTierLabel } from "@/lib/prices/priceRarityTier";
 
 function StatCard({ label, value, index }: { label: string; value: string; index: number }) {
   return (
@@ -168,7 +169,7 @@ export default function HeroSection() {
                         <p className="font-medium text-heading italic truncate">{plant.scientificName}</p>
                         <p className="text-xs text-muted truncate">{plant.commonName}</p>
                       </div>
-                      <span className="badge-primary shrink-0 text-[10px]">{plant.rarityStatus}</span>
+                      <span className="badge-price shrink-0 text-[10px]">{plant.priceGuideTier} · {getStaticTierLabel(plant.priceGuideTier)}</span>
                     </button>
                   ))}
                 </motion.div>

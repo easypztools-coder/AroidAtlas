@@ -74,7 +74,7 @@ export default function CompareSection() {
                   <p className="text-sm font-semibold text-heading">
                     Philodendron atabapoense
                   </p>
-                  <span className="badge-price mt-2 inline-block">£</span>
+                  <span className="badge-price mt-2 inline-block">£ · Common</span>
                 </div>
               </div>
 

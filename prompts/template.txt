@@ -1,0 +1,127 @@
+AROIDATLAS BOTANICAL PLATE — [PLANT NAME]
+
+Create a museum-quality botanical plate of [PLANT NAME] suitable for a premium digital encyclopedia of rare tropical plants.
+
+STYLE REQUIREMENTS
+
+- Scientific botanical illustration
+- Natural history museum quality
+- Photorealistic rendering
+- Botanical accuracy prioritized over aesthetics
+- Cream archival paper background
+- Elegant editorial design
+- Premium field-guide aesthetic
+- Soft studio lighting
+- No fantasy elements
+- No artistic liberties
+
+LAYOUT REQUIREMENTS
+
+Central specimen of [PLANT NAME] occupies approximately 60 percent of the composition.
+
+Left information panel:
+
+- scientific name: [SCIENTIFIC NAME]
+- family: [FAMILY]
+- genus: [GENUS]
+- species/cultivar: [SPECIES OR CULTIVAR]
+- origin: [ORIGIN]
+
+Right information panel:
+
+Circular morphology callouts showing:
+
+- leaf detail
+- petiole detail
+- aerial roots
+- inflorescence
+
+Lower panel:
+
+- habitat: [HABITAT SUMMARY]
+- native range map
+- morphology summary
+
+The page should resemble a luxury botanical atlas plate.
+
+WATERMARK
+
+- Include the Aroid Atlas logo watermark discreetly in the lower-right corner of the plate
+- The watermark should be semi-transparent, small, and not obscure any botanical details
+- Logo consists of the text "AROIDATLAS" in a clean, modern sans-serif typeface
+
+--------------------------------
+
+SPECIES MORPHOLOGY
+
+--------------------------------
+
+BOTANICAL ACCURACY REQUIREMENTS
+
+Critical identifying traits for [PLANT NAME]:
+
+- [CRITICAL TRAIT 1]
+- [CRITICAL TRAIT 2]
+- [CRITICAL TRAIT 3]
+- [CRITICAL TRAIT 4]
+- [CRITICAL TRAIT 5]
+
+Morphology:
+
+Leaf Shape:
+[LEAF SHAPE DESCRIPTION]
+
+Leaf Ratio:
+[LEAF RATIO DESCRIPTION]
+
+Texture:
+[TEXTURE DESCRIPTION]
+
+Petiole:
+[PETIOLE DESCRIPTION]
+
+Growth Habit:
+[GROWTH HABIT DESCRIPTION]
+
+Mature Size:
+[MATURE SIZE DESCRIPTION]
+
+Origin:
+[FULL ORIGIN DESCRIPTION]
+
+Habitat:
+[FULL HABITAT DESCRIPTION]
+
+The specimen of [PLANT NAME] should immediately be recognizable to an experienced collector.
+
+Failure to accurately reproduce species-defining morphology should be considered incorrect.
+
+--------------------------------
+
+NEGATIVE CONSTRAINTS
+
+--------------------------------
+
+Do not generate:
+
+- [NEGATIVE CONSTRAINT 1]
+- [NEGATIVE CONSTRAINT 2]
+- [NEGATIVE CONSTRAINT 3]
+- [NEGATIVE CONSTRAINT 4]
+- [NEGATIVE CONSTRAINT 5]
+
+--------------------------------
+
+FINAL REQUIREMENT
+
+--------------------------------
+
+Botanical accuracy is the highest priority.
+
+The illustration style may be stylized.
+
+The morphology must remain faithful to real specimens.
+
+REFERENCE IMAGE (if provided)
+
+If a reference image of the actual plant is attached, use it as a strict visual guide for morphology, proportions, and colouration. The generated plate must match the reference specimen closely.

@@ -7,6 +7,7 @@ import { normaliseListing } from "@/lib/prices/normaliseListing";
 import { filterPlantListings } from "@/lib/prices/filterPlantListings";
 import { classifyListing } from "@/lib/prices/classifyPlantListing";
 import { calculateStats } from "@/lib/prices/calculatePriceStats";
+import { getPriceRarityTier } from "@/lib/prices/priceRarityTier";
 
 const ADMIN_SECRET = process.env.ADMIN_PRICE_SECRET;
 
@@ -60,6 +61,14 @@ export async function GET(request: NextRequest) {
     const { accepted, rejected } = filterPlantListings(normalised, config);
     const classified = accepted.map(classifyListing);
     const stats = calculateStats(classified, rejected.length);
+
+    // Auto-update priceGuideTier in plant JSON based on trimmed mean
+    if (stats.trimmedMean > 0) {
+      const newTier = getPriceRarityTier(stats.trimmedMean).tier;
+      const plantJson = JSON.parse(fs.readFileSync(plantPath, "utf-8"));
+      plantJson.priceGuideTier = newTier;
+      fs.writeFileSync(plantPath, JSON.stringify(plantJson, null, 2));
+    }
 
     const snapshot = {
       plantSlug: slug,

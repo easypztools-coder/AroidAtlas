@@ -6,6 +6,7 @@ import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { useRouter, usePathname } from "next/navigation";
 import { featuredPlants } from "@/lib/mock-data";
+import { getStaticTierLabel } from "@/lib/prices/priceRarityTier";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -123,7 +124,7 @@ export default function Navbar() {
                       <p className="font-medium text-heading italic truncate">{plant.scientificName}</p>
                       <p className="text-xs text-muted truncate">{plant.commonName}</p>
                     </div>
-                    <span className="badge-primary shrink-0 text-[10px]">{plant.rarityStatus}</span>
+                    <span className="badge-price shrink-0 text-[10px]">{plant.priceGuideTier} · {getStaticTierLabel(plant.priceGuideTier)}</span>
                   </button>
                 ))}
               </motion.div>

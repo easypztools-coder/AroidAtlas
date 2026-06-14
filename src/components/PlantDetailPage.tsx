@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import PriceHistoryChart from "@/components/PriceHistoryChart";
 import type { PriceHistoryPoint } from "@/lib/prices/types";
-import { getPriceRarityTier, getStaticTierLabel } from "@/lib/prices/priceRarityTier";
+import { getStaticTierLabel } from "@/lib/prices/priceRarityTier";
 
 interface PricePoint {
   date: string;
@@ -158,10 +158,6 @@ export default function PlantDetailPage({
       });
   }, [data.slug]);
 
-  const combinedTier = fairPrice !== null
-    ? getPriceRarityTier(fairPrice)
-    : { tier: data.priceGuideTier, label: getStaticTierLabel(data.priceGuideTier) };
-
   return (
     <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 max-w-7xl mx-auto px-4 py-8 bg-background lg:items-start">
       {/* ===== LEFT COLUMN (Cols 1-7) ===== */}
@@ -237,7 +233,7 @@ export default function PlantDetailPage({
             <svg className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="currentColor">
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
             </svg>
-            {combinedTier.tier} · {combinedTier.label}
+            {data.priceGuideTier} · {getStaticTierLabel(data.priceGuideTier)}
           </span>
           {data.availability && (
             <span className="inline-flex items-center gap-1.5 rounded-full bg-card px-3 py-1 text-xs font-medium text-muted">

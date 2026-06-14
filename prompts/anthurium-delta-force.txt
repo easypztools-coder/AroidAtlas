@@ -1,0 +1,131 @@
+AROIDATLAS BOTANICAL PLATE — Anthurium 'Delta Force'
+
+Create a museum-quality botanical plate of Anthurium 'Delta Force' suitable for a premium digital encyclopedia of rare tropical plants.
+
+STYLE REQUIREMENTS
+
+- Scientific botanical illustration
+- Natural history museum quality
+- Photorealistic rendering
+- Botanical accuracy prioritized over aesthetics
+- Cream archival paper background
+- Elegant editorial design
+- Premium field-guide aesthetic
+- Soft studio lighting
+- No fantasy elements
+- No artistic liberties
+
+LAYOUT REQUIREMENTS
+
+Central specimen of Anthurium 'Delta Force' occupies approximately 60 percent of the composition.
+
+Left information panel:
+
+- scientific name: Anthurium clarinervium × Anthurium pedatoradiatum 'Delta Force'
+- family: Araceae
+- genus: Anthurium
+- cultivar: Delta Force
+- origin: Miami, Florida, USA (hybridised by Steve Nock, Ree Gardens, 1990s)
+
+Right information panel:
+
+Circular morphology callouts showing:
+
+- leaf detail
+- petiole detail
+- venation close-up
+- inflorescence
+
+Lower panel:
+
+- habitat: Cultivated tropical houseplant; thrives in bright indirect light with high humidity; well-draining aroid mix
+- native range map
+- morphology summary
+
+The page should resemble a luxury botanical atlas plate.
+
+WATERMARK
+
+- Include the Aroid Atlas logo watermark discreetly in the lower-right corner of the plate
+- The watermark should be semi-transparent, small, and not obscure any botanical details
+- Logo consists of the text "AROIDATLAS" in a clean, modern sans-serif typeface
+
+--------------------------------
+
+SPECIES MORPHOLOGY
+
+--------------------------------
+
+BOTANICAL ACCURACY REQUIREMENTS
+
+Critical identifying traits for Anthurium 'Delta Force':
+
+- Triangular (deltoid) leaf shape with a sharply acuminate apex — the single most defining trait; no other common Anthurium shares this geometry
+- Bold, luminous white venation against a deep dark-green blade — high contrast inherited from A. clarinervium
+- Leathery, coriaceous leaf surface; slightly velvety adaxially, with a subtle sheen
+- Flat arcuate-sagittate leaf base; undulating leaf margins
+- No lobing whatsoever — inherits the unlobed blade of A. clarinervium, not the pedatisect lobes of A. pedatoradiatum
+- Compact, self-heading, upright clumping growth form — not climbing, not vining
+
+Morphology:
+
+Leaf Shape:
+Strongly triangular (deltoid) with a sharply pointed acuminate apex and a wide arcuate-sagittate base; undulating margins; the triangular geometry is immediately recognisable and does not fully develop until the fourth or fifth leaf
+
+Leaf Ratio:
+Moderately elongated deltoid, 20–30 cm long; broad at the base narrowing sharply and evenly to the tip; adult leaves broad enough to display prominent venation clearly
+
+Texture:
+Leathery and coriaceous; slightly velvety on the adaxial surface; firm and substantial — not thin, papery, or floppy
+
+Petiole:
+Terete (round cross-section); mid-green to pale green; proportionally long relative to the leaf blade; smooth surface
+
+Growth Habit:
+Self-heading, upright, compact clumping habit; terrestrial velvet anthurium type; does not climb or vine; produces new leaves from a central crown
+
+Mature Size:
+40–60 cm overall height and spread; leaves 20–30 cm long; a tidy, architectural houseplant
+
+Origin:
+Deliberately hybridised by Steve Nock of Ree Gardens, Miami, Florida, USA, in the 1990s; a select seedling from the cross Anthurium clarinervium × Anthurium pedatoradiatum; Delta Force was the only seedling from the cross to produce the distinctive deltoid leaf with the characteristically narrow tip
+
+Habitat:
+Cultivated tropical houseplant; thrives in bright indirect light with high humidity; well-draining aroid mix; does not tolerate waterlogging
+
+The specimen of Anthurium 'Delta Force' should immediately be recognizable to an experienced collector.
+
+Failure to accurately reproduce species-defining morphology should be considered incorrect.
+
+--------------------------------
+
+NEGATIVE CONSTRAINTS
+
+--------------------------------
+
+Do not generate:
+
+- Heart-shaped or cordate leaves
+- Lobed, dissected, or pedatisect leaves (must not resemble A. pedatoradiatum)
+- Thin, papery, or membranaceous leaf texture
+- Rounded or blunt leaf tip (the apex must be sharply pointed)
+- Climbing, vining, or hemiepiphytic growth form
+- Yellow, cream, or green venation (veins must be striking white)
+- Variegation of any kind on the leaf blade
+- Leaves without the triangular deltoid geometry
+
+--------------------------------
+
+FINAL REQUIREMENT
+
+--------------------------------
+
+Botanical accuracy is the highest priority.
+
+The illustration style may be stylized.
+
+The morphology must remain faithful to real specimens.
+
+REFERENCE IMAGE (if provided)
+
+If a reference image of the actual plant is attached, use it as a strict visual guide for morphology, proportions, and colouration. The generated plate must match the reference specimen closely.
