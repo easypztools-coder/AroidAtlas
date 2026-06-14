@@ -112,19 +112,20 @@ export default function PriceHistoryChart({
               }}
             />
 
+            {/* Custom legend rendered manually instead of recharts Legend component */}
             <Legend
-              verticalAlign="bottom"
-              height={24}
-              iconType="rect"
-              iconSize={10}
-              wrapperStyle={{ fontSize: "11px", color: TEXT_MUTED }}
-              formatter={(value: string) => {
-                const legendLabels: Record<string, string> = {
-                  median: "Median Price",
-                  p75Band: "25th–75th Percentile",
-                };
-                return legendLabels[value] ?? value;
-              }}
+              content={() => (
+                <div className="flex items-center justify-center gap-4 pt-2 pb-1">
+                  <div className="flex items-center gap-1.5">
+                    <div className="h-0.5 w-4 bg-[#C3D9A1]" />
+                    <span className="text-[10px] text-[#8B9A92]">Median Price</span>
+                  </div>
+                  <div className="flex items-center gap-1.5">
+                    <div className="h-2 w-4 rounded-sm bg-[#A3C17A]/20 border border-dashed border-[#A3C17A]" />
+                    <span className="text-[10px] text-[#8B9A92]">25th–75th Percentile</span>
+                  </div>
+                </div>
+              )}
             />
 
             {/* p25–p75 range band (renders behind median line) */}
@@ -171,22 +172,6 @@ export default function PriceHistoryChart({
               dot={false}
               activeDot={false}
               legendType="none"
-            />
-
-            {/* Render a fake data series for the legend key "p75Band" */}
-            <Line
-              dataKey="p75Band"
-              stroke={BAND_COLOR}
-              strokeWidth={0}
-              strokeDasharray="3 3"
-              dot={false}
-              activeDot={false}
-              legendType="line"
-              isAnimationActive={false}
-              data={data.map((d) => ({
-                ...d,
-                p75Band: null as number | null,
-              }))}
             />
 
             {/* Median line */}
