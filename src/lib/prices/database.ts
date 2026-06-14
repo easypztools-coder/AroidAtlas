@@ -1,4 +1,5 @@
-import { put, list, get } from "@vercel/blob";
+import fs from "fs";
+import path from "path";
 import { PriceSnapshot, PriceListing } from "./types";
 
 /**
@@ -6,41 +7,48 @@ import { PriceSnapshot, PriceListing } from "./types";
  *
  * Storage layer for price snapshots.
  *
- * Uses Vercel Blob Storage — works on Vercel's serverless runtime.
- * In local dev, ensure BLOB_READ_WRITE_TOKEN is set in .env.local.
+ * Uses /tmp (ephemeral, writable on Vercel serverless).
+ * Snapshots persist within the same deployment but not across redeploys.
+ * This is fine — the workflow fetches fresh data twice a week anyway.
  *
  * Structure:
- *   price-snapshots/{slug}/{timestamp}.json
- *   price-snapshots/{slug}/latest.json
+ *   /tmp/price-snapshots/{slug}/{timestamp}.json
+ *   /tmp/price-snapshots/{slug}/latest.json
  *
  * ──────────────────────────────────────────────────────────────────────────
  */
 
-const BLOB_PREFIX = "price-snapshots";
+const SNAPSHOTS_DIR = process.env.VERCEL
+  ? "/tmp/price-snapshots"
+  : path.join(process.cwd(), "content", "price-snapshots");
 
 /**
- * Save a price snapshot to Vercel Blob.
+ * Ensure the snapshots directory exists.
+ */
+function ensureDir(dir: string) {
+  if (!fs.existsSync(dir)) {
+    fs.mkdirSync(dir, { recursive: true });
+  }
+}
+
+/**
+ * Save a price snapshot to disk.
  */
 export async function saveSnapshot(
   snapshot: PriceSnapshot,
   listings: PriceListing[]
 ): Promise<void> {
+  const slugDir = path.join(SNAPSHOTS_DIR, snapshot.plantSlug);
+  ensureDir(slugDir);
+
   const timestamp = snapshot.checkedAt.replace(/[:.]/g, "-");
   const data = JSON.stringify({ snapshot, listings }, null, 2);
 
   // Write timestamped file (historical record)
-  await put(
-    `${BLOB_PREFIX}/${snapshot.plantSlug}/${timestamp}.json`,
-    data,
-    { contentType: "application/json", access: "public" }
-  );
+  fs.writeFileSync(path.join(slugDir, `${timestamp}.json`), data, "utf-8");
 
   // Overwrite latest.json (for quick reads)
-  await put(
-    `${BLOB_PREFIX}/${snapshot.plantSlug}/latest.json`,
-    data,
-    { contentType: "application/json", access: "public" }
-  );
+  fs.writeFileSync(path.join(slugDir, "latest.json"), data, "utf-8");
 }
 
 /**
@@ -50,24 +58,15 @@ export async function saveSnapshot(
 export async function loadLatestSnapshot(
   slug: string
 ): Promise<{ snapshot: PriceSnapshot; listings: PriceListing[] } | null> {
+  const latestPath = path.join(SNAPSHOTS_DIR, slug, "latest.json");
+
+  if (!fs.existsSync(latestPath)) {
+    return null;
+  }
+
   try {
-    const result = await get(`${BLOB_PREFIX}/${slug}/latest.json`, {
-      access: "public",
-    });
-    if (!result || result.statusCode !== 200 || !result.stream) return null;
-
-    // Read the stream into a string
-    const reader = result.stream.getReader();
-    const decoder = new TextDecoder();
-    let text = "";
-    while (true) {
-      const { done, value } = await reader.read();
-      if (done) break;
-      text += decoder.decode(value, { stream: true });
-    }
-    text += decoder.decode(); // flush
-
-    return JSON.parse(text);
+    const raw = fs.readFileSync(latestPath, "utf-8");
+    return JSON.parse(raw);
   } catch {
     return null;
   }
@@ -77,16 +76,16 @@ export async function loadLatestSnapshot(
  * List all snapshot timestamps for a given plant slug.
  */
 export async function listSnapshots(slug: string): Promise<string[]> {
-  const prefix = `${BLOB_PREFIX}/${slug}/`;
+  const slugDir = path.join(SNAPSHOTS_DIR, slug);
 
-  try {
-    const { blobs } = await list({ prefix });
-    return blobs
-      .filter((b) => b.pathname.endsWith(".json") && !b.pathname.endsWith("latest.json"))
-      .map((b) => b.pathname.replace(`${prefix}`, "").replace(".json", ""))
-      .sort()
-      .reverse();
-  } catch {
+  if (!fs.existsSync(slugDir)) {
     return [];
   }
+
+  return fs
+    .readdirSync(slugDir)
+    .filter((f) => f.endsWith(".json") && f !== "latest.json")
+    .map((f) => f.replace(".json", ""))
+    .sort()
+    .reverse();
 }
