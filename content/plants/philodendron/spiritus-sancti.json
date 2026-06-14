@@ -51,7 +51,7 @@
     "marketplace": "ebay.co.uk",
     "query": "Philodendron spiritus sancti",
     "requiredTerms": [],
-    "acceptedTerms": ["philodendron spiritus sancti", "philodendron spiritus-sancti", "spiritus sancti", "spiritus-sancti", "spiritus sanctus", "pss"],
+    "acceptedTerms": ["philodendron spiritus sancti", "philodendron spiritus-sancti", "spiritus sancti", "spiritus-sancti", "spiritus sanctus", "spiritu sancti", "spiritu-sancti", "spirtu sancti", "spiritus s", "pss"],
     "excludeTerms": [
       "micans",
       "splendid",
