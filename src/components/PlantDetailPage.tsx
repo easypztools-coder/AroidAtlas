@@ -1,7 +1,11 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 import PriceChart from "@/components/PriceChart";
 import PriceHistoryChart from "@/components/PriceHistoryChart";
+import type { PriceHistoryPoint } from "@/lib/prices/types";
 
 interface PricePoint {
   date: string;
@@ -145,6 +149,24 @@ export default function PlantDetailPage({
 }) {
   const morphEntries = Object.entries(data.morphology);
   const genusLabel = GENUS_LABELS[genus] ?? genus;
+
+  // ─── Fetch live price history for spiritus-sancti ──────────────────────
+  const [soldCompsData, setSoldCompsData] = useState<PriceHistoryPoint[]>([]);
+
+  useEffect(() => {
+    if (data.slug !== "spiritus-sancti") return;
+
+    fetch(`/api/plants/${data.slug}/price-history`)
+      .then((res) => res.json())
+      .then((json) => {
+        if (json.history && Array.isArray(json.history)) {
+          setSoldCompsData(json.history);
+        }
+      })
+      .catch(() => {
+        // Silently fail — chart will show empty state
+      });
+  }, [data.slug]);
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-10 gap-8 max-w-7xl mx-auto px-4 py-8 bg-background">
@@ -419,7 +441,7 @@ export default function PlantDetailPage({
                   Filtered completed listings from SoldComps. Updated weekly.
                 </p>
                 <PriceHistoryChart
-                  data={[]}
+                  data={soldCompsData}
                 />
               </div>
             )}

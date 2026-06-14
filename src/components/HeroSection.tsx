@@ -179,7 +179,7 @@ export default function HeroSection() {
               {/* Styled Container for hero plant image */}
               <div className="glass-card-glow relative flex h-full w-full items-center justify-center overflow-hidden rounded-3xl">
                 <Image
-                  src="/images/plants/spiritus-sancti.jpg"
+                  src="/api/plant-image?genus=philodendron&slug=spiritus-sancti"
                   alt="Philodendron spiritus-sancti — Hero Specimen"
                   fill
                   className="object-contain"
