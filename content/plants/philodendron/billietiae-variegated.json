@@ -33,18 +33,19 @@
     "growthHabit": "Climbing with thick aerial roots"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 150.00,
-    "threeMonthChangePercent": -8.5,
-    "marketStatus": "Stable"
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
   },
-  "priceHistory": [
-    { "date": "2026-01-11", "medianPriceGBP": 185.00, "dataPointsAnalyzed": 5 },
-    { "date": "2026-02-08", "medianPriceGBP": 175.00, "dataPointsAnalyzed": 7 },
-    { "date": "2026-03-15", "medianPriceGBP": 168.00, "dataPointsAnalyzed": 9 },
-    { "date": "2026-04-19", "medianPriceGBP": 160.00, "dataPointsAnalyzed": 12 },
-    { "date": "2026-05-17", "medianPriceGBP": 155.00, "dataPointsAnalyzed": 10 },
-    { "date": "2026-06-10", "medianPriceGBP": 150.00, "dataPointsAnalyzed": 8 }
-  ],
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron billietiae variegated",
+    "acceptedTerms": ["philodendron billietiae variegated", "billietiae variegated", "billietiae var"],
+    "excludeTerms": ["seeds", "corm", "rhizome", "poster", "print", "artificial", "fake", "soil", "pot only"],
+    "marketCurrency": "GBP"
+  },
   "recommendedPlants": [
     { "name": "Philodendron spiritus-sancti", "slug": "spiritus-sancti", "rarity": "Extremely Rare", "price": "££££" },
     { "name": "Philodendron joepii", "slug": "joepii", "rarity": "Rare", "price": "££" },

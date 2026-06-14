@@ -31,16 +31,15 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ error: "Missing slug parameter" }, { status: 400 });
   }
 
-  // ─── Load plant data ────────────────────────────────────────────────────
-  const plantPath = path.join(
-    process.cwd(),
-    "content",
-    "plants",
-    "philodendron",
-    `${slug}.json`
-  );
+  // ─── Load plant data (search across all genera) ─────────────────────────
+  const genera = ["philodendron", "monstera", "alocasia", "anthurium"];
+  let plantPath: string | null = null;
+  for (const genus of genera) {
+    const candidate = path.join(process.cwd(), "content", "plants", genus, `${slug}.json`);
+    if (fs.existsSync(candidate)) { plantPath = candidate; break; }
+  }
 
-  if (!fs.existsSync(plantPath)) {
+  if (!plantPath) {
     return NextResponse.json({ error: `Plant "${slug}" not found` }, { status: 404 });
   }
 

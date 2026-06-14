@@ -36,7 +36,7 @@ export const featuredPlants: PlantEntry[] = [
     name: "Philodendron spiritus-sancti",
     slug: "spiritus-sancti",
     scientificName: "Philodendron spiritus-sancti",
-    commonName: "The Holy Grail Philodendron",
+    commonName: "Philodendron Spiritus Sancti",
     genus: "Philodendron",
     origin: "Espírito Santo, Brazil",
     rarityStatus: "Extremely Rare",

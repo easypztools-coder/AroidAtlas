@@ -33,18 +33,19 @@
     "growthHabit": "Climbing with thick aerial roots"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 120.00,
-    "threeMonthChangePercent": 5.2,
-    "marketStatus": "Rising"
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
   },
-  "priceHistory": [
-    { "date": "2026-01-11", "medianPriceGBP": 95.00, "dataPointsAnalyzed": 3 },
-    { "date": "2026-02-08", "medianPriceGBP": 100.00, "dataPointsAnalyzed": 5 },
-    { "date": "2026-03-15", "medianPriceGBP": 108.00, "dataPointsAnalyzed": 7 },
-    { "date": "2026-04-19", "medianPriceGBP": 115.00, "dataPointsAnalyzed": 9 },
-    { "date": "2026-05-17", "medianPriceGBP": 118.00, "dataPointsAnalyzed": 11 },
-    { "date": "2026-06-10", "medianPriceGBP": 120.00, "dataPointsAnalyzed": 8 }
-  ],
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera Devil Monster",
+    "acceptedTerms": ["monstera devil monster", "devil monster monstera", "devil monster"],
+    "excludeTerms": ["seeds", "corm", "rhizome", "poster", "print", "artificial", "fake", "soil", "pot only"],
+    "marketCurrency": "GBP"
+  },
   "recommendedPlants": [
     { "name": "Monstera burle marx flame", "slug": "burle-marx-flame", "rarity": "Rare", "price": "£££" },
     { "name": "Philodendron spiritus-sancti", "slug": "spiritus-sancti", "rarity": "Extremely Rare", "price": "££££" },

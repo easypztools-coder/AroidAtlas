@@ -5,7 +5,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { useState, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { heroStats, featuredPlants } from "@/lib/mock-data";
+import { featuredPlants } from "@/lib/mock-data";
 
 function StatCard({ label, value, index }: { label: string; value: string; index: number }) {
   return (
@@ -21,12 +21,34 @@ function StatCard({ label, value, index }: { label: string; value: string; index
   );
 }
 
+const LIVE_STAT_LABELS = [
+  { key: "species",           label: "Species Tracked" },
+  { key: "genera",            label: "Genera Covered" },
+  { key: "soldCompsAnalysed", label: "Sold Comps Analysed" },
+  { key: "priceChecks",       label: "Price Checks Run" },
+] as const;
+
 export default function HeroSection() {
   const [searchQuery, setSearchQuery] = useState("");
   const [searchResults, setSearchResults] = useState<typeof featuredPlants>([]);
   const [showResults, setShowResults] = useState(false);
+  const [liveStats, setLiveStats] = useState<Record<string, string>>({});
   const router = useRouter();
   const searchRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    fetch("/api/stats")
+      .then((r) => r.json())
+      .then((d) =>
+        setLiveStats({
+          species:           d.species.toString(),
+          genera:            d.genera.toString(),
+          soldCompsAnalysed: d.soldCompsAnalysed.toLocaleString(),
+          priceChecks:       d.priceChecks.toString(),
+        })
+      )
+      .catch(() => {});
+  }, []);
 
   useEffect(() => {
     function handleClickOutside(event: MouseEvent) {
@@ -160,8 +182,8 @@ export default function HeroSection() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="flex flex-wrap gap-3"
             >
-              {heroStats.map((stat, i) => (
-                <StatCard key={stat.label} {...stat} index={i} />
+              {LIVE_STAT_LABELS.map((s, i) => (
+                <StatCard key={s.key} label={s.label} value={liveStats[s.key] ?? "—"} index={i} />
               ))}
             </motion.div>
           </div>

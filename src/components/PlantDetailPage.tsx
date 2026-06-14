@@ -58,11 +58,11 @@ interface PlantData {
   quickFacts: QuickFacts;
   morphology: Morphology;
   marketMetrics: {
-    currentMedianPriceGBP: number;
-    threeMonthChangePercent: number;
-    marketStatus: string;
+    currentMedianPriceGBP: number | null;
+    threeMonthChangePercent: number | null;
+    marketStatus: string | null;
   };
-  priceHistory: PricePoint[];
+  priceHistory?: PricePoint[];
   recommendedPlants: RecommendedPlant[];
 }
 
@@ -137,13 +137,11 @@ export default function PlantDetailPage({
   const morphEntries = Object.entries(data.morphology);
   const genusLabel = GENUS_LABELS[genus] ?? genus;
 
-  // ─── Fetch live price history for spiritus-sancti ──────────────────────
+  // ─── Fetch live price history ───────────────────────────────────────────
   const [soldCompsData, setSoldCompsData] = useState<PriceHistoryPoint[]>([]);
   const [fairPrice, setFairPrice] = useState<number | null>(null);
 
   useEffect(() => {
-    if (data.slug !== "spiritus-sancti") return;
-
     fetch(`/api/plants/${data.slug}/price-history`)
       .then((res) => res.json())
       .then((json) => {
@@ -386,34 +384,36 @@ export default function PlantDetailPage({
               </div>
             )}
 
-            <div className="mt-3 flex items-center gap-2">
-              <span
-                className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider ${
-                  data.marketMetrics.marketStatus === "Volatile"
-                    ? "bg-rarity/10 text-rarity"
-                    : data.marketMetrics.marketStatus === "Rising"
-                    ? "bg-green-500/10 text-green-400"
-                    : data.marketMetrics.marketStatus === "Declining"
-                    ? "bg-orange-500/10 text-orange-400"
-                    : "bg-muted/10 text-muted"
-                }`}
-              >
-                <svg className="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
-                  {data.marketMetrics.marketStatus === "Rising" ? (
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
-                  ) : data.marketMetrics.marketStatus === "Declining" || data.marketMetrics.marketStatus === "Volatile" ? (
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6L9 12.75l4.286-4.286a11.95 11.95 0 014.306 6.43l.776 2.898m0 0l3.182-5.511m-3.182 5.51l-5.511-3.181" />
-                  ) : (
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                  )}
-                </svg>
-                {data.marketMetrics.marketStatus}
-              </span>
-              <span className="text-xs text-muted">
-                {data.marketMetrics.threeMonthChangePercent > 0 ? "+" : ""}
-                {data.marketMetrics.threeMonthChangePercent.toFixed(1)}% 3mo
-              </span>
-            </div>
+            {soldCompsData.length > 0 && data.marketMetrics.marketStatus && (
+              <div className="mt-3 flex items-center gap-2">
+                <span
+                  className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider ${
+                    data.marketMetrics.marketStatus === "Volatile"
+                      ? "bg-rarity/10 text-rarity"
+                      : data.marketMetrics.marketStatus === "Rising"
+                      ? "bg-green-500/10 text-green-400"
+                      : data.marketMetrics.marketStatus === "Declining"
+                      ? "bg-orange-500/10 text-orange-400"
+                      : "bg-muted/10 text-muted"
+                  }`}
+                >
+                  <svg className="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
+                    {data.marketMetrics.marketStatus === "Rising" ? (
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
+                    ) : data.marketMetrics.marketStatus === "Declining" || data.marketMetrics.marketStatus === "Volatile" ? (
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6L9 12.75l4.286-4.286a11.95 11.95 0 014.306 6.43l.776 2.898m0 0l3.182-5.511m-3.182 5.51l-5.511-3.181" />
+                    ) : (
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    )}
+                  </svg>
+                  {data.marketMetrics.marketStatus}
+                </span>
+                <span className="text-xs text-muted">
+                  {(data.marketMetrics.threeMonthChangePercent ?? 0) > 0 ? "+" : ""}
+                  {(data.marketMetrics.threeMonthChangePercent ?? 0).toFixed(1)}% 3mo
+                </span>
+              </div>
+            )}
           </div>
 
           <a

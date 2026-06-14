@@ -33,13 +33,19 @@
     "growthHabit": "Upright rhizomatous"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 75.00,
-    "threeMonthChangePercent": -5.0,
-    "marketStatus": "Stable"
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
   },
-  "priceHistory": [
-    { "date": "2026-06-10", "medianPriceGBP": 75.00, "dataPointsAnalyzed": 5 }
-  ],
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia Venom",
+    "acceptedTerms": ["alocasia venom", "venom alocasia", "alocasia amazonica venom"],
+    "excludeTerms": ["seeds", "corm", "rhizome", "poster", "print", "artificial", "fake", "soil", "pot only"],
+    "marketCurrency": "GBP"
+  },
   "recommendedPlants": [
     { "name": "Alocasia 'Polly'", "slug": "polly", "rarity": "Common", "price": "£" },
     { "name": "Alocasia 'Bambino'", "slug": "bambino", "rarity": "Common", "price": "£" },
