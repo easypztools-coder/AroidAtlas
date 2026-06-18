@@ -34,8 +34,7 @@ function StatCard({ label, value, index }: { label: string; value: string; index
 const LIVE_STAT_LABELS = [
   { key: "species",           label: "Species Tracked" },
   { key: "genera",            label: "Genera Covered" },
-  { key: "soldCompsAnalysed", label: "Sold Comps Analysed" },
-  { key: "priceChecks",       label: "Price Checks Run" },
+  { key: "soldCompsAnalysed", label: "Sold Prices Tracked" },
 ] as const;
 
 export default function HeroSection() {
@@ -55,7 +54,6 @@ export default function HeroSection() {
           species:           d.species.toString(),
           genera:            d.genera.toString(),
           soldCompsAnalysed: d.soldCompsAnalysed.toLocaleString(),
-          priceChecks:       d.priceChecks.toString(),
         })
       )
       .catch(() => {});

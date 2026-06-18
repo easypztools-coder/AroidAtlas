@@ -1,13 +1,29 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import Link from "next/link";
 
 export default function ExploreCTA() {
+  const [speciesCount, setSpeciesCount] = useState<string>("");
+
+  useEffect(() => {
+    fetch("/api/stats")
+      .then((r) => r.json())
+      .then((d) => {
+        if (d.species) {
+          setSpeciesCount(`${d.species} `);
+        }
+      })
+      .catch(() => {});
+  }, []);
+
   return (
     <section className="relative section-spacing">
       <div className="section-container">
         <div className="glass-card-glow overflow-hidden rounded-3xl p-8 md:p-14 text-center">
           <h2 className="section-heading">Explore the Full Database</h2>
           <p className="section-subheading mt-3 mx-auto max-w-xl">
-            Browse 1,744+ species across Monstera, Philodendron, Anthurium, Alocasia and beyond — with live eBay UK market prices.
+            Browse {speciesCount || ""}species across Monstera, Philodendron, Anthurium, Alocasia and beyond — with live eBay UK market prices.
           </p>
           <div className="mt-8">
             <Link

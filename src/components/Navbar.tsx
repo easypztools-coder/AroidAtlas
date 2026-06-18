@@ -86,15 +86,15 @@ export default function Navbar() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-primary/10 bg-background/90 backdrop-blur-xl supports-[backdrop-filter]:bg-background/80">
-      <nav className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-6">
+      <nav className="mx-auto flex h-20 max-w-7xl items-center justify-between gap-4 px-6">
         {/* Logo */}
         <Link href="/" className="flex items-center shrink-0">
           <Image
             src="/images/logo.png"
             alt="Ariod Atlas"
-            width={132}
-            height={44}
-            className="h-11 w-auto"
+            width={240}
+            height={60}
+            className="h-14 w-auto"
             priority
           />
         </Link>
