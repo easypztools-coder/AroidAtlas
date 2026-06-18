@@ -76,5 +76,11 @@
     ],
     "marketCurrency": "GBP"
   },
-  "recommendedPlants": []
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "The Pale Empress of the Understory",
+    "date": "2022-10-18",
+    "author": "Aaron",
+    "content": "Philodendron 'Whipple Way' is famous for its nearly pure white, cream, or pale pink lanceolate leaves, with subtle green striping. Discovered as a mutation in a private greenhouse, its lack of chlorophyll makes it exceptionally slow-growing and sensitive. The leaves emerge almost paper-white before developing a soft green variegation as they age. A study on chlorophyll-deficient mutations in ornamental plants notes that these varieties require extremely bright, indirect light to survive, as too little light will lead to melting, while too much will scorch the delicate tissues. It remains one of the most coveted collectors' plants globally."
+  }
 }

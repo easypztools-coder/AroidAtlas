@@ -51,17 +51,56 @@
       "p. billietiae variegated"
     ],
     "excludeTerms": [
-      "seeds", "seed", "corm", "bulb", "rhizome",
-      "poster", "print", "book", "magazine", "care guide",
-      "artificial", "fake", "plastic", "silk",
-      "soil", "perlite", "fertiliser", "fertilizer", "moss pole",
-      "pot only", "label", "tag", "cutting board"
+      "seeds",
+      "seed",
+      "corm",
+      "bulb",
+      "rhizome",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
     ],
     "marketCurrency": "GBP"
   },
   "recommendedPlants": [
-    { "name": "Philodendron spiritus-sancti", "slug": "spiritus-sancti", "rarity": "Extremely Rare", "price": "££££" },
-    { "name": "Philodendron x joepii 'Aurea Variegata'", "slug": "joepii-aurea-variegata", "rarity": "Ultra Rare", "price": "££££" },
-    { "name": "Monstera burle marx flame", "slug": "burle-marx-flame", "rarity": "Rare", "price": "£££" }
-  ]
+    {
+      "name": "Philodendron spiritus-sancti",
+      "slug": "spiritus-sancti",
+      "rarity": "Extremely Rare",
+      "price": "££££"
+    },
+    {
+      "name": "Philodendron x joepii 'Aurea Variegata'",
+      "slug": "joepii-aurea-variegata",
+      "rarity": "Ultra Rare",
+      "price": "££££"
+    },
+    {
+      "name": "Monstera burle marx flame",
+      "slug": "burle-marx-flame",
+      "rarity": "Rare",
+      "price": "£££"
+    }
+  ],
+  "fieldNotes": {
+    "title": "Orange Petioles in Splashed Gold",
+    "date": "2022-07-14",
+    "author": "Aaron",
+    "content": "Philodendron billietiae was discovered in 1981 in French Guiana by Frieda Billiet. It is immediately recognizable by its long, strap-like leaves and bright orange petioles. The variegated clone, featuring bold splashes of yellow and cream, is one of the most stunning sights in aroid cultivation. A 1995 study on neotropical hemi-epiphytes highlighted billietiae's climbing habit, utilizing its orange petioles to position leaves outward to catch light. The variegated sections disrupt the photosynthesis rate, making it slower than the green form, but the combination of orange, green, and gold is unmatched."
+  }
 }

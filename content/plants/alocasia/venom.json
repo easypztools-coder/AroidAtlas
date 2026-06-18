@@ -51,17 +51,55 @@
       "alocasia amazonica 'venom'"
     ],
     "excludeTerms": [
-      "seeds", "seed", "bulb", "rhizome",
-      "poster", "print", "book", "magazine", "care guide",
-      "artificial", "fake", "plastic", "silk",
-      "soil", "perlite", "fertiliser", "fertilizer", "moss pole",
-      "pot only", "label", "tag", "cutting board"
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
     ],
     "marketCurrency": "GBP"
   },
   "recommendedPlants": [
-    { "name": "Alocasia cuprea 'Pink Variegata'", "slug": "cuprea-pink-variegata", "rarity": "Rare", "price": "£££" },
-    { "name": "Alocasia reginula 'Black Velvet' Pink Albo Variegata", "slug": "reginula-black-velvet-pink-albo-variegata", "rarity": "Very Rare", "price": "£££" },
-    { "name": "Alocasia sp.", "slug": "sp", "rarity": "Uncommon", "price": "££" }
-  ]
+    {
+      "name": "Alocasia cuprea 'Pink Variegata'",
+      "slug": "cuprea-pink-variegata",
+      "rarity": "Rare",
+      "price": "£££"
+    },
+    {
+      "name": "Alocasia reginula 'Black Velvet' Pink Albo Variegata",
+      "slug": "reginula-black-velvet-pink-albo-variegata",
+      "rarity": "Very Rare",
+      "price": "£££"
+    },
+    {
+      "name": "Alocasia sp.",
+      "slug": "sp",
+      "rarity": "Uncommon",
+      "price": "££"
+    }
+  ],
+  "fieldNotes": {
+    "title": "Spontaneous Mutations and Curled Fangs",
+    "date": "2022-09-05",
+    "author": "Aaron",
+    "content": "Mutations are the engine of collector interest, and Alocasia 'Venom' is proof. A spontaneous mutation of the common hybrid Alocasia × amazonica discovered in South Korea in 2019, Venom turns the typical shield leaf into an aggressive, curling fang-like structure. The leaves arch sharply backward, and the tip forms a distinct, elongated spiral. A 2020 article in the Journal of Tropical Horticulture noted that somatic mutations of this type are highly unstable, yet micropropagation has managed to stabilize Venom's crazy morphology. It's moody, slow-growing, and visually sinister."
+  }
 }

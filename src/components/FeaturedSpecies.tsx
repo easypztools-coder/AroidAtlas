@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { featuredPlants } from "@/lib/mock-data";
 import { getStaticTierLabel } from "@/lib/prices/priceRarityTier";
@@ -24,39 +25,24 @@ function PlantCard({
         className="glass-card-glow group block overflow-hidden rounded-2xl"
       >
         {/* Image Container */}
-        <div className="relative aspect-[3/4] overflow-hidden bg-gradient-to-b from-forest-deep to-card">
-          {/* SVG Plant Silhouette Placeholder */}
-          <div className="flex h-full w-full items-center justify-center p-6">
-            <svg
-              className="h-full w-full text-primary/15 transition-all duration-500 group-hover:scale-105 group-hover:text-primary/25"
-              viewBox="0 0 200 280"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M100 260C100 260 45 190 45 125C45 65 72 30 100 20C128 30 155 65 155 125C155 190 100 260 100 260Z"
-                fill="currentColor"
-                opacity="0.35"
-              />
-              <path
-                d="M100 230C100 230 60 175 60 125C60 80 82 50 100 40C118 50 140 80 140 125C140 175 100 230 100 230Z"
-                fill="currentColor"
-                opacity="0.25"
-              />
-              <line
-                x1="100"
-                y1="260"
-                x2="100"
-                y2="20"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                opacity="0.2"
-              />
-            </svg>
-          </div>
+        <div className="relative aspect-[3/4] overflow-hidden bg-card">
+          {/* Spotlight Plant Plate Image */}
+          <Image
+            src={`/api/plant-image?genus=${plant.genus.toLowerCase()}&slug=${plant.slug}`}
+            alt={plant.commonName}
+            fill
+            className="object-cover object-center scale-[1.3] transition-all duration-700 ease-out group-hover:scale-[1.4] opacity-80 group-hover:opacity-100 filter brightness-95 group-hover:brightness-105"
+            sizes="(max-width: 768px) 100vw, 25vw"
+          />
 
-          {/* Bottom gradient overlay */}
-          <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-card via-card/80 to-transparent" />
+          {/* Spotlight Reveal Overlay (hides margins/text and exposes center specimen) */}
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_15%,rgba(17,26,21,0.45)_45%,rgba(17,26,21,0.9)_75%,#111A15_100%)] transition-all duration-700 ease-out group-hover:scale-105 pointer-events-none" />
+
+          {/* Soft ambient green light underneath */}
+          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(195,217,161,0.08)_0%,transparent_60%)] pointer-events-none" />
+
+          {/* Bottom gradient overlay for text legibility */}
+          <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-card via-card/75 to-transparent pointer-events-none" />
 
           {/* Info Overlay */}
           <div className="absolute bottom-0 left-0 right-0 p-4">

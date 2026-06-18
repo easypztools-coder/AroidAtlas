@@ -8,7 +8,7 @@
   "genus": "Philodendron",
   "species": "spiritus-sancti",
   "origin": "Espírito Santo, Brazil",
-  "collectorPopularity": 5.0,
+  "collectorPopularity": 5,
   "rarityStatus": "Extremely Rare",
   "availability": "Very Low",
   "priceGuideTier": "££",
@@ -33,17 +33,41 @@
     "growthHabit": "Climbing with thick aerial anchors"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 180.00,
+    "currentMedianPriceGBP": 180,
     "threeMonthChangePercent": -32.4,
     "marketStatus": "Volatile"
   },
   "priceHistory": [
-    { "date": "2026-01-11", "medianPriceGBP": 450.00, "dataPointsAnalyzed": 4 },
-    { "date": "2026-02-08", "medianPriceGBP": 380.00, "dataPointsAnalyzed": 6 },
-    { "date": "2026-03-15", "medianPriceGBP": 290.00, "dataPointsAnalyzed": 8 },
-    { "date": "2026-04-19", "medianPriceGBP": 220.00, "dataPointsAnalyzed": 11 },
-    { "date": "2026-05-17", "medianPriceGBP": 195.00, "dataPointsAnalyzed": 14 },
-    { "date": "2026-06-10", "medianPriceGBP": 180.00, "dataPointsAnalyzed": 9 }
+    {
+      "date": "2026-01-11",
+      "medianPriceGBP": 450,
+      "dataPointsAnalyzed": 4
+    },
+    {
+      "date": "2026-02-08",
+      "medianPriceGBP": 380,
+      "dataPointsAnalyzed": 6
+    },
+    {
+      "date": "2026-03-15",
+      "medianPriceGBP": 290,
+      "dataPointsAnalyzed": 8
+    },
+    {
+      "date": "2026-04-19",
+      "medianPriceGBP": 220,
+      "dataPointsAnalyzed": 11
+    },
+    {
+      "date": "2026-05-17",
+      "medianPriceGBP": 195,
+      "dataPointsAnalyzed": 14
+    },
+    {
+      "date": "2026-06-10",
+      "medianPriceGBP": 180,
+      "dataPointsAnalyzed": 9
+    }
   ],
   "priceTracking": {
     "enabled": true,
@@ -51,7 +75,18 @@
     "marketplace": "ebay.co.uk",
     "query": "Philodendron spiritus sancti",
     "requiredTerms": [],
-    "acceptedTerms": ["philodendron spiritus sancti", "philodendron spiritus-sancti", "spiritus sancti", "spiritus-sancti", "spiritus sanctus", "spiritu sancti", "spiritu-sancti", "spirtu sancti", "spiritus s", "pss"],
+    "acceptedTerms": [
+      "philodendron spiritus sancti",
+      "philodendron spiritus-sancti",
+      "spiritus sancti",
+      "spiritus-sancti",
+      "spiritus sanctus",
+      "spiritu sancti",
+      "spiritu-sancti",
+      "spirtu sancti",
+      "spiritus s",
+      "pss"
+    ],
     "excludeTerms": [
       "micans",
       "splendid",
@@ -88,8 +123,29 @@
     "marketCurrency": "GBP"
   },
   "recommendedPlants": [
-    { "name": "Philodendron x joepii 'Aurea Variegata'", "slug": "joepii-aurea-variegata", "rarity": "Ultra Rare", "price": "££££" },
-    { "name": "Philodendron patriciae 'Variegata'", "slug": "patriciae-variegata", "rarity": "Ultra Rare", "price": "££££" },
-    { "name": "Philodendron 'Whipple Way'", "slug": "whipple-way", "rarity": "Very Rare", "price": "£££" }
-  ]
+    {
+      "name": "Philodendron x joepii 'Aurea Variegata'",
+      "slug": "joepii-aurea-variegata",
+      "rarity": "Ultra Rare",
+      "price": "££££"
+    },
+    {
+      "name": "Philodendron patriciae 'Variegata'",
+      "slug": "patriciae-variegata",
+      "rarity": "Ultra Rare",
+      "price": "££££"
+    },
+    {
+      "name": "Philodendron 'Whipple Way'",
+      "slug": "whipple-way",
+      "rarity": "Very Rare",
+      "price": "£££"
+    }
+  ],
+  "fieldNotes": {
+    "title": "Hunting the Ghost of Espírito Santo",
+    "date": "2024-03-12",
+    "author": "Aaron",
+    "content": "Philodendron spiritus-sancti is the holy grail of rare aroids, endemic to a tiny area of Atlantic Forest in Espírito Santo, Brazil. Described in 1987 by George Bunting, it is critically endangered in the wild, with only a handful of mature specimens left in their natural habitat. Its long, dangling lanceolate leaves and reddish-purple petioles are legendary. In recent years, micropropagation has helped make this once-mythical plant accessible to collectors, but mature specimens remain prized. Studies on the conservation genetics of P. spiritus-sancti highlight the importance of ex-situ cultivation to prevent total extinction."
+  }
 }

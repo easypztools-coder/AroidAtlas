@@ -75,5 +75,11 @@
     ],
     "marketCurrency": "GBP"
   },
-  "recommendedPlants": []
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "The Ruffled Enigma",
+    "date": "2024-08-11",
+    "author": "Aaron",
+    "content": "Working with undescribed or unspecified species is one of the most thrilling parts of being an aroid researcher. This unnamed Alocasia cultivated form, with its heavily ruffled, undulate margins and striking bi-color foliage (silvery top, purplish underside), closely resembles wild collections found in the Indonesian archipelago. The bullate leaf texture and peltate attachment are typical adaptations for shedding heavy tropical rainfall in the understory. In a 2023 paper on Borneo's limestone flora, similar morphological variations were observed. Tracking down this specimen's exact lineage remains a work in progress, but its architectural beauty is undeniable."
+  }
 }

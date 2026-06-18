@@ -66,6 +66,12 @@ interface PlantData {
   };
   priceHistory?: PricePoint[];
   recommendedPlants: RecommendedPlant[];
+  fieldNotes?: {
+    title: string;
+    date: string;
+    author: string;
+    content: string;
+  };
 }
 
 function PopularityStars({ rating }: { rating: number }) {
@@ -332,6 +338,45 @@ export default function PlantDetailPage({
             </div>
           </div>
         </div>
+
+        {/* Field Notes by Aaron (Vintage Journal Style) */}
+        {data.fieldNotes && (
+          <div className="relative overflow-hidden rounded-2xl bg-[#F4F0EA] border-2 border-[#E3DEC3] p-8 text-[#1A2421] shadow-lg">
+            {/* Double-ruled notebook frame */}
+            <div className="absolute inset-4 border border-dashed border-[#A8B5AE]/30 pointer-events-none" />
+            <div className="absolute inset-5 border border-double border-[#8B9A92]/40 pointer-events-none rounded-lg" />
+            
+            <div className="relative z-10 px-4 py-2">
+              <div className="flex items-center justify-between border-b border-[#8B9A92]/20 pb-3 mb-4">
+                <span className="text-[10px] font-bold tracking-widest text-[#8B9A92] uppercase font-body">
+                  Field Notes &middot; Vol. 1
+                </span>
+                <span className="text-xs font-semibold text-[#8B9A92] font-body">
+                  {new Date(data.fieldNotes.date).toLocaleDateString("en-GB", {
+                    day: "numeric",
+                    month: "long",
+                    year: "numeric"
+                  })}
+                </span>
+              </div>
+
+              <h3 className="text-xl font-heading font-bold text-[#1A2421] mb-3 leading-tight italic">
+                {data.fieldNotes.title}
+              </h3>
+
+              <p className="text-sm leading-relaxed text-[#2C3531] font-heading font-serif">
+                {data.fieldNotes.content}
+              </p>
+
+              <div className="mt-6 flex items-center justify-between text-xs text-[#8B9A92] font-body">
+                <span className="italic">Written at AroidAtlas research station</span>
+                <span className="font-semibold italic text-[#1A2421] font-heading text-sm">
+                  &mdash; Aaron
+                </span>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
 
       {/* ===== RIGHT SIDEBAR (Cols 8-10) ===== */}
@@ -454,20 +499,17 @@ export default function PlantDetailPage({
                     </span>
                   </div>
                 </div>
-                <div className="flex h-16 w-16 items-center justify-center rounded-lg bg-background shrink-0">
-                  <svg
-                    className="h-6 w-6 text-muted"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                    strokeWidth={1.5}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"
-                    />
-                  </svg>
+                <div className="relative h-16 w-16 rounded-lg overflow-hidden bg-background border border-primary/5 shrink-0">
+                  <Image
+                    src={`/api/plant-image?genus=${recommendedGenus}&slug=${plant.slug}`}
+                    alt={plant.name}
+                    fill
+                    className="object-cover object-center scale-[1.3] transition-all duration-500 ease-out group-hover:scale-[1.4] opacity-90 group-hover:opacity-100"
+                    sizes="64px"
+                  />
+                  {/* Spotlight overlay for recommended thumbnail */}
+                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_20%,rgba(10,15,12,0.8)_80%,#0A0F0C_100%)] pointer-events-none" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-background/40 via-transparent to-transparent pointer-events-none" />
                 </div>
               </div>
             </Link>

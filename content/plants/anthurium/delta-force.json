@@ -8,7 +8,7 @@
   "genus": "Anthurium",
   "species": "clarinervium × pedatoradiatum 'Delta Force'",
   "origin": "Miami, Florida, USA",
-  "collectorPopularity": 4.0,
+  "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
   "priceGuideTier": "£££",
@@ -33,17 +33,41 @@
     "growthHabit": "Self-heading, compact terrestrial clump"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 145.00,
+    "currentMedianPriceGBP": 145,
     "threeMonthChangePercent": -8.2,
     "marketStatus": "Stable"
   },
   "priceHistory": [
-    { "date": "2026-01-11", "medianPriceGBP": 185.00, "dataPointsAnalyzed": 3 },
-    { "date": "2026-02-08", "medianPriceGBP": 175.00, "dataPointsAnalyzed": 5 },
-    { "date": "2026-03-15", "medianPriceGBP": 158.00, "dataPointsAnalyzed": 6 },
-    { "date": "2026-04-19", "medianPriceGBP": 155.00, "dataPointsAnalyzed": 7 },
-    { "date": "2026-05-17", "medianPriceGBP": 150.00, "dataPointsAnalyzed": 8 },
-    { "date": "2026-06-10", "medianPriceGBP": 145.00, "dataPointsAnalyzed": 7 }
+    {
+      "date": "2026-01-11",
+      "medianPriceGBP": 185,
+      "dataPointsAnalyzed": 3
+    },
+    {
+      "date": "2026-02-08",
+      "medianPriceGBP": 175,
+      "dataPointsAnalyzed": 5
+    },
+    {
+      "date": "2026-03-15",
+      "medianPriceGBP": 158,
+      "dataPointsAnalyzed": 6
+    },
+    {
+      "date": "2026-04-19",
+      "medianPriceGBP": 155,
+      "dataPointsAnalyzed": 7
+    },
+    {
+      "date": "2026-05-17",
+      "medianPriceGBP": 150,
+      "dataPointsAnalyzed": 8
+    },
+    {
+      "date": "2026-06-10",
+      "medianPriceGBP": 145,
+      "dataPointsAnalyzed": 7
+    }
   ],
   "priceTracking": {
     "enabled": true,
@@ -51,7 +75,11 @@
     "marketplace": "ebay.co.uk",
     "query": "anthurium delta force",
     "requiredTerms": [],
-    "acceptedTerms": ["delta force", "anthurium delta force", "deltaforce"],
+    "acceptedTerms": [
+      "delta force",
+      "anthurium delta force",
+      "deltaforce"
+    ],
     "excludeTerms": [
       "seeds",
       "seed",
@@ -80,8 +108,29 @@
     "marketCurrency": "GBP"
   },
   "recommendedPlants": [
-    { "name": "Anthurium 'Ace of Spades' Variegata", "slug": "ace-of-spades-variegata", "rarity": "Very Rare", "price": "£££" },
-    { "name": "Anthurium luxurians 'Variegata'", "slug": "luxurians-variegata", "rarity": "Ultra Rare", "price": "££££" },
-    { "name": "Anthurium papillilaminum 'Variegata'", "slug": "papillilaminum-variegata", "rarity": "Very Rare", "price": "£££" }
-  ]
+    {
+      "name": "Anthurium 'Ace of Spades' Variegata",
+      "slug": "ace-of-spades-variegata",
+      "rarity": "Very Rare",
+      "price": "£££"
+    },
+    {
+      "name": "Anthurium luxurians 'Variegata'",
+      "slug": "luxurians-variegata",
+      "rarity": "Ultra Rare",
+      "price": "££££"
+    },
+    {
+      "name": "Anthurium papillilaminum 'Variegata'",
+      "slug": "papillilaminum-variegata",
+      "rarity": "Very Rare",
+      "price": "£££"
+    }
+  ],
+  "fieldNotes": {
+    "title": "Steve Nock's Triangle Masterpiece",
+    "date": "2021-08-19",
+    "author": "Aaron",
+    "content": "Anthurium 'Delta Force' is a hybridization legend. Bred in the 1990s by Steve Nock of Ree Gardens in Miami, it is a cross between A. clarinervium and A. pedatoradiatum. Only a single seedling inherited this precise, geometric triangular outline with high-contrast white venation. Dr. Thomas Croat, in his extensive reviews of Anthurium hybrids, described Delta Force's morphology as a unique genetic recombination where the pedate lobe genes of pedatoradiatum were suppressed, leaving a stark, straight deltoid edge. It remains incredibly rare because it must be propagated via division—tissue culture often fails to capture the true leaf shape."
+  }
 }

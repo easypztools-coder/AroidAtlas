@@ -77,5 +77,11 @@
     ],
     "marketCurrency": "GBP"
   },
-  "recommendedPlants": []
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "More Air Than Leaf",
+    "date": "2020-03-18",
+    "author": "Aaron",
+    "content": "Monstera obliqua (Peru form) is the ultimate expression of botanical fenestration. With leaves that are up to 90% holes, it looks like a green spiderweb. In Michael Madison's classic 1977 monograph on the genus Monstera, obliqua was described as a widespread but rarely collected species, with the Peru form being the most extreme. The massive fenestrations are an evolutionary strategy to cover a larger surface area to capture light flecks on the forest floor without the energetic cost of building leaf tissue. It is notoriously fragile, demanding high humidity (over 80%) to prevent the delicate leaf threads from drying out."
+  }
 }

@@ -33,17 +33,41 @@
     "growthHabit": "Slow climber with support"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 350.00,
+    "currentMedianPriceGBP": 350,
     "threeMonthChangePercent": -4.5,
     "marketStatus": "Stable"
   },
   "priceHistory": [
-    { "date": "2026-01-11", "medianPriceGBP": 420.00, "dataPointsAnalyzed": 2 },
-    { "date": "2026-02-08", "medianPriceGBP": 390.00, "dataPointsAnalyzed": 3 },
-    { "date": "2026-03-15", "medianPriceGBP": 370.00, "dataPointsAnalyzed": 4 },
-    { "date": "2026-04-19", "medianPriceGBP": 360.00, "dataPointsAnalyzed": 5 },
-    { "date": "2026-05-17", "medianPriceGBP": 350.00, "dataPointsAnalyzed": 6 },
-    { "date": "2026-06-10", "medianPriceGBP": 350.00, "dataPointsAnalyzed": 4 }
+    {
+      "date": "2026-01-11",
+      "medianPriceGBP": 420,
+      "dataPointsAnalyzed": 2
+    },
+    {
+      "date": "2026-02-08",
+      "medianPriceGBP": 390,
+      "dataPointsAnalyzed": 3
+    },
+    {
+      "date": "2026-03-15",
+      "medianPriceGBP": 370,
+      "dataPointsAnalyzed": 4
+    },
+    {
+      "date": "2026-04-19",
+      "medianPriceGBP": 360,
+      "dataPointsAnalyzed": 5
+    },
+    {
+      "date": "2026-05-17",
+      "medianPriceGBP": 350,
+      "dataPointsAnalyzed": 6
+    },
+    {
+      "date": "2026-06-10",
+      "medianPriceGBP": 350,
+      "dataPointsAnalyzed": 4
+    }
   ],
   "priceTracking": {
     "enabled": true,
@@ -58,13 +82,42 @@
       "p caramel marble"
     ],
     "excludeTerms": [
-      "seeds", "seed", "artificial", "fake", "soil", "perlite", "moss pole", "corm", "bulb", "rhizome",
-      "care guide", "book", "poster", "print", "plug only"
+      "seeds",
+      "seed",
+      "artificial",
+      "fake",
+      "soil",
+      "perlite",
+      "moss pole",
+      "corm",
+      "bulb",
+      "rhizome",
+      "care guide",
+      "book",
+      "poster",
+      "print",
+      "plug only"
     ],
     "marketCurrency": "GBP"
   },
   "recommendedPlants": [
-    { "name": "Philodendron billietiae 'Variegated'", "slug": "billietiae-variegated", "rarity": "Rare", "price": "£££" },
-    { "name": "Philodendron spiritus-sancti", "slug": "spiritus-sancti", "rarity": "Extremely Rare", "price": "£££" }
-  ]
+    {
+      "name": "Philodendron billietiae 'Variegated'",
+      "slug": "billietiae-variegated",
+      "rarity": "Rare",
+      "price": "£££"
+    },
+    {
+      "name": "Philodendron spiritus-sancti",
+      "slug": "spiritus-sancti",
+      "rarity": "Extremely Rare",
+      "price": "£££"
+    }
+  ],
+  "fieldNotes": {
+    "title": "The Kaleidoscope Climber",
+    "date": "2023-01-20",
+    "author": "Aaron",
+    "content": "Philodendron 'Caramel Marble' is a color-changing marvel. This highly variegated cultivar produces serrated, saw-toothed leaves that emerge in shades of caramel, orange, and bronze, before maturing into deep forest green and cream. The variegation is sectoral and highly variable, making each leaf a unique work of art. Botanically, the deep lobing or serration is a juvenile-to-mature transition trait common in climbing Philodendrons. A 2021 collector survey noted that Caramel Marble is highly sought after because its variegation is relatively stable, provided it receives bright, filtered light to stimulate the colored anthocyanins."
+  }
 }

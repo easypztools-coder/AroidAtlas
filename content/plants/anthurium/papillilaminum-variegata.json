@@ -76,5 +76,11 @@
     ],
     "marketCurrency": "GBP"
   },
-  "recommendedPlants": []
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "The Velvet Holy Grail",
+    "date": "2022-06-25",
+    "author": "Aaron",
+    "content": "Anthurium papillilaminum is the cornerstone of velvet aroid collecting, native to the Caribbean coast of Panama. Its extremely dark, velvet, elongated cordate leaves are prized on their own, but a stable variegated clone is the holy grail. Original collections by Croat and Baker in 1987 highlighted the velvety texture, which is caused by conical epidermal cells that absorb light from multiple angles. When cream or yellow variegation breaks across this deep green velvet, it creates a dramatic contrast. Keeping these variegated sections from burning requires low, diffused light, simulating the shaded forest floor of its native Panama."
+  }
 }

@@ -78,5 +78,11 @@
     ],
     "marketCurrency": "GBP"
   },
-  "recommendedPlants": []
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "Blume's Copper, Reimagined in Pink",
+    "date": "2023-10-26",
+    "author": "Aaron",
+    "content": "Rather fascinating, the genetic caprice sometimes observed in our cultivated aroids. My mind wandered today to Alocasia cuprea, a species first documented with such precision by Blume in his seminal work, Rumphia (1837). He noted its distinct 'cupreous' lustre, perfectly capturing that inimitable metallic sheen from its Bornean homeland. Now, we find ourselves presented with its 'Pink Variegata' form. While the species' wild origins are rooted in deep emerald and coppery hues, this variegated wonder introduces an unexpected, delicate blush. A splendid example of nature's playful brush, offering a fresh, albeit human-selected, interpretation of Blume's original description."
+  }
 }

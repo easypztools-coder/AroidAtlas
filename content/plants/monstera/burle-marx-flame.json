@@ -38,12 +38,36 @@
     "marketStatus": "Stable"
   },
   "priceHistory": [
-    { "date": "2026-01-11", "medianPriceGBP": 280.00, "dataPointsAnalyzed": 2 },
-    { "date": "2026-02-08", "medianPriceGBP": 185.00, "dataPointsAnalyzed": 3 },
-    { "date": "2026-03-15", "medianPriceGBP": 140.00, "dataPointsAnalyzed": 4 },
-    { "date": "2026-04-19", "medianPriceGBP": 130.00, "dataPointsAnalyzed": 5 },
-    { "date": "2026-05-17", "medianPriceGBP": 95.00, "dataPointsAnalyzed": 6 },
-    { "date": "2026-06-10", "medianPriceGBP": 70.00, "dataPointsAnalyzed": 4 }
+    {
+      "date": "2026-01-11",
+      "medianPriceGBP": 280,
+      "dataPointsAnalyzed": 2
+    },
+    {
+      "date": "2026-02-08",
+      "medianPriceGBP": 185,
+      "dataPointsAnalyzed": 3
+    },
+    {
+      "date": "2026-03-15",
+      "medianPriceGBP": 140,
+      "dataPointsAnalyzed": 4
+    },
+    {
+      "date": "2026-04-19",
+      "medianPriceGBP": 130,
+      "dataPointsAnalyzed": 5
+    },
+    {
+      "date": "2026-05-17",
+      "medianPriceGBP": 95,
+      "dataPointsAnalyzed": 6
+    },
+    {
+      "date": "2026-06-10",
+      "medianPriceGBP": 70,
+      "dataPointsAnalyzed": 4
+    }
   ],
   "priceTracking": {
     "enabled": true,
@@ -59,18 +83,57 @@
       "monstera bmf"
     ],
     "excludeTerms": [
-      "seeds", "seed", "corm", "bulb", "rhizome",
-      "poster", "print", "book", "magazine", "care guide",
-      "artificial", "fake", "plastic", "silk",
-      "soil", "perlite", "fertiliser", "fertilizer", "moss pole",
-      "pot only", "label", "tag", "cutting board",
+      "seeds",
+      "seed",
+      "corm",
+      "bulb",
+      "rhizome",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board",
       "philodendron"
     ],
     "marketCurrency": "GBP"
   },
   "recommendedPlants": [
-    { "name": "Monstera 'Devil Monster'", "slug": "devil-monster", "rarity": "Rare", "price": "£££" },
-    { "name": "Philodendron spiritus-sancti", "slug": "spiritus-sancti", "rarity": "Extremely Rare", "price": "££" },
-    { "name": "Philodendron billietiae 'Variegated'", "slug": "billietiae-variegated", "rarity": "Rare", "price": "£££" }
-  ]
+    {
+      "name": "Monstera 'Devil Monster'",
+      "slug": "devil-monster",
+      "rarity": "Rare",
+      "price": "£££"
+    },
+    {
+      "name": "Philodendron spiritus-sancti",
+      "slug": "spiritus-sancti",
+      "rarity": "Extremely Rare",
+      "price": "££"
+    },
+    {
+      "name": "Philodendron billietiae 'Variegated'",
+      "slug": "billietiae-variegated",
+      "rarity": "Rare",
+      "price": "£££"
+    }
+  ],
+  "fieldNotes": {
+    "title": "The Flame-Leafed Sculptural Wonder",
+    "date": "2020-11-03",
+    "author": "Aaron",
+    "content": "Monstera 'Burle Marx Flame' is a botanical sculpture. Often believed to be a cultivar of Monstera subpinnata or a closely related undescribed species, its leaves are deeply fenestrated, resembling stylized ribs or flickering flames. Originally collected by the legendary Brazilian landscape architect Roberto Burle Marx, its formal taxonomic status remains debated in the International Aroid Society. The dramatic pinnatifid structure minimizes wind resistance in the tropical canopy. Because of its thick, coriaceous texture and very slow growth rate, mature specimens are highly prized. It's less of a plant and more of a living museum piece."
+  }
 }
