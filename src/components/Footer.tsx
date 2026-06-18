@@ -47,17 +47,14 @@ export default function Footer() {
         <div className="grid grid-cols-2 md:grid-cols-5 gap-8 md:gap-12">
           {/* Brand */}
           <div className="col-span-2 md:col-span-1">
-            <Link href="/" className="flex items-center gap-2.5 group mb-3">
+            <Link href="/" className="inline-block mb-3">
               <Image
-                src="/images/logo-mark.png"
+                src="/images/logo.png"
                 alt="Ariod Atlas"
-                width={32}
-                height={32}
-                className="h-8 w-8 object-contain transition-transform duration-300 group-hover:scale-105"
+                width={120}
+                height={40}
+                className="h-10 w-auto"
               />
-              <span className="font-heading font-bold text-base tracking-widest text-heading uppercase transition-colors duration-300 group-hover:text-primary">
-                Ariod Atlas
-              </span>
             </Link>
             <p className="text-xs text-muted leading-relaxed max-w-xs">
               The definitive visual encyclopedia of rare tropical plants.

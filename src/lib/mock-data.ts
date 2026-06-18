@@ -109,31 +109,31 @@ export const genera: GenusEntry[] = [
   {
     name: "Philodendron",
     slug: "philodendron",
-    speciesCount: 489,
+    speciesCount: 7,
     description: "Diverse neotropical climbers with striking foliage",
   },
   {
     name: "Anthurium",
     slug: "anthurium",
-    speciesCount: 1000,
+    speciesCount: 4,
     description: "Velvet-leafed jewels of the rainforest understory",
   },
   {
     name: "Monstera",
     slug: "monstera",
-    speciesCount: 48,
+    speciesCount: 3,
     description: "Iconic fenestrated giants of the tropical canopy",
   },
   {
     name: "Alocasia",
     slug: "alocasia",
-    speciesCount: 79,
+    speciesCount: 4,
     description: "Dramatic shield-leafed specimens from Southeast Asia",
   },
   {
     name: "Homalomena",
     slug: "homalomena",
-    speciesCount: 128,
+    speciesCount: 0,
     description: "Understory elegance with heart-shaped foliage",
   },
 ];
