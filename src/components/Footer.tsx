@@ -52,8 +52,8 @@ export default function Footer() {
                 src="/images/logo.png"
                 alt="Ariod Atlas"
                 width={450}
-                height={150}
-                className="h-28 w-auto"
+                height={67}
+                className="h-16 w-auto"
               />
             </Link>
             <p className="text-xs text-muted leading-relaxed max-w-xs">
