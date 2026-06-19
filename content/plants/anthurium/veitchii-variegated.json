@@ -1,0 +1,79 @@
+{
+  "name": "Anthurium veitchii 'Variegated'",
+  "slug": "veitchii-variegated",
+  "scientificName": "Anthurium veitchii 'Variegated'",
+  "commonName": "Variegated King Anthurium",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Anthurium",
+  "species": "veitchii 'Variegated'",
+  "origin": "Colombia (Chocó and Antioquia); variegated collector form in cultivation.",
+  "collectorPopularity": 5,
+  "rarityStatus": "Ultra Rare",
+  "availability": "Very Low",
+  "priceGuideTier": "££££",
+  "aboutText": "Anthurium veitchii 'Variegated', also known as the Variegated King Anthurium, is a magnificent epiphytic collector's plant native to the Colombian rainforests of Chocó and Antioquia. Highly celebrated for its long, pendant, strap-cordate leaves featuring dramatic corrugated and pleated ribs, this rare select form showcases striking cream to yellow sectoral and marbled variegation. The variegation patterns beautifully overlay the deeply quilted texture of the foliage. It thrives in warm, humid conditions with strong airflow and bright, indirect light.",
+  "quickFacts": {
+    "growthHabit": "Epiphytic climber / pendant growth",
+    "matureSize": "60 - 150 cm leaf length",
+    "light": "Bright, indirect filter",
+    "humidity": "75 - 90%",
+    "temperature": "18 - 28°C",
+    "difficulty": "Advanced",
+    "growthSpeed": "Slow to Moderate"
+  },
+  "morphology": {
+    "leafShape": "Pendant, strap-cordate, deeply corrugated (pleated)",
+    "leafLength": "60 - 150 cm",
+    "leafWidth": "20 - 35 cm",
+    "petioleColor": "Green, moderate length",
+    "venation": "Pronounced primary ribs radiating from cordate base",
+    "texture": "Deeply quilted, strongly coriaceous",
+    "variegation": "Cream to yellow sectors, marbling, or striping",
+    "growthHabit": "Epiphytic with abundant thick aerial roots"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium veitchii variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "anthurium veitchii variegated",
+      "veitchii variegated",
+      "king anthurium variegated"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

@@ -50,7 +50,7 @@ export default function PriceHistoryChart({
   return (
     <div className="space-y-4">
       {/* ─── Chart ──────────────────────────────────────────────────────── */}
-      <div className="h-48">
+      <div className="h-64 md:h-72">
         <ResponsiveContainer width="100%" height="100%">
           <ComposedChart data={data}>
             <CartesianGrid

@@ -1,0 +1,92 @@
+{
+  "plantSlug": "spiritus-sancti",
+  "checkedAt": "2026-06-19T20:12:27.713Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Philodendron Spiritus Sancti (TC Plantlet) - Preorder",
+      "productUrl": "https://growtropicals.com/products/philodendron-spiritus-sancti-tc-plantlet-preorder",
+      "priceGbp": 9.99,
+      "inStock": false,
+      "variantTitle": "TC Plant",
+      "plantSizeLabel": "tc_plantlet",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Philodendron spiritus sancti (TC Clone)",
+      "productUrl": "https://growtropicals.com/products/philodendron-spiritus-sancti",
+      "priceGbp": 45.99,
+      "inStock": true,
+      "variantTitle": "10.5cm",
+      "potSizeCm": 10.5,
+      "plantSizeLabel": "tc_plantlet",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Philodendron spiritus sancti (TC Clone)",
+      "productUrl": "https://growtropicals.com/products/philodendron-spiritus-sancti",
+      "priceGbp": 99.99,
+      "inStock": false,
+      "variantTitle": "14cm",
+      "potSizeCm": 14,
+      "plantSizeLabel": "tc_plantlet",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Philodendron spiritus sancti (TC Clone)",
+      "productUrl": "https://www.houseofkojo.com/products/philodendron-spiritus-sancti-tc-clone",
+      "priceGbp": 45.99,
+      "inStock": true,
+      "variantTitle": "10.5cm",
+      "potSizeCm": 10.5,
+      "plantSizeLabel": "tc_plantlet",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Philodendron spiritus sancti (TC Clone)",
+      "productUrl": "https://www.houseofkojo.com/products/philodendron-spiritus-sancti-tc-clone",
+      "priceGbp": 99.99,
+      "inStock": false,
+      "variantTitle": "14cm",
+      "potSizeCm": 14,
+      "plantSizeLabel": "tc_plantlet",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {
+    "all": {
+      "min": 45.99,
+      "max": 45.99,
+      "median": 45.99,
+      "mean": 45.99,
+      "trimmedMean": 45.99,
+      "p25": 45.99,
+      "p75": 45.99,
+      "count": 2
+    },
+    "tc_plantlet": {
+      "min": 45.99,
+      "max": 45.99,
+      "median": 45.99,
+      "mean": 45.99,
+      "trimmedMean": 45.99,
+      "p25": 45.99,
+      "p75": 45.99,
+      "count": 2
+    }
+  }
+}

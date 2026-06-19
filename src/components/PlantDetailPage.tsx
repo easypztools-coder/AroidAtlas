@@ -165,6 +165,30 @@ export default function PlantDetailPage({
       });
   }, [data.slug]);
 
+  // ─── Fetch live retail price data ──────────────────────────────────────────
+  const [retailData, setRetailData] = useState<{
+    listings: any[];
+    statsByType: Record<string, any>;
+    history: any[];
+  } | null>(null);
+
+  useEffect(() => {
+    fetch(`/api/plants/${data.slug}/retail-market`)
+      .then((res) => res.json())
+      .then((json) => {
+        if (json.success) {
+          setRetailData({
+            listings: json.listings || [],
+            statsByType: json.statsByType || {},
+            history: json.history || [],
+          });
+        }
+      })
+      .catch(() => {
+        // Silently fail
+      });
+  }, [data.slug]);
+
   const combinedTier = fairPrice !== null
     ? getPriceRarityTier(fairPrice)
     : { tier: data.priceGuideTier, label: getStaticTierLabel(data.priceGuideTier) };
@@ -340,6 +364,232 @@ export default function PlantDetailPage({
           </div>
         </div>
 
+        {/* ─── Market Analysis & Price Guide ─────────────────────────────────── */}
+        <div className="glass-card p-6 md:p-8 space-y-6">
+          <div>
+            <h2 className="text-xl md:text-2xl font-heading font-bold text-heading">
+              Market Analysis & Price Guide
+            </h2>
+            <p className="text-xs text-muted mt-1">
+              Historical auction metrics and live online retailer listings updated weekly.
+            </p>
+          </div>
+
+          {/* Unified Price Dashboard KPI Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+            {/* Card 1: Est. Auction Value */}
+            <div className="rounded-xl border border-primary/10 bg-card-hover/40 p-4 flex flex-col justify-between">
+              <span className="text-[10px] font-bold uppercase tracking-wider text-muted">Est. Auction Value</span>
+              <div className="mt-2 flex items-baseline gap-1.5">
+                <span className="text-2xl font-bold text-primary">
+                  {fairPrice !== null ? `£${fairPrice.toFixed(0)}` : "N/A"}
+                </span>
+                {fairPrice !== null && <span className="text-[10px] text-muted">GBP</span>}
+              </div>
+              <span className="mt-2 text-[10px] text-muted/65 leading-tight">
+                eBay UK fair value guide (excluding outliers)
+              </span>
+            </div>
+
+            {/* Card 2: Average Retail Value */}
+            <div className="rounded-xl border border-primary/10 bg-card-hover/40 p-4 flex flex-col justify-between">
+              <span className="text-[10px] font-bold uppercase tracking-wider text-muted">Average Retail Value</span>
+              <div className="mt-2 flex items-baseline gap-1.5">
+                <span className="text-2xl font-bold text-primary">
+                  {retailData?.statsByType?.all ? `£${retailData.statsByType.all.trimmedMean.toFixed(0)}` : "N/A"}
+                </span>
+                {retailData?.statsByType?.all && <span className="text-[10px] text-muted">GBP</span>}
+              </div>
+              <span className="mt-2 text-[10px] text-muted/65 leading-tight">
+                {retailData?.statsByType?.all?.count ? `${retailData.statsByType.all.count} UK shops tracked` : "Online store average"}
+              </span>
+            </div>
+
+            {/* Card 3: Price Gap Recommendation */}
+            <div className="rounded-xl border border-primary/10 bg-card-hover/40 p-4 flex flex-col justify-between">
+              <span className="text-[10px] font-bold uppercase tracking-wider text-muted">Smart Buy Rating</span>
+              <div className="mt-2">
+                {fairPrice !== null && retailData?.statsByType?.all ? (
+                  (() => {
+                    const diff = retailData.statsByType.all.trimmedMean - fairPrice;
+                    const pct = (diff / retailData.statsByType.all.trimmedMean) * 100;
+                    if (diff > 5) {
+                      return (
+                        <>
+                          <span className="text-lg font-bold text-green-400">Save {pct.toFixed(0)}%</span>
+                          <span className="block text-[10px] text-muted/80 mt-1 leading-tight">
+                            Auctions are cheaper than retail stores
+                          </span>
+                        </>
+                      );
+                    } else if (diff < -5) {
+                      return (
+                        <>
+                          <span className="text-lg font-bold text-primary">Buy Retail</span>
+                          <span className="block text-[10px] text-muted/80 mt-1 leading-tight">
+                            Retail stores offer competitive prices
+                          </span>
+                        </>
+                      );
+                    } else {
+                      return (
+                        <>
+                          <span className="text-lg font-bold text-muted-light">Comparable</span>
+                          <span className="block text-[10px] text-muted/80 mt-1 leading-tight">
+                            Prices are similar across markets
+                          </span>
+                        </>
+                      );
+                    }
+                  })()
+                ) : (
+                  <span className="text-lg font-bold text-muted">Awaiting Data</span>
+                )}
+              </div>
+              <span className="mt-2 text-[10px] text-muted/65 leading-tight">
+                Where to find the best market value
+              </span>
+            </div>
+
+            {/* Card 4: Market Status & Volatility */}
+            <div className="rounded-xl border border-primary/10 bg-card-hover/40 p-4 flex flex-col justify-between">
+              <span className="text-[10px] font-bold uppercase tracking-wider text-muted">Market Trend</span>
+              <div className="mt-2 flex items-center gap-1.5">
+                {data.marketMetrics.marketStatus ? (
+                  <>
+                    <span className={`text-base font-bold ${
+                      data.marketMetrics.marketStatus === "Rising"
+                        ? "text-green-400"
+                        : data.marketMetrics.marketStatus === "Declining"
+                        ? "text-orange-400"
+                        : "text-rarity"
+                    }`}>
+                      {data.marketMetrics.marketStatus}
+                    </span>
+                    {data.marketMetrics.threeMonthChangePercent !== null && (
+                      <span className="text-[10px] text-muted">
+                        ({data.marketMetrics.threeMonthChangePercent > 0 ? "+" : ""}{data.marketMetrics.threeMonthChangePercent.toFixed(0)}%)
+                      </span>
+                    )}
+                  </>
+                ) : (
+                  <span className="text-base font-bold text-muted">Stable</span>
+                )}
+              </div>
+              <span className="mt-2 text-[10px] text-muted/65 leading-tight">
+                Price velocity over the last 90 days
+              </span>
+            </div>
+          </div>
+
+          {/* Large Focused Price History Graph */}
+          <div className="border-t border-primary/10 pt-6">
+            <div className="flex items-center justify-between mb-4">
+              <div>
+                <h3 className="text-sm font-semibold text-heading">eBay Auction Price Trend</h3>
+                <p className="text-[10px] text-muted">Weekly aggregated completed auction sales in the UK</p>
+              </div>
+              {soldCompsData.length > 0 && (
+                <span className="text-[10px] text-muted-light bg-card/60 border border-primary/10 px-2 py-0.5 rounded-full">
+                  {soldCompsData.reduce((sum, d) => sum + d.sampleSize, 0)} sales analyzed
+                </span>
+              )}
+            </div>
+            
+            {/* The actual chart - wide view container */}
+            <PriceHistoryChart data={soldCompsData} />
+          </div>
+
+          {/* Retail Listings & Breakdown Sub-Grid */}
+          {retailData && (retailData.listings.length > 0 || Object.keys(retailData.statsByType).length > 0) && (
+            <div className="border-t border-primary/10 pt-6 grid grid-cols-1 md:grid-cols-5 gap-6">
+              {/* Left Column: Live Retail Listings (Referral Links) */}
+              <div className="md:col-span-3 space-y-3">
+                <div>
+                  <h3 className="text-sm font-semibold text-heading">Available Retail Specimens</h3>
+                  <p className="text-[10px] text-muted mb-2">Click to visit store and purchase directly (prices include VAT)</p>
+                </div>
+                
+                {retailData.listings.length > 0 ? (
+                  <div className="space-y-2 max-h-[300px] overflow-y-auto pr-1">
+                    {retailData.listings.map((list: any, idx: number) => (
+                      <a
+                        key={idx}
+                        href={list.productUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="group flex flex-col sm:flex-row sm:items-center justify-between gap-3 rounded-xl border border-primary/5 bg-card/50 p-3.5 hover:bg-card-hover/80 hover:border-primary/20 transition-all duration-300 shadow-sm"
+                      >
+                        <div className="space-y-1">
+                          <div className="text-xs font-semibold text-heading group-hover:text-primary transition-colors line-clamp-1">
+                            {list.title}
+                          </div>
+                          <div className="flex items-center gap-2 text-[9px] text-muted">
+                            <span className="bg-primary/10 text-primary px-1.5 py-0.5 rounded-md font-medium">{list.retailerName}</span>
+                            {list.potSizeCm && <span>{list.potSizeCm}cm Pot</span>}
+                            {list.plantSizeLabel && <span className="capitalize">{list.plantSizeLabel.replace(/_/g, " ")}</span>}
+                          </div>
+                        </div>
+                        <div className="flex items-center gap-3 shrink-0 self-end sm:self-center">
+                          <div className="text-right">
+                            <div className="text-sm font-bold text-green-400">
+                              £{list.priceGbp.toFixed(2)}
+                            </div>
+                            {list.originalPriceGbp && (
+                              <div className="text-[9px] text-muted line-through">
+                                £{list.originalPriceGbp.toFixed(2)}
+                              </div>
+                            )}
+                          </div>
+                          <span className="inline-flex items-center gap-1 text-[10px] font-semibold text-background bg-primary group-hover:bg-primary-dark rounded-lg px-3 py-1.5 transition-colors duration-200">
+                            Buy Now
+                            <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                            </svg>
+                          </span>
+                        </div>
+                      </a>
+                    ))}
+                  </div>
+                ) : (
+                  <p className="text-xs text-muted italic">No retail specimens currently in stock.</p>
+                )}
+              </div>
+
+              {/* Right Column: Size/Form price stats */}
+              <div className="md:col-span-2 space-y-3">
+                <div>
+                  <h3 className="text-sm font-semibold text-heading">Average Price by Form</h3>
+                  <p className="text-[10px] text-muted">Based on active retail listings</p>
+                </div>
+                
+                <div className="rounded-xl border border-primary/5 bg-card/30 p-4 space-y-3.5">
+                  {Object.entries(retailData.statsByType).map(([type, stats]: [string, any]) => {
+                    if (type === "all") return null;
+                    const formattedType = type.replace(/_/g, " ").replace(/\b\w/g, c => c.toUpperCase());
+                    return (
+                      <div key={type} className="flex flex-col gap-1 pb-2.5 border-b border-primary/5 last:border-0 last:pb-0">
+                        <div className="flex justify-between text-xs">
+                          <span className="text-muted-light font-medium">{formattedType}</span>
+                          <span className="font-semibold text-heading">£{stats.trimmedMean.toFixed(0)}</span>
+                        </div>
+                        <div className="flex justify-between text-[9px] text-muted">
+                          <span>Range: £{stats.min.toFixed(0)} - £{stats.max.toFixed(0)}</span>
+                          <span>{stats.count} items</span>
+                        </div>
+                      </div>
+                    );
+                  })}
+                  
+                  {Object.keys(retailData.statsByType).filter(k => k !== "all").length === 0 && (
+                    <p className="text-xs text-muted italic">No form statistics available.</p>
+                  )}
+                </div>
+              </div>
+            </div>
+          )}
+        </div>
+
         {/* Field Notes by Ariod Aaron (Vintage Journal Style) */}
         {data.fieldNotes && (
           <div className="relative overflow-hidden rounded-2xl bg-[#F4F0EA] border-2 border-[#E3DEC3] p-8 text-[#1A2421] shadow-lg">
@@ -402,65 +652,7 @@ export default function PlantDetailPage({
               View Care Guide
             </Link>
           </div>
-
-          <div className="rounded-xl bg-card p-5">
-            <h3 className="mb-1 text-sm font-semibold text-heading">
-              Price History
-            </h3>
-            <p className="mb-4 text-xs text-muted">
-              eBay UK sold prices — Updated weekly
-            </p>
-            <PriceHistoryChart
-              data={soldCompsData}
-            />
-
-            {/* ── Fair Purchase Price ──────────────────────────────────── */}
-            {fairPrice !== null && (
-              <div className="mt-3 rounded-lg border border-green-500/20 bg-green-500/5 px-4 py-3">
-                <div className="flex items-center justify-between">
-                  <span className="text-xs text-muted">Fair Purchase Price</span>
-                  <span className="text-lg font-bold text-green-400">
-                    £{fairPrice.toFixed(0)}
-                  </span>
-                </div>
-                <p className="mt-1 text-[10px] text-muted/60">
-                  Based on recent eBay UK sold prices, excluding top and bottom 20% outliers.
-                  Updated twice weekly.
-                </p>
-              </div>
-            )}
-
-            {soldCompsData.length > 0 && data.marketMetrics.marketStatus && (
-              <div className="mt-3 flex items-center gap-2">
-                <span
-                  className={`inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wider ${
-                    data.marketMetrics.marketStatus === "Volatile"
-                      ? "bg-rarity/10 text-rarity"
-                      : data.marketMetrics.marketStatus === "Rising"
-                      ? "bg-green-500/10 text-green-400"
-                      : data.marketMetrics.marketStatus === "Declining"
-                      ? "bg-orange-500/10 text-orange-400"
-                      : "bg-muted/10 text-muted"
-                  }`}
-                >
-                  <svg className="h-3 w-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
-                    {data.marketMetrics.marketStatus === "Rising" ? (
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941" />
-                    ) : data.marketMetrics.marketStatus === "Declining" || data.marketMetrics.marketStatus === "Volatile" ? (
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 6L9 12.75l4.286-4.286a11.95 11.95 0 014.306 6.43l.776 2.898m0 0l3.182-5.511m-3.182 5.51l-5.511-3.181" />
-                    ) : (
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-                    )}
-                  </svg>
-                  {data.marketMetrics.marketStatus}
-                </span>
-                <span className="text-xs text-muted">
-                  {(data.marketMetrics.threeMonthChangePercent ?? 0) > 0 ? "+" : ""}
-                  {(data.marketMetrics.threeMonthChangePercent ?? 0).toFixed(1)}% 3mo
-                </span>
-              </div>
-            )}
-          </div>
+          
 
           <a
             href={`https://www.etsy.com/uk/search?q=${encodeURIComponent(data.name)}`}

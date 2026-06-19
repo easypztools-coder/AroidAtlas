@@ -209,6 +209,8 @@ async function main() {
           const identifiedName = await queryGeminiVision(fullPath, apiKey);
           plantName = sanitizeFilename(identifiedName);
           console.log(`  ✓ Gemini identified: "${plantName}"`);
+          // Sleep for 5 seconds to prevent hitting rate limits
+          await new Promise((resolve) => setTimeout(resolve, 5000));
         } catch (err) {
           console.error(`  ✗ Gemini vision call failed: ${err instanceof Error ? err.message : String(err)}`);
         }

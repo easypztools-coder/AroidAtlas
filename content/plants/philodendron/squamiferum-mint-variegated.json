@@ -1,0 +1,79 @@
+{
+  "name": "Philodendron squamiferum 'Mint Variegated'",
+  "slug": "squamiferum-mint-variegated",
+  "scientificName": "Philodendron squamiferum 'Mint Variegated'",
+  "commonName": "Mint Variegated Squamiferum",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "squamiferum 'Mint Variegated'",
+  "origin": "Guianas to northern Brazil; variegated collector form in cultivation.",
+  "collectorPopularity": 4.5,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Philodendron squamiferum 'Mint Variegated' is an exceptional climbing aroid native from the Guianas to northern Brazil. Renowned for its distinctive, deeply 5-lobed leaves and fuzzy, densely squamose, reddish petioles and stems, this cultivar features beautiful mint, cream, and green variegation. The variegation patterns present as striking sectors and marbling across the smooth, lightly glossy leaf blades. Ideal for vertical growth, it utilizes aerial roots at nodes to secure attachment and thrives under warm, humid conditions with bright indirect light.",
+  "quickFacts": {
+    "growthHabit": "Climbing Aroid",
+    "matureSize": "Medium to Large",
+    "light": "Bright, indirect filter",
+    "humidity": "65 - 80%",
+    "temperature": "18 - 28°C",
+    "difficulty": "Intermediate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Deeply 5-lobed with elongated central lobe",
+    "leafLength": "30 - 50 cm",
+    "leafWidth": "25 - 40 cm",
+    "petioleColor": "Reddish, densely fuzzy (squamose)",
+    "venation": "Pinnate, reddish accents",
+    "texture": "Smooth to lightly glossy",
+    "variegation": "Mint, cream, and green sectors and marbling",
+    "growthHabit": "Climbing with aerial roots at nodes"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron squamiferum variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "philodendron squamiferum variegated",
+      "squamiferum variegated",
+      "squamiferum mint variegated"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

@@ -1,0 +1,79 @@
+{
+  "name": "Monstera deliciosa 'Mint'",
+  "slug": "deliciosa-mint",
+  "scientificName": "Monstera deliciosa 'Mint'",
+  "commonName": "Mint Variegated Monstera",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "deliciosa 'Mint'",
+  "origin": "Cultivated mint-variegated selection of a species native from southern Mexico to Panama.",
+  "collectorPopularity": 5,
+  "rarityStatus": "Very Rare",
+  "availability": "Low",
+  "priceGuideTier": "££££",
+  "aboutText": "Monstera deliciosa 'Mint' is a highly prized cultivated selection of the iconic deliciosa species, celebrated for its unique mint-coloured variegation. The large, broad, deeply fenestrated leaves display spectacular marbled mint, pale green, and cream speckling distributed throughout the blade rather than in stark sectoral blocks. As a robust climbing hemiepiphyte, it thrives in warm, humid conditions with bright, indirect light, producing thick climbing stems, strong petioles, and abundant aerial roots.",
+  "quickFacts": {
+    "growthHabit": "Climbing hemiepiphyte on moss pole",
+    "matureSize": "60 - 90 cm leaf length",
+    "light": "Bright, indirect filter - higher light for variegation",
+    "humidity": "70 - 85%",
+    "temperature": "18 - 30°C",
+    "difficulty": "Intermediate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Broadly ovate, cordate with deep fenestrations",
+    "leafLength": "60 - 90 cm",
+    "leafWidth": "45 - 75 cm",
+    "petioleColor": "Green, strong and thick",
+    "venation": "Pinnate, prominent midrib",
+    "texture": "Leathery, thick and glossy",
+    "variegation": "Marbled mint, pale green, and cream speckling",
+    "growthHabit": "Climbing with thick stems and aerial roots"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera deliciosa mint",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "monstera deliciosa mint",
+      "monstera mint",
+      "deliciosa mint variegated"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

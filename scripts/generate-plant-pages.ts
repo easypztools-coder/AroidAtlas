@@ -68,6 +68,7 @@ function getSlugCandidateFromFilename(filename: string, genus: string): string {
     .replace(/^-+|-+$/g, "");
   
   if (slug === "ilsemanii-variegata") return "ilsemannii-variegata";
+  if (slug === "ilsemanii-variegated") return "ilsemannii-variegated";
   return slug;
 }
 
@@ -272,6 +273,41 @@ async function main() {
     try {
       console.log("  Extracting botanical data via Gemini Vision API...");
       const plantData = await generatePlantJson(fullPath, apiKey);
+      // Sleep for 5 seconds to prevent rate limits
+      await new Promise((resolve) => setTimeout(resolve, 5000));
+
+      // Map Variegata -> Variegated
+      if (plantData.name) {
+        plantData.name = plantData.name.replace(/Variegata/g, "Variegated").replace(/variegata/g, "variegated");
+      }
+      if (plantData.scientificName) {
+        plantData.scientificName = plantData.scientificName.replace(/Variegata/g, "Variegated").replace(/variegata/g, "variegated");
+      }
+      if (plantData.commonName) {
+        plantData.commonName = plantData.commonName.replace(/Variegata/g, "Variegated").replace(/variegata/g, "variegated");
+      }
+      if (plantData.slug) {
+        plantData.slug = plantData.slug.replace(/variegata/g, "variegated");
+      }
+      if (plantData.species) {
+        plantData.species = plantData.species.replace(/Variegata/g, "Variegated").replace(/variegata/g, "variegated");
+      }
+      if (plantData.statusTag) {
+        plantData.statusTag = plantData.statusTag.replace(/Variegata/g, "Variegated").replace(/variegata/g, "variegated");
+      }
+      if (plantData.aboutText) {
+        plantData.aboutText = plantData.aboutText.replace(/Variegata/g, "Variegated").replace(/variegata/g, "variegated");
+      }
+      if (plantData.morphology && plantData.morphology.variegation) {
+        plantData.morphology.variegation = plantData.morphology.variegation.replace(/Variegata/g, "Variegated").replace(/variegata/g, "variegated");
+      }
+      if (plantData.priceTracking && plantData.priceTracking.query) {
+        plantData.priceTracking.query = plantData.priceTracking.query.replace(/Variegata/g, "Variegated").replace(/variegata/g, "variegated");
+      }
+      if (plantData.priceTracking && plantData.priceTracking.acceptedTerms) {
+        plantData.priceTracking.acceptedTerms = plantData.priceTracking.acceptedTerms.map((t: string) => t.replace(/Variegata/g, "Variegated").replace(/variegata/g, "variegated"));
+      }
+
       const slug = plantData.slug;
       
       if (!slug) {

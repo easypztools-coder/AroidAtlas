@@ -1,0 +1,79 @@
+{
+  "name": "Anthurium warocqueanum 'Variegated'",
+  "slug": "warocqueanum-variegated",
+  "scientificName": "Anthurium warocqueanum 'Variegated'",
+  "commonName": "Variegated Queen Anthurium",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Anthurium",
+  "species": "warocqueanum 'Variegated'",
+  "origin": "Species native to Colombia; variegated form maintained in specialist collector cultivation.",
+  "collectorPopularity": 5,
+  "rarityStatus": "Ultra Rare",
+  "availability": "Very Low",
+  "priceGuideTier": "££££",
+  "aboutText": "Anthurium warocqueanum 'Variegated', also known as the Variegated Queen Anthurium, is a highly prized collector plant native to Colombia. It features long, pendant, velvety, strap-cordate leaves with a pronounced basal sinus. The dark green velvet surface contrasts dramatically with striking cream to yellow marbled or sectoral variegation patterns alongside silver-white venation. Preferring warmth, high humidity, excellent airflow, and bright, indirect light, it exhibits an epiphytic growth habit requiring a sturdy totem and high-humidity environment.",
+  "quickFacts": {
+    "growthHabit": "Epiphytic climber / pendant growth",
+    "matureSize": "60 - 120 cm leaf length",
+    "light": "Bright, indirect filter",
+    "humidity": "75 - 90%",
+    "temperature": "18 - 28°C",
+    "difficulty": "Advanced",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Pendant, strap-cordate with basal sinus",
+    "leafLength": "60 - 120 cm",
+    "leafWidth": "15 - 25 cm",
+    "petioleColor": "Green, moderately stout",
+    "venation": "Bold silver-white, distinct",
+    "texture": "Velvety, soft and matte",
+    "variegation": "Cream to yellow marbling and sectoral blocks",
+    "growthHabit": "Epiphytic with abundant aerial roots"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium warocqueanum variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "anthurium warocqueanum variegated",
+      "warocqueanum variegated",
+      "queen anthurium variegated"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

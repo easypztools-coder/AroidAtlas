@@ -1,0 +1,79 @@
+{
+  "name": "Monstera lechleriana 'Albo Variegated'",
+  "slug": "lechleriana-albo-variegated",
+  "scientificName": "Monstera lechleriana 'Albo Variegated'",
+  "commonName": "Albo Variegated Lechleriana",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "lechleriana 'Albo Variegated'",
+  "origin": "Central America to northwestern South America; variegated collector form in cultivation.",
+  "collectorPopularity": 4.5,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Monstera lechleriana 'Albo Variegated' is an exceptional climbing hemiepiphyte native from Central America to northwestern South America. Distinct from the standard deliciosa, it features elongated ovate to elliptic leaves with a strong midrib and fewer, larger, centrally placed fenestrations. The albo variegation pattern displays highly striking sectors and marbling of white to cream across the green leaf surface. It climbs efficiently on thick stems, anchored by robust aerial roots, and prefers warm, humid tropical conditions with bright indirect light to support mature fenestrated growth.",
+  "quickFacts": {
+    "growthHabit": "Climbing hemiepiphyte on moss pole",
+    "matureSize": "40 - 65 cm leaf length",
+    "light": "Bright, indirect filter - higher light for albo contrast",
+    "humidity": "65 - 80%",
+    "temperature": "18 - 28°C",
+    "difficulty": "Intermediate",
+    "growthSpeed": "Moderate to Fast"
+  },
+  "morphology": {
+    "leafShape": "Elongated ovate to elliptic with central fenestrations",
+    "leafLength": "40 - 65 cm",
+    "leafWidth": "20 - 35 cm",
+    "petioleColor": "Green, thick",
+    "venation": "Pinnate, strong central midrib",
+    "texture": "Smooth, leathery",
+    "variegation": "Albo (white to cream) sectors and marbling",
+    "growthHabit": "Climbing with thick stems and aerial roots"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera lechleriana albo",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "monstera lechleriana albo",
+      "monstera lechleriana variegated",
+      "lechleriana albo variegated"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}
