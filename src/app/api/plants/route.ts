@@ -10,6 +10,7 @@ interface SearchPlant {
   genus: string;
   rarityStatus: string;
   priceGuideTier: string;
+  botanicalType: string;
 }
 
 export async function GET() {
@@ -37,6 +38,7 @@ export async function GET() {
             genus: data.genus || genus,
             rarityStatus: data.rarityStatus,
             priceGuideTier: data.priceGuideTier,
+            botanicalType: data.botanicalType || "variegated",
           });
         } catch (err) {
           console.error(`Error reading plant file for API: ${file}`, err);

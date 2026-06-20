@@ -1,0 +1,82 @@
+{
+  "name": "Rhaphidophora megasperma",
+  "slug": "rhaphidophora-megasperma",
+  "scientificName": "Rhaphidophora megasperma A.Hay",
+  "commonName": "Fishtail Rhaphidophora",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Rhaphidophora",
+  "species": "megasperma",
+  "origin": "Borneo",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Rhaphidophora megasperma is an intriguing climbing liana native to the primary rainforests of Borneo. It climbs host tree trunks using aerial rootlets. As the plant matures, it develops striking leaf divisions, with mature leaves splitting into asymmetrical lobes that resemble a fishtail or wings. The leaves are glossy green and moderately leathery. It is a robust climber that thrives in warm, humid conditions with support to encourage mature leaf morphology.",
+  "quickFacts": {
+    "growthHabit": "Root-climbing climber",
+    "matureSize": "Medium to Large climber (2-3m)",
+    "light": "Medium Indirect Light",
+    "humidity": "High (70-85%)",
+    "temperature": "Warm (20-28°C)",
+    "difficulty": "Easy to Moderate",
+    "growthSpeed": "Moderate to Fast"
+  },
+  "morphology": {
+    "leafShape": "Deeply lobed, pinnatifid, fishtail-like",
+    "leafLength": "25-45cm",
+    "leafWidth": "15-30cm",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Smooth, glossy",
+    "variegation": "None",
+    "growthHabit": "Climbing vining stem"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Rhaphidophora megasperma",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Rhaphidophora megasperma",
+      "Rhaphidophora megasperma A.Hay",
+      "Fishtail Rhaphidophora",
+      "Rhaphidophora megasperma",
+      "Rhaphidophora megasperma plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

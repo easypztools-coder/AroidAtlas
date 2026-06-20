@@ -1,0 +1,81 @@
+{
+  "name": "Monstera spruceana",
+  "slug": "spruceana",
+  "scientificName": "Monstera spruceana (Schott) Engl.",
+  "commonName": "Monstera spruceana",
+  "statusTag": "Naturally Occurring Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "spruceana",
+  "origin": "tropical America",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Monstera spruceana is a naturally occurring climbing species endemic to tropical America, found in wet tropical forests. It typically grows as an epiphytic or hemiepiphytic climber, ascending trees from the forest floor and thriving in high humidity, filtered light, and rich, well-drained organic soils. Juvenile plants exhibit a distinctive shingling growth habit, featuring entire, overlapping leaves that tightly hug their support. As the plant matures, its leaves elongate significantly, developing irregular splits and characteristic perforations, often appearing subpinnate while maintaining a narrow, architectural form. This plant securely climbs using aerial roots that emerge at its nodes.",
+  "quickFacts": {
+    "growthHabit": "Epiphytic or hemiepiphytic climber",
+    "matureSize": "Large, several meters",
+    "light": "Filtered light",
+    "humidity": "High humidity",
+    "temperature": "Warm",
+    "difficulty": "Moderate",
+    "growthSpeed": "Medium to Fast"
+  },
+  "morphology": {
+    "leafShape": "Elongated, deeply fenestrated and subpinnate (mature); entire and shingling (juvenile)",
+    "leafLength": "20-40 cm",
+    "leafWidth": "10-20 cm",
+    "petioleColor": "Green",
+    "venation": "Pinnate to reticulate",
+    "texture": "Smooth, leathery",
+    "variegation": "None",
+    "growthHabit": "Climbing vine"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera spruceana",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera spruceana",
+      "spruceana plant",
+      "spruceana rare",
+      "Monstera spruceana live"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

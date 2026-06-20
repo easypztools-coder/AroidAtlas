@@ -115,10 +115,26 @@ export async function GET(
 
   const fairPurchasePrice = calculateTrimmedMean(allPrices, 0.2);
 
+  const recentSales = (snapshot.listings ?? [])
+    .map((l) => ({
+      title: l.title,
+      soldPrice: l.soldPrice,
+      totalPrice: l.totalPrice,
+      soldDate: l.soldDate,
+      currency: l.currency,
+      url: l.url,
+    }))
+    .sort((a, b) => {
+      const dateA = a.soldDate ? new Date(a.soldDate).getTime() : 0;
+      const dateB = b.soldDate ? new Date(b.soldDate).getTime() : 0;
+      return dateB - dateA;
+    });
+
   const response: PriceHistoryResponse = {
     slug,
     history,
     fairPurchasePrice,
+    recentSales,
   };
 
   return NextResponse.json(response);

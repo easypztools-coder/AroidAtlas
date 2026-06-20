@@ -1,0 +1,82 @@
+{
+  "name": "Anthurium vittariifolium",
+  "slug": "vittariifolium",
+  "scientificName": "Anthurium vittariifolium Sodiro",
+  "commonName": "Strap-Leaf Anthurium",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Anthurium",
+  "species": "vittariifolium",
+  "origin": "Ecuador to Peru",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "££",
+  "aboutText": "Anthurium vittariifolium is a popular epiphytic species native to the wet forests of Ecuador and Peru. It produces long, narrow, strap-like leaves that hang vertically from the base. The leaves are leathery, dark green, and can reach over a meter in length. It is similar to Anthurium pallidiflorum but distinguished by its slightly thicker texture and distinct seed berries. It is highly valued for its elegant, cascading foliage and makes a beautiful hanging specimen.",
+  "quickFacts": {
+    "growthHabit": "Epiphytic, pendant",
+    "matureSize": "Large pendant (leaves 60-120cm)",
+    "light": "Medium Indirect Light",
+    "humidity": "High (70-85%)",
+    "temperature": "Warm (18-28°C)",
+    "difficulty": "Easy to Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Linear-lanceolate, strap-like, pendant",
+    "leafLength": "60-120cm",
+    "leafWidth": "5-8cm",
+    "petioleColor": "Green, short",
+    "venation": "Prominent midrib",
+    "texture": "Leathery, matte to semi-glossy",
+    "variegation": "None",
+    "growthHabit": "Pendant epiphytic rosette"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium vittariifolium",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Anthurium vittariifolium",
+      "Anthurium vittariifolium Sodiro",
+      "Strap-Leaf Anthurium",
+      "Anthurium vittariifolium",
+      "Anthurium vittariifolium plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

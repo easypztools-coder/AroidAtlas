@@ -1,0 +1,82 @@
+{
+  "name": "Monstera dubia",
+  "slug": "dubia",
+  "scientificName": "Monstera dubia (Kunth) Ernesto-Rodr. & G.Gerlach",
+  "commonName": "Shingle Plant",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "dubia",
+  "origin": "Central to South America",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "££",
+  "aboutText": "Monstera dubia is a famous shingling aroid native to the tropical rainforests of Central and South America. In its juvenile stage, it is known for heart-shaped, silver-variegated leaves that shingle flat against trees or boards. As it climbs and matures, it undergoes a dramatic transformation, losing its silver variegation and producing large, fenestrated green leaves that resemble Monstera deliciosa. This species is highly popular for showcasing the remarkable process of plant morphogenesis.",
+  "quickFacts": {
+    "growthHabit": "Shingling to root-climbing climber",
+    "matureSize": "Large climber (up to 3m)",
+    "light": "Medium Indirect Light",
+    "humidity": "High (65-80%)",
+    "temperature": "Warm (18-28°C)",
+    "difficulty": "Easy to Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Heart-shaped (juvenile) to deeply fenestrated/lobed (mature)",
+    "leafLength": "8-15cm (juvenile) to 40-60cm (mature)",
+    "leafWidth": "6-12cm (juvenile)",
+    "petioleColor": "Green, short",
+    "venation": "Pinnate",
+    "texture": "Smooth, matte to semi-glossy",
+    "variegation": "Natural silver variegation (juvenile only)",
+    "growthHabit": "Shingling flat against support"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera dubia",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera dubia",
+      "Monstera dubia (Kunth) Ernesto-Rodr. & G.Gerlach",
+      "Shingle Plant",
+      "Monstera dubia",
+      "Monstera dubia plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

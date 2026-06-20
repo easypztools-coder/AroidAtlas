@@ -232,11 +232,15 @@ export function matchProduct(
     (plantGenus === "alocasia" && normTitle.match(/\ba\b/i)) ||
     (plantGenus === "anthurium" && normTitle.match(/\ba\b/i)) ||
     (plantGenus === "rhaphidophora" && normTitle.match(/\br\b/i)) ||
-    (plantGenus === "scindapsus" && normTitle.match(/\bs\b/i));
+    (plantGenus === "scindapsus" && normTitle.match(/\bs\b/i)) ||
+    (plantGenus === "amydrium" && normTitle.match(/\ba\b/i)) ||
+    (plantGenus === "epipremnum" && normTitle.match(/\be\b/i)) ||
+    (plantGenus === "cercestis" && normTitle.match(/\bc\b/i)) ||
+    (plantGenus === "pothos" && normTitle.match(/\bp\b/i));
 
   if (!hasGenus) {
     // If the title contains a DIFFERENT known genus, reject immediately
-    const otherGenera = ["philodendron", "monstera", "alocasia", "anthurium", "rhaphidophora", "scindapsus"].filter(
+    const otherGenera = ["philodendron", "monstera", "alocasia", "anthurium", "rhaphidophora", "scindapsus", "amydrium", "epipremnum", "cercestis", "pothos"].filter(
       (g) => g !== plantGenus
     );
     for (const g of otherGenera) {
@@ -313,7 +317,11 @@ export function matchProduct(
     (plantGenus === "philodendron" && normTitle.includes("p. ")) ||
     (plantGenus === "monstera" && normTitle.includes("m. ")) ||
     (plantGenus === "alocasia" && normTitle.includes("a. ")) ||
-    (plantGenus === "anthurium" && normTitle.includes("a. "))
+    (plantGenus === "anthurium" && normTitle.includes("a. ")) ||
+    (plantGenus === "amydrium" && normTitle.includes("a. ")) ||
+    (plantGenus === "epipremnum" && normTitle.includes("e. ")) ||
+    (plantGenus === "cercestis" && normTitle.includes("c. ")) ||
+    (plantGenus === "pothos" && normTitle.includes("p. "))
   ) {
     score += 0.15;
   }

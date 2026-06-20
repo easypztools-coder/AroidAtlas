@@ -1,0 +1,82 @@
+{
+  "name": "Epipremnum giganteum",
+  "slug": "epipremnum-giganteum",
+  "scientificName": "Epipremnum giganteum (Roxb.) Schott",
+  "commonName": "Giant Epipremnum",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Epipremnum",
+  "species": "giganteum",
+  "origin": "Indochina to Malaysia",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Epipremnum giganteum is a massive, climbing liana native to the monsoon and tropical wet forests of Indochina and Malaysia. In its natural habitat, it climbs tall trees using strong aerial roots, producing massive, undivided, paddle-shaped leaves that can reach over a meter long. The leaves are thick, leathery, and dark green with a leathery texture. It is a highly robust grower that requires a very sturdy support or tree trunk to reach its potential, making a magnificent statement piece.",
+  "quickFacts": {
+    "growthHabit": "Root-climbing climber",
+    "matureSize": "Large climber (3-6m)",
+    "light": "Bright Indirect Light",
+    "humidity": "Moderate to High (50-80%)",
+    "temperature": "Warm (18-28°C)",
+    "difficulty": "Easy",
+    "growthSpeed": "Fast"
+  },
+  "morphology": {
+    "leafShape": "Elongated oblong-elliptic, paddle-like, entire",
+    "leafLength": "60-120cm",
+    "leafWidth": "20-40cm",
+    "petioleColor": "Green, thick",
+    "venation": "Prominent pale midrib",
+    "texture": "Thick, leathery (coriaceous)",
+    "variegation": "None",
+    "growthHabit": "Thick vining stem, root climber"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Epipremnum giganteum",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Epipremnum giganteum",
+      "Epipremnum giganteum (Roxb.) Schott",
+      "Giant Epipremnum",
+      "Epipremnum giganteum",
+      "Epipremnum giganteum plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

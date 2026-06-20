@@ -1,0 +1,82 @@
+{
+  "name": "Anthurium pendens",
+  "slug": "pendens",
+  "scientificName": "Anthurium pendens L.S.Croat",
+  "commonName": "Pendant Strap-Leaf Anthurium",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Anthurium",
+  "species": "pendens",
+  "origin": "Panama to Colombia",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Anthurium pendens is an elegant epiphytic species native to the cloud forests of Panama and Colombia. It is highly sought after for its long, narrow, ribbon-like leaves that hang vertically from epiphytic support. The foliage is matte to semi-glossy, dark green, and incredibly leathery. It grows compactly at the base, directing all its energy into producing long cascading leaves, making it perfect for hanging baskets or mounts where the foliage can gracefully hang.",
+  "quickFacts": {
+    "growthHabit": "Epiphytic, pendant",
+    "matureSize": "Medium to Large pendant (leaves 50-100cm)",
+    "light": "Medium Indirect Light",
+    "humidity": "High (70-90%)",
+    "temperature": "Intermediate to Warm (16-26°C)",
+    "difficulty": "Moderate",
+    "growthSpeed": "Slow to Moderate"
+  },
+  "morphology": {
+    "leafShape": "Linear-lanceolate, strap-like",
+    "leafLength": "50-100cm",
+    "leafWidth": "4-8cm",
+    "petioleColor": "Green, short",
+    "venation": "Prominent midrib",
+    "texture": "Leathery, matte",
+    "variegation": "None",
+    "growthHabit": "Pendant epiphytic rosette"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium pendens",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Anthurium pendens",
+      "Anthurium pendens L.S.Croat",
+      "Pendant Strap-Leaf Anthurium",
+      "Anthurium pendens",
+      "Anthurium pendens plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

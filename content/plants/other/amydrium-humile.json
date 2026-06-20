@@ -1,0 +1,82 @@
+{
+  "name": "Amydrium humile",
+  "slug": "amydrium-humile",
+  "scientificName": "Amydrium humile Schott",
+  "commonName": "Humile Sprawling Aroid",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Amydrium",
+  "species": "humile",
+  "origin": "Peninsula Malaysia to Sumatra",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Amydrium humile is a sprawling or lightly climbing aroid species native to the humid tropical forests of Peninsula Malaysia and Sumatra. It typically grows on the forest floor in leaf litter or on rocks, climbing gently onto nearby supports. The plant features sprawling rooting stems that can form loose colonies. Its juvenile leaves are simple, entire, and heart-shaped to ovate, while the mature leaves become more architectural and deeply lobed or divided into finger-like segments, presenting a highly unique growth habit.",
+  "quickFacts": {
+    "growthHabit": "Sprawling, creeping, climbing climber",
+    "matureSize": "Medium, creeping or low climbing",
+    "light": "Medium to Low Indirect Light",
+    "humidity": "High (70-85%)",
+    "temperature": "Warm",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Ovate-entire (juvenile) to deeply lobed/segmented (mature)",
+    "leafLength": "15-30cm",
+    "leafWidth": "10-20cm",
+    "petioleColor": "Green",
+    "venation": "Reticulate",
+    "texture": "Slightly leathery",
+    "variegation": "None",
+    "growthHabit": "Creeping stems, rooting at nodes"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Amydrium humile",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Amydrium humile",
+      "Amydrium humile Schott",
+      "Humile Sprawling Aroid",
+      "Amydrium humile",
+      "Amydrium humile plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

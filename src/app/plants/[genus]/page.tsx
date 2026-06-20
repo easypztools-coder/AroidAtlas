@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
 import fs from "fs";
 import path from "path";
-import { getStaticTierLabel } from "@/lib/prices/priceRarityTier";
+import GenusPlantList from "@/components/GenusPlantList";
 
 interface PlantSummary {
   slug: string;
@@ -12,6 +11,7 @@ interface PlantSummary {
   commonName: string;
   rarityStatus: string;
   priceGuideTier: string;
+  botanicalType: string;
 }
 
 interface PageProps {
@@ -23,8 +23,7 @@ const GENUS_DESCRIPTIONS: Record<string, string> = {
   anthurium: "Velvet-leafed jewels of the rainforest understory. Browse our collection of Anthurium species and cultivars.",
   monstera: "Iconic fenestrated giants of the tropical canopy. Browse our collection of Monstera species and cultivars.",
   alocasia: "Dramatic shield-leafed specimens from Southeast Asia. Browse our collection of Alocasia species and cultivars.",
-  rhaphidophora: "Understory shinglers and climbers with fenestrated leaves. Browse our collection of Rhaphidophora species and cultivars.",
-  scindapsus: "Vining climbing aroids with satin texture and silver patterns. Browse our collection of Scindapsus species and cultivars.",
+  other: "Other rare climbing aroid genera including Amydrium, Rhaphidophora, Scindapsus, Epipremnum, Cercestis, and Pothos.",
 };
 
 function getAllPlantsForGenus(genus: string): PlantSummary[] {
@@ -41,6 +40,7 @@ function getAllPlantsForGenus(genus: string): PlantSummary[] {
       commonName: data.commonName,
       rarityStatus: data.rarityStatus,
       priceGuideTier: data.priceGuideTier,
+      botanicalType: data.botanicalType || "variegated",
     };
   });
 }
@@ -89,42 +89,7 @@ export default function GenusPage({ params }: PageProps) {
           <Link href="/plants" className="btn-primary mt-6 inline-flex">Browse All Genera</Link>
         </div>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {plants.map((plant) => (
-            <Link
-              key={plant.slug}
-              href={`/plants/${genus}/${plant.slug}`}
-              className="glass-card-hover group relative flex overflow-hidden rounded-2xl p-6"
-            >
-              <div className="absolute inset-0 bg-gradient-to-br from-forest-deep via-card to-forest-dark opacity-50" />
-              <div className="relative flex justify-between items-center w-full gap-4 z-10">
-                <div className="flex-1 min-w-0">
-                  <h3 className="text-base font-heading font-bold text-heading italic group-hover:text-primary transition-colors duration-300 line-clamp-2">
-                    {plant.scientificName}
-                  </h3>
-                  <p className="mt-1 text-xs text-muted truncate">{plant.commonName}</p>
-                  <div className="mt-3 flex items-center gap-2">
-                    <span className="badge-price">{plant.priceGuideTier} · {getStaticTierLabel(plant.priceGuideTier)}</span>
-                  </div>
-                </div>
-                
-                {/* Right-aligned soft-reveal thumbnail */}
-                <div className="relative h-20 w-20 shrink-0 rounded-xl overflow-hidden bg-card border border-primary/5">
-                  <Image
-                    src={`/api/plant-image?genus=${genus}&slug=${plant.slug}`}
-                    alt={plant.commonName}
-                    fill
-                    className="object-cover object-center scale-[1.3] transition-all duration-500 ease-out group-hover:scale-[1.4] opacity-90 group-hover:opacity-100"
-                    sizes="80px"
-                  />
-                  {/* Spotlight overlay */}
-                  <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_20%,rgba(17,26,21,0.8)_80%,#111A15_100%)] pointer-events-none" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-card via-transparent to-transparent pointer-events-none" />
-                </div>
-              </div>
-            </Link>
-          ))}
-        </div>
+        <GenusPlantList initialPlants={plants} genus={genus} />
       )}
     </div>
   );

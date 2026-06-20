@@ -1,0 +1,82 @@
+{
+  "name": "Amydrium zippelianum",
+  "slug": "amydrium-zippelianum",
+  "scientificName": "Amydrium zippelianum (Schott) Nicolson",
+  "commonName": "Palm-Leaf Amydrium",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Amydrium",
+  "species": "zippelianum",
+  "origin": "Central Malesia to New Guinea",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Amydrium zippelianum is a climbing aroid liana native to the lowland and lower montane rainforests of Central Malesia to New Guinea. It climbs vigorously up trees, attaching securely to bark with aerial roots. The mature leaves are highly distinct, being deeply pinnatifid into numerous long, narrow, hanging divisions, giving the plant a palm-like or dissected silhouette. The foliage is elongated, glossy green, and elegant, making it a highly decorative and unusual specimen for collector collections.",
+  "quickFacts": {
+    "growthHabit": "Climbing liana",
+    "matureSize": "Large climber (up to 2-3m)",
+    "light": "Medium Indirect Light",
+    "humidity": "High",
+    "temperature": "Warm",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate to Fast"
+  },
+  "morphology": {
+    "leafShape": "Deeply pinnatifid with long, narrow divisions",
+    "leafLength": "30-60cm",
+    "leafWidth": "25-45cm",
+    "petioleColor": "Green",
+    "venation": "Reticulate",
+    "texture": "Smooth, glossy",
+    "variegation": "None",
+    "growthHabit": "Climbing stems with aerial roots"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Amydrium zippelianum",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Amydrium zippelianum",
+      "Amydrium zippelianum (Schott) Nicolson",
+      "Palm-Leaf Amydrium",
+      "Amydrium zippelianum",
+      "Amydrium zippelianum plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

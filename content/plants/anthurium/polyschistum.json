@@ -1,0 +1,81 @@
+{
+  "name": "Anthurium polyschistum",
+  "slug": "polyschistum",
+  "scientificName": "Anthurium polyschistum R.E.Schult. & Idrobo",
+  "commonName": "Anthurium Polyschistum",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Anthurium",
+  "species": "polyschistum",
+  "origin": "Colombia to Ecuador, northeastern Bolivia",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Anthurium polyschistum is a naturally occurring epiphyte native to the wet tropical forests of Colombia, Ecuador, and northeastern Bolivia. It thrives in humid, shaded to bright understory conditions, growing on tree trunks and large branches, preferring good air movement and organic-rich detritus. Its distinct morphology includes pedately divided leaves with 7-11 narrow, linear-lanceolate lobes that are rigid to mildly undulate, featuring a glossy dark green surface and a prominent midrib. This species adapts well to humid montane and lowland forests with abundant rainfall and filtered light, often climbing with aerial roots.",
+  "quickFacts": {
+    "growthHabit": "Epiphytic, climbing",
+    "matureSize": "Medium",
+    "light": "Bright indirect",
+    "humidity": "High",
+    "temperature": "Tropical (warm)",
+    "difficulty": "Moderate",
+    "growthSpeed": "Medium"
+  },
+  "morphology": {
+    "leafShape": "Pedately divided, palm-like with 7-11 linear-lanceolate lobes",
+    "leafLength": "Medium",
+    "leafWidth": "Medium",
+    "petioleColor": "Green",
+    "venation": "Pinnate, prominent midrib",
+    "texture": "Rigid, glossy, mildly undulate",
+    "variegation": "None",
+    "growthHabit": "Climbing Epiphyte"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium polyschistum",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "polyschistum",
+      "polyschistum plant",
+      "Anthurium polyschistum",
+      "R.E.Schult. & Idrobo"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

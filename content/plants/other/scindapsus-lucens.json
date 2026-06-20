@@ -1,0 +1,82 @@
+{
+  "name": "Scindapsus lucens",
+  "slug": "scindapsus-lucens",
+  "scientificName": "Scindapsus lucens Bogner & P.C.Boyce",
+  "commonName": "Polished Leaf Scindapsus",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Scindapsus",
+  "species": "lucens",
+  "origin": "Sumatra (Indonesia)",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Scindapsus lucens is a rare and highly attractive climbing species native to Sumatra, Indonesia. It is outstanding for its highly shiny, deeply bullate (puckered) leaves that have a metallic, dark green finish. The leaves are ovate-lanceolate and shingle or sprawl as they climb. Unlike most variegated Scindapsus, the beauty of S. lucens lies in its texture and gloss, catching light beautifully. It grows best climbing up a moss pole in humid, warm conditions.",
+  "quickFacts": {
+    "growthHabit": "Root-climbing, shingling to vining",
+    "matureSize": "Medium climber (1.5-2.5m)",
+    "light": "Medium Indirect Light",
+    "humidity": "High (70-90%)",
+    "temperature": "Warm (18-28°C)",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Ovate-lanceolate, asymmetric, bullate",
+    "leafLength": "15-25cm",
+    "leafWidth": "8-15cm",
+    "petioleColor": "Green, short",
+    "venation": "Deeply quilted primary veins",
+    "texture": "Extremely glossy, puckered, bullate",
+    "variegation": "None",
+    "growthHabit": "Climbing, rooting at nodes"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Scindapsus lucens",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Scindapsus lucens",
+      "Scindapsus lucens Bogner & P.C.Boyce",
+      "Polished Leaf Scindapsus",
+      "Scindapsus lucens",
+      "Scindapsus lucens plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

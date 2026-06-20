@@ -3,6 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
+  description: "Read the privacy policy of Ariod Atlas to understand how we collect, use, and protect your data.",
 };
 
 export default function PrivacyPage() {

@@ -1,0 +1,82 @@
+{
+  "name": "Alocasia infernalis",
+  "slug": "infernalis",
+  "scientificName": "Alocasia infernalis P.C.Boyce",
+  "commonName": "Alocasia Infernalis",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Alocasia",
+  "species": "infernalis",
+  "origin": "Borneo (Sarawak)",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Native to Borneo (Sarawak), Alocasia infernalis thrives as a terrestrial or lithophytic species in wet tropical forests. It prefers shaded, humid environments with rich organic matter and consistent moisture, typically found on the forest floor or on mossy limestone rocks. This compact, self-heading Alocasia is characterized by its corm-forming base and clumping growth habit. Its thick, glossy, ovate-sagittate leaves display a striking dark purple-black to near-black adaxial surface with a metallic sheen, complemented by a dusky purple abaxial surface and deeply impressed primary veins. Dark purple to near-black petioles arise individually from the corm.",
+  "quickFacts": {
+    "growthHabit": "Compact, self-heading, clumping",
+    "matureSize": "Medium (30-60cm tall)",
+    "light": "Shaded",
+    "humidity": "High (70-90%)",
+    "temperature": "Warm (18-30°C)",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Ovate-sagittate with a pronounced basal sinus",
+    "leafLength": "Medium (15-30cm)",
+    "leafWidth": "Medium (10-20cm)",
+    "petioleColor": "Dark purple to near-black",
+    "venation": "Deeply impressed primary veins",
+    "texture": "Thick and glossy with a metallic sheen",
+    "variegation": "None",
+    "growthHabit": "Compact, self-heading, clumping"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia infernalis",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Alocasia infernalis P.C.Boyce",
+      "Alocasia Infernalis Borneo",
+      "Infernalis Black Alocasia",
+      "Black Infernalis",
+      "Alocasia infernalis plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

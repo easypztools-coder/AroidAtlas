@@ -3,6 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Care Guides & Resources — Coming Soon",
+  description: "Browse detailed cultivation resources, care guides, and a botanical glossary for Monstera, Philodendron, Anthurium, and Alocasia.",
 };
 
 export default function LearnPage() {

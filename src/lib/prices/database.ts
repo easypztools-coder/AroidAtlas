@@ -31,6 +31,8 @@ interface SavedListing {
   soldDate: string | null;
   listingType: string;
   currency: string;
+  title?: string;
+  url?: string;
 }
 
 /** Shape of the saved latest.json */
@@ -83,7 +85,7 @@ export async function loadLatestSnapshot(
   const listings: PriceListing[] = (data.acceptedListings ?? []).map(
     (l) => ({
       plantSlug: slug,
-      title: "",
+      title: l.title ?? "",
       normalizedTitle: "",
       listingType: l.listingType as import("./types").ListingType,
       lotSize: 1,
@@ -95,7 +97,7 @@ export async function loadLatestSnapshot(
       soldDate: l.soldDate,
       seller: "",
       condition: "",
-      url: "",
+      url: l.url ?? "",
       accepted: true,
       rejectionReason: null,
       isOutlier: false,

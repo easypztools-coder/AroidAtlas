@@ -34,6 +34,7 @@ export type {
   PriceSnapshot,
   PriceListing,
   PriceHistoryPoint,
+  RecentSale,
   PriceHistoryResponse,
   AdminUpdateResponse,
 } from "./types";

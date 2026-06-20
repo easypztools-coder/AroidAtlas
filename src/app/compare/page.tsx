@@ -3,6 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Compare Species — Coming Soon",
+  description: "Compare care requirements, leaves morphology, pricing tiers, and collectors popularity ratings for rare tropical aroids.",
 };
 
 export default function ComparePage() {

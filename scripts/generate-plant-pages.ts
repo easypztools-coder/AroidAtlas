@@ -25,6 +25,7 @@ const SKIPPED_FILES = new Set([
   "Monstera 'Burle Marx Flame'.png",
   "Monstera 'Devil Monster'.png",
   "Spiritus Sancti.png",
+  "Philodendron spiritus-sancti.png",
 ]);
 
 // Simple dotenv parser
@@ -51,7 +52,7 @@ function getGenusFromFilename(filename: string): string | null {
   if (lower.startsWith("anthurium")) return "anthurium";
   if (lower.startsWith("monstera")) return "monstera";
   if (lower.startsWith("philodendron")) return "philodendron";
-  return null;
+  return "other";
 }
 
 function getSlugCandidateFromFilename(filename: string, genus: string): string {
@@ -112,6 +113,7 @@ interface PlantData {
   scientificName: string; // Scientific name from SCIENTIFIC NAME section of the plate
   commonName: string; // Common name (e.g. "Ace of Spades Variegata Anthurium", "Whipple Way Philodendron")
   statusTag: string; // e.g. "Rare Variegata Cultivar", "Extremely Rare Cultivar"
+  botanicalType: "species" | "hybrid" | "mutation" | "variegated" | "cultivar"; // Botanical classification: "species" = wild species, "hybrid" = cross between species, "mutation" = non-variegated structural mutation (e.g. Venom), "variegated" = variegated sport mutation, "cultivar" = non-variegated stable cultivar selection.
   family: "Araceae";
   genus: string; // "Alocasia", "Anthurium", "Monstera", or "Philodendron"
   species: string; // Species or cultivar name part (e.g. "Ace of Spades", "Whipple Way")
@@ -306,6 +308,14 @@ async function main() {
       }
       if (plantData.priceTracking && plantData.priceTracking.acceptedTerms) {
         plantData.priceTracking.acceptedTerms = plantData.priceTracking.acceptedTerms.map((t: string) => t.replace(/Variegata/g, "Variegated").replace(/variegata/g, "variegated"));
+      }
+
+      // Ensure that for "other" genus, the slug is prefixed with the actual plant genus
+      if (genus === "other") {
+        const actualGenus = (plantData.genus || "").toLowerCase();
+        if (actualGenus && !plantData.slug.startsWith(actualGenus)) {
+          plantData.slug = `${actualGenus}-${plantData.slug}`;
+        }
       }
 
       const slug = plantData.slug;

@@ -1,0 +1,82 @@
+{
+  "name": "Alocasia sinuata",
+  "slug": "sinuata",
+  "scientificName": "Alocasia sinuata N.E.Br.",
+  "commonName": "Bullate Jewel Alocasia",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Alocasia",
+  "species": "sinuata",
+  "origin": "Philippines (Leyte, Mindanao, Palawan)",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Alocasia sinuata is a compact, self-heading jewel Alocasia native to the Philippines, particularly the islands of Leyte, Mindanao, and Palawan. It grows in the understory of humid tropical forests under warm, shaded conditions. The plant is highly prized for its thick, coriaceous, and deeply quilted (bullate) leaves that have a glossy, metallic dark green sheen. It forms a neat rosette from a basal corm and has wavy, sinuate margins, giving it an exceptionally sculptural appearance.",
+  "quickFacts": {
+    "growthHabit": "Compact, self-heading, corm-forming",
+    "matureSize": "Small (20-35cm tall)",
+    "light": "Medium to bright indirect light",
+    "humidity": "High (75-90%)",
+    "temperature": "Warm (18-28°C)",
+    "difficulty": "Moderate to Hard",
+    "growthSpeed": "Slow to Moderate"
+  },
+  "morphology": {
+    "leafShape": "Sagittate to ovate, deeply bullate",
+    "leafLength": "12-20cm",
+    "leafWidth": "8-12cm",
+    "petioleColor": "Pale green",
+    "venation": "Quilted, dark primary veins",
+    "texture": "Thick, leathery (coriaceous), very glossy",
+    "variegation": "None",
+    "growthHabit": "Rosette, terrestrial"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia sinuata",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Alocasia sinuata",
+      "Alocasia sinuata N.E.Br.",
+      "Bullate Jewel Alocasia",
+      "Alocasia sinuata",
+      "Alocasia sinuata plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

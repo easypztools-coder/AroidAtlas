@@ -1,0 +1,82 @@
+{
+  "name": "Anthurium warocqueanum",
+  "slug": "warocqueanum",
+  "scientificName": "Anthurium warocqueanum T.Moore",
+  "commonName": "Queen Anthurium",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Anthurium",
+  "species": "warocqueanum",
+  "origin": "Colombia",
+  "collectorPopularity": 5,
+  "rarityStatus": "Very Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Anthurium warocqueanum, widely known as the 'Queen Anthurium', is one of the most iconic and highly coveted species in the aroid hobby. Native to the extremely humid rainforests of Colombia, it produces massive, elongated, velvet-textured leaves that can grow up to 1.2 meters long. The leaves are dark green to almost black, contrasted by striking silvery-white primary veins. Due to its thin, velvety leaves, it requires high humidity and careful moisture levels, but remains a crown jewel for collectors.",
+  "quickFacts": {
+    "growthHabit": "Epiphytic, compact to climbing",
+    "matureSize": "Large (leaves 60-120cm long)",
+    "light": "Medium Indirect Light",
+    "humidity": "Very High (75-95%)",
+    "temperature": "Intermediate to Warm (16-26°C)",
+    "difficulty": "Hard",
+    "growthSpeed": "Slow to Moderate"
+  },
+  "morphology": {
+    "leafShape": "Elongated cordate-sagittate, narrow sinus",
+    "leafLength": "60-120cm",
+    "leafWidth": "15-25cm",
+    "petioleColor": "Green, round",
+    "venation": "Striking silvery-white primary veins",
+    "texture": "Thick, velvety, matte",
+    "variegation": "None",
+    "growthHabit": "Basal rosette to slowly climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium warocqueanum",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Anthurium warocqueanum",
+      "Anthurium warocqueanum T.Moore",
+      "Queen Anthurium",
+      "Anthurium warocqueanum",
+      "Anthurium warocqueanum plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

@@ -1,0 +1,82 @@
+{
+  "name": "Anthurium cutucuense",
+  "slug": "cutucuense",
+  "scientificName": "Anthurium cutucuense Madison",
+  "commonName": "Cutucuense Strap Anthurium",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Anthurium",
+  "species": "cutucuense",
+  "origin": "Ecuador",
+  "collectorPopularity": 5,
+  "rarityStatus": "Very Rare",
+  "availability": "Very Low",
+  "priceGuideTier": "££££",
+  "aboutText": "Anthurium cutucuense is a highly rare and unique epiphytic Anthurium native to the shaded cloud forests and wet forest conditions of Ecuador. It grows with a compact crown and forms long, narrow, pendant leaves that hang elegantly from a small basal root mass. The mature blades are dark green, leathery, and conspicuously ribbed or bullate with a strong midrib. This species is highly coveted by collectors for its extremely narrow, textured leaves and graceful pendant to arching growth habit.",
+  "quickFacts": {
+    "growthHabit": "Epiphytic, pendant, arching",
+    "matureSize": "Medium pendant (leaves 40-70cm long)",
+    "light": "Medium to Low Indirect Light",
+    "humidity": "Very High (80-95%)",
+    "temperature": "Cool to Intermediate",
+    "difficulty": "Hard",
+    "growthSpeed": "Slow"
+  },
+  "morphology": {
+    "leafShape": "Elongated narrow, linear-lanceolate, strap-like",
+    "leafLength": "40-70cm",
+    "leafWidth": "3-5cm",
+    "petioleColor": "Reddish green to green",
+    "venation": "Conspicuously ribbed midrib",
+    "texture": "Leathery, deeply bullate/ribbed",
+    "variegation": "None",
+    "growthHabit": "Pendant, epiphytic"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium cutucuense",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Anthurium cutucuense",
+      "Anthurium cutucuense Madison",
+      "Cutucuense Strap Anthurium",
+      "Anthurium cutucuense",
+      "Anthurium cutucuense plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

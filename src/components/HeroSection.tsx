@@ -159,6 +159,7 @@ export default function HeroSection() {
                   />
                 </svg>
                 <input
+                  id="hero-search-input"
                   type="text"
                   value={searchQuery}
                   onChange={(e) => handleSearch(e.target.value)}

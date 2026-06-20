@@ -1,0 +1,82 @@
+{
+  "name": "Anthurium pallidiflorum",
+  "slug": "pallidiflorum",
+  "scientificName": "Anthurium pallidiflorum Engl.",
+  "commonName": "Strapleaf Anthurium",
+  "statusTag": "Standard Aroid Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Anthurium",
+  "species": "pallidiflorum",
+  "origin": "Ecuador",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Anthurium pallidiflorum is an epiphytic herb native to Ecuador, thriving in wet tropical forests. It typically anchors itself to branches and trunks in humid, shaded environments with high rainfall and constant moisture, often found in montane to lowland cloud forests at moderate elevations. The plant develops a compact basal crown with numerous adventitious roots that anchor firmly to wood. Its distinctive foliage features very long, narrow, strap-like, linear-lanceolate leaves, borne on slender petioles. These leaves are laterally compressed with a prominent midrib and entire margins, forming an elegant, pendent cascade.",
+  "quickFacts": {
+    "growthHabit": "Epiphytic",
+    "matureSize": "Large (up to 1m+ leaf length)",
+    "light": "Bright indirect light",
+    "humidity": "High (70-80%)",
+    "temperature": "Warm (18-28°C)",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate to Fast"
+  },
+  "morphology": {
+    "leafShape": "Very long, narrow, strap-like, linear-lanceolate",
+    "leafLength": "Up to 100 cm (40 inches)",
+    "leafWidth": "Approx. 5-10 cm (2-4 inches)",
+    "petioleColor": "Green",
+    "venation": "Prominent midrib with inconspicuous lateral veins",
+    "texture": "Smooth, leathery",
+    "variegation": "None",
+    "growthHabit": "Pendent, cascading"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium pallidiflorum",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Anthurium pallidiflorum",
+      "Strap Leaf Anthurium",
+      "Pallidiflorum",
+      "Long-leaf Anthurium",
+      "Pallidiflorum live plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

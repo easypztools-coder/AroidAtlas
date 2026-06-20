@@ -1,0 +1,82 @@
+{
+  "name": "Philodendron fragrantissimum",
+  "slug": "fragrantissimum",
+  "scientificName": "Philodendron fragrantissimum (Hook.) G.Don",
+  "commonName": "Red Spathe Philodendron",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "fragrantissimum",
+  "origin": "Guatemala to South America",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Philodendron fragrantissimum is a root-climbing epiphytic Philodendron native to warm, wet tropical forests ranging from Guatemala to South America, thriving in filtered light and persistent moisture. The adult plant features a stout climbing stem and several mature glossy green leaves that are broadly sagittate to cordate-sagittate with a clear sinus, strong midrib, and smooth margins. The petioles are robust, and it produces a highly fragrant inflorescence with a deep red to burgundy spathe surrounding a white spadix.",
+  "quickFacts": {
+    "growthHabit": "Root-climbing epiphytic climber",
+    "matureSize": "Large climber",
+    "light": "Medium to low filtered light",
+    "humidity": "High (70-85%)",
+    "temperature": "Warm",
+    "difficulty": "Easy to Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Broadly sagittate to cordate-sagittate",
+    "leafLength": "30-50cm",
+    "leafWidth": "20-35cm",
+    "petioleColor": "Green",
+    "venation": "Strong midrib and smooth margins",
+    "texture": "Glossy, thick",
+    "variegation": "None",
+    "growthHabit": "Root-climbing stem attached to bark"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron fragrantissimum",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Philodendron fragrantissimum",
+      "Philodendron fragrantissimum (Hook.) G.Don",
+      "Red Spathe Philodendron",
+      "Philodendron fragrantissimum",
+      "Philodendron fragrantissimum plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

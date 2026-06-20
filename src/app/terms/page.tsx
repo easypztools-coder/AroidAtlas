@@ -3,6 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Terms of Service",
+  description: "Read the terms of service of Ariod Atlas to understand rules, guidelines, and agreements for using our visual encyclopedia.",
 };
 
 export default function TermsPage() {

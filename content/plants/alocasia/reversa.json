@@ -1,0 +1,83 @@
+{
+  "name": "Alocasia reversa",
+  "slug": "reversa",
+  "scientificName": "Alocasia reversa N.E.Br.",
+  "commonName": "Silver Reversa Alocasia",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Alocasia",
+  "species": "reversa",
+  "origin": "Borneo (Sarawak)",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Alocasia reversa is a compact, self-heading aroid species native to the wet tropical forest understory of Borneo, specifically Sarawak. It thrives terrestrially in humid, shaded conditions with a consistently moist substrate. This distinctive Alocasia features ovate-sagittate leaves with a striking reverse coloration, presenting pale silvery centers beautifully contrasted by darker margins and venation. The leaf texture is smooth to slightly velvety, and the plant exhibits a neat terrestrial habit, forming its petioles from a condensed basal corm-like base without developing climbing stems or aerial roots.",
+  "quickFacts": {
+    "growthHabit": "Compact, terrestrial, self-heading",
+    "matureSize": "Small to Medium (up to 40-50cm tall)",
+    "light": "Low to Medium Indirect Light",
+    "humidity": "High (70-85%)",
+    "temperature": "Warm (18-30°C / 65-86°F)",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Ovate-sagittate",
+    "leafLength": "15-25cm",
+    "leafWidth": "10-15cm",
+    "petioleColor": "Green",
+    "venation": "Pinnate, with striking silvery coloration contrasting darker veins",
+    "texture": "Smooth to slightly velvety",
+    "variegation": "None (natural coloration)",
+    "growthHabit": "Compact, self-heading, terrestrial"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia reversa",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Alocasia reversa",
+      "Alocasia reversa N.E.Br.",
+      "Silver Reversa Alocasia",
+      "reversa Alocasia",
+      "Alocasia reverse",
+      "reversa plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

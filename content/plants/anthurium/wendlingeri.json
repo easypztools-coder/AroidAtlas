@@ -1,0 +1,82 @@
+{
+  "name": "Anthurium wendlingeri",
+  "slug": "wendlingeri",
+  "scientificName": "Anthurium wendlingeri G.M.Barroso",
+  "commonName": "Spiral Spadix Anthurium",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Anthurium",
+  "species": "wendlingeri",
+  "origin": "SE. Nicaragua to NW. Colombia",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Anthurium wendlingeri is a famous and visually stunning epiphytic subshrub native to the wet tropical forests of Central and South America, ranging from Southeast Nicaragua to Northwest Colombia. It grows with a compact crown, producing long, strap-like leaves that hang vertically. The leaves are thick, leathery, dark green, and glossy, lacking a broad heart-shaped blade. Its defining feature is the extraordinary, elongated, spiraled spadix that hangs down below the foliage in a tight spiral like a corkscrew.",
+  "quickFacts": {
+    "growthHabit": "Epiphytic, pendant",
+    "matureSize": "Large (leaves 80-150cm long)",
+    "light": "Medium to Low Indirect Light",
+    "humidity": "High",
+    "temperature": "Warm",
+    "difficulty": "Moderate to Hard",
+    "growthSpeed": "Slow to Moderate"
+  },
+  "morphology": {
+    "leafShape": "Narrowly linear-lanceolate, strap-like",
+    "leafLength": "80-150cm",
+    "leafWidth": "5-10cm",
+    "petioleColor": "Green",
+    "venation": "Prominent midrib, obscure lateral veins",
+    "texture": "Thick, leathery, matte to glossy",
+    "variegation": "None",
+    "growthHabit": "Pendant epiphytic rosette"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium wendlingeri",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Anthurium wendlingeri",
+      "Anthurium wendlingeri G.M.Barroso",
+      "Spiral Spadix Anthurium",
+      "Anthurium wendlingeri",
+      "Anthurium wendlingeri plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

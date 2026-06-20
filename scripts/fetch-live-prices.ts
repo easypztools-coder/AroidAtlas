@@ -170,6 +170,8 @@ async function main() {
       };
 
       const acceptedListings = classified.map((l) => ({
+        title: l.originalTitle,
+        url: l.url,
         soldPrice: l.soldPrice,
         totalPrice: l.totalPrice,
         soldDate: l.soldDate,

@@ -11,7 +11,7 @@ export async function GET(request: NextRequest) {
     return new NextResponse("Missing genus or slug parameter", { status: 400 });
   }
 
-  const validGenera = ["monstera", "philodendron", "anthurium", "alocasia", "rhaphidophora", "scindapsus"];
+  const validGenera = ["monstera", "philodendron", "anthurium", "alocasia", "other"];
   if (!validGenera.includes(genus)) {
     return new NextResponse("Invalid genus", { status: 400 });
   }

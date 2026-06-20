@@ -1,0 +1,82 @@
+{
+  "name": "Alocasia melo",
+  "slug": "melo",
+  "scientificName": "Alocasia melo A.Hay, P.C.Boyce & K.M.Wong",
+  "commonName": "Rugosa Jewel Alocasia",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Alocasia",
+  "species": "melo",
+  "origin": "Borneo (Sabah)",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Alocasia melo is a spectacular dwarf jewel Alocasia endemic to the Sabah region of Borneo, where it grows specifically in ultramafic soils on rocky forest slopes. It is famous for its extremely thick, almost cardboard-like leaves with a deeply rugose, brain-like texture and a dark bluish-green to grey-green coloration. The leaves form a compact, low-growing rosette. Due to its specific native habitat, it requires excellent drainage and careful watering, but rewards growers with its unmatched sculptural beauty.",
+  "quickFacts": {
+    "growthHabit": "Compact, self-heading",
+    "matureSize": "Small (20-30cm)",
+    "light": "Medium to bright indirect light",
+    "humidity": "High (70-85%)",
+    "temperature": "Warm (18-28°C)",
+    "difficulty": "Moderate to Hard",
+    "growthSpeed": "Slow"
+  },
+  "morphology": {
+    "leafShape": "Broadly ovate to peltate, deeply rugose",
+    "leafLength": "15-22cm",
+    "leafWidth": "12-18cm",
+    "petioleColor": "Greyish green",
+    "venation": "Deeply sunken primary and secondary veins",
+    "texture": "Extremely thick, stiff, rough, leather-like",
+    "variegation": "None",
+    "growthHabit": "Basal rosette from corm"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia melo",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Alocasia melo",
+      "Alocasia melo A.Hay, P.C.Boyce & K.M.Wong",
+      "Rugosa Jewel Alocasia",
+      "Alocasia melo",
+      "Alocasia melo plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

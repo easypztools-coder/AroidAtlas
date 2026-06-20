@@ -1,0 +1,81 @@
+{
+  "name": "Alocasia chaii",
+  "slug": "chaii",
+  "scientificName": "Alocasia chaii P.C.Boyce",
+  "commonName": "Alocasia Chaii",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Alocasia",
+  "species": "chaii",
+  "origin": "Borneo (Sarawak)",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Alocasia chaii is a compact, self-heading aroid species naturally found in the wet tropical forests of Borneo, specifically Sarawak. It thrives terrestrially or lithophytically on rainforest floors, rocky slopes, or limestone outcrops, preferring deep humus, high humidity, and filtered light. This species forms a basal corm from which erect, slightly arching petioles, deep maroon to purple in color, emerge. Its distinctive leaves are thick, heavily bullate, and strongly textured, ranging from narrowly ovate to lanceolate with pronounced central and lateral veins. The upper surface is a glossy dark green, contrasting with the deep maroon to purple undersides, giving the plant a rugged, sculptural, and jewel-like appearance.",
+  "quickFacts": {
+    "growthHabit": "Compact, self-heading",
+    "matureSize": "Medium (up to 60cm tall)",
+    "light": "Filtered bright indirect",
+    "humidity": "High (70-80%)",
+    "temperature": "Warm (18-30°C / 65-85°F)",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Narrowly ovate to lanceolate",
+    "leafLength": "20-30 cm",
+    "leafWidth": "10-15 cm",
+    "petioleColor": "Deep maroon to purple",
+    "venation": "Pronounced central and lateral veins",
+    "texture": "Thick, heavily bullate and strongly textured",
+    "variegation": "None",
+    "growthHabit": "Self-heading, compact"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia chaii",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Alocasia chaii",
+      "Alocasia chai",
+      "Alocasia chaii plant",
+      "Alocasia chaii live plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

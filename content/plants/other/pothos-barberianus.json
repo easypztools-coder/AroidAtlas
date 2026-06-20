@@ -1,0 +1,82 @@
+{
+  "name": "Pothos barberianus",
+  "slug": "pothos-barberianus",
+  "scientificName": "Pothos barberianus Schott",
+  "commonName": "Barberianus Climbing Pothos",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Pothos",
+  "species": "barberianus",
+  "origin": "Peninsula Malaysia, Sumatra, Borneo",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Pothos barberianus is a fascinating, true Pothos species (the genus Pothos is separate from Epipremnum, which is commonly called pothos) native to the humid forests of Peninsula Malaysia, Sumatra, and Borneo. It grows as a root-climbing liana, shingling and climbing tree trunks. A key characteristic of Pothos species is the winged petiole, which makes the leaf look like it is composed of two jointed leaf-like parts. P. barberianus features lanceolate, dark green, glossy leaves and is a highly unusual addition for serious aroid collectors.",
+  "quickFacts": {
+    "growthHabit": "Root-climbing climber",
+    "matureSize": "Medium climber (1.5-2.5m)",
+    "light": "Medium to Low Indirect Light",
+    "humidity": "High (70-85%)",
+    "temperature": "Warm (18-28°C)",
+    "difficulty": "Moderate",
+    "growthSpeed": "Slow to Moderate"
+  },
+  "morphology": {
+    "leafShape": "Lanceolate with a prominent winged petiole",
+    "leafLength": "12-20cm",
+    "leafWidth": "4-7cm",
+    "petioleColor": "Green, winged (foliaceous)",
+    "venation": "Pinnate, subtle",
+    "texture": "Leathery, glossy",
+    "variegation": "None",
+    "growthHabit": "Climbing, stems rooting at nodes"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Pothos barberianus",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Pothos barberianus",
+      "Pothos barberianus Schott",
+      "Barberianus Climbing Pothos",
+      "Pothos barberianus",
+      "Pothos barberianus plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

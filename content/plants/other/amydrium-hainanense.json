@@ -1,0 +1,82 @@
+{
+  "name": "Amydrium hainanense",
+  "slug": "amydrium-hainanense",
+  "scientificName": "Amydrium hainanense (H.Li, Y.Shiao & S.L.Tseng) H.Li",
+  "commonName": "Hainan Sprawling Aroid",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Amydrium",
+  "species": "hainanense",
+  "origin": "Hainan (China) to Vietnam",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Amydrium hainanense is a rare creeping and climbing aroid native to the tropical forest floor and lower trunks of Hainan, China, and Vietnam. It features creeping, slender stems that trail or climb. The juvenile leaves are simple, glossy green, and heart-shaped, while the mature leaves display a highly elegant, deeply lobed or pinnate structure. It is relatively cold-tolerant compared to equatorial aroids but prefers high humidity and consistent moisture.",
+  "quickFacts": {
+    "growthHabit": "Creeping to climbing liana",
+    "matureSize": "Medium climber (1.5-2m)",
+    "light": "Medium to Low Indirect Light",
+    "humidity": "High (65-80%)",
+    "temperature": "Subtropical to Warm (15-26°C)",
+    "difficulty": "Moderate",
+    "growthSpeed": "Slow to Moderate"
+  },
+  "morphology": {
+    "leafShape": "Ovate-cordate (juvenile) to pinnatifid (mature)",
+    "leafLength": "20-35cm",
+    "leafWidth": "12-20cm",
+    "petioleColor": "Green",
+    "venation": "Reticulate",
+    "texture": "Smooth, semi-glossy",
+    "variegation": "None",
+    "growthHabit": "Creeping stems, rooting at nodes"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Amydrium hainanense",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Amydrium hainanense",
+      "Amydrium hainanense (H.Li, Y.Shiao & S.L.Tseng) H.Li",
+      "Hainan Sprawling Aroid",
+      "Amydrium hainanense",
+      "Amydrium hainanense plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

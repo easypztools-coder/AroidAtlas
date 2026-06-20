@@ -44,6 +44,7 @@ interface PlantData {
   scientificName: string;
   commonName: string;
   statusTag: string;
+  botanicalType: string;
   family: string;
   genus: string;
   species: string;

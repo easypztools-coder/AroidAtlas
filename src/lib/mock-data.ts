@@ -109,44 +109,32 @@ export const genera: GenusEntry[] = [
   {
     name: "Philodendron",
     slug: "philodendron",
-    speciesCount: 16,
+    speciesCount: 25,
     description: "Diverse neotropical climbers with striking foliage",
   },
   {
     name: "Anthurium",
     slug: "anthurium",
-    speciesCount: 11,
+    speciesCount: 21,
     description: "Velvet-leafed jewels of the rainforest understory",
   },
   {
     name: "Monstera",
     slug: "monstera",
-    speciesCount: 8,
+    speciesCount: 17,
     description: "Iconic fenestrated giants of the tropical canopy",
   },
   {
     name: "Alocasia",
     slug: "alocasia",
-    speciesCount: 8,
+    speciesCount: 16,
     description: "Dramatic shield-leafed specimens from Southeast Asia",
   },
   {
-    name: "Rhaphidophora",
-    slug: "rhaphidophora",
-    speciesCount: 1,
-    description: "Understory shinglers and climbers with fenestrated leaves",
-  },
-  {
-    name: "Scindapsus",
-    slug: "scindapsus",
-    speciesCount: 1,
-    description: "Vining climbing aroids with satin texture and silver patterns",
-  },
-  {
-    name: "Homalomena",
-    slug: "homalomena",
-    speciesCount: 0,
-    description: "Understory elegance with heart-shaped foliage",
+    name: "Other Aroids",
+    slug: "other",
+    speciesCount: 19,
+    description: "Other rare climbing aroid genera including Amydrium, Rhaphidophora, Scindapsus, Epipremnum, Cercestis, and Pothos",
   },
 ];
 

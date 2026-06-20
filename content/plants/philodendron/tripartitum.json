@@ -1,0 +1,82 @@
+{
+  "name": "Philodendron tripartitum",
+  "slug": "tripartitum",
+  "scientificName": "Philodendron tripartitum (Jacq.) Schott",
+  "commonName": "Tripartitum Philodendron",
+  "statusTag": "Collectible Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "tripartitum",
+  "origin": "Mexico to tropical America",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Philodendron tripartitum is a naturally occurring climbing hemiepiphyte species native to wet tropical forests across Mexico to tropical America. It thrives in warm, humid conditions with high rainfall and filtered light found beneath the forest canopy. This fast-growing aroid produces stems with distinct nodes and cataphyll sheaths, developing adventitious roots for support. Its glossy, medium to deep green blades are distinctly tripartite, featuring an elongated central lobe and two spreading lateral lobes with entire margins. The leaves have a firm, leathery texture and can mature into large, sculptural foliage under optimal conditions.",
+  "quickFacts": {
+    "growthHabit": "Climbing Hemiepiphyte",
+    "matureSize": "Large",
+    "light": "Filtered light",
+    "humidity": "High",
+    "temperature": "Warm",
+    "difficulty": "Moderate",
+    "growthSpeed": "Fast"
+  },
+  "morphology": {
+    "leafShape": "Tripartite with elongated central and two spreading lateral lobes",
+    "leafLength": "Large",
+    "leafWidth": "Large",
+    "petioleColor": "Green",
+    "venation": "Subtle",
+    "texture": "Glossy, leathery",
+    "variegation": "None",
+    "growthHabit": "Climbing, Vining"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron tripartitum",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Philodendron tripartite",
+      "Philodendron three-lobed",
+      "P. tripartitum",
+      "Tripartitum Philodendron",
+      "Philodendron tripartitum plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

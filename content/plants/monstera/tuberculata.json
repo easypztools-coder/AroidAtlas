@@ -1,0 +1,82 @@
+{
+  "name": "Monstera tuberculata",
+  "slug": "tuberculata",
+  "scientificName": "Monstera tuberculata Sutherl.",
+  "commonName": "Tuberculata Shingling Monstera",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "tuberculata",
+  "origin": "Central to South America",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Monstera tuberculata is a highly unique shingling aroid native to the tropical rainforests of Central and South America. In its juvenile stage, it shingles tightly against tree bark with heart-shaped, overlapping leaves that have a rough, tuberculate texture. As it matures and climbs higher, it produces larger foliage and eventually hangs or forms fertile branches. The species is highly appreciated by collectors for its dramatic shingling form and textured leaves.",
+  "quickFacts": {
+    "growthHabit": "Shingling to climbing liana",
+    "matureSize": "Medium climber (1.5-2.5m)",
+    "light": "Medium Indirect Light",
+    "humidity": "High (70-85%)",
+    "temperature": "Warm (18-28°C)",
+    "difficulty": "Moderate",
+    "growthSpeed": "Slow to Moderate"
+  },
+  "morphology": {
+    "leafShape": "Broadly ovate, cordate, shingling",
+    "leafLength": "8-15cm (juvenile)",
+    "leafWidth": "6-12cm",
+    "petioleColor": "Green, extremely short",
+    "venation": "Inconspicuous",
+    "texture": "Rough, tuberculate (bumpy), matte",
+    "variegation": "None",
+    "growthHabit": "Shingling closely against support"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera tuberculata",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera tuberculata",
+      "Monstera tuberculata Sutherl.",
+      "Tuberculata Shingling Monstera",
+      "Monstera tuberculata",
+      "Monstera tuberculata plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

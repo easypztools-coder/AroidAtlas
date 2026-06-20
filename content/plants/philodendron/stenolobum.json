@@ -1,0 +1,82 @@
+{
+  "name": "Philodendron stenolobum",
+  "slug": "stenolobum",
+  "scientificName": "Philodendron stenolobum E.G.Gonç.",
+  "commonName": "Stenolobum Arborescent Philodendron",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "stenolobum",
+  "origin": "Brazil (Espírito Santo, Minas Gerais, Bahia)",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Philodendron stenolobum is an impressive, arborescent (tree-like) Philodendron native to the Atlantic forest of eastern Brazil. Unlike typical climbing or sprawling philodendrons, it grows with a thick woody stem and forms a massive rosette of highly elongated, narrow, strap-like leaves with deeply wavy (undulated) margins. The mature leaves hang down elegantly, making it a highly sculptural specimen. It thrives in bright indirect light and is incredibly robust once established.",
+  "quickFacts": {
+    "growthHabit": "Arborescent, self-heading",
+    "matureSize": "Large (leaves up to 1-1.5m long)",
+    "light": "Bright Indirect Light",
+    "humidity": "Moderate to High (60-80%)",
+    "temperature": "Warm (18-30°C)",
+    "difficulty": "Easy to Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Highly elongated linear-lanceolate, undulated margins",
+    "leafLength": "80-150cm",
+    "leafWidth": "10-20cm",
+    "petioleColor": "Dark green, sturdy",
+    "venation": "Prominent thick midrib",
+    "texture": "Thick, leathery (coriaceous), semi-glossy",
+    "variegation": "None",
+    "growthHabit": "Rosette from central arborescent stem"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron stenolobum",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Philodendron stenolobum",
+      "Philodendron stenolobum E.G.Gonç.",
+      "Stenolobum Arborescent Philodendron",
+      "Philodendron stenolobum",
+      "Philodendron stenolobum plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

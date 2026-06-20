@@ -1,0 +1,83 @@
+{
+  "name": "Rhaphidophora foraminifera",
+  "slug": "rhaphidophora-foraminifera",
+  "scientificName": "Rhaphidophora foraminifera (Engl.) Engl.",
+  "commonName": "Rhaphidophora Swiss Cheese Plant",
+  "statusTag": "Tropical Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Rhaphidophora",
+  "species": "foraminifera",
+  "origin": "western Malesia",
+  "collectorPopularity": 3,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Rhaphidophora foraminifera is a climbing aroid native to the wet tropical forests of western Malesia. It thrives in the understory of lowland to lower montane elevations, where it uses aerial roots to ascend tree trunks. This species prefers high humidity, filtered light, and consistently moist soil conditions. Morphologically, it features slender, terete stems with distinct nodes that produce aerial roots. Its alternate, petiolate leaves are elongated, ranging from narrow-elliptic to lanceolate, and are characterized by multiple oblong to elliptical fenestrations that do not reach the leaf margins.",
+  "quickFacts": {
+    "growthHabit": "Climbing aroid",
+    "matureSize": "Large climbing vine (several meters)",
+    "light": "Filtered light",
+    "humidity": "High humidity",
+    "temperature": "Warm (18-30°C / 65-85°F)",
+    "difficulty": "Moderate",
+    "growthSpeed": "Medium to Fast"
+  },
+  "morphology": {
+    "leafShape": "Elongated and narrow-elliptic to lanceolate",
+    "leafLength": "15-30 cm (6-12 inches)",
+    "leafWidth": "5-10 cm (2-4 inches)",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Smooth, somewhat leathery",
+    "variegation": "None",
+    "growthHabit": "Climbing aroid"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Rhaphidophora foraminifera",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Rhaphidophora foraminifera",
+      "R. foraminifera",
+      "Rhaphi foraminifera",
+      "Rhaphidophora Swiss Cheese",
+      "Swiss Cheese Rhaphidophora",
+      "foraminifera plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

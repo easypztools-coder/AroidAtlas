@@ -1,0 +1,80 @@
+{
+  "name": "Monstera croatii",
+  "slug": "croatii",
+  "scientificName": "Monstera croatii M.Cedeño & A.Hay",
+  "commonName": "Monstera croatii",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "croatii",
+  "origin": "Costa Rica",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Monstera croatii is a naturally occurring climbing hemiepiphyte native to the wet tropical forests of Costa Rica, where it is typically found on tree trunks and large woody vegetation in humid, shaded understories. It exhibits an elongated growth habit with green, terete petioles. Its distinct foliage features narrow-oblong to lanceolate leaves with a strong drip tip, moderately thick blades with entire margins, and a limited number of large, elongated fenestrations aligned along the midrib. Aerial roots emerge from the nodes, aiding its climbing habit.",
+  "quickFacts": {
+    "growthHabit": "Climbing Hemiepiphyte",
+    "matureSize": "Large (climber)",
+    "light": "Bright indirect light",
+    "humidity": "High",
+    "temperature": "Warm (18-30°C)",
+    "difficulty": "Moderate",
+    "growthSpeed": "Medium to Fast"
+  },
+  "morphology": {
+    "leafShape": "Narrow-oblong to lanceolate",
+    "leafLength": "20-35 cm",
+    "leafWidth": "8-15 cm",
+    "petioleColor": "Green",
+    "venation": "Pinnate with distinct midrib and elongated fenestrations",
+    "texture": "Moderately thick",
+    "variegation": "None",
+    "growthHabit": "Climbing Hemiepiphyte"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera croatii",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera croatii",
+      "Monstera Croatii",
+      "M. croatii"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

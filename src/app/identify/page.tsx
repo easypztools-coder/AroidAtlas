@@ -3,6 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Visual Identification — Coming Soon",
+  description: "Identify rare tropical plants using our upcoming visual recognition and identification tool tailored for aroids.",
 };
 
 export default function IdentifyPage() {

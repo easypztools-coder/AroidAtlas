@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import PriceHistoryChart from "@/components/PriceHistoryChart";
 import type { PriceHistoryPoint } from "@/lib/prices/types";
 import { getPriceRarityTier, getStaticTierLabel } from "@/lib/prices/priceRarityTier";
+import { getBotanicalTypeDetails } from "@/components/GenusPlantList";
 
 interface PricePoint {
   date: string;
@@ -48,6 +49,7 @@ interface PlantData {
   scientificName: string;
   commonName: string;
   statusTag: string;
+  botanicalType: string;
   family: string;
   genus: string;
   species: string;
@@ -132,6 +134,7 @@ const GENUS_LABELS: Record<string, string> = {
   philodendron: "Philodendron",
   anthurium: "Anthurium",
   alocasia: "Alocasia",
+  other: "Other Aroids",
 };
 
 
@@ -146,8 +149,18 @@ export default function PlantDetailPage({
   const genusLabel = GENUS_LABELS[genus] ?? genus;
 
   // ─── Fetch live price history ───────────────────────────────────────────
+  interface RecentSale {
+    title: string;
+    soldPrice: number;
+    totalPrice: number;
+    soldDate: string | null;
+    currency: string;
+    url: string;
+  }
+
   const [soldCompsData, setSoldCompsData] = useState<PriceHistoryPoint[]>([]);
   const [fairPrice, setFairPrice] = useState<number | null>(null);
+  const [recentSales, setRecentSales] = useState<RecentSale[]>([]);
 
   useEffect(() => {
     fetch(`/api/plants/${data.slug}/price-history`)
@@ -158,6 +171,9 @@ export default function PlantDetailPage({
         }
         if (typeof json.fairPurchasePrice === "number") {
           setFairPrice(json.fairPurchasePrice);
+        }
+        if (json.recentSales && Array.isArray(json.recentSales)) {
+          setRecentSales(json.recentSales);
         }
       })
       .catch(() => {
@@ -220,6 +236,15 @@ export default function PlantDetailPage({
             <p className="text-sm text-muted mt-1">{data.commonName}</p>
           </div>
           <div className="flex flex-wrap items-center gap-2">
+            {data.botanicalType && (() => {
+              const details = getBotanicalTypeDetails(data.botanicalType);
+              return (
+                <span className={`inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs font-medium ${details.badgeClass}`}>
+                  <span className={`h-1.5 w-1.5 rounded-full ${details.dotClass}`} />
+                  {details.label}
+                </span>
+              );
+            })()}
             {data.statusTag && (
               <span className="inline-flex items-center gap-1.5 rounded-full bg-rarity/10 px-3 py-1 text-xs font-medium text-rarity">
                 <svg className="h-3.5 w-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
@@ -482,22 +507,83 @@ export default function PlantDetailPage({
             </div>
           </div>
 
-          {/* Large Focused Price History Graph */}
+          {/* Large Focused Price History Graph + Recent Sales */}
           <div className="border-t border-primary/10 pt-6">
-            <div className="flex items-center justify-between mb-4">
-              <div>
-                <h3 className="text-sm font-semibold text-heading">eBay Auction Price Trend</h3>
-                <p className="text-[10px] text-muted">Weekly aggregated completed auction sales in the UK</p>
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+              {/* Left Column: Graph (2/3 width on desktop) */}
+              <div className="lg:col-span-2 space-y-4">
+                <div className="flex items-center justify-between">
+                  <div>
+                    <h3 className="text-sm font-semibold text-heading">eBay Auction Price Trend</h3>
+                    <p className="text-[10px] text-muted">Weekly aggregated completed auction sales in the UK</p>
+                  </div>
+                  {soldCompsData.length > 0 && (
+                    <span className="text-[10px] text-muted-light bg-card/60 border border-primary/10 px-2 py-0.5 rounded-full">
+                      {soldCompsData.reduce((sum, d) => sum + d.sampleSize, 0)} sales analyzed
+                    </span>
+                  )}
+                </div>
+                
+                {/* The actual chart - wide view container */}
+                <PriceHistoryChart data={soldCompsData} />
               </div>
-              {soldCompsData.length > 0 && (
-                <span className="text-[10px] text-muted-light bg-card/60 border border-primary/10 px-2 py-0.5 rounded-full">
-                  {soldCompsData.reduce((sum, d) => sum + d.sampleSize, 0)} sales analyzed
-                </span>
-              )}
+
+              {/* Right Column: Recent Sales History (1/3 width on desktop) */}
+              <div className="lg:col-span-1 space-y-4 flex flex-col">
+                <div>
+                  <h3 className="text-sm font-semibold text-heading">Recent eBay Sales</h3>
+                  <p className="text-[10px] text-muted">Direct verified completed transaction history</p>
+                </div>
+
+                <div className="flex-1 rounded-xl border border-primary/5 bg-card/20 p-4 space-y-2 max-h-[300px] overflow-y-auto pr-1">
+                  {recentSales && recentSales.length > 0 ? (
+                    recentSales.map((sale, idx) => {
+                      const displayTitle = sale.title || `${data.scientificName} - eBay Sale`;
+                      const displayDate = sale.soldDate
+                        ? new Date(sale.soldDate).toLocaleDateString("en-GB", {
+                            day: "2-digit",
+                            month: "short",
+                            year: "numeric",
+                          })
+                        : "Date N/A";
+                      
+                      const element = (
+                        <div className="flex flex-col gap-1 rounded-lg border border-primary/5 bg-card/40 p-2.5 hover:bg-card-hover/60 transition-colors">
+                          <div className="text-[10px] font-medium text-heading line-clamp-1">
+                            {displayTitle}
+                          </div>
+                          <div className="flex items-center justify-between text-[9px] text-muted">
+                            <span>{displayDate}</span>
+                            <span className="font-bold text-green-400">£{sale.totalPrice.toFixed(2)}</span>
+                          </div>
+                        </div>
+                      );
+
+                      if (sale.url) {
+                        return (
+                          <a
+                            key={idx}
+                            href={sale.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="block"
+                          >
+                            {element}
+                          </a>
+                        );
+                      }
+                      return (
+                        <div key={idx}>
+                          {element}
+                        </div>
+                      );
+                    })
+                  ) : (
+                    <p className="text-xs text-muted italic text-center py-8">No recent eBay transactions found.</p>
+                  )}
+                </div>
+              </div>
             </div>
-            
-            {/* The actual chart - wide view container */}
-            <PriceHistoryChart data={soldCompsData} />
           </div>
 
           {/* Retail Listings & Breakdown Sub-Grid */}

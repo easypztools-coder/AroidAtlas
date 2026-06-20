@@ -156,10 +156,20 @@ export interface PriceHistoryPoint {
   confidenceScore: ConfidenceGrade;
 }
 
+export interface RecentSale {
+  title: string;
+  soldPrice: number;
+  totalPrice: number;
+  soldDate: string | null;
+  currency: string;
+  url: string;
+}
+
 export interface PriceHistoryResponse {
   slug: string;
   history: PriceHistoryPoint[];
   fairPurchasePrice: number | null;
+  recentSales?: RecentSale[];
 }
 
 // ─── Admin Update Response ─────────────────────────────────────────────────

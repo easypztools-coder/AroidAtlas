@@ -1,0 +1,82 @@
+{
+  "name": "Monstera dissecta",
+  "slug": "dissecta",
+  "scientificName": "Monstera dissecta (Schott) Croat",
+  "commonName": "Dissected Monstera",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "dissecta",
+  "origin": "Central to South America",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Monstera dissecta is a climbing aroid species native to the tropical rainforests of Central and South America. It shingles closely against tree trunks in its juvenile phase and transitions to an architectural adult phase with deeply dissected, pinnate leaves. The mature leaves are glossy, medium green, and split all the way to the midrib, resembling a palm leaf or a skeleton. It climbs strongly with robust stems and short internodes.",
+  "quickFacts": {
+    "growthHabit": "Shingler to root-climbing climber",
+    "matureSize": "Large climber",
+    "light": "Medium Indirect Light",
+    "humidity": "High",
+    "temperature": "Warm",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Deeply dissected, pinnatipartite",
+    "leafLength": "30-50cm",
+    "leafWidth": "18-30cm",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Smooth, semi-glossy",
+    "variegation": "None",
+    "growthHabit": "Climbing vining"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera dissecta",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera dissecta",
+      "Monstera dissecta (Schott) Croat",
+      "Dissected Monstera",
+      "Monstera dissecta",
+      "Monstera dissecta plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

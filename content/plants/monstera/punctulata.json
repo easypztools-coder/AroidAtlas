@@ -1,0 +1,82 @@
+{
+  "name": "Monstera punctulata",
+  "slug": "punctulata",
+  "scientificName": "Monstera punctulata (Schott) Schott ex Engl.",
+  "commonName": "Punctulata Shingling Monstera",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "punctulata",
+  "origin": "Southern Mexico to Central America",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Monstera punctulata is a robust climbing aroid native to the wet tropical forests of Southern Mexico and Central America. In its juvenile stage, it shingles closely against tree trunks, while the adult shoots climb strongly with visible nodes and aerial roots. Mature leaves are glossy, medium green, oblong to ovate-elliptic, and feature a distinct midrib and numerous elongated interior perforations plus marginal divisions toward the leaf edge. The stout stems show moderate internodes and abundant climbing aerial roots.",
+  "quickFacts": {
+    "growthHabit": "Root-climbing hemiepiphytic climber",
+    "matureSize": "Large climber (2.5-4m)",
+    "light": "Medium Indirect Light",
+    "humidity": "High",
+    "temperature": "Warm",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate to Fast"
+  },
+  "morphology": {
+    "leafShape": "Oblong to ovate-elliptic with numerous elongated interior perforations and marginal divisions",
+    "leafLength": "40-70cm",
+    "leafWidth": "25-40cm",
+    "petioleColor": "Green",
+    "venation": "Distinct midrib",
+    "texture": "Glossy, coriaceous",
+    "variegation": "None",
+    "growthHabit": "Stout climbing stem"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera punctulata",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera punctulata",
+      "Monstera punctulata (Schott) Schott ex Engl.",
+      "Punctulata Shingling Monstera",
+      "Monstera punctulata",
+      "Monstera punctulata plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

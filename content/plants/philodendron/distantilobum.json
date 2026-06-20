@@ -1,0 +1,82 @@
+{
+  "name": "Philodendron distantilobum",
+  "slug": "distantilobum",
+  "scientificName": "Philodendron distantilobum K.Krause",
+  "commonName": "Claw-Leaf Philodendron",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "distantilobum",
+  "origin": "Amazonian Brazil to Peru",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Philodendron distantilobum is a remarkable climbing species native to the Amazonian rainforests of Brazil and Peru. It is famous for its deeply lobed, pinnatisect leaves that resemble a claw or ribs. The lobes are narrow and widely separated (hence 'distantilobum'). It is a vigorous climber that attaches to supports using aerial roots. The mature plant is highly architectural and forms a stunning silhouette. It is easy to care for under standard tropical conditions.",
+  "quickFacts": {
+    "growthHabit": "Root-climbing climber",
+    "matureSize": "Large climber (2-3m)",
+    "light": "Medium Indirect Light",
+    "humidity": "Moderate to High (60-80%)",
+    "temperature": "Warm (18-28°C)",
+    "difficulty": "Easy to Moderate",
+    "growthSpeed": "Moderate to Fast"
+  },
+  "morphology": {
+    "leafShape": "Deeply pinnatisect, claw-like, distant lobes",
+    "leafLength": "30-50cm",
+    "leafWidth": "20-35cm",
+    "petioleColor": "Green",
+    "venation": "Pinnate, prominent",
+    "texture": "Smooth, semi-glossy",
+    "variegation": "None",
+    "growthHabit": "Climbing vining stem"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron distantilobum",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Philodendron distantilobum",
+      "Philodendron distantilobum K.Krause",
+      "Claw-Leaf Philodendron",
+      "Philodendron distantilobum",
+      "Philodendron distantilobum plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

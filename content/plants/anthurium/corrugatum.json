@@ -1,0 +1,82 @@
+{
+  "name": "Anthurium corrugatum",
+  "slug": "corrugatum",
+  "scientificName": "Anthurium corrugatum Sodiro",
+  "commonName": "Corrugated Velvet Anthurium",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Anthurium",
+  "species": "corrugatum",
+  "origin": "Ecuador / northwestern South America",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Anthurium corrugatum is a compact, epiphytic Anthurium native to the humid wet tropical forests and cloud forests of Ecuador and northwestern South America. It forms a compact rosette from a basal crown and short stem, supported by a dense mass of roots. The leaves are spectacular and highly textured, being strongly corrugated and bullate with a thick, leathery feel. The leaf blades are elongated cordate with a narrow sinus, showing a striking quilted venation. Its growth is non-climbing and self-supporting.",
+  "quickFacts": {
+    "growthHabit": "Epiphytic, compact, self-supporting",
+    "matureSize": "Small to Medium (30-40cm)",
+    "light": "Medium Indirect Light",
+    "humidity": "High (75-90%)",
+    "temperature": "Cool to Warm (15-25°C)",
+    "difficulty": "Moderate to Hard",
+    "growthSpeed": "Slow"
+  },
+  "morphology": {
+    "leafShape": "Elongated cordate with narrow sinus",
+    "leafLength": "20-30cm",
+    "leafWidth": "10-18cm",
+    "petioleColor": "Green",
+    "venation": "Quilted, prominent green",
+    "texture": "Thick, leathery, strongly corrugated/bullate",
+    "variegation": "None",
+    "growthHabit": "Basal crown rosette"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium corrugatum",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Anthurium corrugatum",
+      "Anthurium corrugatum Sodiro",
+      "Corrugated Velvet Anthurium",
+      "Anthurium corrugatum",
+      "Anthurium corrugatum plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

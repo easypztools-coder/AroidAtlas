@@ -1,0 +1,82 @@
+{
+  "name": "Rhaphidophora latevaginata",
+  "slug": "rhaphidophora-latevaginata",
+  "scientificName": "Rhaphidophora latevaginata M.Hotta",
+  "commonName": "Latevaginata Shingling Aroid",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Rhaphidophora",
+  "species": "latevaginata",
+  "origin": "Borneo",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Rhaphidophora latevaginata is a highly specialized shingling aroid native to the tropical rainforests of Borneo. In its juvenile stage, it shingles closely and flat against its support, producing round, heart-shaped, overlapping leaves that are medium green and slightly leathery. As it climbs high into the canopy, it develops larger, elongated leaves with a distinct petiole sheath. It is a stunning climber that thrives in high humidity and warm temperatures with a wood plank or pole to shingle on.",
+  "quickFacts": {
+    "growthHabit": "Shingling to root-climbing climber",
+    "matureSize": "Medium climber (1.5-2.5m)",
+    "light": "Medium Indirect Light",
+    "humidity": "High (70-85%)",
+    "temperature": "Warm (18-28°C)",
+    "difficulty": "Moderate",
+    "growthSpeed": "Slow to Moderate"
+  },
+  "morphology": {
+    "leafShape": "Asymmetric heart-shaped, shingling",
+    "leafLength": "8-15cm (juvenile)",
+    "leafWidth": "6-12cm",
+    "petioleColor": "Green, short",
+    "venation": "Pinnate, inconspicuous",
+    "texture": "Leathery, matte",
+    "variegation": "None",
+    "growthHabit": "Shingling flat against support"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Rhaphidophora latevaginata",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Rhaphidophora latevaginata",
+      "Rhaphidophora latevaginata M.Hotta",
+      "Latevaginata Shingling Aroid",
+      "Rhaphidophora latevaginata",
+      "Rhaphidophora latevaginata plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

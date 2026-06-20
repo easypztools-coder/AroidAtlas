@@ -1,0 +1,82 @@
+{
+  "name": "Rhaphidophora decursiva",
+  "slug": "rhaphidophora-decursiva",
+  "scientificName": "Rhaphidophora decursiva (Roxb.) Schott",
+  "commonName": "Creeping Dragon Tail",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Rhaphidophora",
+  "species": "decursiva",
+  "origin": "Indian Subcontinent to South China and Indo-China",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Rhaphidophora decursiva is a vigorous climbing aroid native to tropical and subtropical forests stretching from the Indian Subcontinent to South China and Indo-China. It climbs trunks in warm wet conditions. The adult leaves are extremely large, glossy green, and deeply pinnatifid with many narrow lobes, lacking any perforations. The juvenile leaves, in contrast, are much smaller and undivided. The thick rooting stems display visible nodes and numerous climbing aerial roots.",
+  "quickFacts": {
+    "growthHabit": "Vigorous climbing, root-climbing",
+    "matureSize": "Large climber (up to 3-5m)",
+    "light": "Medium to Bright Indirect Light",
+    "humidity": "High",
+    "temperature": "Warm",
+    "difficulty": "Easy to Moderate",
+    "growthSpeed": "Fast"
+  },
+  "morphology": {
+    "leafShape": "Deeply pinnatifid with numerous narrow lobes",
+    "leafLength": "50-90cm",
+    "leafWidth": "30-50cm",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Glossy, leathery",
+    "variegation": "None",
+    "growthHabit": "Thick climbing stems"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Rhaphidophora decursiva",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Rhaphidophora decursiva",
+      "Rhaphidophora decursiva (Roxb.) Schott",
+      "Creeping Dragon Tail",
+      "Rhaphidophora decursiva",
+      "Rhaphidophora decursiva plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

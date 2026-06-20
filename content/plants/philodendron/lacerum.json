@@ -1,0 +1,82 @@
+{
+  "name": "Philodendron lacerum",
+  "slug": "lacerum",
+  "scientificName": "Philodendron lacerum (Jacq.) Schott",
+  "commonName": "Lobed Leaf Philodendron",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "lacerum",
+  "origin": "Caribbean (Hispaniola, Cuba, Jamaica)",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Philodendron lacerum is a climbing aroid species native to the Caribbean islands, including Cuba, Hispaniola, and Jamaica. It grows as an epiphyte or hemiepiphyte, climbing strongly up tree trunks in moist, humid forest environments. The plant develops large, deeply incised, or lobed leaves that are glossy green with a leathery texture. The margins are wavy and heavily scalloped, giving it a distinctive, prehistoric appearance.",
+  "quickFacts": {
+    "growthHabit": "Root-climbing hemiepiphytic climber",
+    "matureSize": "Large climber (up to 2-3m)",
+    "light": "Medium Indirect Light",
+    "humidity": "High",
+    "temperature": "Warm",
+    "difficulty": "Easy to Moderate",
+    "growthSpeed": "Moderate to Fast"
+  },
+  "morphology": {
+    "leafShape": "Broadly ovate, deeply incised/lobed",
+    "leafLength": "30-55cm",
+    "leafWidth": "20-35cm",
+    "petioleColor": "Green",
+    "venation": "Pinnate, prominent green",
+    "texture": "Glossy, leathery",
+    "variegation": "None",
+    "growthHabit": "Vining climber"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron lacerum",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Philodendron lacerum",
+      "Philodendron lacerum (Jacq.) Schott",
+      "Lobed Leaf Philodendron",
+      "Philodendron lacerum",
+      "Philodendron lacerum plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

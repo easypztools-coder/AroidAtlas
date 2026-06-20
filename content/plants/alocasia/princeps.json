@@ -1,0 +1,82 @@
+{
+  "name": "Alocasia princeps",
+  "slug": "princeps",
+  "scientificName": "Alocasia princeps W.Bull",
+  "commonName": "Princeps Shield Alocasia",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Alocasia",
+  "species": "princeps",
+  "origin": "Borneo",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Alocasia princeps is a handsome, rare Alocasia species native to Borneo. It features erect, triangular, shield-shaped (sagittate) leaves with strongly undulated, wavy margins and deep purplish-green to copper undersides. The petioles are often beautifully mottled or striped. It grows from a central corm, forming an upright, architectural clump. It thrives in high humidity and bright indirect light, adding a regal, sculptural presence to any collection.",
+  "quickFacts": {
+    "growthHabit": "Erect, clump-forming",
+    "matureSize": "Medium (40-60cm)",
+    "light": "Medium to bright indirect light",
+    "humidity": "High (70-85%)",
+    "temperature": "Warm (18-28°C)",
+    "difficulty": "Moderate",
+    "growthSpeed": "Slow to Moderate"
+  },
+  "morphology": {
+    "leafShape": "Sagittate, triangular, wavy margins",
+    "leafLength": "25-40cm",
+    "leafWidth": "15-25cm",
+    "petioleColor": "Mottled purplish-brown and green",
+    "venation": "Prominent green",
+    "texture": "Coriaceous, matte to semi-glossy",
+    "variegation": "None",
+    "growthHabit": "Upright basal clump"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia princeps",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Alocasia princeps",
+      "Alocasia princeps W.Bull",
+      "Princeps Shield Alocasia",
+      "Alocasia princeps",
+      "Alocasia princeps plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

@@ -26,8 +26,8 @@ const config: Config = {
         "olive-light": "#7A8F66",
       },
       fontFamily: {
-        heading: ["Merriweather", "serif"],
-        body: ["Inter", "sans-serif"],
+        heading: ["var(--font-heading)", "serif"],
+        body: ["var(--font-body)", "sans-serif"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

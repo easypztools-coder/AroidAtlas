@@ -3,6 +3,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "About Ariod Atlas",
+  description: "Learn more about the mission, data collection methodology, and team behind the Ariod Atlas tropical plant visual encyclopedia.",
 };
 
 export default function AboutPage() {

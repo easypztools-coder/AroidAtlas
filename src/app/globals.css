@@ -5,10 +5,10 @@
 @layer base {
   h1,
   h2 {
-    font-family: "Merriweather", serif;
+    font-family: var(--font-heading), serif;
   }
   body {
-    font-family: "Inter", sans-serif;
+    font-family: var(--font-body), sans-serif;
   }
 
   * {

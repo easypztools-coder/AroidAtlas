@@ -3,7 +3,7 @@ import fs from "fs";
 import path from "path";
 
 const BASE_URL = "https://ariodatlas.com"; // TODO: update with real domain before going live
-const GENERA = ["monstera", "philodendron", "alocasia", "anthurium", "rhaphidophora", "scindapsus"];
+const GENERA = ["monstera", "philodendron", "alocasia", "anthurium", "other"];
 
 
 export default function sitemap(): MetadataRoute.Sitemap {

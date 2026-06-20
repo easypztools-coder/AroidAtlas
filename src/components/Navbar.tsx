@@ -164,6 +164,7 @@ export default function Navbar() {
                   />
                 </svg>
                 <input
+                  id="navbar-search-input"
                   type="text"
                   value={searchQuery}
                   onChange={(e) => handleSearch(e.target.value)}
@@ -231,6 +232,7 @@ export default function Navbar() {
                   />
                 </svg>
                 <input
+                  id="navbar-mobile-search-input"
                   type="text"
                   value={searchQuery}
                   onChange={(e) => handleSearch(e.target.value)}

@@ -1,0 +1,82 @@
+{
+  "name": "Anthurium pendulifolium",
+  "slug": "pendulifolium",
+  "scientificName": "Anthurium pendulifolium N.E.Br.",
+  "commonName": "Pendant Leaf Anthurium",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Anthurium",
+  "species": "pendulifolium",
+  "origin": "Colombia to Northern Peru",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Anthurium pendulifolium is a spectacular pendant epiphytic Anthurium native to the wet tropical forests of Colombia and Northern Peru, where it grows in the shaded to filtered light of forest canopies. It forms a compact crown of long, strap-like leaves that hang down in a dramatic waterfall-like manner. The leaves are leathery, linear-lanceolate to narrowly oblanceolate, dark green, and glossy. The petioles are relatively short compared to the long blades, making it ideal for hanging baskets or mountings.",
+  "quickFacts": {
+    "growthHabit": "Pendant, epiphytic",
+    "matureSize": "Large pendant (leaves 60-120cm long)",
+    "light": "Medium Indirect Light",
+    "humidity": "High (70-85%)",
+    "temperature": "Warm",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Linear-lanceolate to narrowly oblanceolate, strap-like",
+    "leafLength": "60-120cm",
+    "leafWidth": "6-12cm",
+    "petioleColor": "Green",
+    "venation": "Prominent midrib",
+    "texture": "Leathery, glossy",
+    "variegation": "None",
+    "growthHabit": "Epiphytic pendant rosette"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium pendulifolium",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Anthurium pendulifolium",
+      "Anthurium pendulifolium N.E.Br.",
+      "Pendant Leaf Anthurium",
+      "Anthurium pendulifolium",
+      "Anthurium pendulifolium plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

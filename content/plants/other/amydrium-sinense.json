@@ -1,0 +1,82 @@
+{
+  "name": "Amydrium sinense",
+  "slug": "amydrium-sinense",
+  "scientificName": "Amydrium sinense (H.Li) H.Li",
+  "commonName": "Chinese Amydrium",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Amydrium",
+  "species": "sinense",
+  "origin": "China (Yunnan, Guangxi, Guangdong) to Vietnam",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Amydrium sinense is a rare creeping or climbing aroid species native to the subtropical and tropical mountain forests of southern China and northern Vietnam. It grows in shaded, damp forest floors, creeping or climbing trees. The leaves are deeply divided (pinnate-split) into several narrow lobes, giving it a delicate, skeleton-like appearance. It is highly valued for its cold tolerance compared to equatorial species and its highly architectural, lacey foliage.",
+  "quickFacts": {
+    "growthHabit": "Creeping to root-climbing climber",
+    "matureSize": "Medium climber (1.5-2.5m)",
+    "light": "Medium to Low Indirect Light",
+    "humidity": "High (65-80%)",
+    "temperature": "Subtropical to Warm (12-25°C)",
+    "difficulty": "Moderate",
+    "growthSpeed": "Slow to Moderate"
+  },
+  "morphology": {
+    "leafShape": "Deeply divided, pinnatifid",
+    "leafLength": "20-40cm",
+    "leafWidth": "15-28cm",
+    "petioleColor": "Green, slender",
+    "venation": "Reticulate",
+    "texture": "Smooth, matte to semi-glossy",
+    "variegation": "None",
+    "growthHabit": "Creeping stems, rooting at nodes"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Amydrium sinense",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Amydrium sinense",
+      "Amydrium sinense (H.Li) H.Li",
+      "Chinese Amydrium",
+      "Amydrium sinense",
+      "Amydrium sinense plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

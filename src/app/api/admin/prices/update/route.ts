@@ -33,7 +33,7 @@ export async function GET(request: NextRequest) {
   }
 
   // ─── Load plant data (search across all genera) ─────────────────────────
-  const genera = ["philodendron", "monstera", "alocasia", "anthurium", "rhaphidophora", "scindapsus"];
+  const genera = ["philodendron", "monstera", "alocasia", "anthurium", "other"];
   let plantPath: string | null = null;
   for (const genus of genera) {
     const candidate = path.join(process.cwd(), "content", "plants", genus, `${slug}.json`);
@@ -97,6 +97,8 @@ export async function GET(request: NextRequest) {
 
     // ─── Build per-listing data for trend aggregation ──────────────────
     const acceptedListings = classified.map((l) => ({
+      title: l.originalTitle,
+      url: l.url,
       soldPrice: l.soldPrice,
       totalPrice: l.totalPrice,
       soldDate: l.soldDate,

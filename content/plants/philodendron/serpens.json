@@ -1,0 +1,81 @@
+{
+  "name": "Philodendron serpens",
+  "slug": "serpens",
+  "scientificName": "Philodendron serpens Hook.f.",
+  "commonName": "",
+  "statusTag": "Wild Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "serpens",
+  "origin": "Colombia to Ecuador",
+  "collectorPopularity": 3,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Philodendron serpens is a fascinating climbing species native to the wet tropical rainforests of Colombia and Ecuador. This aroid thrives in the humid, shaded understory, utilizing its aerial roots to ascend trees in perpetually moist conditions. A distinctive characteristic is its stems and petioles, which are densely adorned with long, shaggy, reddish to cinnamon hairs. The leaves are cordate-sagittate, medium to large, featuring an acute tip and subtly plicate venation. Its scandent growth habit and unique hairy features make it a visually intriguing species for aroid enthusiasts.",
+  "quickFacts": {
+    "growthHabit": "Climbing",
+    "matureSize": "Large",
+    "light": "Low to Medium Indirect",
+    "humidity": "High",
+    "temperature": "Warm Tropical",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Cordate-sagittate",
+    "leafLength": "Medium to Large",
+    "leafWidth": "Medium to Large",
+    "petioleColor": "Reddish to Cinnamon Hairs",
+    "venation": "Slightly plicate",
+    "texture": "Smooth, Hairy Petioles",
+    "variegation": "None",
+    "growthHabit": "Scandent / Climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron serpens",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "P. serpens",
+      "Philodendron serpentine",
+      "Philodendron hook f",
+      "Philodendron serpens Hook.f."
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

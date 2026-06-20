@@ -1,0 +1,82 @@
+{
+  "name": "Philodendron tenue",
+  "slug": "tenue",
+  "scientificName": "Philodendron tenue K.Krause",
+  "commonName": "Ribbed Tenue Philodendron",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "tenue",
+  "origin": "Costa Rica to Ecuador",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Philodendron tenue is a climbing hemiepiphytic aroid native to the tropical wet forests of Central and South America, from Costa Rica to Ecuador. It climbs tree trunks using aerial roots, thriving in high humidity. The leaves are highly ornamental, featuring a elongated heart-shaped blade with a deeply ribbed or pleated surface due to closely spaced primary lateral veins. The foliage is glossy, dark green, and has a leathery, durable feel.",
+  "quickFacts": {
+    "growthHabit": "Root-climbing hemiepiphytic climber",
+    "matureSize": "Medium climber",
+    "light": "Medium Indirect Light",
+    "humidity": "High (70-85%)",
+    "temperature": "Warm",
+    "difficulty": "Moderate",
+    "growthSpeed": "Slow to Moderate"
+  },
+  "morphology": {
+    "leafShape": "Elongated heart-shaped (cordate)",
+    "leafLength": "25-45cm",
+    "leafWidth": "15-25cm",
+    "petioleColor": "Green",
+    "venation": "Deeply ribbed, closely spaced lateral veins",
+    "texture": "Glossy, leathery, pleated",
+    "variegation": "None",
+    "growthHabit": "Root-climbing climber"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron tenue",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Philodendron tenue",
+      "Philodendron tenue K.Krause",
+      "Ribbed Tenue Philodendron",
+      "Philodendron tenue",
+      "Philodendron tenue plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

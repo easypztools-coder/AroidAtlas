@@ -1,6 +1,6 @@
 {
   "name": "Rhaphidophora cryptantha 'Variegated'",
-  "slug": "cryptantha-variegated",
+  "slug": "rhaphidophora-cryptantha-variegated",
   "scientificName": "Rhaphidophora cryptantha 'Variegated'",
   "commonName": "Variegated Cryptantha Rhaphidophora",
   "statusTag": "Rare Variegated Cultivar",
@@ -82,5 +82,6 @@
     "date": "2023-11-10",
     "author": "Ariod Aaron",
     "content": "Rhaphidophora cryptantha is one of the most dramatic shingling plants of Papua New Guinea, growing perfectly flat against trees or boards. Its silver-veined leaves look like a patterned carpet, but this variegated mutation introduces cream-to-white sectoral splashes. The adhesive roots anchor the vine firmly, absorbing nutrients directly from the climbing surface. In culture, the variegated sections highlight the tight, overlapping arrangement of the leaves, making it a highly graphic specimen for vertical moss boards."
-  }
+  },
+  "botanicalType": "variegated"
 }
