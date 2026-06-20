@@ -1,0 +1,85 @@
+{
+  "name": "Monstera pinnatipartita 'Albo Variegated'",
+  "slug": "pinnatipartita-albo-variegated",
+  "scientificName": "Monstera pinnatipartita 'Albo Variegated'",
+  "commonName": "Albo Variegated Pinnatipartita",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "pinnatipartita 'Albo Variegated'",
+  "origin": "Species native to Central and South Tropical America; variegated collector form in cultivation",
+  "collectorPopularity": 4.5,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Monstera pinnatipartita 'Albo Variegated' is an impressive climbing aroid native to the tropical regions of Central and South America. Highly coveted for its dramatic growth, its mature leaves transform to become deeply pinnatifid, splitting almost to the midrib. The foliage has a thick, robust texture and features spectacular white-to-cream albo variegation distributed in beautiful marbled patterns and bold sectoral patches. This vigorous climber develops abundant aerial roots and thrives under warm, humid conditions with bright indirect light and strong vertical support to climb.",
+  "quickFacts": {
+    "growthHabit": "Climbing aroid",
+    "matureSize": "Medium to Large",
+    "light": "Bright indirect light",
+    "humidity": "High humidity",
+    "temperature": "18-28°C",
+    "difficulty": "Intermediate",
+    "growthSpeed": "Moderate to Fast"
+  },
+  "morphology": {
+    "leafShape": "Pinnatifid (deeply split at maturity)",
+    "leafLength": "25-45 cm",
+    "leafWidth": "15-30 cm",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Thick, textured",
+    "variegation": "White to cream albo variegation in marbling and sectors",
+    "growthHabit": "Climbing with abundant aerial roots"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera pinnatipartita variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "monstera pinnatipartita variegated",
+      "pinnatipartita variegated",
+      "pinnatipartita albo"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "Splits, Slits, and Somatic Mutations",
+    "date": "2023-09-02",
+    "author": "Ariod Aaron",
+    "content": "Monstera pinnatipartita is a magnificent climber whose leaves transition from simple ovate shapes to deeply pinnatifid leaves that split all the way to the midrib. The albo variegated cultivar, decorated with marbled white-to-cream patterns, is extremely decorative. The fenestration process is a canopy adaptation to let wind and light pass through to the lower foliage. A somatic mutation blocks chloroplast development in the white sectors, meaning that the albo sections require careful light management to prevent browning or reverting."
+  }
+}

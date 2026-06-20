@@ -1,0 +1,85 @@
+{
+  "name": "Philodendron gloriosum 'Tricolor'",
+  "slug": "gloriosum-tricolor",
+  "scientificName": "Philodendron gloriosum 'Tricolor'",
+  "commonName": "Tricolor Gloriosum Philodendron",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "gloriosum 'Tricolor'",
+  "origin": "Colombia; variegated collector form in cultivation",
+  "collectorPopularity": 5,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Philodendron gloriosum 'Tricolor' is an exceptionally beautiful terrestrial aroid native to Colombia. Growing on a crawling surface rhizome, it produces massive heart-shaped velvet leaves with prominent white venation. The 'Tricolor' mutation features gorgeous green, yellow-cream, and soft pink marbled variegation. It thrives in highly organic, well-draining soil and shaded bright indirect light.",
+  "quickFacts": {
+    "growthHabit": "Terrestrial creeper",
+    "matureSize": "Medium to Large",
+    "light": "Shaded bright light",
+    "humidity": "High humidity (65%+)",
+    "temperature": "18-28°C",
+    "difficulty": "Easy to Intermediate",
+    "growthSpeed": "Slow to Moderate"
+  },
+  "morphology": {
+    "leafShape": "Broad velvety heart-shaped with deep sinus",
+    "leafLength": "25-45 cm",
+    "leafWidth": "20-35 cm",
+    "petioleColor": "Green",
+    "venation": "Bold white contrast veins",
+    "texture": "Soft velvety",
+    "variegation": "Tricolor variegation in cream, yellow, and soft pink marbling",
+    "growthHabit": "Terrestrial growth via thick surface rhizome"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron gloriosum tricolor",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "philodendron gloriosum tricolor",
+      "gloriosum tricolor",
+      "gloriosum variegated"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "The Creeping Masterpiece in Pink and Gold",
+    "date": "2023-09-20",
+    "author": "Ariod Aaron",
+    "content": "Philodendron gloriosum is one of the most famous terrestrial aroids, creeping along the forest floor of Colombia on a thick horizontal rhizome. The 'Tricolor' cultivar is a masterclass in somatic mutation, displaying green, cream-yellow, and soft pink variegation. Unlike most climbers, gloriosum crawls, and its large, velvety leaves are highly sensitive to soil depth. The tricolor variegation is highly sought after and requires rich, organic, well-draining soil and shaded bright indirect light to maintain its colorful display."
+  }
+}

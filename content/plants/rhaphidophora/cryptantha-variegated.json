@@ -1,0 +1,86 @@
+{
+  "name": "Rhaphidophora cryptantha 'Variegated'",
+  "slug": "cryptantha-variegated",
+  "scientificName": "Rhaphidophora cryptantha 'Variegated'",
+  "commonName": "Variegated Cryptantha Rhaphidophora",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Rhaphidophora",
+  "species": "cryptantha 'Variegated'",
+  "origin": "Papua New Guinea; variegated collector form in cultivation",
+  "collectorPopularity": 5,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Rhaphidophora cryptantha 'Variegated' is an exceptional climbing shingler native to Papua New Guinea. Famed for its highly tight, appressed growth habit, its leaves grow completely flat against a board or bark. The foliage features a beautiful silver reticulate pattern on deep green, decorated with stunning cream-to-white sectoral splashes. It climbs via adhesive roots and thrives in warm, highly humid environments with bright indirect light.",
+  "quickFacts": {
+    "growthHabit": "Climbing shingler",
+    "matureSize": "Medium",
+    "light": "Bright indirect light",
+    "humidity": "High humidity",
+    "temperature": "18-28°C",
+    "difficulty": "Intermediate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Small heart-shaped to ovate, appressed flat",
+    "leafLength": "6-12 cm",
+    "leafWidth": "4-8 cm",
+    "petioleColor": "Green (covered/short)",
+    "venation": "Distinct pale silver venation pattern",
+    "texture": "Smooth, matte",
+    "variegation": "Cream variegated sectors or marbling over silver-green base",
+    "growthHabit": "Climbing shingler appressed to support"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Rhaphidophora cryptantha",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "rhaphidophora cryptantha",
+      "cryptantha variegated",
+      "variegated cryptantha",
+      "rhaphidophora cryptantha variegated"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "The Shingling Silver Tapestry",
+    "date": "2023-11-10",
+    "author": "Ariod Aaron",
+    "content": "Rhaphidophora cryptantha is one of the most dramatic shingling plants of Papua New Guinea, growing perfectly flat against trees or boards. Its silver-veined leaves look like a patterned carpet, but this variegated mutation introduces cream-to-white sectoral splashes. The adhesive roots anchor the vine firmly, absorbing nutrients directly from the climbing surface. In culture, the variegated sections highlight the tight, overlapping arrangement of the leaves, making it a highly graphic specimen for vertical moss boards."
+  }
+}

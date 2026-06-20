@@ -1,0 +1,85 @@
+{
+  "name": "Monstera dubia 'Variegated'",
+  "slug": "dubia-variegated",
+  "scientificName": "Monstera dubia 'Variegated'",
+  "commonName": "Variegated Dubia Monstera",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "dubia 'Variegated'",
+  "origin": "Mexico (Veracruz, Chiapas) to South Tropical America, Trinidad; variegated collector form in cultivation",
+  "collectorPopularity": 4.5,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Monstera dubia 'Variegated' is a fascinating, distinctive shingling aroid native to a wide range from southern Mexico (Veracruz, Chiapas) through tropical Central and South America to Trinidad. In its juvenile stage, it features heart-shaped silver-green leaves that press flat against a climbing support. As the plant climbs and matures, the leaves become perforated and split. This rare variegated cultivar adds a beautiful layer of cream-to-pale-yellow marbling and sectors across the foliage while retaining the classic appressed shingling growth habit.",
+  "quickFacts": {
+    "growthHabit": "Climbing shingler",
+    "matureSize": "Medium to Large",
+    "light": "Bright indirect light",
+    "humidity": "High humidity",
+    "temperature": "18-28°C",
+    "difficulty": "Intermediate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Asymmetrical heart-shaped (juvenile), fenestrated/lobed (mature)",
+    "leafLength": "8-15 cm (juvenile), 30-50 cm (mature)",
+    "leafWidth": "6-12 cm (juvenile), 20-30 cm (mature)",
+    "petioleColor": "Green",
+    "venation": "Pinnate, subtle",
+    "texture": "Smooth, matte",
+    "variegation": "Cream to pale yellow marbling or sectors",
+    "growthHabit": "Climbing shingler appressed to support"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera dubia variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "monstera dubia variegated",
+      "dubia variegated",
+      "variegated dubia"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "The Variegated Shingle King",
+    "date": "2024-04-10",
+    "author": "Ariod Aaron",
+    "content": "Monstera dubia is the classic 'shingle plant', growing its heart-shaped juvenile leaves flat against tree trunks. As it climbs high into the canopy, it develops massive, split, fenestrated leaves. The variegated form displays beautiful splashes of cream and yellow. The flat, appressed growth of the juvenile leaves is an evolutionary strategy to avoid wind displacement and maximize contact with host bark, allowing adhesive roots to secure the stem. The variegated patterns make it a stunning living tapestry."
+  }
+}

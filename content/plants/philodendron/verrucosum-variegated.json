@@ -1,0 +1,85 @@
+{
+  "name": "Philodendron verrucosum 'Variegated'",
+  "slug": "verrucosum-variegated",
+  "scientificName": "Philodendron verrucosum 'Variegated'",
+  "commonName": "Variegated Verrucosum Philodendron",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "verrucosum 'Variegated'",
+  "origin": "Costa Rica to Peru; variegated collector form in cultivation",
+  "collectorPopularity": 5,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Philodendron verrucosum 'Variegated' is a spectacular, velvety climbing aroid native to the tropical regions spanning from Costa Rica to Peru. Known for its luxurious texture, it features velvety cordate leaves with bright pale venation and hairy, bristly petioles with reddish to burgundy leaf undersides. In cultivation, it thrives under warm, highly humid conditions with bright indirect light and vertical support. The rare variegated cultivar is adorned with beautiful cream-to-yellow marbling and sectoral patches across its deep green leaf blades while preserving the plant's classic form.",
+  "quickFacts": {
+    "growthHabit": "Climbing aroid",
+    "matureSize": "Medium to Large",
+    "light": "Bright indirect light",
+    "humidity": "High humidity (70%+)",
+    "temperature": "18-26°C",
+    "difficulty": "Intermediate to Advanced",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Cordate",
+    "leafLength": "20-40 cm",
+    "leafWidth": "15-30 cm",
+    "petioleColor": "Reddish, densely puberulent (hairy/bristly)",
+    "venation": "Conspicuously bright pale veins",
+    "texture": "Soft velvety upper, reddish-burgundy undersides",
+    "variegation": "Cream to yellow sectors or marbling",
+    "growthHabit": "Climbing with abundant aerial roots"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron verrucosum variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "philodendron verrucosum variegated",
+      "verrucosum variegated",
+      "variegated verrucosum"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "Sylvan Velvet and Hairy Petioles",
+    "date": "2022-08-14",
+    "author": "Ariod Aaron",
+    "content": "Philodendron verrucosum is renowned for its velvety, heart-shaped leaves with bright pale veins and densely puberulent (hairy) petioles. The variegated cultivar displays cream-to-yellow marbling across the plush green leaf surface. The hairy petioles are a mechanical defense against crawling insects and also help trap water droplets to maintain moisture. The variegated sections require very careful watering and high humidity to prevent the thin, velvety tissue from drying out and browning."
+  }
+}

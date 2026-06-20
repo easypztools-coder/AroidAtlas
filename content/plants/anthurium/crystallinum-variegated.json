@@ -1,0 +1,85 @@
+{
+  "name": "Anthurium crystallinum 'Variegated'",
+  "slug": "crystallinum-variegated",
+  "scientificName": "Anthurium crystallinum 'Variegated'",
+  "commonName": "Variegated Crystallinum Anthurium",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Anthurium",
+  "species": "crystallinum 'Variegated'",
+  "origin": "Panama to Colombia; variegated collector form in cultivation",
+  "collectorPopularity": 5,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Anthurium crystallinum 'Variegated' is a spectacular, velvet-leafed understory aroid native to the regions between Panama and Colombia. Loved for its heart-shaped leaves with silver veins that catch light, the variegated cultivar exhibits stunning cream-to-yellow marbling and sectors across the dark green surface. It requires warm, highly humid conditions and filtered indirect light to prevent the delicate white areas from burning.",
+  "quickFacts": {
+    "growthHabit": "Understory subshrub",
+    "matureSize": "Medium",
+    "light": "Bright indirect light",
+    "humidity": "High humidity (70%+)",
+    "temperature": "18-26°C",
+    "difficulty": "Intermediate",
+    "growthSpeed": "Slow to Moderate"
+  },
+  "morphology": {
+    "leafShape": "Elongated cordate with a relatively narrow sinus",
+    "leafLength": "20-35 cm",
+    "leafWidth": "15-25 cm",
+    "petioleColor": "Green, round-shaped",
+    "venation": "Silvery-white veins that reflect light",
+    "texture": "Soft velvety",
+    "variegation": "Cream to yellow sectors or marbling",
+    "growthHabit": "Compact upright habit"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium crystallinum variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "anthurium crystallinum variegated",
+      "crystallinum variegated",
+      "variegated crystallinum"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "Crystalline Veins in Cream Marbling",
+    "date": "2023-06-28",
+    "author": "Ariod Aaron",
+    "content": "Anthurium crystallinum, ranging from Panama to Colombia, is beloved for its heart-shaped leaves with silver veins that catch the light like crystals. The variegated cultivar is a stunning variety where cream and yellow marbling breaks across the velvety dark green surface. Taxonomically related to magnificum, it is distinguished by round petioles and narrower leaf dimensions. The variegation adds a brilliant layer of contrast, requiring balanced light to prevent the white areas from burning while maintaining the dark velvet."
+  }
+}

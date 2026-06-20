@@ -1,0 +1,85 @@
+{
+  "name": "Anthurium magnificum 'Variegated'",
+  "slug": "magnificum-variegated",
+  "scientificName": "Anthurium magnificum 'Variegated'",
+  "commonName": "Variegated Magnificum Anthurium",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Anthurium",
+  "species": "magnificum 'Variegated'",
+  "origin": "Colombia; variegated collector form in cultivation",
+  "collectorPopularity": 5,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Anthurium magnificum 'Variegated' is an imposing, velvet-leafed aroid native to the wet forests of Colombia. Known for its square petioles and massive cordate leaves, it features bold pale venation and a compact upright habit. The rare variegated selection is adorned with stunning cream-to-yellow sectoral and marbled variegation across the leaf surfaces. In cultivation, it thrives under warm, humid conditions with filtered light and a chunky substrate.",
+  "quickFacts": {
+    "growthHabit": "Understory subshrub",
+    "matureSize": "Medium to Large",
+    "light": "Bright indirect light",
+    "humidity": "High humidity (70%+)",
+    "temperature": "18-26°C",
+    "difficulty": "Intermediate",
+    "growthSpeed": "Slow to Moderate"
+  },
+  "morphology": {
+    "leafShape": "Large broad cordate with a broad sinus",
+    "leafLength": "35-60 cm",
+    "leafWidth": "25-45 cm",
+    "petioleColor": "Green, square-shaped",
+    "venation": "Prominent pale white-green veins",
+    "texture": "Thick velvety",
+    "variegation": "Cream to yellow sectors or marbling",
+    "growthHabit": "Compact upright habit"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium magnificum variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "anthurium magnificum variegated",
+      "magnificum variegated",
+      "variegated magnificum"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "Imposing Velvets and Squared Stems",
+    "date": "2024-04-18",
+    "author": "Ariod Aaron",
+    "content": "Anthurium magnificum is famous for its massive, square-petioled velvet leaves that have a stark, shield-like presence. The variegated cultivar adds striking sectoral cream-to-yellow marbling across the leaf. Described by Linden, magnificum is distinguished from other velvet species by its broader leaf proportions and distinct C-shaped or square petioles. In the wet forests of Colombia, these broad leaves capture maximum diffused light. In culture, the variegated areas are delicate, requiring high humidity and careful placement to avoid drafty spots."
+  }
+}

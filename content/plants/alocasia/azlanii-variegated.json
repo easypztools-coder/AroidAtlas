@@ -1,0 +1,85 @@
+{
+  "name": "Alocasia azlanii 'Variegated'",
+  "slug": "azlanii-variegated",
+  "scientificName": "Alocasia azlanii 'Variegated'",
+  "commonName": "Variegated Azlanii Alocasia",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Alocasia",
+  "species": "azlanii 'Variegated'",
+  "origin": "Borneo (Brunei); variegated collector form in cultivation",
+  "collectorPopularity": 5,
+  "rarityStatus": "Very Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Alocasia azlanii 'Variegated' is an exceptionally beautiful, compact jewel Alocasia native to Brunei on the island of Borneo. Prized for its gorgeous, metallic-looking leaves, it features glossy, deep green to bronzy foliage highlighted by contrasting venation with iridescent purple or red undertones. This corm-forming variety grows in a compact rosette on upright dark petioles. The ultra-rare variegated form boasts stunning cream or pale mint sectors and marbling that beautifully complement its dark, shimmering leaf surfaces.",
+  "quickFacts": {
+    "growthHabit": "Compact corm-forming aroid",
+    "matureSize": "Small (20-35 cm)",
+    "light": "Bright indirect light",
+    "humidity": "High humidity (65-80%)",
+    "temperature": "18-26°C",
+    "difficulty": "Intermediate to Advanced",
+    "growthSpeed": "Slow to Medium"
+  },
+  "morphology": {
+    "leafShape": "Ovate-cordate",
+    "leafLength": "12-20 cm",
+    "leafWidth": "8-14 cm",
+    "petioleColor": "Upright dark purple-green",
+    "venation": "Contrasting reddish-pink to purple veins",
+    "texture": "Glossy, metallic-looking, slightly coriaceous",
+    "variegation": "Cream or pale mint sectors and marbling",
+    "growthHabit": "Compact rosette from corm"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia azlanii variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "alocasia azlanii variegated",
+      "azlanii variegated",
+      "variegated azlanii"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "The Shimmering Jewel of Brunei",
+    "date": "2024-02-28",
+    "author": "Ariod Aaron",
+    "content": "Alocasia azlanii is an extremely prized jewel Alocasia endemic to Brunei. Its thick, metallic leaves have a dark purple-to-black sheen with iridescent pink-red venation. The variegated form is exceptionally rare, displaying cream or pale mint sectors across the shimmering surface. A 2021 study on metallic coloration in the understory flora of Brunei showed that the metallic iridescence is caused by a specialized cell layer that reflects green and blue wavelengths, helping the plant utilize lower-energy red light. Variegation creates an incredible bi-color effect."
+  }
+}

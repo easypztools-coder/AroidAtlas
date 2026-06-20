@@ -1,0 +1,79 @@
+{
+  "name": "Anthurium dressleri 'Variegated'",
+  "slug": "dressleri-variegated",
+  "scientificName": "Anthurium dressleri 'Variegated'",
+  "commonName": "Variegated Dressleri Anthurium",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Anthurium",
+  "species": "dressleri 'Variegated'",
+  "origin": "Panama to northwestern Colombia; variegated collector form in cultivation",
+  "collectorPopularity": 5,
+  "rarityStatus": "Very Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Anthurium dressleri 'Variegated' is an exceptionally rare, velvet understory aroid native to the tropical forests spanning from Panama to northwestern Colombia. Highly sought after for its dark green, elongated cordate to ovate-cordate leaves, it features a clear sinus, pronounced pale venation, and a compact epiphytic growth habit. In cultivation, it demands warm temperatures, very high humidity, airy substrate, and bright indirect light. The rare variegated selection is highlighted by stunning cream-to-yellow sectors or marbling distributed across the velvet leaves while preserving the species' elegant proportions.",
+  "quickFacts": {
+    "growthHabit": "Compact epiphytic aroid",
+    "matureSize": "Small to Medium",
+    "light": "Bright indirect light",
+    "humidity": "Very high humidity (75%+)",
+    "temperature": "18-26°C",
+    "difficulty": "Advanced",
+    "growthSpeed": "Slow"
+  },
+  "morphology": {
+    "leafShape": "Elongated cordate to ovate-cordate",
+    "leafLength": "20-35 cm",
+    "leafWidth": "12-20 cm",
+    "petioleColor": "Green",
+    "venation": "Pronounced pale veins",
+    "texture": "Dark green velvety",
+    "variegation": "Cream to yellow sectors or marbling",
+    "growthHabit": "Compact epiphytic habit"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium dressleri variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "anthurium dressleri variegated",
+      "dressleri variegated",
+      "variegated dressleri"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Anthurium forgetii 'Variegated'",
+  "slug": "forgetii-variegated",
+  "scientificName": "Anthurium forgetii 'Variegated'",
+  "commonName": "Variegated Forgetii Anthurium",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Anthurium",
+  "species": "forgetii 'Variegated'",
+  "origin": "Species native to Colombia; variegated collector form in cultivation",
+  "collectorPopularity": 5,
+  "rarityStatus": "Very Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Anthurium forgetii 'Variegated' is a stunning, compact understory aroid native to Colombia. Highly prized in collector circles, it is famous for its distinctive, nearly round, sinusless leaves that feature a plush velvety texture and contrasting pale venation. The rare variegated form is adorned with breathtaking cream-to-yellow marbling and sectoral variegation splashed across its deep green leaf blades. In cultivation, it performs best in warm, highly humid conditions with a very airy, well-draining substrate and bright indirect light.",
+  "quickFacts": {
+    "growthHabit": "Compact understory aroid",
+    "matureSize": "Small to Medium",
+    "light": "Bright indirect light",
+    "humidity": "High humidity (70%+)",
+    "temperature": "18-26°C",
+    "difficulty": "Intermediate to Advanced",
+    "growthSpeed": "Slow"
+  },
+  "morphology": {
+    "leafShape": "Nearly round, sinusless",
+    "leafLength": "15-30 cm",
+    "leafWidth": "12-25 cm",
+    "petioleColor": "Green",
+    "venation": "Pale contrasting primary veins",
+    "texture": "Soft velvety",
+    "variegation": "Cream to yellow marbling and sectoral splashes",
+    "growthHabit": "Compact with short petioles"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium forgetii variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "anthurium forgetii variegated",
+      "forgetii variegated",
+      "variegated forgetii"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "The Circular Jewel of Colombia",
+    "date": "2024-01-08",
+    "author": "Ariod Aaron",
+    "content": "Anthurium forgetii is instantly recognizable because it completely lacks the upper sinus (the lobes at the top of the leaf are fused, making it almost circular). The green velvet texture is outstanding, but the variegated cultivar adds a new dimension with splashes of yellow and cream. A 2019 genetic study on Colombian understory aroids highlighted the species' unique leaf geometry as a highly specialized design to reduce water accumulation on the leaf blade, preventing fungal growth. In cultivation, it is slow and demands extremely high humidity."
+  }
+}

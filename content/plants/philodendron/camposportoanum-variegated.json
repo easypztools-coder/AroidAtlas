@@ -1,0 +1,85 @@
+{
+  "name": "Philodendron camposportoanum 'Variegated'",
+  "slug": "camposportoanum-variegated",
+  "scientificName": "Philodendron camposportoanum 'Variegated'",
+  "commonName": "Variegated Camposportoanum Philodendron",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "camposportoanum 'Variegated'",
+  "origin": "Brazil; variegated collector form in cultivation",
+  "collectorPopularity": 5,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Philodendron camposportoanum 'Variegated' is an interesting climbing aroid native to Brazil. Prized for its shape-shifting (heteroblastic) foliage, the leaves emerge velvety and heart-shaped, transitioning to glossy trilobed structures as the plant climbs. The variegated selection features gorgeous cream-to-yellow marbling that streaks across the lobes. In cultivation, it performs best with warm, humid conditions, bright filtered light, and vertical support.",
+  "quickFacts": {
+    "growthHabit": "Climbing aroid",
+    "matureSize": "Medium",
+    "light": "Bright indirect light",
+    "humidity": "High humidity",
+    "temperature": "18-28°C",
+    "difficulty": "Intermediate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Trilobed (mature) or cordate (juvenile)",
+    "leafLength": "15-30 cm",
+    "leafWidth": "12-25 cm",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Velvety (juvenile) to glossy (mature)",
+    "variegation": "Cream to yellow marbled patterns",
+    "growthHabit": "Climbing with aerial roots"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron camposportoanum variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "philodendron camposportoanum variegated",
+      "camposportoanum variegated",
+      "variegated camposportoanum"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "The Shape-Shifting Climber of Brazil",
+    "date": "2023-10-05",
+    "author": "Ariod Aaron",
+    "content": "Philodendron camposportoanum is one of the most fascinating heteroblastic species in Brazil, changing its leaf shape from small, heart-shaped velvety juvenile leaves to three-lobed, glossy mature leaves. The variegated cultivar is a stunning somatic mutation displaying fine cream-to-yellow marbled patterns. The narrow middle waist is an evolutionary canopy transition trait. Variegation in camposportoanum is highly dynamic and requires consistent bright, filtered light to encourage development of the multi-toned patterns on the mature lobes."
+  }
+}

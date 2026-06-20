@@ -1,0 +1,85 @@
+{
+  "name": "Philodendron atabapoense 'Variegated'",
+  "slug": "atabapoense-variegated",
+  "scientificName": "Philodendron atabapoense 'Variegated'",
+  "commonName": "Variegated Atabapoense Philodendron",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "atabapoense 'Variegated'",
+  "origin": "Venezuela (Amazonas); variegated collector form in cultivation",
+  "collectorPopularity": 5,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Philodendron atabapoense 'Variegated' is an exceptional climbing aroid native to the Amazonas region of Venezuela. In cultivation, it is highly prized for its long, narrow, strap-like leaves and striking variegation. The plant features elongated sagittate to hastate leaves with subtle posterior lobes and a smooth green petiole. The foliage showcases beautiful sectoral and marbled variegation in shades of cream, mint, and a lovely blush pink, with new leaves emerging with a pronounced pink blush. It requires warmth, high humidity, bright indirect light, and a vertical support to grow to its full potential.",
+  "quickFacts": {
+    "growthHabit": "Climbing aroid",
+    "matureSize": "Medium to Large",
+    "light": "Bright indirect light",
+    "humidity": "High humidity",
+    "temperature": "18-28°C",
+    "difficulty": "Intermediate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Elongated narrow sagittate to hastate",
+    "leafLength": "35-60 cm",
+    "leafWidth": "10-18 cm",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Smooth, glossy",
+    "variegation": "Cream, mint, and blush pink sectors or marbling",
+    "growthHabit": "Climbing with aerial roots"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron atabapoense variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "philodendron atabapoense variegated",
+      "atabapoense variegated",
+      "variegated atabapoense"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "The Pink-Blushed Giant of Amazonas",
+    "date": "2023-07-15",
+    "author": "Ariod Aaron",
+    "content": "Philodendron atabapoense, native to the Rio Atabapo region in Venezuela, is famous for its long, narrow, strap-like leaves with reddish-purple backs. The variegated cultivar is a spectacular mutation that features splashes of cream, mint, and soft pink, with new leaves emerging in a beautiful coral-pink blush. The long petioles and narrow leaf shape allow the plant to scale trees rapidly in search of light, while the anthocyanin-rich undersides capture backscattered light, a key adaptative trait described in neotropical hemi-epiphyte studies."
+  }
+}

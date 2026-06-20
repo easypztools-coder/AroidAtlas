@@ -1,0 +1,86 @@
+{
+  "name": "Scindapsus treubii 'Moonlight Variegated'",
+  "slug": "treubii-moonlight-variegated",
+  "scientificName": "Scindapsus treubii 'Moonlight Variegated'",
+  "commonName": "Variegated Moonlight Scindapsus",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Scindapsus",
+  "species": "treubii 'Moonlight Variegated'",
+  "origin": "Peninsula Malaysia, Borneo, and Java; variegated collector form in cultivation",
+  "collectorPopularity": 5,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Scindapsus treubii 'Moonlight Variegated' is an exceptionally beautiful climbing vine native to Malaysia, Borneo, and Java. Prized for its thick, leathery leaves with a matte silver moonlight overlay, this cultivar features striking white-to-cream sectoral patches over the silver-green base. It climbs via aerial roots and grows in lowland forest canopies, requiring high humidity and filtered light to flourish.",
+  "quickFacts": {
+    "growthHabit": "Climbing vine",
+    "matureSize": "Medium",
+    "light": "Bright indirect light",
+    "humidity": "High humidity (65%+)",
+    "temperature": "18-28°C",
+    "difficulty": "Easy to Intermediate",
+    "growthSpeed": "Slow to Moderate"
+  },
+  "morphology": {
+    "leafShape": "Thick, elongated lanceolate",
+    "leafLength": "15-25 cm",
+    "leafWidth": "6-10 cm",
+    "petioleColor": "Green",
+    "venation": "Subtle parallel venation",
+    "texture": "Thick, leathery, matte silver overlay",
+    "variegation": "White to cream patches or marbling over silver-green base",
+    "growthHabit": "Climbing with aerial roots, compact upright when supported"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Scindapsus treubii moonlight variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "scindapsus treubii moonlight variegated",
+      "treubii moonlight variegated",
+      "scindapsus treubii variegated",
+      "treubii variegated"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "Silver Moon and Cream Splashes",
+    "date": "2023-02-18",
+    "author": "Ariod Aaron",
+    "content": "Scindapsus treubii 'Moonlight' is prized for its thick, leathery, silver-satin leaves that shimmer under soft lighting. The variegated form introduces striking white-to-cream sectoral patches over the silver-green base. Native to Malaysia, Borneo, and Java, this vine climbs via aerial roots and grows in lowland forest canopies. The silver overlay is a specialized cell layer that diffuses light, and the variegation creates a multi-layered, three-tone color scheme that is highly coveted by collectors."
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Philodendron lupinum 'Variegated'",
+  "slug": "lupinum-variegated",
+  "scientificName": "Philodendron lupinum 'Variegated'",
+  "commonName": "Variegated Lupinum Philodendron",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "lupinum 'Variegated'",
+  "origin": "Species native to Brazil (Acre); variegated collector form in cultivation",
+  "collectorPopularity": 5,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Philodendron lupinum 'Variegated' is an exquisite climbing aroid native to the Acre region in western Amazonian Brazil. Highly sought after by collectors, this variety features dramatic cordate to elongate-cordate leaves with a distinctive velvety-to-satin texture on their upper surface and reddish or bronzy undersides. In cultivation, it thrives in warm, humid conditions with bright indirect light and a support to climb. Its foliage displays stunning, irregular cream-to-yellow variegation consisting of intricate marbling and bold sectoral patches.",
+  "quickFacts": {
+    "growthHabit": "Climbing aroid",
+    "matureSize": "Small to Medium",
+    "light": "Bright indirect light",
+    "humidity": "High humidity",
+    "temperature": "18-28°C",
+    "difficulty": "Intermediate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Cordate to elongate-cordate",
+    "leafLength": "12-25 cm",
+    "leafWidth": "8-15 cm",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Velvety to satin upper surface, bronzy/reddish undersides",
+    "variegation": "Irregular cream to yellow marbling and sectoral patches",
+    "growthHabit": "Climbing with aerial roots"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron lupinum variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "philodendron lupinum variegated",
+      "lupinum variegated",
+      "variegated lupinum"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "Amazonian Velvet in Cream and Gold",
+    "date": "2022-11-20",
+    "author": "Ariod Aaron",
+    "content": "Philodendron lupinum, a species native to the Amazonian region of Acre in Brazil, presents one of the most drastic transformations in the genus. The juvenile form is small and velvety with reddish undersides, but as it climbs, it develops large, glossy, multi-lobed leaves. The variegated form exhibits beautiful, irregular cream-to-yellow marbling and sectoral patches. In the wild, the velvety texture of the juvenile leaf helps diffuse minimal understory light to capture photons efficiently. Variegated specimens require bright indirect filtration to maintain this variegation without scorching."
+  }
+}

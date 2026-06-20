@@ -1,0 +1,85 @@
+{
+  "name": "Anthurium vittariifolium 'Variegated'",
+  "slug": "vittariifolium-variegated",
+  "scientificName": "Anthurium vittariifolium 'Variegated'",
+  "commonName": "Variegated Vittariifolium Anthurium",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Anthurium",
+  "species": "vittariifolium 'Variegated'",
+  "origin": "Tropical South America; variegated collector form in cultivation",
+  "collectorPopularity": 5,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Anthurium vittariifolium 'Variegated' is an extraordinary epiphytic aroid native to tropical South America. Recognized for its extremely long, narrow, strap-like pendant leaves, it grows hanging from tree branches. The leathery green foliage showcases beautiful cream-to-yellow marbling and sectors running along the length of the blades. It requires high humidity, consistent moisture, and filtered light to drape elegantly without rot.",
+  "quickFacts": {
+    "growthHabit": "Hanging epiphyte",
+    "matureSize": "Long pendant (up to 1.5m+)",
+    "light": "Filtered bright light",
+    "humidity": "High humidity",
+    "temperature": "18-28°C",
+    "difficulty": "Intermediate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Extremely long, narrow strap-like pendant",
+    "leafLength": "60-150 cm",
+    "leafWidth": "4-8 cm",
+    "petioleColor": "Green",
+    "venation": "Subtle parallel primary veins",
+    "texture": "Leathery",
+    "variegation": "Creamy white to yellow sectors and marbling",
+    "growthHabit": "Hanging habit supported by aerial roots"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium vittariifolium variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "anthurium vittariifolium variegated",
+      "vittariifolium variegated",
+      "variegated vittariifolium"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "The Hanging Green Ribbons",
+    "date": "2023-08-29",
+    "author": "Ariod Aaron",
+    "content": "Anthurium vittariifolium is a remarkable epiphyte that grows hanging from tree branches in tropical South America. Its leaves can grow up to two meters long while remaining only a few centimeters wide. The variegated cultivar displays stunning streaks and sectors of white and yellow. The pendant habit is an adaptation to shed rain rapidly and avoid collecting debris, which could cause rot. The variegated ribbon-like leaves require a hanging basket or mount to drape gracefully in high humidity."
+  }
+}

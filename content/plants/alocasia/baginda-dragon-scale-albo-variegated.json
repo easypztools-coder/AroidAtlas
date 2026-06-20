@@ -1,0 +1,85 @@
+{
+  "name": "Alocasia baginda 'Dragon Scale' Albo Variegated",
+  "slug": "baginda-dragon-scale-albo-variegated",
+  "scientificName": "Alocasia baginda 'Dragon Scale' Albo Variegated",
+  "commonName": "Albo Variegated Dragon Scale",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Alocasia",
+  "species": "baginda 'Dragon Scale' Albo Variegated",
+  "origin": "Species native to Borneo (Kalimantan); 'Dragon Scale' collector selection with variegation in cultivation",
+  "collectorPopularity": 5,
+  "rarityStatus": "Very Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Alocasia baginda 'Dragon Scale' Albo Variegated is a jaw-dropping, compact forest-floor aroid native to the tropical island of Borneo (Kalimantan). It is highly celebrated for its thick, heavily bullate, shield-like leaves that resemble reptilian scales. The foliage is a pale, silvery-green with deep, dark green contrasting venation, accented by magnificent white-to-cream albo variegation scattered over the textured surfaces. Arising from a compact underground corm, it grows on upright pinkish-to-greenish petioles and thrives in warmth and humidity with a chunky, free-draining substrate and bright indirect light.",
+  "quickFacts": {
+    "growthHabit": "Compact corm-forming aroid",
+    "matureSize": "Small (20-40 cm)",
+    "light": "Bright indirect light",
+    "humidity": "High humidity (65-80%)",
+    "temperature": "18-26°C",
+    "difficulty": "Intermediate to Advanced",
+    "growthSpeed": "Slow to Medium"
+  },
+  "morphology": {
+    "leafShape": "Shield-like (peltate), heavily bullate",
+    "leafLength": "15-25 cm",
+    "leafWidth": "10-18 cm",
+    "petioleColor": "Pinkish to greenish",
+    "venation": "Deeply recessed, dark green primary veins",
+    "texture": "Thick, coriaceous, heavily bullate (textured)",
+    "variegation": "White to cream albo variegation over the lamina",
+    "growthHabit": "Upright rosette from a corm"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia dragon scale variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "alocasia dragon scale variegated",
+      "dragon scale variegated",
+      "dragon scale albo"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "Reptilian Textures in White Marbling",
+    "date": "2024-03-24",
+    "author": "Ariod Aaron",
+    "content": "Alocasia baginda 'Dragon Scale' is celebrated for its thick, heavily bullate leaves that feel like leather and resemble scales. The albo variegated form introduces cream-to-white patterns across this texture. In taxonomic reviews of Borneo's endemic flora, the bullate texture is categorized as an adaptation to maximize the surface area for photosynthesis in deep limestone caves. Somatic albo variegation creates a high-contrast pattern that highlights the deep green recessed veins, making it one of the most visually striking jewel Alocasias."
+  }
+}

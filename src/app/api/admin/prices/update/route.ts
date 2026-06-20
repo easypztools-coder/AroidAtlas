@@ -33,7 +33,7 @@ export async function GET(request: NextRequest) {
   }
 
   // ─── Load plant data (search across all genera) ─────────────────────────
-  const genera = ["philodendron", "monstera", "alocasia", "anthurium"];
+  const genera = ["philodendron", "monstera", "alocasia", "anthurium", "rhaphidophora", "scindapsus"];
   let plantPath: string | null = null;
   for (const genus of genera) {
     const candidate = path.join(process.cwd(), "content", "plants", genus, `${slug}.json`);

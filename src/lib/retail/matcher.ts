@@ -230,11 +230,13 @@ export function matchProduct(
     (plantGenus === "philodendron" && normTitle.match(/\bp\b/i)) ||
     (plantGenus === "monstera" && normTitle.match(/\bm\b/i)) ||
     (plantGenus === "alocasia" && normTitle.match(/\ba\b/i)) ||
-    (plantGenus === "anthurium" && normTitle.match(/\ba\b/i));
+    (plantGenus === "anthurium" && normTitle.match(/\ba\b/i)) ||
+    (plantGenus === "rhaphidophora" && normTitle.match(/\br\b/i)) ||
+    (plantGenus === "scindapsus" && normTitle.match(/\bs\b/i));
 
   if (!hasGenus) {
     // If the title contains a DIFFERENT known genus, reject immediately
-    const otherGenera = ["philodendron", "monstera", "alocasia", "anthurium"].filter(
+    const otherGenera = ["philodendron", "monstera", "alocasia", "anthurium", "rhaphidophora", "scindapsus"].filter(
       (g) => g !== plantGenus
     );
     for (const g of otherGenera) {

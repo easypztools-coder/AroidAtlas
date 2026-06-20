@@ -34,3 +34,22 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Botanical Plate Import Pipeline
+
+To add new botanical plates to the site:
+1. Place raw image files in the `Finished Plates/` folder (typically named `ChatGPT Image ...`).
+2. Run the renaming CLI tool:
+   ```bash
+   npx tsx scripts/rename-plates.ts
+   ```
+   This will identify (using Gemini Vision or the hardcoded mappings) and rename the files **in place** within `Finished Plates/` to their correct botanical names (e.g. `Philodendron melanochrysum 'Variegata'.png`).
+3. Run the plant page generator:
+   ```bash
+   npx tsx scripts/generate-plant-pages.ts
+   ```
+   This will analyze the renamed plates, generate their structured JSON profiles under `content/plants/<genus>/`, and **copy** (not move or delete) the images over.
+
+> [!IMPORTANT]
+> **Do NOT delete** the images from the `Finished Plates/` directory during or after importing. This folder serves as a permanent repository to keep track of all botanical plates.
+

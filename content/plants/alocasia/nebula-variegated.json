@@ -1,0 +1,79 @@
+{
+  "name": "Alocasia nebula 'Variegated'",
+  "slug": "nebula-variegated",
+  "scientificName": "Alocasia nebula 'Variegated'",
+  "commonName": "Variegated Nebula Alocasia",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Alocasia",
+  "species": "nebula 'Variegated'",
+  "origin": "Borneo (Sarawak); variegated collector form in cultivation",
+  "collectorPopularity": 5,
+  "rarityStatus": "Very Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Alocasia nebula 'Variegated' is an ultra-rare, compact forest-floor jewel Alocasia native to Sarawak on the island of Borneo. It is highly celebrated for its thick, almost bullate leaves that feature a signature cloudy metallic silver-grey surface and dark raised venation. In cultivation, it thrives in warmth and humidity, preferring a chunky, free-draining substrate and bright indirect light. The variegated selection adds a spectacular contrast, with cream marbling and sectoral patches splashed across the thick silver blades.",
+  "quickFacts": {
+    "growthHabit": "Compact corm-forming aroid",
+    "matureSize": "Small (20-35 cm)",
+    "light": "Bright indirect light",
+    "humidity": "High humidity (65-80%)",
+    "temperature": "18-26°C",
+    "difficulty": "Intermediate to Advanced",
+    "growthSpeed": "Slow to Medium"
+  },
+  "morphology": {
+    "leafShape": "Ovate-cordate",
+    "leafLength": "15-25 cm",
+    "leafWidth": "10-18 cm",
+    "petioleColor": "Green-spotted reddish",
+    "venation": "Dark, raised primary veins",
+    "texture": "Thick, coriaceous, almost bullate",
+    "variegation": "Cream sectors and marbling over metallic silver-grey",
+    "growthHabit": "Compact rosette from corm"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia nebula variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "alocasia nebula variegated",
+      "nebula variegated",
+      "variegated nebula"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

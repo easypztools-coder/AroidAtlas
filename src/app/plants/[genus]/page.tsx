@@ -23,6 +23,8 @@ const GENUS_DESCRIPTIONS: Record<string, string> = {
   anthurium: "Velvet-leafed jewels of the rainforest understory. Browse our collection of Anthurium species and cultivars.",
   monstera: "Iconic fenestrated giants of the tropical canopy. Browse our collection of Monstera species and cultivars.",
   alocasia: "Dramatic shield-leafed specimens from Southeast Asia. Browse our collection of Alocasia species and cultivars.",
+  rhaphidophora: "Understory shinglers and climbers with fenestrated leaves. Browse our collection of Rhaphidophora species and cultivars.",
+  scindapsus: "Vining climbing aroids with satin texture and silver patterns. Browse our collection of Scindapsus species and cultivars.",
 };
 
 function getAllPlantsForGenus(genus: string): PlantSummary[] {

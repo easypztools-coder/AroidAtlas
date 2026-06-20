@@ -1,0 +1,79 @@
+{
+  "name": "Monstera siltepecana 'El Salvador Form'",
+  "slug": "siltepecana-el-salvador",
+  "scientificName": "Monstera siltepecana 'El Salvador Form'",
+  "commonName": "El Salvador Siltepecana Monstera",
+  "statusTag": "Rare Cultivar",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "siltepecana 'El Salvador Form'",
+  "origin": "Species native to eastern Central and southern Mexico to Nicaragua; collector form in cultivation known as 'El Salvador Form'",
+  "collectorPopularity": 4.5,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "££",
+  "aboutText": "Monstera siltepecana 'El Salvador Form' is a highly attractive climbing aroid native from southern Mexico to Nicaragua. Prized for its gorgeous silvery coloration, it features juvenile lanceolate-to-ovate leaves with a beautiful dark green reticulate venation. In cultivation, it prefers warm, humid conditions with bright indirect light and vertical support to climb and mature. As it matures, the leaves become longer, narrower, and develop graceful inner fenestrations, while retaining the signature siltepecana silver color.",
+  "quickFacts": {
+    "growthHabit": "Climbing aroid",
+    "matureSize": "Medium to Large",
+    "light": "Bright indirect light",
+    "humidity": "High humidity",
+    "temperature": "18-28°C",
+    "difficulty": "Easy to Intermediate",
+    "growthSpeed": "Moderate to Fast"
+  },
+  "morphology": {
+    "leafShape": "Ovate-lanceolate (juvenile), pinnatisect with inner fenestrations (mature)",
+    "leafLength": "10-18 cm (juvenile), 30-45 cm (mature)",
+    "leafWidth": "6-10 cm (juvenile), 15-25 cm (mature)",
+    "petioleColor": "Green",
+    "venation": "Dark green reticulate",
+    "texture": "Smooth, matte-satin",
+    "variegation": "Silvery-green foliage with dark green veins (non-chimeric)",
+    "growthHabit": "Climbing with aerial and adhesive roots"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera siltepecana El Salvador",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "monstera siltepecana el salvador",
+      "siltepecana el salvador",
+      "siltepecana salvador"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

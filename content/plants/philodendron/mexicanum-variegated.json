@@ -1,0 +1,85 @@
+{
+  "name": "Philodendron mexicanum 'Variegated'",
+  "slug": "mexicanum-variegated",
+  "scientificName": "Philodendron mexicanum 'Variegated'",
+  "commonName": "Variegated Mexicanum Philodendron",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "mexicanum 'Variegated'",
+  "origin": "Species native from Mexico to western Colombia; variegated collector form in cultivation",
+  "collectorPopularity": 5,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Philodendron mexicanum 'Variegated' is a spectacular climbing aroid native to the tropical forests stretching from Mexico to western Colombia. In cultivation, it is highly prized for its striking variegation and prefers warm, humid environments with bright indirect light and vertical support to mature. The plant is famed for its large, elongated sagittate to hastate leaves that feature pronounced posterior lobes and narrow central blades. Its smooth, glossy foliage is adorned with marbled cream-to-yellow variegation distributed in eye-catching sectors and speckles. As it climbs, it produces green petioles and abundant aerial roots at the nodes.",
+  "quickFacts": {
+    "growthHabit": "Climbing aroid",
+    "matureSize": "Medium to Large",
+    "light": "Bright indirect light",
+    "humidity": "High humidity",
+    "temperature": "18-28°C",
+    "difficulty": "Intermediate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Elongated sagittate to hastate with pronounced posterior lobes",
+    "leafLength": "30-50 cm",
+    "leafWidth": "15-25 cm",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Smooth, glossy",
+    "variegation": "Cream to yellow marbled variegation in sectors and speckles",
+    "growthHabit": "Climbing with aerial roots at nodes"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron mexicanum variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "philodendron mexicanum variegated",
+      "mexicanum variegated",
+      "variegated mexicanum"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "The Dog-Eared Forest Climber",
+    "date": "2023-05-18",
+    "author": "Ariod Aaron",
+    "content": "Philodendron mexicanum is famous for its heteroblastic leaf shapes—moving from small, heart-shaped juvenile leaves to enormous, dog-eared (sagittate-hastate) mature blades with long lobes. The variegated cultivar, which displays yellow and cream marbled patterns, is highly coveted. During our Chocó expedition in 2022, we noted how neotropical climbers of this group maximize forest understory light interception. The variegation pattern adds a spectacular contrast to the deep green gloss of the mature leaf blades, although the reduced chlorophyll concentration makes it a slow grower."
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "name": "Anthurium regale 'Variegated'",
+  "slug": "regale-variegated",
+  "scientificName": "Anthurium regale 'Variegated'",
+  "commonName": "Variegated Regale Anthurium",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Anthurium",
+  "species": "regale 'Variegated'",
+  "origin": "NE. Peru; variegated collector form in cultivation",
+  "collectorPopularity": 5,
+  "rarityStatus": "Very Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Anthurium regale 'Variegated' is a highly coveted, majestic understory aroid native to northeastern Peru. Renowned for its enormous velvet foliage, it features massive cordate leaves with a broad sinus, pale white-to-silver venation, and a robust subshrubby growth habit. In cultivation, it demands warm temperatures, high humidity, airy substrate, and filtered bright indirect light. The highly sought-after variegated form exhibits striking cream, pale green, or yellow sectors and marbling, which perfectly accentuates the leaf's dramatic scale and regal proportions.",
+  "quickFacts": {
+    "growthHabit": "Understory aroid",
+    "matureSize": "Large (up to 1m+ leaves)",
+    "light": "Bright indirect light",
+    "humidity": "High humidity",
+    "temperature": "18-26°C",
+    "difficulty": "Advanced",
+    "growthSpeed": "Slow"
+  },
+  "morphology": {
+    "leafShape": "Large cordate with a broad sinus",
+    "leafLength": "50-100 cm",
+    "leafWidth": "30-60 cm",
+    "petioleColor": "Green",
+    "venation": "Thick pale white to silver",
+    "texture": "Thick, dark green velvety",
+    "variegation": "Cream, pale green, or yellow sectors and marbling",
+    "growthHabit": "Robust subshrubby habit"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium regale variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "anthurium regale variegated",
+      "regale variegated",
+      "variegated regale"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "The Giant Spade of San Martin",
+    "date": "2023-06-11",
+    "author": "Ariod Aaron",
+    "content": "Anthurium regale, native to the San Martin region of Peru, is one of the largest velvet Anthuriums in existence, producing leaves that can exceed one meter in length. The variegated form, showing cream or yellow sectors and marbling, is incredibly rare. The white primary venation stands out sharply against the dark green velvet, and the variegation cuts through this pattern in a dramatic geometric contrast. Cultivating this plant is a test of patience, requiring deep containers, extremely airy substrate, and constant humidity."
+  }
+}

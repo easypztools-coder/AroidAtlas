@@ -1,0 +1,86 @@
+{
+  "name": "Monstera standleyana 'Aurea Variegated'",
+  "slug": "standleyana-aurea-variegated",
+  "scientificName": "Monstera standleyana 'Aurea Variegated'",
+  "commonName": "Aurea Variegated Standleyana",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "standleyana 'Aurea Variegated'",
+  "origin": "SE Nicaragua to NW Colombia; variegated collector form in cultivation",
+  "collectorPopularity": 4.5,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "££",
+  "aboutText": "Monstera standleyana 'Aurea Variegated' is an attractive climbing aroid native from southern Nicaragua to northwestern Colombia. Highly sought after for its stable yellow-to-cream aurea variegation, the plant features glossy lanceolate leaves that rarely develop fenestrations. It climbs via short internodes and thrives under warm, humid, shaded understory conditions.",
+  "quickFacts": {
+    "growthHabit": "Climbing aroid",
+    "matureSize": "Medium",
+    "light": "Bright indirect light",
+    "humidity": "High humidity",
+    "temperature": "18-28°C",
+    "difficulty": "Easy to Intermediate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Narrow lanceolate to elliptic",
+    "leafLength": "15-25 cm",
+    "leafWidth": "8-12 cm",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Thick, glossy",
+    "variegation": "Yellow to cream aurea variegation in splashes and sectors",
+    "growthHabit": "Climbing with aerial roots at nodes"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera standleyana aurea",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "monstera standleyana aurea",
+      "standleyana aurea",
+      "standleyana albo",
+      "monstera standleyana variegated"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "The Five-Color Shingle Hybrid",
+    "date": "2022-12-14",
+    "author": "Ariod Aaron",
+    "content": "Monstera standleyana (often sold incorrectly under the name Philodendron 'Cobra') is a climbing Monstera that differs from most of its relatives by rarely producing fenestrations. The 'Aurea Variegated' form features brilliant yellow-to-cream streaks and speckling. It ranges from Nicaragua to Colombia, growing in shaded understories. The thick, glossy texture of the lanceolate leaves reflects light to prevent burning under canopy gaps, and the aurea variegation remains stable throughout the life of the vine, climbing via short internodal roots."
+  }
+}

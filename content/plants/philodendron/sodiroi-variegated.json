@@ -1,0 +1,79 @@
+{
+  "name": "Philodendron sodiroi 'Variegated'",
+  "slug": "sodiroi-variegated",
+  "scientificName": "Philodendron sodiroi 'Variegated'",
+  "commonName": "Variegated Sodiroi Philodendron",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "sodiroi 'Variegated'",
+  "origin": "Colombia; variegated collector form in cultivation",
+  "collectorPopularity": 5,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Philodendron sodiroi 'Variegated' is a stunning climbing aroid native to Colombia. Prized for its gorgeous, broad ovate-cordate leaves with a shallow sinus, this variety is highly sought after by collectors. In cultivation, it thrives in warm, humid conditions with bright indirect light and vertical support to shingle and climb. Its foliage displays a matte-satin texture adorned with a distinctive silver pattern (mottling) overlaid with beautiful cream-to-pale-yellow marbling or sectoral patches.",
+  "quickFacts": {
+    "growthHabit": "Climbing aroid",
+    "matureSize": "Medium",
+    "light": "Bright indirect light",
+    "humidity": "High humidity",
+    "temperature": "18-28°C",
+    "difficulty": "Intermediate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Broad ovate-cordate with a shallow sinus",
+    "leafLength": "15-25 cm",
+    "leafWidth": "12-20 cm",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Subtly quilted, matte-satin",
+    "variegation": "Cream to pale-yellow marbling or sectors over silver mottling",
+    "growthHabit": "Climbing with aerial roots at nodes"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron sodiroi variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "philodendron sodiroi variegated",
+      "sodiroi variegated",
+      "variegated sodiroi"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

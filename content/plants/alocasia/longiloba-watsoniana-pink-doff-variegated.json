@@ -1,0 +1,86 @@
+{
+  "name": "Alocasia longiloba 'Watsoniana Pink Doff Variegated'",
+  "slug": "longiloba-watsoniana-pink-doff-variegated",
+  "scientificName": "Alocasia longiloba 'Watsoniana Pink Doff Variegated'",
+  "commonName": "Watsoniana Pink Doff Variegated",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Alocasia",
+  "species": "longiloba 'Watsoniana Pink Doff Variegated'",
+  "origin": "China to western and central Malesia; variegated collector form in cultivation",
+  "collectorPopularity": 5,
+  "rarityStatus": "Very Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Alocasia longiloba 'Watsoniana Pink Doff Variegated' is an exceptionally beautiful, corm-forming understory aroid native to China and western Malesia. Known for its massive, stiff shield leaves with contrasting white primary veins, it features a velvety green surface with a dark metallic sheen. The highly sought-after 'Pink Doff' cultivar exhibits stunning splashes of soft pink variegation, requiring warm, highly humid forest-floor conditions with consistent moisture and filtered light.",
+  "quickFacts": {
+    "growthHabit": "Rosette from corm",
+    "matureSize": "Medium",
+    "light": "Filtered indirect light",
+    "humidity": "High humidity (65-85%)",
+    "temperature": "18-26°C",
+    "difficulty": "Intermediate to Advanced",
+    "growthSpeed": "Slow to Medium"
+  },
+  "morphology": {
+    "leafShape": "Elongated sagittate with pronounced posterior lobes",
+    "leafLength": "30-50 cm",
+    "leafWidth": "15-28 cm",
+    "petioleColor": "Upright dark-green to purple",
+    "venation": "Strong contrasting silvery-white veins",
+    "texture": "Dark velvety to matte green",
+    "variegation": "Soft pink marbling and sectoral patches",
+    "growthHabit": "Upright rosette from a corm"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia watsoniana pink",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "alocasia watsoniana pink",
+      "watsoniana pink",
+      "watsoniana pink doff",
+      "alocasia longiloba pink"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "The Shimmering Pink Shield",
+    "date": "2024-05-12",
+    "author": "Ariod Aaron",
+    "content": "Alocasia longiloba 'Watsoniana' is famous for its large, stiff leaves with prominent white veins and a metallic green-purple sheen. The 'Pink Doff Variegata' form is a rare mutation displaying stunning patches of pink variegation. Found from China to Malaysia, this corm-forming understory aroid grows in humid soils rich in leaf litter. The pink variegation is exceptionally beautiful as it cuts across the bold white veins, providing a high-contrast palette. High humidity and filtered light are essential to preserve the pink coloration."
+  }
+}

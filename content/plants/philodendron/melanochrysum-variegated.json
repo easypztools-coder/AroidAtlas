@@ -1,0 +1,85 @@
+{
+  "name": "Philodendron melanochrysum 'Variegated'",
+  "slug": "melanochrysum-variegated",
+  "scientificName": "Philodendron melanochrysum 'Variegated'",
+  "commonName": "Variegated Melanochrysum Philodendron",
+  "statusTag": "Rare Variegated Cultivar",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "melanochrysum 'Variegated'",
+  "origin": "Colombia; variegated collector form in cultivation",
+  "collectorPopularity": 5,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Philodendron melanochrysum 'Variegated' is a spectacular climbing aroid native to Colombia. In cultivation, it is highly prized for its long, velvety leaves and striking variegation. The plant features elongated cordate leaves with bright golden-pale primary veins and a velvet texture. The foliage showcases beautiful sectoral and marbled variegation in shades of cream and yellow. It requires warmth, high humidity, bright indirect light, and a vertical support to grow to its full potential.",
+  "quickFacts": {
+    "growthHabit": "Climbing aroid",
+    "matureSize": "Medium to Large",
+    "light": "Bright indirect light",
+    "humidity": "High humidity",
+    "temperature": "18-28°C",
+    "difficulty": "Intermediate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Elongated cordate to narrowly heart-shaped",
+    "leafLength": "30-50 cm",
+    "leafWidth": "15-25 cm",
+    "petioleColor": "Green",
+    "venation": "Striking pale golden primary veins",
+    "texture": "Soft velvety",
+    "variegation": "Cream to yellow marbling and sectors",
+    "growthHabit": "Climbing with aerial roots"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron melanochrysum variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "philodendron melanochrysum variegated",
+      "melanochrysum variegated",
+      "variegated melanochrysum"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "The Black Velvet Gold Rush",
+    "date": "2023-03-22",
+    "author": "Ariod Aaron",
+    "content": "Philodendron melanochrysum is famous for its dark green, nearly black velvet leaves with brilliant pale gold veins. The variegated form adds a spectacular layer of cream and yellow marbling. Taxonomically described by Linden and André in the late 19th century, the velvety sheen is a result of light refraction on the dome-shaped cells of the leaf epidermis, which allows the plant to photosynthesize in the deep shade of Colombian rain forests. Variegated clones require careful fertilization to maintain their vibrant variegation without browning."
+  }
+}

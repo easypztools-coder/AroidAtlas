@@ -24,7 +24,7 @@ const VALID_STATIC_ROUTES = new Set([
   "/terms",
 ]);
 
-const VALID_GENERA = new Set(["alocasia", "anthurium", "monstera", "philodendron"]);
+const VALID_GENERA = new Set(["alocasia", "anthurium", "monstera", "philodendron", "rhaphidophora", "scindapsus"]);
 
 // Simple recursive directory scanner
 function scanDir(dir: string, fileList: string[] = []): string[] {

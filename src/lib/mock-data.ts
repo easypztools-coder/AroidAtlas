@@ -109,26 +109,38 @@ export const genera: GenusEntry[] = [
   {
     name: "Philodendron",
     slug: "philodendron",
-    speciesCount: 7,
+    speciesCount: 16,
     description: "Diverse neotropical climbers with striking foliage",
   },
   {
     name: "Anthurium",
     slug: "anthurium",
-    speciesCount: 4,
+    speciesCount: 11,
     description: "Velvet-leafed jewels of the rainforest understory",
   },
   {
     name: "Monstera",
     slug: "monstera",
-    speciesCount: 3,
+    speciesCount: 8,
     description: "Iconic fenestrated giants of the tropical canopy",
   },
   {
     name: "Alocasia",
     slug: "alocasia",
-    speciesCount: 4,
+    speciesCount: 8,
     description: "Dramatic shield-leafed specimens from Southeast Asia",
+  },
+  {
+    name: "Rhaphidophora",
+    slug: "rhaphidophora",
+    speciesCount: 1,
+    description: "Understory shinglers and climbers with fenestrated leaves",
+  },
+  {
+    name: "Scindapsus",
+    slug: "scindapsus",
+    speciesCount: 1,
+    description: "Vining climbing aroids with satin texture and silver patterns",
   },
   {
     name: "Homalomena",
