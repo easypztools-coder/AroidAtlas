@@ -98,7 +98,7 @@ export default function GenusGrid() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="mb-12"
+          className="mb-8"
         >
           <h2 className="section-heading">Explore by Genus</h2>
           <p className="section-subheading mt-3">

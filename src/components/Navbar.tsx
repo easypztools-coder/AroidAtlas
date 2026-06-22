@@ -124,21 +124,21 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Navbar Layout (Stacked) */}
-        <div className="hidden md:flex flex-col items-center py-5 gap-4">
+        <div className="hidden md:flex flex-col items-center py-4 gap-2">
           {/* Top Row: Centered Logo */}
-          <Link href="/" className="flex items-center shrink-0">
+          <Link href="/" className="block w-full">
             <Image
               src="/images/logo.png"
               alt="Aroid Atlas"
               width={674}
               height={100}
-              className="h-28 w-auto mix-blend-screen"
+              className="w-full h-auto mix-blend-screen"
               priority
             />
           </Link>
 
           {/* Bottom Row: Nav Links & Search Bar */}
-          <div className="w-full flex items-center justify-between gap-8 border-t border-primary/5 pt-4">
+          <div className="w-full flex items-center justify-between gap-8 pt-2">
             {/* Desktop Nav Links */}
             <div className="flex items-center gap-8">
               <Link href="/plants" className={pathname.startsWith("/plants") ? "nav-link-active" : "nav-link"}>

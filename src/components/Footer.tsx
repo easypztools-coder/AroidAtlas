@@ -84,7 +84,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom bar */}
-        <div className="mt-12 pt-8 border-t border-primary/5">
+        <div className="mt-8 pt-6 border-t border-primary/5">
           <p className="text-[11px] text-muted/60">
             &copy; {new Date().getFullYear()} Aroid Atlas. All rights reserved.
           </p>

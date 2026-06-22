@@ -84,11 +84,11 @@
 
   /* Unified global spacing classes to minimize dead space */
   .section-spacing {
-    @apply py-12 md:py-16;
+    @apply py-10 md:py-14;
   }
 
   .section-spacing-tighter {
-    @apply py-8 md:py-12;
+    @apply py-6 md:py-10;
   }
 
   /* Plant Detail page specific layouts */

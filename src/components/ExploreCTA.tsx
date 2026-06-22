@@ -20,12 +20,12 @@ export default function ExploreCTA() {
   return (
     <section className="relative section-spacing">
       <div className="section-container">
-        <div className="glass-card-glow overflow-hidden rounded-3xl p-8 md:p-14 text-center">
+        <div className="glass-card-glow overflow-hidden rounded-3xl p-8 md:p-10 text-center">
           <h2 className="section-heading">Explore the Full Database</h2>
           <p className="section-subheading mt-3 mx-auto max-w-xl">
             Browse {speciesCount || ""}species across Monstera, Philodendron, Anthurium, Alocasia and beyond — with live eBay UK market prices.
           </p>
-          <div className="mt-8">
+          <div className="mt-6">
             <Link
               href="/plants"
               className="btn-primary inline-flex items-center gap-2"

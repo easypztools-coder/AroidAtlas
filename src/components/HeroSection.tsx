@@ -128,8 +128,8 @@ export default function HeroSection() {
       {/* Background Glow */}
       <div className="hero-glow pointer-events-none absolute inset-0" />
 
-      <div className="section-container relative py-10 md:py-16">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="section-container relative py-8 md:py-12">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
           {/* Left: Text Content */}
           <div className="space-y-8">
             <motion.div
