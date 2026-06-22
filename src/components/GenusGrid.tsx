@@ -11,8 +11,8 @@ const GENUS_REPRESENTATIVES: Record<string, { genus: string; slug: string }> = {
   monstera: { genus: "monstera", slug: "devil-monster" },
   alocasia: { genus: "alocasia", slug: "venom" },
   begonia: { genus: "begonia", slug: "pavonina" },
-  rhaphidophora: { genus: "rhaphidophora", slug: "cryptantha-variegated" },
-  scindapsus: { genus: "scindapsus", slug: "treubii-moonlight-variegated" },
+  rhaphidophora: { genus: "other", slug: "rhaphidophora-cryptantha-variegated" },
+  scindapsus: { genus: "other", slug: "scindapsus-treubii-moonlight-variegated" },
 };
 
 function GenusCard({

@@ -356,7 +356,7 @@ export default function PlantDetailPage({
               {data.aboutText}
             </p>
 
-            <div className="rounded-lg bg-card/60 p-4 border border-card/80">
+            <div className="rounded-lg bg-card/80 p-4 border border-primary/15">
               <h4 className="text-xs font-semibold text-heading mb-3 uppercase tracking-wider">
                 Climate Profile
               </h4>

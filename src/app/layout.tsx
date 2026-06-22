@@ -43,21 +43,12 @@ export const metadata: Metadata = {
     title: "Aroid Atlas — Rare Tropical Plant Encyclopedia",
     description:
       "The visual encyclopedia of rare tropical plants. Live eBay UK market prices, species profiles, and cultivation data.",
-    images: [
-      {
-        url: "/images/og-default.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Aroid Atlas — Rare Tropical Plant Encyclopedia",
-      },
-    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Aroid Atlas — Rare Tropical Plant Encyclopedia",
     description:
       "The visual encyclopedia of rare tropical plants. Live market prices and species profiles.",
-    images: ["/images/og-default.jpg"],
   },
   robots: {
     index: true,

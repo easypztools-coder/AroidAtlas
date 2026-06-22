@@ -4,6 +4,17 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Terms of Service",
   description: "Read the terms of service of Aroid Atlas to understand rules, guidelines, and agreements for using our visual encyclopedia.",
+  openGraph: {
+    title: "Terms of Service | Aroid Atlas",
+    description: "Read the terms of service of Aroid Atlas to understand rules, guidelines, and agreements for using our visual encyclopedia.",
+    url: "https://aroidatlas.com/terms",
+    siteName: "Aroid Atlas",
+  },
+  twitter: {
+    card: "summary",
+    title: "Terms of Service | Aroid Atlas",
+    description: "Read the terms of service for Aroid Atlas.",
+  },
 };
 
 export default function TermsPage() {

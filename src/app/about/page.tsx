@@ -4,6 +4,17 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About Aroid Atlas & Methodology",
   description: "Learn about the mission, data collection methodologies, statistical filtering, and active retail integrations powering the Aroid Atlas visual encyclopedia.",
+  openGraph: {
+    title: "About Aroid Atlas & Methodology",
+    description: "Learn about the mission, data collection methodologies, statistical filtering, and active retail integrations powering the Aroid Atlas visual encyclopedia.",
+    url: "https://aroidatlas.com/about",
+    siteName: "Aroid Atlas",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "About Aroid Atlas & Methodology",
+    description: "Learn about the mission, data collection methodologies, and active retail integrations powering Aroid Atlas.",
+  },
 };
 
 export default function AboutPage() {
@@ -21,6 +32,7 @@ export default function AboutPage() {
         </div>
 
         {/* Core Pillars */}
+        <h2 className="sr-only">Our Approach</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
           <div className="glass-card-hover p-6">
             <h3 className="text-sm font-heading font-bold text-heading mb-2">Botanical Accuracy</h3>
@@ -56,7 +68,7 @@ export default function AboutPage() {
               <div className="flex gap-4">
                 <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-xs font-bold text-primary">1</div>
                 <div>
-                  <h4 className="text-sm font-heading font-bold text-heading mb-1">eBay UK Sold Comparables (Comps)</h4>
+                  <h3 className="text-sm font-heading font-bold text-heading mb-1">eBay UK Sold Comparables (Comps)</h3>
                   <p className="text-xs text-muted leading-relaxed">
                     We crawl and log completed transaction prices from eBay UK auctions weekly. This records raw market transaction prices for real plant specimens sold between collectors.
                   </p>
@@ -66,7 +78,7 @@ export default function AboutPage() {
               <div className="flex gap-4">
                 <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-xs font-bold text-primary">2</div>
                 <div>
-                  <h4 className="text-sm font-heading font-bold text-heading mb-1">Statistical Outlier & Keyword Filtering</h4>
+                  <h3 className="text-sm font-heading font-bold text-heading mb-1">Statistical Outlier & Keyword Filtering</h3>
                   <p className="text-xs text-muted leading-relaxed">
                     Raw scraping captures noise—seeds, artificial leaves, pots, or shipping fees. Our ingestion pipeline parses listing titles to filter out irrelevant items. We also use a **20% Trimmed Mean algorithm** to remove extreme statistical outliers (scam listings or extremely high-priced large specimens) from the weekly average.
                   </p>
@@ -76,7 +88,7 @@ export default function AboutPage() {
               <div className="flex gap-4">
                 <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-xs font-bold text-primary">3</div>
                 <div>
-                  <h4 className="text-sm font-heading font-bold text-heading mb-1">Retail Price Aggregation</h4>
+                  <h3 className="text-sm font-heading font-bold text-heading mb-1">Retail Price Aggregation</h3>
                   <p className="text-xs text-muted leading-relaxed">
                     In parallel, our crawlers scan stock availability across leading online plant retail shops. This provides the *Retail Value Guide* which displays stable store prices including VAT, providing context on whether it is cheaper to buy from a nursery or bid in an auction.
                   </p>

@@ -4,6 +4,17 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description: "Read the privacy policy of Aroid Atlas to understand how we collect, use, and protect your data.",
+  openGraph: {
+    title: "Privacy Policy | Aroid Atlas",
+    description: "Read the privacy policy of Aroid Atlas to understand how we collect, use, and protect your data.",
+    url: "https://aroidatlas.com/privacy",
+    siteName: "Aroid Atlas",
+  },
+  twitter: {
+    card: "summary",
+    title: "Privacy Policy | Aroid Atlas",
+    description: "Read the privacy policy of Aroid Atlas.",
+  },
 };
 
 export default function PrivacyPage() {

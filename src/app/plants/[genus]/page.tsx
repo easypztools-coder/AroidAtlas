@@ -48,9 +48,22 @@ function getAllPlantsForGenus(genus: string): PlantSummary[] {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const genusCapitalized = params.genus.charAt(0).toUpperCase() + params.genus.slice(1).toLowerCase();
+  const title = `${genusCapitalized} Species — Neotropical Climbing Aroids`;
+  const description = `Browse ${genusCapitalized} species and cultivars with detailed care profiles and live eBay UK price tracking.`;
   return {
-    title: `${genusCapitalized} Species — Neotropical Climbing Aroids`,
-    description: `Browse ${genusCapitalized} species and cultivars with detailed care profiles and live eBay UK price tracking.`,
+    title,
+    description,
+    openGraph: {
+      title: `${title} | Aroid Atlas`,
+      description,
+      url: `https://aroidatlas.com/plants/${params.genus}`,
+      siteName: "Aroid Atlas",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${title} | Aroid Atlas`,
+      description,
+    },
   };
 }
 
@@ -69,8 +82,31 @@ export default function GenusPage({ params }: PageProps) {
   const plants = getAllPlantsForGenus(genus);
   const description = GENUS_DESCRIPTIONS[genus] || `Browse our collection of ${genusCapitalized} species and cultivars.`;
 
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Species",
+        item: "https://aroidatlas.com/plants",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: genusCapitalized,
+        item: `https://aroidatlas.com/plants/${genus}`,
+      },
+    ],
+  };
+
   return (
     <div className="max-w-7xl mx-auto px-6 py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+      />
       <nav className="flex items-center gap-2 text-xs text-muted mb-8">
         <Link href="/plants" className="hover:text-primary transition-colors">Species</Link>
         <span>/</span>

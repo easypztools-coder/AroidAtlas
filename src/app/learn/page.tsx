@@ -4,6 +4,17 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Care Guides & Cultivation Resources",
   description: "Detailed care guidelines, propagation advice, and a botanical glossary for Monstera, Philodendron, Anthurium, and Alocasia collectors.",
+  openGraph: {
+    title: "Care Guides & Cultivation Resources | Aroid Atlas",
+    description: "Detailed care guidelines, propagation advice, and a botanical glossary for Monstera, Philodendron, Anthurium, and Alocasia collectors.",
+    url: "https://aroidatlas.com/learn",
+    siteName: "Aroid Atlas",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Care Guides & Cultivation Resources | Aroid Atlas",
+    description: "Detailed care guidelines, propagation advice, and a botanical glossary for Monstera, Philodendron, Anthurium, and Alocasia collectors.",
+  },
 };
 
 interface GuideItem {

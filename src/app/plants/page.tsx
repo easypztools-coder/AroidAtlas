@@ -27,9 +27,9 @@ export default function PlantsPage() {
           >
             <div className="absolute inset-0 bg-gradient-to-br from-forest-deep via-card to-forest-dark opacity-50" />
             <div className="relative">
-              <h3 className="text-lg font-heading font-bold text-heading group-hover:text-primary transition-colors duration-300">
+              <h2 className="text-lg font-heading font-bold text-heading group-hover:text-primary transition-colors duration-300">
                 {genus.name}
-              </h3>
+              </h2>
               <p className="mt-1 text-xs text-muted line-clamp-2">{genus.description}</p>
               <div className="mt-3 flex items-center gap-2">
                 <span className="badge-primary">{genus.speciesCount} species</span>

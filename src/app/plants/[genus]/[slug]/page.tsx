@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Link from "next/link";
+import { notFound } from "next/navigation";
 import fs from "fs";
 import path from "path";
 import PlantDetailPage from "@/components/PlantDetailPage";
@@ -137,37 +137,77 @@ export default function PlantPage({ params }: PageProps) {
   const data = loadPlantData(genus, slug);
 
   if (!data) {
-    return (
-      <div className="flex items-center justify-center py-24">
-        <div className="text-center">
-          <p className="text-lg font-heading font-bold text-heading">Plant Not Found</p>
-          <p className="mt-2 text-sm text-muted">No data available for &ldquo;{slug}&rdquo;</p>
-          <Link
-            href="/plants"
-            className="mt-6 inline-flex items-center gap-2 rounded-xl bg-primary px-5 py-3 text-sm font-semibold text-background transition hover:bg-primary/90"
-          >
-            Back to Species
-          </Link>
-        </div>
-      </div>
-    );
+    notFound();
   }
+
+  const baseUrl = "https://aroidatlas.com";
+  const genusSlug = genus.toLowerCase();
 
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Article",
-    name: data.scientificName,
-    description: data.aboutText,
-    about: {
-      "@type": "Thing",
-      name: data.scientificName,
-      alternateName: data.commonName,
-    },
-    publisher: {
-      "@type": "Organization",
-      name: "Aroid Atlas",
-      url: "https://aroidatlas.com",
-    },
+    "@graph": [
+      {
+        "@type": "Article",
+        name: data.scientificName,
+        description: data.aboutText,
+        about: {
+          "@type": "Thing",
+          name: data.scientificName,
+          alternateName: data.commonName,
+        },
+        publisher: {
+          "@type": "Organization",
+          name: "Aroid Atlas",
+          url: baseUrl,
+        },
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Species",
+            item: `${baseUrl}/plants`,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: data.genus,
+            item: `${baseUrl}/plants/${genusSlug}`,
+          },
+          {
+            "@type": "ListItem",
+            position: 3,
+            name: data.scientificName,
+            item: `${baseUrl}/plants/${genusSlug}/${data.slug}`,
+          },
+        ],
+      },
+      ...(data.marketMetrics.currentMedianPriceGBP
+        ? [
+            {
+              "@type": "Product",
+              name: data.scientificName,
+              description: data.aboutText.slice(0, 500),
+              brand: {
+                "@type": "Brand",
+                name: data.genus,
+              },
+              offers: {
+                "@type": "Offer",
+                priceCurrency: "GBP",
+                price: data.marketMetrics.currentMedianPriceGBP,
+                availability: "https://schema.org/LimitedAvailability",
+                seller: {
+                  "@type": "Organization",
+                  name: "Aroid Atlas",
+                },
+              },
+            },
+          ]
+        : []),
+    ],
   };
 
   return (
