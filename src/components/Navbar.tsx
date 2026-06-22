@@ -96,14 +96,14 @@ export default function Navbar() {
     <header className="border-b border-primary/10 bg-background">
       <nav className="mx-auto max-w-7xl px-6">
         {/* Mobile Navbar Layout */}
-        <div className="flex h-20 items-center justify-between md:hidden">
+        <div className="flex h-16 items-center justify-between md:hidden">
           <Link href="/" className="flex items-center shrink-0">
             <Image
-              src="/images/logo.png"
+              src="/images/logo-mark.png"
               alt="Aroid Atlas"
-              width={674}
-              height={100}
-              className="h-10 w-auto"
+              width={120}
+              height={120}
+              className="h-10 w-10 rounded-full object-cover"
               priority
             />
           </Link>
@@ -124,7 +124,7 @@ export default function Navbar() {
         </div>
 
         {/* Desktop Navbar Layout (Stacked) */}
-        <div className="hidden md:flex flex-col items-center py-6 gap-5">
+        <div className="hidden md:flex flex-col items-center py-5 gap-4">
           {/* Top Row: Centered Logo */}
           <Link href="/" className="flex items-center shrink-0">
             <Image
@@ -132,7 +132,7 @@ export default function Navbar() {
               alt="Aroid Atlas"
               width={674}
               height={100}
-              className="h-16 md:h-20 w-auto"
+              className="h-28 w-auto mix-blend-screen"
               priority
             />
           </Link>
