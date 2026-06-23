@@ -1,4 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
+import fs from "fs";
+import path from "path";
 import { loadLatestSnapshot } from "@/lib/prices/database";
 import { PriceHistoryResponse, PriceHistoryPoint } from "@/lib/prices/types";
 
@@ -28,7 +30,14 @@ export async function GET(
 
   const snapshot = loadLatestSnapshot(slug);
 
+  // ── Fallback: read embedded priceHistory from plant JSON ──────────────────
+  // Before returning empty, check if the plant JSON has a static priceHistory
+  // array (manually seeded data used before SoldComps runs for this plant).
   if (!snapshot) {
+    const embedded = loadEmbeddedPriceHistory(slug);
+    if (embedded) {
+      return NextResponse.json(embedded, { status: 200 });
+    }
     return NextResponse.json(
       {
         slug,
@@ -143,6 +152,52 @@ export async function GET(
 // ═══════════════════════════════════════════════════════════════════════════
 // HELPERS
 // ═══════════════════════════════════════════════════════════════════════════
+
+/**
+ * Reads the embedded `priceHistory` array and `marketMetrics` from the plant
+ * JSON and converts them to the standard PriceHistoryResponse shape.
+ * Used as a fallback when no SoldComps snapshot exists for this slug yet.
+ */
+function loadEmbeddedPriceHistory(slug: string): PriceHistoryResponse | null {
+  const plantsRoot = path.join(process.cwd(), "content", "plants");
+  const genera = ["alocasia", "anthurium", "monstera", "philodendron", "other"];
+
+  for (const genus of genera) {
+    const filePath = path.join(plantsRoot, genus, `${slug}.json`);
+    if (!fs.existsSync(filePath)) continue;
+
+    try {
+      const data = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+      const staticHistory: Array<{ date: string; medianPriceGBP: number; dataPointsAnalyzed: number }> =
+        data.priceHistory ?? [];
+      const metrics = data.marketMetrics ?? {};
+
+      if (staticHistory.length === 0 && !metrics.currentMedianPriceGBP) return null;
+
+      const history: PriceHistoryPoint[] = staticHistory.map((p) => ({
+        date: p.date,
+        median: p.medianPriceGBP,
+        p25: p.medianPriceGBP * 0.8,
+        p75: p.medianPriceGBP * 1.2,
+        min: p.medianPriceGBP * 0.6,
+        max: p.medianPriceGBP * 1.5,
+        sampleSize: p.dataPointsAnalyzed,
+        confidenceScore: "D",
+      }));
+
+      return {
+        slug,
+        history,
+        fairPurchasePrice: metrics.currentMedianPriceGBP ?? null,
+        recentSales: [],
+      };
+    } catch {
+      return null;
+    }
+  }
+
+  return null;
+}
 
 /** Calculate percentile from sorted array */
 function percentile(sorted: number[], p: number): number {
