@@ -6,16 +6,15 @@ import { SoldCompsRawItem, NormalisedListing } from "./types";
  * Handles:
  * - Price strings → numbers ("£23.00" → 23.00)
  * - Shipping strings → numbers ("Free" → 0)
- * - USD → GBP currency conversion (1 USD ≈ 0.79 GBP)
+ * - USD → GBP currency conversion (rate fetched live; defaults to 0.79)
  * - TotalPrice calculation (soldPrice + shippingPrice if not provided)
  * - Date parsing
  * - Title normalisation
  */
-export function normaliseListing(raw: SoldCompsRawItem): NormalisedListing {
+export function normaliseListing(raw: SoldCompsRawItem, usdToGbpRate = 0.79): NormalisedListing {
   // ─── Currency ──────────────────────────────────────────────────────────
   const rawCurrency = (raw.soldCurrency ?? "GBP").toUpperCase();
-  // Rough conversion: 1 USD ≈ 0.79 GBP. Leave other currencies at 1x.
-  const currencyMultiplier = rawCurrency === "USD" ? 0.79 : 1;
+  const currencyMultiplier = rawCurrency === "USD" ? usdToGbpRate : 1;
   const currency: string = rawCurrency;
 
   // ─── Sold Price ──────────────────────────────────────────────────────

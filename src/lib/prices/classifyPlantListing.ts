@@ -26,14 +26,14 @@ export function classifyListing(
   // ─── Lot Size Detection ────────────────────────────────────────────────
   let lotSize = 1;
 
-  // Match patterns like "x10", "10x", "pack of 10", "bundle of 10"
+  // Match explicit lot-size phrases only — avoid false matches on "4x leaf" or "12cm x 8cm"
   const lotPatterns = [
-    /(\d+)\s*x\s*/i,
-    /x\s*(\d+)/i,
-    /pack\s+of\s+(\d+)/i,
-    /bundle\s+of\s+(\d+)/i,
-    /lot\s+of\s+(\d+)/i,
-    /set\s+of\s+(\d+)/i,
+    /\bx\s*(\d+)\b/i,           // "x10", "x 10" — multiplier suffix
+    /\b(\d+)\s*x\b(?!\s*\d)/i,  // "10x", "10 x" — only when NOT followed by a number (avoids "4x4cm")
+    /\bpack\s+of\s+(\d+)\b/i,
+    /\bbundle\s+of\s+(\d+)\b/i,
+    /\blot\s+of\s+(\d+)\b/i,
+    /\bset\s+of\s+(\d+)\b/i,
   ];
 
   for (const pattern of lotPatterns) {

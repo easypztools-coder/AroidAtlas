@@ -253,6 +253,19 @@ export default function PlantDetailPage({
     ? getPriceRarityTier(fairPrice)
     : { tier: data.priceGuideTier, label: getStaticTierLabel(data.priceGuideTier) };
 
+  // Use snapshot trimmed mean when available; fall back to mean of live listings
+  const retailAverage: { value: number; count: number } | null = (() => {
+    if (retailData?.statsByType?.all) {
+      return { value: retailData.statsByType.all.trimmedMean, count: retailData.statsByType.all.count };
+    }
+    if (retailData && retailData.listings.length > 0) {
+      const prices = retailData.listings.map((l: any) => l.priceGbp as number);
+      const mean = prices.reduce((a: number, b: number) => a + b, 0) / prices.length;
+      return { value: mean, count: prices.length };
+    }
+    return null;
+  })();
+
   return (
     <div className="plant-detail-container">
       <div className="plant-detail-grid">
@@ -472,12 +485,12 @@ export default function PlantDetailPage({
               <span className="text-[10px] font-bold uppercase tracking-wider text-muted">Average Retail Value</span>
               <div className="mt-2 flex items-baseline gap-1.5">
                 <span className="text-2xl font-bold text-primary">
-                  {retailData?.statsByType?.all ? `£${retailData.statsByType.all.trimmedMean.toFixed(0)}` : "N/A"}
+                  {retailAverage ? `£${retailAverage.value.toFixed(0)}` : "N/A"}
                 </span>
-                {retailData?.statsByType?.all && <span className="text-[10px] text-muted">GBP</span>}
+                {retailAverage && <span className="text-[10px] text-muted">GBP</span>}
               </div>
               <span className="mt-2 text-[10px] text-muted/65 leading-tight">
-                {retailData?.statsByType?.all?.count ? `${retailData.statsByType.all.count} UK shops tracked` : "Online store average"}
+                {retailAverage ? `${retailAverage.count} UK listing${retailAverage.count !== 1 ? "s" : ""} tracked` : "Online store average"}
               </span>
             </div>
 
@@ -485,10 +498,10 @@ export default function PlantDetailPage({
             <div className="rounded-xl border border-primary/10 bg-card-hover/40 p-4 flex flex-col justify-between">
               <span className="text-[10px] font-bold uppercase tracking-wider text-muted">Smart Buy Rating</span>
               <div className="mt-2">
-                {fairPrice !== null && retailData?.statsByType?.all ? (
+                {fairPrice !== null && retailAverage ? (
                   (() => {
-                    const diff = retailData.statsByType.all.trimmedMean - fairPrice;
-                    const pct = (diff / retailData.statsByType.all.trimmedMean) * 100;
+                    const diff = retailAverage.value - fairPrice;
+                    const pct = (diff / retailAverage.value) * 100;
                     if (diff > 5) {
                       return (
                         <>

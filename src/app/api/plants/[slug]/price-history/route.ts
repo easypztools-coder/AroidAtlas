@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
-import { loadLatestSnapshot } from "@/lib/prices/database";
+import { loadLatestSnapshot, loadLatestSnapshotFromDb } from "@/lib/prices/database";
 import { PriceHistoryResponse, PriceHistoryPoint } from "@/lib/prices/types";
 
 /**
@@ -28,11 +28,10 @@ export async function GET(
     return NextResponse.json({ error: "Missing slug parameter" }, { status: 400 });
   }
 
-  const snapshot = loadLatestSnapshot(slug);
+  // Priority: DB snapshot (live, always fresh) → filesystem snapshot (deploy-time bundle) → embedded JSON
+  const snapshot = (await loadLatestSnapshotFromDb(slug)) ?? loadLatestSnapshot(slug);
 
   // ── Fallback: read embedded priceHistory from plant JSON ──────────────────
-  // Before returning empty, check if the plant JSON has a static priceHistory
-  // array (manually seeded data used before SoldComps runs for this plant).
   if (!snapshot) {
     const embedded = loadEmbeddedPriceHistory(slug);
     if (embedded) {

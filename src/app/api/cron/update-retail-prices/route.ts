@@ -18,7 +18,6 @@ export interface EnabledPlant {
   cultivar?: string;
 }
 
-// Helper to discover enabled plants from content/plants/
 function getEnabledPlants(): EnabledPlant[] {
   const plantsRoot = path.join(process.cwd(), "content", "plants");
   const list: EnabledPlant[] = [];
@@ -63,7 +62,6 @@ export async function GET(request: NextRequest) {
 
   const expectedSecret = process.env.CRON_SECRET;
 
-  // Protect it (allow local testing if no secret configured or matching parameter)
   if (expectedSecret) {
     const isCronAuthorized = authHeader === `Bearer ${expectedSecret}`;
     const isSecretParamAuthorized = secretParam === expectedSecret;
@@ -118,7 +116,8 @@ export async function GET(request: NextRequest) {
         UNIQUE(retailer_slug, product_url)
       )
     `);
-    await db.query(`CREATE INDEX IF NOT EXISTS idx_obs_plant_stock ON retail_price_observations(plant_slug, in_stock)`);
+    // Composite index covering the retail-market API query pattern
+    await db.query(`CREATE INDEX IF NOT EXISTS idx_obs_plant_stock_seen ON retail_price_observations(plant_slug, in_stock, last_seen_at DESC, price_gbp ASC)`);
     await db.query(`
       CREATE TABLE IF NOT EXISTS retail_price_snapshots (
         id SERIAL PRIMARY KEY,
@@ -150,7 +149,8 @@ export async function GET(request: NextRequest) {
         reason TEXT,
         status VARCHAR(50) NOT NULL DEFAULT 'pending',
         reviewed_at TIMESTAMP WITH TIME ZONE,
-        created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+        created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+        UNIQUE(retailer_slug, product_url)
       )
     `);
     await db.query(`CREATE INDEX IF NOT EXISTS idx_review_status ON retail_price_review_queue(status)`);
@@ -194,10 +194,7 @@ export async function GET(request: NextRequest) {
   let errorCount = 0;
   const errorsList: Array<{ retailer: string; message: string }> = [];
 
-  // Load all enabled plants from filesystem
   const enabledPlants = getEnabledPlants();
-
-  // Map of plant data for matching safety checks
   const allPlantsList = enabledPlants.map((p) => ({
     slug: p.slug,
     genus: p.genus,
@@ -205,24 +202,24 @@ export async function GET(request: NextRequest) {
     cultivar: p.cultivar,
   }));
 
-  // 2. Loop over approved retailers
+  // 3. Loop over approved retailers
   for (const retailer of approvedRetailers) {
     console.log(`[Cron Scraper] Starting ${retailer.name} (${retailer.method})...`);
 
     try {
-      // Run the adapter
       const extracted = await runRetailerAdapter(retailer);
       console.log(`[Cron Scraper] Extracted ${extracted.length} products from ${retailer.name}`);
       fetchedProductCount += extracted.length;
 
-      // Process matched products
+      // Track product URLs seen in this run so we can mark absent ones out-of-stock
+      const seenProductUrls: string[] = [];
+
       for (const prod of extracted) {
         let bestMatch: EnabledPlant | null = null;
         let highestConf = 0.0;
         let matchReason = "";
         let matchedItemType: any = "unknown";
 
-        // Find the best matching plant profile
         for (const plant of enabledPlants) {
           const match = matchProduct(prod.title, plant, allPlantsList);
           if (match.confidence > highestConf) {
@@ -233,10 +230,8 @@ export async function GET(request: NextRequest) {
           }
         }
 
-        // Categorize based on match confidence
         if (highestConf >= 0.85 && bestMatch) {
-          // Save automatically with deduplication
-          const observation = {
+          await upsertObservation(db, {
             plantSlug: bestMatch.slug,
             retailerSlug: prod.retailerSlug,
             retailerName: prod.retailerName,
@@ -250,13 +245,11 @@ export async function GET(request: NextRequest) {
             plantSizeLabel: matchedItemType,
             sourceMethod: prod.sourceMethod,
             matchConfidence: highestConf,
-          };
-
-          await upsertObservation(db, observation);
+          });
+          seenProductUrls.push(prod.productUrl);
           acceptedCount++;
         } else if (highestConf >= 0.65 && bestMatch) {
-          // Place in review queue
-          await insertIntoReviewQueue(db, {
+          await upsertReviewQueue(db, {
             retailerSlug: prod.retailerSlug,
             title: prod.title,
             productUrl: prod.productUrl,
@@ -268,8 +261,25 @@ export async function GET(request: NextRequest) {
           });
           reviewCount++;
         } else {
-          // Reject
           rejectedCount++;
+        }
+      }
+
+      // Mark products from this retailer that weren't seen in this run as out-of-stock.
+      // Only do this when the extraction succeeded and returned results — if extracted is
+      // empty, we can't distinguish "retailer has no products" from a fetch failure.
+      if (seenProductUrls.length > 0) {
+        try {
+          await db.query(
+            `UPDATE retail_price_observations
+             SET in_stock = false, updated_at = CURRENT_TIMESTAMP
+             WHERE retailer_slug = $1
+               AND in_stock = true
+               AND product_url != ALL($2::text[])`,
+            [retailer.slug, seenProductUrls]
+          );
+        } catch (cleanupErr) {
+          console.error(`[Cron Scraper] Error marking stale listings for ${retailer.name}:`, cleanupErr);
         }
       }
     } catch (err: any) {
@@ -278,11 +288,10 @@ export async function GET(request: NextRequest) {
       const errorMessage = err instanceof Error ? err.message : String(err);
       errorsList.push({ retailer: retailer.slug, message: errorMessage });
 
-      // Log retailer error to database
       try {
         await db.query(
-          `INSERT INTO retail_scrape_errors 
-           (run_id, retailer_slug, extraction_method, http_status, error_message, time, retry_outcome) 
+          `INSERT INTO retail_scrape_errors
+           (run_id, retailer_slug, extraction_method, http_status, error_message, time, retry_outcome)
            VALUES ($1, $2, $3, $4, $5, CURRENT_TIMESTAMP, 'None')`,
           [runId, retailer.slug, retailer.method, 500, errorMessage]
         );
@@ -292,44 +301,34 @@ export async function GET(request: NextRequest) {
     }
   }
 
-  // 3. Calculate statistics per plant & type, and save to snapshots
+  // 4. Calculate statistics per plant & type, and save snapshots
   console.log("[Cron Scraper] Re-calculating stats for all plant snapshots...");
   const checkedAt = new Date().toISOString();
 
   for (const plant of enabledPlants) {
     try {
-      // Fetch all active, in-stock observations for this plant seen in the last 24h
       const obsRes = await db.query(
-        `SELECT price_gbp, plant_size_label 
-         FROM retail_price_observations 
+        `SELECT price_gbp, plant_size_label
+         FROM retail_price_observations
          WHERE plant_slug = $1 AND in_stock = true AND last_seen_at >= CURRENT_TIMESTAMP - INTERVAL '24 hours'`,
         [plant.slug]
       );
 
       const observations = obsRes.rows;
-
       if (observations.length === 0) continue;
 
-      // Group prices by item type
-      const pricesByType: Record<string, number[]> = {
-        all: [],
-      };
+      const pricesByType: Record<string, number[]> = { all: [] };
 
       for (const obs of observations) {
         const price = parseFloat(obs.price_gbp);
         const type = obs.plant_size_label || "unknown";
-
         pricesByType.all.push(price);
-        if (!pricesByType[type]) {
-          pricesByType[type] = [];
-        }
+        if (!pricesByType[type]) pricesByType[type] = [];
         pricesByType[type].push(price);
       }
 
-      // Save snapshots for each group
       for (const [itemType, prices] of Object.entries(pricesByType)) {
         if (prices.length === 0) continue;
-
         const stats = calculateRetailStats(prices);
 
         await db.query(
@@ -357,10 +356,18 @@ export async function GET(request: NextRequest) {
     }
   }
 
-  // 4. Update scrape run record in database
+  // 4b. Prune snapshots older than 1 year to prevent unbounded table growth
   try {
-    const errorSummary =
-      errorsList.length > 0 ? JSON.stringify(errorsList) : null;
+    await db.query(
+      `DELETE FROM retail_price_snapshots WHERE checked_at < CURRENT_TIMESTAMP - INTERVAL '1 year'`
+    );
+  } catch (pruneErr) {
+    console.error("[Cron Scraper] Failed to prune old snapshots:", pruneErr);
+  }
+
+  // 5. Finalize scrape run record
+  try {
+    const errorSummary = errorsList.length > 0 ? JSON.stringify(errorsList) : null;
 
     await db.query(
       `UPDATE retail_scrape_runs SET
@@ -402,132 +409,95 @@ export async function GET(request: NextRequest) {
   });
 }
 
-// Database helper functions
+/**
+ * Upsert a single retail price observation.
+ *
+ * Uses ON CONFLICT DO UPDATE for a single round-trip per product instead of
+ * the previous SELECT + INSERT/UPDATE pattern (which cost 2 queries each).
+ * previous_price_gbp and last_price_change_at are only updated when the price
+ * actually changes by more than 1p, preserving the full price-change history.
+ */
 async function upsertObservation(db: any, obs: any) {
-  const existingRes = await db.query(
-    "SELECT id, price_gbp FROM retail_price_observations WHERE retailer_slug = $1 AND product_url = $2",
-    [obs.retailerSlug, obs.productUrl]
+  await db.query(
+    `INSERT INTO retail_price_observations (
+       plant_slug, retailer_slug, retailer_name, title, product_url,
+       price_gbp, original_price_gbp, previous_price_gbp, in_stock,
+       variant_title, pot_size_cm, plant_size_label, source_method, match_confidence,
+       first_seen_at, last_seen_at, last_price_change_at
+     ) VALUES ($1, $2, $3, $4, $5, $6, $7, NULL, $8, $9, $10, $11, $12, $13,
+               CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)
+     ON CONFLICT (retailer_slug, product_url) DO UPDATE SET
+       plant_slug           = EXCLUDED.plant_slug,
+       retailer_name        = EXCLUDED.retailer_name,
+       title                = EXCLUDED.title,
+       price_gbp            = EXCLUDED.price_gbp,
+       original_price_gbp   = EXCLUDED.original_price_gbp,
+       previous_price_gbp   = CASE
+                                WHEN ABS(retail_price_observations.price_gbp - EXCLUDED.price_gbp) > 0.01
+                                THEN retail_price_observations.price_gbp
+                                ELSE retail_price_observations.previous_price_gbp
+                              END,
+       in_stock             = EXCLUDED.in_stock,
+       variant_title        = EXCLUDED.variant_title,
+       pot_size_cm          = EXCLUDED.pot_size_cm,
+       plant_size_label     = EXCLUDED.plant_size_label,
+       source_method        = EXCLUDED.source_method,
+       match_confidence     = EXCLUDED.match_confidence,
+       last_seen_at         = CURRENT_TIMESTAMP,
+       last_price_change_at = CASE
+                                WHEN ABS(retail_price_observations.price_gbp - EXCLUDED.price_gbp) > 0.01
+                                THEN CURRENT_TIMESTAMP
+                                ELSE retail_price_observations.last_price_change_at
+                              END,
+       updated_at           = CURRENT_TIMESTAMP`,
+    [
+      obs.plantSlug,
+      obs.retailerSlug,
+      obs.retailerName,
+      obs.title,
+      obs.productUrl,
+      obs.priceGbp,
+      obs.originalPriceGbp || null,
+      obs.inStock,
+      obs.variantTitle || null,
+      obs.potSizeCm || null,
+      obs.plantSizeLabel || null,
+      obs.sourceMethod,
+      obs.matchConfidence,
+    ]
   );
-
-  if (existingRes.rows.length === 0) {
-    await db.query(
-      `INSERT INTO retail_price_observations (
-        plant_slug, retailer_slug, retailer_name, title, product_url,
-        price_gbp, original_price_gbp, previous_price_gbp, in_stock,
-        variant_title, pot_size_cm, plant_size_label, source_method, match_confidence,
-        first_seen_at, last_seen_at, last_price_change_at
-      ) VALUES ($1, $2, $3, $4, $5, $6, $7, NULL, $8, $9, $10, $11, $12, $13, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP, CURRENT_TIMESTAMP)`,
-      [
-        obs.plantSlug,
-        obs.retailerSlug,
-        obs.retailerName,
-        obs.title,
-        obs.productUrl,
-        obs.priceGbp,
-        obs.originalPriceGbp || null,
-        obs.inStock,
-        obs.variantTitle || null,
-        obs.potSizeCm || null,
-        obs.plantSizeLabel || null,
-        obs.sourceMethod,
-        obs.matchConfidence,
-      ]
-    );
-  } else {
-    const existing = existingRes.rows[0];
-    const oldPrice = parseFloat(existing.price_gbp);
-    const newPrice = obs.priceGbp;
-
-    if (Math.abs(oldPrice - newPrice) > 0.01) {
-      await db.query(
-        `UPDATE retail_price_observations SET
-          plant_slug = $1,
-          retailer_name = $2,
-          title = $3,
-          price_gbp = $4,
-          original_price_gbp = $5,
-          previous_price_gbp = $6,
-          in_stock = $7,
-          variant_title = $8,
-          pot_size_cm = $9,
-          plant_size_label = $10,
-          source_method = $11,
-          match_confidence = $12,
-          last_seen_at = CURRENT_TIMESTAMP,
-          last_price_change_at = CURRENT_TIMESTAMP,
-          updated_at = CURRENT_TIMESTAMP
-        WHERE id = $13`,
-        [
-          obs.plantSlug,
-          obs.retailerName,
-          obs.title,
-          newPrice,
-          obs.originalPriceGbp || null,
-          oldPrice,
-          obs.inStock,
-          obs.variantTitle || null,
-          obs.potSizeCm || null,
-          obs.plantSizeLabel || null,
-          obs.sourceMethod,
-          obs.matchConfidence,
-          existing.id,
-        ]
-      );
-    } else {
-      await db.query(
-        `UPDATE retail_price_observations SET
-          plant_slug = $1,
-          retailer_name = $2,
-          title = $3,
-          original_price_gbp = $4,
-          in_stock = $5,
-          variant_title = $6,
-          pot_size_cm = $7,
-          plant_size_label = $8,
-          source_method = $9,
-          match_confidence = $10,
-          last_seen_at = CURRENT_TIMESTAMP,
-          updated_at = CURRENT_TIMESTAMP
-        WHERE id = $11`,
-        [
-          obs.plantSlug,
-          obs.retailerName,
-          obs.title,
-          obs.originalPriceGbp || null,
-          obs.inStock,
-          obs.variantTitle || null,
-          obs.potSizeCm || null,
-          obs.plantSizeLabel || null,
-          obs.sourceMethod,
-          obs.matchConfidence,
-          existing.id,
-        ]
-      );
-    }
-  }
 }
 
-async function insertIntoReviewQueue(db: any, item: any) {
-  const existing = await db.query(
-    "SELECT id FROM retail_price_review_queue WHERE retailer_slug = $1 AND product_url = $2 AND status = 'pending'",
-    [item.retailerSlug, item.productUrl]
+/**
+ * Insert or update a review queue entry.
+ *
+ * The unique constraint on (retailer_slug, product_url) means the same product
+ * won't accumulate multiple queue entries across cron runs. Existing reviewed
+ * items (accepted/rejected) have their price and confidence updated in case
+ * the product relists at a different price.
+ */
+async function upsertReviewQueue(db: any, item: any) {
+  await db.query(
+    `INSERT INTO retail_price_review_queue (
+       retailer_slug, product_title, product_url, proposed_plant_slug,
+       match_confidence, proposed_item_type, price_gbp, reason, status, created_at
+     ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, 'pending', CURRENT_TIMESTAMP)
+     ON CONFLICT (retailer_slug, product_url) DO UPDATE SET
+       product_title     = EXCLUDED.product_title,
+       proposed_plant_slug = EXCLUDED.proposed_plant_slug,
+       match_confidence  = EXCLUDED.match_confidence,
+       proposed_item_type = EXCLUDED.proposed_item_type,
+       price_gbp         = EXCLUDED.price_gbp,
+       reason            = EXCLUDED.reason`,
+    [
+      item.retailerSlug,
+      item.title,
+      item.productUrl,
+      item.plantSlug,
+      item.matchConfidence,
+      item.plantSizeLabel,
+      item.priceGbp,
+      item.reason,
+    ]
   );
-  if (existing.rows.length === 0) {
-    await db.query(
-      `INSERT INTO retail_price_review_queue (
-        retailer_slug, product_title, product_url, proposed_plant_slug,
-        match_confidence, proposed_item_type, price_gbp, reason, status, created_at
-      ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, 'pending', CURRENT_TIMESTAMP)`,
-      [
-        item.retailerSlug,
-        item.title,
-        item.productUrl,
-        item.plantSlug,
-        item.matchConfidence,
-        item.plantSizeLabel,
-        item.priceGbp,
-        item.reason,
-      ]
-    );
-  }
 }
