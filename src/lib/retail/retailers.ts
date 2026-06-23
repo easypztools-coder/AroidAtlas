@@ -20,21 +20,16 @@ export const approvedRetailers: RetailerConfig[] = [
     method: "shopify_json",
   },
   {
-    slug: "soilboy",
-    name: "Soilboy",
-    url: "https://soilboy.co.uk",
-    method: "shopify_json",
-  },
-  {
-    slug: "ginger-greenhouse",
-    name: "Ginger Greenhouse",
-    url: "https://gingergreenhouse.co.uk",
-    method: "woocommerce",
-  },
-  {
     slug: "root-houseplants",
     name: "Root Houseplants",
-    url: "https://www.root-houseplants.co.uk",
-    method: "shopify_json",
+    url: "https://root-houseplants.com/shop",
+    method: "html_selectors",
+    config: {
+      selectors: {
+        container: 'a[href^="/shop/"]',
+        title: "h3",
+        price: "span",
+      },
+    },
   },
 ];

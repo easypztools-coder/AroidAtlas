@@ -76,10 +76,105 @@ export async function GET(request: NextRequest) {
   const db = getDbPool();
   let runId: number | null = null;
 
-  // 1. Initialize scrape run in database
+  // 1. Ensure tables exist (idempotent — safe to run on every invocation)
+  try {
+    await db.query(`
+      CREATE TABLE IF NOT EXISTS retail_scrape_runs (
+        id SERIAL PRIMARY KEY,
+        started_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+        completed_at TIMESTAMP WITH TIME ZONE,
+        status VARCHAR(50) NOT NULL DEFAULT 'running',
+        retailer_count INTEGER DEFAULT 0,
+        fetched_product_count INTEGER DEFAULT 0,
+        accepted_count INTEGER DEFAULT 0,
+        review_count INTEGER DEFAULT 0,
+        rejected_count INTEGER DEFAULT 0,
+        error_count INTEGER DEFAULT 0,
+        error_summary TEXT
+      )
+    `);
+    await db.query(`
+      CREATE TABLE IF NOT EXISTS retail_price_observations (
+        id SERIAL PRIMARY KEY,
+        plant_slug VARCHAR(255) NOT NULL,
+        retailer_slug VARCHAR(255) NOT NULL,
+        retailer_name VARCHAR(255) NOT NULL,
+        title VARCHAR(255) NOT NULL,
+        product_url TEXT NOT NULL,
+        price_gbp DECIMAL(10, 2) NOT NULL,
+        original_price_gbp DECIMAL(10, 2),
+        previous_price_gbp DECIMAL(10, 2),
+        in_stock BOOLEAN NOT NULL DEFAULT TRUE,
+        variant_title VARCHAR(255),
+        pot_size_cm DECIMAL(5, 2),
+        plant_size_label VARCHAR(50),
+        source_method VARCHAR(50) NOT NULL,
+        match_confidence DECIMAL(5, 4) NOT NULL,
+        first_seen_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+        last_seen_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+        last_price_change_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+        created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+        updated_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+        UNIQUE(retailer_slug, product_url)
+      )
+    `);
+    await db.query(`CREATE INDEX IF NOT EXISTS idx_obs_plant_stock ON retail_price_observations(plant_slug, in_stock)`);
+    await db.query(`
+      CREATE TABLE IF NOT EXISTS retail_price_snapshots (
+        id SERIAL PRIMARY KEY,
+        plant_slug VARCHAR(255) NOT NULL,
+        item_type VARCHAR(50) NOT NULL,
+        checked_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+        currency VARCHAR(10) NOT NULL DEFAULT 'GBP',
+        observed_count INTEGER NOT NULL DEFAULT 0,
+        min_price DECIMAL(10, 2) NOT NULL,
+        p25_price DECIMAL(10, 2) NOT NULL,
+        median_price DECIMAL(10, 2) NOT NULL,
+        mean_price DECIMAL(10, 2) NOT NULL,
+        trimmed_mean_price DECIMAL(10, 2) NOT NULL,
+        p75_price DECIMAL(10, 2) NOT NULL,
+        max_price DECIMAL(10, 2) NOT NULL
+      )
+    `);
+    await db.query(`CREATE INDEX IF NOT EXISTS idx_snapshots_plant_date ON retail_price_snapshots(plant_slug, checked_at)`);
+    await db.query(`
+      CREATE TABLE IF NOT EXISTS retail_price_review_queue (
+        id SERIAL PRIMARY KEY,
+        retailer_slug VARCHAR(255) NOT NULL,
+        product_title VARCHAR(255) NOT NULL,
+        product_url TEXT NOT NULL,
+        proposed_plant_slug VARCHAR(255) NOT NULL,
+        match_confidence DECIMAL(5, 4) NOT NULL,
+        proposed_item_type VARCHAR(50) NOT NULL,
+        price_gbp DECIMAL(10, 2) NOT NULL,
+        reason TEXT,
+        status VARCHAR(50) NOT NULL DEFAULT 'pending',
+        reviewed_at TIMESTAMP WITH TIME ZONE,
+        created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP
+      )
+    `);
+    await db.query(`CREATE INDEX IF NOT EXISTS idx_review_status ON retail_price_review_queue(status)`);
+    await db.query(`
+      CREATE TABLE IF NOT EXISTS retail_scrape_errors (
+        id SERIAL PRIMARY KEY,
+        run_id INTEGER REFERENCES retail_scrape_runs(id) ON DELETE CASCADE,
+        retailer_slug VARCHAR(255) NOT NULL,
+        extraction_method VARCHAR(50) NOT NULL,
+        http_status INTEGER,
+        error_message TEXT,
+        time TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+        retry_outcome VARCHAR(255)
+      )
+    `);
+  } catch (migrateErr) {
+    console.error("Failed to ensure DB schema:", migrateErr);
+    return NextResponse.json({ error: "Database schema error" }, { status: 500 });
+  }
+
+  // 2. Initialize scrape run
   try {
     const runRes = await db.query(
-      `INSERT INTO retail_scrape_runs (started_at, status, retailer_count) 
+      `INSERT INTO retail_scrape_runs (started_at, status, retailer_count)
        VALUES (CURRENT_TIMESTAMP, 'running', $1) RETURNING id`,
       [approvedRetailers.length]
     );
