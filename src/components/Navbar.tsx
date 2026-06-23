@@ -93,23 +93,101 @@ export default function Navbar() {
   }
 
   return (
-    <header className="border-b border-primary/10 bg-background">
+    <header className="sticky top-0 z-50 border-b border-primary/10 bg-background/95 backdrop-blur-md">
       <nav className="mx-auto max-w-7xl px-6">
-        {/* Mobile Navbar Layout */}
-        <div className="flex h-16 items-center justify-between md:hidden">
+        {/* Single row — all breakpoints share this structure */}
+        <div className="flex h-14 items-center gap-6 md:h-16">
+
+          {/* Logo */}
           <Link href="/" className="flex items-center shrink-0">
             <Image
-              src="/images/logo-mark.png"
+              src="/images/logo.png"
               alt="Aroid Atlas"
-              width={120}
-              height={120}
-              className="h-10 w-10 rounded-full object-cover"
+              width={674}
+              height={100}
+              className="h-8 w-auto mix-blend-screen"
               priority
             />
           </Link>
 
+          {/* Desktop Nav Links */}
+          <div className="hidden md:flex items-center gap-6">
+            <Link href="/plants" className={pathname.startsWith("/plants") ? "nav-link-active" : "nav-link"}>
+              Explore
+            </Link>
+            <Link href="/compare" className={pathname === "/compare" ? "nav-link-active" : "nav-link"}>
+              Compare
+            </Link>
+            <Link href="/identify" className={pathname === "/identify" ? "nav-link-active" : "nav-link"}>
+              Identify
+            </Link>
+            <Link href="/learn" className={pathname === "/learn" ? "nav-link-active" : "nav-link"}>
+              Learn
+            </Link>
+          </div>
+
+          {/* Spacer */}
+          <div className="flex-1" />
+
+          {/* Desktop Search */}
+          <div className="hidden md:block relative w-full max-w-xs" ref={searchRef}>
+            <form onSubmit={handleSearchSubmit} className="relative">
+              <svg
+                className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={2}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+                />
+              </svg>
+              <input
+                id="navbar-search-input"
+                type="text"
+                value={searchQuery}
+                onChange={(e) => handleSearch(e.target.value)}
+                onFocus={ensureSearchIndexLoaded}
+                placeholder="Search species or cultivars..."
+                className="w-full rounded-xl border border-primary/10 bg-card/60 py-2 pl-10 pr-4 text-sm text-heading placeholder-muted/60 outline-none transition-all duration-300 focus:border-primary/30 focus:bg-card focus:shadow-glow"
+              />
+            </form>
+
+            <AnimatePresence>
+              {showResults && (
+                <motion.div
+                  initial={{ opacity: 0, y: -10 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -10 }}
+                  className="absolute top-full left-0 right-0 mt-2 z-50 rounded-xl border border-primary/10 bg-card/95 backdrop-blur-xl shadow-xl overflow-hidden"
+                >
+                  {searchResults.slice(0, 6).map((plant) => (
+                    <button
+                      key={plant.slug}
+                      onClick={() => handleSelect(plant.slug, plant.genus)}
+                      className="flex w-full items-center gap-3 px-4 py-3 text-left text-sm transition hover:bg-primary/10"
+                    >
+                      <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary/10 text-xs text-primary font-medium">
+                        {plant.genus.slice(0, 2)}
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <p className="font-medium text-heading italic truncate">{plant.scientificName}</p>
+                        <p className="text-xs text-muted truncate">{plant.commonName}</p>
+                      </div>
+                      <span className="badge-price shrink-0 text-[10px]">{plant.priceGuideTier} · {getStaticTierLabel(plant.priceGuideTier)}</span>
+                    </button>
+                  ))}
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
+
+          {/* Mobile Hamburger */}
           <button
-            className="icon-btn"
+            className="icon-btn md:hidden"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -121,97 +199,6 @@ export default function Navbar() {
               )}
             </svg>
           </button>
-        </div>
-
-        {/* Desktop Navbar Layout (Stacked) */}
-        <div className="hidden md:flex flex-col items-center py-4 gap-2">
-          {/* Top Row: Centered Logo */}
-          <Link href="/" className="block w-full">
-            <Image
-              src="/images/logo.png"
-              alt="Aroid Atlas"
-              width={674}
-              height={100}
-              className="w-full h-auto mix-blend-screen"
-              priority
-            />
-          </Link>
-
-          {/* Bottom Row: Nav Links & Search Bar */}
-          <div className="w-full flex items-center justify-between gap-8 pt-2">
-            {/* Desktop Nav Links */}
-            <div className="flex items-center gap-8">
-              <Link href="/plants" className={pathname.startsWith("/plants") ? "nav-link-active" : "nav-link"}>
-                Explore
-              </Link>
-              <Link href="/compare" className={pathname === "/compare" ? "nav-link-active" : "nav-link"}>
-                Compare
-              </Link>
-              <Link href="/identify" className={pathname === "/identify" ? "nav-link-active" : "nav-link"}>
-                Identify
-              </Link>
-              <Link href="/learn" className={pathname === "/learn" ? "nav-link-active" : "nav-link"}>
-                Learn
-              </Link>
-            </div>
-
-            {/* Desktop Search Bar */}
-            <div className="flex-1 max-w-md relative" ref={searchRef}>
-              <form onSubmit={handleSearchSubmit} className="relative w-full">
-                <svg
-                  className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  strokeWidth={2}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
-                  />
-                </svg>
-                <input
-                  id="navbar-search-input"
-                  type="text"
-                  value={searchQuery}
-                  onChange={(e) => handleSearch(e.target.value)}
-                  onFocus={ensureSearchIndexLoaded}
-                  placeholder="Search species, cultivars, or common names..."
-                  className="w-full rounded-xl border border-primary/10 bg-card/60 py-2.5 pl-10 pr-4 text-sm text-heading placeholder-muted/60 outline-none transition-all duration-300 focus:border-primary/30 focus:bg-card focus:shadow-glow"
-                />
-              </form>
-
-              {/* Search Results Dropdown */}
-              <AnimatePresence>
-                {showResults && (
-                  <motion.div
-                    initial={{ opacity: 0, y: -10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    exit={{ opacity: 0, y: -10 }}
-                    className="absolute top-full left-0 right-0 mt-2 z-50 rounded-xl border border-primary/10 bg-card/95 backdrop-blur-xl shadow-xl overflow-hidden"
-                  >
-                    {searchResults.slice(0, 6).map((plant) => (
-                      <button
-                        key={plant.slug}
-                        onClick={() => handleSelect(plant.slug, plant.genus)}
-                        className="flex w-full items-center gap-3 px-4 py-3 text-left text-sm transition hover:bg-primary/10"
-                      >
-                        <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary/10 text-xs text-primary font-medium">
-                          {plant.genus.slice(0, 2)}
-                        </div>
-                        <div className="flex-1 min-w-0">
-                          <p className="font-medium text-heading italic truncate">{plant.scientificName}</p>
-                          <p className="text-xs text-muted truncate">{plant.commonName}</p>
-                        </div>
-                        <span className="badge-price shrink-0 text-[10px]">{plant.priceGuideTier} · {getStaticTierLabel(plant.priceGuideTier)}</span>
-                      </button>
-                    ))}
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </div>
-          </div>
         </div>
       </nav>
 
