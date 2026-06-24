@@ -1,0 +1,62 @@
+{
+  "name": "Epipremnum pinnatum 'Cebu Blue'",
+  "slug": "epipremnum-pinnatum-cebu-blue",
+  "scientificName": "Epipremnum pinnatum 'Cebu Blue'",
+  "commonName": "Cebu Blue Pothos",
+  "statusTag": "Popular Cultivar",
+  "botanicalType": "cultivar",
+  "family": "Araceae",
+  "genus": "Epipremnum",
+  "species": "pinnatum 'Cebu Blue'",
+  "origin": "Cultivated selection; associated with Cebu, Philippines",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "££",
+  "aboutText": "Epipremnum pinnatum 'Cebu Blue' is a highly popular climbing cultivar selected for its glaucous, silver-blue foliage — a colouration rarely seen in aroids and derived from the plant's ancestry in the humid lowland forests of tropical Southeast Asia. Juvenile leaves are narrow and lance-shaped with a striking blue-silver sheen, while mature climbing specimens develop significantly larger, paddle-shaped leaves that begin to fenestrate and pinnate along the midrib. It is named for its association with Cebu island in the Philippines, where the parent species Epipremnum pinnatum is native. Easy to grow and visually unique.",
+  "quickFacts": {
+    "growthHabit": "Climbing viner",
+    "matureSize": "Large climber (3-5 m)",
+    "light": "Medium to bright indirect light",
+    "humidity": "Moderate (50-70%)",
+    "temperature": "18-28°C",
+    "difficulty": "Easy",
+    "growthSpeed": "Moderate to Fast"
+  },
+  "morphology": {
+    "leafShape": "Juvenile: narrow lanceolate; mature: ovate to pinnate",
+    "leafLength": "15-60 cm (mature)",
+    "leafWidth": "5-25 cm (mature)",
+    "petioleColor": "Green",
+    "venation": "Subtle midrib",
+    "texture": "Glaucous, blue-silver sheen",
+    "variegation": "N/A — blue sheen is natural colouration",
+    "growthHabit": "Vining climber; leaves enlarge with height"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Epipremnum pinnatum Cebu Blue",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "epipremnum pinnatum cebu blue",
+      "cebu blue pothos",
+      "cebu blue epipremnum",
+      "epipremnum cebu blue"
+    ],
+    "excludeTerms": [
+      "seeds", "seed", "bulb", "rhizome", "corm", "poster", "print", "book",
+      "magazine", "care guide", "artificial", "fake", "plastic", "silk",
+      "soil", "perlite", "fertiliser", "fertilizer", "moss pole", "pot only",
+      "label", "tag", "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Anthurium magnificum",
+  "slug": "magnificum",
+  "scientificName": "Anthurium magnificum Linden",
+  "commonName": "Magnificum Anthurium",
+  "statusTag": "Collector Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Anthurium",
+  "species": "magnificum",
+  "origin": "Colombia",
+  "collectorPopularity": 5,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Anthurium magnificum is a classic velvet Anthurium native to the humid montane forests of Colombia, where it grows as a compact terrestrial to epiphytic aroid in shaded understory environments. It is distinguished from similar species by its robust, distinctly quadrangular (square) petioles and its broad, heart-shaped leaves with a wide sinus and prominent pale venation. The deep green velvety texture of the blades is exceptional under any light, and the plant maintains a tidy upright compact habit throughout its life. A benchmark species for any serious collector.",
+  "quickFacts": {
+    "growthHabit": "Compact terrestrial to epiphytic",
+    "matureSize": "Medium to Large (leaves 40-70 cm)",
+    "light": "Bright indirect light",
+    "humidity": "High humidity (70%+)",
+    "temperature": "18-26°C",
+    "difficulty": "Intermediate",
+    "growthSpeed": "Slow to Moderate"
+  },
+  "morphology": {
+    "leafShape": "Broad cordate with wide sinus",
+    "leafLength": "40-70 cm",
+    "leafWidth": "30-55 cm",
+    "petioleColor": "Green, distinctly square cross-section",
+    "venation": "Prominent pale white-green primary veins",
+    "texture": "Thick, velvety",
+    "variegation": "N/A",
+    "growthHabit": "Compact upright rosette"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium magnificum",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "anthurium magnificum",
+      "magnificum anthurium",
+      "anthurium magnificum linden"
+    ],
+    "excludeTerms": [
+      "seeds", "seed", "bulb", "rhizome", "corm", "poster", "print", "book",
+      "magazine", "care guide", "artificial", "fake", "plastic", "silk",
+      "soil", "perlite", "fertiliser", "fertilizer", "moss pole", "pot only",
+      "label", "tag", "cutting board", "variegated", "variegata"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "Square Stems and Velvet Shields",
+    "date": "2024-06-12",
+    "author": "Aroid Aaron",
+    "content": "The defining feature of Anthurium magnificum — beyond its magnificent velvety leaves — is the unmistakably square cross-section of its petioles. Run a finger along the stem and you feel four distinct flat faces, a feature shared with only a handful of other velvet Anthurium. Described by Linden from Colombian material, magnificum has been in cultivation for well over a century and remains one of the defining benchmark species for the velvet Anthurium category. Under stable warm and humid conditions it grows steadily, rewarding patience with impressively broad, shield-like leaves."
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "name": "Alocasia 'Loco'",
+  "slug": "loco",
+  "scientificName": "Alocasia 'Loco'",
+  "commonName": "Loco Alocasia",
+  "statusTag": "Rare Cultivar",
+  "botanicalType": "cultivar",
+  "family": "Araceae",
+  "genus": "Alocasia",
+  "species": "'Loco'",
+  "origin": "Cultivated selection",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Alocasia 'Loco' is a compact, sculptural cultivar derived from tropical Alocasia ancestry of Southeast Asia, selected for its dramatically undulate, puckered leaves with deeply scalloped margins and a bold, glossy dark green surface. Upright petioles arise from a corm-like base, supporting leaves with pronounced pale veins that trace the scalloped outline with architectural precision. The distinctive puckered leaf form — the feature that earns it the name 'Loco' — gives the plant an almost ruffled, animated presence that stands out immediately in any collection.",
+  "quickFacts": {
+    "growthHabit": "Compact corm-forming upright",
+    "matureSize": "Small to Medium (30-60 cm)",
+    "light": "Bright indirect light",
+    "humidity": "High humidity (65-80%)",
+    "temperature": "18-27°C",
+    "difficulty": "Intermediate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Ovate with deeply scalloped, undulate margins",
+    "leafLength": "25-50 cm",
+    "leafWidth": "18-35 cm",
+    "petioleColor": "Green",
+    "venation": "Pronounced pale veins following scalloped outline",
+    "texture": "Glossy, deeply puckered surface",
+    "variegation": "N/A",
+    "growthHabit": "Upright from compact corm base"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia Loco",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "alocasia loco",
+      "alocasia 'loco'",
+      "loco alocasia"
+    ],
+    "excludeTerms": [
+      "seeds", "seed", "bulb", "rhizome", "corm", "poster", "print", "book",
+      "magazine", "care guide", "artificial", "fake", "plastic", "silk",
+      "soil", "perlite", "fertiliser", "fertilizer", "moss pole", "pot only",
+      "label", "tag", "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "Going Loco for Texture",
+    "date": "2024-06-12",
+    "author": "Aroid Aaron",
+    "content": "The name says it all. Alocasia 'Loco' produces leaves with a level of surface drama that most aroids simply don't attempt — the blade is simultaneously scalloped at the margins, puckered across the surface, and traced with bold pale veins that follow every undulation. It reads as compact and architectural but also somehow frenetic in energy, which is presumably the inspiration for the name. Like most cultivated Alocasia it benefits from warm, humid conditions and a well-draining mix, and it rewards consistent care with rapid production of new, equally dramatic leaves."
+  }
+}

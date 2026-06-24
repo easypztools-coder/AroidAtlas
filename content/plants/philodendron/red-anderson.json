@@ -1,0 +1,67 @@
+{
+  "name": "Philodendron 'Red Anderson'",
+  "slug": "red-anderson",
+  "scientificName": "Philodendron 'Red Anderson'",
+  "commonName": "Red Anderson Philodendron",
+  "statusTag": "Rare Variegated Cultivar",
+  "botanicalType": "variegated",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "'Red Anderson'",
+  "origin": "Cultivated selection",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Philodendron 'Red Anderson' is a striking climbing cultivar of tropical American Philodendron ancestry, prized worldwide for its extraordinary marbled foliage. The elongated, glossy leaves display a complex interplay of deep green, creamy white, blush pink, and red tones that develop unpredictably from leaf to leaf. It climbs readily with a slender but robust vining stem, producing aerial roots at each node. The combination of structural climbing habit and highly variable chromatic variegation makes it one of the most visually dynamic Philodendron in cultivation.",
+  "quickFacts": {
+    "growthHabit": "Climbing hemiepiphyte",
+    "matureSize": "Large climber (2-4 m)",
+    "light": "Bright indirect light",
+    "humidity": "High humidity (60-80%)",
+    "temperature": "18-28°C",
+    "difficulty": "Intermediate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Elongated, slightly asymmetrical",
+    "leafLength": "25-45 cm",
+    "leafWidth": "10-20 cm",
+    "petioleColor": "Reddish to burgundy",
+    "venation": "Prominent, lighter than blade",
+    "texture": "Glossy, slightly waxy",
+    "variegation": "Complex marbling: deep green, cream, blush pink and red",
+    "growthHabit": "Vining climber with aerial roots"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron Red Anderson",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "philodendron red anderson",
+      "philodendron 'red anderson'",
+      "red anderson philodendron"
+    ],
+    "excludeTerms": [
+      "seeds", "seed", "bulb", "rhizome", "corm", "poster", "print", "book",
+      "magazine", "care guide", "artificial", "fake", "plastic", "silk",
+      "soil", "perlite", "fertiliser", "fertilizer", "moss pole", "pot only",
+      "label", "tag", "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "A Palette in Every Leaf",
+    "date": "2024-06-12",
+    "author": "Aroid Aaron",
+    "content": "Philodendron 'Red Anderson' is one of those cultivars where no two leaves are the same — each unfurls with a different arrangement of green, cream, pink, and deep red tones. The reddish petioles and cataphylls add another layer of colour contrast that makes even young plants eye-catching. It climbs vigorously given a moss pole or bark support and tends to intensify its colouration under bright indirect light. Grown in indoor collections across the globe, its undocumented parentage from tropical American Philodendron stock only adds to the mystique of a plant that genuinely earns the label 'collector's cultivar'."
+  }
+}

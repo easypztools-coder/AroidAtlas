@@ -1,0 +1,67 @@
+{
+  "name": "Anthurium regale",
+  "slug": "regale",
+  "scientificName": "Anthurium regale Linden",
+  "commonName": "Regal Anthurium",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Anthurium",
+  "species": "regale",
+  "origin": "Peru",
+  "collectorPopularity": 5,
+  "rarityStatus": "Very Rare",
+  "availability": "Very Low",
+  "priceGuideTier": "££££",
+  "aboutText": "Anthurium regale is one of the most coveted velvet Anthurium in cultivation, native to the premontane and montane forests of Peru. It produces several enormous cordate leaves of a deep, velvety dark green with a strikingly open, deep sinus and an elongated anterior lobe, all adorned with bold, pale primary venation. Plants grow with a short, thick crown either terrestrially or epiphytically on mossy branches and fallen logs in consistently moist conditions. Mature specimens are dramatic and commanding, making Anthurium regale a pinnacle of any serious aroid collection.",
+  "quickFacts": {
+    "growthHabit": "Compact terrestrial to epiphytic",
+    "matureSize": "Large (leaves 60-120 cm)",
+    "light": "Bright indirect light",
+    "humidity": "High humidity (70-85%)",
+    "temperature": "16-24°C",
+    "difficulty": "Advanced",
+    "growthSpeed": "Slow"
+  },
+  "morphology": {
+    "leafShape": "Large cordate with open deep sinus",
+    "leafLength": "60-120 cm",
+    "leafWidth": "40-80 cm",
+    "petioleColor": "Green to reddish",
+    "venation": "Bold, pale primary veins with fine reticulation",
+    "texture": "Thick, velvety",
+    "variegation": "N/A",
+    "growthHabit": "Short-crowned rosette"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium regale",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "anthurium regale",
+      "regal anthurium",
+      "anthurium regale peru"
+    ],
+    "excludeTerms": [
+      "seeds", "seed", "bulb", "rhizome", "corm", "poster", "print", "book",
+      "magazine", "care guide", "artificial", "fake", "plastic", "silk",
+      "soil", "perlite", "fertiliser", "fertilizer", "moss pole", "pot only",
+      "label", "tag", "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "The Regal Standard",
+    "date": "2024-06-12",
+    "author": "Aroid Aaron",
+    "content": "Few aroids command a room the way Anthurium regale does. Named 'regale' — meaning royal — by Linden in recognition of its imposing stature, this Peruvian velvet giant produces leaves that can exceed a metre in length under ideal conditions. The pale venation runs in sweeping arcs across the deep green velvet, creating a pattern that looks almost architectural. It prefers slightly cooler temperatures than most Anthurium, reflecting its montane origins, and rewards careful humidity management with exceptional leaf size. A single mature leaf is enough to make the plant the centrepiece of any collection."
+  }
+}

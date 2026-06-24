@@ -1,0 +1,67 @@
+{
+  "name": "Rhaphidophora tetrasperma",
+  "slug": "rhaphidophora-tetrasperma",
+  "scientificName": "Rhaphidophora tetrasperma Hook.f.",
+  "commonName": "Mini Monstera",
+  "statusTag": "Popular Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Rhaphidophora",
+  "species": "tetrasperma",
+  "origin": "Southern Thailand and Peninsular Malaysia",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "££",
+  "aboutText": "Rhaphidophora tetrasperma is a compact climbing aroid native to the humid tropical forests of Southern Thailand and Peninsular Malaysia, where it ascends tree trunks and natural supports from the shaded understory to the lower canopy. Its glossy leaves are deeply divided to the margin into typically four clean lobes without internal holes — a fenestration pattern that superficially resembles a miniature Monstera deliciosa, earning it the trade name 'Mini Monstera'. In cultivation it climbs enthusiastically with short internodes and visible aerial roots, making it an ideal specimen for moss poles in indoor collections.",
+  "quickFacts": {
+    "growthHabit": "Compact climbing hemiepiphyte",
+    "matureSize": "Medium climber (1.5-3 m)",
+    "light": "Medium to bright indirect light",
+    "humidity": "Moderate to High (55-75%)",
+    "temperature": "18-27°C",
+    "difficulty": "Easy",
+    "growthSpeed": "Moderate to Fast"
+  },
+  "morphology": {
+    "leafShape": "Deeply divided to margin, 4 clean lobes",
+    "leafLength": "15-30 cm",
+    "leafWidth": "12-25 cm",
+    "petioleColor": "Green",
+    "venation": "Prominent midrib with pinnate laterals",
+    "texture": "Glossy",
+    "variegation": "N/A",
+    "growthHabit": "Vining climber, short internodes"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Rhaphidophora tetrasperma",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "rhaphidophora tetrasperma",
+      "mini monstera",
+      "rhaphidophora tetrasperma hook"
+    ],
+    "excludeTerms": [
+      "seeds", "seed", "bulb", "rhizome", "corm", "poster", "print", "book",
+      "magazine", "care guide", "artificial", "fake", "plastic", "silk",
+      "soil", "perlite", "fertiliser", "fertilizer", "moss pole", "pot only",
+      "label", "tag", "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "Not a Monstera — Better",
+    "date": "2024-06-12",
+    "author": "Aroid Aaron",
+    "content": "Rhaphidophora tetrasperma has built a massive following under the misleading trade name 'Mini Monstera', but it is no Monstera at all — it belongs to the closely related genus Rhaphidophora and is native to Thailand and Malaysia rather than the Americas. What it shares with Monstera is the deeply fenestrated leaf outline, but unlike Monstera the lobes go all the way to the margin with no internal holes. In nature it climbs tightly against tree trunks, shingling upward with overlapping leaves. In cultivation it rewards a chunky climbing medium and consistent moisture with remarkably fast growth and elegant foliage."
+  }
+}

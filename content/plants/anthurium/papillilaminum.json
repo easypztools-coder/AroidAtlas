@@ -1,0 +1,67 @@
+{
+  "name": "Anthurium papillilaminum",
+  "slug": "papillilaminum",
+  "scientificName": "Anthurium papillilaminum Croat",
+  "commonName": "Papillilaminum Anthurium",
+  "statusTag": "Very Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Anthurium",
+  "species": "papillilaminum",
+  "origin": "Panama",
+  "collectorPopularity": 5,
+  "rarityStatus": "Very Rare",
+  "availability": "Very Low",
+  "priceGuideTier": "££££",
+  "aboutText": "Anthurium papillilaminum is a rare and highly desirable collector species native to the humid tropical forests of Panama, where it grows terrestrially or epiphytically in shaded understory conditions. Its elongated, cordate to triangular-cordate leaves are among the darkest in the genus — deep green to near-black — with a dense, velvety surface and subtle venation that creates a refined, almost monochromatic beauty. The leaves taper to a narrow, elegant apex and arise from a compact basal crown with short internodes. It is considered a gem of the black velvet Anthurium category.",
+  "quickFacts": {
+    "growthHabit": "Compact terrestrial to epiphytic",
+    "matureSize": "Small to Medium (leaves 25-50 cm)",
+    "light": "Low to bright indirect light",
+    "humidity": "High humidity (70-85%)",
+    "temperature": "18-27°C",
+    "difficulty": "Intermediate to Advanced",
+    "growthSpeed": "Slow"
+  },
+  "morphology": {
+    "leafShape": "Elongated cordate to triangular-cordate, narrow apex",
+    "leafLength": "25-50 cm",
+    "leafWidth": "15-30 cm",
+    "petioleColor": "Green to dark green",
+    "venation": "Subtle, slightly paler than blade",
+    "texture": "Dense, velvety",
+    "variegation": "N/A",
+    "growthHabit": "Compact upright basal crown"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium papillilaminum",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "anthurium papillilaminum",
+      "papillilaminum anthurium",
+      "anthurium papillilaminum croat"
+    ],
+    "excludeTerms": [
+      "seeds", "seed", "bulb", "rhizome", "corm", "poster", "print", "book",
+      "magazine", "care guide", "artificial", "fake", "plastic", "silk",
+      "soil", "perlite", "fertiliser", "fertilizer", "moss pole", "pot only",
+      "label", "tag", "cutting board", "variegated", "variegata"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": [],
+  "fieldNotes": {
+    "title": "Dark as Midnight",
+    "date": "2024-06-12",
+    "author": "Aroid Aaron",
+    "content": "Anthurium papillilaminum is the darkest of the dark velvet Anthurium — the species produces leaves so deep green they read as near-black in most lighting conditions. Described by Croat from Panamanian material, it grows in deeply shaded lowland forest where light levels are consistently low, which may explain the extreme development of dark pigmentation. The subtle venation barely registers against the dark blade, giving the plant an almost monolithic presence. In cultivation it responds well to high humidity and filtered light, and is notably slow — a characteristic that only adds to its exclusivity on the collector market."
+  }
+}
