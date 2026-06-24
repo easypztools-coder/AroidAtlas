@@ -95,8 +95,9 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 border-b border-primary/10 bg-background/95 backdrop-blur-md">
       <nav className="mx-auto max-w-7xl px-6">
-        {/* Single row — all breakpoints share this structure */}
-        <div className="flex h-14 items-center gap-6 md:h-16">
+
+        {/* Row 1: Logo + Search + Hamburger */}
+        <div className="flex items-center gap-6 pt-3 pb-1">
 
           {/* Logo */}
           <Link href="/" className="flex items-center shrink-0">
@@ -105,26 +106,10 @@ export default function Navbar() {
               alt="Aroid Atlas"
               width={674}
               height={100}
-              className="h-16 w-auto mix-blend-screen"
+              className="h-14 w-auto mix-blend-screen"
               priority
             />
           </Link>
-
-          {/* Desktop Nav Links */}
-          <div className="hidden md:flex items-center gap-6">
-            <Link href="/plants" className={pathname.startsWith("/plants") ? "nav-link-active" : "nav-link"}>
-              Explore
-            </Link>
-            <Link href="/compare" className={pathname === "/compare" ? "nav-link-active" : "nav-link"}>
-              Compare
-            </Link>
-            <Link href="/identify" className={pathname === "/identify" ? "nav-link-active" : "nav-link"}>
-              Identify
-            </Link>
-            <Link href="/learn" className={pathname === "/learn" ? "nav-link-active" : "nav-link"}>
-              Learn
-            </Link>
-          </div>
 
           {/* Spacer */}
           <div className="flex-1" />
@@ -200,6 +185,23 @@ export default function Navbar() {
             </svg>
           </button>
         </div>
+
+        {/* Row 2: Nav links (desktop only, beneath logo) */}
+        <div className="hidden md:flex items-center gap-6 pb-2">
+          <Link href="/plants" className={pathname.startsWith("/plants") ? "nav-link-active" : "nav-link"}>
+            Explore
+          </Link>
+          <Link href="/compare" className={pathname === "/compare" ? "nav-link-active" : "nav-link"}>
+            Compare
+          </Link>
+          <Link href="/identify" className={pathname === "/identify" ? "nav-link-active" : "nav-link"}>
+            Identify
+          </Link>
+          <Link href="/learn" className={pathname === "/learn" ? "nav-link-active" : "nav-link"}>
+            Learn
+          </Link>
+        </div>
+
       </nav>
 
       {/* Mobile Menu */}
