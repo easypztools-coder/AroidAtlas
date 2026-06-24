@@ -1,0 +1,150 @@
+{
+  "plantSlug": "adansonii",
+  "checkedAt": "2026-06-24T18:29:19.033Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Monstera adansonii var. laniata 'GT3 Clone'",
+      "productUrl": "https://growtropicals.com/products/monstera-adansonii-var-laniata-gt3-clone",
+      "priceGbp": 25,
+      "originalPriceGbp": 34.99,
+      "inStock": true,
+      "variantTitle": "9cm",
+      "potSizeCm": 9,
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Monstera adansonii var. laniata 'GT2 Clone'",
+      "productUrl": "https://growtropicals.com/products/monstera-adansonii-var-laniata-gt2-clone",
+      "priceGbp": 25,
+      "originalPriceGbp": 34.99,
+      "inStock": true,
+      "variantTitle": "6cm",
+      "potSizeCm": 6,
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Monstera adansonii subsp. blanchetti",
+      "productUrl": "https://growtropicals.com/products/monstera-adansonii-ssp-blanchetti",
+      "priceGbp": 25,
+      "originalPriceGbp": 34.99,
+      "inStock": false,
+      "variantTitle": "6cm",
+      "potSizeCm": 6,
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Monstera adansonii var. laniata 'GT1 Clone'",
+      "productUrl": "https://growtropicals.com/products/monstera-adansonii-var-laniata-raul",
+      "priceGbp": 25,
+      "originalPriceGbp": 34.99,
+      "inStock": false,
+      "variantTitle": "6cm",
+      "potSizeCm": 6,
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Monstera adansonii var. laniata 'GT1 Clone'",
+      "productUrl": "https://growtropicals.com/products/monstera-adansonii-var-laniata-raul",
+      "priceGbp": 30,
+      "inStock": false,
+      "variantTitle": "9cm",
+      "potSizeCm": 9,
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Monstera Adansonii var Laniata",
+      "productUrl": "https://www.houseofkojo.com/products/monstera-adansonii-var-laniata",
+      "priceGbp": 13.99,
+      "inStock": false,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Monstera Adansonii | Monkey Mask",
+      "productUrl": "https://www.houseofkojo.com/products/monstera-adansonii-monkey-mask",
+      "priceGbp": 5.99,
+      "inStock": false,
+      "variantTitle": "6cm",
+      "potSizeCm": 6,
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Monstera Adansonii | Monkey Mask",
+      "productUrl": "https://www.houseofkojo.com/products/monstera-adansonii-monkey-mask",
+      "priceGbp": 10.99,
+      "originalPriceGbp": 12.99,
+      "inStock": true,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Monstera Adansonii | Monkey Mask",
+      "productUrl": "https://www.houseofkojo.com/products/monstera-adansonii-monkey-mask",
+      "priceGbp": 42.99,
+      "inStock": true,
+      "variantTitle": "17cm on Pole",
+      "potSizeCm": 17,
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {
+    "all": {
+      "min": 10.99,
+      "max": 42.99,
+      "median": 25,
+      "mean": 25.995,
+      "trimmedMean": 25.995,
+      "p25": 21.497500000000002,
+      "p75": 29.497500000000002,
+      "count": 4
+    },
+    "unknown": {
+      "min": 10.99,
+      "max": 42.99,
+      "median": 25,
+      "mean": 25.995,
+      "trimmedMean": 25.995,
+      "p25": 21.497500000000002,
+      "p75": 29.497500000000002,
+      "count": 4
+    }
+  }
+}

@@ -116,6 +116,9 @@ export async function GET(request: NextRequest) {
         UNIQUE(retailer_slug, product_url)
       )
     `);
+    // Unique constraint — needed for ON CONFLICT upserts. Added separately so it
+    // applies even when the table already existed without the constraint.
+    await db.query(`CREATE UNIQUE INDEX IF NOT EXISTS uq_obs_retailer_product_url ON retail_price_observations(retailer_slug, product_url)`);
     // Composite index covering the retail-market API query pattern
     await db.query(`CREATE INDEX IF NOT EXISTS idx_obs_plant_stock_seen ON retail_price_observations(plant_slug, in_stock, last_seen_at DESC, price_gbp ASC)`);
     await db.query(`

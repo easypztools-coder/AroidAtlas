@@ -1,0 +1,77 @@
+{
+  "plantSlug": "billietiae",
+  "checkedAt": "2026-06-24T18:29:19.033Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Imperfect Philodendron billietiae",
+      "productUrl": "https://growtropicals.com/products/imperfect-philodendron-billietiae",
+      "priceGbp": 12.49,
+      "inStock": false,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "conservatory-archives",
+      "retailerName": "Conservatory Archives",
+      "title": "Philodendron billietiae",
+      "productUrl": "https://conservatoryarchives.co.uk/products/philodendron-billietiae",
+      "priceGbp": 9,
+      "inStock": false,
+      "variantTitle": "8 / 15",
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "conservatory-archives",
+      "retailerName": "Conservatory Archives",
+      "title": "Philodendron billietiae",
+      "productUrl": "https://conservatoryarchives.co.uk/products/philodendron-billietiae",
+      "priceGbp": 18,
+      "inStock": true,
+      "variantTitle": "12 / 25",
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "conservatory-archives",
+      "retailerName": "Conservatory Archives",
+      "title": "Philodendron billietiae",
+      "productUrl": "https://conservatoryarchives.co.uk/products/philodendron-billietiae",
+      "priceGbp": 185,
+      "inStock": false,
+      "variantTitle": "16 / 50",
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    }
+  ],
+  "statsByType": {
+    "all": {
+      "min": 18,
+      "max": 18,
+      "median": 18,
+      "mean": 18,
+      "trimmedMean": 18,
+      "p25": 18,
+      "p75": 18,
+      "count": 1
+    },
+    "unknown": {
+      "min": 18,
+      "max": 18,
+      "median": 18,
+      "mean": 18,
+      "trimmedMean": 18,
+      "p25": 18,
+      "p75": 18,
+      "count": 1
+    }
+  }
+}

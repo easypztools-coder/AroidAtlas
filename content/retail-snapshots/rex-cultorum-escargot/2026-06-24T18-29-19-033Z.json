@@ -1,0 +1,54 @@
+{
+  "plantSlug": "rex-cultorum-escargot",
+  "checkedAt": "2026-06-24T18:29:19.033Z",
+  "listings": [
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Begonia Escargot",
+      "productUrl": "https://www.houseofkojo.com/products/begonia-rex-escargot",
+      "priceGbp": 5.99,
+      "inStock": false,
+      "variantTitle": "6cm",
+      "potSizeCm": 6,
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Begonia Escargot",
+      "productUrl": "https://www.houseofkojo.com/products/begonia-rex-escargot",
+      "priceGbp": 15.99,
+      "inStock": true,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    }
+  ],
+  "statsByType": {
+    "all": {
+      "min": 15.99,
+      "max": 15.99,
+      "median": 15.99,
+      "mean": 15.99,
+      "trimmedMean": 15.99,
+      "p25": 15.99,
+      "p75": 15.99,
+      "count": 1
+    },
+    "unknown": {
+      "min": 15.99,
+      "max": 15.99,
+      "median": 15.99,
+      "mean": 15.99,
+      "trimmedMean": 15.99,
+      "p25": 15.99,
+      "p75": 15.99,
+      "count": 1
+    }
+  }
+}

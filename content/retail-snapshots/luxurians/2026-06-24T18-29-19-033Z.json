@@ -1,0 +1,117 @@
+{
+  "plantSlug": "luxurians",
+  "checkedAt": "2026-06-24T18:29:19.033Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Anthurium (luxurians x sagittatum) x luxurians",
+      "productUrl": "https://growtropicals.com/products/anthurium-luxurians-x-sagittatum-x-luxurians",
+      "priceGbp": 64.99,
+      "inStock": false,
+      "variantTitle": "A2",
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Anthurium luxurians Round",
+      "productUrl": "https://growtropicals.com/products/anthurium-luxurians-rare",
+      "priceGbp": 80,
+      "inStock": false,
+      "variantTitle": "15cm",
+      "potSizeCm": 15,
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Begonia luxurians",
+      "productUrl": "https://www.houseofkojo.com/products/begonia-luxurians",
+      "priceGbp": 45.99,
+      "inStock": false,
+      "variantTitle": "16cm",
+      "potSizeCm": 16,
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Anthurium luxurians 'Platinum'",
+      "productUrl": "https://www.houseofkojo.com/products/anthurium-luxurians",
+      "priceGbp": 19.99,
+      "inStock": true,
+      "variantTitle": "6cm",
+      "potSizeCm": 6,
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Anthurium luxurians 'Platinum'",
+      "productUrl": "https://www.houseofkojo.com/products/anthurium-luxurians",
+      "priceGbp": 22.99,
+      "inStock": true,
+      "variantTitle": "10.5cm",
+      "potSizeCm": 10.5,
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Anthurium luxurians 'Platinum'",
+      "productUrl": "https://www.houseofkojo.com/products/anthurium-luxurians",
+      "priceGbp": 47.99,
+      "inStock": false,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "conservatory-archives",
+      "retailerName": "Conservatory Archives",
+      "title": "Begonia luxurians",
+      "productUrl": "https://conservatoryarchives.co.uk/products/begonia-luxurians",
+      "priceGbp": 49,
+      "inStock": false,
+      "variantTitle": "16 / 35",
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    }
+  ],
+  "statsByType": {
+    "all": {
+      "min": 19.99,
+      "max": 22.99,
+      "median": 21.49,
+      "mean": 21.49,
+      "trimmedMean": 21.49,
+      "p25": 20.74,
+      "p75": 22.24,
+      "count": 2
+    },
+    "unknown": {
+      "min": 19.99,
+      "max": 22.99,
+      "median": 21.49,
+      "mean": 21.49,
+      "trimmedMean": 21.49,
+      "p25": 20.74,
+      "p75": 22.24,
+      "count": 2
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "plantSlug": "rugulosum",
+  "checkedAt": "2026-06-24T18:29:19.033Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Anthurium rugulosum 'Lluruqui'",
+      "productUrl": "https://growtropicals.com/products/anthurium-rugulosum-lluruqui",
+      "priceGbp": 39.99,
+      "inStock": true,
+      "variantTitle": "9cm",
+      "potSizeCm": 9,
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {
+    "all": {
+      "min": 39.99,
+      "max": 39.99,
+      "median": 39.99,
+      "mean": 39.99,
+      "trimmedMean": 39.99,
+      "p25": 39.99,
+      "p75": 39.99,
+      "count": 1
+    },
+    "unknown": {
+      "min": 39.99,
+      "max": 39.99,
+      "median": 39.99,
+      "mean": 39.99,
+      "trimmedMean": 39.99,
+      "p25": 39.99,
+      "p75": 39.99,
+      "count": 1
+    }
+  }
+}

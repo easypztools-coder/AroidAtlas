@@ -1,0 +1,158 @@
+{
+  "plantSlug": "deliciosa",
+  "checkedAt": "2026-06-24T18:29:19.033Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Imperfect Monstera deliciosa 'Creme Brulee'",
+      "productUrl": "https://growtropicals.com/products/imperfect-monstera-deliciosa-creme-brulee",
+      "priceGbp": 59.99,
+      "originalPriceGbp": 69.99,
+      "inStock": true,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Monstera deliciosa 'Creme Brulee'",
+      "productUrl": "https://growtropicals.com/products/monstera-deliciosa-thai-creme-brulee",
+      "priceGbp": 69.99,
+      "inStock": false,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Monstera Deliciosa | Swiss Cheese Plant",
+      "productUrl": "https://www.houseofkojo.com/products/monstera-deliciosa-swiss-cheese-plant",
+      "priceGbp": 11.99,
+      "inStock": true,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Monstera Deliciosa | Swiss Cheese Plant",
+      "productUrl": "https://www.houseofkojo.com/products/monstera-deliciosa-swiss-cheese-plant",
+      "priceGbp": 14.99,
+      "inStock": false,
+      "variantTitle": "14cm",
+      "potSizeCm": 14,
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Monstera Deliciosa | Swiss Cheese Plant",
+      "productUrl": "https://www.houseofkojo.com/products/monstera-deliciosa-swiss-cheese-plant",
+      "priceGbp": 17.99,
+      "originalPriceGbp": 21.99,
+      "inStock": false,
+      "variantTitle": "17cm",
+      "potSizeCm": 17,
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Monstera Deliciosa | Swiss Cheese Plant",
+      "productUrl": "https://www.houseofkojo.com/products/monstera-deliciosa-swiss-cheese-plant",
+      "priceGbp": 27.99,
+      "originalPriceGbp": 39.99,
+      "inStock": false,
+      "variantTitle": "19cm",
+      "potSizeCm": 19,
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Monstera Deliciosa | Swiss Cheese Plant",
+      "productUrl": "https://www.houseofkojo.com/products/monstera-deliciosa-swiss-cheese-plant",
+      "priceGbp": 47.99,
+      "inStock": false,
+      "variantTitle": "19cm Moss Pole",
+      "potSizeCm": 19,
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "conservatory-archives",
+      "retailerName": "Conservatory Archives",
+      "title": "Monstera deliciosa 'Little Sister'",
+      "productUrl": "https://conservatoryarchives.co.uk/products/monstera-deliciosa-little-sister",
+      "priceGbp": 15,
+      "inStock": false,
+      "variantTitle": "12 / 20",
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "conservatory-archives",
+      "retailerName": "Conservatory Archives",
+      "title": "Monstera deliciosa 'Little Sister'",
+      "productUrl": "https://conservatoryarchives.co.uk/products/monstera-deliciosa-little-sister",
+      "priceGbp": 15,
+      "inStock": true,
+      "variantTitle": "12 / 35",
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "conservatory-archives",
+      "retailerName": "Conservatory Archives",
+      "title": "Monstera deliciosa 'Little Sister'",
+      "productUrl": "https://conservatoryarchives.co.uk/products/monstera-deliciosa-little-sister",
+      "priceGbp": 48,
+      "inStock": false,
+      "variantTitle": "19 / 90",
+      "plantSizeLabel": "unknown",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {
+    "all": {
+      "min": 11.99,
+      "max": 59.99,
+      "median": 15,
+      "mean": 28.993333333333336,
+      "trimmedMean": 28.993333333333336,
+      "p25": 13.495000000000001,
+      "p75": 37.495000000000005,
+      "count": 3
+    },
+    "unknown": {
+      "min": 11.99,
+      "max": 59.99,
+      "median": 15,
+      "mean": 28.993333333333336,
+      "trimmedMean": 28.993333333333336,
+      "p25": 13.495000000000001,
+      "p75": 37.495000000000005,
+      "count": 3
+    }
+  }
+}
