@@ -1,5 +1,18 @@
 import { NextRequest, NextResponse } from "next/server";
+import fs from "fs";
+import path from "path";
 import { getDbPool } from "@/lib/db";
+
+const GENERA = ["philodendron", "monstera", "alocasia", "anthurium", "begonia", "other"];
+
+function resolveGenus(slug: string): string {
+  for (const genus of GENERA) {
+    if (fs.existsSync(path.join(process.cwd(), "content", "plants", genus, `${slug}.json`))) {
+      return genus;
+    }
+  }
+  return "unknown";
+}
 
 const ADMIN_SECRET = process.env.ADMIN_PRICE_SECRET;
 
@@ -42,6 +55,7 @@ export async function GET(request: NextRequest) {
         productTitle: r.product_title,
         productUrl: r.product_url,
         proposedPlantSlug: r.proposed_plant_slug,
+        genus: resolveGenus(r.proposed_plant_slug),
         matchConfidence: parseFloat(r.match_confidence),
         proposedItemType: r.proposed_item_type,
         priceGbp: parseFloat(r.price_gbp),
@@ -64,14 +78,14 @@ export async function GET(request: NextRequest) {
 export async function POST(request: NextRequest) {
   if (!checkAuth(request)) return unauthorized();
 
-  let body: { id: number; action: "accept" | "reject" };
+  let body: { id: number; action: "accept" | "reject"; proposedPlantSlug?: string };
   try {
     body = await request.json();
   } catch {
     return NextResponse.json({ error: "Invalid JSON body" }, { status: 400 });
   }
 
-  const { id, action } = body;
+  const { id, action, proposedPlantSlug: overrideSlug } = body;
   if (!id || (action !== "accept" && action !== "reject")) {
     return NextResponse.json(
       { error: "Body must be { id: number, action: 'accept' | 'reject' }" },
@@ -95,7 +109,7 @@ export async function POST(request: NextRequest) {
     const item = itemRes.rows[0];
 
     if (action === "accept") {
-      // Insert into retail_price_observations so it shows on the plant page
+      const plantSlug = overrideSlug?.trim() || item.proposed_plant_slug;
       await db.query(
         `INSERT INTO retail_price_observations (
            plant_slug, retailer_slug, retailer_name, title, product_url,
@@ -111,14 +125,14 @@ export async function POST(request: NextRequest) {
            last_seen_at     = CURRENT_TIMESTAMP,
            updated_at       = CURRENT_TIMESTAMP`,
         [
-          item.proposed_plant_slug,
+          plantSlug,
           item.retailer_slug,
           item.retailer_slug.replace(/-/g, " ").replace(/\b\w/g, (c: string) => c.toUpperCase()),
           item.product_title,
           item.product_url,
           item.price_gbp,
           item.proposed_item_type,
-          1.0, // manually reviewed = max confidence
+          1.0,
         ]
       );
     }
