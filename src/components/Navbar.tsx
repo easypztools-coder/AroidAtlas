@@ -96,20 +96,35 @@ export default function Navbar() {
     <header className="sticky top-0 z-50 border-b border-primary/10 bg-background/95 backdrop-blur-md">
       <nav className="mx-auto max-w-7xl px-6">
 
-        {/* Row 1: Logo + Search + Hamburger */}
-        <div className="flex items-center gap-6 pt-3 pb-1">
+        <div className="flex items-center gap-6 py-3">
 
-          {/* Logo */}
-          <Link href="/" className="flex items-center shrink-0">
-            <Image
-              src="/images/logo.png"
-              alt="Aroid Atlas"
-              width={674}
-              height={100}
-              className="h-14 w-auto mix-blend-screen"
-              priority
-            />
-          </Link>
+          {/* Logo + nav links stacked in a column so links span logo width */}
+          <div className="flex flex-col shrink-0">
+            <Link href="/" className="flex items-center mb-1">
+              <Image
+                src="/images/logo.png"
+                alt="Aroid Atlas"
+                width={674}
+                height={100}
+                className="h-14 w-auto mix-blend-screen"
+                priority
+              />
+            </Link>
+            <div className="hidden md:flex justify-between">
+              <Link href="/plants" className={pathname.startsWith("/plants") ? "nav-link-active" : "nav-link"}>
+                Explore
+              </Link>
+              <Link href="/compare" className={pathname === "/compare" ? "nav-link-active" : "nav-link"}>
+                Compare
+              </Link>
+              <Link href="/identify" className={pathname === "/identify" ? "nav-link-active" : "nav-link"}>
+                Identify
+              </Link>
+              <Link href="/learn" className={pathname === "/learn" ? "nav-link-active" : "nav-link"}>
+                Learn
+              </Link>
+            </div>
+          </div>
 
           {/* Spacer */}
           <div className="flex-1" />
@@ -184,22 +199,6 @@ export default function Navbar() {
               )}
             </svg>
           </button>
-        </div>
-
-        {/* Row 2: Nav links (desktop only, beneath logo) */}
-        <div className="hidden md:flex items-center gap-6 pb-2">
-          <Link href="/plants" className={pathname.startsWith("/plants") ? "nav-link-active" : "nav-link"}>
-            Explore
-          </Link>
-          <Link href="/compare" className={pathname === "/compare" ? "nav-link-active" : "nav-link"}>
-            Compare
-          </Link>
-          <Link href="/identify" className={pathname === "/identify" ? "nav-link-active" : "nav-link"}>
-            Identify
-          </Link>
-          <Link href="/learn" className={pathname === "/learn" ? "nav-link-active" : "nav-link"}>
-            Learn
-          </Link>
         </div>
 
       </nav>
