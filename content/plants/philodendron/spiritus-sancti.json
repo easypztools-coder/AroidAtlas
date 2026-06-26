@@ -33,9 +33,10 @@
     "growthHabit": "Climbing with thick aerial anchors"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 180,
+    "currentMedianPriceGBP": 50,
     "threeMonthChangePercent": -32.4,
-    "marketStatus": "Volatile"
+    "marketStatus": "Volatile",
+    "estimatedSource": "ai_estimate"
   },
   "priceHistory": [
     {

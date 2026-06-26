@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import PriceHistoryChart from "@/components/PriceHistoryChart";
 import type { PriceHistoryPoint } from "@/lib/prices/types";
-import { getPriceRarityTier, getStaticTierLabel } from "@/lib/prices/priceRarityTier";
+import { getPriceRarityTier, getStaticTierLabel, TIER_RANGES } from "@/lib/prices/priceRarityTier";
 import { getBotanicalTypeDetails } from "@/components/GenusPlantList";
 
 interface PricePoint {
@@ -205,6 +205,7 @@ export default function PlantDetailPage({
 
   const [soldCompsData, setSoldCompsData] = useState<PriceHistoryPoint[]>([]);
   const [fairPrice, setFairPrice] = useState<number | null>(null);
+  const [fairPriceIsEstimate, setFairPriceIsEstimate] = useState(false);
   const [recentSales, setRecentSales] = useState<RecentSale[]>([]);
   const [hoveredWeekDate, setHoveredWeekDate] = useState<string | null>(null);
 
@@ -218,6 +219,7 @@ export default function PlantDetailPage({
         if (typeof json.fairPurchasePrice === "number") {
           setFairPrice(json.fairPurchasePrice);
         }
+        setFairPriceIsEstimate(json.isEstimate === true);
         if (json.recentSales && Array.isArray(json.recentSales)) {
           setRecentSales(json.recentSales);
         }
@@ -482,16 +484,34 @@ export default function PlantDetailPage({
             <div className="rounded-xl border border-price/20 bg-price/5 p-4 flex flex-col justify-between">
               <div className="flex items-center justify-between">
                 <span className="text-[10px] font-bold uppercase tracking-wider text-price/80">AA Price</span>
-                <span className="text-[9px] bg-price/10 text-price px-1.5 py-0.5 rounded-full font-semibold">Official Guide</span>
+                <span className="text-[9px] bg-price/10 text-price px-1.5 py-0.5 rounded-full font-semibold">
+                  {fairPrice !== null && !fairPriceIsEstimate
+                    ? "Official Guide"
+                    : fairPrice !== null && fairPriceIsEstimate
+                    ? "AI Estimate"
+                    : "Price Guide"}
+                </span>
               </div>
               <div className="mt-2 flex items-baseline gap-1.5">
-                <span className="text-2xl font-bold text-price">
-                  {fairPrice !== null ? `£${fairPrice.toFixed(0)}` : "N/A"}
-                </span>
-                {fairPrice !== null && <span className="text-[10px] text-muted">GBP</span>}
+                {fairPrice !== null ? (
+                  <>
+                    <span className={`text-2xl font-bold ${fairPriceIsEstimate ? "text-price/70" : "text-price"}`}>
+                      £{fairPrice.toFixed(0)}
+                    </span>
+                    <span className="text-[10px] text-muted">GBP</span>
+                  </>
+                ) : (
+                  <span className="text-xl font-bold text-price/70">
+                    {TIER_RANGES[data.priceGuideTier]?.label ?? "—"}
+                  </span>
+                )}
               </div>
               <span className="mt-2 text-[10px] text-muted/65 leading-tight">
-                Aroid Atlas verified fair-value guide (trimmed mean, excl. outliers)
+                {fairPrice !== null && !fairPriceIsEstimate
+                  ? "Aroid Atlas verified fair-value guide (trimmed mean, excl. outliers)"
+                  : fairPrice !== null
+                  ? "AI community estimate — will update automatically when real sales data is available"
+                  : "Estimated range based on rarity tier — no live auction data yet"}
               </span>
             </div>
 
@@ -499,13 +519,19 @@ export default function PlantDetailPage({
             <div className="rounded-xl border border-primary/10 bg-card-hover/40 p-4 flex flex-col justify-between">
               <span className="text-[10px] font-bold uppercase tracking-wider text-muted">Average Retail Value</span>
               <div className="mt-2 flex items-baseline gap-1.5">
-                <span className="text-2xl font-bold text-primary">
-                  {retailAverage ? `£${retailAverage.value.toFixed(0)}` : "N/A"}
-                </span>
-                {retailAverage && <span className="text-[10px] text-muted">GBP</span>}
+                {retailAverage ? (
+                  <>
+                    <span className="text-2xl font-bold text-primary">£{retailAverage.value.toFixed(0)}</span>
+                    <span className="text-[10px] text-muted">GBP</span>
+                  </>
+                ) : (
+                  <span className="text-xl font-bold text-primary/50">Not tracked</span>
+                )}
               </div>
               <span className="mt-2 text-[10px] text-muted/65 leading-tight">
-                {retailAverage ? `${retailAverage.count} UK listing${retailAverage.count !== 1 ? "s" : ""} tracked` : "Online store average"}
+                {retailAverage
+                  ? `${retailAverage.count} UK listing${retailAverage.count !== 1 ? "s" : ""} tracked`
+                  : "Not currently stocked by tracked UK retailers"}
               </span>
             </div>
 
@@ -522,12 +548,21 @@ export default function PlantDetailPage({
                       Most recent eBay sales fall in this band
                     </span>
                   </>
+                ) : TIER_RANGES[data.priceGuideTier] ? (
+                  <>
+                    <span className="text-lg font-bold text-heading/70">
+                      {TIER_RANGES[data.priceGuideTier].label}
+                    </span>
+                    <span className="block text-[10px] text-muted/80 mt-1 leading-tight">
+                      Estimated from rarity tier
+                    </span>
+                  </>
                 ) : (
-                  <span className="text-lg font-bold text-muted">No Data</span>
+                  <span className="text-lg font-bold text-muted">—</span>
                 )}
               </div>
               <span className="mt-2 text-[10px] text-muted/65 leading-tight">
-                Middle 50% of verified sale prices
+                {latestWeek ? "Middle 50% of verified sale prices" : "Live auction data not yet available"}
               </span>
             </div>
 
@@ -564,6 +599,11 @@ export default function PlantDetailPage({
 
           {/* Large Focused Price History Graph + Recent Sales */}
           <div className="border-t border-primary/10 pt-6">
+            {soldCompsData.length === 0 && recentSales.length === 0 ? (
+              <p className="text-xs text-muted italic text-center py-4">
+                No eBay auction history available yet for this plant. Data is collected automatically as sales appear on eBay UK.
+              </p>
+            ) : (
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               {/* Left Column: Graph (2/3 width on desktop) */}
               <div className="lg:col-span-2 space-y-4">
@@ -578,7 +618,7 @@ export default function PlantDetailPage({
                     </span>
                   )}
                 </div>
-                
+
                 {/* The actual chart - wide view container */}
                 <PriceHistoryChart data={soldCompsData} onHover={setHoveredWeekDate} />
               </div>
@@ -659,11 +699,16 @@ export default function PlantDetailPage({
                       return <div key={idx}>{inner}</div>;
                     })
                   ) : (
-                    <p className="text-xs text-muted italic text-center py-8">No recent eBay transactions found.</p>
+                    <p className="text-xs text-muted italic text-center py-8">
+                      {soldCompsData.length > 0
+                        ? "Individual sales records unavailable — chart shows aggregate snapshot data only."
+                        : "No recent eBay transactions found."}
+                    </p>
                   )}
                 </div>
               </div>
             </div>
+            )}
           </div>
 
           {/* Retail Listings & Breakdown Sub-Grid */}

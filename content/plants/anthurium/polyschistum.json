@@ -34,9 +34,10 @@
     "growthHabit": "Climbing Epiphyte"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 80,
     "threeMonthChangePercent": null,
-    "marketStatus": null
+    "marketStatus": null,
+    "estimatedSource": "ai_estimate"
   },
   "priceTracking": {
     "enabled": true,

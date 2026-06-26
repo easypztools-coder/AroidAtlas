@@ -33,9 +33,10 @@
     "growthHabit": "Upright rosette from a corm"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 200,
     "threeMonthChangePercent": null,
-    "marketStatus": null
+    "marketStatus": null,
+    "estimatedSource": "ai_estimate"
   },
   "priceTracking": {
     "enabled": true,

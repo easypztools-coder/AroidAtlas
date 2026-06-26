@@ -33,9 +33,10 @@
     "growthHabit": "Climbing with aerial roots at nodes"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 150,
     "threeMonthChangePercent": null,
-    "marketStatus": null
+    "marketStatus": null,
+    "estimatedSource": "ai_estimate"
   },
   "priceTracking": {
     "enabled": true,

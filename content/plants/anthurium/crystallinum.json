@@ -34,9 +34,10 @@
     "growthHabit": "Short basal crown with surface roots, self-supporting"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 45,
     "threeMonthChangePercent": null,
-    "marketStatus": null
+    "marketStatus": null,
+    "estimatedSource": "ai_estimate"
   },
   "priceTracking": {
     "enabled": true,
@@ -52,11 +53,34 @@
       "Anthurium crystallinum Linden"
     ],
     "excludeTerms": [
-      "seeds", "seed", "bulb", "rhizome", "corm", "poster", "print", "book",
-      "magazine", "care guide", "artificial", "fake", "plastic", "silk",
-      "soil", "perlite", "fertiliser", "fertilizer", "moss pole", "pot only",
-      "label", "tag", "cutting board", "variegated", "variegata", "x magnificum",
-      "x forgetii", "hybrid"
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board",
+      "variegated",
+      "variegata",
+      "x magnificum",
+      "x forgetii",
+      "hybrid"
     ],
     "marketCurrency": "GBP"
   },

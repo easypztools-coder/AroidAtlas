@@ -34,9 +34,10 @@
     "growthHabit": "Compact upright basal crown"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 280,
     "threeMonthChangePercent": null,
-    "marketStatus": null
+    "marketStatus": null,
+    "estimatedSource": "ai_estimate"
   },
   "priceTracking": {
     "enabled": true,
@@ -50,10 +51,31 @@
       "anthurium papillilaminum croat"
     ],
     "excludeTerms": [
-      "seeds", "seed", "bulb", "rhizome", "corm", "poster", "print", "book",
-      "magazine", "care guide", "artificial", "fake", "plastic", "silk",
-      "soil", "perlite", "fertiliser", "fertilizer", "moss pole", "pot only",
-      "label", "tag", "cutting board", "variegated", "variegata"
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board",
+      "variegated",
+      "variegata"
     ],
     "marketCurrency": "GBP"
   },

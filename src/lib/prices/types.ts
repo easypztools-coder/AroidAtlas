@@ -170,6 +170,7 @@ export interface PriceHistoryResponse {
   history: PriceHistoryPoint[];
   fairPurchasePrice: number | null;
   recentSales?: RecentSale[];
+  isEstimate?: boolean;
 }
 
 // ─── Admin Update Response ─────────────────────────────────────────────────

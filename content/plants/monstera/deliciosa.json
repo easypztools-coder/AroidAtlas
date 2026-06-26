@@ -34,9 +34,10 @@
     "growthHabit": "Strong climber with thick stems, conspicuous nodes, and robust aerial roots"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 12,
     "threeMonthChangePercent": null,
-    "marketStatus": null
+    "marketStatus": null,
+    "estimatedSource": "ai_estimate"
   },
   "priceTracking": {
     "enabled": true,
@@ -51,11 +52,36 @@
       "deliciosa monstera"
     ],
     "excludeTerms": [
-      "seeds", "seed", "bulb", "rhizome", "corm", "poster", "print", "book",
-      "magazine", "care guide", "artificial", "fake", "plastic", "silk",
-      "soil", "perlite", "fertiliser", "fertilizer", "moss pole", "pot only",
-      "label", "tag", "cutting board", "variegated", "variegata",
-      "albo", "thai constellation", "mint", "aurea", "sport"
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board",
+      "variegated",
+      "variegata",
+      "albo",
+      "thai constellation",
+      "mint",
+      "aurea",
+      "sport"
     ],
     "marketCurrency": "GBP"
   },

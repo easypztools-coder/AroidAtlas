@@ -34,9 +34,10 @@
     "growthHabit": "Vigorous climber with thick stems, strong nodes, stout aerial roots"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 55,
     "threeMonthChangePercent": null,
-    "marketStatus": null
+    "marketStatus": null,
+    "estimatedSource": "ai_estimate"
   },
   "priceTracking": {
     "enabled": true,
@@ -51,10 +52,32 @@
       "Monstera lechler"
     ],
     "excludeTerms": [
-      "seeds", "seed", "bulb", "rhizome", "corm", "poster", "print", "book",
-      "magazine", "care guide", "artificial", "fake", "plastic", "silk",
-      "soil", "perlite", "fertiliser", "fertilizer", "moss pole", "pot only",
-      "label", "tag", "cutting board", "variegated", "variegata", "albo"
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board",
+      "variegated",
+      "variegata",
+      "albo"
     ],
     "marketCurrency": "GBP"
   },

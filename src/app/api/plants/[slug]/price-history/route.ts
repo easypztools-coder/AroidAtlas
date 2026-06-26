@@ -35,13 +35,14 @@ export async function GET(
   if (!snapshot) {
     const embedded = loadEmbeddedPriceHistory(slug);
     if (embedded) {
-      return NextResponse.json(embedded, { status: 200 });
+      return NextResponse.json({ ...embedded, isEstimate: true }, { status: 200 });
     }
     return NextResponse.json(
       {
         slug,
         history: [],
         fairPurchasePrice: null,
+        isEstimate: false,
         message: "No price data available yet. Run the admin update endpoint first.",
       },
       { status: 200 }
@@ -144,6 +145,7 @@ export async function GET(
     history,
     fairPurchasePrice,
     recentSales,
+    isEstimate: false,
   };
 
   return NextResponse.json(response);

@@ -34,9 +34,10 @@
     "growthHabit": "Scandent climber on slender stems with aerial roots at prominent nodes"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 70,
     "threeMonthChangePercent": null,
-    "marketStatus": null
+    "marketStatus": null,
+    "estimatedSource": "ai_estimate"
   },
   "priceTracking": {
     "enabled": true,
@@ -52,10 +53,32 @@
       "Philodendron skeleton key"
     ],
     "excludeTerms": [
-      "seeds", "seed", "bulb", "rhizome", "corm", "poster", "print", "book",
-      "magazine", "care guide", "artificial", "fake", "plastic", "silk",
-      "soil", "perlite", "fertiliser", "fertilizer", "moss pole", "pot only",
-      "label", "tag", "cutting board", "variegated", "variegata", "aurea"
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board",
+      "variegated",
+      "variegata",
+      "aurea"
     ],
     "marketCurrency": "GBP"
   },

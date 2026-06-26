@@ -74,14 +74,18 @@ export async function loadLatestSnapshotFromDb(slug: string): Promise<SnapshotRe
       notes: row.notes ?? "",
     };
 
-    // Get the individual listings for this snapshot
+    // Get all individual listings for this plant across all snapshots,
+    // most recent sales first. Scoping to a single snapshot_id misses
+    // listings from earlier runs that are still the most recent sold data.
     const listingsRes = await db.query(
-      `SELECT title, listing_type, lot_size, sold_price, shipping_price,
-              total_price, unit_price, currency, sold_date, url, seller, condition
-       FROM ebay_price_listings
-       WHERE snapshot_id = $1
-       ORDER BY sold_date DESC`,
-      [row.id]
+      `SELECT l.title, l.listing_type, l.lot_size, l.sold_price, l.shipping_price,
+              l.total_price, l.unit_price, l.currency, l.sold_date, l.url, l.seller, l.condition
+       FROM ebay_price_listings l
+       JOIN ebay_price_snapshots s ON l.snapshot_id = s.id
+       WHERE s.plant_slug = $1
+       ORDER BY l.sold_date DESC NULLS LAST
+       LIMIT 150`,
+      [slug]
     );
 
     const listings: PriceListing[] = listingsRes.rows.map((l) => ({
