@@ -9,4 +9,4 @@ Disallow: /
 User-agent: CCBot
 Disallow: /
 
-Sitemap: https://aroidatlas.com/sitemap.xml
+Sitemap: https://aroidatlas.co.uk/sitemap.xml

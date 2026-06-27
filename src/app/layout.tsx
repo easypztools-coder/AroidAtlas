@@ -17,7 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://aroidatlas.com"),
+  metadataBase: new URL("https://aroidatlas.co.uk"),
   title: {
     default: "Aroid Atlas — Rare Tropical Plant Encyclopedia",
     template: "%s | Aroid Atlas",
@@ -67,8 +67,8 @@ const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
   name: "Aroid Atlas",
-  url: "https://aroidatlas.com",
-  logo: "https://aroidatlas.com/images/logo.png",
+  url: "https://aroidatlas.co.uk",
+  logo: "https://aroidatlas.co.uk/images/logo.png",
   description:
     "The visual encyclopedia of rare tropical plants. Live eBay UK market prices, species profiles, and cultivation data.",
   sameAs: [],

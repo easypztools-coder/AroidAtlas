@@ -133,7 +133,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   if (!data) return { title: "Plant Not Found" };
 
   const description = buildMetaDescription(data);
-  const canonicalUrl = `https://aroidatlas.com/plants/${genus.toLowerCase()}/${slug}`;
+  const canonicalUrl = `https://aroidatlas.co.uk/plants/${genus.toLowerCase()}/${slug}`;
 
   return {
     title: `${data.scientificName} — ${data.commonName}`,
@@ -171,7 +171,7 @@ export default function PlantPage({ params }: PageProps) {
     notFound();
   }
 
-  const baseUrl = "https://aroidatlas.com";
+  const baseUrl = "https://aroidatlas.co.uk";
   const genusSlug = genus.toLowerCase();
 
   const jsonLd = {

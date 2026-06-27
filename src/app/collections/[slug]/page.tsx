@@ -104,7 +104,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const collection = getCollectionBySlug(params.slug);
   if (!collection) return { title: "Collection Not Found" };
   const title = `${collection.name} — Curated Rare Plant Collection`;
-  const canonicalUrl = `https://aroidatlas.com/collections/${params.slug}`;
+  const canonicalUrl = `https://aroidatlas.co.uk/collections/${params.slug}`;
   return {
     title,
     description: collection.description,
@@ -147,7 +147,7 @@ export default function CollectionPage({ params }: PageProps) {
   const allPlants = getAllPlants();
   const plants = filterPlantsForCollection(collection.slug, allPlants);
 
-  const baseUrl = "https://aroidatlas.com";
+  const baseUrl = "https://aroidatlas.co.uk";
   const collectionJsonLd = {
     "@context": "https://schema.org",
     "@graph": [

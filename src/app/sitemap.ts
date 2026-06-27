@@ -3,7 +3,7 @@ import fs from "fs";
 import path from "path";
 import { collections } from "@/lib/mock-data";
 
-const BASE_URL = "https://aroidatlas.com";
+const BASE_URL = "https://aroidatlas.co.uk";
 
 function fileMtime(filePath: string): Date {
   try {

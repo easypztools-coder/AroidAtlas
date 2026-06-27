@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Specimen Comparison Tool | Aroid Atlas",
     description: "Compare rare tropical aroids side by side — morphology, rarity, pricing, and care requirements.",
-    url: "https://aroidatlas.com/compare",
+    url: "https://aroidatlas.co.uk/compare",
     siteName: "Aroid Atlas",
   },
   twitter: {

@@ -54,7 +54,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const genusCapitalized = params.genus.charAt(0).toUpperCase() + params.genus.slice(1).toLowerCase();
   const title = `${genusCapitalized} Species — Neotropical Climbing Aroids`;
   const description = `Browse ${genusCapitalized} species and cultivars with detailed care profiles and live eBay UK price tracking.`;
-  const canonicalUrl = `https://aroidatlas.com/plants/${params.genus.toLowerCase()}`;
+  const canonicalUrl = `https://aroidatlas.co.uk/plants/${params.genus.toLowerCase()}`;
   return {
     title,
     description,
@@ -98,13 +98,13 @@ export default function GenusPage({ params }: PageProps) {
         "@type": "ListItem",
         position: 1,
         name: "Species",
-        item: "https://aroidatlas.com/plants",
+        item: "https://aroidatlas.co.uk/plants",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: genusCapitalized,
-        item: `https://aroidatlas.com/plants/${genus}`,
+        item: `https://aroidatlas.co.uk/plants/${genus}`,
       },
     ],
   };

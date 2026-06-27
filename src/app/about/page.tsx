@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "About Aroid Atlas & Methodology",
     description: "Learn about the mission, data collection methodologies, statistical filtering, and active retail integrations powering the Aroid Atlas visual encyclopedia.",
-    url: "https://aroidatlas.com/about",
+    url: "https://aroidatlas.co.uk/about",
     siteName: "Aroid Atlas",
   },
   twitter: {

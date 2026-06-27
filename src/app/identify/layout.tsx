@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Visual Specimen Identification | Aroid Atlas",
     description: "Upload a photo to identify rare tropical aroids. Powered by visual pattern matching across our full specimen database.",
-    url: "https://aroidatlas.com/identify",
+    url: "https://aroidatlas.co.uk/identify",
     siteName: "Aroid Atlas",
   },
   twitter: {

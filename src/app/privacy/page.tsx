@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Privacy Policy | Aroid Atlas",
     description: "Read the privacy policy of Aroid Atlas to understand how we collect, use, and protect your data.",
-    url: "https://aroidatlas.com/privacy",
+    url: "https://aroidatlas.co.uk/privacy",
     siteName: "Aroid Atlas",
   },
   twitter: {

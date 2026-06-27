@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Care Guides & Cultivation Resources | Aroid Atlas",
     description: "Detailed care guidelines, propagation advice, and a botanical glossary for Monstera, Philodendron, Anthurium, and Alocasia collectors.",
-    url: "https://aroidatlas.com/learn",
+    url: "https://aroidatlas.co.uk/learn",
     siteName: "Aroid Atlas",
   },
   twitter: {
@@ -154,15 +154,15 @@ const jsonLd = {
   "@graph": [
     {
       "@type": "Article",
-      "@id": "https://aroidatlas.com/learn#article",
+      "@id": "https://aroidatlas.co.uk/learn#article",
       headline: "Care Guides & Cultivation Resources for Rare Tropical Aroids",
       description:
         "Detailed care guidelines, propagation advice, and a botanical glossary for Monstera, Philodendron, Anthurium, and Alocasia collectors.",
-      url: "https://aroidatlas.com/learn",
+      url: "https://aroidatlas.co.uk/learn",
       publisher: {
         "@type": "Organization",
         name: "Aroid Atlas",
-        url: "https://aroidatlas.com",
+        url: "https://aroidatlas.co.uk",
       },
       author: {
         "@type": "Person",
@@ -172,8 +172,8 @@ const jsonLd = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://aroidatlas.com" },
-        { "@type": "ListItem", position: 2, name: "Care Guides", item: "https://aroidatlas.com/learn" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://aroidatlas.co.uk" },
+        { "@type": "ListItem", position: 2, name: "Care Guides", item: "https://aroidatlas.co.uk/learn" },
       ],
     },
     {
