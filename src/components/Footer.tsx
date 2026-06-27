@@ -51,9 +51,9 @@ export default function Footer() {
               <Image
                 src="/images/logo.png"
                 alt="Aroid Atlas"
-                width={450}
-                height={67}
-                className="h-[72px] w-auto mix-blend-screen"
+                width={674}
+                height={100}
+                className="h-10 w-auto mix-blend-screen"
               />
             </Link>
             <p className="text-xs text-muted leading-relaxed max-w-xs">

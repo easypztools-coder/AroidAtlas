@@ -25,24 +25,18 @@ function PlantCard({
         className="glass-card-glow group block overflow-hidden rounded-2xl"
       >
         {/* Image Container */}
-        <div className="relative aspect-[3/4] overflow-hidden bg-card">
-          {/* Spotlight Plant Plate Image */}
+        <div className="relative aspect-[3/4] overflow-hidden bg-forest-dark/60">
+          {/* Full botanical plate, unclipped */}
           <Image
             src={`/plants/${plant.genus.toLowerCase()}/${plant.slug}.png`}
             alt={plant.commonName}
             fill
-            className="object-cover object-center scale-[1.3] transition-all duration-700 ease-out group-hover:scale-[1.4] opacity-80 group-hover:opacity-100 filter brightness-95 group-hover:brightness-105"
+            className="object-contain object-center transition-transform duration-700 ease-out group-hover:scale-[1.04]"
             sizes="(max-width: 768px) 100vw, 25vw"
           />
 
-          {/* Spotlight Reveal Overlay (hides margins/text and exposes center specimen) */}
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_15%,rgba(17,26,21,0.45)_45%,rgba(17,26,21,0.9)_75%,#111A15_100%)] transition-all duration-700 ease-out group-hover:scale-105 pointer-events-none" />
-
-          {/* Soft ambient green light underneath */}
-          <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(195,217,161,0.08)_0%,transparent_60%)] pointer-events-none" />
-
           {/* Bottom gradient overlay for text legibility */}
-          <div className="absolute bottom-0 left-0 right-0 h-1/2 bg-gradient-to-t from-card via-card/75 to-transparent pointer-events-none" />
+          <div className="absolute bottom-0 left-0 right-0 h-2/5 bg-gradient-to-t from-forest-dark via-forest-dark/80 to-transparent pointer-events-none" />
 
           {/* Info Overlay */}
           <div className="absolute bottom-0 left-0 right-0 p-4">
