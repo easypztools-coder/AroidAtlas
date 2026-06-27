@@ -15,7 +15,8 @@ export async function fetchUsdToGbpRate(): Promise<number> {
     if (typeof rate === "number" && rate > 0) return rate;
     throw new Error("Unexpected response shape from Frankfurter");
   } catch (err) {
-    console.warn("[fetchExchangeRate] USD/GBP fetch failed, using fallback 0.79:", err);
+    // Fallback rate — update periodically. Last reviewed: 2026-06-27 (~0.79 mid-market).
+    console.warn("[fetchExchangeRate] USD/GBP live fetch failed, using hardcoded fallback:", err);
     return 0.79;
   }
 }

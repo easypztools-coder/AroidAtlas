@@ -171,6 +171,8 @@ export interface PriceHistoryResponse {
   fairPurchasePrice: number | null;
   recentSales?: RecentSale[];
   isEstimate?: boolean;
+  confidenceScore?: string;
+  sampleCount?: number;
 }
 
 // ─── Admin Update Response ─────────────────────────────────────────────────

@@ -19,12 +19,13 @@ function PlantCard({
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: "-50px" }}
       transition={{ duration: 0.5, delay: index * 0.1, ease: "easeOut" }}
+      className="h-full"
     >
       <Link
         href={`/plants/${plant.genus.toLowerCase()}/${plant.slug}`}
-        className="group block overflow-hidden rounded border border-border bg-surface shadow-card-sm transition-all duration-200 hover:border-border-strong hover:shadow-glass"
+        className="group flex h-full flex-col overflow-hidden rounded border border-border bg-surface shadow-card-sm transition-all duration-200 hover:border-border-strong hover:shadow-glass"
       >
-        {/* Image Area */}
+        {/* Image Area — fixed aspect ratio, always same height */}
         <div className="relative aspect-[3/4] overflow-hidden bg-background-soft">
           <Image
             src={`/plants/${plant.genus.toLowerCase()}/${plant.slug}.png`}
@@ -33,18 +34,19 @@ function PlantCard({
             className="object-contain object-center transition-transform duration-500 ease-out group-hover:scale-[1.015]"
             sizes="(max-width: 768px) 100vw, 25vw"
           />
-          {/* Warm ivory fade at base for caption legibility */}
+          {/* Warm ivory fade at base */}
           <div className="pointer-events-none absolute bottom-0 left-0 right-0 h-1/4 bg-gradient-to-t from-surface to-transparent" />
         </div>
 
-        {/* Card Info */}
-        <div className="px-4 pb-4 pt-3">
+        {/* Card Info — flex-col so bottom row is always at the same position */}
+        <div className="flex flex-1 flex-col px-4 pb-4 pt-3">
           {/* Fine brass rule */}
           <div className="mb-3 h-px w-full bg-accent/20" />
           <h3 className="font-heading text-[15px] font-semibold italic leading-snug text-heading transition-colors duration-150 group-hover:text-primary">
             {plant.scientificName}
           </h3>
-          <div className="mt-2 flex items-center justify-between">
+          {/* mt-auto pushes this row to the bottom regardless of name length */}
+          <div className="mt-auto flex items-center justify-between pt-2">
             <p className="text-[11px] text-muted">{plant.commonName}</p>
             <span className="badge-price">
               {plant.priceGuideTier} · {getStaticTierLabel(plant.priceGuideTier)}

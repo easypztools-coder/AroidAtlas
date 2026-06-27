@@ -16,6 +16,16 @@ import type { PriceHistoryPoint } from "@/lib/prices/types";
 interface PriceHistoryChartProps {
   data: PriceHistoryPoint[];
   onHover?: (date: string | null) => void;
+  highlightedDate?: string | null;
+}
+
+function getISOWeekKey(dateStr: string): string {
+  const date = new Date(dateStr);
+  const dayNum = date.getUTCDay() || 7;
+  date.setUTCDate(date.getUTCDate() + 4 - dayNum);
+  const yearStart = new Date(Date.UTC(date.getUTCFullYear(), 0, 1));
+  const weekNo = Math.ceil(((date.getTime() - yearStart.getTime()) / 86400000 + 1) / 7);
+  return `${date.getUTCFullYear()}-W${String(weekNo).padStart(2, "0")}`;
 }
 
 // Botanical-atlas palette for the chart
@@ -83,7 +93,7 @@ function CustomTooltip({ active, payload, label }: any) {
   );
 }
 
-export default function PriceHistoryChart({ data, onHover }: PriceHistoryChartProps) {
+export default function PriceHistoryChart({ data, onHover, highlightedDate }: PriceHistoryChartProps) {
   if (!data || data.length === 0) {
     return (
       <div className="rounded border border-border bg-background-soft p-6 text-center">
@@ -199,7 +209,19 @@ export default function PriceHistoryChart({ data, onHover }: PriceHistoryChartPr
               dataKey="median"
               stroke={MEDIAN_COLOR}
               strokeWidth={2}
-              dot={{ fill: MEDIAN_COLOR, strokeWidth: 0, r: 3 }}
+              // eslint-disable-next-line @typescript-eslint/no-explicit-any
+              dot={(props: any) => {
+                const { cx, cy, payload } = props;
+                const isHighlighted =
+                  highlightedDate && payload?.date
+                    ? getISOWeekKey(highlightedDate) === getISOWeekKey(payload.date)
+                    : false;
+                return isHighlighted ? (
+                  <circle key={payload.date} cx={cx} cy={cy} r={7} fill={MEDIAN_COLOR} stroke="#A98749" strokeWidth={2} />
+                ) : (
+                  <circle key={payload.date} cx={cx} cy={cy} r={3} fill={MEDIAN_COLOR} strokeWidth={0} />
+                );
+              }}
               activeDot={{ fill: MEDIAN_COLOR, strokeWidth: 2, stroke: "#A98749", r: 5 }}
               name="median"
               legendType="line"

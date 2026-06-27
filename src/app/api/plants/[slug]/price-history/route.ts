@@ -74,13 +74,18 @@ export async function GET(
     for (const [weekKey, prices] of Object.entries(weeks).sort()) {
       const sorted = [...prices].sort((a, b) => a - b);
       const n = sorted.length;
+
+      // Skip singleton weeks — a single sale cannot form a meaningful distribution.
+      // These would make the chart look authoritative when it's a single anecdote.
+      if (n < 2) continue;
+
       const min = sorted[0];
       const max = sorted[n - 1];
       const median = percentile(sorted, 50);
+      // With n=2 p25/p75 are identical to the two values, which is honest.
       const p25 = percentile(sorted, 25);
       const p75 = percentile(sorted, 75);
 
-      // Confidence based on sample size
       const confidenceScore =
         n >= 30 ? "A" : n >= 15 ? "B" : n >= 5 ? "C" : "D";
 
@@ -95,8 +100,11 @@ export async function GET(
         confidenceScore,
       });
     }
-  } else {
-    // Fallback: use the single aggregate snapshot
+  }
+
+  // If weekly bucketing produced no usable data points, fall back to the
+  // snapshot aggregate as a single reference point.
+  if (history.length === 0) {
     history.push({
       date: snapshot.snapshot.checkedAt,
       median: snapshot.snapshot.medianPrice,
@@ -140,12 +148,18 @@ export async function GET(
       return dateB - dateA;
     });
 
+  const sampleCount = allPrices.length;
+  const confidenceScore =
+    sampleCount >= 30 ? "A" : sampleCount >= 15 ? "B" : sampleCount >= 5 ? "C" : "D";
+
   const response: PriceHistoryResponse = {
     slug,
     history,
     fairPurchasePrice,
     recentSales,
     isEstimate: false,
+    confidenceScore,
+    sampleCount,
   };
 
   return NextResponse.json(response);
@@ -176,13 +190,16 @@ function loadEmbeddedPriceHistory(slug: string): PriceHistoryResponse | null {
 
       if (staticHistory.length === 0 && !metrics.currentMedianPriceGBP) return null;
 
+      // Collapse p25/p75 to median — we have no real spread data, and showing
+      // fake ±20% bands would misrepresent the market. The chart band will be
+      // invisible (zero height) which is honest for estimated data.
       const history: PriceHistoryPoint[] = staticHistory.map((p) => ({
         date: p.date,
         median: p.medianPriceGBP,
-        p25: p.medianPriceGBP * 0.8,
-        p75: p.medianPriceGBP * 1.2,
-        min: p.medianPriceGBP * 0.6,
-        max: p.medianPriceGBP * 1.5,
+        p25: p.medianPriceGBP,
+        p75: p.medianPriceGBP,
+        min: p.medianPriceGBP,
+        max: p.medianPriceGBP,
         sampleSize: p.dataPointsAnalyzed,
         confidenceScore: "D",
       }));

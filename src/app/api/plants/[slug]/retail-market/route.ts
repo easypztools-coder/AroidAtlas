@@ -20,7 +20,10 @@ function handleFilesystemFallback(slug: string) {
 
   try {
     const latestData = JSON.parse(fs.readFileSync(latestPath, "utf-8"));
-    const listings = latestData.listings || [];
+    // Mirror the DB query: only return listings that were marked in-stock.
+    const listings = (latestData.listings || []).filter(
+      (l: Record<string, unknown>) => l.inStock !== false
+    );
     const statsByType = latestData.statsByType || {};
 
     // Compile history

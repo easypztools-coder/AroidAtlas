@@ -119,8 +119,8 @@ export default function Navbar() {
               <span className="font-heading text-[17px] font-semibold tracking-[0.14em] text-heading transition-colors duration-150 group-hover:text-primary md:text-[19px]">
                 AROID ATLAS
               </span>
-              <span className="mt-1 font-body text-[9px] tracking-[0.26em] text-accent">
-                .CO.UK
+              <span className="mt-1 font-body text-[9px] tracking-[0.1em] text-accent/80 hidden sm:block">
+                Rare Plant Directory &amp; Value Index
               </span>
             </div>
           </Link>

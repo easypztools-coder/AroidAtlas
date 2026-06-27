@@ -1,13 +1,15 @@
 import type { Metadata } from "next";
 import HeroSection from "@/components/HeroSection";
+import HowItWorks from "@/components/HowItWorks";
 import FeaturedSpecies from "@/components/FeaturedSpecies";
 import GenusGrid from "@/components/GenusGrid";
+import PriceMethodology from "@/components/PriceMethodology";
 import ExploreCTA from "@/components/ExploreCTA";
 
 export const metadata: Metadata = {
-  title: "The Visual Encyclopedia of Rare Tropical Plants",
+  title: "Rare Plant Price Guide — Live UK Market Data for Aroids",
   description:
-    "Discover, explore and compare the world's most extraordinary aroids. Live market prices, species profiles, and cultivation data for serious collectors.",
+    "Know what every rare aroid is actually worth. Live eBay UK auction data and retailer prices for 170+ collector species — updated automatically every week.",
   openGraph: {
     url: "https://aroidatlas.co.uk",
   },
@@ -17,8 +19,10 @@ export default function Home() {
   return (
     <>
       <HeroSection />
+      <HowItWorks />
       <FeaturedSpecies />
       <GenusGrid />
+      <PriceMethodology />
       <ExploreCTA />
     </>
   );
