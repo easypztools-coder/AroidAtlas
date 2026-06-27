@@ -61,6 +61,19 @@ interface Propagation {
   notes?: string;
 }
 
+interface CareGuide {
+  substrate: string;
+  watering: string;
+  humidity: string;
+  fertilising: string;
+  repotting: string;
+  commonProblems: { problem: string; cause: string; fix: string }[];
+}
+
+interface BuyerChecklist {
+  items: string[];
+}
+
 interface PlantData {
   name: string;
   slug: string;
@@ -87,6 +100,8 @@ interface PlantData {
   priceHistory?: PricePoint[];
   recommendedPlants: RecommendedPlant[];
   propagation?: Propagation;
+  careGuide?: CareGuide;
+  buyerChecklist?: BuyerChecklist;
   fieldNotes?: {
     title: string;
     date: string;
@@ -137,6 +152,18 @@ function ShareButton({ scientificName }: { scientificName: string }) {
     </button>
   );
 }
+
+const PROPAGATION_GUIDE_SLUGS: Record<string, string> = {
+  "Stem cutting": "stem-cutting",
+  "Node cutting": "node-cutting",
+  "Leaf cutting": "leaf-cutting",
+  "Rhizome division": "rhizome-division",
+  "Corm division": "offsets-and-pups",
+  "Offset (corm/pup)": "offsets-and-pups",
+  "Offset (keiki)": "offsets-and-pups",
+  "Air layering": "air-layering",
+  "Seed": "seed-propagation",
+};
 
 const GENUS_LABELS: Record<string, string> = {
   monstera: "Monstera",
@@ -234,9 +261,11 @@ export default function PlantDetailPage({
       return { value: retailData.statsByType.all.trimmedMean, count: retailData.statsByType.all.count };
     }
     if (retailData && retailData.listings.length > 0) {
-      const prices = retailData.listings.map((l: any) => l.priceGbp as number);
+      const inStock = retailData.listings.filter((l: any) => l.inStock !== false);
+      const source = inStock.length > 0 ? inStock : retailData.listings;
+      const prices = source.map((l: any) => l.priceGbp as number);
       const mean = prices.reduce((a: number, b: number) => a + b, 0) / prices.length;
-      return { value: mean, count: prices.length };
+      return { value: mean, count: source.length };
     }
     return null;
   })();
@@ -309,24 +338,6 @@ export default function PlantDetailPage({
                     </span>
                   );
                 })()}
-              {data.statusTag && (
-                <span className="inline-flex items-center gap-1.5 rounded-sm bg-rarity/10 border border-rarity/20 px-3 py-1 text-xs font-medium text-rarity">
-                  <svg
-                    className="h-3.5 w-3.5"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth={2}
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126zM12 15.75h.007v.008H12v-.008z"
-                    />
-                  </svg>
-                  {data.statusTag}
-                </span>
-              )}
             </div>
           </div>
 
@@ -575,9 +586,9 @@ export default function PlantDetailPage({
               <div className="grid grid-cols-1 gap-6 border-t border-border pt-6 md:grid-cols-5">
                 <div className="space-y-3 md:col-span-3">
                   <div>
-                    <h3 className="text-sm font-semibold text-heading">Available Retail Specimens</h3>
+                    <h3 className="text-sm font-semibold text-heading">Retail Specimens</h3>
                     <p className="text-[10px] text-muted">
-                      Click to visit store and purchase directly (prices include VAT)
+                      UK retailers — prices include VAT. Sold out items show last known price for reference.
                     </p>
                   </div>
 
@@ -588,16 +599,25 @@ export default function PlantDetailPage({
                         href={list.productUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="group flex flex-col gap-3 rounded border border-border bg-background-soft p-3.5 transition-all duration-150 hover:border-border-strong hover:bg-surface sm:flex-row sm:items-center sm:justify-between"
+                        className={`group flex flex-col gap-3 rounded border p-3.5 transition-all duration-150 sm:flex-row sm:items-center sm:justify-between ${
+                          list.inStock === false
+                            ? "border-border bg-background-soft/50 opacity-70"
+                            : "border-border bg-background-soft hover:border-border-strong hover:bg-surface"
+                        }`}
                       >
                         <div className="space-y-1">
-                          <div className="line-clamp-1 text-xs font-semibold text-heading transition-colors duration-150 group-hover:text-primary">
+                          <div className={`line-clamp-1 text-xs font-semibold transition-colors duration-150 ${list.inStock === false ? "text-muted" : "text-heading group-hover:text-primary"}`}>
                             {list.title}
                           </div>
-                          <div className="flex items-center gap-2 text-[9px] text-muted">
+                          <div className="flex flex-wrap items-center gap-2 text-[9px] text-muted">
                             <span className="rounded-sm bg-primary/10 px-1.5 py-0.5 font-medium text-primary">
                               {list.retailerName}
                             </span>
+                            {list.inStock === false && (
+                              <span className="rounded-sm bg-red-100 px-1.5 py-0.5 font-semibold text-red-600">
+                                Sold Out
+                              </span>
+                            )}
                             {list.potSizeCm && <span>{list.potSizeCm}cm Pot</span>}
                             {list.plantSizeLabel && (
                               <span className="capitalize">{list.plantSizeLabel.replace(/_/g, " ")}</span>
@@ -606,29 +626,23 @@ export default function PlantDetailPage({
                         </div>
                         <div className="flex shrink-0 items-center gap-3 self-end sm:self-center">
                           <div className="text-right">
-                            <div className="text-sm font-bold text-leaf">£{list.priceGbp.toFixed(2)}</div>
+                            <div className={`text-sm font-bold ${list.inStock === false ? "text-muted" : "text-leaf"}`}>
+                              £{list.priceGbp.toFixed(2)}
+                            </div>
                             {list.originalPriceGbp && (
                               <div className="text-[9px] text-muted line-through">
                                 £{list.originalPriceGbp.toFixed(2)}
                               </div>
                             )}
                           </div>
-                          <span className="inline-flex items-center gap-1 rounded-sm bg-primary px-3 py-1.5 text-[10px] font-semibold text-surface transition-colors duration-150 group-hover:bg-primary-dark">
-                            Buy Now
-                            <svg
-                              className="h-3 w-3"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              stroke="currentColor"
-                              strokeWidth={2.5}
-                            >
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
-                              />
-                            </svg>
-                          </span>
+                          {list.inStock !== false && (
+                            <span className="inline-flex items-center gap-1 rounded-sm bg-primary px-3 py-1.5 text-[10px] font-semibold text-surface transition-colors duration-150 group-hover:bg-primary-dark">
+                              Buy Now
+                              <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
+                              </svg>
+                            </span>
+                          )}
                         </div>
                       </a>
                     ))}
@@ -676,6 +690,24 @@ export default function PlantDetailPage({
                 )}
               </div>
             )}
+
+            {/* Buyer's Checklist */}
+            {data.buyerChecklist && data.buyerChecklist.items.length > 0 && (
+              <div className="border-t border-border pt-6">
+                <h3 className="mb-1 text-sm font-semibold text-heading">Before You Buy</h3>
+                <p className="mb-3 text-[10px] text-muted">Species-specific things to check when evaluating a listing</p>
+                <ul className="space-y-2">
+                  {data.buyerChecklist.items.map((item, i) => (
+                    <li key={i} className="flex items-start gap-2.5">
+                      <svg className="mt-0.5 h-3.5 w-3.5 shrink-0 text-leaf" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                      </svg>
+                      <span className="text-xs leading-relaxed text-muted">{item}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            )}
           </div>
 
           {/* Propagation */}
@@ -696,14 +728,25 @@ export default function PlantDetailPage({
                     Methods
                   </span>
                   <div className="flex flex-wrap gap-1.5 pt-1">
-                    {data.propagation.methods.map((m) => (
-                      <span
-                        key={m}
-                        className="rounded-sm border border-primary/20 bg-primary/8 px-2 py-0.5 text-[10px] font-medium text-primary"
-                      >
-                        {m}
-                      </span>
-                    ))}
+                    {data.propagation.methods.map((m) => {
+                      const slug = PROPAGATION_GUIDE_SLUGS[m];
+                      return slug ? (
+                        <Link
+                          key={m}
+                          href={`/guides/propagation/${slug}`}
+                          className="rounded-sm border border-primary/20 bg-primary/8 px-2 py-0.5 text-[10px] font-medium text-primary underline-offset-2 transition-colors duration-150 hover:border-primary/40 hover:bg-primary/15 hover:underline"
+                        >
+                          {m}
+                        </Link>
+                      ) : (
+                        <span
+                          key={m}
+                          className="rounded-sm border border-primary/20 bg-primary/8 px-2 py-0.5 text-[10px] font-medium text-primary"
+                        >
+                          {m}
+                        </span>
+                      );
+                    })}
                   </div>
                 </div>
 
@@ -778,6 +821,95 @@ export default function PlantDetailPage({
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 16v-4m0-4h.01" />
                   </svg>
                   <p className="text-[11px] leading-relaxed text-muted">{data.propagation.notes}</p>
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* Care Guide */}
+          {data.careGuide && (
+            <div className="rounded border border-border bg-surface p-6 md:p-8">
+              <div className="-mx-6 -mt-6 mb-6 h-px bg-accent/30 md:-mx-8 md:-mt-8 md:mb-8" />
+              <p className="font-body text-[10px] font-bold uppercase tracking-[0.16em] text-accent">
+                Care Guide
+              </p>
+              <h2 className="mt-1 font-heading text-xl font-semibold text-heading md:text-2xl">
+                Growing Conditions
+              </h2>
+
+              <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                {[
+                  {
+                    label: "Substrate",
+                    value: data.careGuide.substrate,
+                    icon: (
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 5.625c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125" />
+                    ),
+                  },
+                  {
+                    label: "Watering",
+                    value: data.careGuide.watering,
+                    icon: (
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 21a9 9 0 01-9-9c0-4.07 2.7-7.49 6.37-8.63L12 3l2.63.37C18.3 4.51 21 7.93 21 12a9 9 0 01-9 9z" />
+                    ),
+                  },
+                  {
+                    label: "Humidity",
+                    value: data.careGuide.humidity,
+                    icon: (
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 15a4.5 4.5 0 004.5 4.5H18a3.75 3.75 0 001.332-7.257 3 3 0 00-3.758-3.848 5.25 5.25 0 00-10.233 2.33A4.502 4.502 0 002.25 15z" />
+                    ),
+                  },
+                  {
+                    label: "Fertilising",
+                    value: data.careGuide.fertilising,
+                    icon: (
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z" />
+                    ),
+                  },
+                  {
+                    label: "Repotting",
+                    value: data.careGuide.repotting,
+                    icon: (
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M16.023 9.348h4.992v-.001M2.985 19.644v-4.992m0 0h4.992m-4.993 0l3.181 3.183a8.25 8.25 0 0013.803-3.7M4.031 9.865a8.25 8.25 0 0113.803-3.7l3.181 3.182m0-4.991v4.99" />
+                    ),
+                  },
+                ].map(({ label, value, icon }) => (
+                  <div key={label} className="rounded border border-border bg-background-soft p-4">
+                    <div className="mb-2 flex items-center gap-2">
+                      <svg className="h-3.5 w-3.5 shrink-0 text-muted/60" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
+                        {icon}
+                      </svg>
+                      <span className="font-body text-[10px] font-bold uppercase tracking-wider text-muted">
+                        {label}
+                      </span>
+                    </div>
+                    <p className="text-xs leading-relaxed text-heading">{value}</p>
+                  </div>
+                ))}
+              </div>
+
+              {data.careGuide.commonProblems.length > 0 && (
+                <div className="mt-6">
+                  <h3 className="mb-3 text-sm font-semibold text-heading">Common Problems</h3>
+                  <div className="space-y-2">
+                    {data.careGuide.commonProblems.map(({ problem, cause, fix }) => (
+                      <div key={problem} className="grid grid-cols-1 gap-1 rounded border border-border bg-background-soft p-3.5 sm:grid-cols-3 sm:gap-3">
+                        <div>
+                          <span className="font-body text-[9px] font-bold uppercase tracking-wider text-muted">Problem</span>
+                          <p className="mt-0.5 text-xs font-medium text-heading">{problem}</p>
+                        </div>
+                        <div>
+                          <span className="font-body text-[9px] font-bold uppercase tracking-wider text-muted">Cause</span>
+                          <p className="mt-0.5 text-xs text-muted">{cause}</p>
+                        </div>
+                        <div>
+                          <span className="font-body text-[9px] font-bold uppercase tracking-wider text-muted">Fix</span>
+                          <p className="mt-0.5 text-xs text-leaf">{fix}</p>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               )}
             </div>
@@ -1023,7 +1155,7 @@ export default function PlantDetailPage({
 
       {/* ===== RECOMMENDED PLANTS ===== */}
       <div className="plant-detail-recommended-section">
-        <h2 className="mb-6 font-heading text-lg font-semibold text-heading">Recommended For You</h2>
+        <h2 className="mb-6 font-heading text-lg font-semibold text-heading">Similar Plants</h2>
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
           {data.recommendedPlants.map((plant) => {
             const recommendedGenus = (

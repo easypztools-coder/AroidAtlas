@@ -20,10 +20,12 @@ function handleFilesystemFallback(slug: string) {
 
   try {
     const latestData = JSON.parse(fs.readFileSync(latestPath, "utf-8"));
-    // Mirror the DB query: only return listings that were marked in-stock.
-    const listings = (latestData.listings || []).filter(
-      (l: Record<string, unknown>) => l.inStock !== false
-    );
+    // Include all listings (in-stock and recently out-of-stock) sorted in-stock first.
+    const listings = (latestData.listings || [])
+      .map((l: Record<string, unknown>) => ({ ...l, inStock: l.inStock !== false }))
+      .sort((a: Record<string, unknown>, b: Record<string, unknown>) =>
+        (b.inStock ? 1 : 0) - (a.inStock ? 1 : 0)
+      );
     const statsByType = latestData.statsByType || {};
 
     // Compile history
@@ -92,10 +94,10 @@ export async function GET(
     const db = getDbPool();
     const activeListingsRes = await db.query(
       `SELECT retailer_name, title, product_url, price_gbp, original_price_gbp,
-              pot_size_cm, plant_size_label, source_method, last_seen_at
+              pot_size_cm, plant_size_label, source_method, last_seen_at, in_stock
        FROM retail_price_observations
-       WHERE plant_slug = $1 AND in_stock = true AND last_seen_at >= CURRENT_TIMESTAMP - INTERVAL '7 days'
-       ORDER BY price_gbp ASC`,
+       WHERE plant_slug = $1 AND last_seen_at >= CURRENT_TIMESTAMP - INTERVAL '30 days'
+       ORDER BY in_stock DESC, price_gbp ASC`,
       [slug]
     );
     listings = activeListingsRes.rows.map(mapListing);
@@ -190,6 +192,7 @@ function mapListing(row: Record<string, unknown>) {
     plantSizeLabel: row.plant_size_label,
     sourceMethod: row.source_method,
     lastSeenAt: row.last_seen_at,
+    inStock: row.in_stock !== false && row.in_stock !== 0,
   };
 }
 

@@ -19,11 +19,19 @@ function findPlantData(slug: string): { scientificName: string } | null {
   return null;
 }
 
-// Strip cultivar names (anything in quotes or after the 2nd word)
-// "Anthurium crystallinum 'Variegated'" → "Anthurium crystallinum"
-function extractTaxonName(scientificName: string): string {
-  const cleaned = scientificName.replace(/'[^']*'/g, "").trim();
-  const words = cleaned.split(/\s+/);
+// Strip cultivar names and hybrid markers, returning genus + species only.
+// Returns null when only a genus-level name can be extracted — in that case
+// we should not query iNaturalist as it would return unrelated species photos.
+// "Anthurium crystallinum 'Variegated'" → "Anthurium crystallinum" (valid)
+// "Philodendron 'Belle Isle'"           → null (genus-only, skip)
+// "Monstera × albo"                     → "Monstera albo" (valid if 2 words)
+function extractTaxonName(scientificName: string): string | null {
+  const cleaned = scientificName
+    .replace(/'[^']*'/g, "")   // remove cultivar names in single quotes
+    .replace(/×\s*/g, "")      // remove hybrid × markers
+    .trim();
+  const words = cleaned.split(/\s+/).filter((w) => w.length > 0);
+  if (words.length < 2) return null; // genus-only — not specific enough
   return words.slice(0, 2).join(" ");
 }
 
@@ -39,6 +47,11 @@ export async function GET(
   }
 
   const taxonName = extractTaxonName(plant.scientificName);
+
+  // Cultivar-only or genus-only plants have no iNaturalist observations worth showing.
+  if (!taxonName) {
+    return NextResponse.json({ photos: [], taxonName: plant.scientificName });
+  }
 
   const url = new URL("https://api.inaturalist.org/v1/observations");
   url.searchParams.set("taxon_name", taxonName);
