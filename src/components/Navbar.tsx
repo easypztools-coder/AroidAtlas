@@ -116,10 +116,12 @@ export default function Navbar() {
               />
             </div>
             <div className="flex flex-col leading-none">
-              <span className="font-heading text-[17px] font-semibold tracking-[0.14em] text-heading transition-colors duration-150 group-hover:text-primary md:text-[19px]">
-                AROID ATLAS
+              <span className="relative pb-1 font-heading text-[17px] font-bold tracking-[0.14em] text-heading transition-colors duration-150 md:text-[19px]">
+                <span className="text-accent transition-colors duration-150 group-hover:text-accent-muted">A</span>ROID{" "}
+                <span className="text-accent transition-colors duration-150 group-hover:text-accent-muted">A</span>TLAS
+                <span className="absolute bottom-0 left-0 h-[1.5px] w-full bg-accent/20 origin-left transform scale-x-100 transition-all duration-300 group-hover:bg-accent group-hover:scale-x-105" />
               </span>
-              <span className="mt-1 font-body text-[9px] tracking-[0.1em] text-accent/80 hidden sm:block">
+              <span className="mt-1.5 font-body text-[9px] tracking-[0.1em] text-accent/80 hidden sm:block">
                 Rare Plant Directory &amp; Value Index
               </span>
             </div>
@@ -145,7 +147,7 @@ export default function Navbar() {
           <div className="hidden h-4 w-px bg-border md:block" />
 
           {/* ── Desktop Search ───────────────────────────────────────── */}
-          <div className="relative hidden w-52 md:block" ref={searchRef}>
+          <div className="relative hidden md:block w-52 focus-within:w-72 lg:w-60 lg:focus-within:w-80 transition-all duration-300" ref={searchRef}>
             <form onSubmit={handleSearchSubmit} className="relative">
               <svg
                 className="absolute left-3 top-1/2 h-3.5 w-3.5 -translate-y-1/2 text-muted"
@@ -178,7 +180,7 @@ export default function Navbar() {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -8 }}
                   transition={{ duration: 0.15 }}
-                  className="absolute left-0 right-0 top-full z-50 mt-1.5 overflow-hidden rounded border border-border bg-surface shadow-glass-hover"
+                  className="absolute right-0 top-full z-50 mt-1.5 w-[380px] lg:w-[420px] overflow-hidden rounded border border-border bg-surface shadow-glass-hover"
                 >
                   {searchResults.slice(0, 6).map((plant) => (
                     <button

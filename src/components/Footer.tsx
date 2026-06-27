@@ -62,10 +62,12 @@ export default function Footer() {
                 />
               </div>
               <div className="flex flex-col leading-none">
-                <span className="font-heading text-sm font-semibold tracking-[0.12em] text-heading">
-                  AROID ATLAS
+                <span className="relative pb-0.5 font-heading text-sm font-bold tracking-[0.12em] text-heading">
+                  <span className="text-accent transition-colors duration-150 group-hover:text-accent-muted">A</span>ROID{" "}
+                  <span className="text-accent transition-colors duration-150 group-hover:text-accent-muted">A</span>TLAS
+                  <span className="absolute bottom-0 left-0 h-[1px] w-full bg-accent/20 origin-left transform scale-x-100 transition-all duration-300 group-hover:bg-accent group-hover:scale-x-105" />
                 </span>
-                <span className="mt-0.5 font-body text-[8px] tracking-[0.22em] text-accent">
+                <span className="mt-1 font-body text-[8px] tracking-[0.22em] text-accent">
                   .CO.UK
                 </span>
               </div>

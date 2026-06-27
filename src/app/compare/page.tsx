@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 interface SearchPlant {
   slug: string;
@@ -225,20 +226,35 @@ export default function ComparePage() {
           {/* Specimen A Card Preview */}
           <div className="glass-card p-6 min-h-[160px] flex flex-col justify-between">
             {plantA ? (
-              <div>
-                <span className="badge-primary mb-2 capitalize">{plantA.genus}</span>
-                <h3 className="text-xl font-heading font-bold text-heading italic">{plantA.scientificName}</h3>
-                <p className="text-xs text-muted mt-1">{plantA.commonName}</p>
-                <p className="text-xs text-muted-light leading-relaxed mt-4 line-clamp-2">{plantA.aboutText}</p>
-                <Link
-                  href={`/plants/${plantA.genus}/${plantA.slug}`}
-                  className="mt-6 inline-flex text-xs font-semibold text-primary hover:underline items-center gap-1.5"
-                >
-                  View full profile
-                  <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                  </svg>
-                </Link>
+              <div className="flex gap-4 sm:gap-6 items-start">
+                <div className="flex-1 min-w-0">
+                  <span className="badge-primary mb-2 capitalize">{plantA.genus}</span>
+                  <h3 className="text-xl font-heading font-bold text-heading italic truncate">{plantA.scientificName}</h3>
+                  <p className="text-xs text-muted mt-1 truncate">{plantA.commonName}</p>
+                  <p className="text-xs text-muted-light leading-relaxed mt-4 line-clamp-2">{plantA.aboutText}</p>
+                  <Link
+                    href={`/plants/${plantA.genus}/${plantA.slug}`}
+                    className="mt-6 inline-flex text-xs font-semibold text-primary hover:underline items-center gap-1.5"
+                  >
+                    View full profile
+                    <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                    </svg>
+                  </Link>
+                </div>
+                {/* Minimised Botanical Plate */}
+                <div className="relative w-20 sm:w-24 shrink-0 aspect-[3/4] overflow-hidden rounded border border-border bg-background-soft shadow-sm group">
+                  <Image
+                    src={`/plants/${plantA.genus}/${plantA.slug}.png`}
+                    alt={plantA.commonName}
+                    fill
+                    className="object-contain transition-transform duration-300 group-hover:scale-105"
+                    sizes="(max-width: 640px) 80px, 96px"
+                    onError={(e) => {
+                      (e.currentTarget as HTMLImageElement).src = "/images/plant-placeholder.png";
+                    }}
+                  />
+                </div>
               </div>
             ) : (
               <div className="text-center py-12">
@@ -250,20 +266,35 @@ export default function ComparePage() {
           {/* Specimen B Card Preview */}
           <div className="glass-card p-6 min-h-[160px] flex flex-col justify-between">
             {plantB ? (
-              <div>
-                <span className="badge-primary mb-2 capitalize">{plantB.genus}</span>
-                <h3 className="text-xl font-heading font-bold text-heading italic">{plantB.scientificName}</h3>
-                <p className="text-xs text-muted mt-1">{plantB.commonName}</p>
-                <p className="text-xs text-muted-light leading-relaxed mt-4 line-clamp-2">{plantB.aboutText}</p>
-                <Link
-                  href={`/plants/${plantB.genus}/${plantB.slug}`}
-                  className="mt-6 inline-flex text-xs font-semibold text-primary hover:underline items-center gap-1.5"
-                >
-                  View full profile
-                  <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                  </svg>
-                </Link>
+              <div className="flex gap-4 sm:gap-6 items-start">
+                <div className="flex-1 min-w-0">
+                  <span className="badge-primary mb-2 capitalize">{plantB.genus}</span>
+                  <h3 className="text-xl font-heading font-bold text-heading italic truncate">{plantB.scientificName}</h3>
+                  <p className="text-xs text-muted mt-1 truncate">{plantB.commonName}</p>
+                  <p className="text-xs text-muted-light leading-relaxed mt-4 line-clamp-2">{plantB.aboutText}</p>
+                  <Link
+                    href={`/plants/${plantB.genus}/${plantB.slug}`}
+                    className="mt-6 inline-flex text-xs font-semibold text-primary hover:underline items-center gap-1.5"
+                  >
+                    View full profile
+                    <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                    </svg>
+                  </Link>
+                </div>
+                {/* Minimised Botanical Plate */}
+                <div className="relative w-20 sm:w-24 shrink-0 aspect-[3/4] overflow-hidden rounded border border-border bg-background-soft shadow-sm group">
+                  <Image
+                    src={`/plants/${plantB.genus}/${plantB.slug}.png`}
+                    alt={plantB.commonName}
+                    fill
+                    className="object-contain transition-transform duration-300 group-hover:scale-105"
+                    sizes="(max-width: 640px) 80px, 96px"
+                    onError={(e) => {
+                      (e.currentTarget as HTMLImageElement).src = "/images/plant-placeholder.png";
+                    }}
+                  />
+                </div>
               </div>
             ) : (
               <div className="text-center py-12">
@@ -280,8 +311,40 @@ export default function ComparePage() {
               <thead>
                 <tr className="bg-primary/5 border-b border-primary/10">
                   <th className="p-4 font-bold uppercase tracking-wider text-muted w-1/4">Metric</th>
-                  <th className="p-4 font-bold uppercase tracking-wider text-primary italic w-3/8 truncate">{plantA.scientificName}</th>
-                  <th className="p-4 font-bold uppercase tracking-wider text-primary italic w-3/8 truncate">{plantB.scientificName}</th>
+                  <th className="p-4 font-bold uppercase tracking-wider text-primary italic w-3/8">
+                    <div className="flex items-center gap-3">
+                      <div className="relative w-8 h-10 shrink-0 overflow-hidden rounded border border-border bg-background-soft">
+                        <Image
+                          src={`/plants/${plantA.genus}/${plantA.slug}.png`}
+                          alt={plantA.commonName}
+                          fill
+                          className="object-contain"
+                          sizes="32px"
+                          onError={(e) => {
+                            (e.currentTarget as HTMLImageElement).src = "/images/plant-placeholder.png";
+                          }}
+                        />
+                      </div>
+                      <span className="truncate">{plantA.scientificName}</span>
+                    </div>
+                  </th>
+                  <th className="p-4 font-bold uppercase tracking-wider text-primary italic w-3/8">
+                    <div className="flex items-center gap-3">
+                      <div className="relative w-8 h-10 shrink-0 overflow-hidden rounded border border-border bg-background-soft">
+                        <Image
+                          src={`/plants/${plantB.genus}/${plantB.slug}.png`}
+                          alt={plantB.commonName}
+                          fill
+                          className="object-contain"
+                          sizes="32px"
+                          onError={(e) => {
+                            (e.currentTarget as HTMLImageElement).src = "/images/plant-placeholder.png";
+                          }}
+                        />
+                      </div>
+                      <span className="truncate">{plantB.scientificName}</span>
+                    </div>
+                  </th>
                 </tr>
               </thead>
               <tbody className="divide-y divide-primary/5 text-muted-light">
