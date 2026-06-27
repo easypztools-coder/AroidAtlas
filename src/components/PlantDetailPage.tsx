@@ -53,6 +53,14 @@ interface Morphology {
   growthHabit: string;
 }
 
+interface Propagation {
+  methods: string[];
+  difficulty: "Easy" | "Moderate" | "Challenging" | "Expert Only";
+  timeToEstablished: string;
+  propagatesTrue: boolean | null;
+  notes?: string;
+}
+
 interface PlantData {
   name: string;
   slug: string;
@@ -78,6 +86,7 @@ interface PlantData {
   };
   priceHistory?: PricePoint[];
   recommendedPlants: RecommendedPlant[];
+  propagation?: Propagation;
   fieldNotes?: {
     title: string;
     date: string;
@@ -668,6 +677,111 @@ export default function PlantDetailPage({
               </div>
             )}
           </div>
+
+          {/* Propagation */}
+          {data.propagation && (
+            <div className="rounded border border-border bg-surface p-6 md:p-8">
+              <div className="-mx-6 -mt-6 mb-6 h-px bg-accent/30 md:-mx-8 md:-mt-8 md:mb-8" />
+              <p className="font-body text-[10px] font-bold uppercase tracking-[0.16em] text-accent">
+                Propagation Guide
+              </p>
+              <h2 className="mt-1 font-heading text-xl font-semibold text-heading md:text-2xl">
+                Growing More Plants
+              </h2>
+
+              <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+                {/* Methods */}
+                <div className="space-y-2">
+                  <span className="font-body text-[10px] font-bold uppercase tracking-wider text-muted">
+                    Methods
+                  </span>
+                  <div className="flex flex-wrap gap-1.5 pt-1">
+                    {data.propagation.methods.map((m) => (
+                      <span
+                        key={m}
+                        className="rounded-sm border border-primary/20 bg-primary/8 px-2 py-0.5 text-[10px] font-medium text-primary"
+                      >
+                        {m}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+
+                {/* Difficulty */}
+                <div className="space-y-2">
+                  <span className="font-body text-[10px] font-bold uppercase tracking-wider text-muted">
+                    Difficulty
+                  </span>
+                  <div className="pt-1">
+                    <span
+                      className={`inline-block rounded-sm px-2.5 py-1 text-xs font-semibold ${
+                        data.propagation.difficulty === "Easy"
+                          ? "bg-leaf/10 text-leaf"
+                          : data.propagation.difficulty === "Moderate"
+                          ? "bg-amber-100 text-amber-700"
+                          : data.propagation.difficulty === "Challenging"
+                          ? "bg-orange-100 text-orange-700"
+                          : "bg-accent/10 text-accent"
+                      }`}
+                    >
+                      {data.propagation.difficulty}
+                    </span>
+                  </div>
+                </div>
+
+                {/* Time to established */}
+                <div className="space-y-2">
+                  <span className="font-body text-[10px] font-bold uppercase tracking-wider text-muted">
+                    Time to Establish
+                  </span>
+                  <p className="pt-1 text-sm font-medium text-heading">
+                    {data.propagation.timeToEstablished}
+                  </p>
+                </div>
+
+                {/* Propagates true */}
+                {data.propagation.propagatesTrue !== null && (
+                  <div className="space-y-2">
+                    <span className="font-body text-[10px] font-bold uppercase tracking-wider text-muted">
+                      True From Cuttings
+                    </span>
+                    <div className="flex items-center gap-1.5 pt-1">
+                      {data.propagation.propagatesTrue ? (
+                        <>
+                          <svg className="h-4 w-4 text-leaf" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                          </svg>
+                          <span className="text-sm font-medium text-leaf">Yes</span>
+                        </>
+                      ) : (
+                        <>
+                          <svg className="h-4 w-4 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                          </svg>
+                          <span className="text-sm font-medium text-accent">No</span>
+                        </>
+                      )}
+                    </div>
+                    <p className="text-[10px] leading-relaxed text-muted">
+                      {data.propagation.propagatesTrue
+                        ? "Cultivar character is preserved through vegetative cuttings"
+                        : "Variegation or cultivar traits may not carry through — select cuttings carefully"}
+                    </p>
+                  </div>
+                )}
+              </div>
+
+              {data.propagation.notes && (
+                <div className="mt-6 flex items-start gap-3 rounded border border-border bg-background-soft px-4 py-3">
+                  <svg className="mt-0.5 h-3.5 w-3.5 shrink-0 text-muted/50" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
+                    <circle cx="12" cy="12" r="10" />
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 16v-4m0-4h.01" />
+                  </svg>
+                  <p className="text-[11px] leading-relaxed text-muted">{data.propagation.notes}</p>
+                </div>
+              )}
+            </div>
+          )}
 
           {/* Field Notes */}
           {data.fieldNotes && (

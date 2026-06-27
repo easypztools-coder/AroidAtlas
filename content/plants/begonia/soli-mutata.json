@@ -79,5 +79,16 @@
     ],
     "marketCurrency": "GBP"
   },
-  "recommendedPlants": []
+  "recommendedPlants": [],
+  "propagation": {
+    "methods": [
+      "Leaf cutting",
+      "Stem cutting",
+      "Rhizome division"
+    ],
+    "difficulty": "Easy",
+    "timeToEstablished": "3-5 months",
+    "propagatesTrue": true,
+    "notes": "Most rhizomatous begonias root readily from leaf sections or petiole cuttings placed on moist substrate. Keep warm and humid until plantlets emerge at leaf margins."
+  }
 }

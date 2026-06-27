@@ -77,6 +77,16 @@
     "marketCurrency": "GBP"
   },
   "recommendedPlants": [],
+  "propagation": {
+    "methods": [
+      "Stem cutting",
+      "Offset (keiki)"
+    ],
+    "difficulty": "Challenging",
+    "timeToEstablished": "8-14 months",
+    "propagatesTrue": false,
+    "notes": "Variegation in this form is unstable — cuttings may revert to the standard green form. Select cuttings from the most highly variegated growth, but results are not guaranteed."
+  },
   "botanicalType": "variegated",
   "fieldNotes": {
     "title": "A Speckled Velvet Affair",

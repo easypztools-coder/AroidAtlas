@@ -77,5 +77,15 @@
     "marketCurrency": "GBP"
   },
   "recommendedPlants": [],
+  "propagation": {
+    "methods": [
+      "Stem cutting",
+      "Node cutting",
+      "Air layering"
+    ],
+    "difficulty": "Easy",
+    "timeToEstablished": "3-6 months",
+    "propagatesTrue": null
+  },
   "botanicalType": "cultivar"
 }

@@ -79,6 +79,16 @@
     "marketCurrency": "GBP"
   },
   "recommendedPlants": [],
+  "propagation": {
+    "methods": [
+      "Offset (corm/pup)",
+      "Corm division"
+    ],
+    "difficulty": "Easy",
+    "timeToEstablished": "3-6 months",
+    "propagatesTrue": true,
+    "notes": "Wait for the mother plant to produce corms or pups before dividing. Larger, well-established plants produce offsets most readily. Alocasias do not propagate reliably from stem cuttings."
+  },
   "fieldNotes": {
     "title": "Of Black Velvet and Pink Blushes",
     "date": "2022-03-15",

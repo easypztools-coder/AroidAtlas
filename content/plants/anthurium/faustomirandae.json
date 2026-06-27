@@ -77,5 +77,15 @@
     ],
     "marketCurrency": "GBP"
   },
-  "recommendedPlants": []
+  "recommendedPlants": [],
+  "propagation": {
+    "methods": [
+      "Offset (keiki)",
+      "Stem cutting"
+    ],
+    "difficulty": "Expert Only",
+    "timeToEstablished": "12-24 months",
+    "propagatesTrue": null,
+    "notes": "One of the most challenging anthuriums to propagate. Rarely produces offshoots. Stem cuttings require perfect humidity and warmth over many months. Best left to specialist growers."
+  }
 }

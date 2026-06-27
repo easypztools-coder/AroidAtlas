@@ -78,6 +78,15 @@
     "marketCurrency": "GBP"
   },
   "recommendedPlants": [],
+  "propagation": {
+    "methods": [
+      "Stem cutting",
+      "Node cutting"
+    ],
+    "difficulty": "Easy",
+    "timeToEstablished": "2-4 months",
+    "propagatesTrue": true
+  },
   "fieldNotes": {
     "title": "Silver Moon and Cream Splashes",
     "date": "2023-02-18",

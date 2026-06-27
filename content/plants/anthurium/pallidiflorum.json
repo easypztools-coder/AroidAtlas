@@ -80,6 +80,16 @@
     "marketCurrency": "GBP"
   },
   "recommendedPlants": [],
+  "propagation": {
+    "methods": [
+      "Stem cutting",
+      "Offset (keiki)"
+    ],
+    "difficulty": "Challenging",
+    "timeToEstablished": "10-16 months",
+    "propagatesTrue": null,
+    "notes": "Strap-leaf anthuriums rarely branch and are slow to produce offshoots. Stem cuttings require high humidity and warmth. Success rates are lower than velvet types."
+  },
   "fieldNotes": {
     "title": "A Cloud Forest Cascade",
     "date": "1898-07-22",

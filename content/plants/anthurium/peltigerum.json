@@ -77,5 +77,15 @@
     ],
     "marketCurrency": "GBP"
   },
-  "recommendedPlants": []
+  "recommendedPlants": [],
+  "propagation": {
+    "methods": [
+      "Stem cutting",
+      "Offset (keiki)"
+    ],
+    "difficulty": "Challenging",
+    "timeToEstablished": "8-14 months",
+    "propagatesTrue": null,
+    "notes": "Root in a closed high-humidity environment. Mature specimens may produce basal offshoots that can be carefully divided. Patience is essential — establishment is slow."
+  }
 }

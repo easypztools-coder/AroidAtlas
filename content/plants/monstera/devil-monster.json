@@ -99,6 +99,16 @@
       "price": "£££"
     }
   ],
+  "propagation": {
+    "methods": [
+      "Stem cutting",
+      "Node cutting",
+      "Air layering"
+    ],
+    "difficulty": "Easy",
+    "timeToEstablished": "3-6 months",
+    "propagatesTrue": null
+  },
   "fieldNotes": {
     "title": "Unraveling the Mint Monster",
     "date": "2024-05-30",

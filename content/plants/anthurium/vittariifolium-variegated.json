@@ -77,6 +77,16 @@
     "marketCurrency": "GBP"
   },
   "recommendedPlants": [],
+  "propagation": {
+    "methods": [
+      "Stem cutting",
+      "Offset (keiki)"
+    ],
+    "difficulty": "Challenging",
+    "timeToEstablished": "10-16 months",
+    "propagatesTrue": false,
+    "notes": "Strap-leaf anthuriums rarely branch and are slow to produce offshoots. Stem cuttings require high humidity and warmth. Success rates are lower than velvet types."
+  },
   "fieldNotes": {
     "title": "The Hanging Green Ribbons",
     "date": "2023-08-29",

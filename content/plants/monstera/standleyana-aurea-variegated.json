@@ -78,6 +78,17 @@
     "marketCurrency": "GBP"
   },
   "recommendedPlants": [],
+  "propagation": {
+    "methods": [
+      "Stem cutting",
+      "Node cutting",
+      "Air layering"
+    ],
+    "difficulty": "Easy",
+    "timeToEstablished": "3-6 months",
+    "propagatesTrue": true,
+    "notes": "Variegation carries reliably through cuttings. Select cuttings with strong variegation expression — avoid predominantly green sections."
+  },
   "fieldNotes": {
     "title": "The Five-Color Shingle Hybrid",
     "date": "2022-12-14",

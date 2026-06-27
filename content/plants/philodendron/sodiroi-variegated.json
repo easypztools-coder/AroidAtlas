@@ -77,5 +77,15 @@
     "marketCurrency": "GBP"
   },
   "recommendedPlants": [],
+  "propagation": {
+    "methods": [
+      "Stem cutting",
+      "Rhizome division"
+    ],
+    "difficulty": "Moderate",
+    "timeToEstablished": "5-9 months",
+    "propagatesTrue": true,
+    "notes": "Crawling rhizome species — take cuttings with at least one node from the rhizome. Avoid severing too close to the growing tip."
+  },
   "botanicalType": "variegated"
 }

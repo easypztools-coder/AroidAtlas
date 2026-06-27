@@ -79,6 +79,16 @@
     "marketCurrency": "GBP"
   },
   "recommendedPlants": [],
+  "propagation": {
+    "methods": [
+      "Offset (corm/pup)",
+      "Corm division"
+    ],
+    "difficulty": "Easy",
+    "timeToEstablished": "3-6 months",
+    "propagatesTrue": null,
+    "notes": "Wait for the mother plant to produce corms or pups before dividing. Larger, well-established plants produce offsets most readily. Alocasias do not propagate reliably from stem cuttings."
+  },
   "fieldNotes": {
     "title": "A Rather Compact Character",
     "date": "2015-03-15",

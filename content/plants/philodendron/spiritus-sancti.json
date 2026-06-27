@@ -143,6 +143,16 @@
       "price": "£££"
     }
   ],
+  "propagation": {
+    "methods": [
+      "Stem cutting",
+      "Node cutting"
+    ],
+    "difficulty": "Challenging",
+    "timeToEstablished": "4-8 months",
+    "propagatesTrue": null,
+    "notes": "Slow-growing species that roots reluctantly. Use moist sphagnum with high humidity and bottom heat. Multiple nodes improve success. Valuable enough that air layering is often preferred to avoid losing the cutting."
+  },
   "fieldNotes": {
     "title": "Hunting the Ghost of Espírito Santo",
     "date": "2024-03-12",

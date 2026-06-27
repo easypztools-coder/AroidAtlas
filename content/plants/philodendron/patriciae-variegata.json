@@ -78,6 +78,16 @@
     "marketCurrency": "GBP"
   },
   "recommendedPlants": [],
+  "propagation": {
+    "methods": [
+      "Stem cutting",
+      "Node cutting"
+    ],
+    "difficulty": "Moderate",
+    "timeToEstablished": "4-8 months",
+    "propagatesTrue": true,
+    "notes": "Single-node cuttings root readily in moist sphagnum or water. Maintain 70%+ humidity and bottom warmth for best results."
+  },
   "fieldNotes": {
     "title": "Draping Pleats in Green and Cream",
     "date": "2023-11-22",

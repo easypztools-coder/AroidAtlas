@@ -79,6 +79,17 @@
     "marketCurrency": "GBP"
   },
   "recommendedPlants": [],
+  "propagation": {
+    "methods": [
+      "Stem cutting",
+      "Node cutting",
+      "Air layering"
+    ],
+    "difficulty": "Challenging",
+    "timeToEstablished": "3-6 months",
+    "propagatesTrue": null,
+    "notes": "Requires particularly stable conditions during rooting. Node cuttings with one leaf are preferred. Mist frequently and maintain 80%+ humidity."
+  },
   "fieldNotes": {
     "title": "More Air Than Leaf",
     "date": "2020-03-18",

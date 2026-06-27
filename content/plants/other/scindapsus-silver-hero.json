@@ -77,5 +77,14 @@
     ],
     "marketCurrency": "GBP"
   },
-  "recommendedPlants": []
+  "recommendedPlants": [],
+  "propagation": {
+    "methods": [
+      "Stem cutting",
+      "Node cutting"
+    ],
+    "difficulty": "Easy",
+    "timeToEstablished": "2-4 months",
+    "propagatesTrue": true
+  }
 }
