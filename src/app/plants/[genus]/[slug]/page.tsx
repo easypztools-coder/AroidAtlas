@@ -118,12 +118,21 @@ function trimDescription(text: string, maxLen = 155): string {
   return (lastSpace > 100 ? cut.slice(0, lastSpace) : cut) + "…";
 }
 
+function buildMetaDescription(data: PlantData): string {
+  if (data.marketMetrics.currentMedianPriceGBP) {
+    const price = Math.round(data.marketMetrics.currentMedianPriceGBP);
+    const year = new Date().getFullYear();
+    return `${data.scientificName} costs around £${price} in the UK (${year}). Discover care tips, rarity data and live price history on Aroid Atlas.`;
+  }
+  return trimDescription(data.aboutText);
+}
+
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { genus, slug } = params;
   const data = loadPlantData(genus, slug);
   if (!data) return { title: "Plant Not Found" };
 
-  const description = trimDescription(data.aboutText);
+  const description = buildMetaDescription(data);
   const canonicalUrl = `https://aroidatlas.com/plants/${genus.toLowerCase()}/${slug}`;
 
   return {
@@ -229,6 +238,39 @@ export default function PlantPage({ params }: PageProps) {
             },
           ]
         : []),
+      {
+        "@type": "FAQPage",
+        mainEntity: [
+          ...(data.marketMetrics.currentMedianPriceGBP
+            ? [
+                {
+                  "@type": "Question",
+                  name: `How much does a ${data.scientificName} cost?`,
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: `A ${data.commonName} (${data.scientificName}) typically costs around £${Math.round(data.marketMetrics.currentMedianPriceGBP)} in the UK based on recent eBay UK sold comparables. It is classified as ${data.rarityStatus} and rated ${data.priceGuideTier} on the collector market.`,
+                  },
+                },
+              ]
+            : []),
+          {
+            "@type": "Question",
+            name: `Is ${data.scientificName} rare?`,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: `${data.scientificName} is classified as ${data.rarityStatus}. Availability is described as ${data.availability}. It originates from ${data.origin} and is considered a ${data.statusTag ? data.statusTag + " " : ""}collector specimen.`,
+            },
+          },
+          {
+            "@type": "Question",
+            name: `Where can I buy ${data.commonName}?`,
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: `${data.commonName} (${data.scientificName}) can be found on eBay UK, specialist aroid nurseries, and private collector groups. Aroid Atlas tracks live UK market prices to help you pay a fair price.`,
+            },
+          },
+        ],
+      },
     ],
   };
 

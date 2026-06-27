@@ -3,7 +3,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import PriceHistoryChart from "@/components/PriceHistoryChart";
+import dynamic from "next/dynamic";
+
+const PriceHistoryChart = dynamic(() => import("@/components/PriceHistoryChart"), {
+  loading: () => <div className="h-48 animate-pulse rounded-lg bg-card/60" />,
+  ssr: false,
+});
 import type { PriceHistoryPoint } from "@/lib/prices/types";
 import { getPriceRarityTier, getStaticTierLabel, TIER_RANGES } from "@/lib/prices/priceRarityTier";
 import { getBotanicalTypeDetails } from "@/components/GenusPlantList";
@@ -334,6 +339,15 @@ export default function PlantDetailPage({
                   ? "based on current UK retail prices"
                   : "community estimate"}
               </p>
+              {soldCompsData.length > 0 && (
+                <p className="text-[10px] text-price/50 mt-1">
+                  Data as of{" "}
+                  {new Date(soldCompsData[soldCompsData.length - 1].date).toLocaleDateString("en-GB", {
+                    month: "short",
+                    year: "numeric",
+                  })}
+                </p>
+              )}
             </div>
             <a
               href="#market-analysis"
@@ -353,6 +367,9 @@ export default function PlantDetailPage({
             className="object-contain"
             sizes="(max-width: 768px) 100vw, 50vw"
             priority
+            onError={(e) => {
+              (e.currentTarget as HTMLImageElement).src = "/images/plant-placeholder.png";
+            }}
           />
         </div>
 

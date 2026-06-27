@@ -103,9 +103,24 @@ function filterPlantsForCollection(slug: string, plants: PlantData[]): PlantData
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const collection = getCollectionBySlug(params.slug);
   if (!collection) return { title: "Collection Not Found" };
+  const title = `${collection.name} — Curated Rare Plant Collection`;
+  const canonicalUrl = `https://aroidatlas.com/collections/${params.slug}`;
   return {
-    title: `${collection.name} — Curated Rare Plant Collection`,
+    title,
     description: collection.description,
+    alternates: { canonical: canonicalUrl },
+    openGraph: {
+      title: `${title} | Aroid Atlas`,
+      description: collection.description,
+      url: canonicalUrl,
+      siteName: "Aroid Atlas",
+      type: "website",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${title} | Aroid Atlas`,
+      description: collection.description,
+    },
   };
 }
 
@@ -132,8 +147,38 @@ export default function CollectionPage({ params }: PageProps) {
   const allPlants = getAllPlants();
   const plants = filterPlantsForCollection(collection.slug, allPlants);
 
+  const baseUrl = "https://aroidatlas.com";
+  const collectionJsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: baseUrl },
+          { "@type": "ListItem", position: 2, name: collection.name, item: `${baseUrl}/collections/${collection.slug}` },
+        ],
+      },
+      {
+        "@type": "ItemList",
+        name: collection.name,
+        description: collection.description,
+        numberOfItems: plants.length,
+        itemListElement: plants.slice(0, 20).map((plant, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: plant.scientificName,
+          url: `${baseUrl}/plants/${plant.genus.toLowerCase()}/${plant.slug}`,
+        })),
+      },
+    ],
+  };
+
   return (
     <div className="max-w-7xl mx-auto px-6 py-16">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionJsonLd) }}
+      />
       <nav className="flex items-center gap-2 text-xs text-muted mb-8">
         <Link href="/" className="hover:text-primary transition-colors">
           Home

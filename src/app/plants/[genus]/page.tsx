@@ -54,13 +54,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   const genusCapitalized = params.genus.charAt(0).toUpperCase() + params.genus.slice(1).toLowerCase();
   const title = `${genusCapitalized} Species — Neotropical Climbing Aroids`;
   const description = `Browse ${genusCapitalized} species and cultivars with detailed care profiles and live eBay UK price tracking.`;
+  const canonicalUrl = `https://aroidatlas.com/plants/${params.genus.toLowerCase()}`;
   return {
     title,
     description,
+    alternates: {
+      canonical: canonicalUrl,
+    },
     openGraph: {
       title: `${title} | Aroid Atlas`,
       description,
-      url: `https://aroidatlas.com/plants/${params.genus}`,
+      url: canonicalUrl,
       siteName: "Aroid Atlas",
     },
     twitter: {

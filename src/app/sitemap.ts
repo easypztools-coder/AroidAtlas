@@ -81,11 +81,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const file of files) {
       const filePath = path.join(dirPath, file);
       const slug = file.replace(".json", "");
+      let hasPriceData = false;
+      try {
+        const plantJson = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+        hasPriceData = plantJson?.marketMetrics?.currentMedianPriceGBP != null;
+      } catch {
+        // leave hasPriceData false
+      }
       routes.push({
         url: `${BASE_URL}/plants/${genus}/${slug}`,
         lastModified: fileMtime(filePath),
         changeFrequency: "weekly",
-        priority: 0.7,
+        priority: hasPriceData ? 0.9 : 0.7,
       });
     }
   }

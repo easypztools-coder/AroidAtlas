@@ -162,7 +162,7 @@ export async function GET(
  */
 function loadEmbeddedPriceHistory(slug: string): PriceHistoryResponse | null {
   const plantsRoot = path.join(process.cwd(), "content", "plants");
-  const genera = ["alocasia", "anthurium", "monstera", "philodendron", "other"];
+  const genera = ["alocasia", "anthurium", "begonia", "monstera", "philodendron", "other"];
 
   for (const genus of genera) {
     const filePath = path.join(plantsRoot, genus, `${slug}.json`);

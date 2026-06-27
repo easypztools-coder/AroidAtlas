@@ -235,6 +235,9 @@ export default function GenusPlantList({ initialPlants, genus }: GenusPlantListP
                           fill
                           className="object-cover object-center scale-[1.3] transition-all duration-500 ease-out group-hover:scale-[1.4] opacity-90 group-hover:opacity-100"
                           sizes="80px"
+                          onError={(e) => {
+                            (e.currentTarget as HTMLImageElement).src = "/images/plant-placeholder.png";
+                          }}
                         />
                         {/* Spotlight overlay */}
                         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_20%,rgba(17,26,21,0.8)_80%,#111A15_100%)] pointer-events-none" />

@@ -1,4 +1,12 @@
 User-agent: *
 Allow: /
+Disallow: /api/admin/
+Disallow: /api/cron/
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
 
 Sitemap: https://aroidatlas.com/sitemap.xml

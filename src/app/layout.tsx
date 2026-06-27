@@ -17,7 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://aroidatlas.com"), // TODO: update with real domain before going live
+  metadataBase: new URL("https://aroidatlas.com"),
   title: {
     default: "Aroid Atlas — Rare Tropical Plant Encyclopedia",
     template: "%s | Aroid Atlas",
@@ -63,6 +63,17 @@ export const metadata: Metadata = {
   manifest: "/manifest.json",
 };
 
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Aroid Atlas",
+  url: "https://aroidatlas.com",
+  logo: "https://aroidatlas.com/images/logo.png",
+  description:
+    "The visual encyclopedia of rare tropical plants. Live eBay UK market prices, species profiles, and cultivation data.",
+  sameAs: [],
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -71,6 +82,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${merriweather.variable} ${inter.variable}`}>
       <body className="bg-background text-muted font-body antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
         <div className="flex min-h-screen flex-col">
           <Navbar />
 
