@@ -236,20 +236,18 @@ async function main() {
       pricesByType[type].push(price);
     }
 
-    if (pricesByType.all.length === 0) {
-      console.log(`  ⚠️ No in-stock listings for stats. Skipping snapshot stats.`);
-      continue;
-    }
-
-    // Compute stats by type
+    // Compute stats by type (in-stock only — sold-out listings are still saved below)
     const statsByType: Record<string, any> = {};
-    for (const [type, prices] of Object.entries(pricesByType)) {
-      if (prices.length === 0) continue;
-      statsByType[type] = calculateRetailStats(prices);
+    if (pricesByType.all.length > 0) {
+      for (const [type, prices] of Object.entries(pricesByType)) {
+        if (prices.length === 0) continue;
+        statsByType[type] = calculateRetailStats(prices);
+      }
+      const overallStats = statsByType.all;
+      console.log(`  Overall retail stats: count=${overallStats.count}, trimmedMean=£${overallStats.trimmedMean.toFixed(2)}, min=£${overallStats.min.toFixed(2)}, max=£${overallStats.max.toFixed(2)}`);
+    } else {
+      console.log(`  ⚠️ No in-stock listings for stats — saving observations only (sold-out listings will still appear on site).`);
     }
-
-    const overallStats = statsByType.all;
-    console.log(`  Overall retail stats: count=${overallStats.count}, trimmedMean=£${overallStats.trimmedMean.toFixed(2)}, min=£${overallStats.min.toFixed(2)}, max=£${overallStats.max.toFixed(2)}`);
 
     // ─── Save Snapshot Locally ───────────────────────────────────────────────
     const plantSnapshotDir = path.join(snapshotsRoot, plant.slug);
@@ -278,7 +276,7 @@ async function main() {
     // ─── Save to Database (if active) ────────────────────────────────────────
     if (db && runId) {
       try {
-        // Upsert observations
+        // Upsert observations (including sold-out listings)
         for (const obs of observations) {
           const existingRes = await db.query(
             "SELECT id, price_gbp FROM retail_price_observations WHERE retailer_slug = $1 AND product_url = $2",

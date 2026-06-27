@@ -1150,6 +1150,18 @@ export default function PlantDetailPage({
             </svg>
             Find on Etsy UK
           </a>
+
+          <a
+            href={`https://www.ebay.co.uk/sch/i.html?_nkw=${encodeURIComponent(data.name)}&_sacat=0&LH_BIN=1&_sop=15`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex w-full items-center justify-center gap-2 rounded-sm border border-border bg-transparent px-5 py-3 text-sm font-semibold text-muted transition-all duration-150 hover:border-border-strong hover:text-heading"
+          >
+            <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg>
+            Find on eBay UK
+          </a>
         </div>
       </div>
 
