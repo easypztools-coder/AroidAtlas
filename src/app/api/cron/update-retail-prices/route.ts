@@ -157,6 +157,7 @@ export async function GET(request: NextRequest) {
       )
     `);
     await db.query(`CREATE INDEX IF NOT EXISTS idx_review_status ON retail_price_review_queue(status)`);
+    await db.query(`CREATE UNIQUE INDEX IF NOT EXISTS uq_review_retailer_product_url ON retail_price_review_queue(retailer_slug, product_url)`);
     await db.query(`
       CREATE TABLE IF NOT EXISTS retail_scrape_errors (
         id SERIAL PRIMARY KEY,

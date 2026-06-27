@@ -71,6 +71,11 @@ async function migrate() {
       CREATE INDEX IF NOT EXISTS idx_obs_plant_stock ON retail_price_observations(plant_slug, in_stock);
     `);
 
+    await pool.query(`
+      CREATE UNIQUE INDEX IF NOT EXISTS uq_obs_retailer_product_url ON retail_price_observations(retailer_slug, product_url);
+    `);
+
+
     // 3. Retail Price Snapshots
     console.log("Creating retail_price_snapshots table...");
     await pool.query(`
@@ -117,6 +122,11 @@ async function migrate() {
     await pool.query(`
       CREATE INDEX IF NOT EXISTS idx_review_status ON retail_price_review_queue(status);
     `);
+
+    await pool.query(`
+      CREATE UNIQUE INDEX IF NOT EXISTS uq_review_retailer_product_url ON retail_price_review_queue(retailer_slug, product_url);
+    `);
+
 
     // 5. Scrape Errors
     console.log("Creating retail_scrape_errors table...");

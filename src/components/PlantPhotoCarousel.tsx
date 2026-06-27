@@ -67,10 +67,10 @@ export default function PlantPhotoCarousel({ slug, scientificName }: Props) {
   const isErrored = imgError[current];
 
   return (
-    <div className="space-y-3">
+    <div className="space-y-2.5 max-w-md">
       <div className="flex items-center justify-between">
         <div>
-          <h2 className="font-heading text-lg font-semibold text-heading">In the Wild</h2>
+          <h2 className="font-heading text-base font-semibold text-heading">In the Wild</h2>
           <p className="text-[10px] text-muted">
             Research-grade observations of{" "}
             <span className="italic">{taxonName || scientificName}</span> via iNaturalist

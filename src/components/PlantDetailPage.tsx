@@ -526,7 +526,7 @@ export default function PlantDetailPage({
 
             {/* Retail Listings */}
             {retailData && retailData.listings.length > 0 && (
-              <div className="grid grid-cols-1 gap-6 border-t border-border pt-6 md:grid-cols-5">
+              <div id="retail-specimens" className="grid grid-cols-1 gap-6 border-t border-border pt-6 md:grid-cols-5">
                 <div className="space-y-3 md:col-span-3">
                   <div>
                     <h3 className="text-sm font-semibold text-heading">Retail Specimens</h3>
@@ -1015,28 +1015,42 @@ export default function PlantDetailPage({
 
           {/* ── KPI Cards ── */}
           <div className="space-y-3">
-            <div className="flex flex-col justify-between rounded border border-border bg-background-soft p-4">
-              <span className="font-body text-[10px] font-bold uppercase tracking-wider text-muted">
-                Retail Price
-              </span>
-              <div className="mt-3 flex items-baseline gap-1.5">
-                {retailAverage ? (
-                  <>
-                    <span className="font-heading text-2xl font-semibold text-primary">
-                      £{retailAverage.value.toFixed(0)}
-                    </span>
-                    <span className="text-[10px] text-muted">GBP</span>
-                  </>
-                ) : (
+            {retailAverage ? (
+              <a
+                href="#retail-specimens"
+                className="flex flex-col justify-between rounded border border-border bg-background-soft p-4 transition-all duration-150 hover:border-primary/40 hover:bg-surface hover:shadow-glass group"
+              >
+                <div className="flex items-center justify-between">
+                  <span className="font-body text-[10px] font-bold uppercase tracking-wider text-muted">
+                    Retail Price
+                  </span>
+                  <span className="text-[9px] font-semibold text-primary/70 opacity-0 group-hover:opacity-100 transition-opacity duration-150">
+                    Verify Listings →
+                  </span>
+                </div>
+                <div className="mt-3 flex items-baseline gap-1.5">
+                  <span className="font-heading text-2xl font-semibold text-primary">
+                    £{retailAverage.value.toFixed(0)}
+                  </span>
+                  <span className="text-[10px] text-muted">GBP</span>
+                </div>
+                <span className="mt-2 text-[10px] leading-relaxed text-muted">
+                  Trimmed mean across {retailAverage.count} active UK listing{retailAverage.count !== 1 ? "s" : ""}
+                </span>
+              </a>
+            ) : (
+              <div className="flex flex-col justify-between rounded border border-border bg-background-soft p-4">
+                <span className="font-body text-[10px] font-bold uppercase tracking-wider text-muted">
+                  Retail Price
+                </span>
+                <div className="mt-3 flex items-baseline gap-1.5">
                   <span className="font-heading text-xl font-semibold text-muted/50">Not tracked</span>
-                )}
+                </div>
+                <span className="mt-2 text-[10px] leading-relaxed text-muted">
+                  Not currently stocked by tracked UK retailers
+                </span>
               </div>
-              <span className="mt-2 text-[10px] leading-relaxed text-muted">
-                {retailAverage
-                  ? `Trimmed mean across ${retailAverage.count} active UK listing${retailAverage.count !== 1 ? "s" : ""}`
-                  : "Not currently stocked by tracked UK retailers"}
-              </span>
-            </div>
+            )}
 
             <div className="flex flex-col justify-between rounded border border-border bg-background-soft p-4">
               <span className="font-body text-[10px] font-bold uppercase tracking-wider text-muted">
