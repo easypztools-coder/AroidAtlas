@@ -325,10 +325,12 @@ export async function GET(request: NextRequest) {
 
       for (const obs of observations) {
         const price = parseFloat(obs.price_gbp);
-        const type = obs.plant_size_label || "unknown";
+        const type = obs.plant_size_label;
         pricesByType.all.push(price);
-        if (!pricesByType[type]) pricesByType[type] = [];
-        pricesByType[type].push(price);
+        if (type && type !== "unknown") {
+          if (!pricesByType[type]) pricesByType[type] = [];
+          pricesByType[type].push(price);
+        }
       }
 
       for (const [itemType, prices] of Object.entries(pricesByType)) {

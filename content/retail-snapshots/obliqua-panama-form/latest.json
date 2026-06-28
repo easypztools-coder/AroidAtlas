@@ -1,0 +1,41 @@
+{
+  "plantSlug": "obliqua-panama-form",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Monstera obliqua 'Panama'",
+      "productUrl": "https://growtropicals.com/products/monstera-obliqua-panama",
+      "priceGbp": 45,
+      "inStock": true,
+      "variantTitle": "9cm",
+      "potSizeCm": 9,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    }
+  ],
+  "statsByType": {
+    "all": {
+      "min": 45,
+      "max": 45,
+      "median": 45,
+      "mean": 45,
+      "trimmedMean": 45,
+      "p25": 45,
+      "p75": 45,
+      "count": 1
+    },
+    "established_plant": {
+      "min": 45,
+      "max": 45,
+      "median": 45,
+      "mean": 45,
+      "trimmedMean": 45,
+      "p25": 45,
+      "p75": 45,
+      "count": 1
+    }
+  }
+}

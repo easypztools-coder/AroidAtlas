@@ -1,0 +1,67 @@
+{
+  "plantSlug": "epipremnum-pinnatum-cebu-blue",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "conservatory-archives",
+      "retailerName": "Conservatory Archives",
+      "title": "Epipremnum pinnatum 'Cebu Blue'",
+      "productUrl": "https://conservatoryarchives.co.uk/products/epipremnum-pinnatum-cebu-blue",
+      "priceGbp": 12,
+      "inStock": false,
+      "variantTitle": "12 / 20",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "conservatory-archives",
+      "retailerName": "Conservatory Archives",
+      "title": "Epipremnum pinnatum 'Cebu Blue'",
+      "productUrl": "https://conservatoryarchives.co.uk/products/epipremnum-pinnatum-cebu-blue",
+      "priceGbp": 25,
+      "inStock": false,
+      "variantTitle": "14 / 190",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "conservatory-archives",
+      "retailerName": "Conservatory Archives",
+      "title": "Epipremnum pinnatum 'Cebu Blue'",
+      "productUrl": "https://conservatoryarchives.co.uk/products/epipremnum-pinnatum-cebu-blue",
+      "priceGbp": 25,
+      "inStock": false,
+      "variantTitle": "15 / 45",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "conservatory-archives",
+      "retailerName": "Conservatory Archives",
+      "title": "Epipremnum pinnatum 'Cebu Blue'",
+      "productUrl": "https://conservatoryarchives.co.uk/products/epipremnum-pinnatum-cebu-blue",
+      "priceGbp": 20,
+      "inStock": false,
+      "variantTitle": "15 / 35",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "urban-tropicana",
+      "retailerName": "Urban Tropicana",
+      "title": "Epipremnum Cebu Blue | 12cm pot",
+      "productUrl": "https://urbantropicana.co.uk/products/epipremnum-cebu-blue",
+      "priceGbp": 12,
+      "inStock": false,
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {}
+}

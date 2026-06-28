@@ -1,0 +1,33 @@
+{
+  "plantSlug": "whipple-way",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Philodendron Whipple Way (TC Plantlet) - Preorder",
+      "productUrl": "https://growtropicals.com/products/philodendron-whipple-way-tc-plantlet-preorder",
+      "priceGbp": 18.99,
+      "inStock": false,
+      "variantTitle": "TC Plant",
+      "plantSizeLabel": "tc_plantlet",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Philodendron Whipple Way",
+      "productUrl": "https://growtropicals.com/products/philodendron-whipple-way",
+      "priceGbp": 39.99,
+      "originalPriceGbp": 120,
+      "inStock": false,
+      "variantTitle": "9cm",
+      "potSizeCm": 9,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    }
+  ],
+  "statsByType": {}
+}

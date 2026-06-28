@@ -1,0 +1,35 @@
+{
+  "plantSlug": "scindapsus-treubii-moonlight-variegated",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Scindapsus treubii 'moonlight' variegated",
+      "productUrl": "https://growtropicals.com/products/scindapsus-treubii-moonlight-variegated",
+      "priceGbp": 17.99,
+      "originalPriceGbp": 39.99,
+      "inStock": false,
+      "variantTitle": "9cm",
+      "potSizeCm": 9,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Scindapsus treubii 'moonlight' variegated",
+      "productUrl": "https://www.houseofkojo.com/products/scindapsus-treubii-moonlight-variegated",
+      "priceGbp": 17.99,
+      "originalPriceGbp": 39.99,
+      "inStock": false,
+      "variantTitle": "9cm",
+      "potSizeCm": 9,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    }
+  ],
+  "statsByType": {}
+}

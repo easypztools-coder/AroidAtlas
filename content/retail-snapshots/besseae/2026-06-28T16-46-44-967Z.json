@@ -1,0 +1,98 @@
+{
+  "plantSlug": "besseae",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Anthurium besseae aff. × ‘Fort Sherman’",
+      "productUrl": "https://growtropicals.com/products/anthurium-besseae-aff-fort-sherman",
+      "priceGbp": 80,
+      "inStock": false,
+      "variantTitle": "9cm",
+      "potSizeCm": 9,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Anthurium besseae aff x papillilaminum GY",
+      "productUrl": "https://growtropicals.com/products/anthurium-besseae-aff-x-papililaminum-gy",
+      "priceGbp": 75,
+      "inStock": false,
+      "variantTitle": "A1",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Anthurium besseae aff x papillilaminum GY",
+      "productUrl": "https://growtropicals.com/products/anthurium-besseae-aff-x-papililaminum-gy",
+      "priceGbp": 75,
+      "inStock": false,
+      "variantTitle": "A2",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Anthurium besseae aff. 'Dark Velvet' x Ecuador dark no id",
+      "productUrl": "https://growtropicals.com/products/anthurium-besseae-aff-dark-velvet-x-ecuador-dark-no-id",
+      "priceGbp": 55,
+      "originalPriceGbp": 90,
+      "inStock": false,
+      "variantTitle": "6cm",
+      "potSizeCm": 6,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Anthurium besseae aff. 'Dark Velvet'",
+      "productUrl": "https://growtropicals.com/products/anthurium-besseae-aff",
+      "priceGbp": 80,
+      "originalPriceGbp": 90,
+      "inStock": false,
+      "variantTitle": "9cm Prop",
+      "potSizeCm": 9,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Anthurium besseae aff. 'Dark Velvet'",
+      "productUrl": "https://growtropicals.com/products/anthurium-besseae-aff",
+      "priceGbp": 95,
+      "inStock": false,
+      "variantTitle": "17cm",
+      "potSizeCm": 17,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Anthurium besseae aff. 'Dark Velvet'",
+      "productUrl": "https://growtropicals.com/products/anthurium-besseae-aff",
+      "priceGbp": 80,
+      "inStock": false,
+      "variantTitle": "9cm",
+      "potSizeCm": 9,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {}
+}

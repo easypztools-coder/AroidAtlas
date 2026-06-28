@@ -7,6 +7,10 @@
     {
       "path": "/api/cron/update-retail-prices",
       "schedule": "0 0 * * 0"
+    },
+    {
+      "path": "/api/cron/update-ebay-prices",
+      "schedule": "0 2 * * 0"
     }
   ]
 }

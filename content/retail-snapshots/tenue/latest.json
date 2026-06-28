@@ -1,0 +1,20 @@
+{
+  "plantSlug": "tenue",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Philodendron tenue 'Jesus Marie'",
+      "productUrl": "https://growtropicals.com/products/philodendron-tenue-jesus-marie",
+      "priceGbp": 40,
+      "inStock": false,
+      "variantTitle": "9cm",
+      "potSizeCm": 9,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {}
+}

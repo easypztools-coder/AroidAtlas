@@ -1,0 +1,33 @@
+{
+  "plantSlug": "distantilobum",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Philodendron distantilobum ‘Wide Form'",
+      "productUrl": "https://www.houseofkojo.com/products/philodendron-distantilobum-wide-form",
+      "priceGbp": 18.99,
+      "originalPriceGbp": 35.99,
+      "inStock": false,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "conservatory-archives",
+      "retailerName": "Conservatory Archives",
+      "title": "Philodendron distantilobum",
+      "productUrl": "https://conservatoryarchives.co.uk/products/philodendron-distantilobum",
+      "priceGbp": 12,
+      "inStock": false,
+      "variantTitle": "12 / 25",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    }
+  ],
+  "statsByType": {}
+}

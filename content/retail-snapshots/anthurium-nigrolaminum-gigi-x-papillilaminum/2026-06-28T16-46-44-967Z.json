@@ -1,0 +1,106 @@
+{
+  "plantSlug": "anthurium-nigrolaminum-gigi-x-papillilaminum",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Anthurium Hybrid Mystery Plant",
+      "productUrl": "https://growtropicals.com/products/anthurium-hybrid-mystery-plant",
+      "priceGbp": 29.99,
+      "inStock": false,
+      "variantTitle": "12cm / 1 Plant",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Anthurium nigrolaminum 'Gigi' x papillilaminum",
+      "productUrl": "https://growtropicals.com/products/anthurium-nigrolaminum-gigi-x-papillilaminum",
+      "priceGbp": 37.99,
+      "originalPriceGbp": 49.99,
+      "inStock": false,
+      "variantTitle": "9cm",
+      "potSizeCm": 9,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Rare Anthurium Baby Bundle",
+      "productUrl": "https://growtropicals.com/products/rare-anthurium-baby-bundle",
+      "priceGbp": 79.99,
+      "originalPriceGbp": 89.97,
+      "inStock": true,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Anthurium Hybrid Mystery Plant",
+      "productUrl": "https://www.houseofkojo.com/products/anthurium-dark-form",
+      "priceGbp": 29.99,
+      "inStock": false,
+      "variantTitle": "12cm / 1 Plant",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Anthurium nigrolaminum 'Gigi' x papillilaminum",
+      "productUrl": "https://www.houseofkojo.com/products/anthurium-nigrolaminum-gigi-x-papillilaminum",
+      "priceGbp": 37.99,
+      "originalPriceGbp": 49.99,
+      "inStock": false,
+      "variantTitle": "9cm",
+      "potSizeCm": 9,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Rare Anthurium Bundle",
+      "productUrl": "https://www.houseofkojo.com/products/rare-anthurium-bundle",
+      "priceGbp": 203.99,
+      "originalPriceGbp": 240.99,
+      "inStock": false,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {
+    "all": {
+      "min": 79.99,
+      "max": 79.99,
+      "median": 79.99,
+      "mean": 79.99,
+      "trimmedMean": 79.99,
+      "p25": 79.99,
+      "p75": 79.99,
+      "count": 1
+    },
+    "established_plant": {
+      "min": 79.99,
+      "max": 79.99,
+      "median": 79.99,
+      "mean": 79.99,
+      "trimmedMean": 79.99,
+      "p25": 79.99,
+      "p75": 79.99,
+      "count": 1
+    }
+  }
+}

@@ -33,7 +33,8 @@ jobs:
 
       - name: Fetch and update prices
         env:
-          SOLDCOMPS_API_KEY: ${{ secrets.SOLDCOMPS_API_KEY }}
+          SOLDCOMPS_API_KEY: ${{ secrets.SOLDCOMP_API_KEY }}
+          POSTGRES_URL: ${{ secrets.POSTGRES_URL }}
         run: |
           PLANTS="${{ github.event.inputs.plants }}"
           if [ -n "$PLANTS" ]; then

@@ -1,0 +1,42 @@
+{
+  "plantSlug": "loco",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "alocasia-company",
+      "retailerName": "The Alocasia Company",
+      "title": "ALOCASIA LOCO",
+      "productUrl": "https://www.thealocasiacompany.co.uk/products/alocasia-loco",
+      "priceGbp": 39.99,
+      "inStock": false,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "urban-tropicana",
+      "retailerName": "Urban Tropicana",
+      "title": "Alocasia Loco | 14cm pot",
+      "productUrl": "https://urbantropicana.co.uk/products/alocasia-loco-14cm-pot",
+      "priceGbp": 38,
+      "inStock": false,
+      "potSizeCm": 14,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "urban-tropicana",
+      "retailerName": "Urban Tropicana",
+      "title": "Alocasia Loco | 10.5cm pot",
+      "productUrl": "https://urbantropicana.co.uk/products/alocasia-loco-15cm-pot",
+      "priceGbp": 35,
+      "inStock": false,
+      "potSizeCm": 10.5,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {}
+}

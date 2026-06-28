@@ -1,0 +1,85 @@
+{
+  "plantSlug": "delta-force",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Anthurium 'Delta Force'",
+      "productUrl": "https://growtropicals.com/products/anthurium-delta-force",
+      "priceGbp": 29.99,
+      "inStock": false,
+      "variantTitle": "6cm",
+      "potSizeCm": 6,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Anthurium 'Delta Force'",
+      "productUrl": "https://growtropicals.com/products/anthurium-delta-force",
+      "priceGbp": 599.99,
+      "inStock": false,
+      "variantTitle": "9cm",
+      "potSizeCm": 9,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Anthurium 'Delta Force'",
+      "productUrl": "https://growtropicals.com/products/anthurium-delta-force",
+      "priceGbp": 152.99,
+      "inStock": false,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Anthurium Delta Force",
+      "productUrl": "https://www.houseofkojo.com/products/anthurium-delta-force",
+      "priceGbp": 29.99,
+      "inStock": false,
+      "variantTitle": "6cm",
+      "potSizeCm": 6,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Anthurium Delta Force",
+      "productUrl": "https://www.houseofkojo.com/products/anthurium-delta-force",
+      "priceGbp": 599.99,
+      "inStock": false,
+      "variantTitle": "9cm",
+      "potSizeCm": 9,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Anthurium Delta Force",
+      "productUrl": "https://www.houseofkojo.com/products/anthurium-delta-force",
+      "priceGbp": 152.99,
+      "inStock": false,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {}
+}

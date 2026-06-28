@@ -1,0 +1,21 @@
+{
+  "plantSlug": "pedatoradiatum",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Imperfect Anthurium pedatoradiatum",
+      "productUrl": "https://growtropicals.com/products/imperfect-anthurium-pedatoradiatum",
+      "priceGbp": 39.99,
+      "originalPriceGbp": 79.99,
+      "inStock": false,
+      "variantTitle": "12cm Imperfect",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {}
+}

@@ -1,0 +1,21 @@
+{
+  "plantSlug": "princeps",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Alocasia princeps 'Purple Cloak'",
+      "productUrl": "https://www.houseofkojo.com/products/alocasia-princeps-purple-cloak",
+      "priceGbp": 64.99,
+      "originalPriceGbp": 74.99,
+      "inStock": false,
+      "variantTitle": "14cm",
+      "potSizeCm": 14,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {}
+}

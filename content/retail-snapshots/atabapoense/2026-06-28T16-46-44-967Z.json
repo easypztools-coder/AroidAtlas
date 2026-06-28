@@ -1,0 +1,61 @@
+{
+  "plantSlug": "atabapoense",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Philodendron atabapoense 'Santa Leopoldina'",
+      "productUrl": "https://www.houseofkojo.com/products/philodendron-atabapoense-santa-leopoldina",
+      "priceGbp": 17.99,
+      "inStock": false,
+      "variantTitle": "9cm",
+      "potSizeCm": 9,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Philodendron atabapoense 'Santa Leopoldina'",
+      "productUrl": "https://www.houseofkojo.com/products/philodendron-atabapoense-santa-leopoldina",
+      "priceGbp": 22.99,
+      "inStock": false,
+      "variantTitle": "10.5cm",
+      "potSizeCm": 10.5,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Philodendron atabapoense 'Santa Leopoldina'",
+      "productUrl": "https://www.houseofkojo.com/products/philodendron-atabapoense-santa-leopoldina",
+      "priceGbp": 15.99,
+      "originalPriceGbp": 39.99,
+      "inStock": false,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Philodendron atabapoense 'Santa Leopoldina'",
+      "productUrl": "https://www.houseofkojo.com/products/philodendron-atabapoense-santa-leopoldina",
+      "priceGbp": 21.99,
+      "originalPriceGbp": 23.99,
+      "inStock": false,
+      "variantTitle": "15cm",
+      "potSizeCm": 15,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {}
+}

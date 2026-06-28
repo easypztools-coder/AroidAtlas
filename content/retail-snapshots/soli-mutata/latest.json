@@ -1,0 +1,20 @@
+{
+  "plantSlug": "soli-mutata",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "sprouts-of-bristol",
+      "retailerName": "Sprouts of Bristol",
+      "title": "Begonia solimutata – Sun Changing Begonia",
+      "productUrl": "https://sproutsofbristol.co.uk/products/begonia-solimutata-sun-changing-begonia",
+      "priceGbp": 8,
+      "inStock": false,
+      "variantTitle": "8cm",
+      "potSizeCm": 8,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {}
+}

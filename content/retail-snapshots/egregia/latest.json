@@ -1,0 +1,46 @@
+{
+  "plantSlug": "egregia",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Monstera egregia",
+      "productUrl": "https://www.houseofkojo.com/products/monstera-egregia",
+      "priceGbp": 19.99,
+      "inStock": false,
+      "variantTitle": "6cm",
+      "potSizeCm": 6,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Monstera egregia",
+      "productUrl": "https://www.houseofkojo.com/products/monstera-egregia",
+      "priceGbp": 24.99,
+      "inStock": false,
+      "variantTitle": "9cm",
+      "potSizeCm": 9,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Monstera egregia",
+      "productUrl": "https://www.houseofkojo.com/products/monstera-egregia",
+      "priceGbp": 55.99,
+      "inStock": false,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    }
+  ],
+  "statsByType": {}
+}

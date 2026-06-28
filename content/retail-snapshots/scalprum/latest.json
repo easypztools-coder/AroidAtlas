@@ -1,0 +1,31 @@
+{
+  "plantSlug": "scalprum",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "urban-tropicana",
+      "retailerName": "Urban Tropicana",
+      "title": "Alocasia Scalprum | 14cm pot",
+      "productUrl": "https://urbantropicana.co.uk/products/alocasia-scalprum",
+      "priceGbp": 22,
+      "inStock": false,
+      "potSizeCm": 14,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "urban-tropicana",
+      "retailerName": "Urban Tropicana",
+      "title": "Alocasia Scalprum | 6cm pot",
+      "productUrl": "https://urbantropicana.co.uk/products/alocasia-scalprum-6cm-pot-1",
+      "priceGbp": 8,
+      "inStock": false,
+      "potSizeCm": 6,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {}
+}

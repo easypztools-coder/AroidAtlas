@@ -1,0 +1,19 @@
+{
+  "plantSlug": "billietiae-variegated",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Philodendron Billietiae Variegated (TC Plantlet) - Preorder",
+      "productUrl": "https://growtropicals.com/products/philodendron-billietiae-variegated-tc-plantlet-preorder",
+      "priceGbp": 54.99,
+      "inStock": false,
+      "variantTitle": "TC Plant",
+      "plantSizeLabel": "tc_plantlet",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {}
+}

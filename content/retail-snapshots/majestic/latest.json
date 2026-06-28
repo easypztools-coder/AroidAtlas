@@ -1,0 +1,20 @@
+{
+  "plantSlug": "majestic",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Philodendron Majestic",
+      "productUrl": "https://www.houseofkojo.com/products/philodendron-majestic",
+      "priceGbp": 20.99,
+      "inStock": false,
+      "variantTitle": "10.5cm",
+      "potSizeCm": 10.5,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    }
+  ],
+  "statsByType": {}
+}

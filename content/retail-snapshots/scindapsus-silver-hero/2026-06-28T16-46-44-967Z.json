@@ -1,0 +1,45 @@
+{
+  "plantSlug": "scindapsus-silver-hero",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Scindapsus 'Silver Hero'",
+      "productUrl": "https://growtropicals.com/products/scindapsus-silver-hero",
+      "priceGbp": 13.99,
+      "inStock": false,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Scindapsus 'Silver Hero'",
+      "productUrl": "https://www.houseofkojo.com/products/scindapsus-silver-hero",
+      "priceGbp": 13.99,
+      "inStock": false,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "urban-tropicana",
+      "retailerName": "Urban Tropicana",
+      "title": "Scindapsus Silver Hero | 12cm pot",
+      "productUrl": "https://urbantropicana.co.uk/products/scindapsus-silver-hero-12cm-pot",
+      "priceGbp": 18,
+      "inStock": false,
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {}
+}

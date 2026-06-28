@@ -1,0 +1,21 @@
+{
+  "plantSlug": "amydrium-medium",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Amydrium sp Sumatera",
+      "productUrl": "https://growtropicals.com/products/amydrium-sp-sumatera",
+      "priceGbp": 21.99,
+      "originalPriceGbp": 35,
+      "inStock": false,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {}
+}

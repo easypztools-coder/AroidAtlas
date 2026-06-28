@@ -1,0 +1,31 @@
+{
+  "plantSlug": "caramel-marble",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Philodendron Caramel Marble (TC Plantlet) - Preorder",
+      "productUrl": "https://growtropicals.com/products/philodendron-caramel-marble-tc-plantlet-preorder",
+      "priceGbp": 28.99,
+      "inStock": false,
+      "variantTitle": "TC Plant",
+      "plantSizeLabel": "tc_plantlet",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "urban-tropicana",
+      "retailerName": "Urban Tropicana",
+      "title": "Philodendron Caramel Marble | 12cm pot",
+      "productUrl": "https://urbantropicana.co.uk/products/philodendron-caramel-marble-12cm-pot",
+      "priceGbp": 150,
+      "inStock": false,
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {}
+}

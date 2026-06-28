@@ -1,0 +1,31 @@
+{
+  "plantSlug": "melo",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Alocasia Melo Albo (TC Plantlet) - Preorder",
+      "productUrl": "https://growtropicals.com/products/alocasia-melo-albo-tc-plantlet-preorder",
+      "priceGbp": 146.99,
+      "inStock": false,
+      "variantTitle": "TC Plant",
+      "plantSizeLabel": "tc_plantlet",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "urban-tropicana",
+      "retailerName": "Urban Tropicana",
+      "title": "Alocasia Melo | 6cm pot",
+      "productUrl": "https://urbantropicana.co.uk/products/alocasia-melo-6cm-pot",
+      "priceGbp": 10,
+      "inStock": false,
+      "potSizeCm": 6,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {}
+}

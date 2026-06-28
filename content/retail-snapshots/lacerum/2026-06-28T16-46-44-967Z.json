@@ -1,0 +1,49 @@
+{
+  "plantSlug": "lacerum",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Imperfect Philodendron lacerum",
+      "productUrl": "https://growtropicals.com/products/imperfect-philodendron-lacerum",
+      "priceGbp": 27.99,
+      "originalPriceGbp": 54.99,
+      "inStock": false,
+      "variantTitle": "19cm Imperfect",
+      "potSizeCm": 19,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Philodendron Lacerum",
+      "productUrl": "https://www.houseofkojo.com/products/philodendron-lacerum",
+      "priceGbp": 35.99,
+      "originalPriceGbp": 54.99,
+      "inStock": false,
+      "variantTitle": "19cm",
+      "potSizeCm": 19,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Philodendron Lacerum",
+      "productUrl": "https://www.houseofkojo.com/products/philodendron-lacerum",
+      "priceGbp": 27.99,
+      "originalPriceGbp": 54.99,
+      "inStock": false,
+      "variantTitle": "19cm Imperfect",
+      "potSizeCm": 19,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    }
+  ],
+  "statsByType": {}
+}

@@ -1,0 +1,20 @@
+{
+  "plantSlug": "pinnatipartita",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Monstera Pinnatipartita",
+      "productUrl": "https://www.houseofkojo.com/products/monstera-pinnatipartita-12cm-pot-house-plant",
+      "priceGbp": 20.99,
+      "inStock": false,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    }
+  ],
+  "statsByType": {}
+}

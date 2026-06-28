@@ -1,0 +1,180 @@
+{
+  "plantSlug": "obliqua-amazonas-form",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Monstera obliqua 'Xanthospatha'",
+      "productUrl": "https://growtropicals.com/products/monstera-obliqua-xanthospatha",
+      "priceGbp": 45.99,
+      "inStock": false,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Monstera obliqua 'Suriname'",
+      "productUrl": "https://growtropicals.com/products/monstera-obliqua-suriname-1",
+      "priceGbp": 25,
+      "originalPriceGbp": 45,
+      "inStock": false,
+      "variantTitle": "6cm",
+      "potSizeCm": 6,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Monstera obliqua 'Suriname'",
+      "productUrl": "https://growtropicals.com/products/monstera-obliqua-suriname-1",
+      "priceGbp": 35,
+      "originalPriceGbp": 45,
+      "inStock": false,
+      "variantTitle": "9cm",
+      "potSizeCm": 9,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Monstera obliqua 'Peru - Clone 2'",
+      "productUrl": "https://growtropicals.com/products/monstera-obliqua-peru-ecua-clone",
+      "priceGbp": 40,
+      "originalPriceGbp": 75,
+      "inStock": false,
+      "variantTitle": "6cm",
+      "potSizeCm": 6,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Monstera obliqua 'Xanthospatha'",
+      "productUrl": "https://www.houseofkojo.com/products/monstera-obliqua-xanthospatha",
+      "priceGbp": 45.99,
+      "inStock": false,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "conservatory-archives",
+      "retailerName": "Conservatory Archives",
+      "title": "Monstera obliqua",
+      "productUrl": "https://conservatoryarchives.co.uk/products/monstera-obliqua",
+      "priceGbp": 15,
+      "inStock": false,
+      "variantTitle": "12 / 40",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "conservatory-archives",
+      "retailerName": "Conservatory Archives",
+      "title": "Monstera obliqua",
+      "productUrl": "https://conservatoryarchives.co.uk/products/monstera-obliqua",
+      "priceGbp": 15,
+      "inStock": true,
+      "variantTitle": "12 / 35",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "conservatory-archives",
+      "retailerName": "Conservatory Archives",
+      "title": "Monstera obliqua",
+      "productUrl": "https://conservatoryarchives.co.uk/products/monstera-obliqua",
+      "priceGbp": 9,
+      "inStock": false,
+      "variantTitle": "10.5 / 40",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "conservatory-archives",
+      "retailerName": "Conservatory Archives",
+      "title": "Monstera obliqua",
+      "productUrl": "https://conservatoryarchives.co.uk/products/monstera-obliqua",
+      "priceGbp": 18,
+      "inStock": false,
+      "variantTitle": "17 / 40",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "conservatory-archives",
+      "retailerName": "Conservatory Archives",
+      "title": "Monstera obliqua",
+      "productUrl": "https://conservatoryarchives.co.uk/products/monstera-obliqua",
+      "priceGbp": 158,
+      "inStock": false,
+      "variantTitle": "27 / 150",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "conservatory-archives",
+      "retailerName": "Conservatory Archives",
+      "title": "Monstera obliqua",
+      "productUrl": "https://conservatoryarchives.co.uk/products/monstera-obliqua",
+      "priceGbp": 158,
+      "inStock": true,
+      "variantTitle": "27 / 180",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "urban-tropicana",
+      "retailerName": "Urban Tropicana",
+      "title": "Monstera Obliqua Peru | 12cm pot",
+      "productUrl": "https://urbantropicana.co.uk/products/untitled-aug25_17-07",
+      "priceGbp": 25,
+      "inStock": false,
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {
+    "all": {
+      "min": 15,
+      "max": 158,
+      "median": 86.5,
+      "mean": 86.5,
+      "trimmedMean": 86.5,
+      "p25": 50.75,
+      "p75": 122.25,
+      "count": 2
+    },
+    "established_plant": {
+      "min": 15,
+      "max": 158,
+      "median": 86.5,
+      "mean": 86.5,
+      "trimmedMean": 86.5,
+      "p25": 50.75,
+      "p75": 122.25,
+      "count": 2
+    }
+  }
+}

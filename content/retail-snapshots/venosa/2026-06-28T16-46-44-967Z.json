@@ -1,0 +1,43 @@
+{
+  "plantSlug": "venosa",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "conservatory-archives",
+      "retailerName": "Conservatory Archives",
+      "title": "Begonia venosa",
+      "productUrl": "https://conservatoryarchives.co.uk/products/begonia-venosa",
+      "priceGbp": 28,
+      "inStock": false,
+      "variantTitle": "19 / 25",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "conservatory-archives",
+      "retailerName": "Conservatory Archives",
+      "title": "Begonia venosa",
+      "productUrl": "https://conservatoryarchives.co.uk/products/begonia-venosa",
+      "priceGbp": 12,
+      "inStock": false,
+      "variantTitle": "13 / 25",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "conservatory-archives",
+      "retailerName": "Conservatory Archives",
+      "title": "Begonia venosa",
+      "productUrl": "https://conservatoryarchives.co.uk/products/begonia-venosa",
+      "priceGbp": 12,
+      "inStock": false,
+      "variantTitle": "12 / 25",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    }
+  ],
+  "statsByType": {}
+}

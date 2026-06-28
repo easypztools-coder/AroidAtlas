@@ -1,0 +1,35 @@
+{
+  "plantSlug": "rhaphidophora-korthalsii",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Rhaphidophora korthalsii 'Long Velvet'",
+      "productUrl": "https://growtropicals.com/products/rhaphidophora-korthalsii-long-velvet",
+      "priceGbp": 20,
+      "originalPriceGbp": 60,
+      "inStock": false,
+      "variantTitle": "6cm",
+      "potSizeCm": 6,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Rhaphidophora korthalsii 'Long Velvet'",
+      "productUrl": "https://growtropicals.com/products/rhaphidophora-korthalsii-long-velvet",
+      "priceGbp": 25,
+      "originalPriceGbp": 60,
+      "inStock": false,
+      "variantTitle": "9cm",
+      "potSizeCm": 9,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {}
+}

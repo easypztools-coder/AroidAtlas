@@ -153,6 +153,16 @@ function ShareButton({ scientificName }: { scientificName: string }) {
   );
 }
 
+function formatHumidity(value: string): string {
+  if (/humidity/i.test(value)) return value;
+  // "High" → "High humidity", "High (70-80%)" → "High humidity (70-80%)"
+  // "Consistently high" → "Consistently high humidity", etc.
+  return value.replace(
+    /^((?:consistently\s+)?(?:very\s+)?(?:high|medium|low|moderate))(\s*\(|$)/i,
+    (_, level, rest) => `${level} humidity${rest}`
+  );
+}
+
 const PROPAGATION_GUIDE_SLUGS: Record<string, string> = {
   "Stem cutting": "stem-cutting",
   "Node cutting": "node-cutting",
@@ -593,7 +603,7 @@ export default function PlantDetailPage({
                 </div>
 
                 {/* Price by Form */}
-                {Object.keys(retailData.statsByType).filter((k) => k !== "all").length > 0 && (
+                {Object.keys(retailData.statsByType).filter((k) => k !== "all" && k !== "unknown").length > 0 && (
                   <div className="space-y-3 md:col-span-2">
                     <div>
                       <h3 className="text-sm font-semibold text-heading">Average Price by Form</h3>
@@ -604,7 +614,7 @@ export default function PlantDetailPage({
 
                     <div className="rounded border border-border bg-background-soft p-4 space-y-3.5">
                       {Object.entries(retailData.statsByType).map(([type, stats]: [string, any]) => {
-                        if (type === "all") return null;
+                        if (type === "all" || type === "unknown") return null;
                         const formattedType = type
                           .replace(/_/g, " ")
                           .replace(/\b\w/g, (c) => c.toUpperCase());
@@ -687,7 +697,7 @@ export default function PlantDetailPage({
                   </div>
                   <div className="flex flex-col gap-1">
                     <span className="text-muted">Humidity</span>
-                    <span className="font-medium text-heading">{data.quickFacts.humidity}</span>
+                    <span className="font-medium text-heading">{formatHumidity(data.quickFacts.humidity)}</span>
                   </div>
                   <div className="flex flex-col gap-1">
                     <span className="text-muted">Temperature</span>
@@ -1140,7 +1150,7 @@ export default function PlantDetailPage({
                     {key.replace(/([A-Z])/g, " $1").trim()}
                   </span>
                   <span className="max-w-[140px] text-right text-xs font-medium text-heading">
-                    {value}
+                    {key === "humidity" ? formatHumidity(value) : value}
                   </span>
                 </div>
               ))}

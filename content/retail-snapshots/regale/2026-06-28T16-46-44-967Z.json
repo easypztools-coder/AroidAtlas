@@ -1,0 +1,160 @@
+{
+  "plantSlug": "regale",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Anthurium regale x 'Michelle'",
+      "productUrl": "https://growtropicals.com/products/anthurium-regale-x-michelle",
+      "priceGbp": 39.99,
+      "inStock": true,
+      "variantTitle": "6cm",
+      "potSizeCm": 6,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Imperfect Anthurium regale",
+      "productUrl": "https://growtropicals.com/products/imperfect-anthurium-regale",
+      "priceGbp": 29.99,
+      "inStock": true,
+      "variantTitle": "12cm Imperfect",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Anthurium regale",
+      "productUrl": "https://growtropicals.com/products/anthurium-regale",
+      "priceGbp": 22.99,
+      "originalPriceGbp": 37.99,
+      "inStock": true,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Anthurium regale",
+      "productUrl": "https://growtropicals.com/products/anthurium-regale",
+      "priceGbp": 85,
+      "inStock": false,
+      "variantTitle": "17cm",
+      "potSizeCm": 17,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Imperfect Anthurium Regale",
+      "productUrl": "https://www.houseofkojo.com/products/imperfect-anthurium-regale",
+      "priceGbp": 29.99,
+      "inStock": true,
+      "variantTitle": "12cm Imperfect",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Anthurium Regale",
+      "productUrl": "https://www.houseofkojo.com/products/anthurium-regale-1",
+      "priceGbp": 22.99,
+      "originalPriceGbp": 37.99,
+      "inStock": true,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Anthurium Regale",
+      "productUrl": "https://www.houseofkojo.com/products/anthurium-regale-1",
+      "priceGbp": 85,
+      "inStock": false,
+      "variantTitle": "17cm",
+      "potSizeCm": 17,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Anthurium Regale x Luxurians",
+      "productUrl": "https://www.houseofkojo.com/products/anthurium-regale-x-magnificum",
+      "priceGbp": 121.99,
+      "originalPriceGbp": 125.99,
+      "inStock": false,
+      "variantTitle": "10.5cm",
+      "potSizeCm": 10.5,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Anthurium Regale x Luxurians",
+      "productUrl": "https://www.houseofkojo.com/products/anthurium-regale-x-magnificum",
+      "priceGbp": 125.99,
+      "inStock": false,
+      "variantTitle": "14cm",
+      "potSizeCm": 14,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "urban-tropicana",
+      "retailerName": "Urban Tropicana",
+      "title": "Anthurium Regale | 10.5cm pot",
+      "productUrl": "https://urbantropicana.co.uk/products/anthurium-regale-10-5cm-pot",
+      "priceGbp": 25,
+      "inStock": false,
+      "potSizeCm": 10.5,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {
+    "all": {
+      "min": 22.99,
+      "max": 39.99,
+      "median": 29.99,
+      "mean": 29.189999999999998,
+      "trimmedMean": 27.656666666666666,
+      "p25": 22.99,
+      "p75": 29.99,
+      "count": 5
+    },
+    "established_plant": {
+      "min": 22.99,
+      "max": 39.99,
+      "median": 29.99,
+      "mean": 29.189999999999998,
+      "trimmedMean": 27.656666666666666,
+      "p25": 22.99,
+      "p75": 29.99,
+      "count": 5
+    }
+  }
+}

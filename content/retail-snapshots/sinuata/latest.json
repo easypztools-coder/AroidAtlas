@@ -1,0 +1,31 @@
+{
+  "plantSlug": "sinuata",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Alocasia Sinuata Albo (TC Plantlet) - Preorder",
+      "productUrl": "https://growtropicals.com/products/alocasia-sinuata-albo",
+      "priceGbp": 99.99,
+      "inStock": false,
+      "variantTitle": "TC Plant",
+      "plantSizeLabel": "tc_plantlet",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Alocasia Sinuata Aurea (TC Plantlet) - Preorder",
+      "productUrl": "https://growtropicals.com/products/alocasia-sinuata-aurea-tc-plantlet-preorder",
+      "priceGbp": 58.99,
+      "inStock": false,
+      "variantTitle": "TC Plant",
+      "plantSizeLabel": "tc_plantlet",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {}
+}

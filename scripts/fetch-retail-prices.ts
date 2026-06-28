@@ -227,13 +227,15 @@ async function main() {
     for (const obs of observations) {
       if (!obs.inStock) continue;
       const price = obs.priceGbp;
-      const type = obs.plantSizeLabel || "unknown";
+      const type = obs.plantSizeLabel;
 
       pricesByType.all.push(price);
-      if (!pricesByType[type]) {
-        pricesByType[type] = [];
+      if (type && type !== "unknown") {
+        if (!pricesByType[type]) {
+          pricesByType[type] = [];
+        }
+        pricesByType[type].push(price);
       }
-      pricesByType[type].push(price);
     }
 
     // Compute stats by type (in-stock only — sold-out listings are still saved below)

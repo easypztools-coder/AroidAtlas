@@ -1,0 +1,70 @@
+{
+  "plantSlug": "superbum",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Anthurium superbum",
+      "productUrl": "https://growtropicals.com/products/anthurium-superbum",
+      "priceGbp": 65.99,
+      "originalPriceGbp": 109.99,
+      "inStock": true,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Anthurium superbum",
+      "productUrl": "https://www.houseofkojo.com/products/anthurium-superbum",
+      "priceGbp": 65.99,
+      "originalPriceGbp": 109.99,
+      "inStock": true,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "sprouts-of-bristol",
+      "retailerName": "Sprouts of Bristol",
+      "title": "Anthurium superbum",
+      "productUrl": "https://sproutsofbristol.co.uk/products/anthurium-superbum-bird-s-nest-anthurium",
+      "priceGbp": 52.5,
+      "originalPriceGbp": 70,
+      "inStock": true,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    }
+  ],
+  "statsByType": {
+    "all": {
+      "min": 52.5,
+      "max": 65.99,
+      "median": 65.99,
+      "mean": 61.49333333333333,
+      "trimmedMean": 61.49333333333333,
+      "p25": 59.245,
+      "p75": 65.99,
+      "count": 3
+    },
+    "established_plant": {
+      "min": 52.5,
+      "max": 65.99,
+      "median": 65.99,
+      "mean": 61.49333333333333,
+      "trimmedMean": 61.49333333333333,
+      "p25": 59.245,
+      "p75": 65.99,
+      "count": 3
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "plantSlug": "membranacea",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Monstera membranacea 'Southern Pacific Lowland Form'",
+      "productUrl": "https://growtropicals.com/products/monstera-membranacea",
+      "priceGbp": 45,
+      "inStock": true,
+      "variantTitle": "9cm",
+      "potSizeCm": 9,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Monstera membranacea 'Southern Pacific Lowland Form'",
+      "productUrl": "https://growtropicals.com/products/monstera-membranacea",
+      "priceGbp": 34.99,
+      "originalPriceGbp": 44.99,
+      "inStock": true,
+      "variantTitle": "6cm",
+      "potSizeCm": 6,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {
+    "all": {
+      "min": 34.99,
+      "max": 45,
+      "median": 39.995000000000005,
+      "mean": 39.995000000000005,
+      "trimmedMean": 39.995000000000005,
+      "p25": 37.4925,
+      "p75": 42.4975,
+      "count": 2
+    },
+    "established_plant": {
+      "min": 34.99,
+      "max": 45,
+      "median": 39.995000000000005,
+      "mean": 39.995000000000005,
+      "trimmedMean": 39.995000000000005,
+      "p25": 37.4925,
+      "p75": 42.4975,
+      "count": 2
+    }
+  }
+}

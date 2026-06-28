@@ -1,0 +1,78 @@
+{
+  "plantSlug": "epipremnum-snow-leopard",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Epipremnum Snow Leopard",
+      "productUrl": "https://growtropicals.com/products/epipremnum-snow-leopard",
+      "priceGbp": 12.99,
+      "inStock": true,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Epipremnum 'Snow Leopard'",
+      "productUrl": "https://www.houseofkojo.com/products/epipremnum-snow-leopard",
+      "priceGbp": 12.99,
+      "inStock": true,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "conservatory-archives",
+      "retailerName": "Conservatory Archives",
+      "title": "Epipremnum 'Snow Leopard'",
+      "productUrl": "https://conservatoryarchives.co.uk/products/epipremnum-snow-leopard",
+      "priceGbp": 12,
+      "inStock": false,
+      "variantTitle": "12 / 25",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "conservatory-archives",
+      "retailerName": "Conservatory Archives",
+      "title": "Epipremnum 'Snow Leopard'",
+      "productUrl": "https://conservatoryarchives.co.uk/products/epipremnum-snow-leopard",
+      "priceGbp": 12,
+      "inStock": true,
+      "variantTitle": "12 / 15",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    }
+  ],
+  "statsByType": {
+    "all": {
+      "min": 12,
+      "max": 12.99,
+      "median": 12.99,
+      "mean": 12.660000000000002,
+      "trimmedMean": 12.660000000000002,
+      "p25": 12.495000000000001,
+      "p75": 12.99,
+      "count": 3
+    },
+    "established_plant": {
+      "min": 12,
+      "max": 12.99,
+      "median": 12.99,
+      "mean": 12.660000000000002,
+      "trimmedMean": 12.660000000000002,
+      "p25": 12.495000000000001,
+      "p75": 12.99,
+      "count": 3
+    }
+  }
+}

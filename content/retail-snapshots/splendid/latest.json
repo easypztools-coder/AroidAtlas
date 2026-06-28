@@ -1,0 +1,47 @@
+{
+  "plantSlug": "splendid",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Philodendron Splendid (TC Plantlet) - Preorder",
+      "productUrl": "https://growtropicals.com/products/philodendron-splendid",
+      "priceGbp": 9.99,
+      "inStock": false,
+      "variantTitle": "TC Plant",
+      "plantSizeLabel": "tc_plantlet",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Imperfect Philodendron Splendid | Verrucosum x Melanochrysum",
+      "productUrl": "https://growtropicals.com/products/imperfect-philodendron-splendid-verrucosum-x-melanochrysum-copy",
+      "priceGbp": 25.99,
+      "originalPriceGbp": 50,
+      "inStock": false,
+      "variantTitle": "12cm (Imperfect)",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Imperfect Philodendron Splendid | Verrucosum x Melanochrysum",
+      "productUrl": "https://growtropicals.com/products/imperfect-philodendron-splendid-verrucosum-x-melanochrysum-copy",
+      "priceGbp": 55.99,
+      "originalPriceGbp": 67.99,
+      "inStock": false,
+      "variantTitle": "16cm (Imperfect)",
+      "potSizeCm": 16,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {}
+}

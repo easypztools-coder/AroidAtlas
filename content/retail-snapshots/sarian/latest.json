@@ -1,0 +1,67 @@
+{
+  "plantSlug": "sarian",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Alocasia Sarian albo (TC Plantlet) - Preorder",
+      "productUrl": "https://growtropicals.com/products/alocasia-sarian-albo-tc-plantlet-preorder",
+      "priceGbp": 84.99,
+      "inStock": false,
+      "variantTitle": "TC Plant",
+      "plantSizeLabel": "tc_plantlet",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Alocasia Sarian Aurea (TC Plantlet) - Preorder",
+      "productUrl": "https://growtropicals.com/products/alocasia-sarian-aurea-tc-plantlet-preorder",
+      "priceGbp": 77.99,
+      "inStock": false,
+      "variantTitle": "TC Plant",
+      "plantSizeLabel": "tc_plantlet",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "alocasia-company",
+      "retailerName": "The Alocasia Company",
+      "title": "ALOCASIA SARIAN ALBO",
+      "productUrl": "https://www.thealocasiacompany.co.uk/products/alocasia-sarian-albo",
+      "priceGbp": 70,
+      "inStock": false,
+      "variantTitle": "Corm",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "alocasia-company",
+      "retailerName": "The Alocasia Company",
+      "title": "ALOCASIA SARIAN ALBO",
+      "productUrl": "https://www.thealocasiacompany.co.uk/products/alocasia-sarian-albo",
+      "priceGbp": 99,
+      "inStock": false,
+      "variantTitle": "Juvenile",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "alocasia-company",
+      "retailerName": "The Alocasia Company",
+      "title": "ALOCASIA SARIAN ALBO",
+      "productUrl": "https://www.thealocasiacompany.co.uk/products/alocasia-sarian-albo",
+      "priceGbp": 135,
+      "inStock": false,
+      "variantTitle": "Mature",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {}
+}

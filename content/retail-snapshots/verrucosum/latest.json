@@ -1,0 +1,88 @@
+{
+  "plantSlug": "verrucosum",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Imperfect Philodendron verrucosum 'Dutch Type'",
+      "productUrl": "https://growtropicals.com/products/imperfect-philodendron-verrucosum-dutch-type-copy",
+      "priceGbp": 13.99,
+      "originalPriceGbp": 17.99,
+      "inStock": false,
+      "variantTitle": "12cm Imperfect",
+      "potSizeCm": 12,
+      "plantSizeLabel": "tc_plantlet",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Philodendron verrucosum 'Dwarf Red’",
+      "productUrl": "https://growtropicals.com/products/philodendron-verrucosum-dark-red",
+      "priceGbp": 45,
+      "originalPriceGbp": 65,
+      "inStock": false,
+      "variantTitle": "6cm",
+      "potSizeCm": 6,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Philodendron verrucosum 'Bosco'",
+      "productUrl": "https://growtropicals.com/products/philodendron-verrucosum-bosco",
+      "priceGbp": 25,
+      "inStock": false,
+      "variantTitle": "6cm",
+      "potSizeCm": 6,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Philodendron Verrucosum Dutch Form",
+      "productUrl": "https://www.houseofkojo.com/products/philodendron-verrucosum-dutch-form",
+      "priceGbp": 13.99,
+      "originalPriceGbp": 17.99,
+      "inStock": false,
+      "variantTitle": "12cm Imperfect",
+      "potSizeCm": 12,
+      "plantSizeLabel": "tc_plantlet",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Philodendron Verrucosum 'Ecuador’",
+      "productUrl": "https://www.houseofkojo.com/products/philodendron-verrucosum-ecuador-1",
+      "priceGbp": 20,
+      "inStock": false,
+      "variantTitle": "9cm",
+      "potSizeCm": 9,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Philodendron Verrucosum 'Ecuador’",
+      "productUrl": "https://www.houseofkojo.com/products/philodendron-verrucosum-ecuador-1",
+      "priceGbp": 16,
+      "inStock": false,
+      "variantTitle": "6cm Baby",
+      "potSizeCm": 6,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {}
+}

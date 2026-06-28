@@ -1,0 +1,71 @@
+{
+  "plantSlug": "deliciosa-mint",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Monstera deliciosa Mint (TC Plantlet) - Preorder",
+      "productUrl": "https://growtropicals.com/products/monstera-deliciosa-mint-tc-plantlet-preorder",
+      "priceGbp": 33.99,
+      "inStock": false,
+      "variantTitle": "TC Plant",
+      "plantSizeLabel": "tc_plantlet",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Monstera Mint Thailand (TC Plantlet) - Preorder",
+      "productUrl": "https://growtropicals.com/products/monstera-mint-thailand",
+      "priceGbp": 74.99,
+      "inStock": false,
+      "variantTitle": "TC Plant",
+      "plantSizeLabel": "tc_plantlet",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Monstera deliciosa Mint Variegated",
+      "productUrl": "https://growtropicals.com/products/monstera-mint-monstera-deliciosa-mint-variegated",
+      "priceGbp": 125.99,
+      "originalPriceGbp": 129.99,
+      "inStock": false,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Monstera deliciosa 'Mint' Variegated",
+      "productUrl": "https://www.houseofkojo.com/products/monstera-deliciosa-mint",
+      "priceGbp": 125.99,
+      "originalPriceGbp": 129.99,
+      "inStock": false,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "urban-tropicana",
+      "retailerName": "Urban Tropicana",
+      "title": "Monstera deliciosa ‘Mint Variegata | 8.5cm pot",
+      "productUrl": "https://urbantropicana.co.uk/products/monstera-deliciosa-mint-variegata-6cm-pot",
+      "priceGbp": 60,
+      "inStock": false,
+      "potSizeCm": 8.5,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {}
+}

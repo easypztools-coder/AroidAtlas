@@ -1,0 +1,45 @@
+{
+  "plantSlug": "sodiroi",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Philodendron Sodiroi",
+      "productUrl": "https://www.houseofkojo.com/products/philodendron-sodiroi",
+      "priceGbp": 20.99,
+      "inStock": false,
+      "variantTitle": "9cm",
+      "potSizeCm": 9,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Philodendron Sodiroi",
+      "productUrl": "https://www.houseofkojo.com/products/philodendron-sodiroi",
+      "priceGbp": 25.99,
+      "inStock": false,
+      "variantTitle": "15cm",
+      "potSizeCm": 15,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "conservatory-archives",
+      "retailerName": "Conservatory Archives",
+      "title": "Philodendron sodiroi",
+      "productUrl": "https://conservatoryarchives.co.uk/products/philodendron-sodiroi",
+      "priceGbp": 48,
+      "inStock": false,
+      "variantTitle": "15 / 40",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    }
+  ],
+  "statsByType": {}
+}

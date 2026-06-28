@@ -1,0 +1,33 @@
+{
+  "plantSlug": "baginda-dragon-scale-albo-variegated",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Alocasia 'Dragon Scale' Variegated",
+      "productUrl": "https://growtropicals.com/products/alocasia-dragon-scale-variegated",
+      "priceGbp": 123.99,
+      "inStock": false,
+      "variantTitle": "8cm",
+      "potSizeCm": 8,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Alocasia 'Dragon Scale' Variegated",
+      "productUrl": "https://www.houseofkojo.com/products/alocasia-dragon-scale-variegated",
+      "priceGbp": 123.99,
+      "inStock": false,
+      "variantTitle": "8cm",
+      "potSizeCm": 8,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    }
+  ],
+  "statsByType": {}
+}

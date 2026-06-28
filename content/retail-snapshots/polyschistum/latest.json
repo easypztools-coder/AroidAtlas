@@ -1,0 +1,70 @@
+{
+  "plantSlug": "polyschistum",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Anthurium polyschistum",
+      "productUrl": "https://www.houseofkojo.com/products/anthurium-polyschistum",
+      "priceGbp": 15.99,
+      "inStock": false,
+      "variantTitle": "9cm",
+      "potSizeCm": 9,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Anthurium polyschistum",
+      "productUrl": "https://www.houseofkojo.com/products/anthurium-polyschistum",
+      "priceGbp": 17.99,
+      "inStock": false,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Anthurium polyschistum",
+      "productUrl": "https://www.houseofkojo.com/products/anthurium-polyschistum",
+      "priceGbp": 19.99,
+      "inStock": false,
+      "variantTitle": "12cm on Moss Pole",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "conservatory-archives",
+      "retailerName": "Conservatory Archives",
+      "title": "Anthurium polyschistum",
+      "productUrl": "https://conservatoryarchives.co.uk/products/anthurium-polschistum",
+      "priceGbp": 15,
+      "inStock": false,
+      "variantTitle": "12 / 20",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "urban-tropicana",
+      "retailerName": "Urban Tropicana",
+      "title": "Anthurium Polyschistum | 10.5cm pot",
+      "productUrl": "https://urbantropicana.co.uk/products/anthurium-polyschistum-10-5cm-pot",
+      "priceGbp": 24,
+      "inStock": false,
+      "potSizeCm": 10.5,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {}
+}

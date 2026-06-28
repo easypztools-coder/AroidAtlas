@@ -1,0 +1,68 @@
+{
+  "plantSlug": "rhaphidophora-tetrasperma",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Rhaphidophora Tetrasperma | Mini Monstera Compacta",
+      "productUrl": "https://www.houseofkojo.com/products/rhaphidophora-tetrasperma-mini-monstera-compacta-12cm-pot-house-plant",
+      "priceGbp": 15.99,
+      "originalPriceGbp": 16.99,
+      "inStock": true,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Rhaphidophora Tetrasperma | Mini Monstera Compacta",
+      "productUrl": "https://www.houseofkojo.com/products/rhaphidophora-tetrasperma-mini-monstera-compacta-12cm-pot-house-plant",
+      "priceGbp": 28.99,
+      "inStock": false,
+      "variantTitle": "17cm (Moss pole)",
+      "potSizeCm": 17,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Rhaphidophora Tetrasperma | Mini Monstera Compacta",
+      "productUrl": "https://www.houseofkojo.com/products/rhaphidophora-tetrasperma-mini-monstera-compacta-12cm-pot-house-plant",
+      "priceGbp": 40.99,
+      "inStock": false,
+      "variantTitle": "19cm (Moss Pole)",
+      "potSizeCm": 19,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {
+    "all": {
+      "min": 15.99,
+      "max": 15.99,
+      "median": 15.99,
+      "mean": 15.99,
+      "trimmedMean": 15.99,
+      "p25": 15.99,
+      "p75": 15.99,
+      "count": 1
+    },
+    "established_plant": {
+      "min": 15.99,
+      "max": 15.99,
+      "median": 15.99,
+      "mean": 15.99,
+      "trimmedMean": 15.99,
+      "p25": 15.99,
+      "p75": 15.99,
+      "count": 1
+    }
+  }
+}

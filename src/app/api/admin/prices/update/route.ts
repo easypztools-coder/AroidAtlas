@@ -30,7 +30,12 @@ export async function GET(request: NextRequest) {
   }
 
   if (!slug) {
-    return NextResponse.json({ error: "Missing slug parameter" }, { status: 400 });
+    // No slug = run all plants via the batch endpoint
+    const batchUrl = new URL("/api/cron/update-ebay-prices", request.url);
+    batchUrl.searchParams.set("secret", secret!);
+    const batchRes = await fetch(batchUrl.toString());
+    const batchJson = await batchRes.json();
+    return NextResponse.json(batchJson, { status: batchRes.status });
   }
 
   // ─── Load plant data ────────────────────────────────────────────────────

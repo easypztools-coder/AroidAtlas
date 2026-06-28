@@ -1,0 +1,19 @@
+{
+  "plantSlug": "acuminata",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "conservatory-archives",
+      "retailerName": "Conservatory Archives",
+      "title": "Monstera acuminata",
+      "productUrl": "https://conservatoryarchives.co.uk/products/monstera-acuminata",
+      "priceGbp": 18,
+      "inStock": false,
+      "variantTitle": "13 / 30",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    }
+  ],
+  "statsByType": {}
+}

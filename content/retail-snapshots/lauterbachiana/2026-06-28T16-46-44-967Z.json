@@ -1,0 +1,64 @@
+{
+  "plantSlug": "lauterbachiana",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "alocasia-company",
+      "retailerName": "The Alocasia Company",
+      "title": "ALOCASIA LAUTERBACHIANA AUREA",
+      "productUrl": "https://www.thealocasiacompany.co.uk/products/alocasia-lauterbachiana-aurea",
+      "priceGbp": 25,
+      "inStock": false,
+      "variantTitle": "Corm",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "alocasia-company",
+      "retailerName": "The Alocasia Company",
+      "title": "ALOCASIA LAUTERBACHIANA AUREA",
+      "productUrl": "https://www.thealocasiacompany.co.uk/products/alocasia-lauterbachiana-aurea",
+      "priceGbp": 55,
+      "inStock": false,
+      "variantTitle": "Mature",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    },
+    {
+      "retailerSlug": "alocasia-company",
+      "retailerName": "The Alocasia Company",
+      "title": "ALOCASIA LAUTERBACHIANA AUREA",
+      "productUrl": "https://www.thealocasiacompany.co.uk/products/alocasia-lauterbachiana-aurea",
+      "priceGbp": 35,
+      "inStock": true,
+      "variantTitle": "Juvenile",
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {
+    "all": {
+      "min": 35,
+      "max": 35,
+      "median": 35,
+      "mean": 35,
+      "trimmedMean": 35,
+      "p25": 35,
+      "p75": 35,
+      "count": 1
+    },
+    "established_plant": {
+      "min": 35,
+      "max": 35,
+      "median": 35,
+      "mean": 35,
+      "trimmedMean": 35,
+      "p25": 35,
+      "p75": 35,
+      "count": 1
+    }
+  }
+}

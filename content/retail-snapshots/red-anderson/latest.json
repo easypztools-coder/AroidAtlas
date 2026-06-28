@@ -1,0 +1,82 @@
+{
+  "plantSlug": "red-anderson",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Philodendron Red Anderson",
+      "productUrl": "https://www.houseofkojo.com/products/philodendron-red-anderson",
+      "priceGbp": 8.99,
+      "originalPriceGbp": 33.99,
+      "inStock": true,
+      "variantTitle": "6cm",
+      "potSizeCm": 6,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Philodendron Red Anderson",
+      "productUrl": "https://www.houseofkojo.com/products/philodendron-red-anderson",
+      "priceGbp": 24.99,
+      "originalPriceGbp": 33.99,
+      "inStock": false,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "sprouts-of-bristol",
+      "retailerName": "Sprouts of Bristol",
+      "title": "Philodendron 'Red Anderson'",
+      "productUrl": "https://sproutsofbristol.co.uk/products/philodendron-red-anderson",
+      "priceGbp": 12,
+      "inStock": true,
+      "variantTitle": "6cm",
+      "potSizeCm": 6,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "sprouts-of-bristol",
+      "retailerName": "Sprouts of Bristol",
+      "title": "Philodendron 'Red Anderson'",
+      "productUrl": "https://sproutsofbristol.co.uk/products/philodendron-red-anderson",
+      "priceGbp": 26,
+      "inStock": false,
+      "variantTitle": "14cm",
+      "potSizeCm": 14,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    }
+  ],
+  "statsByType": {
+    "all": {
+      "min": 8.99,
+      "max": 12,
+      "median": 10.495000000000001,
+      "mean": 10.495000000000001,
+      "trimmedMean": 10.495000000000001,
+      "p25": 9.7425,
+      "p75": 11.2475,
+      "count": 2
+    },
+    "established_plant": {
+      "min": 8.99,
+      "max": 12,
+      "median": 10.495000000000001,
+      "mean": 10.495000000000001,
+      "trimmedMean": 10.495000000000001,
+      "p25": 9.7425,
+      "p75": 11.2475,
+      "count": 2
+    }
+  }
+}

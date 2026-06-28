@@ -1,0 +1,35 @@
+{
+  "plantSlug": "metallicum",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Anthurium metallicum",
+      "productUrl": "https://growtropicals.com/products/anthurium-metallicum",
+      "priceGbp": 85.99,
+      "originalPriceGbp": 200,
+      "inStock": false,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "grow-tropicals",
+      "retailerName": "Grow Tropicals",
+      "title": "Anthurium metallicum",
+      "productUrl": "https://growtropicals.com/products/anthurium-metallicum",
+      "priceGbp": 105.99,
+      "originalPriceGbp": 200,
+      "inStock": false,
+      "variantTitle": "15cm",
+      "potSizeCm": 15,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    }
+  ],
+  "statsByType": {}
+}

@@ -1,0 +1,19 @@
+{
+  "plantSlug": "dubia",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "urban-tropicana",
+      "retailerName": "Urban Tropicana",
+      "title": "Monstera Dubia | 32cm pot",
+      "productUrl": "https://urbantropicana.co.uk/products/monstera-dubia-juveniel-32cm-pot",
+      "priceGbp": 395,
+      "inStock": false,
+      "potSizeCm": 32,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 0.9
+    }
+  ],
+  "statsByType": {}
+}

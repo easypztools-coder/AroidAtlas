@@ -1,0 +1,62 @@
+{
+  "plantSlug": "joepii",
+  "checkedAt": "2026-06-28T16:46:44.967Z",
+  "listings": [
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Philodendron joepii",
+      "productUrl": "https://www.houseofkojo.com/products/philodendron-joepii",
+      "priceGbp": 9.99,
+      "inStock": false,
+      "variantTitle": "6cm",
+      "potSizeCm": 6,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Philodendron joepii",
+      "productUrl": "https://www.houseofkojo.com/products/philodendron-joepii",
+      "priceGbp": 30.99,
+      "originalPriceGbp": 55.99,
+      "inStock": false,
+      "variantTitle": "10.5cm",
+      "potSizeCm": 10.5,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Philodendron joepii",
+      "productUrl": "https://www.houseofkojo.com/products/philodendron-joepii",
+      "priceGbp": 14.99,
+      "originalPriceGbp": 25.99,
+      "inStock": false,
+      "variantTitle": "12cm",
+      "potSizeCm": 12,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    },
+    {
+      "retailerSlug": "house-of-kojo",
+      "retailerName": "House of Kojo",
+      "title": "Philodendron joepii",
+      "productUrl": "https://www.houseofkojo.com/products/philodendron-joepii",
+      "priceGbp": 38.99,
+      "originalPriceGbp": 65.99,
+      "inStock": false,
+      "variantTitle": "15cm",
+      "potSizeCm": 15,
+      "plantSizeLabel": "established_plant",
+      "sourceMethod": "shopify_json",
+      "matchConfidence": 1
+    }
+  ],
+  "statsByType": {}
+}

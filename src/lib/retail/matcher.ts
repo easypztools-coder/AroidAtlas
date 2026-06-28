@@ -136,7 +136,7 @@ export function classifyProduct(title: string): MatchResult["itemType"] {
     return "cutting";
   }
 
-  // Established plant
+  // Established plant — explicit keywords
   if (
     t.includes("established") ||
     t.includes("potted") ||
@@ -148,7 +148,20 @@ export function classifyProduct(title: string): MatchResult["itemType"] {
     return "established_plant";
   }
 
-  return "unknown";
+  // Discounted / graded plants sold at retail are always established plants
+  if (
+    t.includes("rescue") ||
+    t.includes("imperfect") ||
+    t.includes("second") ||
+    t.includes("grade b") ||
+    t.includes("grade c")
+  ) {
+    return "established_plant";
+  }
+
+  // Default — retail listings that pass all exclusion checks without a specific
+  // form keyword are almost always potted established plants
+  return "established_plant";
 }
 
 /**
