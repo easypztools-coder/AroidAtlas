@@ -90,21 +90,39 @@ export default function GenusPage({ params }: PageProps) {
   const plants = getAllPlantsForGenus(genus);
   const description = GENUS_DESCRIPTIONS[genus] || `Browse our collection of ${genusCapitalized} species and cultivars.`;
 
-  const breadcrumbLd = {
+  const baseUrl = "https://aroidatlas.co.uk";
+
+  const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "BreadcrumbList",
-    itemListElement: [
+    "@graph": [
       {
-        "@type": "ListItem",
-        position: 1,
-        name: "Species",
-        item: "https://aroidatlas.co.uk/plants",
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Species",
+            item: `${baseUrl}/plants`,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: genusCapitalized,
+            item: `${baseUrl}/plants/${genus}`,
+          },
+        ],
       },
       {
-        "@type": "ListItem",
-        position: 2,
-        name: genusCapitalized,
-        item: `https://aroidatlas.co.uk/plants/${genus}`,
+        "@type": "ItemList",
+        name: `${genusCapitalized} Species on Aroid Atlas`,
+        url: `${baseUrl}/plants/${genus}`,
+        numberOfItems: plants.length,
+        itemListElement: plants.map((p, i) => ({
+          "@type": "ListItem",
+          position: i + 1,
+          name: p.scientificName,
+          url: `${baseUrl}/plants/${genus}/${p.slug}`,
+        })),
       },
     ],
   };
@@ -113,7 +131,7 @@ export default function GenusPage({ params }: PageProps) {
     <div className="max-w-7xl mx-auto px-6 py-16">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <nav className="flex items-center gap-2 text-xs text-muted mb-8">
         <Link href="/plants" className="hover:text-primary transition-colors">Species</Link>

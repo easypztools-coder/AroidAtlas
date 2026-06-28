@@ -497,6 +497,8 @@ export async function generateStaticParams() {
   return Object.keys(GUIDES).map((method) => ({ method }));
 }
 
+const BASE_URL = "https://aroidatlas.co.uk";
+
 export async function generateMetadata({
   params,
 }: {
@@ -504,9 +506,23 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const guide = GUIDES[params.method];
   if (!guide) return { title: "Guide Not Found" };
+  const description = guide.description.slice(0, 155);
+  const canonicalUrl = `${BASE_URL}/guides/propagation/${params.method}`;
   return {
     title: `${guide.title} — Aroid Propagation Guide`,
-    description: guide.description.slice(0, 155),
+    description,
+    alternates: { canonical: canonicalUrl },
+    openGraph: {
+      title: `${guide.title} | Aroid Atlas`,
+      description,
+      url: canonicalUrl,
+      siteName: "Aroid Atlas",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${guide.title} | Aroid Atlas`,
+      description,
+    },
   };
 }
 
@@ -518,13 +534,50 @@ export default function PropagationGuidePage({
   const guide = GUIDES[params.method];
   if (!guide) notFound();
 
+  const canonicalUrl = `${BASE_URL}/guides/propagation/${params.method}`;
+
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "HowTo",
+        name: guide.title,
+        description: guide.description,
+        url: canonicalUrl,
+        supply: guide.equipment.map((item) => ({
+          "@type": "HowToSupply",
+          name: item,
+        })),
+        step: guide.steps.map((step, i) => ({
+          "@type": "HowToStep",
+          position: i + 1,
+          name: step.title,
+          text: step.detail,
+        })),
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: BASE_URL },
+          { "@type": "ListItem", position: 2, name: "Care Guides", item: `${BASE_URL}/learn` },
+          { "@type": "ListItem", position: 3, name: "Propagation Guides", item: `${BASE_URL}/learn#propagation` },
+          { "@type": "ListItem", position: 4, name: guide.title, item: canonicalUrl },
+        ],
+      },
+    ],
+  };
+
   return (
     <main className="mx-auto max-w-3xl px-4 py-12 md:px-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       {/* Breadcrumb */}
       <nav className="mb-8 flex items-center gap-2 text-xs text-muted">
-        <Link href="/plants" className="transition-colors hover:text-heading">Species</Link>
+        <Link href="/learn" className="transition-colors hover:text-heading">Care Guides</Link>
         <span className="text-border-strong">/</span>
-        <span>Propagation Guides</span>
+        <span>Propagation</span>
         <span className="text-border-strong">/</span>
         <span className="text-heading">{guide.title}</span>
       </nav>

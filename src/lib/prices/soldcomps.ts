@@ -48,7 +48,7 @@ export async function fetchSoldCompsRaw(
   url.searchParams.set("count", String(maxResults));
   url.searchParams.set("page", "1");
   if (marketplace) {
-    url.searchParams.set("site", marketplace);
+    url.searchParams.set("ebaySite", marketplace);
   }
 
   // ─── Fetch ──────────────────────────────────────────────────────────────

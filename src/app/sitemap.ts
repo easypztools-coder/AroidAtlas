@@ -53,6 +53,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: "monthly",
       priority: 0.4,
     },
+    ...[
+      "stem-cutting",
+      "node-cutting",
+      "leaf-cutting",
+      "rhizome-division",
+      "offsets-and-pups",
+      "air-layering",
+      "seed-propagation",
+    ].map((method) => ({
+      url: `${BASE_URL}/guides/propagation/${method}`,
+      lastModified: new Date("2025-01-01"),
+      changeFrequency: "monthly" as const,
+      priority: 0.6,
+    })),
     ...collections.map((c) => ({
       url: `${BASE_URL}/collections/${c.slug}`,
       lastModified: new Date("2025-01-01"),

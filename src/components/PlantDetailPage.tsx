@@ -438,7 +438,7 @@ export default function PlantDetailPage({
                   <div className="flex flex-col space-y-4 lg:col-span-1">
                     <div>
                       <h3 className="text-sm font-semibold text-heading">Recent eBay Sales</h3>
-                      <p className="text-[10px] text-muted">Verified completed transaction history</p>
+                      <p className="text-[10px] text-muted">Global completed transactions — US sales converted to GBP</p>
                     </div>
 
                     <div className="max-h-[300px] flex-1 space-y-2 overflow-y-auto rounded border border-border bg-background-soft p-3 pr-1">
@@ -465,6 +465,8 @@ export default function PlantDetailPage({
                                   .replace(/\b\w/g, (c) => c.toUpperCase())
                               : null;
 
+                          const isUsSale = sale.currency === "USD";
+
                           const cardClass = [
                             "flex flex-col gap-1 rounded border p-2.5 transition-all duration-150",
                             isHighlighted
@@ -478,6 +480,11 @@ export default function PlantDetailPage({
                                 {displayTitle}
                               </div>
                               <div className="mt-0.5 flex flex-wrap items-center gap-1.5">
+                                {isUsSale && (
+                                  <span className="rounded-sm bg-muted/10 px-1.5 py-0.5 text-[9px] font-medium text-muted">
+                                    🇺🇸 US sale
+                                  </span>
+                                )}
                                 {typeLabel && (
                                   <span className="rounded-sm bg-primary/8 px-1.5 py-0.5 text-[9px] font-medium text-primary">
                                     {typeLabel}
@@ -487,7 +494,9 @@ export default function PlantDetailPage({
                               </div>
                               <div className="mt-1 flex items-center justify-between">
                                 <span className="text-xs font-bold text-leaf">
-                                  £{sale.totalPrice.toFixed(2)}
+                                  {isUsSale
+                                    ? `~£${sale.totalPrice.toFixed(2)}`
+                                    : `£${sale.totalPrice.toFixed(2)}`}
                                 </span>
                                 {sale.url && (
                                   <span className="text-[9px] text-muted/60">View on eBay →</span>
@@ -986,7 +995,7 @@ export default function PlantDetailPage({
                   {priceSampleCount !== null && priceSampleCount < 5
                     ? `Low data (${priceSampleCount} sale${priceSampleCount !== 1 ? "s" : ""})`
                     : aaDisplayPrice.source === "ebay"
-                    ? `eBay Verified${priceConfidence ? ` · Grade ${priceConfidence}` : ""}`
+                    ? `eBay Global${priceConfidence ? ` · Grade ${priceConfidence}` : ""}`
                     : aaDisplayPrice.source === "retail"
                     ? "Retail Derived"
                     : "Estimate"}
@@ -994,7 +1003,7 @@ export default function PlantDetailPage({
               </div>
               <p className="mt-1.5 text-xs text-muted">
                 {aaDisplayPrice.source === "ebay"
-                  ? "Based on verified eBay UK auction data"
+                  ? "Based on global eBay sales converted to GBP"
                   : aaDisplayPrice.source === "retail"
                   ? "Based on current UK retail prices"
                   : "Community estimate — limited market data"}
@@ -1125,7 +1134,7 @@ export default function PlantDetailPage({
             </svg>
             <p className="text-[10px] leading-relaxed text-muted">
               <span className="font-semibold text-heading/70">How prices are calculated:</span>{" "}
-              The <span className="text-accent/80">AA Price</span> uses verified eBay UK auction data —
+              The <span className="text-accent/80">AA Price</span> uses global eBay sold listings (primarily US market) converted to GBP at the live exchange rate —
               trimmed mean (removing top and bottom 20%) for a fair-value guide. Falls back to UK retail
               average when auction data is unavailable.
             </p>

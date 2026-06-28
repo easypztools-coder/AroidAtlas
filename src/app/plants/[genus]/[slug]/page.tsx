@@ -65,7 +65,7 @@ interface PlantData {
   recommendedPlants: RecommendedPlant[];
 }
 
-function loadPlantData(genus: string, slug: string): PlantData | null {
+function loadPlantData(genus: string, slug: string): { data: PlantData; mtime: Date } | null {
   try {
     const filePath = path.join(
       process.cwd(),
@@ -76,7 +76,8 @@ function loadPlantData(genus: string, slug: string): PlantData | null {
     );
     if (!fs.existsSync(filePath)) return null;
     const raw = fs.readFileSync(filePath, "utf-8");
-    return JSON.parse(raw) as PlantData;
+    const mtime = fs.statSync(filePath).mtime;
+    return { data: JSON.parse(raw) as PlantData, mtime };
   } catch {
     return null;
   }
@@ -129,8 +130,9 @@ function buildMetaDescription(data: PlantData): string {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { genus, slug } = params;
-  const data = loadPlantData(genus, slug);
-  if (!data) return { title: "Plant Not Found" };
+  const result = loadPlantData(genus, slug);
+  if (!result) return { title: "Plant Not Found" };
+  const { data } = result;
 
   const description = buildMetaDescription(data);
   const canonicalUrl = `https://aroidatlas.co.uk/plants/${genus.toLowerCase()}/${slug}`;
@@ -165,12 +167,13 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default function PlantPage({ params }: PageProps) {
   const { genus, slug } = params;
-  const data = loadPlantData(genus, slug);
+  const result = loadPlantData(genus, slug);
 
-  if (!data) {
+  if (!result) {
     notFound();
   }
 
+  const { data, mtime } = result;
   const baseUrl = "https://aroidatlas.co.uk";
   const genusSlug = genus.toLowerCase();
 
@@ -179,12 +182,18 @@ export default function PlantPage({ params }: PageProps) {
     "@graph": [
       {
         "@type": "Article",
-        name: data.scientificName,
+        headline: `${data.scientificName} — ${data.commonName} Care, Rarity & Price Guide`,
         description: data.aboutText,
+        dateModified: mtime.toISOString(),
         about: {
           "@type": "Thing",
           name: data.scientificName,
           alternateName: data.commonName,
+        },
+        author: {
+          "@type": "Organization",
+          name: "Aroid Atlas",
+          url: baseUrl,
         },
         publisher: {
           "@type": "Organization",
@@ -269,6 +278,42 @@ export default function PlantPage({ params }: PageProps) {
               text: `${data.commonName} (${data.scientificName}) can be found on eBay UK, specialist aroid nurseries, and private collector groups. Aroid Atlas tracks live UK market prices to help you pay a fair price.`,
             },
           },
+          ...(data.quickFacts?.light
+            ? [
+                {
+                  "@type": "Question",
+                  name: `What light does ${data.scientificName} need?`,
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: `${data.scientificName} requires ${data.quickFacts.light}. As a ${data.botanicalType} from ${data.origin}, it thrives in conditions that replicate its natural forest habitat.`,
+                  },
+                },
+              ]
+            : []),
+          ...(data.quickFacts?.humidity
+            ? [
+                {
+                  "@type": "Question",
+                  name: `What humidity does ${data.scientificName} need?`,
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: `${data.scientificName} prefers ${data.quickFacts.humidity} humidity. Maintaining adequate humidity is important for healthy leaf development and preventing tip browning.`,
+                  },
+                },
+              ]
+            : []),
+          ...(data.quickFacts?.difficulty
+            ? [
+                {
+                  "@type": "Question",
+                  name: `Is ${data.scientificName} easy to care for?`,
+                  acceptedAnswer: {
+                    "@type": "Answer",
+                    text: `${data.scientificName} is rated as ${data.quickFacts.difficulty} difficulty. ${data.quickFacts.growthSpeed ? `It has a ${data.quickFacts.growthSpeed} growth rate. ` : ""}It is best suited for collectors with experience growing rare tropical aroids.`,
+                  },
+                },
+              ]
+            : []),
         ],
       },
     ],

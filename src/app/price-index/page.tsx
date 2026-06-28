@@ -5,12 +5,28 @@ import { getDbPool } from '@/lib/db';
 import PriceIndexTable from '@/components/PriceIndexTable';
 import type { PriceIndexRow } from '@/types/price-index';
 
-export const dynamic = 'force-dynamic';
+export const revalidate = 3600;
+
+const CANONICAL = 'https://aroidatlas.co.uk/price-index';
 
 export const metadata: Metadata = {
   title: 'Plant Price Index — All Species | Aroid Atlas',
   description:
     'Live retail prices, market trends, and listing counts for 180+ rare tropical plants. Sort and filter by genus, rarity, price tier, and market status.',
+  alternates: { canonical: CANONICAL },
+  openGraph: {
+    title: 'Plant Price Index — All Species | Aroid Atlas',
+    description:
+      'Live retail prices, market trends, and listing counts for 180+ rare tropical plants. Sort and filter by genus, rarity, price tier, and market status.',
+    url: CANONICAL,
+    siteName: 'Aroid Atlas',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Plant Price Index — All Species | Aroid Atlas',
+    description:
+      'Live retail prices, market trends, and listing counts for 180+ rare tropical plants. Sort and filter by genus, rarity, price tier, and market status.',
+  },
 };
 
 const QUERY_OBSERVATIONS = `
@@ -115,8 +131,29 @@ export default async function PriceIndexPage() {
   const withRetail = rows.filter((r) => r.hasRetailData).length;
   const inStock = rows.reduce((n, r) => n + r.inStockCount, 0);
 
+  const datasetLd = {
+    "@context": "https://schema.org",
+    "@type": "Dataset",
+    name: "Aroid Atlas UK Plant Price Index",
+    description: `Live retail prices, eBay sold comparables, and market trends for ${rows.length} rare tropical plant species. Sourced from UK retailers and eBay UK sold listings.`,
+    url: CANONICAL,
+    creator: {
+      "@type": "Organization",
+      name: "Aroid Atlas",
+      url: "https://aroidatlas.co.uk",
+    },
+    license: "https://creativecommons.org/licenses/by-nc/4.0/",
+    variableMeasured: ["Retail price GBP", "eBay sold median price GBP", "Market trend", "In-stock listings"],
+    spatialCoverage: "United Kingdom",
+    temporalCoverage: "2024/..",
+  };
+
   return (
     <main className="section-container py-12">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetLd) }}
+      />
       <div className="mb-8">
         <div className="flex items-baseline gap-3 mb-2">
           <h1 className="font-heading text-3xl font-semibold text-heading">Plant Price Index</h1>

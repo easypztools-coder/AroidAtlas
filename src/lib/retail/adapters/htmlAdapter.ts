@@ -7,7 +7,9 @@ export async function htmlAdapter(
 ): Promise<ExtractedProduct[]> {
   const products: ExtractedProduct[] = [];
   const checkedAt = new Date().toISOString();
-  const baseUrl = retailer.url.replace(/\/$/, "");
+  // Use the origin only (not the full path) so that root-relative links like
+  // "/shop/product-name/" resolve correctly without doubling the path.
+  const baseUrl = new URL(retailer.url).origin;
 
   const selectors = retailer.config?.selectors;
   if (!selectors || !selectors.container) {

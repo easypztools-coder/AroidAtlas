@@ -22,13 +22,13 @@ export const approvedRetailers: RetailerConfig[] = [
   {
     slug: "root-houseplants",
     name: "Root Houseplants",
-    url: "https://root-houseplants.com/shop",
+    url: "https://www.root-houseplants.com/shop/",
     method: "html_selectors",
     config: {
       selectors: {
         container: 'a[href^="/shop/"]',
         title: "h3",
-        price: "span",
+        price: "p",
       },
     },
   },
