@@ -38,7 +38,7 @@ async function buildRows(): Promise<PriceIndexRow[]> {
     .readdirSync(plantsRoot)
     .filter((g) => fs.statSync(path.join(plantsRoot, g)).isDirectory());
 
-  const jsonRows: Omit<PriceIndexRow, 'dbMedianPrice' | 'listingCount' | 'inStockCount' | 'retailerCount' | 'hasRetailData' | 'ebayDataPoints'>[] = [];
+  const jsonRows: Omit<PriceIndexRow, 'dbMedianPrice' | 'listingCount' | 'inStockCount' | 'retailerCount' | 'hasRetailData'>[] = [];
 
   for (const genus of genera) {
     const genusDir = path.join(plantsRoot, genus);

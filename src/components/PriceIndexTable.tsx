@@ -206,6 +206,7 @@ export default function PriceIndexTable({ rows }: Props) {
                         href={`/plants/${genusSlug}/${row.slug}`}
                         className="flex items-start gap-2.5 group"
                       >
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
                         <img
                           src={`/plants/${genusSlug}/${row.slug}.png`}
                           alt=""
