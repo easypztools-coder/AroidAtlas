@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Uncommon",
   "availability": "Moderate",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Begonia luxurians, described by Scheidweiler, is a distinctive tall cane begonia from the humid Atlantic Forest regions of Brazil — growing in warm, shaded to bright filtered conditions on organic-rich forest substrates with consistently moist soil and high atmospheric humidity. The plant is immediately identifiable by its dramatic, palm-like silhouette: bamboo-like segmented canes carry leaves composed of many narrow leaflets arranged palmately and radiating outward from the petiole end, forming a light, elegant crown with a tropical architectural effect that is unique within the genus. Growing to considerable height as a cane begonia, luxurians is a specimen plant rather than a compact windowsill subject — it rewards space with a display that no other begonia can match. An outstanding subject for bright conservatories and large indoor plantings.",
   "quickFacts": {
     "growthHabit": "Tall upright cane, architectural",
@@ -34,7 +34,7 @@
     "growthHabit": "Tall bamboo-like segmented canes with crown of palmately divided leaves"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 25,
+    "currentMedianPriceGBP": 31,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

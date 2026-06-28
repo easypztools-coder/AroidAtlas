@@ -12,7 +12,7 @@
   "collectorPopularity": 3,
   "rarityStatus": "Uncommon",
   "availability": "Moderate",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Alocasia zebrina is a terrestrial aroid native to the humid lowland forests of the Philippines, grown almost exclusively for its extraordinary petioles rather than its leaf blades. Those elongated stems are a natural marvel — pale yellow-green barred with irregular dark brownish-purple to near-black bands, mimicking the stripes of a zebra with uncanny precision. The broad, sagittate leaves emerge held upright and outward from a compact corm-like base, giving the plant a sculptural, palm-like silhouette at maturity. Among aroids, zebrina occupies a unique niche: dramatic enough to anchor a collection but forgiving enough to grow well in most warm, bright interiors.",
   "quickFacts": {
     "growthHabit": "Self-heading, corm-forming",
@@ -34,7 +34,7 @@
     "growthHabit": "Upright rosette from compact corm"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 35,
+    "currentMedianPriceGBP": 22,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

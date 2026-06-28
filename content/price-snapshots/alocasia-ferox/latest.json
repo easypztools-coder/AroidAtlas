@@ -1,0 +1,112 @@
+{
+  "snapshot": {
+    "plantSlug": "alocasia-ferox",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia ferox",
+    "checkedAt": "2026-06-28T20:15:27.393Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 7,
+    "rejectedCount": 233,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 30.397777199999997,
+    "p25Price": 31.547717999999996,
+    "medianPrice": 32.796009,
+    "meanPrice": 37.325522057142855,
+    "trimmedMeanPrice": 37.325522057142855,
+    "p75Price": 41.341128299999994,
+    "maxPrice": 52.3071756,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 7,
+    "min": 30.397777199999997,
+    "max": 52.3071756,
+    "median": 32.796009,
+    "mean": 37.325522057142855,
+    "p25": 31.547717999999996,
+    "p75": 41.341128299999994,
+    "iqr": 9.793410299999998,
+    "trimmedMean": 37.325522057142855,
+    "confidenceScore": "D",
+    "rejectedCount": 233,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Begonia Ferox Rare Plant | 4” Pot",
+      "url": "https://www.ebay.com/itm/318430490767?nordt=true",
+      "soldPrice": 22.688634599999997,
+      "totalPrice": 30.397777199999997,
+      "soldDate": "2026-06-21",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Begonia ferox, Fierce Begonia, Container Size: 3\" (2.6x3.5\")",
+      "url": "https://www.ebay.com/itm/117134827507?nordt=true",
+      "soldPrice": 32.6976588,
+      "totalPrice": 32.6976588,
+      "soldDate": "2026-06-11",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Begonia Ferox Rare Plant | 4” Pot",
+      "url": "https://www.ebay.com/itm/318370878293?nordt=true",
+      "soldPrice": 22.688634599999997,
+      "totalPrice": 30.397777199999997,
+      "soldDate": "2026-06-08",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Begonia Ferox Rare Plant | 4” Pot",
+      "url": "https://www.ebay.com/itm/318288365922?nordt=true",
+      "soldPrice": 22.688634599999997,
+      "totalPrice": 32.796009,
+      "soldDate": "2026-05-24",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Harmony Foliage Begonia Ferox Rare with Spikes 4 inch",
+      "url": "https://www.ebay.com/itm/315881226173?nordt=true",
+      "soldPrice": 45.3848346,
+      "totalPrice": 49.8862476,
+      "soldDate": "2026-05-11",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Begonia Ferox Rare Plant | 4” Pot",
+      "url": "https://www.ebay.com/itm/318223889218?nordt=true",
+      "soldPrice": 22.688634599999997,
+      "totalPrice": 32.796009,
+      "soldDate": "2026-05-09",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Begonia Ferox",
+      "url": "https://www.ebay.com/itm/178049384095?nordt=true",
+      "soldPrice": 45.3924,
+      "totalPrice": 52.3071756,
+      "soldDate": "2026-04-22",
+      "listingType": "unknown",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 7,
+  "rejectedCount": 233,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "begonia melanobullata (vietnam ferox rooted in 3\" pot)",
+      "micro strawberry begonia (saxifraga stolonifera) *wysiwyg*",
+      "begonia shiwanshanensis fully rooted/ exact plant"
+    ]
+  }
+}

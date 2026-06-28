@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Very Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "££",
   "aboutText": "Anthurium metallicum, described by N.E. Brown, is a rare epiphytic or hemiepiphytic Anthurium from the humid shaded forests of Colombia and Ecuador. What distinguishes it immediately is the extraordinary metallic quality of the leaf surface — elongated, narrowly cordate to lanceolate blades of velvety dark green, with a strong midrib and prominent pale primary veins creating a luminous, almost burnished contrast against the dark lamina. The leaves attach with a peltate base, adding to the architectural drama. Short internodes and modest aerial roots keep the plant compact, and new growth often emerges with a distinct metallic sheen before darkening. Among the velvet anthuriums, metallicum holds a reputation for being simultaneously one of the most visually stunning and one of the most difficult to source.",
   "quickFacts": {
     "growthHabit": "Epiphytic to hemiepiphytic, compact",
@@ -34,7 +34,7 @@
     "growthHabit": "Compact epiphyte with short internodes and modest aerial roots"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 180,
+    "currentMedianPriceGBP": 85,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Begonia amphioxus is a rare species originating from the humid tropical forests of Sabah, Borneo, where it thrives in the shaded understory, maintaining constant warmth and humidity year-round. It is typically found growing on moist limestone outcrops, humus-rich soil, and decaying leaf litter. This elegant, upright begonia is characterized by slender, segmented red canes and distinctive narrow, lanceolate leaves. Its foliage is olive to bronzy green with vivid red venation, red margins, and numerous silvery-pink spots, complemented by red undersides, making it a highly desirable species for collectors.",
   "quickFacts": {
     "growthHabit": "Upright",
@@ -34,7 +34,7 @@
     "growthHabit": "Upright"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 18,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

@@ -1,0 +1,76 @@
+{
+  "snapshot": {
+    "plantSlug": "obliqua-tarapoto-form",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera obliqua Tarapoto",
+    "checkedAt": "2026-06-28T20:13:21.201Z",
+    "currency": "GBP",
+    "rawResultCount": 6,
+    "acceptedCount": 3,
+    "rejectedCount": 3,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 19.3749894,
+    "p25Price": 33.370979399999996,
+    "medianPrice": 47.366969399999995,
+    "meanPrice": 58.4200188,
+    "trimmedMeanPrice": 58.4200188,
+    "p75Price": 77.9425335,
+    "maxPrice": 108.5180976,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 3,
+    "min": 19.3749894,
+    "max": 108.5180976,
+    "median": 47.366969399999995,
+    "mean": 58.4200188,
+    "p25": 33.370979399999996,
+    "p75": 77.9425335,
+    "iqr": 44.5715541,
+    "trimmedMean": 58.4200188,
+    "confidenceScore": "D",
+    "rejectedCount": 3,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Monstera Obliqua Peru Variegata",
+      "url": "https://www.ebay.com/itm/168291106585?nordt=true",
+      "soldPrice": 93.8790486,
+      "totalPrice": 108.5180976,
+      "soldDate": "2026-04-13",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Strong Monstera Obliqua Peru at least two plants in pot W59",
+      "url": "https://www.ebay.com/itm/168111881449?nordt=true",
+      "soldPrice": 32.727920399999995,
+      "totalPrice": 47.366969399999995,
+      "soldDate": "2026-04-20",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Obliqua Peru, 5 small young plants in pot",
+      "url": "https://www.ebay.com/itm/287340806847?nordt=true",
+      "soldPrice": 6.892079399999999,
+      "totalPrice": 19.3749894,
+      "soldDate": "2026-05-26",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 3,
+  "rejectedCount": 3,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "monstera obliqua and dubia cutting for superpiria",
+      "monstera obliqua",
+      "1x adansonii frozen freckles, 2x obliqua and 1 adansonii albo variegata cuttings"
+    ]
+  }
+}

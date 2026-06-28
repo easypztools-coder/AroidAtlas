@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Begonia ferox is a striking species endemic to the humid limestone forests of Guangxi, China, where it thrives in shaded karst habitats at low to mid elevations. This rhizomatous plant grows on moist, humus-rich limestone soil, preferring warm, humid conditions and filtered light. Its distinctive morphology includes thick, asymmetrical leaves heavily covered in numerous dark conical bullae, giving it a uniquely textured, almost prehistoric appearance. The upper leaf surface is a deep green with prominent venation, contrasting sharply with the maroon to burgundy underside. Short, densely spiny petioles complete its rugged aesthetic, making it a highly sought-after plant for collectors.",
   "quickFacts": {
     "growthHabit": "Rhizomatous with a creeping base",
@@ -34,7 +34,7 @@
     "growthHabit": "Rhizomatous with a creeping base"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 37,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

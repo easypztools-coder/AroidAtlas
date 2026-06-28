@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Philodendron 'Splendid' is a celebrated climbing hybrid believed to cross Philodendron verrucosum and Philodendron melanochrysum — two of the most admired velvety climbing Philodendrons in the collector world. The verrucosum parent contributes its extraordinary velvety leaf texture and the crisp, pale primary venation; the melanochrysum parent lends the elongated, tapering cordate form with its pronounced acuminate apex and deep, rich leaf colour. The result is a climbing hemiepiphyte with elongated, velvety, cordate leaves on robust internodes bearing cataphyll remnants and aerial roots for climbing and anchorage. The deep green blades show striking pale primary venation and that distinctive elongated tapering tip — a leaf shape that earns the cultivar name completely. Among Philodendron hybrids, 'Splendid' is one of the most consistently admired and frequently sought, offering the drama of both parents in a single, vigorous cultivar.",
   "quickFacts": {
     "growthHabit": "Climbing hemiepiphyte",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing with aerial roots, robust internodes with cataphyll remnants"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 100,
+    "currentMedianPriceGBP": 22,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

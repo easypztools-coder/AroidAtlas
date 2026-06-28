@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Very Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "££",
   "aboutText": "Anthurium regale is one of the most coveted velvet Anthurium in cultivation, native to the premontane and montane forests of Peru. It produces several enormous cordate leaves of a deep, velvety dark green with a strikingly open, deep sinus and an elongated anterior lobe, all adorned with bold, pale primary venation. Plants grow with a short, thick crown either terrestrially or epiphytically on mossy branches and fallen logs in consistently moist conditions. Mature specimens are dramatic and commanding, making Anthurium regale a pinnacle of any serious aroid collection.",
   "quickFacts": {
     "growthHabit": "Compact terrestrial to epiphytic",
@@ -34,7 +34,7 @@
     "growthHabit": "Short-crowned rosette"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 280,
+    "currentMedianPriceGBP": 58,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

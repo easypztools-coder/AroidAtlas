@@ -1,0 +1,67 @@
+{
+  "snapshot": {
+    "plantSlug": "tortum-aurea-variegated",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron tortum variegated",
+    "checkedAt": "2026-06-28T20:22:28.597Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 2,
+    "rejectedCount": 238,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 118.77678,
+    "p25Price": 154.24148385,
+    "medianPrice": 189.7061877,
+    "meanPrice": 189.7061877,
+    "trimmedMeanPrice": 189.7061877,
+    "p75Price": 225.17089155,
+    "maxPrice": 260.6355954,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 2,
+    "min": 118.77678,
+    "max": 260.6355954,
+    "median": 189.7061877,
+    "mean": 189.7061877,
+    "p25": 154.24148385,
+    "p75": 225.17089155,
+    "iqr": 70.92940769999998,
+    "trimmedMean": 189.7061877,
+    "confidenceScore": "D",
+    "rejectedCount": 238,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Philodendron Florida Beauty x Tortum Variegated New Hybrid",
+      "url": "https://www.ebay.com/itm/267706147261?nordt=true",
+      "soldPrice": 105.15906,
+      "totalPrice": 118.77678,
+      "soldDate": "2026-06-27",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Philodendron Tortum Variegated, US Seller",
+      "url": "https://www.ebay.com/itm/236697844178?nordt=true",
+      "soldPrice": 249.6582,
+      "totalPrice": 260.6355954,
+      "soldDate": "2026-05-07",
+      "listingType": "unknown",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 2,
+  "rejectedCount": 238,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "variegated philodendron tortum starter plant - 2.5” grow pot",
+      "#39 philodendron florida beauty variegated x tortum new hybrid plant 4” pot",
+      "#12 philodendron florida beauty variegated x tortum new hybrid plant 4” pot"
+    ]
+  }
+}

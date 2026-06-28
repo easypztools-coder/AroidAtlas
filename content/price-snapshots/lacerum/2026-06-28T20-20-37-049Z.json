@@ -1,0 +1,67 @@
+{
+  "snapshot": {
+    "plantSlug": "lacerum",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron lacerum",
+    "checkedAt": "2026-06-28T20:20:37.049Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 2,
+    "rejectedCount": 238,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 35.2396332,
+    "p25Price": 42.5099826,
+    "medianPrice": 49.780332,
+    "meanPrice": 49.780332,
+    "trimmedMeanPrice": 49.780332,
+    "p75Price": 57.0506814,
+    "maxPrice": 64.3210308,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 2,
+    "min": 35.2396332,
+    "max": 64.3210308,
+    "median": 49.780332,
+    "mean": 49.780332,
+    "p25": 42.5099826,
+    "p75": 57.0506814,
+    "iqr": 14.540698800000001,
+    "trimmedMean": 49.780332,
+    "confidenceScore": "D",
+    "rejectedCount": 238,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Philodendron lacerum Plant in 6\" Pot 22\" Tall 32\" Wide LARGE",
+      "url": "https://www.ebay.com/itm/257552458157?nordt=true",
+      "soldPrice": 49.1751,
+      "totalPrice": 64.3210308,
+      "soldDate": "2026-06-12",
+      "listingType": "mature_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Philodendron lacerum Plant in 6\" Pot 21\" Tall 21\" Wide LARGE",
+      "url": "https://www.ebay.com/itm/257490140554?nordt=true",
+      "soldPrice": 22.688634599999997,
+      "totalPrice": 35.2396332,
+      "soldDate": "2026-05-08",
+      "listingType": "mature_plant",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 2,
+  "rejectedCount": 238,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "philodendron scottmorianum plant in 4\" pot 25\" tall 24\" wide",
+      "philodendron pedatum variegated plant in 4\" pot 17\" tall 12\" wide",
+      "pink princess philodendron plant - free shipping"
+    ]
+  }
+}

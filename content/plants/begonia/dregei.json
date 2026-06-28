@@ -12,7 +12,7 @@
   "collectorPopularity": 3,
   "rarityStatus": "Uncommon",
   "availability": "Moderate",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Begonia dregei, described by Otto and Dietrich, is a caudiform species endemic to rocky slopes and forest margins of eastern South Africa — occurring in seasonally moist habitats with bright filtered light and well-drained, humus-rich substrate among leaf litter and stones. It is the only commonly cultivated South African Begonia to develop a pronounced caudex: a swollen, thickened tuberous base that enlarges gradually over years, eventually producing the bonsai-like appearance that has made this species a favourite among succulent and caudex collectors as well as dedicated begonia enthusiasts. From the caudex, slender reddish stems produce a naturally shrubby, multibranched habit carrying small, asymmetrical, rounded to ovate leaves with crenate margins. South African in origin but Japanese in the aesthetic it suggests, dregei appeals well beyond the conventional begonia collector.",
   "quickFacts": {
     "growthHabit": "Caudiform, multibranched shrubby",
@@ -34,7 +34,7 @@
     "growthHabit": "Swollen caudex base, slender multibranched stems above"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 20,
+    "currentMedianPriceGBP": 25,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

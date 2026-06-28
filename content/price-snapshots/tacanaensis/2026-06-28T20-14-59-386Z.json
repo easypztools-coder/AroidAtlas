@@ -1,0 +1,121 @@
+{
+  "snapshot": {
+    "plantSlug": "tacanaensis",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera tacanaensis",
+    "checkedAt": "2026-06-28T20:14:59.386Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 8,
+    "rejectedCount": 232,
+    "outlierCount": 1,
+    "confidenceScore": "D",
+    "minPrice": 20.804850000000002,
+    "p25Price": 28.843087500000003,
+    "medianPrice": 31.207275000000003,
+    "meanPrice": 42.4608075,
+    "trimmedMeanPrice": 42.4608075,
+    "p75Price": 49.364235,
+    "maxPrice": 94.94577,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 8,
+    "min": 20.804850000000002,
+    "max": 94.94577,
+    "median": 31.207275000000003,
+    "mean": 42.4608075,
+    "p25": 28.843087500000003,
+    "p75": 49.364235,
+    "iqr": 20.521147499999998,
+    "trimmedMean": 42.4608075,
+    "confidenceScore": "D",
+    "rejectedCount": 232,
+    "rejectionReasons": {},
+    "outlierCount": 1
+  },
+  "acceptedListings": [
+    {
+      "title": "#31 Rare Monstera Laniata 4” Pot Houseplant Aroid Plant",
+      "url": "https://www.ebay.com/itm/188494555506?nordt=true",
+      "soldPrice": 20.42658,
+      "totalPrice": 31.774680000000004,
+      "soldDate": "2026-06-17",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Rare Monstera Mint New Leaf Pushing",
+      "url": "https://www.ebay.com/itm/168430687982?nordt=true",
+      "soldPrice": 94.94577,
+      "totalPrice": 94.94577,
+      "soldDate": "2026-06-14",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "#48 Rare Monstera Epipremnoides Esqueleto 4” Pot Houseplant Aroid Plant",
+      "url": "https://www.ebay.com/itm/318087351619?nordt=true",
+      "soldPrice": 18.9135,
+      "totalPrice": 30.2616,
+      "soldDate": "2026-04-07",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "RARE Monstera White Monster Variegated Rooted Live Exact Houseplant 6” Pot",
+      "url": "https://www.ebay.com/itm/406944643898?nordt=true",
+      "soldPrice": 49.93164,
+      "totalPrice": 61.279740000000004,
+      "soldDate": "2026-05-26",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#25 Rare Monstera Pinnatipartita Aroid Houseplant 4” Pot Philodendron",
+      "url": "https://www.ebay.com/itm/318371939629?nordt=true",
+      "soldPrice": 15.50907,
+      "totalPrice": 30.639870000000002,
+      "soldDate": "2026-06-03",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#3 Rare Monstera Laniata 4” Pot Houseplant Aroid Plant",
+      "url": "https://www.ebay.com/itm/318406162377?nordt=true",
+      "soldPrice": 9.45675,
+      "totalPrice": 20.804850000000002,
+      "soldDate": "2026-06-10",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#42 Large Rare Monstera Thai Constellation Variegated 4” Pot Aroid Houseplant",
+      "url": "https://www.ebay.com/itm/318438143802?nordt=true",
+      "soldPrice": 13.23945,
+      "totalPrice": 24.58755,
+      "soldDate": "2026-06-17",
+      "listingType": "mature_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Rare Monstera delisiosa  FRUIT",
+      "url": "https://www.ebay.com/itm/176421347479?nordt=true",
+      "soldPrice": 45.3924,
+      "totalPrice": 45.3924,
+      "soldDate": "2026-05-15",
+      "listingType": "unknown",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 8,
+  "rejectedCount": 232,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "#58 variegated monstera karstenianum peru plant aroid 4” pot philodendron",
+      "monstera borsigiana albo / variegated monstera",
+      "monstera albo"
+    ]
+  }
+}

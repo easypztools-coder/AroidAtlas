@@ -1,0 +1,94 @@
+{
+  "snapshot": {
+    "plantSlug": "joepii-aurea-variegata",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron joepii",
+    "checkedAt": "2026-06-28T20:20:24.823Z",
+    "currency": "GBP",
+    "rawResultCount": 235,
+    "acceptedCount": 5,
+    "rejectedCount": 230,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 20.5854534,
+    "p25Price": 32.6976588,
+    "medianPrice": 55.1063736,
+    "meanPrice": 150.51968532,
+    "trimmedMeanPrice": 150.51968532,
+    "p75Price": 294.5437182,
+    "maxPrice": 349.6652226,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 5,
+    "min": 20.5854534,
+    "max": 349.6652226,
+    "median": 55.1063736,
+    "mean": 150.51968532,
+    "p25": 32.6976588,
+    "p75": 294.5437182,
+    "iqr": 261.8460594,
+    "trimmedMean": 150.51968532,
+    "confidenceScore": "D",
+    "rejectedCount": 230,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Philodendron Joepii Baby Plant",
+      "url": "https://www.ebay.com/itm/166941276320?nordt=true",
+      "soldPrice": 8.5262058,
+      "totalPrice": 20.5854534,
+      "soldDate": "2026-06-19",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Philodendron Joepii Variegata WETSTICK * no monstera-joepii-caramel",
+      "url": "https://www.ebay.com/itm/398068046703?nordt=true",
+      "soldPrice": 15.486373799999999,
+      "totalPrice": 32.6976588,
+      "soldDate": "2026-06-18",
+      "listingType": "node",
+      "currency": "USD"
+    },
+    {
+      "title": "Very Nice Large Philodendron Joepii Variegata",
+      "url": "https://www.ebay.com/itm/168295531490?nordt=true",
+      "soldPrice": 279.9046692,
+      "totalPrice": 294.5437182,
+      "soldDate": "2026-06-10",
+      "listingType": "mature_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Philodendron Joepii Variegated (whole growing plant)",
+      "url": "https://www.ebay.com/itm/358540662053?nordt=true",
+      "soldPrice": 42.1998012,
+      "totalPrice": 55.1063736,
+      "soldDate": "2026-05-17",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Very Nice Large Philodendron Joepii Variegata",
+      "url": "https://www.ebay.com/itm/168286710063?nordt=true",
+      "soldPrice": 335.0261736,
+      "totalPrice": 349.6652226,
+      "soldDate": "2026-04-07",
+      "listingType": "mature_plant",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 5,
+  "rejectedCount": 230,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "philodendron billietiae variegated rare (no joepii caramel)",
+      "philodendron golden dragon variegata wetstick * no monstera-joepii-caramel",
+      "philodendron caramel marble pink variegata * no monstera-joepii- ilsemanii"
+    ]
+  }
+}

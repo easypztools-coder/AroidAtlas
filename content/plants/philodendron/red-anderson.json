@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Philodendron 'Red Anderson' is a striking climbing cultivar of tropical American Philodendron ancestry, prized worldwide for its extraordinary marbled foliage. The elongated, glossy leaves display a complex interplay of deep green, creamy white, blush pink, and red tones that develop unpredictably from leaf to leaf. It climbs readily with a slender but robust vining stem, producing aerial roots at each node. The combination of structural climbing habit and highly variable chromatic variegation makes it one of the most visually dynamic Philodendron in cultivation.",
   "quickFacts": {
     "growthHabit": "Climbing hemiepiphyte",
@@ -34,7 +34,7 @@
     "growthHabit": "Vining climber with aerial roots"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 100,
+    "currentMedianPriceGBP": 25,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

@@ -11,7 +11,7 @@
   "collectorPopularity": 4.5,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Monstera lechleriana 'Albo Variegated' is an exceptional climbing hemiepiphyte native from Central America to northwestern South America. Distinct from the standard deliciosa, it features elongated ovate to elliptic leaves with a strong midrib and fewer, larger, centrally placed fenestrations. The albo variegation pattern displays highly striking sectors and marbling of white to cream across the green leaf surface. It climbs efficiently on thick stems, anchored by robust aerial roots, and prefers warm, humid tropical conditions with bright indirect light to support mature fenestrated growth.",
   "quickFacts": {
     "growthHabit": "Climbing hemiepiphyte on moss pole",
@@ -33,7 +33,7 @@
     "growthHabit": "Climbing with thick stems and aerial roots"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 150,
+    "currentMedianPriceGBP": 23,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

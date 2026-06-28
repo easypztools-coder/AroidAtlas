@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Very Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "££",
   "aboutText": "Anthurium cutucuense is a highly rare and unique epiphytic Anthurium native to the shaded cloud forests and wet forest conditions of Ecuador. It grows with a compact crown and forms long, narrow, pendant leaves that hang elegantly from a small basal root mass. The mature blades are dark green, leathery, and conspicuously ribbed or bullate with a strong midrib. This species is highly coveted by collectors for its extremely narrow, textured leaves and graceful pendant to arching growth habit.",
   "quickFacts": {
     "growthHabit": "Epiphytic, pendant, arching",
@@ -34,7 +34,7 @@
     "growthHabit": "Pendant, epiphytic"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 220,
+    "currentMedianPriceGBP": 63,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

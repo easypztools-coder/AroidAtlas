@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Very Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "££",
   "aboutText": "Anthurium warocqueanum, widely known as the 'Queen Anthurium', is one of the most iconic and highly coveted species in the aroid hobby. Native to the extremely humid rainforests of Colombia, it produces massive, elongated, velvet-textured leaves that can grow up to 1.2 meters long. The leaves are dark green to almost black, contrasted by striking silvery-white primary veins. Due to its thin, velvety leaves, it requires high humidity and careful moisture levels, but remains a crown jewel for collectors.",
   "quickFacts": {
     "growthHabit": "Epiphytic, compact to climbing",
@@ -34,7 +34,7 @@
     "growthHabit": "Basal rosette to slowly climbing"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 95,
+    "currentMedianPriceGBP": 62,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

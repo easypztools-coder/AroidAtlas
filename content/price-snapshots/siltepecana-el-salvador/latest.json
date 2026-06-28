@@ -1,0 +1,67 @@
+{
+  "snapshot": {
+    "plantSlug": "siltepecana-el-salvador",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera siltepecana El Salvador",
+    "checkedAt": "2026-06-28T20:14:18.056Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 2,
+    "rejectedCount": 238,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 31.774679999999996,
+    "p25Price": 53.642468699999995,
+    "medianPrice": 75.5102574,
+    "meanPrice": 75.51025739999999,
+    "trimmedMeanPrice": 75.51025739999999,
+    "p75Price": 97.37804609999998,
+    "maxPrice": 119.24583479999998,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 2,
+    "min": 31.774679999999996,
+    "max": 119.24583479999998,
+    "median": 75.5102574,
+    "mean": 75.51025739999999,
+    "p25": 53.642468699999995,
+    "p75": 97.37804609999998,
+    "iqr": 43.73557739999998,
+    "trimmedMean": 75.51025739999999,
+    "confidenceScore": "D",
+    "rejectedCount": 238,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Monstera Siltepecana El Salvador 4\" pot, Fedex 2day*",
+      "url": "https://www.ebay.com/itm/157891336736?nordt=true",
+      "soldPrice": 18.9135,
+      "totalPrice": 31.774679999999996,
+      "soldDate": "2026-05-23",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Rare XL Monstera Siltepecana El Salvador 20\" Tall Not Philodendron Anthurium",
+      "url": "https://www.ebay.com/itm/168314252641?nordt=true",
+      "soldPrice": 96.11840699999999,
+      "totalPrice": 119.24583479999998,
+      "soldDate": "2026-05-06",
+      "listingType": "mature_plant",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 2,
+  "rejectedCount": 238,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "monstera siltepecana",
+      "aroid tropical houseplant monstera siltepecana",
+      "monstera albo deliciosa base cutting plant, sectoral variegation, free shipping"
+    ]
+  }
+}

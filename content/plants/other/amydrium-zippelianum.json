@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Amydrium zippelianum is a climbing aroid liana native to the lowland and lower montane rainforests of Central Malesia to New Guinea. It climbs vigorously up trees, attaching securely to bark with aerial roots. The mature leaves are highly distinct, being deeply pinnatifid into numerous long, narrow, hanging divisions, giving the plant a palm-like or dissected silhouette. The foliage is elongated, glossy green, and elegant, making it a highly decorative and unusual specimen for collector collections.",
   "quickFacts": {
     "growthHabit": "Climbing liana",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing stems with aerial roots"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 70,
+    "currentMedianPriceGBP": 40,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

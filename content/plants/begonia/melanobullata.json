@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Very Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£",
   "aboutText": "Begonia melanobullata, described by Ardi and Thomas, is a rare rhizomatous species from the humid lowland to hill forest of East Kalimantan in Borneo — growing in warm, shaded rainforest understory on moist leaf litter and humus-rich substrate with high humidity and constantly damp but well-drained conditions. Its foliage is among the most dramatically textured in the genus: dark, deeply glossy leaves with a strongly bullate surface studded with distinctive black conical bullae that project from the blade surface, producing an effect that is simultaneously armoured and elegant. Red, hairy petioles carry each leaf from the creeping rhizome, which roots along the substrate surface to form compact forest-floor colonies. Among the black-foliage Bornean begonias, melanobullata occupies the highest position in collector rarity and desirability.",
   "quickFacts": {
     "growthHabit": "Rhizomatous, creeping colony",
@@ -34,7 +34,7 @@
     "growthHabit": "Creeping rhizome rooting along substrate surface"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 220,
+    "currentMedianPriceGBP": 39,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

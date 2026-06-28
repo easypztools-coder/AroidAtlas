@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Anthurium superbum is a compact, self-heading bird's-nest Anthurium native to the humid lowland and montane forests of Costa Rica and Panama. It forms a tight rosette of elongated, leathery leaves arising from a short crown, with a habit reminiscent of a bromeliad. The deep green blades have a distinctly bronzy underside and quilted venation between prominent ribs. Growing either terrestrially on rich organic soil or epiphytically on decaying wood and root masses, it is a bold architectural plant highly sought by collectors for its structural presence.",
   "quickFacts": {
     "growthHabit": "Self-heading bird's-nest rosette",
@@ -34,7 +34,7 @@
     "growthHabit": "Compact self-heading rosette"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 70,
+    "currentMedianPriceGBP": 39,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

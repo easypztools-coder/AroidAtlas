@@ -11,7 +11,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Alocasia 'Venom' was discovered around 2019 by Mason Lee of Mason Plants in South Korea as a spontaneous mutation of Alocasia amazonica, itself a hybrid of A. sanderiana and A. longiloba 'Watsoniana' developed at Amazon Nursery in Miami in the 1950s. Venom was not a deliberate cross but a chance mutation, which Mason Lee recognized as something distinct enough to name and cultivate separately. The name refers to the most immediately striking feature of the plant: the elongated leaf tip that tapers into a narrow, curling, fang-like extension unlike anything else in the Amazonica lineage.\n\nBeyond the distinctive tip, Venom has a character all its own. The leaves are shield-shaped with softly undulating margins and pronounced raised venation. Juvenile leaves emerge darker green, but as the plant matures the foliage develops a pale, matte, silvery-green finish that holds consistently rather than deepening with age. The veins appear slightly lighter than the surrounding tissue, creating subtle contrast rather than the heavy white-on-dark pattern of its Amazonica relatives. The overall effect is quieter and more refined than Polly or Bambino, but the leaf form is genuinely singular. Venom is a slow-to-moderate grower and expects 6–10 weeks between new leaf flushes during the active season, which is normal for the cultivar and not a sign of poor conditions.",
   "quickFacts": {
     "growthHabit": "Upright rhizomatous bush",
@@ -33,7 +33,7 @@
     "growthHabit": "Upright rhizomatous"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 120,
+    "currentMedianPriceGBP": 33,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

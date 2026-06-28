@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Anthurium crystallinum is one of the foundational velvet anthuriums — a compact, self-supporting species from humid tropical forests spanning Panama to Peru, where it grows terrestrially or occasionally lithophytically on moist, organic-rich substrates in deep shade. The broad, cordate leaves are a deep velvety dark green with an open sinus and strikingly beautiful silvery-white primary venation that gives the plant its crystalline quality. Petioles arise from a short crown with surface roots, and the plant remains neatly self-supporting rather than climbing. As the parent of an enormous number of celebrated hybrids — crystallinum × magnificum, crystallinum × forgetii and many others — this is a species of genuine horticultural importance as well as great beauty in its own right.",
   "quickFacts": {
     "growthHabit": "Compact, terrestrial, self-heading",
@@ -34,7 +34,7 @@
     "growthHabit": "Short basal crown with surface roots, self-supporting"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 45,
+    "currentMedianPriceGBP": 28,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

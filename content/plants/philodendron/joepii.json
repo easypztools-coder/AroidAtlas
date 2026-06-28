@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Very Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£",
   "aboutText": "Philodendron joepii is a rare climbing Philodendron endemic to the humid lowland forests of French Guiana, described by Croat and named in honour of Joep Moonen, a naturalist who first documented it. It is one of the most strongly heteroblastic Philodendrons in cultivation — the difference between juvenile and adult foliage being so dramatic as to make the two growth stages almost unrecognisable as the same plant. Juvenile leaves are entire, narrow and elongated, held close to the climbing stem; as the plant matures and ascends into better light, the foliage transforms into the extraordinary tripartite adult leaf form — a very long, narrow central lobe flanked by two shorter lateral lobes positioned near the top of the blade, producing a silhouette unlike any other Philodendron in common cultivation. The base species is considerably rarer than its 'Aurea Variegata' form and commands serious collector interest in its own right.",
   "quickFacts": {
     "growthHabit": "Climbing hemiepiphyte, strongly heteroblastic",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing via aerial roots with strongly heteroblastic leaf development"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 280,
+    "currentMedianPriceGBP": 18,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

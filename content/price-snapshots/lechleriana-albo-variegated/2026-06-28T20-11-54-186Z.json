@@ -1,0 +1,76 @@
+{
+  "snapshot": {
+    "plantSlug": "lechleriana-albo-variegated",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera lechleriana albo",
+    "checkedAt": "2026-06-28T20:11:54.186Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 3,
+    "rejectedCount": 237,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 11.802024,
+    "p25Price": 17.211284999999997,
+    "medianPrice": 22.620545999999997,
+    "meanPrice": 23.07447,
+    "trimmedMeanPrice": 23.07447,
+    "p75Price": 28.710693,
+    "maxPrice": 34.80084,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 3,
+    "min": 11.802024,
+    "max": 34.80084,
+    "median": 22.620545999999997,
+    "mean": 23.07447,
+    "p25": 17.211284999999997,
+    "p75": 28.710693,
+    "iqr": 11.499408000000003,
+    "trimmedMean": 23.07447,
+    "confidenceScore": "D",
+    "rejectedCount": 237,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Monstera lechleriana albo 1 unrooted node cutting + free gift with every order",
+      "url": "https://www.ebay.com/itm/198341777838?nordt=true",
+      "soldPrice": 5.29578,
+      "totalPrice": 11.802024,
+      "soldDate": "2026-06-22",
+      "listingType": "node",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Lechleriana Albo Variegated Live Rooted Plant Rare Collector Aroid",
+      "url": "https://www.ebay.com/itm/277790824759?nordt=true",
+      "soldPrice": 22.620545999999997,
+      "totalPrice": 22.620545999999997,
+      "soldDate": "2026-04-05",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Lechleriana Variegated 4\" pot, Fedex 2day*",
+      "url": "https://www.ebay.com/itm/157434145079?nordt=true",
+      "soldPrice": 21.93966,
+      "totalPrice": 34.80084,
+      "soldDate": "2026-05-23",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 3,
+  "rejectedCount": 237,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "monstera albo borsigiana variegated top cutting rooted",
+      "monstera albo borsigiana variegated top cutting rooted",
+      "monstera borsigiana 'albo'"
+    ]
+  }
+}

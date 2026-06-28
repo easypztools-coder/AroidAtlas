@@ -34,7 +34,7 @@
     "growthHabit": "Climbing"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 24,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Ultra Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "££",
   "aboutText": "Anthurium faustomirandae is a remarkable basal Anthurium described by Pérez-Farrera and Croat, endemic to the humid tropical forest of Chiapas, Mexico. It grows on moist terrestrial soils or limestone rock faces in shaded ravines and slopes with consistently high humidity and rich organic matter year-round. The defining characteristic is the exceptionally bullate, heavily quilted leaf surface — thick, coriaceous and velvety deep green, with strongly raised primary venation giving the blade an almost sculptured quality. Stout upright petioles arise from a short crown, and the plant grows terrestrially or lithophytically in its restricted natural habitat. Among Mexican anthuriums, faustomirandae occupies a position of remarkable prestige, combining extreme natural rarity with a leaf texture that stands alone in the genus.",
   "quickFacts": {
     "growthHabit": "Compact basal terrestrial to lithophytic",
@@ -34,7 +34,7 @@
     "growthHabit": "Short-crowned basal rosette, terrestrial to lithophytic"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 500,
+    "currentMedianPriceGBP": 51,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

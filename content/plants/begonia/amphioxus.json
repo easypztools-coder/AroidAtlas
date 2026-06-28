@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Very Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£",
   "aboutText": "Begonia amphioxus, described by Sands, is one of the most visually dramatic begonias in cultivation — a rare upright species from the humid tropical forests of Sabah in northern Borneo, typically found on moist limestone outcrops, humus-rich soil and decaying leaf litter in warm, constantly humid, shaded understory conditions. The slender, segmented red canes carry narrow, lanceolate leaves of olive to bronzy green bearing vivid red venation, red margins and numerous silvery-pink spots, with undersides entirely red. The combination of the cane habit, the narrow pointed leaf form and the exuberant spotting and venation makes amphioxus one of the most sought-after Begonia species worldwide — a plant that commands immediate attention from any serious collector and considerable prices to match.",
   "quickFacts": {
     "growthHabit": "Upright cane, slender-stemmed",
@@ -34,7 +34,7 @@
     "growthHabit": "Upright segmented red canes with airy branching habit"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 200,
+    "currentMedianPriceGBP": 18,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

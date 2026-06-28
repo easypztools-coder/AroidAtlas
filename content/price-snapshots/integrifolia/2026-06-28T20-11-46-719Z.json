@@ -1,0 +1,130 @@
+{
+  "snapshot": {
+    "plantSlug": "integrifolia",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera integrifolia",
+    "checkedAt": "2026-06-28T20:11:46.719Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 9,
+    "rejectedCount": 231,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 20.804850000000002,
+    "p25Price": 30.2616,
+    "medianPrice": 31.774680000000004,
+    "meanPrice": 46.31706,
+    "trimmedMeanPrice": 46.31706,
+    "p75Price": 61.279740000000004,
+    "maxPrice": 94.94577,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 9,
+    "min": 20.804850000000002,
+    "max": 94.94577,
+    "median": 31.774680000000004,
+    "mean": 46.31706,
+    "p25": 30.2616,
+    "p75": 61.279740000000004,
+    "iqr": 31.018140000000002,
+    "trimmedMean": 46.31706,
+    "confidenceScore": "D",
+    "rejectedCount": 231,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "#20 RARE  Monstera Dubia Mature Leaf  4” Pot Aroid Houseplant",
+      "url": "https://www.ebay.com/itm/318438205430?nordt=true",
+      "soldPrice": 65.81898,
+      "totalPrice": 77.16708,
+      "soldDate": "2026-06-17",
+      "listingType": "mature_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#31 Rare Monstera Laniata 4” Pot Houseplant Aroid Plant",
+      "url": "https://www.ebay.com/itm/188494555506?nordt=true",
+      "soldPrice": 20.42658,
+      "totalPrice": 31.774680000000004,
+      "soldDate": "2026-06-17",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Rare Monstera Mint New Leaf Pushing",
+      "url": "https://www.ebay.com/itm/168430687982?nordt=true",
+      "soldPrice": 94.94577,
+      "totalPrice": 94.94577,
+      "soldDate": "2026-06-14",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "RARE Monstera White Monster Variegated Rooted Live Exact Houseplant 6” Pot",
+      "url": "https://www.ebay.com/itm/406944643898?nordt=true",
+      "soldPrice": 49.93164,
+      "totalPrice": 61.279740000000004,
+      "soldDate": "2026-05-26",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#25 Rare Monstera Pinnatipartita Aroid Houseplant 4” Pot Philodendron",
+      "url": "https://www.ebay.com/itm/318371939629?nordt=true",
+      "soldPrice": 15.50907,
+      "totalPrice": 30.639870000000002,
+      "soldDate": "2026-06-03",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#48 Rare Monstera Epipremnoides Esqueleto 4” Pot Houseplant Aroid Plant",
+      "url": "https://www.ebay.com/itm/318087351619?nordt=true",
+      "soldPrice": 18.9135,
+      "totalPrice": 30.2616,
+      "soldDate": "2026-04-07",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#3 Rare Monstera Laniata 4” Pot Houseplant Aroid Plant",
+      "url": "https://www.ebay.com/itm/318406162377?nordt=true",
+      "soldPrice": 9.45675,
+      "totalPrice": 20.804850000000002,
+      "soldDate": "2026-06-10",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#42 Large Rare Monstera Thai Constellation Variegated 4” Pot Aroid Houseplant",
+      "url": "https://www.ebay.com/itm/318438143802?nordt=true",
+      "soldPrice": 13.23945,
+      "totalPrice": 24.58755,
+      "soldDate": "2026-06-17",
+      "listingType": "mature_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Rare Monstera delisiosa  FRUIT",
+      "url": "https://www.ebay.com/itm/176421347479?nordt=true",
+      "soldPrice": 45.3924,
+      "totalPrice": 45.3924,
+      "soldDate": "2026-05-15",
+      "listingType": "unknown",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 9,
+  "rejectedCount": 231,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "*only 1* clavija integrifolia extremely rare fragrant primulaceae houseplant",
+      "#38 philodendron variegated billietiae 4” pot beautiful aroid monstera",
+      "monstera borsigiana albo / variegated monstera"
+    ]
+  }
+}

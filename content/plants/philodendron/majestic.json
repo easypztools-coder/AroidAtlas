@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Philodendron 'Majestic' is a climbing horticultural hybrid believed to combine Philodendron sodiroi and Philodendron verrucosum — a pairing that produces one of the most visually distinctive Philodendrons in cultivation. From the sodiroi parent it inherits the remarkable satiny silver mottling that covers the deep green leaf surface, and from verrucosum it draws the velvety texture and bold, high-contrast pale venation that fans across the cordate blade. The result is a medium-to-large climber with broad, cordate leaves that are simultaneously velvety and silver-washed — an unusual double quality that sets 'Majestic' apart from either parent individually. Moderate internodes bear aerial roots at nodes for climbing and anchorage. New leaves emerge with the silver patterning most vivid, deepening slightly as the blade matures. A reliably popular and genuinely beautiful cultivar for anyone with the growing conditions to match its ambitions.",
   "quickFacts": {
     "growthHabit": "Climbing hemiepiphyte",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing with aerial roots at nodes, moderate internodes"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 110,
+    "currentMedianPriceGBP": 13,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

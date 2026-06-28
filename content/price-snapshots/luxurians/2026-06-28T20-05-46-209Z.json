@@ -1,0 +1,67 @@
+{
+  "snapshot": {
+    "plantSlug": "luxurians",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium luxurians",
+    "checkedAt": "2026-06-28T20:05:46.209Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 2,
+    "rejectedCount": 238,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 33.5828106,
+    "p25Price": 35.2774602,
+    "medianPrice": 36.9721098,
+    "meanPrice": 36.9721098,
+    "trimmedMeanPrice": 36.9721098,
+    "p75Price": 38.6667594,
+    "maxPrice": 40.361408999999995,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 2,
+    "min": 33.5828106,
+    "max": 40.361408999999995,
+    "median": 36.9721098,
+    "mean": 36.9721098,
+    "p25": 35.2774602,
+    "p75": 38.6667594,
+    "iqr": 3.3892991999999964,
+    "trimmedMean": 36.9721098,
+    "confidenceScore": "D",
+    "rejectedCount": 238,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Anthurium Luxurians | 10-15cm Including Pot",
+      "url": "https://www.ebay.com/itm/127831207728?nordt=true",
+      "soldPrice": 25.752621599999998,
+      "totalPrice": 40.361408999999995,
+      "soldDate": "2026-06-21",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Beautiful Anthurium Luxurians MZ1",
+      "url": "https://www.ebay.com/itm/168386736806?nordt=true",
+      "soldPrice": 18.9437616,
+      "totalPrice": 33.5828106,
+      "soldDate": "2026-05-24",
+      "listingType": "unknown",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 2,
+  "rejectedCount": 238,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "anthurium nigrolaminum gigi x luxurians hybrid plants",
+      "anthurium pallidiflorum seedling plants",
+      "stem anthurium red crystallinum, wetstick"
+    ]
+  }
+}

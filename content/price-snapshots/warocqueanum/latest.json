@@ -1,0 +1,184 @@
+{
+  "snapshot": {
+    "plantSlug": "warocqueanum",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium warocqueanum",
+    "checkedAt": "2026-06-28T20:07:44.936Z",
+    "currency": "GBP",
+    "rawResultCount": 223,
+    "acceptedCount": 15,
+    "rejectedCount": 208,
+    "outlierCount": 1,
+    "confidenceScore": "C",
+    "minPrice": 25.34409,
+    "p25Price": 54.849149999999995,
+    "medianPrice": 60.5156346,
+    "meanPrice": 67.03726157999999,
+    "trimmedMeanPrice": 61.951484475,
+    "p75Price": 77.53778460000001,
+    "maxPrice": 128.6118,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 15,
+    "min": 25.34409,
+    "max": 128.6118,
+    "median": 60.5156346,
+    "mean": 67.03726157999999,
+    "p25": 54.849149999999995,
+    "p75": 77.53778460000001,
+    "iqr": 22.688634600000015,
+    "trimmedMean": 61.951484475,
+    "confidenceScore": "C",
+    "rejectedCount": 208,
+    "rejectionReasons": {},
+    "outlierCount": 1
+  },
+  "acceptedListings": [
+    {
+      "title": "Anthurium Warocqueanum, Queen 4\" pot, Fedex 2day*",
+      "url": "https://www.ebay.com/itm/168328656619?nordt=true",
+      "soldPrice": 44.63586,
+      "totalPrice": 57.49704,
+      "soldDate": "2026-06-15",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Anthurium Warocqueanum 'Queen' Exact Plant Free Shipping",
+      "url": "https://www.ebay.com/itm/257556732255?nordt=true",
+      "soldPrice": 60.5156346,
+      "totalPrice": 60.5156346,
+      "soldDate": "2026-06-23",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Anthurium Warocqueanum, Queen Anthurium Columbian species velvet leaved",
+      "url": "https://www.ebay.com/itm/117252400105?nordt=true",
+      "soldPrice": 16.64388,
+      "totalPrice": 25.34409,
+      "soldDate": "2026-06-21",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Anthurium Warocqueanum 'Queen' Exact Plant Free Shipping",
+      "url": "https://www.ebay.com/itm/257556731699?nordt=true",
+      "soldPrice": 60.5156346,
+      "totalPrice": 60.5156346,
+      "soldDate": "2026-06-19",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Anthurium Warocqueanum, Queen 2.5\" pot, Fedex 2day*",
+      "url": "https://www.ebay.com/itm/168328656616?nordt=true",
+      "soldPrice": 29.50506,
+      "totalPrice": 42.36624,
+      "soldDate": "2026-06-17",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#43 Anthurium Warocqueanum Long Leaf Aroid 4” Pot Houseplant",
+      "url": "https://www.ebay.com/itm/318438149075?nordt=true",
+      "soldPrice": 113.481,
+      "totalPrice": 128.6118,
+      "soldDate": "2026-06-10",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Anthurium Warocqueanum Rare Plant",
+      "url": "https://www.ebay.com/itm/278038386280?nordt=true",
+      "soldPrice": 22.6962,
+      "totalPrice": 27.765018,
+      "soldDate": "2026-06-06",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#16 Anthurium Warocqueanum Long Leaf Aroid 4” Pot Houseplant",
+      "url": "https://www.ebay.com/itm/188433027217?nordt=true",
+      "soldPrice": 43.12278,
+      "totalPrice": 58.25358,
+      "soldDate": "2026-06-03",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Anthurium Warocqueanum, Queen, Exact Plant Ships Nationwide",
+      "url": "https://www.ebay.com/itm/157936155344?nordt=true",
+      "soldPrice": 63.54936,
+      "totalPrice": 76.41054,
+      "soldDate": "2026-05-28",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Anthurium Warocqueanum (Pack of 2) - Live Plants House - LEAL PLANTS ECUADOR",
+      "url": "https://www.ebay.com/itm/335712305878?nordt=true",
+      "soldPrice": 93.05442,
+      "totalPrice": 104.40252,
+      "soldDate": "2026-05-05",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "#64 Anthurium Warocqueanum Long Leaf Aroid 4” Pot Houseplant",
+      "url": "https://www.ebay.com/itm/188292386666?nordt=true",
+      "soldPrice": 81.32805,
+      "totalPrice": 96.45885000000001,
+      "soldDate": "2026-04-25",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#43 Anthurium Warocqueanum Long Leaf Aroid 4” Pot Houseplant",
+      "url": "https://www.ebay.com/itm/188264770668?nordt=true",
+      "soldPrice": 63.534229200000006,
+      "totalPrice": 78.6650292,
+      "soldDate": "2026-04-17",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Anthurium Warocqueanum House Plant | Rare & Unique Queen Anthurium plant",
+      "url": "https://www.ebay.com/itm/335622274217?nordt=true",
+      "soldPrice": 59.01012,
+      "totalPrice": 70.35822,
+      "soldDate": "2026-04-08",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Anthurium Warocqueanum & Anthurium Pallidiflorum (pack of 2) Live Indoor Plant",
+      "url": "https://www.ebay.com/itm/336444455003?nordt=true",
+      "soldPrice": 113.4734346,
+      "totalPrice": 124.8215346,
+      "soldDate": "2026-04-03",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Anthurium Warocqueanum x Anthurium Veitchii LEAL PLANTS ECUADOR | Queen & King",
+      "url": "https://www.ebay.com/itm/335625249692?nordt=true",
+      "soldPrice": 96.83712,
+      "totalPrice": 108.18522,
+      "soldDate": "2026-03-30",
+      "listingType": "unknown",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 15,
+  "rejectedCount": 208,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "anthurium (red crystal x magnificum) x (magnificum x warocqueanum)",
+      "anthurium big bill plant in 6\" pot 22\" tall 31\" wide 20\" leaf large",
+      "anthurium roseospadix-rare central panamanian endemic aroid; one-off for 2026"
+    ]
+  }
+}

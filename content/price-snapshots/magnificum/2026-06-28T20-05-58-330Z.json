@@ -1,0 +1,76 @@
+{
+  "snapshot": {
+    "plantSlug": "magnificum",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium magnificum",
+    "checkedAt": "2026-06-28T20:05:58.330Z",
+    "currency": "GBP",
+    "rawResultCount": 46,
+    "acceptedCount": 3,
+    "rejectedCount": 43,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 25.3667862,
+    "p25Price": 33.7832937,
+    "medianPrice": 42.199801199999996,
+    "meanPrice": 57.8324394,
+    "trimmedMeanPrice": 57.8324394,
+    "p75Price": 74.06526600000001,
+    "maxPrice": 105.9307308,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 3,
+    "min": 25.3667862,
+    "max": 105.9307308,
+    "median": 42.199801199999996,
+    "mean": 57.8324394,
+    "p25": 33.7832937,
+    "p75": 74.06526600000001,
+    "iqr": 40.28197230000001,
+    "trimmedMean": 57.8324394,
+    "confidenceScore": "D",
+    "rejectedCount": 43,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Anthurium Magnificum",
+      "url": "https://www.ebay.com/itm/298297622410?nordt=true",
+      "soldPrice": 25.835841,
+      "totalPrice": 42.199801199999996,
+      "soldDate": "2026-06-08",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Anthurium Magnificum Plants",
+      "url": "https://www.ebay.com/itm/226845269479?nordt=true",
+      "soldPrice": 12.490475400000001,
+      "totalPrice": 25.3667862,
+      "soldDate": "2025-12-03",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Beautiful Anthurium Magnificum Blister Mutation K12",
+      "url": "https://www.ebay.com/itm/168286711632?nordt=true",
+      "soldPrice": 91.2916818,
+      "totalPrice": 105.9307308,
+      "soldDate": "2026-04-04",
+      "listingType": "unknown",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 3,
+  "rejectedCount": 43,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "anthurium pallidiflorum seedling plants",
+      "stem anthurium red crystallinum, wetstick",
+      "beautiful anthurium crystallinum variegata k588"
+    ]
+  }
+}

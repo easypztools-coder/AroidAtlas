@@ -1,0 +1,121 @@
+{
+  "snapshot": {
+    "plantSlug": "verrucosum",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron verrucosum",
+    "checkedAt": "2026-06-28T20:22:58.001Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 8,
+    "rejectedCount": 232,
+    "outlierCount": 1,
+    "confidenceScore": "D",
+    "minPrice": 13.315103999999998,
+    "p25Price": 22.2460587,
+    "medianPrice": 30.261599999999998,
+    "meanPrice": 33.604561125,
+    "trimmedMeanPrice": 33.604561125,
+    "p75Price": 38.38873095,
+    "maxPrice": 75.63886919999999,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 8,
+    "min": 13.315103999999998,
+    "max": 75.63886919999999,
+    "median": 30.261599999999998,
+    "mean": 33.604561125,
+    "p25": 22.2460587,
+    "p75": 38.38873095,
+    "iqr": 16.142672250000004,
+    "trimmedMean": 33.604561125,
+    "confidenceScore": "D",
+    "rejectedCount": 232,
+    "rejectionReasons": {},
+    "outlierCount": 1
+  },
+  "acceptedListings": [
+    {
+      "title": "Philodendron Verrucosum - 6\" Pot Live Plant - Free Shipping",
+      "url": "https://www.ebay.com/itm/287360198750?nordt=true",
+      "soldPrice": 37.8194346,
+      "totalPrice": 37.8194346,
+      "soldDate": "2026-06-23",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Philodendron verrucosum Incensi 1 node cutting free gift with purchase $7",
+      "url": "https://www.ebay.com/itm/198355673923?nordt=true",
+      "soldPrice": 5.29578,
+      "totalPrice": 13.315103999999998,
+      "soldDate": "2026-06-19",
+      "listingType": "node",
+      "currency": "USD"
+    },
+    {
+      "title": "Philodendron Verrucosum 2.5\" pot, Fedex 2day*",
+      "url": "https://www.ebay.com/itm/167899311370?nordt=true",
+      "soldPrice": 15.88734,
+      "totalPrice": 28.74852,
+      "soldDate": "2026-05-23",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Philodendron Verrucosum One leaf mid-Cutting tropical houseplant vivarium",
+      "url": "https://www.ebay.com/itm/226017584610?nordt=true",
+      "soldPrice": 7.5654,
+      "totalPrice": 17.6727744,
+      "soldDate": "2026-05-24",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Philodendron Verrucosum 'Amazon Sunset' Deep Vibrant Red Backed Velvety Soft",
+      "url": "https://www.ebay.com/itm/257237627464?nordt=true",
+      "soldPrice": 68.0810346,
+      "totalPrice": 75.63886919999999,
+      "soldDate": "2026-05-21",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Philodendron Verrucosum 4\" pot, Fedex 2day*",
+      "url": "https://www.ebay.com/itm/167899311373?nordt=true",
+      "soldPrice": 18.9135,
+      "totalPrice": 31.774679999999996,
+      "soldDate": "2026-04-11",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Philodendron Verrucosum Mini Purple Sp. Tropical vivarium terrarium houseplant",
+      "url": "https://www.ebay.com/itm/225603112377?nordt=true",
+      "soldPrice": 16.64388,
+      "totalPrice": 23.7704868,
+      "soldDate": "2026-04-22",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Philodendron Verrucosum Melon, Exact Plant Ships Nationwide",
+      "url": "https://www.ebay.com/itm/157793653982?nordt=true",
+      "soldPrice": 27.23544,
+      "totalPrice": 40.09662,
+      "soldDate": "2026-04-10",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 8,
+  "rejectedCount": 232,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "philodendron monkey tail ( verrucosum ) plant --",
+      "philodendron scottmorianum plant in 4\" pot 25\" tall 24\" wide",
+      "philodendron pedatum variegated plant in 4\" pot 17\" tall 12\" wide"
+    ]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "snapshot": {
+    "plantSlug": "peltigerum",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium peltigerum",
+    "checkedAt": "2026-06-28T20:06:34.080Z",
+    "currency": "GBP",
+    "rawResultCount": 143,
+    "acceptedCount": 2,
+    "rejectedCount": 141,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 23.8158792,
+    "p25Price": 29.5882794,
+    "medianPrice": 35.360679600000005,
+    "meanPrice": 35.360679600000005,
+    "trimmedMeanPrice": 35.360679600000005,
+    "p75Price": 41.133079800000004,
+    "maxPrice": 46.905480000000004,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 2,
+    "min": 23.8158792,
+    "max": 46.905480000000004,
+    "median": 35.360679600000005,
+    "mean": 35.360679600000005,
+    "p25": 29.5882794,
+    "p75": 41.133079800000004,
+    "iqr": 11.544800400000003,
+    "trimmedMean": 35.360679600000005,
+    "confidenceScore": "D",
+    "rejectedCount": 141,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Anthurium peltigerum Turtle Shield Anthurium from Columbia and Ecuador Species",
+      "url": "https://www.ebay.com/itm/117261428575?nordt=true",
+      "soldPrice": 13.61772,
+      "totalPrice": 23.8158792,
+      "soldDate": "2026-06-26",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Anthurium Peltigerum |Rare Unique Green Live House Plants for Indoor",
+      "url": "https://www.ebay.com/itm/335563160059?nordt=true",
+      "soldPrice": 35.55738,
+      "totalPrice": 46.905480000000004,
+      "soldDate": "2026-05-08",
+      "listingType": "unknown",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 2,
+  "rejectedCount": 141,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "anthurium big bill plant in 6\" pot 22\" tall 31\" wide 20\" leaf large",
+      "anthurium roseospadix-rare central panamanian endemic aroid; one-off for 2026",
+      "anthurium ustupoense-recently described east panamanian endemic rainforest aroid"
+    ]
+  }
+}

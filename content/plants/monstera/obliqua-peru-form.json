@@ -11,7 +11,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Ultra Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£",
   "aboutText": "Monstera obliqua (Peru form) is native to the tropical lowland rainforests of Peru, South America, where it thrives as a delicate hemiepiphytic aroid. It prefers warm, humid environments with bright indirect light and airy support for its climbing habit. This particular form is among the most delicate of all Monstera species, characterized by its extremely thin, papery leaves that feature dramatic internal perforations and fine tissue bridges, often appearing more hole than leaf. Its slender petioles and stems support its growth, distinguishing it from species like Monstera adansonii by its finer texture and more fragile structure, making it a highly prized rarity for advanced collectors.",
   "quickFacts": {
     "growthHabit": "Hemiepiphytic, climbing",
@@ -33,7 +33,7 @@
     "growthHabit": "Climbing, hemiepiphytic"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 800,
+    "currentMedianPriceGBP": 33,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "££",
   "aboutText": "Philodendron lacerum is a climbing aroid species native to the Caribbean islands, including Cuba, Hispaniola, and Jamaica. It grows as an epiphyte or hemiepiphyte, climbing strongly up tree trunks in moist, humid forest environments. The plant develops large, deeply incised, or lobed leaves that are glossy green with a leathery texture. The margins are wavy and heavily scalloped, giving it a distinctive, prehistoric appearance.",
   "quickFacts": {
     "growthHabit": "Root-climbing hemiepiphytic climber",
@@ -34,7 +34,7 @@
     "growthHabit": "Vining climber"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 70,
+    "currentMedianPriceGBP": 50,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

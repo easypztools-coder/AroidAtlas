@@ -1,0 +1,76 @@
+{
+  "snapshot": {
+    "plantSlug": "pavonina",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia pavonina iridescent",
+    "checkedAt": "2026-06-28T20:09:19.074Z",
+    "currency": "GBP",
+    "rawResultCount": 138,
+    "acceptedCount": 3,
+    "rejectedCount": 135,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 34.0443,
+    "p25Price": 47.279967299999996,
+    "medianPrice": 60.5156346,
+    "meanPrice": 71.3593746,
+    "trimmedMeanPrice": 71.3593746,
+    "p75Price": 90.0169119,
+    "maxPrice": 119.5181892,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 3,
+    "min": 34.0443,
+    "max": 119.5181892,
+    "median": 60.5156346,
+    "mean": 71.3593746,
+    "p25": 47.279967299999996,
+    "p75": 90.0169119,
+    "iqr": 42.7369446,
+    "trimmedMean": 71.3593746,
+    "confidenceScore": "D",
+    "rejectedCount": 135,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Amazing, rare \"Peacock Begonia\"! - Blue, iridescent Begonia pavonina",
+      "url": "https://www.ebay.com/itm/127865649671?nordt=true",
+      "soldPrice": 107.80695,
+      "totalPrice": 119.5181892,
+      "soldDate": "2026-05-21",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Peacock Begonia-true species-established Begonia pavonina, rare iridescent blue",
+      "url": "https://www.ebay.com/itm/327099034186?nordt=true",
+      "soldPrice": 45.3848346,
+      "totalPrice": 60.5156346,
+      "soldDate": "2026-04-28",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Begonia Pavonina FULLY ROOTED/ EXACT PLANT",
+      "url": "https://www.ebay.com/itm/127877457051?nordt=true",
+      "soldPrice": 34.0443,
+      "totalPrice": 34.0443,
+      "soldDate": "2026-05-21",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 3,
+  "rejectedCount": 135,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "rare begonia lamoon houseplant plant pot - iridescent pink - us grown",
+      "rare begonia amphioxus live plant potted",
+      "begonia plant -- sp. u665 ~ terrarium"
+    ]
+  }
+}

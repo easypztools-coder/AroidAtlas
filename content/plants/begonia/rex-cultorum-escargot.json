@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Uncommon",
   "availability": "Moderate",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Begonia rex-cultorum 'Escargot' is one of the most immediately recognisable cultivated Begonias in existence — a horticultural selection from the rex begonia complex whose Asian ancestry spans the humid subtropical to tropical forest understories of northeastern India through southern China. The defining feature is structural rather than merely cosmetic: each leaf unfurls in a tight, spiralling snail-shell coil at the base, with the characteristic swirl remaining visible on mature leaves as a dark spiral against the silvery-pewter and dark green zoned lamina. Foliage is velvety and textured throughout, with maroon undersides and ruffled, asymmetric margins that amplify the sculptural effect. While more accessible than the rare wild species in this collection, 'Escargot' belongs alongside them by virtue of the uniqueness of its structure — no other commonly available begonia produces anything like it.",
   "quickFacts": {
     "growthHabit": "Compact rhizomatous clump",
@@ -34,7 +34,7 @@
     "growthHabit": "Compact rhizomatous clump, leaves with distinctive snail-shell spiral unfurling"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 20,
+    "currentMedianPriceGBP": 21,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

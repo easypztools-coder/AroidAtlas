@@ -11,7 +11,7 @@
   "collectorPopularity": 4.7,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Monstera deliciosa 'Burle Marx Flame' is a highly coveted, slow-growing cultivated variety prized for its unique, architectural foliage. Named in honor of the renowned Brazilian landscape architect Roberto Burle Marx, it features narrow, flame-like leaves that develop dramatic, deep internal fenestrations resembling ribs. Unlike standard Monstera deliciosa, its mature blades are distinctly elongated, with a graceful, sculptural habit and clean margins. Due to its slow growth rate and high demand among serious collectors, it commands a premium in the horticultural market.",
   "quickFacts": {
     "growthHabit": "Climbing hemiepiphyte on moss pole",
@@ -33,7 +33,7 @@
     "growthHabit": "Climbing with thick aerial roots"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 130,
+    "currentMedianPriceGBP": 33,
     "threeMonthChangePercent": -5.2,
     "marketStatus": "Stable"
   },

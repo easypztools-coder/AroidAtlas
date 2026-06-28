@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Ultra Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£",
   "aboutText": "The Monstera obliqua 'Tiwintza Form' is a highly sought-after locality expression originating from the southeastern Ecuadorian rainforests. This slender epiphyte is distinguished by its narrow, strap-elliptic leaves and a unique, moderate fenestration pattern featuring elongated holes along the midrib. Thriving in the humid, dappled light of the montane understory, it exhibits a distinct, delicate growth habit with an oblique leaf base. As a specialized locality form, it remains a centerpiece for serious Aroid collectors, prized for its refined foliage structure and botanical significance.",
   "quickFacts": {
     "growthHabit": "Slender epiphytic climber",
@@ -34,7 +34,7 @@
     "growthHabit": "Epiphytic climber"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 32,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

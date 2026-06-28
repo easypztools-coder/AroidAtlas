@@ -1,0 +1,103 @@
+{
+  "snapshot": {
+    "plantSlug": "scindapsus-treubii",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Scindapsus treubii",
+    "checkedAt": "2026-06-28T20:18:51.481Z",
+    "currency": "GBP",
+    "rawResultCount": 79,
+    "acceptedCount": 6,
+    "rejectedCount": 73,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 10.0165896,
+    "p25Price": 12.6644796,
+    "medianPrice": 17.3209833,
+    "meanPrice": 22.4843688,
+    "trimmedMeanPrice": 22.4843688,
+    "p75Price": 32.8035744,
+    "maxPrice": 41.1709068,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 6,
+    "min": 10.0165896,
+    "max": 41.1709068,
+    "median": 17.3209833,
+    "mean": 22.4843688,
+    "p25": 12.6644796,
+    "p75": 32.8035744,
+    "iqr": 20.139094800000002,
+    "trimmedMean": 22.4843688,
+    "confidenceScore": "D",
+    "rejectedCount": 73,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Scindapsus Treubii Dark Form - 6\" from MyPlants",
+      "url": "https://www.ebay.com/itm/287368267471?nordt=true",
+      "soldPrice": 34.0367346,
+      "totalPrice": 37.0553292,
+      "soldDate": "2026-06-22",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": ",Scindapsus treubii 'Moonlight, Rooted Starter",
+      "url": "https://www.ebay.com/itm/127195019981?nordt=true",
+      "soldPrice": 14.75253,
+      "totalPrice": 20.04831,
+      "soldDate": "2026-06-10",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Scindapsus treubii Moonlight, Rooted Starter, Houseplant House Plant 3 inch",
+      "url": "https://www.ebay.com/itm/406908832469?nordt=true",
+      "soldPrice": 9.078479999999999,
+      "totalPrice": 14.5936566,
+      "soldDate": "2026-06-10",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Scindapsus Treubii \"Moonlight Silver \"& Pictus  Rooted Starters",
+      "url": "https://www.ebay.com/itm/137292861587?nordt=true",
+      "soldPrice": 7.5654,
+      "totalPrice": 12.021420599999999,
+      "soldDate": "2026-05-09",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Scindapsus treubii Super Moonlight Splash Plant in 4\" Pot 10\" Tall 7\" Wide RARE",
+      "url": "https://www.ebay.com/itm/267650908276?nordt=true",
+      "soldPrice": 30.2540346,
+      "totalPrice": 41.1709068,
+      "soldDate": "2026-04-30",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Moonlight scindapsus ,Scindapsus treubii 'Moonlight satin pothos exact plant",
+      "url": "https://www.ebay.com/itm/297932660069?nordt=true",
+      "soldPrice": 6.0447546,
+      "totalPrice": 10.0165896,
+      "soldDate": "2026-04-05",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 6,
+  "rejectedCount": 73,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "scindapsis treubii dark form",
+      "scindapsus moonlight (pack of 2)velvety sheen & silvery-blue hues tropical plant",
+      "scindapsus ‘tattoo’ – rooted 4”variety – easy care established indoor plant"
+    ]
+  }
+}

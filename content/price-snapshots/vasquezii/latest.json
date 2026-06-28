@@ -1,0 +1,48 @@
+{
+  "snapshot": {
+    "plantSlug": "vasquezii",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera vasquezii",
+    "checkedAt": "2026-06-28T20:15:14.447Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 0,
+    "rejectedCount": 240,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 0,
+    "p25Price": 0,
+    "medianPrice": 0,
+    "meanPrice": 0,
+    "trimmedMeanPrice": 0,
+    "p75Price": 0,
+    "maxPrice": 0,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 0,
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "mean": 0,
+    "p25": 0,
+    "p75": 0,
+    "iqr": 0,
+    "trimmedMean": 0,
+    "confidenceScore": "D",
+    "rejectedCount": 240,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [],
+  "acceptedCount": 0,
+  "rejectedCount": 240,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "#38 philodendron variegated billietiae 4” pot beautiful aroid monstera",
+      "monstera borsigiana variegated",
+      "adansonii monstera actual plant tropical houseplant"
+    ]
+  }
+}

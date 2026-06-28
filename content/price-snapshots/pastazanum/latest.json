@@ -1,0 +1,157 @@
+{
+  "snapshot": {
+    "plantSlug": "pastazanum",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron pastazanum",
+    "checkedAt": "2026-06-28T20:21:14.989Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 12,
+    "rejectedCount": 228,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 20.804850000000002,
+    "p25Price": 22.9799025,
+    "medianPrice": 32.0735133,
+    "meanPrice": 29.3966226,
+    "trimmedMeanPrice": 29.18655666,
+    "p75Price": 34.0443,
+    "maxPrice": 40.089054600000004,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 12,
+    "min": 20.804850000000002,
+    "max": 40.089054600000004,
+    "median": 32.0735133,
+    "mean": 29.3966226,
+    "p25": 22.9799025,
+    "p75": 34.0443,
+    "iqr": 11.064397499999998,
+    "trimmedMean": 29.18655666,
+    "confidenceScore": "D",
+    "rejectedCount": 228,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Philodendron Pastazanum Silver (Pack of 2)| Live Indoor Tropical Plant",
+      "url": "https://www.ebay.com/itm/336368061062?nordt=true",
+      "soldPrice": 30.2616,
+      "totalPrice": 41.609700000000004,
+      "soldDate": "2026-06-25",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Philodendron Pastazanum x Plowmanii Hybrid Tropical Plant",
+      "url": "https://www.ebay.com/itm/257216250849?nordt=true",
+      "soldPrice": 40.089054600000004,
+      "totalPrice": 40.089054600000004,
+      "soldDate": "2026-06-03",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#72 Philodendron Pastazanum 4” Pot Houseplant Aroid Monstera",
+      "url": "https://www.ebay.com/itm/188394004328?nordt=true",
+      "soldPrice": 7.5654,
+      "totalPrice": 22.6962,
+      "soldDate": "2026-05-24",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#66 Philodendron Pastazanum 4” Pot Houseplant Aroid Monstera",
+      "url": "https://www.ebay.com/itm/318319200329?nordt=true",
+      "soldPrice": 18.9135,
+      "totalPrice": 34.0443,
+      "soldDate": "2026-05-17",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#38 Philodendron Pastazanum 4” Pot Houseplant Aroid Monstera",
+      "url": "https://www.ebay.com/itm/318239900409?nordt=true",
+      "soldPrice": 7.94367,
+      "totalPrice": 23.07447,
+      "soldDate": "2026-05-09",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#39 Philodendron Pastazanum 4” Pot Houseplant Aroid Monstera",
+      "url": "https://www.ebay.com/itm/188341694089?nordt=true",
+      "soldPrice": 7.5654,
+      "totalPrice": 22.6962,
+      "soldDate": "2026-05-09",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#67 Philodendron Pastazanum 4” Pot Houseplant Aroid Monstera",
+      "url": "https://www.ebay.com/itm/318169633794?nordt=true",
+      "soldPrice": 17.6198166,
+      "totalPrice": 32.7506166,
+      "soldDate": "2026-04-25",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#66 Philodendron Pastazanum 4” Pot Houseplant Aroid Monstera",
+      "url": "https://www.ebay.com/itm/318169630445?nordt=true",
+      "soldPrice": 16.26561,
+      "totalPrice": 31.39641,
+      "soldDate": "2026-04-25",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#39 Philodendron Pastazanum 4” Pot Houseplant Aroid Monstera",
+      "url": "https://www.ebay.com/itm/318133015083?nordt=true",
+      "soldPrice": 7.94367,
+      "totalPrice": 23.07447,
+      "soldDate": "2026-04-17",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#36 Philodendron Pastazanum 4” Pot Houseplant Aroid Monstera",
+      "url": "https://www.ebay.com/itm/188264796353?nordt=true",
+      "soldPrice": 18.9135,
+      "totalPrice": 34.0443,
+      "soldDate": "2026-04-10",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#41 Philodendron Pastazanum 4” Pot Houseplant Aroid Monstera",
+      "url": "https://www.ebay.com/itm/318087312180?nordt=true",
+      "soldPrice": 18.9135,
+      "totalPrice": 34.0443,
+      "soldDate": "2026-04-01",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#36 Philodendron Pastazanum 4” Pot Houseplant Aroid Monstera",
+      "url": "https://www.ebay.com/itm/318087313360?nordt=true",
+      "soldPrice": 18.9135,
+      "totalPrice": 34.0443,
+      "soldDate": "2026-04-01",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 12,
+  "rejectedCount": 228,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "philodendron scottmorianum plant in 4\" pot 25\" tall 24\" wide",
+      "philodendron pedatum variegated plant in 4\" pot 17\" tall 12\" wide",
+      "philodendron noid plant grown in 5\" pot 15\" tall 13\" wide"
+    ]
+  }
+}

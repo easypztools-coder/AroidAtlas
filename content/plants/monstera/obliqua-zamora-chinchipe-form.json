@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Ultra Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£",
   "aboutText": "The Monstera obliqua 'Zamora-Chinchipe' is a highly sought-after locality form of the iconic Swiss cheese plant, originating from the montane cloud forests of Ecuador. Unlike the more common broad-leaf varieties, this form is distinguished by its refined, delicate lamina and restrained, narrow fenestrations. As a hemiepiphytic climber, it thrives in cool, perpetually misted environments, utilizing its aerial roots to ascend mossy substrates. Its aesthetic is defined by slender, lanceolate leaves and a delicate, graceful growth habit that represents one of the most stable and collectible forms of this species.",
   "quickFacts": {
     "growthHabit": "Hemiepiphytic climber",
@@ -34,7 +34,7 @@
     "growthHabit": "Hemiepiphytic climber"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 33,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

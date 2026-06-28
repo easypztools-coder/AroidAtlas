@@ -1,0 +1,70 @@
+{
+  "snapshot": {
+    "plantSlug": "scalprum",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia scalprum",
+    "checkedAt": "2026-06-28T20:03:49.594Z",
+    "currency": "GBP",
+    "rawResultCount": 62,
+    "acceptedCount": 2,
+    "rejectedCount": 60,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 22.113664200000002,
+    "p25Price": 22.83805125,
+    "medianPrice": 23.5624383,
+    "meanPrice": 23.5624383,
+    "trimmedMeanPrice": 23.5624383,
+    "p75Price": 24.28682535,
+    "maxPrice": 25.011212399999998,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 2,
+    "min": 22.113664200000002,
+    "max": 25.011212399999998,
+    "median": 23.5624383,
+    "mean": 23.5624383,
+    "p25": 22.83805125,
+    "p75": 24.28682535,
+    "iqr": 1.4487741000000014,
+    "trimmedMean": 23.5624383,
+    "confidenceScore": "D",
+    "rejectedCount": 60,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Alocasia Scalprum 4\" Pot Collectors Grade",
+      "url": "https://www.ebay.com/itm/137292732170?nordt=true",
+      "soldPrice": 18.9135,
+      "totalPrice": 25.011212399999998,
+      "soldDate": "2026-06-02",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Alocasia Scalprum Aurea Var TC",
+      "url": "https://www.ebay.com/itm/336525600102?nordt=true",
+      "soldPrice": 17.77869,
+      "totalPrice": 22.113664200000002,
+      "soldDate": "2026-04-15",
+      "listingType": "tc_plantlet",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 2,
+  "rejectedCount": 60,
+  "rejectionBreakdown": {
+    "Contains excluded term": [
+      "alocasia corms scalprum lot of 7 corms pic is of healthy plant i took them from"
+    ],
+    "No accepted term found. Expected one of": [
+      "lot of three (3) different alocasia corms - you pick! labeled and ready to grow",
+      "alocasia cuprea red secret 4\" pot",
+      "alocasia jacklyn - alocasia tandurusa - wellspring gardens starter plant"
+    ]
+  }
+}

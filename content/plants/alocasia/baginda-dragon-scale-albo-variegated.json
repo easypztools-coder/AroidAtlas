@@ -11,7 +11,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Very Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Alocasia baginda 'Dragon Scale' Albo Variegated is a jaw-dropping, compact forest-floor aroid native to the tropical island of Borneo (Kalimantan). It is highly celebrated for its thick, heavily bullate, shield-like leaves that resemble reptilian scales. The foliage is a pale, silvery-green with deep, dark green contrasting venation, accented by magnificent white-to-cream albo variegation scattered over the textured surfaces. Arising from a compact underground corm, it grows on upright pinkish-to-greenish petioles and thrives in warmth and humidity with a chunky, free-draining substrate and bright indirect light.",
   "quickFacts": {
     "growthHabit": "Compact corm-forming aroid",
@@ -33,7 +33,7 @@
     "growthHabit": "Upright rosette from a corm"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 180,
+    "currentMedianPriceGBP": 33,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

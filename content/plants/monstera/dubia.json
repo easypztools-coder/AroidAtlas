@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Monstera dubia is a famous shingling aroid native to the tropical rainforests of Central and South America. In its juvenile stage, it is known for heart-shaped, silver-variegated leaves that shingle flat against trees or boards. As it climbs and matures, it undergoes a dramatic transformation, losing its silver variegation and producing large, fenestrated green leaves that resemble Monstera deliciosa. This species is highly popular for showcasing the remarkable process of plant morphogenesis.",
   "quickFacts": {
     "growthHabit": "Shingling to root-climbing climber",
@@ -34,7 +34,7 @@
     "growthHabit": "Shingling flat against support"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 65,
+    "currentMedianPriceGBP": 32,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Begonia brevirimosa is a rare cane begonia species originating from the humid tropical forests of New Guinea. It thrives in warm, shaded understory conditions, preferring rich organic substrate and moist forest margins where filtered light enhances its vibrant foliage. This species is characterized by its segmented red stems and striking asymmetrical leaves, which feature a vivid pink central field contrasted by darker green margins. The thin yet lush foliage boasts red undersides and is elegantly spaced along upright branching canes, a key feature distinguishing it from other rhizomatous begonia types.",
   "quickFacts": {
     "growthHabit": "Upright Cane",
@@ -34,7 +34,7 @@
     "growthHabit": "Upright Cane"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 27,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

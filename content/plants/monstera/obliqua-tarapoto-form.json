@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Very Rare",
   "availability": "Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "££",
   "aboutText": "The Monstera obliqua Tarapoto Form is a highly sought-after botanical treasure hailing from the lush, humid rainforests of northeastern Peru. This refined form is distinguished by its broader, oblong leaves compared to more extreme, delicate variations of the species. It features unique, moderate fenestrations that develop quickly as the plant matures. As a slender epiphyte, it utilizes delicate aerial roots to climb, thriving best in shaded environments with consistently moist, well-aerated organic substrates.",
   "quickFacts": {
     "growthHabit": "Slender epiphytic climber",
@@ -34,7 +34,7 @@
     "growthHabit": "Slender epiphyte"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 58,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

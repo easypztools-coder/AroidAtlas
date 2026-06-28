@@ -12,7 +12,7 @@
   "collectorPopularity": 3,
   "rarityStatus": "Uncommon",
   "availability": "Moderate",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Philodendron hastatum is a climbing Brazilian aroid from the humid Atlantic forest environments of southeastern Brazil, growing on tree trunks in shaded understory with constant moisture, high humidity, and filtered light. It is immediately distinguished by the remarkable metallic silver-green to blue-silver sheen of its leaf surface — a characteristic so pronounced that the plant is universally known in the hobby as the 'Silver Sword' Philodendron. The distinctly hastate leaves have elongated anterior lobes and comparatively short basal lobes, carried on long petioles that arise from sheathing nodes on slender aerial-rooted stems. A more established plant with genuinely interesting botanical character, hastatum rewards collectors who appreciate subtle, cool-toned foliage over the dramatic dark velvet of more expensive species — and it grows with admirable vigour once settled.",
   "quickFacts": {
     "growthHabit": "Climbing hemiepiphyte",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing on slender aerial-rooted stems with distinct sheathing nodes"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 18,
+    "currentMedianPriceGBP": 16,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

@@ -1,0 +1,52 @@
+{
+  "snapshot": {
+    "plantSlug": "amydrium-medium",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Amydrium medium",
+    "checkedAt": "2026-06-28T20:15:38.374Z",
+    "currency": "GBP",
+    "rawResultCount": 1,
+    "acceptedCount": 1,
+    "rejectedCount": 0,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 23.679702,
+    "p25Price": 23.679702,
+    "medianPrice": 23.679702,
+    "meanPrice": 23.679702,
+    "trimmedMeanPrice": 23.679702,
+    "p75Price": 23.679702,
+    "maxPrice": 23.679702,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 1,
+    "min": 23.679702,
+    "max": 23.679702,
+    "median": 23.679702,
+    "mean": 23.679702,
+    "p25": 23.679702,
+    "p75": 23.679702,
+    "iqr": 0,
+    "trimmedMean": 23.679702,
+    "confidenceScore": "D",
+    "rejectedCount": 0,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Amydrium Medium Green, Houseplant",
+      "url": "https://www.ebay.com/itm/287356869839?nordt=true",
+      "soldPrice": 11.196792,
+      "totalPrice": 23.679702,
+      "soldDate": "2026-06-04",
+      "listingType": "unknown",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 1,
+  "rejectedCount": 0,
+  "rejectionBreakdown": {}
+}

@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Very Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Anthurium peltigerum is a structurally unusual species from the wet tropical forests of Central America through to north-western South America, where it grows epiphytically on trees and fallen logs, or occasionally on the forest floor in deep shade with consistently high humidity and rich organic substrates. What distinguishes it immediately is the peltate leaf attachment — the petiole meets the underside of the blade rather than its edge, creating the characteristic shield-like silhouette that gives the species its name. Compact and epiphytic with short internodes and visible aerial roots, the leaves are thick, coriaceous, and deeply glossy dark green, with a clean, bold form. This unusual architecture, combined with genuine scarcity in cultivation, makes peltigerum a highly sought prize for collectors drawn to the architecturally unexpected.",
   "quickFacts": {
     "growthHabit": "Compact epiphyte to low-climber",
@@ -34,7 +34,7 @@
     "growthHabit": "Compact epiphyte with short internodes and visible aerial roots"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 120,
+    "currentMedianPriceGBP": 35,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

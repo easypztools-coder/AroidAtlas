@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£",
   "aboutText": "The Monstera obliqua 'Trinidad Locality Form' is a highly sought-after hemiepiphytic climber native to the tropical rainforests of Trinidad. This form is distinguished by its nearly entire, slightly broader ovate-elliptic leaves that exhibit sparse, limited perforation—a unique trait compared to more fenestrated variations of the species. It typically inhabits the dim, humid understory, rooting in deep leaf litter or thin humus. Its delicate, thin lamina and lightly bullate texture make it a prized specimen for dedicated aroid collectors.",
   "quickFacts": {
     "growthHabit": "Hemiepiphytic climber",
@@ -34,7 +34,7 @@
     "growthHabit": "Hemiepiphytic climber"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 33,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

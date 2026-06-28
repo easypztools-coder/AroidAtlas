@@ -1,0 +1,76 @@
+{
+  "snapshot": {
+    "plantSlug": "standleyana-aurea-variegated",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera standleyana aurea",
+    "checkedAt": "2026-06-28T20:14:39.970Z",
+    "currency": "GBP",
+    "rawResultCount": 50,
+    "acceptedCount": 3,
+    "rejectedCount": 47,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 15.055145999999999,
+    "p25Price": 18.005651999999998,
+    "medianPrice": 20.956158,
+    "meanPrice": 23.099687999999997,
+    "trimmedMeanPrice": 23.099687999999997,
+    "p75Price": 27.121958999999997,
+    "maxPrice": 33.28776,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 3,
+    "min": 15.055145999999999,
+    "max": 33.28776,
+    "median": 20.956158,
+    "mean": 23.099687999999997,
+    "p25": 18.005651999999998,
+    "p75": 27.121958999999997,
+    "iqr": 9.116306999999999,
+    "trimmedMean": 23.099687999999997,
+    "confidenceScore": "D",
+    "rejectedCount": 47,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Monstera Standleyana Variegated Philodendron Cobra 2\" pot",
+      "url": "https://www.ebay.com/itm/277275468471?nordt=true",
+      "soldPrice": 15.055145999999999,
+      "totalPrice": 15.055145999999999,
+      "soldDate": "2026-04-09",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Standleyana Albo Plant | Variegared Live Indoor Houseplant",
+      "url": "https://www.ebay.com/itm/317014535805?nordt=true",
+      "soldPrice": 26.4789,
+      "totalPrice": 33.28776,
+      "soldDate": "2026-04-18",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Cobra (Monstera Standleyana Albo Variegata) - Philodendron Cobra",
+      "url": "https://www.ebay.com/itm/375628847646?nordt=true",
+      "soldPrice": 14.336433,
+      "totalPrice": 20.956158,
+      "soldDate": "2026-05-14",
+      "listingType": "unknown",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 3,
+  "rejectedCount": 47,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "monstera aurea variegated rooted cutting free shipping usa seller",
+      "monstera aurea marilyn ‘yellow marilyn’",
+      "monstera aurea rooted cutting, beautiful high marble variegation, free shipping"
+    ]
+  }
+}

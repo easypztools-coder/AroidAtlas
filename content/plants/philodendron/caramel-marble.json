@@ -11,7 +11,7 @@
   "collectorPopularity": 4.8,
   "rarityStatus": "Extremely Rare",
   "availability": "Very Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "££",
   "aboutText": "Philodendron 'Caramel Marble' is a highly coveted and spectacular variegated cultivar within the aroid collector community. It features dramatic, deeply serrated leaves resembling saw-tooth blades, decorated with stunning marbled and sectoral variegation patterns in shades of caramel, orange, yellow, cream, and deep green. The leaves are thick, stiff, and leathery, rising on sturdy reddish-brown petioles. Due to its slow growth rate and the high demand for its unique coloration, mature, well-variegated specimens command premium prices among collectors.",
   "quickFacts": {
     "growthHabit": "Slow climbing hemiepiphyte",
@@ -33,7 +33,7 @@
     "growthHabit": "Slow climber with support"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 350,
+    "currentMedianPriceGBP": 60,
     "threeMonthChangePercent": -4.5,
     "marketStatus": "Stable"
   },

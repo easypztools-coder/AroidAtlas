@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Ultra Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£",
   "aboutText": "The Monstera obliqua 'Amazonas Peru Form' is a highly sought-after locality-specific cultivar native to the lowland rainforests of the Peruvian Amazon. This delicate hemi-epiphyte is renowned for its extreme fenestration and slender, asymmetrical leaf structure, which bridges the gap between typical Amazonian forms and the iconic 'Peru' morphotype. It thrives in high-humidity, shaded understory conditions, utilizing its fine aerial roots to climb trees in nutrient-rich, organic environments. Due to its slow growth habit and specific environmental requirements, it remains a prized specimen for advanced botanical collections.",
   "quickFacts": {
     "growthHabit": "Hemi-epiphytic climber",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 33,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

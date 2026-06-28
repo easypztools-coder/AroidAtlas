@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Philodendron tenue is a climbing hemiepiphytic aroid native to the tropical wet forests of Central and South America, from Costa Rica to Ecuador. It climbs tree trunks using aerial roots, thriving in high humidity. The leaves are highly ornamental, featuring a elongated heart-shaped blade with a deeply ribbed or pleated surface due to closely spaced primary lateral veins. The foliage is glossy, dark green, and has a leathery, durable feel.",
   "quickFacts": {
     "growthHabit": "Root-climbing hemiepiphytic climber",
@@ -34,7 +34,7 @@
     "growthHabit": "Root-climbing climber"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 70,
+    "currentMedianPriceGBP": 19,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

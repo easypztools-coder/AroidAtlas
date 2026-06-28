@@ -12,7 +12,7 @@
   "collectorPopularity": 3,
   "rarityStatus": "Uncommon",
   "availability": "Moderate",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Philodendron sodiroi, described by André, is a climbing hemiepiphyte from the humid forests of Ecuador — an understory plant that ascends tree trunks in warm, filtered light with consistent high humidity and stable temperatures. The base species is immediately distinguished by its cordate leaves patterned with a natural silver mottling over a deep green base: not a chimeric mutation but an intrinsic feature of the species, producing an effect that appears almost hand-painted. Aerial roots at closely spaced nodes grip the support firmly, and the compact internodes keep leaves presented in a tight, refined arrangement. The base species is distinct from the cultivated 'Variegated' form, which shows a more dramatic chimeric white-and-green patterning; sodiroi itself rewards those who prefer the botanical original — elegant, manageable, and carrying a distinguished silvering that needs no enhancement.",
   "quickFacts": {
     "growthHabit": "Climbing hemiepiphyte",
@@ -34,7 +34,7 @@
     "growthHabit": "Compact climber with short internodes and adherent aerial roots"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 28,
+    "currentMedianPriceGBP": 26,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

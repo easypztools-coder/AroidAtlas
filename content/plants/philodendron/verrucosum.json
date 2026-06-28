@@ -29,7 +29,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Philodendron verrucosum is a stunning hemiepiphytic aroid native to the wet tropical forests stretching from Costa Rica through to Peru. It is highly prized by collectors for its iconic broad, heart-shaped leaves that possess a striking, deep-green velvety texture and prominent pale venation. The species is most easily identified by its distinctive densely bristled or scaly petioles, which add a unique tactile element to its appearance. As a climbing aroid, it thrives in warm, humid understory conditions, typically ascending trees in its natural habitat using specialized aerial roots.",
   "quickFacts": {
     "growthHabit": "Climbing/Hemiepiphytic",
@@ -41,7 +41,7 @@
     "growthSpeed": "Moderate"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 34,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

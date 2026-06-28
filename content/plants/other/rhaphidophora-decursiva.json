@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Rhaphidophora decursiva is a vigorous climbing aroid native to tropical and subtropical forests stretching from the Indian Subcontinent to South China and Indo-China. It climbs trunks in warm wet conditions. The adult leaves are extremely large, glossy green, and deeply pinnatifid with many narrow lobes, lacking any perforations. The juvenile leaves, in contrast, are much smaller and undivided. The thick rooting stems display visible nodes and numerous climbing aerial roots.",
   "quickFacts": {
     "growthHabit": "Vigorous climbing, root-climbing",
@@ -34,7 +34,7 @@
     "growthHabit": "Thick climbing stems"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 65,
+    "currentMedianPriceGBP": 22,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

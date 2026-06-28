@@ -1,0 +1,63 @@
+{
+  "snapshot": {
+    "plantSlug": "faustomirandae",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium faustomirandae",
+    "checkedAt": "2026-06-28T20:05:11.679Z",
+    "currency": "GBP",
+    "rawResultCount": 96,
+    "acceptedCount": 1,
+    "rejectedCount": 95,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 51.444720000000004,
+    "p25Price": 51.444720000000004,
+    "medianPrice": 51.444720000000004,
+    "meanPrice": 51.444720000000004,
+    "trimmedMeanPrice": 51.444720000000004,
+    "p75Price": 51.444720000000004,
+    "maxPrice": 51.444720000000004,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 1,
+    "min": 51.444720000000004,
+    "max": 51.444720000000004,
+    "median": 51.444720000000004,
+    "mean": 51.444720000000004,
+    "p25": 51.444720000000004,
+    "p75": 51.444720000000004,
+    "iqr": 0,
+    "trimmedMean": 51.444720000000004,
+    "confidenceScore": "D",
+    "rejectedCount": 95,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "RARE LIVE PLANT 1ft Faustino's Giant Anthurium faustomirandae faustomirande",
+      "url": "https://www.ebay.com/itm/325995557762?nordt=true",
+      "soldPrice": 29.50506,
+      "totalPrice": 51.444720000000004,
+      "soldDate": "2026-05-22",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 1,
+  "rejectedCount": 95,
+  "rejectionBreakdown": {
+    "Contains excluded term": [
+      "#28 rare faustino's giant anthurium faustomirandae 4” pot houseplant seed grown",
+      "#38 rare faustino's giant anthurium faustomirandae 4” pot houseplant seed grown",
+      "#12 rare faustino's giant anthurium faustomirandae 4” pot houseplant seed grown"
+    ],
+    "No accepted term found. Expected one of": [
+      "anthurium roseospadix-rare central panamanian endemic aroid; one-off for 2026",
+      "anthurium big bill plant in 6\" pot 22\" tall 31\" wide 20\" leaf large",
+      "anthurium titanium-seed grown giant terrestrial mesoamerican aroid-rare and easy"
+    ]
+  }
+}

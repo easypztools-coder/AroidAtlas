@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Epipremnum pinnatum 'Cebu Blue' is a highly popular climbing cultivar selected for its glaucous, silver-blue foliage — a colouration rarely seen in aroids and derived from the plant's ancestry in the humid lowland forests of tropical Southeast Asia. Juvenile leaves are narrow and lance-shaped with a striking blue-silver sheen, while mature climbing specimens develop significantly larger, paddle-shaped leaves that begin to fenestrate and pinnate along the midrib. It is named for its association with Cebu island in the Philippines, where the parent species Epipremnum pinnatum is native. Easy to grow and visually unique.",
   "quickFacts": {
     "growthHabit": "Climbing viner",
@@ -34,7 +34,7 @@
     "growthHabit": "Vining climber; leaves enlarge with height"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 40,
+    "currentMedianPriceGBP": 10,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

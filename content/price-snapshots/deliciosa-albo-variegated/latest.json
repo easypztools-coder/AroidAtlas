@@ -1,0 +1,1632 @@
+{
+  "snapshot": {
+    "plantSlug": "deliciosa-albo-variegated",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera Albo Variegated",
+    "checkedAt": "2026-06-28T20:10:42.151Z",
+    "rawResultCount": 232,
+    "acceptedCount": 176,
+    "rejectedCount": 56,
+    "outlierCount": 7,
+    "confidenceScore": "A",
+    "minPrice": 15.123234599999998,
+    "p25Price": 37.6302996,
+    "medianPrice": 60.5194173,
+    "meanPrice": 60.7490873693182,
+    "trimmedMeanPrice": 55.03254192262775,
+    "p75Price": 71.86373459999999,
+    "maxPrice": 226.9544346,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 176,
+    "min": 15.123234599999998,
+    "max": 226.9544346,
+    "median": 60.5194173,
+    "mean": 60.7490873693182,
+    "p25": 37.6302996,
+    "p75": 71.86373459999999,
+    "iqr": 34.233434999999986,
+    "trimmedMean": 55.03254192262775,
+    "confidenceScore": "A",
+    "rejectedCount": 56,
+    "rejectionReasons": {},
+    "outlierCount": 7
+  },
+  "acceptedListings": [
+    {
+      "title": "Monstera Albo Deliciosa Rooted Cutting, Tri-Color Marble Variegation, FREE Ship。",
+      "url": "https://www.ebay.com/itm/206322779340?nordt=true",
+      "soldPrice": 33.2801946,
+      "totalPrice": 33.2801946,
+      "soldDate": "2026-06-28",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo White Tiger Variegated Mature Very Beauty Real Picture",
+      "url": "https://www.ebay.com/itm/389402870787?nordt=true",
+      "soldPrice": 177.7869,
+      "totalPrice": 196.7004,
+      "soldDate": "2026-06-27",
+      "listingType": "mature_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted XL",
+      "url": "https://www.ebay.com/itm/267705507181?nordt=true",
+      "soldPrice": 94.5675,
+      "totalPrice": 102.1253346,
+      "soldDate": "2026-06-27",
+      "listingType": "mature_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/267705453151?nordt=true",
+      "soldPrice": 56.7405,
+      "totalPrice": 64.2983346,
+      "soldDate": "2026-06-27",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo top cutting EBAY-2605-42",
+      "url": "https://www.ebay.com/itm/188415608878?nordt=true",
+      "soldPrice": 58.246014599999995,
+      "totalPrice": 71.2358064,
+      "soldDate": "2026-06-27",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/257578873992?nordt=true",
+      "soldPrice": 57.4062552,
+      "totalPrice": 64.9640898,
+      "soldDate": "2026-06-27",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/257578765337?nordt=true",
+      "soldPrice": 49.1751,
+      "totalPrice": 56.7329346,
+      "soldDate": "2026-06-27",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Highly Variegated Monstera Albo Premium Cutting",
+      "url": "https://www.ebay.com/itm/318476242424?nordt=true",
+      "soldPrice": 45.3924,
+      "totalPrice": 45.3924,
+      "soldDate": "2026-06-26",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Deliciosa Rooted Cutting with Minty Marbling Variegation FREE Ship",
+      "url": "https://www.ebay.com/itm/206316926789?nordt=true",
+      "soldPrice": 30.2540346,
+      "totalPrice": 30.2540346,
+      "soldDate": "2026-06-26",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted XL (Flowering)",
+      "url": "https://www.ebay.com/itm/267705504531?nordt=true",
+      "soldPrice": 113.481,
+      "totalPrice": 121.0388346,
+      "soldDate": "2026-06-25",
+      "listingType": "mature_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Deliciosa BASE Cutting Plant, Sectoral Variegation, FREE Shipping",
+      "url": "https://www.ebay.com/itm/206352468532?nordt=true",
+      "soldPrice": 28.740954600000002,
+      "totalPrice": 28.740954600000002,
+      "soldDate": "2026-06-25",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/257578773572?nordt=true",
+      "soldPrice": 49.1751,
+      "totalPrice": 56.7329346,
+      "soldDate": "2026-06-25",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/267705445966?nordt=true",
+      "soldPrice": 56.7405,
+      "totalPrice": 64.2983346,
+      "soldDate": "2026-06-24",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Deliciosa Rooted Cutting, Tri-Color Marble Variegation, FREE Ship.",
+      "url": "https://www.ebay.com/itm/206301360874?nordt=true",
+      "soldPrice": 37.8194346,
+      "totalPrice": 37.8194346,
+      "soldDate": "2026-06-24",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo top cutting EBAY-2606-102",
+      "url": "https://www.ebay.com/itm/188520925963?nordt=true",
+      "soldPrice": 68.0810346,
+      "totalPrice": 81.0708264,
+      "soldDate": "2026-06-23",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/267705477627?nordt=true",
+      "soldPrice": 49.1751,
+      "totalPrice": 56.7329346,
+      "soldDate": "2026-06-23",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/267705472811?nordt=true",
+      "soldPrice": 56.7405,
+      "totalPrice": 64.2983346,
+      "soldDate": "2026-06-21",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana low Variegated Cutting Plant 3",
+      "url": "https://www.ebay.com/itm/306993029524?nordt=true",
+      "soldPrice": 11.3481,
+      "totalPrice": 18.9135,
+      "soldDate": "2026-06-16",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana HIGH Variegated Cutting - Large Leaf- Plant C",
+      "url": "https://www.ebay.com/itm/306988737824?nordt=true",
+      "soldPrice": 30.2616,
+      "totalPrice": 37.827,
+      "soldDate": "2026-06-20",
+      "listingType": "mature_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana HIGH Variegated Cutting - Large Leaf- Plant G",
+      "url": "https://www.ebay.com/itm/306988747752?nordt=true",
+      "soldPrice": 30.2616,
+      "totalPrice": 37.827,
+      "soldDate": "2026-06-20",
+      "listingType": "mature_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Variegated in 3.5\" Inch Pot",
+      "url": "https://www.ebay.com/itm/318360946416?nordt=true",
+      "soldPrice": 41.6097,
+      "totalPrice": 41.6097,
+      "soldDate": "2026-06-19",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Variegated In 3.5\" Inch pot",
+      "url": "https://www.ebay.com/itm/318361062092?nordt=true",
+      "soldPrice": 34.0443,
+      "totalPrice": 34.0443,
+      "soldDate": "2026-06-19",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo top cutting EBAY-2606-104",
+      "url": "https://www.ebay.com/itm/188520921286?nordt=true",
+      "soldPrice": 68.0810346,
+      "totalPrice": 81.0708264,
+      "soldDate": "2026-06-18",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Variegated in 3.5\" inch Pot",
+      "url": "https://www.ebay.com/itm/318361017114?nordt=true",
+      "soldPrice": 60.5156346,
+      "totalPrice": 60.5156346,
+      "soldDate": "2026-06-13",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Variegated Monstera Albo - Extra White High Variegation Cuttings & Rooted Plants",
+      "url": "https://www.ebay.com/itm/226053641949?nordt=true",
+      "soldPrice": 124.8291,
+      "totalPrice": 128.6118,
+      "soldDate": "2026-06-13",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Cutting Highly Variegated Rooted US Seller Exact Plant",
+      "url": "https://www.ebay.com/itm/267471184409?nordt=true",
+      "soldPrice": 75.654,
+      "totalPrice": 87.0550578,
+      "soldDate": "2025-11-30",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo White Tiger                   Includes Moss in Photo",
+      "url": "https://www.ebay.com/itm/127916553796?nordt=true",
+      "soldPrice": 70.206912,
+      "totalPrice": 93.6445212,
+      "soldDate": "2026-06-13",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Variegated Monstera Albo Less Variegation Rooted Plant 5\" Pot",
+      "url": "https://www.ebay.com/itm/277389664964?nordt=true",
+      "soldPrice": 29.429406,
+      "totalPrice": 29.429406,
+      "soldDate": "2026-06-13",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Rooted Variegated Monstera Albo Borsigiana Plant -  Happy Holiday Sale",
+      "url": "https://www.ebay.com/itm/406669487174?nordt=true",
+      "soldPrice": 37.8194346,
+      "totalPrice": 64.2983346,
+      "soldDate": "2026-06-13",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/267693453659?nordt=true",
+      "soldPrice": 56.7405,
+      "totalPrice": 64.2983346,
+      "soldDate": "2026-06-13",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/267693407643?nordt=true",
+      "soldPrice": 56.7405,
+      "totalPrice": 64.2983346,
+      "soldDate": "2026-06-12",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Variegated Plant US",
+      "url": "https://www.ebay.com/itm/127910525748?nordt=true",
+      "soldPrice": 18.9059346,
+      "totalPrice": 30.254034599999997,
+      "soldDate": "2026-06-12",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Deliciosa Cutting, High Tri-Color Marble Variegation FREE Shipping",
+      "url": "https://www.ebay.com/itm/206322727572?nordt=true",
+      "soldPrice": 39.3325146,
+      "totalPrice": 39.3325146,
+      "soldDate": "2026-06-12",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Highly Variegated Monstera Albo Halfmoon Premium Cutting with Fenestrations",
+      "url": "https://www.ebay.com/itm/318415487026?nordt=true",
+      "soldPrice": 41.6097,
+      "totalPrice": 41.6097,
+      "soldDate": "2026-06-11",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Highly Variegated Monstera Albo Halfmoon Splash 2 leaf Cutting",
+      "url": "https://www.ebay.com/itm/318415491074?nordt=true",
+      "soldPrice": 68.0810346,
+      "totalPrice": 68.0810346,
+      "soldDate": "2026-06-11",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Medium Variegated Cutting Plant 4",
+      "url": "https://www.ebay.com/itm/306993034382?nordt=true",
+      "soldPrice": 11.3481,
+      "totalPrice": 18.9135,
+      "soldDate": "2026-06-09",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Medium Variegated Cutting - Top Cutting - Plant 1",
+      "url": "https://www.ebay.com/itm/306993026894?nordt=true",
+      "soldPrice": 22.6962,
+      "totalPrice": 30.2616,
+      "soldDate": "2026-06-11",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/257554219726?nordt=true",
+      "soldPrice": 56.7405,
+      "totalPrice": 64.2983346,
+      "soldDate": "2026-06-11",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana (TWO CUTTINGS) Variegated Top Cuttings Rooted",
+      "url": "https://www.ebay.com/itm/257554198661?nordt=true",
+      "soldPrice": 56.7405,
+      "totalPrice": 64.2983346,
+      "soldDate": "2026-06-10",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/267693427765?nordt=true",
+      "soldPrice": 56.7405,
+      "totalPrice": 64.2983346,
+      "soldDate": "2026-06-09",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/257554192831?nordt=true",
+      "soldPrice": 45.3848346,
+      "totalPrice": 52.9426692,
+      "soldDate": "2026-06-09",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/257554250380?nordt=true",
+      "soldPrice": 56.7405,
+      "totalPrice": 64.2983346,
+      "soldDate": "2026-06-09",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/267693448047?nordt=true",
+      "soldPrice": 49.1751,
+      "totalPrice": 56.7329346,
+      "soldDate": "2026-06-09",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/257554221707?nordt=true",
+      "soldPrice": 56.7405,
+      "totalPrice": 64.2983346,
+      "soldDate": "2026-06-09",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/257554226859?nordt=true",
+      "soldPrice": 56.7405,
+      "totalPrice": 64.2983346,
+      "soldDate": "2026-06-09",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigian Rooted Cutting, Green Snow Marble Variegation FREE Ship.",
+      "url": "https://www.ebay.com/itm/206329321346?nordt=true",
+      "soldPrice": 22.688634599999997,
+      "totalPrice": 22.688634599999997,
+      "soldDate": "2026-06-09",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/267679383055?nordt=true",
+      "soldPrice": 37.8194346,
+      "totalPrice": 45.3772692,
+      "soldDate": "2026-06-09",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Deliciosa Albo Variegated, EXACT PLANT",
+      "url": "https://www.ebay.com/itm/127903417961?nordt=true",
+      "soldPrice": 34.80084,
+      "totalPrice": 34.80084,
+      "soldDate": "2026-06-08",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo top cutting EBAY-2605-13",
+      "url": "https://www.ebay.com/itm/188347698137?nordt=true",
+      "soldPrice": 56.73293459999999,
+      "totalPrice": 69.7227264,
+      "soldDate": "2026-06-08",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo top cutting EBAY-2605-41",
+      "url": "https://www.ebay.com/itm/188415604651?nordt=true",
+      "soldPrice": 56.73293459999999,
+      "totalPrice": 69.7227264,
+      "soldDate": "2026-06-08",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/267615261199?nordt=true",
+      "soldPrice": 56.7405,
+      "totalPrice": 64.2983346,
+      "soldDate": "2026-04-15",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Variegated Monstera Albo High Variegation Halfmoon Ghost Rooted Plant 5\" Pot",
+      "url": "https://www.ebay.com/itm/278051955809?nordt=true",
+      "soldPrice": 68.012946,
+      "totalPrice": 68.012946,
+      "soldDate": "2026-06-08",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Deliciosa Base Cutting Plant, Sectoral Variegation, FREE Shipping",
+      "url": "https://www.ebay.com/itm/206327235729?nordt=true",
+      "soldPrice": 37.8194346,
+      "totalPrice": 37.8194346,
+      "soldDate": "2026-06-08",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigian Cutting, High Tri-Color Marble Variegation FREE Shipping",
+      "url": "https://www.ebay.com/itm/206327839021?nordt=true",
+      "soldPrice": 22.688634599999997,
+      "totalPrice": 22.688634599999997,
+      "soldDate": "2026-06-07",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Plant High Variegation FREE SHIPPING",
+      "url": "https://www.ebay.com/itm/397993341465?nordt=true",
+      "soldPrice": 64.3059,
+      "totalPrice": 64.3059,
+      "soldDate": "2026-06-07",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Rooted Variegated Plant. USA shipping only!",
+      "url": "https://www.ebay.com/itm/168415600562?nordt=true",
+      "soldPrice": 15.123234599999998,
+      "totalPrice": 22.696199999999997,
+      "soldDate": "2026-06-06",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo top cutting EBAY-2604-21",
+      "url": "https://www.ebay.com/itm/188305910494?nordt=true",
+      "soldPrice": 60.5156346,
+      "totalPrice": 73.5054264,
+      "soldDate": "2026-06-05",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Halfmoon Variegated Big Real Photo Free Phitosanytary",
+      "url": "https://www.ebay.com/itm/317528430103?nordt=true",
+      "soldPrice": 151.308,
+      "totalPrice": 170.2215,
+      "soldDate": "2026-06-05",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/267679399795?nordt=true",
+      "soldPrice": 64.3059,
+      "totalPrice": 71.86373459999999,
+      "soldDate": "2026-06-05",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Variegata",
+      "url": "https://www.ebay.com/itm/406826329000?nordt=true",
+      "soldPrice": 94.5675,
+      "totalPrice": 105.234714,
+      "soldDate": "2026-06-04",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Deliciosa Albo Variegated, EXACT PLANT",
+      "url": "https://www.ebay.com/itm/127686838013?nordt=true",
+      "soldPrice": 36.313919999999996,
+      "totalPrice": 50.196428999999995,
+      "soldDate": "2026-02-17",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Highly Variegated Monstera Albo Well Rooted Houseplant Air Purifier Plant",
+      "url": "https://www.ebay.com/itm/168317753806?nordt=true",
+      "soldPrice": 30.2540346,
+      "totalPrice": 38.5759746,
+      "soldDate": "2026-06-03",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Deliciosa Base Cutting Half-Moon like Marble Variegation FREE ship",
+      "url": "https://www.ebay.com/itm/206268145038?nordt=true",
+      "soldPrice": 45.3848346,
+      "totalPrice": 45.3848346,
+      "soldDate": "2026-06-03",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo White Tiger Variegated Real Photo Free Phitosanytary",
+      "url": "https://www.ebay.com/itm/317546071460?nordt=true",
+      "soldPrice": 75.654,
+      "totalPrice": 94.5675,
+      "soldDate": "2026-06-02",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo White Tiger Variegated Mature Big Size Real Photo",
+      "url": "https://www.ebay.com/itm/317679483216?nordt=true",
+      "soldPrice": 189.135,
+      "totalPrice": 208.0485,
+      "soldDate": "2026-06-02",
+      "listingType": "mature_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Deliciosa Base Cutting, MINT-like Marble Variegation FREE shipping",
+      "url": "https://www.ebay.com/itm/206301273633?nordt=true",
+      "soldPrice": 43.1152146,
+      "totalPrice": 43.1152146,
+      "soldDate": "2026-06-01",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/257524035654?nordt=true",
+      "soldPrice": 64.3059,
+      "totalPrice": 71.86373459999999,
+      "soldDate": "2026-06-01",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Deliciosa Cutting, Tri-Color Sectoral Variegation, FREE Shipping",
+      "url": "https://www.ebay.com/itm/206287475268?nordt=true",
+      "soldPrice": 32.5236546,
+      "totalPrice": 32.5236546,
+      "soldDate": "2026-05-31",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Plant Low Variegation FREE SHIPPING",
+      "url": "https://www.ebay.com/itm/397993343063?nordt=true",
+      "soldPrice": 30.2616,
+      "totalPrice": 30.2616,
+      "soldDate": "2026-05-31",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Variegated in 3.5\" inch Pot",
+      "url": "https://www.ebay.com/itm/318360994605?nordt=true",
+      "soldPrice": 30.2616,
+      "totalPrice": 30.2616,
+      "soldDate": "2026-05-31",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/257524048726?nordt=true",
+      "soldPrice": 56.7405,
+      "totalPrice": 64.2983346,
+      "soldDate": "2026-05-31",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Highly Variegated Rooted US Seller Exact Plant 6\" Pot",
+      "url": "https://www.ebay.com/itm/267675978877?nordt=true",
+      "soldPrice": 150.55146,
+      "totalPrice": 165.8865258,
+      "soldDate": "2026-05-30",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Actual Plant Free Shipping",
+      "url": "https://www.ebay.com/itm/257513097776?nordt=true",
+      "soldPrice": 56.73293459999999,
+      "totalPrice": 56.73293459999999,
+      "soldDate": "2026-05-29",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/267679380646?nordt=true",
+      "soldPrice": 56.7405,
+      "totalPrice": 64.2983346,
+      "soldDate": "2026-05-29",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Deliciosa Rooted Cutting, Green Snow Variegation, FREE Shipping",
+      "url": "https://www.ebay.com/itm/206296947254?nordt=true",
+      "soldPrice": 30.2540346,
+      "totalPrice": 30.2540346,
+      "soldDate": "2026-05-29",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/267679402959?nordt=true",
+      "soldPrice": 75.64643459999999,
+      "totalPrice": 83.2042692,
+      "soldDate": "2026-05-28",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Deliciosa Cutting, High Tri-Color Marble Variegation FREE Shipping",
+      "url": "https://www.ebay.com/itm/206283424914?nordt=true",
+      "soldPrice": 37.0628946,
+      "totalPrice": 37.0628946,
+      "soldDate": "2026-05-26",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Rooted In pot Variegated Monstera Albo Plant",
+      "url": "https://www.ebay.com/itm/227353136904?nordt=true",
+      "soldPrice": 41.6097,
+      "totalPrice": 49.780332,
+      "soldDate": "2026-05-25",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/267679388791?nordt=true",
+      "soldPrice": 56.7405,
+      "totalPrice": 64.2983346,
+      "soldDate": "2026-05-25",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/267679394838?nordt=true",
+      "soldPrice": 75.64643459999999,
+      "totalPrice": 83.2042692,
+      "soldDate": "2026-05-25",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/267670473368?nordt=true",
+      "soldPrice": 56.7405,
+      "totalPrice": 64.2983346,
+      "soldDate": "2026-05-22",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (rooting In Water) Shipping only in the USA",
+      "url": "https://www.ebay.com/itm/168395085146?nordt=true",
+      "soldPrice": 22.6962,
+      "totalPrice": 22.6962,
+      "soldDate": "2026-05-22",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/257507556428?nordt=true",
+      "soldPrice": 56.7405,
+      "totalPrice": 64.2983346,
+      "soldDate": "2026-05-22",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Rooted Top Cutting, Less Variegation, FREE Shipping",
+      "url": "https://www.ebay.com/itm/206237027338?nordt=true",
+      "soldPrice": 21.9320946,
+      "totalPrice": 21.9320946,
+      "soldDate": "2026-05-22",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (rooting In Water) Shipping only in the USA",
+      "url": "https://www.ebay.com/itm/168376267286?nordt=true",
+      "soldPrice": 9.0709146,
+      "totalPrice": 27.9314568,
+      "soldDate": "2026-05-21",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Variegated Monstera Albo - half moon Variegation",
+      "url": "https://www.ebay.com/itm/267674895507?nordt=true",
+      "soldPrice": 64.3059,
+      "totalPrice": 68.52739319999999,
+      "soldDate": "2026-05-21",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/267670487479?nordt=true",
+      "soldPrice": 56.7405,
+      "totalPrice": 64.2983346,
+      "soldDate": "2026-05-20",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Deliciosa Cutting, Tri-Color Marble Variegation, FREE Shipping",
+      "url": "https://www.ebay.com/itm/206272981093?nordt=true",
+      "soldPrice": 35.5498146,
+      "totalPrice": 35.5498146,
+      "soldDate": "2026-05-19",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/267670484357?nordt=true",
+      "soldPrice": 75.64643459999999,
+      "totalPrice": 83.2042692,
+      "soldDate": "2026-05-19",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/267670513499?nordt=true",
+      "soldPrice": 64.3059,
+      "totalPrice": 71.86373459999999,
+      "soldDate": "2026-05-19",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Halfmoon Variegated 1 Leaf Free Phyto",
+      "url": "https://www.ebay.com/itm/167856919347?nordt=true",
+      "soldPrice": 39.34008,
+      "totalPrice": 61.279740000000004,
+      "soldDate": "2026-05-18",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Rooted Variegated Monstera Albo Borsigiana Plant",
+      "url": "https://www.ebay.com/itm/306851786430?nordt=true",
+      "soldPrice": 37.8194346,
+      "totalPrice": 37.8194346,
+      "soldDate": "2026-05-18",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Cutting, Potential of Half-Moon Variegation, FREE Ship.",
+      "url": "https://www.ebay.com/itm/206262008807?nordt=true",
+      "soldPrice": 30.2540346,
+      "totalPrice": 30.2540346,
+      "soldDate": "2026-05-18",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo top cutting EBAY-2604-32",
+      "url": "https://www.ebay.com/itm/188323218312?nordt=true",
+      "soldPrice": 56.73293459999999,
+      "totalPrice": 69.7227264,
+      "soldDate": "2026-05-17",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/257507593709?nordt=true",
+      "soldPrice": 113.481,
+      "totalPrice": 121.0388346,
+      "soldDate": "2026-05-16",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Deliciosa Node Cutting- Half-moon Variegation- High Variegation",
+      "url": "https://www.ebay.com/itm/127855702775?nordt=true",
+      "soldPrice": 28.74852,
+      "totalPrice": 34.8084054,
+      "soldDate": "2026-05-16",
+      "listingType": "node",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/257507579308?nordt=true",
+      "soldPrice": 75.64643459999999,
+      "totalPrice": 83.2042692,
+      "soldDate": "2026-05-16",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/267670463593?nordt=true",
+      "soldPrice": 75.64643459999999,
+      "totalPrice": 83.2042692,
+      "soldDate": "2026-05-16",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/257507621494?nordt=true",
+      "soldPrice": 41.6097,
+      "totalPrice": 49.167534599999996,
+      "soldDate": "2026-05-16",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/267670458924?nordt=true",
+      "soldPrice": 75.64643459999999,
+      "totalPrice": 83.2042692,
+      "soldDate": "2026-05-15",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Variegated Cutting",
+      "url": "https://www.ebay.com/itm/389986594259?nordt=true",
+      "soldPrice": 37.827,
+      "totalPrice": 50.650352999999996,
+      "soldDate": "2026-05-13",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Deliciosa Cutting, High Tri-Color Marble Variegation FREE Shipping",
+      "url": "https://www.ebay.com/itm/206240523664?nordt=true",
+      "soldPrice": 37.8194346,
+      "totalPrice": 37.8194346,
+      "soldDate": "2026-05-12",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Actual Plant Free Shipping",
+      "url": "https://www.ebay.com/itm/257503208794?nordt=true",
+      "soldPrice": 56.73293459999999,
+      "totalPrice": 56.73293459999999,
+      "soldDate": "2026-05-12",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo - Fully Rooted plant",
+      "url": "https://www.ebay.com/itm/306854454907?nordt=true",
+      "soldPrice": 33.28776,
+      "totalPrice": 33.28776,
+      "soldDate": "2026-05-12",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Variegated",
+      "url": "https://www.ebay.com/itm/168355725519?nordt=true",
+      "soldPrice": 52.20126,
+      "totalPrice": 59.7742254,
+      "soldDate": "2026-05-12",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Rooted Variegated Plant. USA shipping only!",
+      "url": "https://www.ebay.com/itm/168355709174?nordt=true",
+      "soldPrice": 8.70021,
+      "totalPrice": 16.870842000000003,
+      "soldDate": "2026-05-12",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Deliciosa Cutting near Half-Moon Marble Variegation, FREE Shipping",
+      "url": "https://www.ebay.com/itm/206240490670?nordt=true",
+      "soldPrice": 34.793274600000004,
+      "totalPrice": 34.793274600000004,
+      "soldDate": "2026-05-10",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo White Tiger Variegated Big Size Real Photo Mature Plant",
+      "url": "https://www.ebay.com/itm/317679546090?nordt=true",
+      "soldPrice": 189.135,
+      "totalPrice": 208.0485,
+      "soldDate": "2026-05-10",
+      "listingType": "mature_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated  Rooted 3 Leaf. *Med Var*",
+      "url": "https://www.ebay.com/itm/157726359966?nordt=true",
+      "soldPrice": 37.827,
+      "totalPrice": 52.587095399999995,
+      "soldDate": "2026-05-09",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Rooted Variegated Monstera Albo Borsigiana Plant - Earth Day Sale",
+      "url": "https://www.ebay.com/itm/406880934866?nordt=true",
+      "soldPrice": 49.9240746,
+      "totalPrice": 76.4029746,
+      "soldDate": "2026-05-09",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Actual Plant Free Shipping",
+      "url": "https://www.ebay.com/itm/257498453020?nordt=true",
+      "soldPrice": 85.48145459999999,
+      "totalPrice": 85.48145459999999,
+      "soldDate": "2026-05-09",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Deliciosa Cutting, White Tiger High Marble Variegation, FREE Shipp",
+      "url": "https://www.ebay.com/itm/206247514997?nordt=true",
+      "soldPrice": 41.6021346,
+      "totalPrice": 41.6021346,
+      "soldDate": "2026-05-08",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Rooted Cutting, Slight Variegation on one Leave, FREE Shipping",
+      "url": "https://www.ebay.com/itm/206250038493?nordt=true",
+      "soldPrice": 15.123234599999998,
+      "totalPrice": 15.123234599999998,
+      "soldDate": "2026-05-08",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana - Low Variegation - Cutting - Plant F",
+      "url": "https://www.ebay.com/itm/306875233712?nordt=true",
+      "soldPrice": 11.3481,
+      "totalPrice": 18.9135,
+      "soldDate": "2026-05-04",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Cutting, Half-Moon High Variegation, FREE Shipping",
+      "url": "https://www.ebay.com/itm/206252037349?nordt=true",
+      "soldPrice": 46.8979146,
+      "totalPrice": 46.8979146,
+      "soldDate": "2026-05-05",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Deliciosa Cutting, less Variegation but White Stem, FREE Shipping",
+      "url": "https://www.ebay.com/itm/206236299529?nordt=true",
+      "soldPrice": 22.688634599999997,
+      "totalPrice": 22.688634599999997,
+      "soldDate": "2026-05-04",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo top cutting EBAY-2604-04",
+      "url": "https://www.ebay.com/itm/188255195960?nordt=true",
+      "soldPrice": 60.5156346,
+      "totalPrice": 73.5054264,
+      "soldDate": "2026-05-04",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Medium/High Variegated Top Cutting  2 Leaves - Plant B",
+      "url": "https://www.ebay.com/itm/306875198973?nordt=true",
+      "soldPrice": 22.6962,
+      "totalPrice": 30.2616,
+      "soldDate": "2026-05-03",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Actual Plant Free Shipping",
+      "url": "https://www.ebay.com/itm/257473410587?nordt=true",
+      "soldPrice": 56.73293459999999,
+      "totalPrice": 56.73293459999999,
+      "soldDate": "2026-05-03",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo top cutting EBAY-2604-03",
+      "url": "https://www.ebay.com/itm/188255194054?nordt=true",
+      "soldPrice": 60.5156346,
+      "totalPrice": 73.5054264,
+      "soldDate": "2026-05-03",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Rooted Top Cutting Slight Variegation on both Leaves FREE Shipping",
+      "url": "https://www.ebay.com/itm/206089782050?nordt=true",
+      "soldPrice": 15.123234599999998,
+      "totalPrice": 15.123234599999998,
+      "soldDate": "2026-05-03",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Rooted Variegated Monstera Albo Borsigiana Plant - Earth Day Sale",
+      "url": "https://www.ebay.com/itm/406883324193?nordt=true",
+      "soldPrice": 40.8455946,
+      "totalPrice": 67.3244946,
+      "soldDate": "2026-05-02",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo top cutting EBAY-2604-31",
+      "url": "https://www.ebay.com/itm/188323214787?nordt=true",
+      "soldPrice": 60.5156346,
+      "totalPrice": 73.5054264,
+      "soldDate": "2026-05-01",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Deliciosa Variegated Rooted Free Priority Ship WYSIWYG",
+      "url": "https://www.ebay.com/itm/318199239983?nordt=true",
+      "soldPrice": 38.5759746,
+      "totalPrice": 38.5759746,
+      "soldDate": "2026-05-01",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Medium/High Variegated Top Cutting  2 Leaves - Plant A",
+      "url": "https://www.ebay.com/itm/306875193225?nordt=true",
+      "soldPrice": 30.2616,
+      "totalPrice": 37.827,
+      "soldDate": "2026-04-26",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Deliciosa Cutting near Half-Moon MINT Variegation, FREE Shipping",
+      "url": "https://www.ebay.com/itm/206171599644?nordt=true",
+      "soldPrice": 34.793274600000004,
+      "totalPrice": 34.793274600000004,
+      "soldDate": "2026-04-26",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo top cutting EBAY-2604-22",
+      "url": "https://www.ebay.com/itm/188305921999?nordt=true",
+      "soldPrice": 68.0810346,
+      "totalPrice": 81.0708264,
+      "soldDate": "2026-04-25",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Rooted High Variegation Monstera Albo Borsigiana Plant",
+      "url": "https://www.ebay.com/itm/306880624971?nordt=true",
+      "soldPrice": 45.3848346,
+      "totalPrice": 49.8408552,
+      "soldDate": "2026-04-25",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Rooted Variegated Monstera Albo Borsigiana Plant - Earth Day Sale",
+      "url": "https://www.ebay.com/itm/406880979371?nordt=true",
+      "soldPrice": 59.7590946,
+      "totalPrice": 86.2379946,
+      "soldDate": "2026-04-25",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Rooted Variegated Monstera Albo Borsigiana Plant - Earth Day Sale",
+      "url": "https://www.ebay.com/itm/406883331482?nordt=true",
+      "soldPrice": 39.3325146,
+      "totalPrice": 65.8114146,
+      "soldDate": "2026-04-25",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Rooted Variegated Monstera Albo Borsigiana Plant -  Earth Day Sale",
+      "url": "https://www.ebay.com/itm/406883362370?nordt=true",
+      "soldPrice": 29.4974946,
+      "totalPrice": 55.9763946,
+      "soldDate": "2026-04-25",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Rooted Variegated Monstera Albo Borsigiana Plant - Earth Day Sale",
+      "url": "https://www.ebay.com/itm/406883381021?nordt=true",
+      "soldPrice": 59.7590946,
+      "totalPrice": 86.2379946,
+      "soldDate": "2026-04-25",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Medium Variegated Cutting - Plant F",
+      "url": "https://www.ebay.com/itm/306875219946?nordt=true",
+      "soldPrice": 15.1308,
+      "totalPrice": 22.6962,
+      "soldDate": "2026-04-22",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Medium/High Variegated Cutting - Plant C",
+      "url": "https://www.ebay.com/itm/306875206662?nordt=true",
+      "soldPrice": 22.6962,
+      "totalPrice": 30.2616,
+      "soldDate": "2026-04-25",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo top cutting EBAY-2604-05",
+      "url": "https://www.ebay.com/itm/188255198226?nordt=true",
+      "soldPrice": 68.0810346,
+      "totalPrice": 81.0708264,
+      "soldDate": "2026-04-25",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Rare Monstera Albo Variegated - Fully Rooted EXACT Plant - High Variegation",
+      "url": "https://www.ebay.com/itm/178029079759?nordt=true",
+      "soldPrice": 60.5232,
+      "totalPrice": 60.5232,
+      "soldDate": "2026-04-24",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Variegated Real Photo Free Phitosanytary",
+      "url": "https://www.ebay.com/itm/317526363278?nordt=true",
+      "soldPrice": 45.3924,
+      "totalPrice": 64.30590000000001,
+      "soldDate": "2026-04-22",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo White Tiger Nodes Cutting Rooted Variegated Tropical Plant",
+      "url": "https://www.ebay.com/itm/358371596159?nordt=true",
+      "soldPrice": 39.71835,
+      "totalPrice": 49.818159,
+      "soldDate": "2026-04-22",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Rooted Cutting Beautiful MINT Variegation FREE Shipping",
+      "url": "https://www.ebay.com/itm/206163967866?nordt=true",
+      "soldPrice": 33.2801946,
+      "totalPrice": 33.2801946,
+      "soldDate": "2026-04-22",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Rooted Cutting Tri-Color Variegation FREE Shipping",
+      "url": "https://www.ebay.com/itm/206212851587?nordt=true",
+      "soldPrice": 37.0628946,
+      "totalPrice": 37.0628946,
+      "soldDate": "2026-04-22",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Rooted In pot Variegated Monstera Albo Plant",
+      "url": "https://www.ebay.com/itm/227308183454?nordt=true",
+      "soldPrice": 41.6097,
+      "totalPrice": 49.1826654,
+      "soldDate": "2026-04-22",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Rooted Variegated Monstera Albo Borsigiana Plant -  Large Leaves Easter Sale",
+      "url": "https://www.ebay.com/itm/406787293961?nordt=true",
+      "soldPrice": 51.43715459999999,
+      "totalPrice": 77.9160546,
+      "soldDate": "2026-04-21",
+      "listingType": "mature_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Top Cutting, Potential to REGAIN the Variegation, FREE Shipping",
+      "url": "https://www.ebay.com/itm/206185809537?nordt=true",
+      "soldPrice": 18.9059346,
+      "totalPrice": 18.9059346,
+      "soldDate": "2026-04-20",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Rooted Variegated Monstera Albo Borsigiana Plant -  Happy Holiday Sale",
+      "url": "https://www.ebay.com/itm/406669447401?nordt=true",
+      "soldPrice": 45.3848346,
+      "totalPrice": 71.8637346,
+      "soldDate": "2026-04-19",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Rooted Variegated Monstera Albo Borsigiana Plant -  Large Leaves Easter Sale",
+      "url": "https://www.ebay.com/itm/406787266946?nordt=true",
+      "soldPrice": 49.9240746,
+      "totalPrice": 76.4029746,
+      "soldDate": "2026-04-19",
+      "listingType": "mature_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Rooted Variegated Monstera Albo Borsigiana Plant -  Happy Easter Sale",
+      "url": "https://www.ebay.com/itm/406817623201?nordt=true",
+      "soldPrice": 41.6097,
+      "totalPrice": 68.0886,
+      "soldDate": "2026-04-19",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Rooted Variegated Monstera Albo Borsigiana Plant -  Large Leaves Easter Sale",
+      "url": "https://www.ebay.com/itm/406787284248?nordt=true",
+      "soldPrice": 49.9240746,
+      "totalPrice": 76.4029746,
+      "soldDate": "2026-04-19",
+      "listingType": "mature_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Rooted Variegated Monstera Albo Borsigiana Plant -  Happy Easter Sale",
+      "url": "https://www.ebay.com/itm/406817592046?nordt=true",
+      "soldPrice": 34.0443,
+      "totalPrice": 60.5232,
+      "soldDate": "2026-04-19",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo top cutting EBAY-2604-01",
+      "url": "https://www.ebay.com/itm/188255181053?nordt=true",
+      "soldPrice": 68.0810346,
+      "totalPrice": 81.0708264,
+      "soldDate": "2026-04-19",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Half Moon Variegated Actual Plant Free Shipping",
+      "url": "https://www.ebay.com/itm/257463130809?nordt=true",
+      "soldPrice": 64.29833459999999,
+      "totalPrice": 64.29833459999999,
+      "soldDate": "2026-04-18",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo USPS PRIORITY FREE Shipping Variegated Rare Exact Plant #067",
+      "url": "https://www.ebay.com/itm/267642988159?nordt=true",
+      "soldPrice": 30.223773,
+      "totalPrice": 30.223773,
+      "soldDate": "2026-04-18",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Low Variegated Cutting - Plant H",
+      "url": "https://www.ebay.com/itm/306875230476?nordt=true",
+      "soldPrice": 11.3481,
+      "totalPrice": 18.9135,
+      "soldDate": "2026-04-15",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Potted",
+      "url": "https://www.ebay.com/itm/298148233565?nordt=true",
+      "soldPrice": 90.7848,
+      "totalPrice": 101.7621954,
+      "soldDate": "2026-04-15",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo top cutting EBAY-2604-02",
+      "url": "https://www.ebay.com/itm/188255189295?nordt=true",
+      "soldPrice": 60.5156346,
+      "totalPrice": 73.5054264,
+      "soldDate": "2026-04-14",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated XL Actual Plant Free Shipping",
+      "url": "https://www.ebay.com/itm/257451720559?nordt=true",
+      "soldPrice": 226.9544346,
+      "totalPrice": 226.9544346,
+      "soldDate": "2026-04-14",
+      "listingType": "mature_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Halfmoon Variegated Real Picture",
+      "url": "https://www.ebay.com/itm/389890597084?nordt=true",
+      "soldPrice": 75.654,
+      "totalPrice": 94.5675,
+      "soldDate": "2026-04-14",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo White Tiger Variegated Real Picture Free Phitosanytari",
+      "url": "https://www.ebay.com/itm/389616873904?nordt=true",
+      "soldPrice": 75.654,
+      "totalPrice": 94.5675,
+      "soldDate": "2026-04-14",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Deliciosa Cutting, less Variegation, FREE Shipping",
+      "url": "https://www.ebay.com/itm/206176283352?nordt=true",
+      "soldPrice": 20.419014599999997,
+      "totalPrice": 20.419014599999997,
+      "soldDate": "2026-04-13",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo top cutting EBAY-2604-06",
+      "url": "https://www.ebay.com/itm/188255203086?nordt=true",
+      "soldPrice": 60.5156346,
+      "totalPrice": 73.5054264,
+      "soldDate": "2026-04-13",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Rooted Monstera Albo Plant High Variegation",
+      "url": "https://www.ebay.com/itm/306851794883?nordt=true",
+      "soldPrice": 45.3848346,
+      "totalPrice": 49.8408552,
+      "soldDate": "2026-04-12",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Rooted Variegated Monstera Albo Borsigiana Plant",
+      "url": "https://www.ebay.com/itm/406369351940?nordt=true",
+      "soldPrice": 22.688634599999997,
+      "totalPrice": 43.871754599999996,
+      "soldDate": "2026-04-12",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana, Rooted, New Growth has less Variegation, FREE Shipping",
+      "url": "https://www.ebay.com/itm/206149215235?nordt=true",
+      "soldPrice": 28.740954600000002,
+      "totalPrice": 28.740954600000002,
+      "soldDate": "2026-04-09",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/267628337089?nordt=true",
+      "soldPrice": 56.7405,
+      "totalPrice": 64.2983346,
+      "soldDate": "2026-04-08",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/257440711480?nordt=true",
+      "soldPrice": 56.7405,
+      "totalPrice": 64.2983346,
+      "soldDate": "2026-04-07",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/257440602009?nordt=true",
+      "soldPrice": 74.89746,
+      "totalPrice": 82.4552946,
+      "soldDate": "2026-04-04",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/267628331019?nordt=true",
+      "soldPrice": 64.3059,
+      "totalPrice": 71.86373459999999,
+      "soldDate": "2026-04-04",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/257440617797?nordt=true",
+      "soldPrice": 64.3059,
+      "totalPrice": 71.86373459999999,
+      "soldDate": "2026-04-03",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Variegated Top Cutting Rooted",
+      "url": "https://www.ebay.com/itm/257410187644?nordt=true",
+      "soldPrice": 64.3059,
+      "totalPrice": 71.86373459999999,
+      "soldDate": "2026-04-03",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Rooted Monstera Albo High Variegation Sectoral",
+      "url": "https://www.ebay.com/itm/306851790004?nordt=true",
+      "soldPrice": 52.950234599999995,
+      "totalPrice": 57.4062552,
+      "soldDate": "2026-04-02",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Deliciosa Cutting,  Beautiful Green Snow Variegation FREE Shipping",
+      "url": "https://www.ebay.com/itm/206089689220?nordt=true",
+      "soldPrice": 33.2801946,
+      "totalPrice": 33.2801946,
+      "soldDate": "2026-04-02",
+      "listingType": "unrooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Rooted Variegated Monstera Albo Borsigiana Plant -  Happy Easter Sale",
+      "url": "https://www.ebay.com/itm/406817569529?nordt=true",
+      "soldPrice": 28.74852,
+      "totalPrice": 49.93164,
+      "soldDate": "2026-04-01",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Rooted Cutting Half-Moon High Variegation FREE Shipping",
+      "url": "https://www.ebay.com/itm/206178632551?nordt=true",
+      "soldPrice": 37.8194346,
+      "totalPrice": 37.8194346,
+      "soldDate": "2026-04-01",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Rooted Variegated Monstera Albo Borsigiana Plant -  Happy Easter Sale",
+      "url": "https://www.ebay.com/itm/406817655537?nordt=true",
+      "soldPrice": 59.01012,
+      "totalPrice": 87.75864,
+      "soldDate": "2026-04-01",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo USPS PRIORITY FREE Shipping Variegated Rare Exact Plant #001",
+      "url": "https://www.ebay.com/itm/267601804238?nordt=true",
+      "soldPrice": 56.702673000000004,
+      "totalPrice": 56.702673000000004,
+      "soldDate": "2026-03-31",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Deliciosa Rooted Cutting Green Snow High Variegation FREE Shipping",
+      "url": "https://www.ebay.com/itm/206123944986?nordt=true",
+      "soldPrice": 31.767114600000003,
+      "totalPrice": 31.767114600000003,
+      "soldDate": "2026-03-30",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Albo Borsigiana Rooted Cutting Half-Moon High Variegation FREE Shipping",
+      "url": "https://www.ebay.com/itm/206174390068?nordt=true",
+      "soldPrice": 37.8194346,
+      "totalPrice": 37.8194346,
+      "soldDate": "2026-03-30",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 176,
+  "rejectedCount": 56,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "monstera adansonii variegated albo high var 4 leaf",
+      "monstera borsigiana 'albo'",
+      "monstera lechleriana albo 1 unrooted node cutting + free gift with every order"
+    ]
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "snapshot": {
+    "plantSlug": "rhaphidophora-tetrasperma",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Rhaphidophora tetrasperma",
+    "checkedAt": "2026-06-28T20:18:28.115Z",
+    "currency": "GBP",
+    "rawResultCount": 216,
+    "acceptedCount": 31,
+    "rejectedCount": 185,
+    "outlierCount": 1,
+    "confidenceScore": "B",
+    "minPrice": 11.3405346,
+    "p25Price": 21.258774,
+    "medianPrice": 43.87932,
+    "meanPrice": 44.1289782,
+    "trimmedMeanPrice": 40.50704295,
+    "p75Price": 55.2690297,
+    "maxPrice": 110.038743,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 31,
+    "min": 11.3405346,
+    "max": 110.038743,
+    "median": 43.87932,
+    "mean": 44.1289782,
+    "p25": 21.258774,
+    "p75": 55.2690297,
+    "iqr": 34.0102557,
+    "trimmedMean": 40.50704295,
+    "confidenceScore": "B",
+    "rejectedCount": 185,
+    "rejectionReasons": {},
+    "outlierCount": 1
+  },
+  "acceptedListings": [
+    {
+      "title": "Rhaphidophora Tetrasperma - Mini Monstera",
+      "url": "https://www.ebay.com/itm/177636496928?nordt=true",
+      "soldPrice": 13.6479816,
+      "totalPrice": 19.4960358,
+      "soldDate": "2026-06-27",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma White Monster Mint variegated tissue culture 2DayAir",
+      "url": "https://www.ebay.com/itm/168489109222?nordt=true",
+      "soldPrice": 18.9135,
+      "totalPrice": 29.50506,
+      "soldDate": "2026-06-26",
+      "listingType": "tc_plantlet",
+      "currency": "USD"
+    },
+    {
+      "title": "rhaphidophora tetrasperma variegated plant live Exact Plant “mini Monstera “",
+      "url": "https://www.ebay.com/itm/287356791347?nordt=true",
+      "soldPrice": 49.1751,
+      "totalPrice": 49.1751,
+      "soldDate": "2026-06-24",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "rhaphidophora tetrasperma variegated plant live",
+      "url": "https://www.ebay.com/itm/287414124451?nordt=true",
+      "soldPrice": 37.827,
+      "totalPrice": 37.827,
+      "soldDate": "2026-06-24",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Variegated Rhaphidophora Tetrasperma “ Mini Monstera “ Exact Plant Rare",
+      "url": "https://www.ebay.com/itm/287356800185?nordt=true",
+      "soldPrice": 49.1751,
+      "totalPrice": 49.1751,
+      "soldDate": "2026-06-23",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Mini Monstera - Rhaphidophora Tetrasperma - Philodendron 'Minima' - Ginny",
+      "url": "https://www.ebay.com/itm/374733029062?nordt=true",
+      "soldPrice": 12.823353,
+      "totalPrice": 19.443078,
+      "soldDate": "2026-06-21",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Mini Monstera, Rhaphidophora tetrasperma",
+      "url": "https://www.ebay.com/itm/405048441563?nordt=true",
+      "soldPrice": 13.61772,
+      "totalPrice": 22.696199999999997,
+      "soldDate": "2026-06-20",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "#44 Rhaphidophora Tetrasperma Variegated Aroid 4” Pot Houseplant Mini Monstera",
+      "url": "https://www.ebay.com/itm/188494495201?nordt=true",
+      "soldPrice": 31.01814,
+      "totalPrice": 46.148939999999996,
+      "soldDate": "2026-06-17",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Albo-Variegated - Half Moon - 2 Active Growth Points!",
+      "url": "https://www.ebay.com/itm/157964721485?nordt=true",
+      "soldPrice": 83.2194,
+      "totalPrice": 83.2194,
+      "soldDate": "2026-06-17",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Rhaphidophora tetrasperma plant 4\" Pot 11\" Tall 12\" Wide",
+      "url": "https://www.ebay.com/itm/257555021866?nordt=true",
+      "soldPrice": 11.3405346,
+      "totalPrice": 11.3405346,
+      "soldDate": "2026-06-13",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Variegated Rhaphidophora Tetrasperma",
+      "url": "https://www.ebay.com/itm/137376362013?nordt=true",
+      "soldPrice": 56.7405,
+      "totalPrice": 56.7405,
+      "soldDate": "2026-06-13",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Variegated Rhaphidophora tetrasperma plant 4\" Pot 14\" Tall 14\" Wide",
+      "url": "https://www.ebay.com/itm/267693539355?nordt=true",
+      "soldPrice": 37.8194346,
+      "totalPrice": 37.8194346,
+      "soldDate": "2026-06-13",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Rhaphidophora tetrasperma Monstera cuttings all have air roots. + free gift",
+      "url": "https://www.ebay.com/itm/198369710728?nordt=true",
+      "soldPrice": 5.29578,
+      "totalPrice": 13.088142000000001,
+      "soldDate": "2026-06-07",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Albo-Variegated Half Moon Leaves and Stem - Stunning!",
+      "url": "https://www.ebay.com/itm/157924851554?nordt=true",
+      "soldPrice": 83.2194,
+      "totalPrice": 83.2194,
+      "soldDate": "2026-06-06",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Variegated Rhaphidophora Tetrasperma Rooted Plants and Cuttings Albo Mini Monst",
+      "url": "https://www.ebay.com/itm/226222584395?nordt=true",
+      "soldPrice": 26.4789,
+      "totalPrice": 30.2616,
+      "soldDate": "2026-06-06",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "#23 Rhaphidophora Tetrasperma Variegated Aroid 4” Pot Houseplant Mini Monstera",
+      "url": "https://www.ebay.com/itm/188432980299?nordt=true",
+      "soldPrice": 28.74852,
+      "totalPrice": 43.87932,
+      "soldDate": "2026-06-03",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Rhaphidophora tetrasperma | Mini Monstera | Ginny Philodendron",
+      "url": "https://www.ebay.com/itm/236813740555?nordt=true",
+      "soldPrice": 7.5654,
+      "totalPrice": 15.849513,
+      "soldDate": "2026-06-01",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Ginny Rhaphidophora Tetrasperma Live Tropical Vine Plant 6in Pot",
+      "url": "https://www.ebay.com/itm/306925324111?nordt=true",
+      "soldPrice": 19.821348,
+      "totalPrice": 19.821348,
+      "soldDate": "2026-05-31",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Variegated Mini Monstera Rhaphidophora Tetrasperma Plant In 3” Pot US SELLER",
+      "url": "https://www.ebay.com/itm/147338084466?nordt=true",
+      "soldPrice": 37.827,
+      "totalPrice": 46.90548,
+      "soldDate": "2026-05-29",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Variegated Rhaphidophora Tetrasperma Albo, “mini Monstera” Not Philodendron",
+      "url": "https://www.ebay.com/itm/287329954935?nordt=true",
+      "soldPrice": 68.0886,
+      "totalPrice": 68.0886,
+      "soldDate": "2026-05-23",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Minima/Ginny - Rhaphidophora Tetrasperma - 4'' Pot - Live Indoor Plant",
+      "url": "https://www.ebay.com/itm/305959517285?nordt=true",
+      "soldPrice": 30.223773,
+      "totalPrice": 30.223773,
+      "soldDate": "2026-05-13",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Variegated Rhaphidophora Tetrasperma Albo, EXACT PLANT Ships Nationwide",
+      "url": "https://www.ebay.com/itm/287329904491?nordt=true",
+      "soldPrice": 64.3059,
+      "totalPrice": 64.3059,
+      "soldDate": "2026-05-13",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#19 Rhaphidophora Tetrasperma Variegated Aroid 4” Pot Houseplant Mini Monstera",
+      "url": "https://www.ebay.com/itm/188341761822?nordt=true",
+      "soldPrice": 67.3169292,
+      "totalPrice": 82.4477292,
+      "soldDate": "2026-05-09",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Variegated Rhaphidophora Tetrasperma rooted Plant Albo Mini Monstera...",
+      "url": "https://www.ebay.com/itm/206018336375?nordt=true",
+      "soldPrice": 42.827729399999996,
+      "totalPrice": 53.7975594,
+      "soldDate": "2026-05-07",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Mini Monstera Rhaphidophora Tetrasperma  Easy Air Purifying Houseplant, 4” Pot",
+      "url": "https://www.ebay.com/itm/187745281604?nordt=true",
+      "soldPrice": 11.310272999999999,
+      "totalPrice": 16.568226,
+      "soldDate": "2026-04-07",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma – Mini Monstera Plant – Rooted Starter or Cutting",
+      "url": "https://www.ebay.com/itm/376993870370?nordt=true",
+      "soldPrice": 7.5578346,
+      "totalPrice": 12.4753446,
+      "soldDate": "2026-05-02",
+      "listingType": "rooted_cutting",
+      "currency": "USD"
+    },
+    {
+      "title": "LIVE PLANT 2ft Philodendron Rhaphidophora tetrasperma Monstera minima",
+      "url": "https://www.ebay.com/itm/325995557774?nordt=true",
+      "soldPrice": 27.23544,
+      "totalPrice": 49.1751,
+      "soldDate": "2026-04-18",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#35 Rhaphidophora Tetrasperma Variegated Aroid 4” Pot Houseplant Mini Monstera",
+      "url": "https://www.ebay.com/itm/318133013880?nordt=true",
+      "soldPrice": 22.6962,
+      "totalPrice": 37.827,
+      "soldDate": "2026-04-17",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Albo, Exact Plant Variegated Ships Nationwide",
+      "url": "https://www.ebay.com/itm/168302235323?nordt=true",
+      "soldPrice": 34.80084,
+      "totalPrice": 47.66202,
+      "soldDate": "2026-04-12",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Rare Rhaphidophora Tetrasperma White Monster 12\"Tall  Monstera Not Philodendron",
+      "url": "https://www.ebay.com/itm/168269592739?nordt=true",
+      "soldPrice": 99.86328,
+      "totalPrice": 110.038743,
+      "soldDate": "2026-04-05",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Rare Rhaphidophora Tetrasperma Albo 10\"Tall  Monstera No Philodendron Anthurium",
+      "url": "https://www.ebay.com/itm/168232733511?nordt=true",
+      "soldPrice": 69.60168,
+      "totalPrice": 79.777143,
+      "soldDate": "2026-04-05",
+      "listingType": "unknown",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 31,
+  "rejectedCount": 185,
+  "rejectionBreakdown": {
+    "Contains excluded term": [
+      "rhaphidophora tetrasperma mini monstera - exotic tropical seeds!",
+      "rhaphidophora tetrasperma minima houseplant, rooted in soil in 4 inch",
+      "rhaphidophora tetrasperma | mini monstera | ginny philodendron | 100_seeds"
+    ],
+    "No accepted term found. Expected one of": [
+      "variegated monstera houseplant pink green broadleaf climbing in white pot",
+      "*very rare*rhaphidophora foraminifera variegated 1 leaf cutting in prop cup",
+      "rhaphidophora hongkongensis [cutting]"
+    ]
+  }
+}

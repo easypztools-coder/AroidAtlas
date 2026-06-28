@@ -12,7 +12,7 @@
   "collectorPopularity": 3,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Philodendron pastazanum is a crawling terrestrial rainforest aroid from the humid lowland forests of western Amazonia spanning Ecuador and Peru, growing on deep organic litter or among roots on the shaded forest floor with constant moisture and rich humus. Unlike the majority of collector Philodendrons, it spreads horizontally rather than climbing — a stout rhizome creeps along the substrate, extending feeder roots into the organic matter below, while upright petioles carry large, broadly cordate leaves of matte deep green with a broad, open sinus, rounded posterior lobes, and clear pale venation. The combination of considerable leaf size with a terrestrial spreading habit makes pastazanum an ideal specimen for wide, low containers. As a parent of the hybrid 'Dean McDowell', it has also passed its size and broad leaf character into one of the most celebrated crawling hybrids in the hobby.",
   "quickFacts": {
     "growthHabit": "Terrestrial crawling rhizome",
@@ -34,7 +34,7 @@
     "growthHabit": "Stout horizontal rhizome with feeder roots, spreading laterally"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 40,
+    "currentMedianPriceGBP": 29,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

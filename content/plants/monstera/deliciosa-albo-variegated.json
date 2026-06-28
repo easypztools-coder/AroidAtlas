@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Very Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£££",
   "aboutText": "This cultivated variegated selection is derived from Monstera deliciosa ancestry native to humid forests in southern Mexico and Central America. These forests are warm, wet, and shaded, supporting aroid growth with rich organic soils and high humidity. The plant is a robust climber with thick stems and aerial roots, featuring large, cordate leaves with deep fenestrations and splits. Its variegation is striking, appearing as irregular marble patterns in cream to white sectors splashed over deep green.",
   "quickFacts": {
     "growthHabit": "Climbing",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 55,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

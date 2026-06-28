@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Ultra Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£££",
   "aboutText": "Monstera xanthospatha is an elusive and highly sought-after climbing aroid native to the humid montane forests of Colombia. It is closely allied to the M. obliqua complex, characterized by its slender, robust stems and distinctively delicate, fenestrated foliage. This species thrives in shaded, high-humidity understories, where it utilizes strong aerial roots to ascend trees in rich organic substrates. Collectors prize the plant for its refined perforation pattern and unique yellowish-green new growth, which sets it apart from its more common relatives.",
   "quickFacts": {
     "growthHabit": "Climbing/Epiphytic",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 101,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

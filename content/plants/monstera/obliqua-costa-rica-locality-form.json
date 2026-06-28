@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£££",
   "aboutText": "This Monstera obliqua locality form originates from Costa Rica and is a refined specimen, with narrow, oblong-elliptic to asymmetric leaves that are thin and delicate. It thrives in warm, shaded understories of humid tropical forests, requiring consistent moisture and filtered light. The plant ascends slender supports using aerial roots and exhibits less fenestration than other obliqua forms.",
   "quickFacts": {
     "growthHabit": "Climbing",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 40,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

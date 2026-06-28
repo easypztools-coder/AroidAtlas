@@ -11,7 +11,7 @@
   "collectorPopularity": 4.5,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "££",
   "aboutText": "Philodendron billietiae 'Variegated' is a stunning variegated form of the beloved billietiae species. Known for its long-stalked, elongated heart-shaped leaves, this cultivar displays striking yellow to cream variegation patterns that contrast beautifully with its rich green base. The bright orange petioles add an additional layer of visual interest, making it a highly sought-after specimen among aroid collectors. Native to the tropical regions of French Guiana and Brazil, this climbing philodendron rewards patient growers with increasingly dramatic foliage as it matures.",
   "quickFacts": {
     "growthHabit": "Climbing hemiepiphyte on moss pole",
@@ -33,7 +33,7 @@
     "growthHabit": "Climbing with thick aerial roots"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 200,
+    "currentMedianPriceGBP": 81,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

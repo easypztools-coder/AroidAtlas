@@ -11,7 +11,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Very Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "££",
   "aboutText": "Alocasia longiloba 'Watsoniana Pink Doff Variegated' is an exceptionally beautiful, corm-forming understory aroid native to China and western Malesia. Known for its massive, stiff shield leaves with contrasting white primary veins, it features a velvety green surface with a dark metallic sheen. The highly sought-after 'Pink Doff' cultivar exhibits stunning splashes of soft pink variegation, requiring warm, highly humid forest-floor conditions with consistent moisture and filtered light.",
   "quickFacts": {
     "growthHabit": "Rosette from corm",
@@ -33,7 +33,7 @@
     "growthHabit": "Upright rosette from a corm"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 200,
+    "currentMedianPriceGBP": 44,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

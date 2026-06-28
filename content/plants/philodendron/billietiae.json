@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Philodendron billietiae, described by Croat, is a hemiepiphytic climber from the humid lowland forests of the Guiana Shield in northeastern South America — ascending tree trunks in warm, shaded, wet forest where light filters through the canopy. The species is immediately recognisable by its extraordinary petioles: long, strikingly orange to yellow-orange, they are among the most vivid petiole colours in the entire genus and account for the plant's nickname and much of its collector appeal. The leaves themselves are elongate sagittate, with a long acuminate anterior lobe and narrow posterior lobes, carried on slender but sturdy climbing stems with distinct nodes producing short aerial roots. The base species is considerably less common than its variegated form, and retains considerable collector interest in its own right for the simple reason that those petioles are simply extraordinary.",
   "quickFacts": {
     "growthHabit": "Climbing hemiepiphyte",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing via short aerial roots on slender sturdy stems with distinct nodes"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 70,
+    "currentMedianPriceGBP": 27,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

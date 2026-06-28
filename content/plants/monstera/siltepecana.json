@@ -26,7 +26,7 @@
   "collectorPopularity": 3,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Monstera siltepecana is a captivating tropical climber native to the shaded understory of forests ranging from Mexico to Honduras. This species is highly regarded for its dramatic heteroblasty, transitioning from stunning, silvery-mottled juvenile leaves to mature foliage featuring elegant, elongated shapes with internal perforations. In its natural habitat, it utilizes aerial roots to ascend tree trunks, thriving in warm, humid conditions. It remains a staple in aroid collections for its graceful growth habit and distinct aesthetic transformation.",
   "quickFacts": {
     "growthHabit": "Climbing epiphyte",
@@ -48,7 +48,7 @@
     "growthHabit": "Climbing"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 15,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

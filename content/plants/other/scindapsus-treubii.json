@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Scindapsus treubii is a classic, highly elegant climbing species native to the tropical rainforests of Southeast Asia. Known commonly as 'Treubii Moonlight' or 'Treubii Dark Form' depending on the selection, the wild species features thick, lance-shaped leaves with a smooth, leathery texture and a gorgeous dark green to silver-green sheen. It climbs up supports using adventitious roots at the nodes and is very easy to grow in home conditions, tolerating lower humidity than other rare aroids.",
   "quickFacts": {
     "growthHabit": "Root-climbing climber",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing vining stem"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 28,
+    "currentMedianPriceGBP": 22,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

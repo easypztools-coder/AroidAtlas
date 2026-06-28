@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Very Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£",
   "aboutText": "Anthurium luxurians is a Colombian rainforest species described by Croat and Cirino, growing as a compact terrestrial or low epiphyte in the humid, shaded understory on rich organic soil, humus, and tree bases. Its defining quality — the one that sends collectors into spirals of desire — is the extraordinary bullate, heavily textured leaf surface. The thick, cordate blades are a deep, almost glacial dark glossy green, pronounced into raised cells between the veins in a pattern that resembles crocodile hide or fine hammered bronze. A compact, self-heading plant with short petioles arising from a dense crown, luxurians demands high humidity and warm temperatures, rewarding patience with one of the most tactilely astonishing leaf surfaces in the entire genus.",
   "quickFacts": {
     "growthHabit": "Compact terrestrial to low epiphyte, self-heading",
@@ -34,7 +34,7 @@
     "growthHabit": "Dense basal crown, compact self-heading"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 280,
+    "currentMedianPriceGBP": 37,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

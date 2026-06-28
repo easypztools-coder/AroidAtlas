@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Scindapsus 'Silver Hero' is a refined climbing cultivar with elongated, lanceolate to elliptic leaves that display an exceptional satin-silver surface with subtle darker veining beneath. The leaves are unusually thick and matte to softly glossy, with a texture that catches light in a way that makes the silver colouration shift and shimmer as viewing angle changes. It vines readily with distinct nodes and visible aerial roots, reflecting its ancestry from the tropical climbing aroid forests of Southeast Asia. Considered one of the most elegant Scindapsus cultivars available, it appeals particularly to collectors who appreciate subtlety over bold variegation.",
   "quickFacts": {
     "growthHabit": "Vining climber",
@@ -34,7 +34,7 @@
     "growthHabit": "Vining climber with visible aerial roots"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 110,
+    "currentMedianPriceGBP": 12,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

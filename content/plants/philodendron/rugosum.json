@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Philodendron rugosum, described by Bogner and Bunting, is a compact climbing aroid from the humid premontane and montane forests of southern Colombia and Ecuador, growing on mossy trees in warm, wet conditions with filtered light, consistent high humidity, and rich organic matter. Universally known in the hobby as the 'Pigskin Philodendron', it earns its name immediately from the defining texture of its leaves: thick, leathery, deeply bullate and rugose cordate blades with a dramatically pockmarked, almost reptilian surface that is unlike any other Philodendron in cultivation. Short to moderate internodes form a compact climbing stem, with aerial roots at nodes aiding attachment. Slow-growing but rewarding, rugosum is valued precisely because patience is required — each new leaf, with its extraordinary raised-cell surface texture, arrives slowly and is worth waiting for.",
   "quickFacts": {
     "growthHabit": "Compact climbing hemiepiphyte",
@@ -34,7 +34,7 @@
     "growthHabit": "Compact climber with short to moderate internodes and aerial roots at nodes"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 70,
+    "currentMedianPriceGBP": 23,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

@@ -1,0 +1,79 @@
+{
+  "snapshot": {
+    "plantSlug": "rex-cultorum-escargot",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia escargot rex",
+    "checkedAt": "2026-06-28T20:09:29.251Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 3,
+    "rejectedCount": 237,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 16.1596944,
+    "p25Price": 19.2274641,
+    "medianPrice": 22.2952338,
+    "meanPrice": 20.502233999999998,
+    "trimmedMeanPrice": 20.502233999999998,
+    "p75Price": 22.6735038,
+    "maxPrice": 23.0517738,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 3,
+    "min": 16.1596944,
+    "max": 23.0517738,
+    "median": 22.2952338,
+    "mean": 20.502233999999998,
+    "p25": 19.2274641,
+    "p75": 22.6735038,
+    "iqr": 3.4460397,
+    "trimmedMean": 20.502233999999998,
+    "confidenceScore": "D",
+    "rejectedCount": 237,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Escargot Begonia Plant 4 to 6 inch Tall",
+      "url": "https://www.ebay.com/itm/397925034692?nordt=true",
+      "soldPrice": 12.853614599999998,
+      "totalPrice": 23.0517738,
+      "soldDate": "2026-06-09",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Escargot Begonia Live Starter Plant Painted-Leaf Begonia 3” Pot - Spiral Begonia",
+      "url": "https://www.ebay.com/itm/257428974833?nordt=true",
+      "soldPrice": 6.05232,
+      "totalPrice": 16.1596944,
+      "soldDate": "2026-04-27",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Escargot Begonia Live Starter Plant Painted-Leaf Begonia 4-6\"Tall, Ship No Pot",
+      "url": "https://www.ebay.com/itm/277481973792?nordt=true",
+      "soldPrice": 12.0970746,
+      "totalPrice": 22.2952338,
+      "soldDate": "2026-04-28",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 3,
+  "rejectedCount": 237,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "escargot rex begonia plant - 4.5\" pot - great houseplant",
+      "begonia rex ds-wednesday",
+      "morocco and rex fedor begonia duo"
+    ],
+    "Contains excluded term": [
+      "25+ escargot begonia seeds for garden planting - usa - free shipping!"
+    ]
+  }
+}

@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Alocasia sinuata is a compact, self-heading jewel Alocasia native to the Philippines, particularly the islands of Leyte, Mindanao, and Palawan. It grows in the understory of humid tropical forests under warm, shaded conditions. The plant is highly prized for its thick, coriaceous, and deeply quilted (bullate) leaves that have a glossy, metallic dark green sheen. It forms a neat rosette from a basal corm and has wavy, sinuate margins, giving it an exceptionally sculptural appearance.",
   "quickFacts": {
     "growthHabit": "Compact, self-heading, corm-forming",
@@ -34,7 +34,7 @@
     "growthHabit": "Rosette, terrestrial"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 75,
+    "currentMedianPriceGBP": 12,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

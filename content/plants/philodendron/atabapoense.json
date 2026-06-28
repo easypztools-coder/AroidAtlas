@@ -26,7 +26,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Philodendron atabapoense is a striking hemiepiphyte native to the shaded riverine forests of the upper Orinoco region in Venezuela and Colombia. It is characterized by its dramatic, elongated leaves that feature a deep, glossy green upper surface contrasted by a stunning deep maroon underside. As a climber, it produces slender internodes and active aerial roots, making it an excellent candidate for growth on moss poles or totem supports. This species is highly valued by collectors for its elegant, architectural silhouette and distinct coloration.",
   "quickFacts": {
     "growthHabit": "Climbing hemiepiphyte",
@@ -48,7 +48,7 @@
     "growthHabit": "Climbing"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 38,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

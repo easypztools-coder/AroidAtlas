@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Philodendron tripartitum is a naturally occurring climbing hemiepiphyte species native to wet tropical forests across Mexico to tropical America. It thrives in warm, humid conditions with high rainfall and filtered light found beneath the forest canopy. This fast-growing aroid produces stems with distinct nodes and cataphyll sheaths, developing adventitious roots for support. Its glossy, medium to deep green blades are distinctly tripartite, featuring an elongated central lobe and two spreading lateral lobes with entire margins. The leaves have a firm, leathery texture and can mature into large, sculptural foliage under optimal conditions.",
   "quickFacts": {
     "growthHabit": "Climbing Hemiepiphyte",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing, Vining"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 70,
+    "currentMedianPriceGBP": 27,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

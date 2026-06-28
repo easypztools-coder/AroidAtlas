@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Very Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£",
   "aboutText": "Begonia chlorosticta, described by Sands, is a rare Bornean rhizomatous species from the rainforest understory of Sarawak — growing in deep shade on moist, well-drained humus-rich substrate among leaf litter and decaying organic matter, with the high humidity and stable warmth of a tropical forest environment maintained year-round. The leaves are the plant's entire spectacle: asymmetrical, ovate to heart-ovate blades of dark foliage patterned with luminous lime-green spots of considerable intensity, subtly bullate in texture, borne on reddish petioles with deep red undersides. Growth proceeds from a creeping rhizome at substrate level, forming compact clumps. Among the spotted begonias of Borneo, chlorosticta occupies a position at the very top of the collector hierarchy for the sheer contrast between its near-black blade and the vivid chartreuse spotting.",
   "quickFacts": {
     "growthHabit": "Rhizomatous, creeping clump",
@@ -34,7 +34,7 @@
     "growthHabit": "Compact creeping rhizome at substrate surface"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 260,
+    "currentMedianPriceGBP": 38,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

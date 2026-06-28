@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Amydrium medium is a naturally occurring climbing liane found in wet tropical forests of Southeast Asia and Malesia. It typically grows on tree trunks and large woody supports, thriving in humid, shaded environments with high rainfall and stable warmth. The plant develops slender, internoding stems with aerial roots at the nodes. Its alternate, petiolate leaves are coriaceous and elongated to ovate-lanceolate, featuring a distinctive reticulate venation with prominent veins. Blades are variably lobed and perforated, with elongated holes and pinnate-like lobing that increases with maturity. It produces axillary inflorescences with a spathe enclosing the spadix, and fruits that ripen to an orange color.",
   "quickFacts": {
     "growthHabit": "Climbing Liane",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing with slender, internoding stems"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 70,
+    "currentMedianPriceGBP": 24,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

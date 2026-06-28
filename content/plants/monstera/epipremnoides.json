@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Ultra Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£££",
   "aboutText": "Monstera epipremnoides is a remarkable species native to the humid premontane and lowland forests of Costa Rica and Panama. It thrives as a hemiepiphyte, climbing tree trunks with aerial roots. This plant is characterized by its long, elliptic to oblong leaves featuring conspicuous, elongated fenestrations arranged in orderly rows. The margins of the leaves are entire or only slightly undulate, and the stem is robust and climbing. It prefers warm, humid conditions with high rainfall and filtered light, which support its vigorous growth.",
   "quickFacts": {
     "growthHabit": "Climber",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 36,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

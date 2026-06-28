@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Anthurium magnificum × crystallinum is a highly regarded hybrid cross that combines the impressive scale and substance of Anthurium magnificum with the refined velvety texture and luminous silvery venation of Anthurium crystallinum. The result is a compact, semi-upright plant with a short basal crown producing broad, velvet-textured, deeply cordate leaves with a pronounced open sinus and strikingly pale primary venation across a rich dark green blade. Sturdy petioles support what can become substantial leaf blades that inherit size inclinations from the magnificum parent. This hybrid is celebrated for being more vigorous and somewhat easier to manage than many pure velvet anthuriums while retaining the visual impact of both parents — making it one of the most practical and popular velvet hybrids in UK collector cultivation.",
   "quickFacts": {
     "growthHabit": "Compact, semi-upright, self-heading",
@@ -34,7 +34,7 @@
     "growthHabit": "Short basal crown, semi-upright, self-supporting"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 100,
+    "currentMedianPriceGBP": 20,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

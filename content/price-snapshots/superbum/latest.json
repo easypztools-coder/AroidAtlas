@@ -1,0 +1,74 @@
+{
+  "snapshot": {
+    "plantSlug": "superbum",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium superbum",
+    "checkedAt": "2026-06-28T20:07:13.205Z",
+    "currency": "GBP",
+    "rawResultCount": 4,
+    "acceptedCount": 3,
+    "rejectedCount": 1,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 34.80084,
+    "p25Price": 35.17911,
+    "medianPrice": 35.55738,
+    "meanPrice": 38.83572,
+    "trimmedMeanPrice": 38.83572,
+    "p75Price": 40.85316,
+    "maxPrice": 46.148939999999996,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 3,
+    "min": 34.80084,
+    "max": 46.148939999999996,
+    "median": 35.55738,
+    "mean": 38.83572,
+    "p25": 35.17911,
+    "p75": 40.85316,
+    "iqr": 5.674050000000001,
+    "trimmedMean": 38.83572,
+    "confidenceScore": "D",
+    "rejectedCount": 1,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Anthurium Superbum Plant in 6\" Pot 14\" Tall 16\" Wide LARGE",
+      "url": "https://www.ebay.com/itm/257564330582?nordt=true",
+      "soldPrice": 46.148939999999996,
+      "totalPrice": 46.148939999999996,
+      "soldDate": "2026-06-18",
+      "listingType": "mature_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Anthurium Superbum Plant in 6\" Pot 17\" Tall 12\" Wide",
+      "url": "https://www.ebay.com/itm/267681847943?nordt=true",
+      "soldPrice": 34.80084,
+      "totalPrice": 34.80084,
+      "soldDate": "2026-05-31",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Anthurium Superbum Plant in 6\" Pot 18\" Tall 11\" Wide",
+      "url": "https://www.ebay.com/itm/257484501931?nordt=true",
+      "soldPrice": 35.55738,
+      "totalPrice": 35.55738,
+      "soldDate": "2026-05-05",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 3,
+  "rejectedCount": 1,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "superbum anthurium - live starter plants in 2 inch growers pots - anthurium -..."
+    ]
+  }
+}

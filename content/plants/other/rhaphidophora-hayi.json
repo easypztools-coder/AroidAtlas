@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Uncommon",
   "availability": "Moderate",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Rhaphidophora hayi, described by Boyce and Bogner, is an adhesive climbing aroid from wet tropical forest spanning Papuasia to northern Queensland — its stem following tree trunks and firm surfaces closely, attaching by roots at the nodes while the entire leaves remain pressed flat against the support in a permanent shingling arrangement. The overlapping blades of this species create a characteristic roof-tile formation — the origin of its common name — and this pattern distinguishes hayi from related Rhaphidophoras that eventually produce projecting or divided adult foliage. Short internodes, adhesive roots and entire green leaves held completely flat are the defining features; the plant never leaves the shingling phase. In cultivation, hayi is grown mounted on flat bark panels, where it spreads laterally in a manner as architectural as it is botanical.",
   "quickFacts": {
     "growthHabit": "Permanently shingling, adhesive climber",
@@ -34,7 +34,7 @@
     "growthHabit": "Permanently shingling with overlapping roof-tile leaf arrangement, adhesive roots, short internodes"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 35,
+    "currentMedianPriceGBP": 21,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

@@ -1,0 +1,112 @@
+{
+  "snapshot": {
+    "plantSlug": "whipple-way",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron Whipple Way",
+    "checkedAt": "2026-06-28T20:23:03.106Z",
+    "currency": "GBP",
+    "rawResultCount": 148,
+    "acceptedCount": 7,
+    "rejectedCount": 141,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 28.74852,
+    "p25Price": 31.207275000000003,
+    "medianPrice": 44.7644718,
+    "meanPrice": 42.426763199999996,
+    "trimmedMeanPrice": 42.426763199999996,
+    "p75Price": 48.047855399999996,
+    "maxPrice": 64.9640898,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 7,
+    "min": 28.74852,
+    "max": 64.9640898,
+    "median": 44.7644718,
+    "mean": 42.426763199999996,
+    "p25": 31.207275000000003,
+    "p75": 48.047855399999996,
+    "iqr": 16.840580399999993,
+    "trimmedMean": 42.426763199999996,
+    "confidenceScore": "D",
+    "rejectedCount": 141,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Philodendron Whipple Way variegated tissue culture 2DayAir",
+      "url": "https://www.ebay.com/itm/157616723792?nordt=true",
+      "soldPrice": 20.42658,
+      "totalPrice": 31.018140000000002,
+      "soldDate": "2026-06-21",
+      "listingType": "tc_plantlet",
+      "currency": "USD"
+    },
+    {
+      "title": "#34 Philodendron Whipple Way 4” Pot Houseplant Aroid Monstera",
+      "url": "https://www.ebay.com/itm/318438142110?nordt=true",
+      "soldPrice": 16.26561,
+      "totalPrice": 31.39641,
+      "soldDate": "2026-06-17",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Philodendron Whipple Way Plant grown in 4\" Pot 16\" Tall 21\" Wide",
+      "url": "https://www.ebay.com/itm/267681887468?nordt=true",
+      "soldPrice": 34.0367346,
+      "totalPrice": 44.7644718,
+      "soldDate": "2026-05-31",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Philodendron Whipple Way Variegated Live Houseplant Live Arrival Guarantee",
+      "url": "https://www.ebay.com/itm/397981871287?nordt=true",
+      "soldPrice": 28.74852,
+      "totalPrice": 28.74852,
+      "soldDate": "2026-05-27",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "RARE Philodendron Whipple Way Variegated 5” — US Seller",
+      "url": "https://www.ebay.com/itm/278001197283?nordt=true",
+      "soldPrice": 56.73293459999999,
+      "totalPrice": 64.9640898,
+      "soldDate": "2026-05-22",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Philodendron Whipple Way - a houseplant mint speckled variegation + heat pack",
+      "url": "https://www.ebay.com/itm/117162817479?nordt=true",
+      "soldPrice": 37.07046,
+      "totalPrice": 48.047855399999996,
+      "soldDate": "2026-05-02",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Philodendron Whipple Way - a houseplant mint speckled variegation + heat pack",
+      "url": "https://www.ebay.com/itm/117114071208?nordt=true",
+      "soldPrice": 37.07046,
+      "totalPrice": 48.047855399999996,
+      "soldDate": "2026-04-04",
+      "listingType": "unknown",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 7,
+  "rejectedCount": 141,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "rare philodendron pink flush whipple way 13\" tall not aroid anthurium monstera",
+      "rare philodendron pink flush whipple way 16\" tall not aroid anthurium monstera",
+      "~~pink princess~~variegated philodendron small rooted starter plant~~very rare!"
+    ]
+  }
+}

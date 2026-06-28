@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Ultra Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£££",
   "aboutText": "The Monstera obliqua 'Bolivia Form' is a cultivated locality form originating from Bolivia. It is a delicate climber found in humid, lowland forests, typically inhabiting shaded understories. This form is known for its slender climber habit with elongated, asymmetric leaves that are thin and delicate. It features a pronounced oblique base and a narrow tip, with large, irregular inner perforations.",
   "quickFacts": {
     "growthHabit": "Climber",
@@ -34,7 +34,7 @@
     "growthHabit": "Slender climber"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 34,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

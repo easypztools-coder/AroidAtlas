@@ -1,0 +1,67 @@
+{
+  "snapshot": {
+    "plantSlug": "rhaphidophora-korthalsii",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Rhaphidophora korthalsii",
+    "checkedAt": "2026-06-28T20:18:14.968Z",
+    "currency": "GBP",
+    "rawResultCount": 91,
+    "acceptedCount": 2,
+    "rejectedCount": 89,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 27.2203092,
+    "p25Price": 29.2856634,
+    "medianPrice": 31.3510176,
+    "meanPrice": 31.3510176,
+    "trimmedMeanPrice": 31.3510176,
+    "p75Price": 33.4163718,
+    "maxPrice": 35.481726,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 2,
+    "min": 27.2203092,
+    "max": 35.481726,
+    "median": 31.3510176,
+    "mean": 31.3510176,
+    "p25": 29.2856634,
+    "p75": 33.4163718,
+    "iqr": 4.1307084,
+    "trimmedMean": 31.3510176,
+    "confidenceScore": "D",
+    "rejectedCount": 89,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Rhaphidophora Korthalsii Thai Constellation#A",
+      "url": "https://www.ebay.com/itm/277417162881?nordt=true",
+      "soldPrice": 19.6624746,
+      "totalPrice": 27.2203092,
+      "soldDate": "2026-06-22",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Rhaphidophora korthalsii - Velvet Leaf  Terrarium Vivarium Climber",
+      "url": "https://www.ebay.com/itm/135138786637?nordt=true",
+      "soldPrice": 26.4789,
+      "totalPrice": 35.481726,
+      "soldDate": "2026-06-12",
+      "listingType": "unknown",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 2,
+  "rejectedCount": 89,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "rhaphidophora tetrasperma white monster mint variegated tissue culture 2dayair",
+      "rhaphidophora tetrasperma variegated plant live",
+      "rhaphidophora hongkongensis [cutting]"
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "snapshot": {
+    "plantSlug": "deliciosa-mint",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera deliciosa mint",
+    "checkedAt": "2026-06-28T20:10:48.410Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 11,
+    "rejectedCount": 229,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 22.688634599999997,
+    "p25Price": 42.695334900000006,
+    "medianPrice": 51.47498160000001,
+    "meanPrice": 103.66798843636364,
+    "trimmedMeanPrice": 94.7633598,
+    "p75Price": 178.70231339999998,
+    "maxPrice": 264.789,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 11,
+    "min": 22.688634599999997,
+    "max": 264.789,
+    "median": 51.47498160000001,
+    "mean": 103.66798843636364,
+    "p25": 42.695334900000006,
+    "p75": 178.70231339999998,
+    "iqr": 136.00697849999997,
+    "trimmedMean": 94.7633598,
+    "confidenceScore": "D",
+    "rejectedCount": 229,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Monstera Deliciosa Mint Variegated Live Plant 2.5\" Square Pot Rooted",
+      "url": "https://www.ebay.com/itm/267695663949?nordt=true",
+      "soldPrice": 22.688634599999997,
+      "totalPrice": 22.688634599999997,
+      "soldDate": "2026-06-19",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "monstera deliciosa mint variegated Rare Collector Plant Exact Plant",
+      "url": "https://www.ebay.com/itm/287356745280?nordt=true",
+      "soldPrice": 56.7405,
+      "totalPrice": 56.7405,
+      "soldDate": "2026-05-29",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "monstera deliciosa mint variegated",
+      "url": "https://www.ebay.com/itm/205895253274?nordt=true",
+      "soldPrice": 34.0367346,
+      "totalPrice": 51.47498160000001,
+      "soldDate": "2026-05-10",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Deliciosa Mint",
+      "url": "https://www.ebay.com/itm/297924989215?nordt=true",
+      "soldPrice": 45.3924,
+      "totalPrice": 45.3924,
+      "soldDate": "2026-04-26",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "RARE  Monstera Mint | Live Potted Plant | Green & White Broadleaf",
+      "url": "https://www.ebay.com/itm/198199216635?nordt=true",
+      "soldPrice": 135.73840679999998,
+      "totalPrice": 168.26962679999997,
+      "soldDate": "2026-04-05",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Mint plant (Exact Plant) 5” pot 9” tall plant size see photos",
+      "url": "https://www.ebay.com/itm/318040914601?nordt=true",
+      "soldPrice": 45.3016152,
+      "totalPrice": 45.3016152,
+      "soldDate": "2026-04-23",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera MINT NOID \"JUNGLE MINT\" XL Variegated LIVE PLANT ACTIVE ROOT GROWTH",
+      "url": "https://www.ebay.com/itm/257578834468?nordt=true",
+      "soldPrice": 189.135,
+      "totalPrice": 189.135,
+      "soldDate": "2026-06-23",
+      "listingType": "mature_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera MINT NOID \"JUNGLE MINT\" HALF MOON  Variegated LIVE PLANT WELL ROOTED",
+      "url": "https://www.ebay.com/itm/267670503049?nordt=true",
+      "soldPrice": 226.20546,
+      "totalPrice": 226.20546,
+      "soldDate": "2026-05-27",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera MINT NOID \"JUNGLE MINT\" XL Variegated LIVE PLANT ACTIVE ROOT GROWTH",
+      "url": "https://www.ebay.com/itm/257440590005?nordt=true",
+      "soldPrice": 264.789,
+      "totalPrice": 264.789,
+      "soldDate": "2026-04-15",
+      "listingType": "mature_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Mint Live Plant Rare Variegated Houseplant 5–8” Tall Tropical Indoor",
+      "url": "https://www.ebay.com/itm/306724726065?nordt=true",
+      "soldPrice": 40.089054600000004,
+      "totalPrice": 40.089054600000004,
+      "soldDate": "2026-04-22",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Mint",
+      "url": "https://www.ebay.com/itm/147321892129?nordt=true",
+      "soldPrice": 30.2616,
+      "totalPrice": 30.2616,
+      "soldDate": "2026-05-25",
+      "listingType": "unknown",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 11,
+  "rejectedCount": 229,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "5 organic split leaf philodendron monstera deliciosa swiss cheese plant vine see",
+      "fully rooted monstera deliciosa | live tropical houseplant | 2–3 leaves",
+      "variegated mini monstera rhaphidophora tetrasperma plant in 3” pot us seller"
+    ]
+  }
+}

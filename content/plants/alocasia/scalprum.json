@@ -12,7 +12,7 @@
   "collectorPopularity": 3,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Alocasia scalprum is a fascinating species originating from the humid wet tropical forests of the Philippines, specifically found in Samar. This compact, self-heading Alocasia grows terrestrially in warm, humid understory conditions, typically reaching a medium size. Its distinctive leaves are narrow sagittate to lanceolate, featuring a metallic dark green surface with a deeply quilted and heavily bullate texture. The prominent veins and slightly purplish undersides add to its unique 'armor-like' appearance, adapting it perfectly to its shaded native habitat.",
   "quickFacts": {
     "growthHabit": "Compact, terrestrial, self-heading",
@@ -34,7 +34,7 @@
     "growthHabit": "Compact, terrestrial, self-heading"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 80,
+    "currentMedianPriceGBP": 24,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

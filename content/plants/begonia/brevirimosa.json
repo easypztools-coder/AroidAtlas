@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Begonia brevirimosa, described by Irmsch., is a cane-type species from the humid tropical forests of New Guinea, growing in warm, shaded understory conditions with high humidity on rich organic substrate and moist forest margins where filtered light supports its vivid colouration. The plant is immediately distinguished by the leaves: striking asymmetrical blades with a vivid pink central field fading to darker green at the margins — a naturally occurring two-tone colouration that requires no variegation to be dramatic. The foliage is thin yet lush, with red undersides, carried on segmented red canes in an upright branching habit entirely distinct from the rhizomatous begonias. Among New Guinean cane begonias, brevirimosa holds a particular place in the collector world for the sheer intensity of its pink colouration on mature plants.",
   "quickFacts": {
     "growthHabit": "Upright cane, branching",
@@ -34,7 +34,7 @@
     "growthHabit": "Upright segmented red canes, naturally branching"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 90,
+    "currentMedianPriceGBP": 26,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

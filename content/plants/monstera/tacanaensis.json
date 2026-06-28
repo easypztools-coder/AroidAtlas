@@ -26,7 +26,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "££",
   "aboutText": "Monstera tacanaensis is a captivating lianescent climber native to the tropical forests ranging from Mexico through to Panama. Closely related to the iconic Monstera deliciosa, it is distinguished by its more segmented foliage which features numerous slits and elongated perforations extending toward the midrib. Thriving in high-rainfall, shaded understories, this species utilizes robust petioles with strong geniculums to ascend host trees in its natural habitat. It is a highly sought-after specimen for collectors who appreciate its intricate leaf architecture and elegant, airy appearance compared to its larger cousins.",
   "quickFacts": {
     "growthHabit": "Lianescent climber",
@@ -48,7 +48,7 @@
     "growthHabit": "Climbing"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 42,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

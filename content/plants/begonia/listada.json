@@ -12,7 +12,7 @@
   "collectorPopularity": 3,
   "rarityStatus": "Uncommon",
   "availability": "Moderate",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Begonia listada, described by L.B.Smith and Wasshausen, is a compact rhizomatous species from the moist forest habitats of southeastern Brazil, growing in shaded understory conditions on humus-rich substrate with high humidity and even moisture. The leaves are its distinguishing feature: asymmetrical, velvety blades with a striking bright green median stripe running the full length of each leaf against an otherwise near-black to very dark green surrounding lamina — a naturally occurring bicolour effect that no cultivation or selection has produced, but that the species simply is. Vivid red undersides complete the contrast. A short surface rhizome creeps gradually, building a compact clump of ornamental foliage that is unusually effective in terrariums and enclosed high-humidity displays.",
   "quickFacts": {
     "growthHabit": "Compact rhizomatous clump",
@@ -34,7 +34,7 @@
     "growthHabit": "Short surface rhizome producing compact clumping growth"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 20,
+    "currentMedianPriceGBP": 16,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Epipremnum amplissimum is a climbing aroid native to the humid tropical island forests of New Guinea and the western Pacific, where it climbs up tree trunks. It is characterized by slender rooting stems and elegant entire leaves. The mature leaf blades are elongate, elliptic to lanceolate, glossy green, and feature a clear pale midrib. The plant grows in a neat, well-spaced shingling or climbing habit with aerial roots, preserving its simple undivided foliage throughout its maturity, unlike many other Epipremnum species.",
   "quickFacts": {
     "growthHabit": "Root-climbing climber",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing stems with aerial roots"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 65,
+    "currentMedianPriceGBP": 13,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

@@ -1,0 +1,67 @@
+{
+  "snapshot": {
+    "plantSlug": "philodendron-brevirimosa",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia brevirimosa",
+    "checkedAt": "2026-06-28T20:17:25.747Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 2,
+    "rejectedCount": 238,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 24.5724192,
+    "p25Price": 25.78099185,
+    "medianPrice": 26.9895645,
+    "meanPrice": 26.9895645,
+    "trimmedMeanPrice": 26.9895645,
+    "p75Price": 28.198137149999997,
+    "maxPrice": 29.406709799999998,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 2,
+    "min": 24.5724192,
+    "max": 29.406709799999998,
+    "median": 26.9895645,
+    "mean": 26.9895645,
+    "p25": 25.78099185,
+    "p75": 28.198137149999997,
+    "iqr": 2.417145299999998,
+    "trimmedMean": 26.9895645,
+    "confidenceScore": "D",
+    "rejectedCount": 238,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Begonia brevirimosa subsp. Exotica, Edinburgh, Begonia, Container Size: 3.5\"",
+      "url": "https://www.ebay.com/itm/117134827177?nordt=true",
+      "soldPrice": 24.5724192,
+      "totalPrice": 24.5724192,
+      "soldDate": "2026-06-22",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Begonia Brevirimosa Exotica Rare Plant | 4 inch Pot - Live Plant",
+      "url": "https://www.ebay.com/itm/318192602618?nordt=true",
+      "soldPrice": 21.175554599999998,
+      "totalPrice": 29.406709799999998,
+      "soldDate": "2026-04-29",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 2,
+  "rejectedCount": 238,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "begonia plant -- brevirimosa subsp. exotica brig ~ terrarium/ vivarium",
+      "micro strawberry begonia (saxifraga stolonifera) *wysiwyg*",
+      "begonia locii species from vietnam 3 inch pot striking foliage rhizome"
+    ]
+  }
+}

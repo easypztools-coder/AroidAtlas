@@ -1,0 +1,103 @@
+{
+  "snapshot": {
+    "plantSlug": "obliqua-amazonas-peru-form",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera obliqua Amazonas Peru",
+    "checkedAt": "2026-06-28T20:12:28.146Z",
+    "currency": "GBP",
+    "rawResultCount": 10,
+    "acceptedCount": 6,
+    "rejectedCount": 4,
+    "outlierCount": 0,
+    "confidenceScore": "C",
+    "minPrice": 18.0510444,
+    "p25Price": 19.5754725,
+    "medianPrice": 25.7147946,
+    "meanPrice": 33.1200603,
+    "trimmedMeanPrice": 33.1200603,
+    "p75Price": 43.12278,
+    "maxPrice": 62.785254599999995,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 6,
+    "min": 18.0510444,
+    "max": 62.785254599999995,
+    "median": 25.7147946,
+    "mean": 33.1200603,
+    "p25": 19.5754725,
+    "p75": 43.12278,
+    "iqr": 23.5473075,
+    "trimmedMean": 33.1200603,
+    "confidenceScore": "C",
+    "rejectedCount": 4,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Monstera Obliqua Peru 2.5\" pot, Fedex 2day*",
+      "url": "https://www.ebay.com/itm/157891336733?nordt=true",
+      "soldPrice": 16.64388,
+      "totalPrice": 29.50506,
+      "soldDate": "2026-05-29",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Stunning Monstera Obliqua Peru in 4 inch pot - Live Rare Tropical Aroid Great",
+      "url": "https://www.ebay.com/itm/257007236973?nordt=true",
+      "soldPrice": 62.785254599999995,
+      "totalPrice": 62.785254599999995,
+      "soldDate": "2026-06-26",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Obliqua Peru *Rooted*  Great Sale For Getting a Great Starter Plant!",
+      "url": "https://www.ebay.com/itm/206197954020?nordt=true",
+      "soldPrice": 15.1308,
+      "totalPrice": 21.924529200000002,
+      "soldDate": "2026-04-30",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Obliqua Peru 4\" pot, Fedex 2day*",
+      "url": "https://www.ebay.com/itm/167899245301?nordt=true",
+      "soldPrice": 34.80084,
+      "totalPrice": 47.66202,
+      "soldDate": "2026-04-21",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Obliqua Peru And Or Combo Esqueleto Nodes *Unrooted* Node Cuttings (3)",
+      "url": "https://www.ebay.com/itm/206082611309?nordt=true",
+      "soldPrice": 12.0970746,
+      "totalPrice": 18.0510444,
+      "soldDate": "2026-05-31",
+      "listingType": "node",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Obliqua Peru And Or Combo Esqueleto Nodes *Unrooted* Node Cuttings (3)",
+      "url": "https://www.ebay.com/itm/206082612928?nordt=true",
+      "soldPrice": 12.0970746,
+      "totalPrice": 18.792453599999998,
+      "soldDate": "2026-05-09",
+      "listingType": "node",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 6,
+  "rejectedCount": 4,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "#48 monstera obliqua plant aroid 4” pot philodendron houseplant rare",
+      "#16 monstera obliqua plant aroid 4” pot philodendron houseplant rare",
+      "#70 monstera obliqua plant aroid 4” pot philodendron houseplant rare"
+    ]
+  }
+}

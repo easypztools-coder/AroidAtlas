@@ -1,0 +1,112 @@
+{
+  "snapshot": {
+    "plantSlug": "baginda-dragon-scale-albo-variegated",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia dragon scale variegated",
+    "checkedAt": "2026-06-28T20:02:28.206Z",
+    "currency": "GBP",
+    "rawResultCount": 146,
+    "acceptedCount": 7,
+    "rejectedCount": 139,
+    "outlierCount": 1,
+    "confidenceScore": "D",
+    "minPrice": 24.58755,
+    "p25Price": 25.34409,
+    "medianPrice": 25.8887988,
+    "meanPrice": 32.82518982857143,
+    "trimmedMeanPrice": 32.82518982857143,
+    "p75Price": 28.9187415,
+    "maxPrice": 70.774317,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 7,
+    "min": 24.58755,
+    "max": 70.774317,
+    "median": 25.8887988,
+    "mean": 32.82518982857143,
+    "p25": 25.34409,
+    "p75": 28.9187415,
+    "iqr": 3.574651499999998,
+    "trimmedMean": 32.82518982857143,
+    "confidenceScore": "D",
+    "rejectedCount": 139,
+    "rejectionReasons": {},
+    "outlierCount": 1
+  },
+  "acceptedListings": [
+    {
+      "title": "#36 Alocasia Dragon Scale  Variegated Mint 4” Pot Aroid Houseplant",
+      "url": "https://www.ebay.com/itm/318239892167?nordt=true",
+      "soldPrice": 13.23945,
+      "totalPrice": 28.37025,
+      "soldDate": "2026-05-09",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Alocasia Dragon Scale  Variegated Mint 4” Pot Aroid Houseplant",
+      "url": "https://www.ebay.com/itm/406848424761?nordt=true",
+      "soldPrice": 31.01814,
+      "totalPrice": 70.774317,
+      "soldDate": "2026-04-30",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#57 Alocasia Dragon Scale  Variegated Mint 4” Pot Aroid Houseplant",
+      "url": "https://www.ebay.com/itm/318169666668?nordt=true",
+      "soldPrice": 9.45675,
+      "totalPrice": 24.58755,
+      "soldDate": "2026-04-25",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#38 Alocasia Dragon Scale  Variegated Mint 4” Pot Aroid Houseplant",
+      "url": "https://www.ebay.com/itm/318133011887?nordt=true",
+      "soldPrice": 10.21329,
+      "totalPrice": 25.34409,
+      "soldDate": "2026-04-17",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegated - 2.7\" Pot  - *EXACT PLANT*",
+      "url": "https://www.ebay.com/itm/287269069351?nordt=true",
+      "soldPrice": 29.467233,
+      "totalPrice": 29.467233,
+      "soldDate": "2026-04-17",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#39 Alocasia Dragon Scale  Variegated Mint 4” Pot Aroid Houseplant",
+      "url": "https://www.ebay.com/itm/318087314776?nordt=true",
+      "soldPrice": 10.21329,
+      "totalPrice": 25.34409,
+      "soldDate": "2026-04-07",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo",
+      "url": "https://www.ebay.com/itm/389814177749?nordt=true",
+      "soldPrice": 18.9135,
+      "totalPrice": 25.8887988,
+      "soldDate": "2026-03-31",
+      "listingType": "unknown",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 7,
+  "rejectedCount": 139,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "alocasia ‘dragon scale’ variegated",
+      "alocasia dragon scale mint variegated",
+      "🌱alocasia dragon scale mint variegated! rare house plant! free shipping!🌱"
+    ]
+  }
+}

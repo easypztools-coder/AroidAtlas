@@ -1,0 +1,120 @@
+{
+  "snapshot": {
+    "plantSlug": "standleyana",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera standleyana",
+    "checkedAt": "2026-06-28T20:14:47.433Z",
+    "rawResultCount": 240,
+    "acceptedCount": 8,
+    "rejectedCount": 232,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 12.255948,
+    "p25Price": 14.693898149999999,
+    "medianPrice": 23.339259,
+    "meanPrice": 24.471231975,
+    "trimmedMeanPrice": 24.471231975,
+    "p75Price": 28.181115000000002,
+    "maxPrice": 48.4034292,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 8,
+    "min": 12.255948,
+    "max": 48.4034292,
+    "median": 23.339259,
+    "mean": 24.471231975,
+    "p25": 14.693898149999999,
+    "p75": 28.181115000000002,
+    "iqr": 13.487216850000003,
+    "trimmedMean": 24.471231975,
+    "confidenceScore": "D",
+    "rejectedCount": 232,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Variegated Monstera Standleyana 1 leaf node cutting get 1 free (gift)",
+      "url": "https://www.ebay.com/itm/198282370465?nordt=true",
+      "soldPrice": 5.106645,
+      "totalPrice": 12.255948,
+      "soldDate": "2026-06-22",
+      "listingType": "node",
+      "currency": "USD"
+    },
+    {
+      "title": "#45 RARE  Variegated Monstera Standleyana 4” Pot Aroid Houseplant",
+      "url": "https://www.ebay.com/itm/318438151310?nordt=true",
+      "soldPrice": 15.1308,
+      "totalPrice": 26.478900000000003,
+      "soldDate": "2026-06-17",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "#15 RARE  Variegated Monstera Standleyana 4” Pot Aroid Houseplant",
+      "url": "https://www.ebay.com/itm/318371933829?nordt=true",
+      "soldPrice": 37.055329199999996,
+      "totalPrice": 48.4034292,
+      "soldDate": "2026-06-03",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Cobra (Monstera Standleyana Albo Variegata) - Philodendron Cobra",
+      "url": "https://www.ebay.com/itm/375628847646?nordt=true",
+      "soldPrice": 14.336433,
+      "totalPrice": 20.956158,
+      "soldDate": "2026-05-14",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera standleyana – Cobra Mint Yellow In 4” Pot",
+      "url": "https://www.ebay.com/itm/127601974949?nordt=true",
+      "soldPrice": 16.64388,
+      "totalPrice": 25.72236,
+      "soldDate": "2026-04-27",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Standleyana Albo Plant | Variegared Live Indoor Houseplant",
+      "url": "https://www.ebay.com/itm/317014535805?nordt=true",
+      "soldPrice": 26.4789,
+      "totalPrice": 33.28776,
+      "soldDate": "2026-04-18",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera standleyana – Rare Philodendron Cobra | 4″ Live Variegated Houseplant",
+      "url": "https://www.ebay.com/itm/327080172456?nordt=true",
+      "soldPrice": 13.610154599999998,
+      "totalPrice": 13.610154599999998,
+      "soldDate": "2026-04-18",
+      "listingType": "unknown",
+      "currency": "USD"
+    },
+    {
+      "title": "Monstera Standleyana Variegated Philodendron Cobra 2\" pot",
+      "url": "https://www.ebay.com/itm/277275468471?nordt=true",
+      "soldPrice": 15.055145999999999,
+      "totalPrice": 15.055145999999999,
+      "soldDate": "2026-04-09",
+      "listingType": "whole_plant",
+      "currency": "USD"
+    }
+  ],
+  "acceptedCount": 8,
+  "rejectedCount": 232,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "monstera albo borsigiana variegated top cutting rooted",
+      "monstera albo deliciosa base cutting plant, sectoral variegation, free shipping",
+      "monstera albo borsigiana variegated top cutting rooted"
+    ]
+  }
+}
