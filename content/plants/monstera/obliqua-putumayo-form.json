@@ -1,0 +1,84 @@
+{
+  "name": "Monstera obliqua 'Putumayo Form'",
+  "slug": "obliqua-putumayo-form",
+  "scientificName": "Monstera obliqua Miq.",
+  "commonName": "Putumayo Form Monstera",
+  "statusTag": "Rare Locality Form",
+  "botanicalType": "cultivar",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "obliqua",
+  "origin": "Putumayo region (Colombia-Peru borderlands)",
+  "collectorPopularity": 5,
+  "rarityStatus": "Very Rare",
+  "availability": "Very Low",
+  "priceGuideTier": "££££",
+  "aboutText": "The Monstera obliqua 'Putumayo Form' is a highly sought-after botanical treasure hailing from the lush rainforests of the western Amazon basin. This delicate epiphyte is distinguished by its refined, narrow, and thin asymmetric foliage, which features balanced, elongated oval fenestrations. As an inhabitant of the dim understory, it evolved as a light climber that thrives when given the chance to scale mossy surfaces. Its rarity stems from its specific geographical origin in the Putumayo region, setting it apart from other well-known forms like the Peruvian or Zamora-Chinchipe variants.",
+  "quickFacts": {
+    "growthHabit": "Delicate epiphyte, light climber",
+    "matureSize": "Small to medium, climbing",
+    "light": "Filtered, low to moderate light",
+    "humidity": "High humidity required",
+    "temperature": "Stable, warm temperatures",
+    "difficulty": "Advanced",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Elongated, asymmetric",
+    "leafLength": "Small to medium, narrow",
+    "leafWidth": "Narrow",
+    "petioleColor": "Green",
+    "venation": "Pinnate with heavy fenestration",
+    "texture": "Thin and delicate",
+    "variegation": "None",
+    "growthHabit": "Climbing epiphyte"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera obliqua Putumayo",
+    "requiredTerms": [
+      "Monstera",
+      "obliqua"
+    ],
+    "acceptedTerms": [
+      "Monstera obliqua Putumayo",
+      "Putumayo Form",
+      "M. obliqua Putumayo",
+      "Rare Monstera"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

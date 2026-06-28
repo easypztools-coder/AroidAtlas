@@ -1,0 +1,82 @@
+{
+  "name": "Monstera obliqua 'Sangay Form'",
+  "slug": "obliqua-sangay-form",
+  "scientificName": "Monstera obliqua Miq.",
+  "commonName": "Sangay Form Monstera",
+  "statusTag": "Rare Locality Form",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "obliqua 'Sangay Form'",
+  "origin": "Sangay region, Ecuador",
+  "collectorPopularity": 5,
+  "rarityStatus": "Ultra Rare",
+  "availability": "Very Low",
+  "priceGuideTier": "££££",
+  "aboutText": "The Monstera obliqua 'Sangay Form' is a highly sought-after, delicate climber originating from the montane rainforests of the Sangay region in Ecuador. Unlike more heavily perforated forms, this selection is prized for its refined, narrow, oblong-lanceolate leaves that remain largely intact even as the plant matures. It thrives in cool, humid environments with filtered light, naturally ascending tree trunks via fine aerial roots. This specific locality form represents a distinct, stable expression of the species that appeals to serious collectors of rare Aroid genetics.",
+  "quickFacts": {
+    "growthHabit": "Climbing epiphyte",
+    "matureSize": "Small to medium climber",
+    "light": "Bright, filtered light",
+    "humidity": "High (70%+)",
+    "temperature": "Cool to moderate (15-24°C)",
+    "difficulty": "Advanced",
+    "growthSpeed": "Slow"
+  },
+  "morphology": {
+    "leafShape": "Oblong-lanceolate",
+    "leafLength": "15-25 cm",
+    "leafWidth": "5-10 cm",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Thin and supple",
+    "variegation": "None",
+    "growthHabit": "Climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera obliqua Sangay",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera obliqua Sangay",
+      "Monstera obliqua Ecuador",
+      "Sangay Form",
+      "Obliqua Sangay cutting",
+      "Rare Monstera"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

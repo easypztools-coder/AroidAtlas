@@ -1,0 +1,78 @@
+{
+  "name": "Monstera aureopinnata",
+  "slug": "aureopinnata",
+  "scientificName": "Monstera aureopinnata Madison",
+  "commonName": "Monstera Aureopinnata",
+  "statusTag": "Rare Variegated Cultivar",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "aureopinnata",
+  "origin": "Costa Rica to Panama",
+  "collectorPopularity": 5,
+  "rarityStatus": "Ultra Rare",
+  "availability": "Very Low",
+  "priceGuideTier": "££££",
+  "aboutText": "Monstera aureopinnata is a stunning climbing species native to the humid lowlands and premontane habitats of Costa Rica and Panama. It ascends tree trunks using aerial roots, thriving in warm, moist conditions with filtered light beneath the forest canopy. This plant is characterized by deeply pinnatid adult leaves with numerous narrow lobes and exhibits heteroblastic growth, transitioning from entire juvenile leaves to highly dissected adult forms.",
+  "quickFacts": {
+    "growthHabit": "Climbing vine",
+    "matureSize": "Large",
+    "light": "Filtered",
+    "humidity": "High",
+    "temperature": "Warm",
+    "difficulty": "Intermediate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Deeply pinnatid with narrow lobes",
+    "leafLength": "Large",
+    "leafWidth": "Large",
+    "petioleColor": "Green",
+    "venation": "Central midrib with prominent lateral veins",
+    "texture": "Leathery",
+    "variegation": "None specified (assumed natural variation)",
+    "growthHabit": "Climbing vine"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera aureopinnata",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera aureopinnata",
+      "Aureopinnata Monstera"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ]
+  },
+  "recommendedPlants": []
+}

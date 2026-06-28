@@ -1,0 +1,79 @@
+{
+  "name": "Monstera obliqua - Bolivia Form",
+  "slug": "obliqua-bolivia-form",
+  "scientificName": "Monstera obliqua Miq.",
+  "commonName": "Bolivia Form Obliqua",
+  "statusTag": "Cultivated Locality Form",
+  "botanicalType": "cultivar",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "obliqua",
+  "origin": "Bolivia; cultivated locality form",
+  "collectorPopularity": 5,
+  "rarityStatus": "Ultra Rare",
+  "availability": "Very Low",
+  "priceGuideTier": "££££",
+  "aboutText": "The Monstera obliqua 'Bolivia Form' is a cultivated locality form originating from Bolivia. It is a delicate climber found in humid, lowland forests, typically inhabiting shaded understories. This form is known for its slender climber habit with elongated, asymmetric leaves that are thin and delicate. It features a pronounced oblique base and a narrow tip, with large, irregular inner perforations.",
+  "quickFacts": {
+    "growthHabit": "Climber",
+    "matureSize": "Varies",
+    "light": "Filtered, moderate",
+    "humidity": "High",
+    "temperature": "Moderate to warm",
+    "difficulty": "Advanced",
+    "growthSpeed": "Slow"
+  },
+  "morphology": {
+    "leafShape": "Elliptic to oblong",
+    "leafLength": "Varies",
+    "leafWidth": "Varies",
+    "petioleColor": "Not specified",
+    "venation": "Not specified",
+    "texture": "Thin and delicate",
+    "variegation": "None",
+    "growthHabit": "Slender climber"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera obliqua Bolivia Form",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera obliqua",
+      "Monstera Bolivia",
+      "Obliqua Bolivia"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ]
+  },
+  "recommendedPlants": []
+}

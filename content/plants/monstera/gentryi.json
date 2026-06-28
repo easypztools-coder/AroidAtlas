@@ -1,0 +1,78 @@
+{
+  "name": "Monstera gentryi",
+  "slug": "gentryi",
+  "scientificName": "Monstera gentryi Croat, M.Cedeño & O.Ortiz",
+  "commonName": "Monstera gentryi",
+  "statusTag": "",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "gentryi",
+  "origin": "Panama",
+  "collectorPopularity": 5,
+  "rarityStatus": "Very Rare",
+  "availability": "Very Low",
+  "priceGuideTier": "££££",
+  "aboutText": "Monstera gentryi is a robust climber native to the humid tropical forests of Panama. It typically grows on tree trunks, thriving in warm, wet, shaded conditions with high humidity and abundant organic matter. This species is characterized by strong internodes, thick petioles, and prominent sheathing cataphylls. Its leaves are elongated-ovate, developing elegant fenestrations with maturity, and possess a distinctive perforated architecture.",
+  "quickFacts": {
+    "growthHabit": "Climbing",
+    "matureSize": "Varies, can be large",
+    "light": "Medium to Bright Indirect",
+    "humidity": "High",
+    "temperature": "Warm (18-25°C)",
+    "difficulty": "Challenging",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Elongated-ovate with fenestrations",
+    "leafLength": "Significant, with maturity",
+    "leafWidth": "Significant, with maturity",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Leathery",
+    "variegation": "None visible",
+    "growthHabit": "Climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera gentryi",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera gentryi"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

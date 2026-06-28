@@ -1,0 +1,80 @@
+{
+  "name": "Monstera acuminata",
+  "slug": "acuminata",
+  "scientificName": "Monstera acuminata K.Koch",
+  "commonName": "Monstera acuminata",
+  "statusTag": "",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "acuminata",
+  "origin": "Mexico to Panama",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Monstera acuminata is a tropical wet-forest climber found in the shaded understory and on tree trunks. It thrives in warm, humid environments with persistent moisture and filtered light, native to Mexico and Panama. This hemi-epiphytic climber is characterized by narrow, elongated leaves with oval internal perforations and a thin texture, allowing it to ascend tree trunks and vertical supports with aerial roots.",
+  "quickFacts": {
+    "growthHabit": "Climber",
+    "matureSize": "Varies",
+    "light": "Filtered",
+    "humidity": "High",
+    "temperature": "Warm",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Elongated with acuminate tip",
+    "leafLength": "Narrow",
+    "leafWidth": "Narrow",
+    "petioleColor": "Green",
+    "venation": "Not specified",
+    "texture": "Thin",
+    "variegation": "None",
+    "growthHabit": "Hemi-epiphytic climber"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera acuminata",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera acuminata",
+      "Monstera acuminata plant",
+      "Monstera acuminata vine",
+      "Aroid acuminata"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ]
+  },
+  "recommendedPlants": []
+}

@@ -1,0 +1,82 @@
+{
+  "name": "Monstera obliqua 'Tiwintza Form'",
+  "slug": "obliqua-tiwintza-form",
+  "scientificName": "Monstera obliqua Miq.",
+  "commonName": "Monstera obliqua Tiwintza",
+  "statusTag": "Rare Species Locality Form",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "obliqua",
+  "origin": "Tiwintza, Ecuador",
+  "collectorPopularity": 5,
+  "rarityStatus": "Ultra Rare",
+  "availability": "Very Low",
+  "priceGuideTier": "££££",
+  "aboutText": "The Monstera obliqua 'Tiwintza Form' is a highly sought-after locality expression originating from the southeastern Ecuadorian rainforests. This slender epiphyte is distinguished by its narrow, strap-elliptic leaves and a unique, moderate fenestration pattern featuring elongated holes along the midrib. Thriving in the humid, dappled light of the montane understory, it exhibits a distinct, delicate growth habit with an oblique leaf base. As a specialized locality form, it remains a centerpiece for serious Aroid collectors, prized for its refined foliage structure and botanical significance.",
+  "quickFacts": {
+    "growthHabit": "Slender epiphytic climber",
+    "matureSize": "Small-scale, delicate vine",
+    "light": "Dappled, bright indirect light",
+    "humidity": "High humidity (70%+)",
+    "temperature": "Warm, montane tropical",
+    "difficulty": "Expert",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Narrow, strap-elliptic",
+    "leafLength": "Small to medium, slender",
+    "leafWidth": "Narrow",
+    "petioleColor": "Green, fine and slender",
+    "venation": "Pinnate, subtle",
+    "texture": "Smooth, lightly folded",
+    "variegation": "None",
+    "growthHabit": "Epiphytic climber"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera obliqua Tiwintza",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera obliqua Peru",
+      "Monstera obliqua Ecuador",
+      "Rare Monstera",
+      "Obliqua Tiwintza",
+      "Monstera obliqua cutting"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

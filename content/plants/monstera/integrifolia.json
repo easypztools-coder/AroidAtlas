@@ -1,0 +1,82 @@
+{
+  "name": "Monstera integrifolia",
+  "slug": "integrifolia",
+  "scientificName": "Monstera integrifolia Zuluaga & Croat",
+  "commonName": "Monstera integrifolia",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "integrifolia",
+  "origin": "Colombia and Panama",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Monstera integrifolia is a rare climbing aroid native to the humid wet tropical forests of Colombia and Panama. It is distinguished by its consistently entire, non-fenestrated leaves, which sets it apart from the more common lobed Monstera species. The plant exhibits a refined climbing architecture, using aerial roots to anchor itself into rich, organic substrates while ascending from the shaded understory toward filtered light. It thrives in high-humidity environments where consistent moisture is maintained.",
+  "quickFacts": {
+    "growthHabit": "Climbing epiphyte",
+    "matureSize": "Large climbing vine",
+    "light": "Bright, filtered light",
+    "humidity": "High (above 70%)",
+    "temperature": "Tropical (18-28°C)",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Narrow-elliptic to lanceolate",
+    "leafLength": "30-50 cm",
+    "leafWidth": "10-20 cm",
+    "petioleColor": "Green",
+    "venation": "Pronounced midrib with subtle lateral veins",
+    "texture": "Smooth, coriaceous",
+    "variegation": "None",
+    "growthHabit": "Climbing with visible nodes and aerial roots"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera integrifolia",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera integrifolia",
+      "M. integrifolia",
+      "Rare Monstera",
+      "Monstera species",
+      "Monstera climbing"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

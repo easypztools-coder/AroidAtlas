@@ -1,0 +1,81 @@
+{
+  "name": "Begonia malachosticta",
+  "slug": "begonia-malachosticta",
+  "scientificName": "Begonia malachosticta L.Kollmann & A.P.Fontana",
+  "commonName": "Begonia malachosticta",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Begonia",
+  "species": "malachosticta",
+  "origin": "Ecuador",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Begonia malachosticta is a striking species native to the humid, shaded tropical forests of Ecuador. It thrives in the warm, moist understory where filtered light, high humidity, and a rich organic substrate from leaf litter and decaying wood create ideal growing conditions. This upright cane begonia features distinctive setose red stems and petioles. Its asymmetrical, elongate-ovate leaves have a dark green upper surface densely spotted with pale green to whitish maculations, contrasted by red undersides, and the plant exhibits a natural cane-like branching habit.",
+  "quickFacts": {
+    "growthHabit": "Upright cane begonia with cane-like branching habit",
+    "matureSize": "Medium (60-100 cm tall)",
+    "light": "Filtered light",
+    "humidity": "High",
+    "temperature": "Warm",
+    "difficulty": "Moderate",
+    "growthSpeed": "Medium"
+  },
+  "morphology": {
+    "leafShape": "Asymmetrical and elongate-ovate",
+    "leafLength": "Medium (10-20 cm)",
+    "leafWidth": "Medium (5-10 cm)",
+    "petioleColor": "Red",
+    "venation": "Prominent, with maculations following pattern",
+    "texture": "Textured, slightly rough due to maculations",
+    "variegation": "Pale green to whitish maculations",
+    "growthHabit": "Upright cane begonia with natural cane-like branching habit"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia malachosticta",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Begonia malachosticta",
+      "malachosticta begonia",
+      "Spotted Begonia malachosticta",
+      "malacosticta begonia"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

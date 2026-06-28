@@ -18,6 +18,7 @@ const overwriteExisting = args.includes("--overwrite");
 // Directory paths
 const sourceDir = path.join(process.cwd(), "Finished Plates");
 const contentPlantsRoot = path.join(process.cwd(), "content", "plants");
+const publicPlantsRoot = path.join(process.cwd(), "public", "plants");
 
 // Hardcoded files to skip because they already have manually tuned content on the site
 const SKIPPED_FILES = new Set([
@@ -26,6 +27,10 @@ const SKIPPED_FILES = new Set([
   "Monstera 'Devil Monster'.png",
   "Spiritus Sancti.png",
   "Philodendron spiritus-sancti.png",
+  // Duplicate plate — page already exists as caramel-marble.json
+  "Philodendron 'Caramel Marble' (1).png",
+  // Duplicate plate — original Monstera pinnatipartita.png exists and will be processed
+  "Monstera pinnatipartita (1).png",
 ]);
 
 // Simple dotenv parser
@@ -52,6 +57,7 @@ function getGenusFromFilename(filename: string): string | null {
   if (lower.startsWith("anthurium")) return "anthurium";
   if (lower.startsWith("monstera")) return "monstera";
   if (lower.startsWith("philodendron")) return "philodendron";
+  if (lower.startsWith("begonia")) return "begonia";
   return "other";
 }
 
@@ -154,7 +160,7 @@ async function generatePlantJson(filePath: string, apiKey: string): Promise<any>
   const base64Data = fileBuffer.toString("base64");
   const mimeType = getMimeType(filePath);
 
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent?key=${apiKey}`;
 
   const payload = {
     contents: [
@@ -254,6 +260,12 @@ async function main() {
       continue;
     }
 
+    // Skip unrenamed files
+    if (file.startsWith("ChatGPT Image")) {
+      console.log(`[-] Skipping unrenamed ChatGPT image: "${file}"`);
+      continue;
+    }
+
     const genus = getGenusFromFilename(file);
     if (!genus) {
       console.log(`[!] Warning: Could not detect genus for filename "${file}". Skipping.`);
@@ -266,9 +278,12 @@ async function main() {
 
     // Early skip check by predicting the slug and checking if the file already exists
     const slugCandidate = getSlugCandidateFromFilename(file, genus);
-    const targetJsonPathCandidate = path.join(contentPlantsRoot, genus, `${slugCandidate}.json`);
-    if (fs.existsSync(targetJsonPathCandidate) && !overwriteExisting) {
-      console.log(`[-] Page already exists at content/plants/${genus}/${slugCandidate}.json. Skipping.`);
+    const slugVariegated = slugCandidate.replace(/variegata/g, "variegated");
+    const slugVariegata = slugCandidate.replace(/variegated/g, "variegata");
+    const pathVariegated = path.join(contentPlantsRoot, genus, `${slugVariegated}.json`);
+    const pathVariegata = path.join(contentPlantsRoot, genus, `${slugVariegata}.json`);
+    if ((fs.existsSync(pathVariegated) || fs.existsSync(pathVariegata)) && !overwriteExisting) {
+      console.log(`[-] Page already exists at content/plants/${genus}/${slugVariegated}.json (or variegata). Skipping.`);
       continue;
     }
 
@@ -328,22 +343,30 @@ async function main() {
       console.log(`  ✓ Extracted plant: "${plantData.name}"`);
       console.log(`  ✓ Decided slug:    "${slug}"`);
 
-      const targetJsonPath = path.join(contentPlantsRoot, genus, `${slug}.json`);
-      const targetPngPath = path.join(contentPlantsRoot, genus, `${slug}.png`);
+      const slugVariegated = slug.replace(/variegata/g, "variegated");
+      const slugVariegata = slug.replace(/variegated/g, "variegata");
 
-      const jsonExists = fs.existsSync(targetJsonPath);
+      const targetJsonPathVariegated = path.join(contentPlantsRoot, genus, `${slugVariegated}.json`);
+      const targetJsonPathVariegata = path.join(contentPlantsRoot, genus, `${slugVariegata}.json`);
+      const targetPngPath = path.join(publicPlantsRoot, genus, `${slugVariegated}.png`);
+
+      const jsonExists = fs.existsSync(targetJsonPathVariegated) || fs.existsSync(targetJsonPathVariegata);
 
       if (jsonExists && !overwriteExisting) {
-        console.log(`  [-] Page already exists at content/plants/${genus}/${slug}.json. Skipping (use --overwrite to force update).`);
+        console.log(`  [-] Page already exists at content/plants/${genus}/${slugVariegated}.json (or variegata). Skipping (use --overwrite to force update).`);
         continue;
       }
 
+      // If writing new page, save as the variegated slug format (canonical)
+      const targetJsonPath = targetJsonPathVariegated;
+
       if (isDryRun) {
         console.log(`  [Dry Run] Would write JSON to: content/plants/${genus}/${slug}.json`);
-        console.log(`  [Dry Run] Would copy image to: content/plants/${genus}/${slug}.png`);
+        console.log(`  [Dry Run] Would copy image to: public/plants/${genus}/${slug}.png`);
       } else {
-        // Ensure genus directory exists
+        // Ensure genus directories exist for both JSON and image
         fs.mkdirSync(path.dirname(targetJsonPath), { recursive: true });
+        fs.mkdirSync(path.dirname(targetPngPath), { recursive: true });
 
         // Write JSON
         fs.writeFileSync(targetJsonPath, JSON.stringify(plantData, null, 2), "utf-8");
@@ -351,7 +374,7 @@ async function main() {
 
         // Copy Image
         fs.copyFileSync(fullPath, targetPngPath);
-        console.log(`  ✓ Copied plate image:  content/plants/${genus}/${slug}.png`);
+        console.log(`  ✓ Copied plate image:  public/plants/${genus}/${slug}.png`);
       }
     } catch (err) {
       console.error(`  [x] Failed to process "${file}":`, err instanceof Error ? err.message : String(err));

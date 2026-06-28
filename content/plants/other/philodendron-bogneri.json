@@ -1,0 +1,81 @@
+{
+  "name": "Begonia bogneri",
+  "slug": "philodendron-bogneri",
+  "scientificName": "Begonia bogneri Ziesenh.",
+  "commonName": "Miniature Grass-like Begonia",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "bogneri",
+  "origin": "Madagascar",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Begonia bogneri is a miniature begonia species native to humid rocky habitats in Madagascar. It thrives in warm conditions with bright, filtered light and requires a sharply drained substrate with consistent atmospheric humidity. This highly distinctive rhizomatous begonia forms a compact base with a tuft of very narrow linear leaves borne on fine reddish petioles. Its unique grass-like habit and miniature scale make it one of the most unusual species found in cultivation.",
+  "quickFacts": {
+    "growthHabit": "Miniature, rhizomatous, grass-like",
+    "matureSize": "Small, miniature",
+    "light": "Bright, indirect",
+    "humidity": "High",
+    "temperature": "Warm",
+    "difficulty": "Moderate",
+    "growthSpeed": "Slow"
+  },
+  "morphology": {
+    "leafShape": "Linear",
+    "leafLength": "Small",
+    "leafWidth": "Very narrow",
+    "petioleColor": "Reddish",
+    "venation": "Obscure/Not prominent",
+    "texture": "Smooth",
+    "variegation": "None",
+    "growthHabit": "Rhizomatous, tufted, grass-like"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia bogneri",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Bogneri Begonia",
+      "Begonia bogneri Ziesenh",
+      "Grass-like Begonia",
+      "Miniature Begonia bogneri"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

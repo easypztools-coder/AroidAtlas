@@ -1,0 +1,81 @@
+{
+  "name": "Begonia darthvaderiana",
+  "slug": "begonia-darthvaderiana",
+  "scientificName": "Begonia darthvaderiana C.W.Lin & C.I.Peng",
+  "commonName": "Darth Vader Begonia",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Begonia",
+  "species": "darthvaderiana",
+  "origin": "Sabah, Borneo",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Begonia darthvaderiana is a rare rhizomatous begonia species endemic to Sabah, Borneo, where it grows in humid, shaded ultramafic rainforest understory. It thrives in warm, very humid, low-light conditions on mossy forest-floor substrate rich in leaf litter and organic matter. This plant is known for its dramatic, bat-wing foliage, with leaves that are dark olive to nearly black, slightly leathery and glossy, and featuring an asymmetric, winged outline. Its petioles are deep red and densely hairy, supporting a creeping rhizome that grows at or just above the substrate, producing fibrous roots and new leaves along the creeping stem.",
+  "quickFacts": {
+    "growthHabit": "Rhizomatous, terrestrial",
+    "matureSize": "Medium",
+    "light": "Low light",
+    "humidity": "Very high",
+    "temperature": "Warm",
+    "difficulty": "Moderate",
+    "growthSpeed": "Medium"
+  },
+  "morphology": {
+    "leafShape": "Bat-wing, asymmetric, winged",
+    "leafLength": "15-25 cm",
+    "leafWidth": "10-20 cm",
+    "petioleColor": "Deep red",
+    "venation": "Palmate",
+    "texture": "Slightly leathery and glossy",
+    "variegation": "None",
+    "growthHabit": "Creeping rhizome"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia darthvaderiana",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Darth Vader Begonia",
+      "Begonia 'Darthvaderiana'",
+      "Begonia darthvaderiana plant",
+      "Darthvaderiana live plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

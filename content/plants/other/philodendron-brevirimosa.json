@@ -1,0 +1,81 @@
+{
+  "name": "Begonia brevirimosa",
+  "slug": "philodendron-brevirimosa",
+  "scientificName": "Begonia brevirimosa Irmsch.",
+  "commonName": "Brevirimosa Begonia",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "brevirimosa",
+  "origin": "New Guinea",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Begonia brevirimosa is a rare cane begonia species originating from the humid tropical forests of New Guinea. It thrives in warm, shaded understory conditions, preferring rich organic substrate and moist forest margins where filtered light enhances its vibrant foliage. This species is characterized by its segmented red stems and striking asymmetrical leaves, which feature a vivid pink central field contrasted by darker green margins. The thin yet lush foliage boasts red undersides and is elegantly spaced along upright branching canes, a key feature distinguishing it from other rhizomatous begonia types.",
+  "quickFacts": {
+    "growthHabit": "Upright Cane",
+    "matureSize": "Medium (up to 3 feet)",
+    "light": "Low to Medium Indirect",
+    "humidity": "High",
+    "temperature": "Warm (18-28°C)",
+    "difficulty": "Moderate",
+    "growthSpeed": "Medium"
+  },
+  "morphology": {
+    "leafShape": "Asymmetrical Ovate",
+    "leafLength": "Medium (10-15 cm)",
+    "leafWidth": "Medium (5-8 cm)",
+    "petioleColor": "Red",
+    "venation": "Pinnate, with central coloration",
+    "texture": "Thin, Smooth",
+    "variegation": "Natural pink central field with green margins",
+    "growthHabit": "Upright Cane"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia brevirimosa",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Brevirimosa Begonia",
+      "Pink Brevirimosa",
+      "Begonia brevirimosa",
+      "Begonia pink leaves"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

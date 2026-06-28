@@ -1,0 +1,81 @@
+{
+  "name": "Monstera obliqua 'Zamora-Chinchipe Form'",
+  "slug": "obliqua-zamora-chinchipe-form",
+  "scientificName": "Monstera obliqua Miq.",
+  "commonName": "Zamora-Chinchipe Monstera",
+  "statusTag": "Rare Locality Form",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "obliqua",
+  "origin": "Zamora-Chinchipe, Ecuador",
+  "collectorPopularity": 5,
+  "rarityStatus": "Ultra Rare",
+  "availability": "Very Low",
+  "priceGuideTier": "££££",
+  "aboutText": "The Monstera obliqua 'Zamora-Chinchipe' is a highly sought-after locality form of the iconic Swiss cheese plant, originating from the montane cloud forests of Ecuador. Unlike the more common broad-leaf varieties, this form is distinguished by its refined, delicate lamina and restrained, narrow fenestrations. As a hemiepiphytic climber, it thrives in cool, perpetually misted environments, utilizing its aerial roots to ascend mossy substrates. Its aesthetic is defined by slender, lanceolate leaves and a delicate, graceful growth habit that represents one of the most stable and collectible forms of this species.",
+  "quickFacts": {
+    "growthHabit": "Hemiepiphytic climber",
+    "matureSize": "Small to medium climber",
+    "light": "Bright, filtered light",
+    "humidity": "High (70%+)",
+    "temperature": "Cool to intermediate (15-24°C)",
+    "difficulty": "Advanced",
+    "growthSpeed": "Slow"
+  },
+  "morphology": {
+    "leafShape": "Slender, cordate to lanceolate",
+    "leafLength": "10-20 cm",
+    "leafWidth": "5-10 cm",
+    "petioleColor": "Green",
+    "venation": "Subtle",
+    "texture": "Thin and delicate",
+    "variegation": "None",
+    "growthHabit": "Hemiepiphytic climber"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera obliqua Zamora",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera obliqua Peru",
+      "Monstera obliqua Zamora Chinchipe",
+      "M. obliqua Ecuador",
+      "Rare Monstera"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

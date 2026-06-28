@@ -1,0 +1,81 @@
+{
+  "name": "Monstera pittieri",
+  "slug": "pittieri",
+  "scientificName": "Monstera pittieri Engl.",
+  "commonName": "Monstera pittieri",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "pittieri",
+  "origin": "southern Costa Rica to Colombia",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Monstera pittieri is a refined, slender hemiepiphyte native to the wet tropical forests spanning from southern Costa Rica to Colombia. As an understory climber, it thrives in high humidity and filtered light, often ascending trees before forming a graceful, pendulous habit as it matures. The plant is distinguished by its narrowly ovate to elliptic leaves, which feature delicate, elegant fenestrations that become more pronounced with maturity. Its thin to coriaceous foliage displays a striking contrast between its dark green upper surfaces and lighter green undersides, making it a sophisticated addition to any aroid collection.",
+  "quickFacts": {
+    "growthHabit": "Hemiepiphytic climber",
+    "matureSize": "Small to medium climber",
+    "light": "Bright, indirect light",
+    "humidity": "High (60% or above)",
+    "temperature": "Warm tropical (18-28°C)",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Narrowly ovate to elliptic",
+    "leafLength": "10-20 cm",
+    "leafWidth": "5-10 cm",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Thin to moderately coriaceous",
+    "variegation": "None",
+    "growthHabit": "Slender climber"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera pittieri",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera pittieri",
+      "M. pittieri",
+      "pittieri monstera",
+      "pittieri plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

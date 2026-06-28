@@ -1,0 +1,79 @@
+{
+  "name": "Monstera obliqua Morona-Santiago Form",
+  "slug": "obliqua-morona-santiago-form",
+  "scientificName": "Monstera obliqua Miq.",
+  "commonName": "Monstera obliqua Morona-Santiago Form",
+  "statusTag": "Rare Cultivar",
+  "botanicalType": "cultivar",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "obliqua",
+  "origin": "Morona-Santiago, Ecuador; cultivated locality form",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "This refined, delicate climber from the humid montane rainforests of Ecuador is a cultivated locality form of Monstera obliqua. It thrives in warm, shaded environments with high humidity and filtered light, ascending slender supports in the understory. Its mature foliage features irregular perforations with substantial laminal remaining and a delicate climber's habit.",
+  "quickFacts": {
+    "growthHabit": "Climbing epiphyte",
+    "matureSize": "Varies, typically climbs",
+    "light": "Filtered light",
+    "humidity": "High",
+    "temperature": "Warm",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Narrow-elliptic to oblong",
+    "leafLength": "Moderate",
+    "leafWidth": "Moderate",
+    "petioleColor": "Not specified",
+    "venation": "Not specified",
+    "texture": "Not specified",
+    "variegation": "None",
+    "growthHabit": "Climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera obliqua Morona-Santiago",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera obliqua Ecuador",
+      "Monstera Morona-Santiago",
+      "Monstera obliqua rare"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ]
+  },
+  "recommendedPlants": []
+}

@@ -1,0 +1,81 @@
+{
+  "name": "Monstera pinnatipartita",
+  "slug": "pinnatipartita",
+  "scientificName": "Monstera pinnatipartita Schott.",
+  "commonName": "Monstera pinnatipartita",
+  "statusTag": "Botanical Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "pinnatipartita",
+  "origin": "Central & S. Tropical America",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Monstera pinnatipartita is a striking hemiepiphytic climber native to the tropical rainforests of Central and South America. Highly prized by collectors for its dramatic transformation, it begins as a modest juvenile plant with entire, elliptic leaves before maturing into a spectacular specimen with deeply pinnatifid foliage. As it climbs, it develops robust, knotty stems and produces stout aerial roots that allow it to anchor onto tree trunks in its natural humid understory habitat. This species is best known for the deep sinuses that divide its mature leaves into broad, elongated segments, creating a bold, architectural appearance.",
+  "quickFacts": {
+    "growthHabit": "Hemiepiphytic climber",
+    "matureSize": "Large, up to several meters in height",
+    "light": "Bright, indirect light; shaded environments",
+    "humidity": "Consistently high",
+    "temperature": "Warm, tropical temperatures",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Entire and elliptic (juvenile) to deeply pinnatifid (mature)",
+    "leafLength": "Large, up to 60-90cm",
+    "leafWidth": "Wide, proportional to length",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Leathery and matte",
+    "variegation": "None",
+    "growthHabit": "Hemiepiphytic climber"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera pinnatipartita",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera pinnatipartita",
+      "M. pinnatipartita",
+      "pinnatipartita",
+      "Monstera climbing plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

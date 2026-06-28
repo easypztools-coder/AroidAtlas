@@ -1,0 +1,77 @@
+{
+  "name": "Monstera egregia",
+  "slug": "egregia",
+  "scientificName": "Monstera egregia Schott",
+  "commonName": "Monstera egregia",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "egregia",
+  "origin": "Central and southern Mexico to Belize",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Monstera egregia is a climbing epiphyte native to the wet tropical forests of Central and southern Mexico to Belize. It ascends trees using aerial roots, typically starting in the understory and growing towards the canopy. This species thrives in humid, shaded environments with rich, organic soils and frequent rainfall, developing a graceful, open appearance with age.",
+  "quickFacts": {
+    "growthHabit": "Climbing epiphyte",
+    "matureSize": "Varies, can become large",
+    "light": "Shaded environments, indirect light",
+    "humidity": "High",
+    "temperature": "Warm tropical climates",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Deeply fenestrated, lobed",
+    "leafLength": "Large",
+    "leafWidth": "Large",
+    "petioleColor": "Green",
+    "venation": "Pinnate, prominent",
+    "texture": "Smooth, slightly leathery",
+    "variegation": "None mentioned",
+    "growthHabit": "Climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera egregia",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera egregia"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ]
+  },
+  "recommendedPlants": []
+}

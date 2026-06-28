@@ -114,6 +114,46 @@ const HARDCODED_MAP: Record<string, string> = {
   "ChatGPT Image Jun 20, 2026, 10_36_52 PM (8).png": "Scindapsus treubii",
   "ChatGPT Image Jun 20, 2026, 10_36_53 PM (9).png": "Amydrium sinense",
   "ChatGPT Image Jun 20, 2026, 10_36_53 PM (10).png": "Epipremnum giganteum",
+  // Jun 26–27 2026 batch
+  "ChatGPT Image Jun 26, 2026, 10_21_28 PM.png": "Philodendron 'Caramel Marble'",
+  "ChatGPT Image Jun 27, 2026, 06_43_14 PM (4).png": "Monstera obliqua — Suriname Form",
+  "ChatGPT Image Jun 27, 2026, 07_16_31 PM (1).png": "Monstera obliqua — Napo Form",
+  "ChatGPT Image Jun 27, 2026, 07_16_31 PM (2).png": "Monstera obliqua — Sangay Form",
+  "ChatGPT Image Jun 27, 2026, 07_16_31 PM (3).png": "Monstera obliqua — Tiwintza Form",
+  "ChatGPT Image Jun 27, 2026, 07_16_31 PM (4).png": "Monstera obliqua — Yasuni Form",
+  "ChatGPT Image Jun 27, 2026, 07_16_31 PM (5).png": "Monstera obliqua — Pastaza Form",
+  "ChatGPT Image Jun 27, 2026, 07_16_31 PM (6).png": "Monstera obliqua — Morona-Santiago Form",
+  "ChatGPT Image Jun 27, 2026, 07_16_31 PM (7).png": "Monstera obliqua — Zamora-Chinchipe Form",
+  "ChatGPT Image Jun 27, 2026, 07_16_31 PM (8).png": "Monstera obliqua — Putumayo Form",
+  "ChatGPT Image Jun 27, 2026, 07_16_31 PM (9).png": "Monstera obliqua — Tarapoto Form",
+  "ChatGPT Image Jun 27, 2026, 07_16_41 PM (1).png": "Monstera obliqua — Peru Form",
+  "ChatGPT Image Jun 27, 2026, 07_16_41 PM (2).png": "Monstera obliqua — Bolivia Form",
+  "ChatGPT Image Jun 27, 2026, 07_16_41 PM (3).png": "Monstera obliqua — Panama Form",
+  // 07_16_41 PM (4) is a duplicate Suriname Form plate — intentionally omitted
+  "ChatGPT Image Jun 27, 2026, 07_16_42 PM (5).png": "Monstera obliqua — Amazonas Form",
+  "ChatGPT Image Jun 27, 2026, 07_16_42 PM (6).png": "Monstera obliqua — Amazonas B Form",
+  "ChatGPT Image Jun 27, 2026, 07_16_43 PM (7).png": "Monstera obliqua — Amazonas Peru Form",
+  "ChatGPT Image Jun 27, 2026, 07_16_43 PM (8).png": "Monstera obliqua — French Guiana Locality Form",
+  "ChatGPT Image Jun 27, 2026, 07_16_43 PM (9).png": "Monstera obliqua — Trinidad Locality Form",
+  "ChatGPT Image Jun 27, 2026, 07_16_44 PM (10).png": "Monstera obliqua — Costa Rica Locality Form",
+  "ChatGPT Image Jun 27, 2026, 10_26_28 PM (1).png": "Monstera standleyana",
+  "ChatGPT Image Jun 27, 2026, 10_26_28 PM (2).png": "Monstera siltepecana",
+  "ChatGPT Image Jun 27, 2026, 10_26_29 PM (4).png": "Monstera pinnatipartita",
+  "ChatGPT Image Jun 27, 2026, 10_26_29 PM (6).png": "Monstera acuminata",
+  "ChatGPT Image Jun 27, 2026, 10_26_29 PM (7).png": "Monstera epipremnoides",
+  "ChatGPT Image Jun 27, 2026, 10_26_29 PM (8).png": "Monstera aureopinnata",
+  "ChatGPT Image Jun 27, 2026, 10_26_30 PM (9).png": "Monstera cenepensis",
+  "ChatGPT Image Jun 27, 2026, 10_26_30 PM (10).png": "Monstera costaricensis",
+  "ChatGPT Image Jun 27, 2026, 10_33_29 PM (1).png": "Monstera oreophila",
+  "ChatGPT Image Jun 27, 2026, 10_33_29 PM (2).png": "Monstera egregia",
+  "ChatGPT Image Jun 27, 2026, 10_33_29 PM (3).png": "Monstera xanthospatha",
+  "ChatGPT Image Jun 27, 2026, 10_33_29 PM (4).png": "Monstera membranacea",
+  "ChatGPT Image Jun 27, 2026, 10_33_29 PM (5).png": "Monstera pittieri",
+  "ChatGPT Image Jun 27, 2026, 10_33_29 PM (6).png": "Monstera gentryi",
+  "ChatGPT Image Jun 27, 2026, 10_33_29 PM (7).png": "Monstera mittermeieri",
+  "ChatGPT Image Jun 27, 2026, 10_33_29 PM (8).png": "Monstera florescanoana",
+  "ChatGPT Image Jun 27, 2026, 10_33_29 PM (9).png": "Monstera tacanaensis",
+  "ChatGPT Image Jun 27, 2026, 10_33_30 PM (10).png": "Monstera integrifolia",
 };
 
 // Simple dotenv parser
@@ -164,7 +204,7 @@ async function queryGeminiVision(filePath: string, apiKey: string): Promise<stri
   const base64Data = fileBuffer.toString("base64");
   const mimeType = getMimeType(filePath);
 
-  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key=${apiKey}`;
 
   const payload = {
     contents: [

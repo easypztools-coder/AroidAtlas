@@ -1,0 +1,81 @@
+{
+  "name": "Monstera obliqua - Amazonas Form",
+  "slug": "obliqua-amazonas-form",
+  "scientificName": "Monstera obliqua Miq.",
+  "commonName": "Monstera Obliqua Amazonas Form",
+  "statusTag": "Rare Cultivar",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "obliqua",
+  "origin": "Amazonas; cultivated locality form",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "This form of Monstera obliqua, hailing from the Amazonas region, is a delicate climber found in humid Amazonian rainforests. It grows by ascending tree trunks and lianas in shaded conditions with filtered light. The plant thrives in rich, organic detritus and consistently warm temperatures, rooting at nodes as it seeks brighter microhabitats.",
+  "quickFacts": {
+    "growthHabit": "Climbing",
+    "matureSize": "Varies (as climber)",
+    "light": "Filtered light",
+    "humidity": "High",
+    "temperature": "Consistently warm",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Oblong-asymmetric",
+    "leafLength": "Varies",
+    "leafWidth": "Varies",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Soft matte green",
+    "variegation": "None specified",
+    "growthHabit": "Climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera obliqua Amazonas",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera obliqua",
+      "Monstera obliqua Amazonas",
+      "Monstera obliqua Peru",
+      "Monstera obliqua 'Peru'",
+      "Monstera obliqua 'Amazonas'"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ]
+  },
+  "recommendedPlants": []
+}

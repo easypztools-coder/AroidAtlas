@@ -1,0 +1,79 @@
+{
+  "name": "Alocasia cuprea K.Koch",
+  "slug": "cuprea",
+  "scientificName": "Alocasia cuprea K.Koch",
+  "commonName": "Red Secret Alocasia",
+  "statusTag": "Classic Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Alocasia",
+  "species": "cuprea",
+  "origin": "Borneo",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Alocasia cuprea, often known as 'Red Secret', is a captivating aroid originating from the humid lowland rainforests of Borneo. This species grows terrestrially in warm, shaded conditions on moist, humus-rich soil. It forms a compact, self-heading plant from a corm-like base with fibrous roots. Its leaves are thick, strongly bullate, and boast a striking metallic deep green on the upper surfaces, contrasting with maroon undersides. Petioles emerge directly from the base, emphasizing its strictly terrestrial growth habit.",
+  "quickFacts": {
+    "growthHabit": "Terrestrial, self-heading",
+    "matureSize": "Medium",
+    "light": "Bright indirect",
+    "humidity": "High",
+    "temperature": "Warm",
+    "difficulty": "Moderate",
+    "growthSpeed": "Medium"
+  },
+  "morphology": {
+    "leafShape": "Sagittate, ovate, bullate",
+    "leafLength": "20-30 cm",
+    "leafWidth": "15-20 cm",
+    "petioleColor": "Dark bronze-maroon",
+    "venation": "Prominent, sunken primary veins",
+    "texture": "Thick, strongly bullate and metallic",
+    "variegation": "None",
+    "growthHabit": "Compact, self-heading, strictly terrestrial, no climbing stem"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia cuprea",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Red Secret Alocasia",
+      "Metallic Alocasia"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

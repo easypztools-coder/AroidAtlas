@@ -1,0 +1,81 @@
+{
+  "name": "Monstera obliqua 'Yasuni Form'",
+  "slug": "obliqua-yasuni-form",
+  "scientificName": "Monstera obliqua Miq.",
+  "commonName": "Monstera obliqua Yasuni",
+  "statusTag": "Rare Cultivar",
+  "botanicalType": "cultivar",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "obliqua",
+  "origin": "Yasuní, Ecuador",
+  "collectorPopularity": 5,
+  "rarityStatus": "Ultra Rare",
+  "availability": "Very Low",
+  "priceGuideTier": "££££",
+  "aboutText": "The Monstera obliqua 'Yasuni Form' is a highly sought-after botanical treasure hailing from the rainforest understories of Yasuní, Ecuador. This delicate epiphytic climber is prized for its extreme fenestration, where the leaf surface area is dominated by intricate holes rather than solid lamina. As a unique locality form, it maintains a graceful, narrow silhouette that differentiates it from the more common, broader Monstera obliqua variants. Its requirement for high humidity and stable, warm environments makes it a challenging but rewarding specimen for the advanced aroid enthusiast.",
+  "quickFacts": {
+    "growthHabit": "Epiphytic climber",
+    "matureSize": "Small to medium climber",
+    "light": "Filtered light",
+    "humidity": "High",
+    "temperature": "Warm, stable",
+    "difficulty": "Advanced",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Narrow-oblong and asymmetrical",
+    "leafLength": "Small to medium",
+    "leafWidth": "Narrow",
+    "petioleColor": "Green",
+    "venation": "Intricate reticulate",
+    "texture": "Fine-textured",
+    "variegation": "None",
+    "growthHabit": "Climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera obliqua Yasuni",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera obliqua Yasuni",
+      "obliqua Yasuni form",
+      "Yasuni Monstera",
+      "Monstera obliqua Ecuador"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

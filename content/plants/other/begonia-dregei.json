@@ -1,0 +1,80 @@
+{
+  "name": "Begonia dregei",
+  "slug": "begonia-dregei",
+  "scientificName": "Begonia dregei Otto & A.Dietr.",
+  "commonName": "Caudex Begonia",
+  "statusTag": "Classic Caudex Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Begonia",
+  "species": "dregei",
+  "origin": "South Africa",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Begonia dregei is a fascinating caudiciform species, endemic to the rocky slopes and forest margins of eastern South Africa. It thrives in seasonally moist habitats, preferring bright, filtered light and well-drained, humus-rich substrates. This begonia develops a distinctive swollen, tuberous base and a multi-branched, shrubby habit. Its small, asymmetrical leaves, rounded to ovate with shallow lobing, are borne on slender, reddish petioles, contributing to its attractive bonsai-like appearance over time.",
+  "quickFacts": {
+    "growthHabit": "Caudiciform, shrubby",
+    "matureSize": "Small, up to 30cm tall, forming a bonsai-like structure",
+    "light": "Bright, indirect light",
+    "humidity": "Moderate to High",
+    "temperature": "18-28°C (65-82°F)",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Asymmetrical, rounded to ovate with shallow lobing and crenate margins",
+    "leafLength": "2-5 cm",
+    "leafWidth": "2-4 cm",
+    "petioleColor": "Reddish",
+    "venation": "Palmate-reticulate",
+    "texture": "Matte, slightly textured",
+    "variegation": "None",
+    "growthHabit": "Caudiciform with a swollen, tuberous base and shrubby, multibranched habit"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia dregei",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Begonia dregei",
+      "Caudex Begonia dregei",
+      "Bonsai Begonia dregei"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

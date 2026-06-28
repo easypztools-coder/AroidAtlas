@@ -1,0 +1,81 @@
+{
+  "name": "Monstera obliqua 'Amazonas Peru Form'",
+  "slug": "obliqua-amazonas-peru-form",
+  "scientificName": "Monstera obliqua Miq.",
+  "commonName": "Amazonas Peru Monstera",
+  "statusTag": "Rare Locality Cultivar",
+  "botanicalType": "cultivar",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "obliqua 'Amazonas Peru Form'",
+  "origin": "Amazonas, Peru",
+  "collectorPopularity": 5,
+  "rarityStatus": "Ultra Rare",
+  "availability": "Very Low",
+  "priceGuideTier": "££££",
+  "aboutText": "The Monstera obliqua 'Amazonas Peru Form' is a highly sought-after locality-specific cultivar native to the lowland rainforests of the Peruvian Amazon. This delicate hemi-epiphyte is renowned for its extreme fenestration and slender, asymmetrical leaf structure, which bridges the gap between typical Amazonian forms and the iconic 'Peru' morphotype. It thrives in high-humidity, shaded understory conditions, utilizing its fine aerial roots to climb trees in nutrient-rich, organic environments. Due to its slow growth habit and specific environmental requirements, it remains a prized specimen for advanced botanical collections.",
+  "quickFacts": {
+    "growthHabit": "Hemi-epiphytic climber",
+    "matureSize": "Small to medium climber",
+    "light": "Filtered, low to medium light",
+    "humidity": "High (70%+)",
+    "temperature": "Warm, tropical conditions",
+    "difficulty": "Advanced",
+    "growthSpeed": "Slow"
+  },
+  "morphology": {
+    "leafShape": "Narrow, strongly asymmetric with oblique base",
+    "leafLength": "15-30cm",
+    "leafWidth": "5-10cm",
+    "petioleColor": "Green with distinct geniculation",
+    "venation": "Pinnate with numerous irregular fenestrations",
+    "texture": "Thin and delicate",
+    "variegation": "None (solid green)",
+    "growthHabit": "Climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera obliqua Amazonas Peru",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera obliqua Peru",
+      "obliqua Amazonas",
+      "Monstera obliqua cutting",
+      "rare Monstera obliqua"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

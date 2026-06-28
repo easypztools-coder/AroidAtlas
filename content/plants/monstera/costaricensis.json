@@ -1,0 +1,78 @@
+{
+  "name": "Monstera costaricensis",
+  "slug": "costaricensis",
+  "scientificName": "Monstera costaricensis Engl. & K.Krause",
+  "commonName": "Monstera costaricensis",
+  "statusTag": "",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "costaricensis",
+  "origin": "Costa Rica to Panama",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Monstera costaricensis is a tropical wet-forest climber native to Costa Rica and Panama. It thrives in shaded to mid-canopy conditions, growing as a hemiepiphyte on tree trunks using aerial roots for support and nutrient absorption. This species is distinguished by its elliptic to ovate leaves with glossy green, leathery textures and moderate internal perforations.",
+  "quickFacts": {
+    "growthHabit": "Climbing",
+    "matureSize": "Vining",
+    "light": "Shaded to Mid-Canopy",
+    "humidity": "High",
+    "temperature": "Tropical",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Elliptic to Ovate",
+    "leafLength": "Unknown",
+    "leafWidth": "Unknown",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Glossy, Leathery",
+    "variegation": "None",
+    "growthHabit": "Climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera costaricensis",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera costaricensis",
+      "Monstera lancifolia"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ]
+  },
+  "recommendedPlants": []
+}

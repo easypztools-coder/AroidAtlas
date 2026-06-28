@@ -1,0 +1,77 @@
+{
+  "name": "Alocasia longiloba",
+  "slug": "longiloba",
+  "scientificName": "Alocasia longiloba Miq.",
+  "commonName": "Alocasia longiloba",
+  "statusTag": "Wild Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Alocasia",
+  "species": "longiloba",
+  "origin": "S. China to W. & Central Malesia",
+  "collectorPopularity": 2,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "££",
+  "aboutText": "Alocasia longiloba is a terrestrial aroid native to the humid tropical forests of Southern China and Western and Central Malesia. It thrives in shaded, moist sites, typically growing in rich, organic soil. This species is characterized by its upright and arching petioles and elongated, sagittate to hastate leaves with prominent pale venation and an acute sinus. Alocasia longiloba is a terrestrial plant with no climbing stem, arising from a fibrous corm-like base.",
+  "quickFacts": {
+    "growthHabit": "Terrestrial, self-heading",
+    "matureSize": "Medium",
+    "light": "Medium to Low (Shaded)",
+    "humidity": "High",
+    "temperature": "Warm tropical",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Elongated sagittate to hastate with narrow posterior lobes",
+    "leafLength": "Varies, typically long",
+    "leafWidth": "Varies, typically narrow",
+    "petioleColor": "Green (inferred from illustration)",
+    "venation": "Prominent pale venation",
+    "texture": "Slightly metallic on adaxial surface",
+    "variegation": "None",
+    "growthHabit": "Terrestrial, self-heading, no climbing stem"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia longiloba",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Alocasia longiloba Miq."
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ]
+  },
+  "recommendedPlants": []
+}

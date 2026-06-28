@@ -1,0 +1,79 @@
+{
+  "name": "Monstera mittermeieri",
+  "slug": "mittermeieri",
+  "scientificName": "Monstera mittermeieri Croat, M.Cedeño & O.Ortiz",
+  "commonName": "Monstera Mittermeieri",
+  "statusTag": "Rare Cultivar",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "mittermeieri",
+  "origin": "Costa Rica",
+  "collectorPopularity": 4,
+  "rarityStatus": "Very Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Monstera mittermeieri is a rare climber found in the humid montane and lower montane forests of Costa Rica. It ascends tree trunks, preferring filtered light, high humidity, and constant air movement. This epiphytic or hemiepiphyte species often takes root in moss and organic debris on trees, showcasing elegant, elliptic leaves with distinct perforations that persist to the margins.",
+  "quickFacts": {
+    "growthHabit": "Climber",
+    "matureSize": "Large",
+    "light": "Filtered light",
+    "humidity": "High",
+    "temperature": "Constant",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Elliptic, elongated",
+    "leafLength": "N/A",
+    "leafWidth": "N/A",
+    "petioleColor": "N/A",
+    "venation": "N/A",
+    "texture": "Leathery lamina with subtle bullate texture above and matt beneath",
+    "variegation": "None",
+    "growthHabit": "Climber"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera Mittermeieri",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera Mittermeieri",
+      "Monstera Mittermeier",
+      "M. mittermeieri"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ]
+  },
+  "recommendedPlants": []
+}

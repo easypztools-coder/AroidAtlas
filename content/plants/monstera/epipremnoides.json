@@ -1,0 +1,81 @@
+{
+  "name": "Monstera epipremnoides",
+  "slug": "epipremnoides",
+  "scientificName": "Monstera epipremnoides Engl.",
+  "commonName": "Monstera epipremnoides",
+  "statusTag": "",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "epipremnoides",
+  "origin": "Costa Rica to Panama",
+  "collectorPopularity": 5,
+  "rarityStatus": "Ultra Rare",
+  "availability": "Very Low",
+  "priceGuideTier": "££££",
+  "aboutText": "Monstera epipremnoides is a remarkable species native to the humid premontane and lowland forests of Costa Rica and Panama. It thrives as a hemiepiphyte, climbing tree trunks with aerial roots. This plant is characterized by its long, elliptic to oblong leaves featuring conspicuous, elongated fenestrations arranged in orderly rows. The margins of the leaves are entire or only slightly undulate, and the stem is robust and climbing. It prefers warm, humid conditions with high rainfall and filtered light, which support its vigorous growth.",
+  "quickFacts": {
+    "growthHabit": "Climber",
+    "matureSize": "Large",
+    "light": "Filtered light",
+    "humidity": "High",
+    "temperature": "Warm",
+    "difficulty": "Moderate",
+    "growthSpeed": "Vigorous"
+  },
+  "morphology": {
+    "leafShape": "Elliptic to oblong",
+    "leafLength": "Long",
+    "leafWidth": "Medium",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Smooth",
+    "variegation": "None",
+    "growthHabit": "Climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera epipremnoides",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera epipremnoides",
+      "Monstera epipremnoides plant",
+      "Epipremnoides Monstera",
+      "Monstera epiphytica"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board",
+      "variegated"
+    ]
+  },
+  "recommendedPlants": []
+}

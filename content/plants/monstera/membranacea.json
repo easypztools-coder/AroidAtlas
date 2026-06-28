@@ -1,0 +1,77 @@
+{
+  "name": "Monstera membranacea",
+  "slug": "membranacea",
+  "scientificName": "Monstera membranacea Madison",
+  "commonName": "Monstera membranacea",
+  "statusTag": "",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "membranacea",
+  "origin": "Costa Rica to western Panama",
+  "collectorPopularity": 4,
+  "rarityStatus": "Very Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Monstera membranacea is a species native to the humid, wet tropical forests of Costa Rica and western Panama. It is a climber that ascends trees using aerial roots, thriving in warm, shaded understories with high humidity and rich, organic soils. This thin-textured Monstera features delicate fenestration that develops with maturity, giving it a lacy appearance.",
+  "quickFacts": {
+    "growthHabit": "Climber",
+    "matureSize": "Varies (climber)",
+    "light": "Filtered light",
+    "humidity": "High",
+    "temperature": "Warm",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Fenestrated",
+    "leafLength": "Unknown",
+    "leafWidth": "Unknown",
+    "petioleColor": "Unknown",
+    "venation": "Unknown",
+    "texture": "Thin-textured, membranous, softly textured",
+    "variegation": "None",
+    "growthHabit": "Climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera membranacea",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera membranacea"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ]
+  },
+  "recommendedPlants": []
+}

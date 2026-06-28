@@ -1,0 +1,82 @@
+{
+  "name": "Monstera obliqua 'Amazonas B Form'",
+  "slug": "obliqua-amazonas-b-form",
+  "scientificName": "Monstera obliqua Miq.",
+  "commonName": "Amazonas B Form Monstera",
+  "statusTag": "Rare Cultivar",
+  "botanicalType": "cultivar",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "obliqua",
+  "origin": "Amazonas, Brazil",
+  "collectorPopularity": 5,
+  "rarityStatus": "Ultra Rare",
+  "availability": "Very Low",
+  "priceGuideTier": "££££",
+  "aboutText": "The Monstera obliqua 'Amazonas B Form' is a highly distinct and sought-after cultivar originating from the Amazon basin. Known for its delicate hemiepiphytic growth, this form is characterized by more entire, less perforated foliage compared to other obliqua types, resulting in a unique, continuous lamina. It thrives in the filtered light and high-humidity environments typical of lowland to lower montane rainforests. Its refined, slender aesthetic and slow-growing nature make it a prized specimen for dedicated aroid collectors.",
+  "quickFacts": {
+    "growthHabit": "Hemiepiphytic climber",
+    "matureSize": "Small to medium climber",
+    "light": "Filtered light",
+    "humidity": "High",
+    "temperature": "Warm",
+    "difficulty": "Advanced",
+    "growthSpeed": "Slow"
+  },
+  "morphology": {
+    "leafShape": "Asymmetric oblique ovate",
+    "leafLength": "Small to medium",
+    "leafWidth": "Narrow",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Undulate surface",
+    "variegation": "None",
+    "growthHabit": "Climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera obliqua Amazonas B",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera obliqua Amazonas",
+      "Monstera obliqua B Form",
+      "Amazonas B Form",
+      "Obliqua Amazonas",
+      "Rare Monstera"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

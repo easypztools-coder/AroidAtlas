@@ -1,0 +1,82 @@
+{
+  "name": "Monstera obliqua 'Tarapoto Form'",
+  "slug": "obliqua-tarapoto-form",
+  "scientificName": "Monstera obliqua Miq.",
+  "commonName": "Monstera obliqua Tarapoto Form",
+  "statusTag": "Rare Locality Form",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "obliqua",
+  "origin": "Tarapoto, Peru",
+  "collectorPopularity": 5,
+  "rarityStatus": "Very Rare",
+  "availability": "Low",
+  "priceGuideTier": "££££",
+  "aboutText": "The Monstera obliqua Tarapoto Form is a highly sought-after botanical treasure hailing from the lush, humid rainforests of northeastern Peru. This refined form is distinguished by its broader, oblong leaves compared to more extreme, delicate variations of the species. It features unique, moderate fenestrations that develop quickly as the plant matures. As a slender epiphyte, it utilizes delicate aerial roots to climb, thriving best in shaded environments with consistently moist, well-aerated organic substrates.",
+  "quickFacts": {
+    "growthHabit": "Slender epiphytic climber",
+    "matureSize": "Variable, reaching several meters in height",
+    "light": "Bright, filtered indirect light",
+    "humidity": "High (above 70%)",
+    "temperature": "Warm, tropical conditions",
+    "difficulty": "Advanced",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Oblong, asymmetric",
+    "leafLength": "Small to medium, typical of obliqua",
+    "leafWidth": "Broader than other obliqua forms",
+    "petioleColor": "Green",
+    "venation": "Pinnate with moderate fenestration",
+    "texture": "Thin and delicate",
+    "variegation": "None",
+    "growthHabit": "Slender epiphyte"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera obliqua Tarapoto",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera obliqua Peru",
+      "Monstera obliqua Tarapoto form",
+      "Monstera obliqua live plant",
+      "rare Monstera obliqua",
+      "Tarapoto Monstera"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

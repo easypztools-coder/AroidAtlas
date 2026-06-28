@@ -1,0 +1,79 @@
+{
+  "name": "Monstera cenepensis",
+  "slug": "cenepensis",
+  "scientificName": "Monstera cenepensis Croat, M.M.Mora & J.Rivera",
+  "commonName": "Cenepensis Monstera",
+  "statusTag": "Wild Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "cenepensis",
+  "origin": "Peru to Ecuador",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Monstera cenepensis is a species native to the humid tropical forests of the western Amazonian slopes and lowland rainforests, found from Peru to Ecuador. This hemiepiphyte climbs trees using aerial roots, thriving in warm, moist conditions with filtered light. Its morphology is characterized by a slender, climbing habit with narrowly elliptic to oblong leaves featuring a restrained number of elongated perforations near the midrib. The stem is slender with prominent nodes and long aerial roots, contributing to its fine and elegant proportions.",
+  "quickFacts": {
+    "growthHabit": "Climbing",
+    "matureSize": "Varies",
+    "light": "Filtered light",
+    "humidity": "High",
+    "temperature": "Warm",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Elliptic to oblong with perforations",
+    "leafLength": "Varies",
+    "leafWidth": "Varies",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Smooth",
+    "variegation": "None",
+    "growthHabit": "Climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera cenepensis",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera cenepensis",
+      "Monstera cenepensis Ecuador",
+      "Monstera cenepensis Peru"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ]
+  },
+  "recommendedPlants": []
+}

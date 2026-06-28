@@ -1,0 +1,79 @@
+{
+  "name": "Monstera obliqua — French Guiana Locality Form",
+  "slug": "obliqua-french-guiana-locality-form",
+  "scientificName": "Monstera obliqua Miq.",
+  "commonName": "French Guiana Locality Form Obliqua",
+  "statusTag": "Rare Locality Form",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "obliqua",
+  "origin": "French Guiana; provisional locality form.",
+  "collectorPopularity": 5,
+  "rarityStatus": "Ultra Rare",
+  "availability": "Very Low",
+  "priceGuideTier": "££££",
+  "aboutText": "This Monstera obliqua French Guiana Locality Form is a delicate climber found in the humid, shaded understories of lowland tropical rainforests. It grows on slender trunks, anchoring itself with woody vines. The plant thrives in conditions of high, stable humidity, filtered light, and rich, decomposing organic matter. Its fenestration is a defining characteristic, making it highly sought after by collectors.",
+  "quickFacts": {
+    "growthHabit": "Climber",
+    "matureSize": "Varies, typically a climbing vine",
+    "light": "Filtered light",
+    "humidity": "High",
+    "temperature": "Warm tropical",
+    "difficulty": "Difficult",
+    "growthSpeed": "Slow"
+  },
+  "morphology": {
+    "leafShape": "Elliptic",
+    "leafLength": "Delicate and relatively continuous",
+    "leafWidth": "Narrow",
+    "petioleColor": "Not specified",
+    "venation": "Parallel, with sparse to moderate irregular fenestration",
+    "texture": "Delicate",
+    "variegation": "None",
+    "growthHabit": "Fine-stemmed climber"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera obliqua French Guiana",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera obliqua",
+      "Obliqua French Guiana",
+      "Monstera locality form"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ]
+  },
+  "recommendedPlants": []
+}

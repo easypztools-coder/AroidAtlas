@@ -1,0 +1,78 @@
+{
+  "name": "Monstera standleyana",
+  "slug": "standleyana",
+  "scientificName": "Monstera standleyana G.S. Bunting",
+  "commonName": "Monstera standleyana",
+  "statusTag": "",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "standleyana",
+  "origin": "Honduras to Panama",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Monstera standleyana is a tropical wet-forest climber native to Central America. It thrives in the shaded understory, ascending tree trunks with aerial roots in warm, humid conditions with consistent moisture and filtered light. Its adult leaves are characterized by being thick, glossy, and deeply green, with a lanceolate shape and a long acuminate tip. The stem is climbing, featuring distinct nodes and aerial roots, and the leaves are typically unfenestrated or show very minor perforation.",
+  "quickFacts": {
+    "growthHabit": "Climber",
+    "matureSize": "Varies (climbs trees)",
+    "light": "Filtered light",
+    "humidity": "High",
+    "temperature": "Warm",
+    "difficulty": "Intermediate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Lanceolate",
+    "leafLength": "Long",
+    "leafWidth": "Narrow",
+    "petioleColor": "Green",
+    "venation": "Subtle",
+    "texture": "Thick, glossy",
+    "variegation": "Unfenestrated or very minor perforation",
+    "growthHabit": "Climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera standleyana",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera standleyana",
+      "Standleyana Monstera"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ]
+  },
+  "recommendedPlants": []
+}

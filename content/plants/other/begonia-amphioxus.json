@@ -1,0 +1,79 @@
+{
+  "name": "Begonia amphioxus",
+  "slug": "begonia-amphioxus",
+  "scientificName": "Begonia amphioxus",
+  "commonName": "Begonia amphioxus",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Begonia",
+  "species": "amphioxus",
+  "origin": "Sabah, Borneo",
+  "collectorPopularity": 5,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Begonia amphioxus is a rare species originating from the humid tropical forests of Sabah, Borneo, where it thrives in the shaded understory, maintaining constant warmth and humidity year-round. It is typically found growing on moist limestone outcrops, humus-rich soil, and decaying leaf litter. This elegant, upright begonia is characterized by slender, segmented red canes and distinctive narrow, lanceolate leaves. Its foliage is olive to bronzy green with vivid red venation, red margins, and numerous silvery-pink spots, complemented by red undersides, making it a highly desirable species for collectors.",
+  "quickFacts": {
+    "growthHabit": "Upright",
+    "matureSize": "Medium",
+    "light": "Low to Medium Indirect Light",
+    "humidity": "High",
+    "temperature": "Warm (20-30°C)",
+    "difficulty": "Moderate",
+    "growthSpeed": "Medium"
+  },
+  "morphology": {
+    "leafShape": "Narrow, lanceolate",
+    "leafLength": "Medium",
+    "leafWidth": "Narrow",
+    "petioleColor": "Red",
+    "venation": "Vivid red venation",
+    "texture": "Smooth",
+    "variegation": "Silvery-pink spots",
+    "growthHabit": "Upright"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia amphioxus",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Begonia amphioxus",
+      "Amphioxus Begonia"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

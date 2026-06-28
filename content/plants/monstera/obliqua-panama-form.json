@@ -1,0 +1,82 @@
+{
+  "name": "Monstera obliqua 'Panama Form'",
+  "slug": "obliqua-panama-form",
+  "scientificName": "Monstera obliqua Miq.",
+  "commonName": "Monstera obliqua Panama Form",
+  "statusTag": "Rare Cultivar",
+  "botanicalType": "cultivar",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "obliqua",
+  "origin": "Panama; tropical lowland forests from the Caribbean to the Pacific slopes.",
+  "collectorPopularity": 5,
+  "rarityStatus": "Very Rare",
+  "availability": "Very Low",
+  "priceGuideTier": "££££",
+  "aboutText": "Monstera obliqua 'Panama Form' is a highly sought-after aroid known for its delicate, climbing nature and distinct foliage. Unlike the heavily fenestrated forms of the species, this cultivar is characterized by its narrowly elliptic, largely entire leaves with restrained, irregular perforations. Originating from the tropical lowland forests of Panama, it thrives in high-humidity, shaded understory environments. It is a prized addition for collectors due to its elegant growth habit and the subtle, refined aesthetic of its less-perforated lamina.",
+  "quickFacts": {
+    "growthHabit": "Climbing epiphyte",
+    "matureSize": "Small to medium, climbing",
+    "light": "Filtered, low to medium indirect light",
+    "humidity": "High (above 70%)",
+    "temperature": "Stable warmth (18°C - 28°C)",
+    "difficulty": "Moderate to Advanced",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Narrowly elliptic",
+    "leafLength": "Small to medium",
+    "leafWidth": "Narrow",
+    "petioleColor": "Green",
+    "venation": "Pinnate, subtle",
+    "texture": "Smooth, thin",
+    "variegation": "None",
+    "growthHabit": "Climbing epiphyte with fine internodes"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera obliqua Panama",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera obliqua Panama",
+      "Monstera obliqua Panama form",
+      "M. obliqua Panama",
+      "Monstera obliqua panama rooted",
+      "Monstera obliqua panama cutting"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

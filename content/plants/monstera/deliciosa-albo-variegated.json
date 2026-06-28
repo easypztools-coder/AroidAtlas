@@ -1,0 +1,79 @@
+{
+  "name": "Monstera deliciosa 'Albo Variegated'",
+  "slug": "deliciosa-albo-variegated",
+  "scientificName": "Monstera deliciosa Liebm.",
+  "commonName": "Albo Variegated Monstera",
+  "statusTag": "Cultivated variegated selection",
+  "botanicalType": "variegated",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "'Albo Variegated'",
+  "origin": "Cultivated variegated selection",
+  "collectorPopularity": 5,
+  "rarityStatus": "Very Rare",
+  "availability": "Very Low",
+  "priceGuideTier": "££££",
+  "aboutText": "This cultivated variegated selection is derived from Monstera deliciosa ancestry native to humid forests in southern Mexico and Central America. These forests are warm, wet, and shaded, supporting aroid growth with rich organic soils and high humidity. The plant is a robust climber with thick stems and aerial roots, featuring large, cordate leaves with deep fenestrations and splits. Its variegation is striking, appearing as irregular marble patterns in cream to white sectors splashed over deep green.",
+  "quickFacts": {
+    "growthHabit": "Climbing",
+    "matureSize": "Large",
+    "light": "Bright indirect",
+    "humidity": "High",
+    "temperature": "Warm",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Cordate",
+    "leafLength": "Large",
+    "leafWidth": "Large",
+    "petioleColor": "Green",
+    "venation": "Prominent",
+    "texture": "Smooth",
+    "variegation": "Irregular, marbled, cream to white sectors over deep green",
+    "growthHabit": "Climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera Albo Variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera Albo",
+      "Monstera Albo Variegated",
+      "Monstera Deliciosa Albo"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ]
+  },
+  "recommendedPlants": []
+}

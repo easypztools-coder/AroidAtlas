@@ -262,7 +262,7 @@ export function matchProduct(
       if (
         otherSpeciesNorm &&
         normTitle.includes(otherSpeciesNorm) &&
-        !normTitle.includes(plantSpecies)
+        !normTitle.includes(normaliseString(plantSpecies))
       ) {
         return { confidence: 0, reason: `Species mismatch: contains "${other.species}" (matches other plant: ${other.slug})`, itemType };
       }

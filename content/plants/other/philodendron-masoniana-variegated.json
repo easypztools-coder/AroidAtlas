@@ -1,0 +1,81 @@
+{
+  "name": "Begonia masoniana 'Variegated'",
+  "slug": "philodendron-masoniana-variegated",
+  "scientificName": "Begonia masoniana Irmsch.",
+  "commonName": "Iron Cross Begonia 'Variegated'",
+  "statusTag": "Rare Variegated Cultivar",
+  "botanicalType": "variegated",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "masoniana",
+  "origin": "Cultivated selection, derived from Begonia masoniana, a species native to humid forest habitats of southern China and northern Vietnam.",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Begonia masoniana 'Variegated' is a horticultural variegated selection derived from the species Begonia masoniana, which is native to humid forest habitats of southern China and northern Vietnam. This rhizomatous begonia thrives in warm, shaded, humid conditions, replicating its natural understory environment. Its large, heavily bullate and hairy leaves display a prominent dark iron-cross marking against a deep green base, contrasted by irregular creamy-white variegation. The leaves are asymmetrical with a crisp texture, and the plant grows from a creeping rhizome at or just above the substrate.",
+  "quickFacts": {
+    "growthHabit": "Rhizomatous, creeping",
+    "matureSize": "Medium",
+    "light": "Shaded",
+    "humidity": "High",
+    "temperature": "Warm",
+    "difficulty": "Moderate",
+    "growthSpeed": "Medium"
+  },
+  "morphology": {
+    "leafShape": "Asymmetrical, broadly ovate to cordate",
+    "leafLength": "",
+    "leafWidth": "",
+    "petioleColor": "",
+    "venation": "Palmate with prominent dark iron-cross marking",
+    "texture": "Heavily bullate and hairy, crisp",
+    "variegation": "Irregular creamy-white",
+    "growthHabit": "Rhizomatous, creeping"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia masoniana Variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Begonia Iron Cross Variegated",
+      "Begonia 'Iron Cross' Variegated",
+      "Begonia masoniana 'Iron Cross' Variegated",
+      "Begonia masoniana Irmsch. Variegated"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

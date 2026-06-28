@@ -1,0 +1,79 @@
+{
+  "name": "Monstera obliqua Suriname Form",
+  "slug": "obliqua-suriname-form",
+  "scientificName": "Monstera obliqua Miq.",
+  "commonName": "Suriname Form Obliqua",
+  "statusTag": "Cultivated Locality Form",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "obliqua",
+  "origin": "Suriname; cultivated locality form",
+  "collectorPopularity": 4,
+  "rarityStatus": "Very Rare",
+  "availability": "Low",
+  "priceGuideTier": "££££",
+  "aboutText": "This exquisite form of Monstera obliqua originates from Suriname, representing a cultivated locality form. It is a delicate understory climber found in deep shade within wet tropical forests. Characterized by slender leaves with irregular perforations, it thrives in high humidity and constant moisture, attaching to trees and woody stems. This specific form is noted for its highly perforated leaves, placing it between the most perforated and less perforated varieties.",
+  "quickFacts": {
+    "growthHabit": "Climbing",
+    "matureSize": "Variable, can climb significant heights",
+    "light": "Deep shade, filtered light",
+    "humidity": "High",
+    "temperature": "Warm tropical",
+    "difficulty": "Difficult",
+    "growthSpeed": "Slow"
+  },
+  "morphology": {
+    "leafShape": "Asymmetrical, elongated",
+    "leafLength": "Variable",
+    "leafWidth": "Variable",
+    "petioleColor": "Slender",
+    "venation": "Pronounced primary veins",
+    "texture": "Smooth",
+    "variegation": "N/A (perforations)",
+    "growthHabit": "Climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera obliqua Suriname",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera obliqua Suriname Form",
+      "Monstera obliqua Surinam",
+      "Obliqua Suriname"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ]
+  },
+  "recommendedPlants": []
+}

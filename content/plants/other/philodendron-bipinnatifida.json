@@ -1,0 +1,81 @@
+{
+  "name": "Begonia bipinnatifida",
+  "slug": "philodendron-bipinnatifida",
+  "scientificName": "Begonia bipinnatifida J.J.Sm.",
+  "commonName": "Fern-Leaf Begonia",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "bipinnatifida",
+  "origin": "New Guinea",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "A rare begonia from humid montane and lowland tropical forest in New Guinea. It grows in warm, shaded, humid conditions on moist organic substrate where its finely divided foliage rises from a creeping rhizomatous base. It is notable for its deeply bipinnatifid leaves composed of narrow, toothed lobes. The foliage is airy and highly dissected, borne on red petioles from a creeping rhizome, with reddish undersides enhancing its delicate yet dramatic appearance.",
+  "quickFacts": {
+    "growthHabit": "Rhizomatous",
+    "matureSize": "Small to Medium",
+    "light": "Low to Medium Indirect Light",
+    "humidity": "High",
+    "temperature": "Warm (18-27°C)",
+    "difficulty": "Medium",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Deeply bipinnatifid with narrow, toothed lobes; airy and highly dissected",
+    "leafLength": "Not specified",
+    "leafWidth": "Not specified",
+    "petioleColor": "Red",
+    "venation": "Deeply recessed, following the lobes",
+    "texture": "Delicate, slightly textured; undersides reddish",
+    "variegation": "None",
+    "growthHabit": "Creeping rhizomatous"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia bipinnatifida",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Fern-Leaf Begonia",
+      "Bipinnatifida Begonia",
+      "New Guinea Begonia",
+      "Begonia bipinnatifida J.J.Sm."
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

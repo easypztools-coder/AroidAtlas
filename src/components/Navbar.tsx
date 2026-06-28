@@ -93,6 +93,7 @@ export default function Navbar() {
 
   const navLinks = [
     { href: "/plants", label: "Plants", active: pathname.startsWith("/plants") },
+    { href: "/price-index", label: "Price Index", active: pathname === "/price-index" },
     { href: "/compare", label: "Compare", active: pathname === "/compare" },
     { href: "/identify", label: "Identify", active: pathname === "/identify" },
     { href: "/learn", label: "Learn", active: pathname === "/learn" },

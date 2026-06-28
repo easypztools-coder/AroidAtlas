@@ -1,0 +1,79 @@
+{
+  "name": "Alocasia 'Sarian'",
+  "slug": "sarian",
+  "scientificName": "Alocasia 'Sarian'",
+  "commonName": "Sarian Alocasia",
+  "statusTag": "Popular Cultivar",
+  "botanicalType": "hybrid",
+  "family": "Araceae",
+  "genus": "Alocasia",
+  "species": "Sarian",
+  "origin": "Cultivated hybrid derived from tropical Alocasia ancestry native to Southeast Asia.",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Alocasia 'Sarian' is a remarkable cultivated hybrid, developed from tropical Alocasia species native to Southeast Asia. This ornamental plant is highly valued for its striking foliage and elegant form, thriving in warm, humid, and shaded understory conditions. It features large, sagittate leaves with distinct wavy or subtly serrated margins and contrasting pale venation. The plant exhibits an upright, self-heading growth habit, arising from a compact corm-like basal structure that produces fibrous feeder roots.",
+  "quickFacts": {
+    "growthHabit": "Self-heading, upright",
+    "matureSize": "Large",
+    "light": "Bright indirect",
+    "humidity": "High",
+    "temperature": "Warm",
+    "difficulty": "Moderate",
+    "growthSpeed": "Medium"
+  },
+  "morphology": {
+    "leafShape": "Sagittate with wavy/serrated margins",
+    "leafLength": "Large",
+    "leafWidth": "Wide",
+    "petioleColor": "Zebra-banded",
+    "venation": "Contrasting pale",
+    "texture": "Leathery",
+    "variegation": "None",
+    "growthHabit": "Self-heading"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia Sarian",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Alocasia Sarian",
+      "Sarian"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

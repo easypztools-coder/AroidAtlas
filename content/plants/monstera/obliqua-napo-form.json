@@ -1,0 +1,80 @@
+{
+  "name": "Monstera obliqua - Napo Form",
+  "slug": "obliqua-napo-form",
+  "scientificName": "Monstera obliqua Miq.",
+  "commonName": "Napo Form Monstera Obliqua",
+  "statusTag": "Cultivated Locality Form",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "obliqua",
+  "origin": "Napo, Ecuador; cultivated locality form",
+  "collectorPopularity": 5,
+  "rarityStatus": "Ultra Rare",
+  "availability": "Very Low",
+  "priceGuideTier": "££££",
+  "aboutText": "The Napo Form of Monstera obliqua is a hemiepiphyte native to the humid, lowland to lower montane rainforests of Napo, Ecuador. It thrives in warm, shaded understories with high humidity and filtered light, ascending slender supports with aerial roots. This form is distinguished by its elongated, oblong-elliptic leaves with multiple irregular perforations. It represents a cultivated locality form, valued for its unique fenestration and airy structure.",
+  "quickFacts": {
+    "growthHabit": "Hemiepiphyte climber",
+    "matureSize": "Varies, but can become a large climber",
+    "light": "High humidity, filtered light",
+    "humidity": "High",
+    "temperature": "Warm",
+    "difficulty": "Difficult",
+    "growthSpeed": "Slow"
+  },
+  "morphology": {
+    "leafShape": "Elongated, oblong-elliptic",
+    "leafLength": "Indeterminate, generally elongated",
+    "leafWidth": "Indeterminate, generally narrow",
+    "petioleColor": "Not specified, likely green",
+    "venation": "Multiple irregular, elongated internal perforations",
+    "texture": "Delicate",
+    "variegation": "None",
+    "growthHabit": "Climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera obliqua Napo Form",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera obliqua Napo",
+      "Obliqua Napo",
+      "Monstera Napo Form"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board",
+      "tissue culture"
+    ]
+  },
+  "recommendedPlants": []
+}

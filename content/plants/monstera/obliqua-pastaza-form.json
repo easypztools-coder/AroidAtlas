@@ -1,0 +1,85 @@
+{
+  "name": "Monstera obliqua 'Pastaza Form'",
+  "slug": "obliqua-pastaza-form",
+  "scientificName": "Monstera obliqua Miq.",
+  "commonName": "Pastaza Form Monstera",
+  "statusTag": "Rare Cultivar",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "obliqua",
+  "origin": "Pastaza, Ecuador; cultivated locality form",
+  "collectorPopularity": 5,
+  "rarityStatus": "Ultra Rare",
+  "availability": "Very Low",
+  "priceGuideTier": "££££",
+  "aboutText": "The Monstera obliqua 'Pastaza Form' is a highly sought-after epiphyte native to the humid premontane rainforests of the Pastaza province in Ecuador. Distinguished by its slender, elongated, and oblong leaves, this form exhibits a unique, graceful drape with moderate fenestration patterns. It is a refined specimen that thrives in environments with high humidity and stable, warm temperatures, typically ascending trees in its natural habitat. Prized by collectors for its elegant foliage and distinct morphological profile, it remains a crown jewel for serious aroid enthusiasts.",
+  "quickFacts": {
+    "growthHabit": "Slender epiphytic climber",
+    "matureSize": "Can reach several meters when provided support",
+    "light": "Filtered, bright indirect light",
+    "humidity": "Consistently high (70% or higher)",
+    "temperature": "Stable warmth, tropical range",
+    "difficulty": "Advanced",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Narrow, elongated, oblong",
+    "leafLength": "Large, elongated proportions",
+    "leafWidth": "Narrow profile",
+    "petioleColor": "Green",
+    "venation": "Pinnate with moderate fenestration",
+    "texture": "Softly undulate margins",
+    "variegation": "None",
+    "growthHabit": "Slender epiphyte"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera obliqua Pastaza",
+    "requiredTerms": [
+      "Monstera",
+      "obliqua",
+      "Pastaza"
+    ],
+    "acceptedTerms": [
+      "Monstera obliqua Pastaza form",
+      "M. obliqua Pastaza",
+      "Monstera obliqua Ecuagenera",
+      "Obliqua Pastaza"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

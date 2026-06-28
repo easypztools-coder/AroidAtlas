@@ -1,0 +1,81 @@
+{
+  "name": "Monstera xanthospatha",
+  "slug": "xanthospatha",
+  "scientificName": "Monstera xanthospatha Madison",
+  "commonName": "Monstera xanthospatha",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "xanthospatha",
+  "origin": "Colombia",
+  "collectorPopularity": 5,
+  "rarityStatus": "Ultra Rare",
+  "availability": "Very Low",
+  "priceGuideTier": "££££",
+  "aboutText": "Monstera xanthospatha is an elusive and highly sought-after climbing aroid native to the humid montane forests of Colombia. It is closely allied to the M. obliqua complex, characterized by its slender, robust stems and distinctively delicate, fenestrated foliage. This species thrives in shaded, high-humidity understories, where it utilizes strong aerial roots to ascend trees in rich organic substrates. Collectors prize the plant for its refined perforation pattern and unique yellowish-green new growth, which sets it apart from its more common relatives.",
+  "quickFacts": {
+    "growthHabit": "Climbing/Epiphytic",
+    "matureSize": "Medium to Large climber",
+    "light": "Bright indirect to shaded",
+    "humidity": "High (70%+)",
+    "temperature": "Warm/Stable (18-26°C)",
+    "difficulty": "Advanced",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Elliptic to lanceolate",
+    "leafLength": "20-40cm",
+    "leafWidth": "10-20cm",
+    "petioleColor": "Green",
+    "venation": "Pinnate with extensive perforations",
+    "texture": "Delicate/Thin",
+    "variegation": "None",
+    "growthHabit": "Climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera xanthospatha",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera xanthospatha",
+      "M. xanthospatha",
+      "xanthospatha",
+      "rare Monstera"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}
