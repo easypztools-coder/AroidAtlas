@@ -40,11 +40,20 @@ const QUERY_OBSERVATIONS = `
   GROUP BY plant_slug
 `;
 
-const QUERY_SNAPSHOTS = `
+const QUERY_RETAIL_SNAPSHOTS = `
   SELECT DISTINCT ON (plant_slug)
     plant_slug, median_price
   FROM retail_price_snapshots
   WHERE item_type = 'all'
+  ORDER BY plant_slug, checked_at DESC
+`;
+
+const QUERY_EBAY_SNAPSHOTS = `
+  SELECT DISTINCT ON (plant_slug)
+    plant_slug,
+    median_price   AS ebay_median,
+    accepted_count AS ebay_count
+  FROM ebay_price_snapshots
   ORDER BY plant_slug, checked_at DESC
 `;
 
@@ -54,7 +63,8 @@ async function buildRows(): Promise<PriceIndexRow[]> {
     .readdirSync(plantsRoot)
     .filter((g) => fs.statSync(path.join(plantsRoot, g)).isDirectory());
 
-  const jsonRows: Omit<PriceIndexRow, 'dbMedianPrice' | 'listingCount' | 'inStockCount' | 'retailerCount' | 'hasRetailData'>[] = [];
+  type JsonRow = Omit<PriceIndexRow, 'dbMedianPrice' | 'ebayMedianPrice' | 'ebayDataPoints' | 'listingCount' | 'inStockCount' | 'retailerCount' | 'hasRetailData'>;
+  const jsonRows: JsonRow[] = [];
 
   for (const genus of genera) {
     const genusDir = path.join(plantsRoot, genus);
@@ -76,9 +86,6 @@ async function buildRows(): Promise<PriceIndexRow[]> {
           estimatedSource: data.marketMetrics?.estimatedSource ?? null,
           threeMonthChangePercent: data.marketMetrics?.threeMonthChangePercent ?? null,
           marketStatus: data.marketMetrics?.marketStatus ?? null,
-          ebayDataPoints: Array.isArray(data.priceHistory) && data.priceHistory.length > 0
-            ? (data.priceHistory[data.priceHistory.length - 1].dataPointsAnalyzed ?? null)
-            : null,
         });
       } catch {
         // skip malformed JSON
@@ -87,15 +94,17 @@ async function buildRows(): Promise<PriceIndexRow[]> {
   }
 
   const obsMap = new Map<string, { listingCount: number; inStockCount: number; retailerCount: number }>();
-  const snapMap = new Map<string, number | null>();
+  const retailSnapMap = new Map<string, number | null>();
+  const ebayMap = new Map<string, { median: number | null; count: number | null }>();
 
   const hasDb = !!(process.env.POSTGRES_URL || process.env.DATABASE_URL);
   if (hasDb) {
     try {
       const db = getDbPool();
-      const [obsResult, snapResult] = await Promise.all([
+      const [obsResult, retailSnapResult, ebayResult] = await Promise.all([
         db.query(QUERY_OBSERVATIONS),
-        db.query(QUERY_SNAPSHOTS),
+        db.query(QUERY_RETAIL_SNAPSHOTS),
+        db.query(QUERY_EBAY_SNAPSHOTS),
       ]);
       for (const row of obsResult.rows) {
         obsMap.set(row.plant_slug, {
@@ -104,8 +113,14 @@ async function buildRows(): Promise<PriceIndexRow[]> {
           retailerCount: Number(row.retailer_count),
         });
       }
-      for (const row of snapResult.rows) {
-        snapMap.set(row.plant_slug, row.median_price != null ? parseFloat(row.median_price) : null);
+      for (const row of retailSnapResult.rows) {
+        retailSnapMap.set(row.plant_slug, row.median_price != null ? parseFloat(row.median_price) : null);
+      }
+      for (const row of ebayResult.rows) {
+        ebayMap.set(row.plant_slug, {
+          median: row.ebay_median != null ? parseFloat(row.ebay_median) : null,
+          count: row.ebay_count != null ? Number(row.ebay_count) : null,
+        });
       }
     } catch (err) {
       console.error('[price-index] DB query failed, showing JSON-only data:', err);
@@ -114,10 +129,12 @@ async function buildRows(): Promise<PriceIndexRow[]> {
 
   return jsonRows.map((row) => {
     const obs = obsMap.get(row.slug);
-    const dbMedianPrice = snapMap.get(row.slug) ?? null;
+    const ebay = ebayMap.get(row.slug);
     return {
       ...row,
-      dbMedianPrice,
+      dbMedianPrice: retailSnapMap.get(row.slug) ?? null,
+      ebayMedianPrice: ebay?.median ?? null,
+      ebayDataPoints: ebay?.count ?? null,
       listingCount: obs?.listingCount ?? 0,
       inStockCount: obs?.inStockCount ?? 0,
       retailerCount: obs?.retailerCount ?? 0,
@@ -129,23 +146,20 @@ async function buildRows(): Promise<PriceIndexRow[]> {
 export default async function PriceIndexPage() {
   const rows = await buildRows();
   const withRetail = rows.filter((r) => r.hasRetailData).length;
+  const withEbay = rows.filter((r) => r.ebayDataPoints != null).length;
   const inStock = rows.reduce((n, r) => n + r.inStockCount, 0);
 
   const datasetLd = {
-    "@context": "https://schema.org",
-    "@type": "Dataset",
-    name: "Aroid Atlas UK Plant Price Index",
+    '@context': 'https://schema.org',
+    '@type': 'Dataset',
+    name: 'Aroid Atlas UK Plant Price Index',
     description: `Live retail prices, eBay sold comparables, and market trends for ${rows.length} rare tropical plant species. Sourced from UK retailers and eBay UK sold listings.`,
     url: CANONICAL,
-    creator: {
-      "@type": "Organization",
-      name: "Aroid Atlas",
-      url: "https://aroidatlas.co.uk",
-    },
-    license: "https://creativecommons.org/licenses/by-nc/4.0/",
-    variableMeasured: ["Retail price GBP", "eBay sold median price GBP", "Market trend", "In-stock listings"],
-    spatialCoverage: "United Kingdom",
-    temporalCoverage: "2024/..",
+    creator: { '@type': 'Organization', name: 'Aroid Atlas', url: 'https://aroidatlas.co.uk' },
+    license: 'https://creativecommons.org/licenses/by-nc/4.0/',
+    variableMeasured: ['Retail price GBP', 'eBay sold median price GBP', 'Market trend', 'In-stock listings'],
+    spatialCoverage: 'United Kingdom',
+    temporalCoverage: '2024/..',
   };
 
   return (
@@ -155,29 +169,21 @@ export default async function PriceIndexPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(datasetLd) }}
       />
       <div className="mb-8">
-        <div className="flex items-baseline gap-3 mb-2">
-          <h1 className="font-heading text-3xl font-semibold text-heading">Plant Price Index</h1>
-        </div>
+        <h1 className="font-heading text-3xl font-semibold text-heading mb-2">Plant Price Index</h1>
         <p className="text-sm text-muted font-body max-w-2xl mb-5">
           Live retail prices, market trends, and listing counts across all species in the directory.
           Prices sourced from UK retailers and eBay sold listings. Click any column header to sort.
         </p>
         <div className="flex flex-wrap gap-5 text-xs text-muted font-body">
-          <span>
-            <span className="font-semibold text-heading text-sm">{rows.length}</span>{' '}
-            species catalogued
-          </span>
+          <span><span className="font-semibold text-heading text-sm">{rows.length}</span> species catalogued</span>
+          {withEbay > 0 && (
+            <span><span className="font-semibold text-heading text-sm">{withEbay}</span> with eBay price data</span>
+          )}
           {withRetail > 0 && (
-            <span>
-              <span className="font-semibold text-heading text-sm">{withRetail}</span>{' '}
-              with live retail data
-            </span>
+            <span><span className="font-semibold text-heading text-sm">{withRetail}</span> with live retail data</span>
           )}
           {inStock > 0 && (
-            <span>
-              <span className="font-semibold text-leaf text-sm">{inStock}</span>{' '}
-              currently in stock
-            </span>
+            <span><span className="font-semibold text-leaf text-sm">{inStock}</span> currently in stock</span>
           )}
         </div>
       </div>

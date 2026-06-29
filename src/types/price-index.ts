@@ -13,9 +13,10 @@ export interface PriceIndexRow {
   threeMonthChangePercent: number | null;
   marketStatus: string | null;
   dbMedianPrice: number | null;
+  ebayMedianPrice: number | null;
+  ebayDataPoints: number | null;
   listingCount: number;
   inStockCount: number;
   retailerCount: number;
   hasRetailData: boolean;
-  ebayDataPoints: number | null;
 }

@@ -29,7 +29,7 @@ const RARITY_ORDER: Record<string, number> = {
 
 function getSortValue(row: PriceIndexRow, key: SortKey): string | number | null {
   switch (key) {
-    case 'displayPrice':   return row.dbMedianPrice ?? row.currentMedianPriceGBP ?? null;
+    case 'displayPrice':   return row.dbMedianPrice ?? row.ebayMedianPrice ?? row.currentMedianPriceGBP ?? null;
     case 'ebayDataPoints': return row.ebayDataPoints;
     case 'rarityStatus':   return RARITY_ORDER[row.rarityStatus] ?? -1;
     case 'priceGuideTier': return row.priceGuideTier.length;
@@ -243,11 +243,11 @@ export default function PriceIndexTable({ rows }: Props) {
                       <span className="text-xs font-medium text-accent">{row.priceGuideTier}</span>
                     </td>
 
-                    {/* Median £ — retailer DB price, falling back to AI estimate */}
+                    {/* Median £ — retailer DB → eBay sold comps → AI estimate */}
                     <td className="px-3 py-2 whitespace-nowrap">
                       {(() => {
-                        const price = row.dbMedianPrice ?? row.currentMedianPriceGBP;
-                        const isEstimate = !row.dbMedianPrice && row.estimatedSource === 'ai_estimate';
+                        const price = row.dbMedianPrice ?? row.ebayMedianPrice ?? row.currentMedianPriceGBP;
+                        const isEstimate = !row.dbMedianPrice && !row.ebayMedianPrice && row.estimatedSource === 'ai_estimate';
                         return price != null ? (
                           <span className={`text-xs font-medium ${isEstimate ? 'text-muted' : 'text-heading'}`}>
                             £{price.toFixed(0)}
@@ -366,8 +366,9 @@ export default function PriceIndexTable({ rows }: Props) {
 
       {/* Legend */}
       <p className="text-[10px] text-muted/70 font-body">
-        <strong>Median £<sup>~</sup></strong> — AI price estimate; no live retailer data yet for that species.
-        <strong> eBay #</strong> — number of sold listings used in the latest eBay price snapshot.
+        <strong>Median £</strong> — live retailer price, or eBay sold comp median where available.
+        <strong> £~</strong> — AI estimate only; no market data yet.
+        <strong> eBay #</strong> — accepted sold listings in the latest eBay snapshot.
         Retail listing counts cover the last 30 days.
       </p>
     </div>
