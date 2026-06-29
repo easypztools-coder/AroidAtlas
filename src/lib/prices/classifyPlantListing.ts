@@ -1,4 +1,5 @@
 import { NormalisedListing, ClassifiedListing, ListingType } from "./types";
+import { LITRE_TO_CM } from "./sizeRatios";
 
 /**
  * Classify a normalised listing into a listing type and detect lot size.
@@ -102,10 +103,37 @@ export function classifyListing(
     ? listing.totalPrice / lotSize
     : listing.totalPrice;
 
+  // ─── Pot Size Extraction ───────────────────────────────────────────────
+  const potSizeCm = extractPotSizeCm(title);
+
   return {
     ...listing,
     listingType,
     lotSize,
     unitPrice,
+    potSizeCm,
   };
+}
+
+/**
+ * Extract pot size in cm from a listing title.
+ * Handles: "17cm", "12 cm", "2L", "1 litre", "0.5L pot"
+ */
+export function extractPotSizeCm(title: string): number | undefined {
+  // Direct cm mention: "17cm", "12 cm pot"
+  const cmMatch = title.match(/\b(\d+(?:\.\d+)?)\s*cm\b/i);
+  if (cmMatch) {
+    const val = parseFloat(cmMatch[1]);
+    if (val >= 5 && val <= 50) return val;
+  }
+
+  // Litre pot: "2L", "1.5 litre", "2 liter"
+  const litreMatch = title.match(/\b(\d+(?:\.\d+)?)\s*(?:l|litre|liter|litres|liters)\b/i);
+  if (litreMatch) {
+    const litres = parseFloat(litreMatch[1]);
+    const entry = LITRE_TO_CM.find((e) => litres <= e.maxLitres);
+    if (entry) return entry.cm;
+  }
+
+  return undefined;
 }

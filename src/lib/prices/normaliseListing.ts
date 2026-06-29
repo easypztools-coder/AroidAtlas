@@ -43,6 +43,17 @@ export function normaliseListing(raw: SoldCompsRawItem, usdToGbpRate = 0.79): No
   // ─── Condition ─────────────────────────────────────────────────────────
   const condition = (raw.condition ?? "").trim();
 
+  // ─── Seller feedback ───────────────────────────────────────────────────
+  const sellerFeedbackScore =
+    typeof raw.sellerFeedbackScore === "number" ? raw.sellerFeedbackScore : undefined;
+  const sellerPositivePctRaw = raw.sellerPositivePercentage;
+  const sellerPositivePercentage =
+    typeof sellerPositivePctRaw === "number"
+      ? sellerPositivePctRaw
+      : typeof sellerPositivePctRaw === "string"
+      ? parseFloat(sellerPositivePctRaw)
+      : undefined;
+
   // ─── URL ───────────────────────────────────────────────────────────────
   // Use raw.url from SoldComps — it is the actual sale URL for the correct
   // marketplace. Constructing ebay.co.uk/itm/{id} breaks for US sales because
@@ -63,6 +74,8 @@ export function normaliseListing(raw: SoldCompsRawItem, usdToGbpRate = 0.79): No
     seller,
     condition,
     url,
+    sellerFeedbackScore,
+    sellerPositivePercentage,
   };
 }
 

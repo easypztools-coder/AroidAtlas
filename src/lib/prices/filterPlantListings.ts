@@ -44,12 +44,13 @@ const GLOBAL_EXCLUDE_TERMS = [
  *
  * Rules applied:
  * 1. Title must not contain any GLOBAL_EXCLUDE_TERMS (non-plant collectibles/media)
- * 2. Title must contain ALL requiredTerms
- * 3. Title must contain at least ONE acceptedTerms
- * 4. Title must NOT contain any per-plant excludeTerms
- * 5. Currency must be GBP or USD
- * 6. totalPrice must be > 0 and numeric
- * 7. totalPrice must be >= £5
+ * 2. Seller feedback: reject if feedbackScore < 50 AND positivePercentage < 90 (both must fail)
+ * 3. Title must contain ALL requiredTerms
+ * 4. Title must contain at least ONE acceptedTerms
+ * 5. Title must NOT contain any per-plant excludeTerms
+ * 6. Currency must be GBP or USD
+ * 7. totalPrice must be > 0 and numeric
+ * 8. totalPrice must be >= £5
  */
 export function filterPlantListings(
   listings: NormalisedListing[],
@@ -73,7 +74,23 @@ export function filterPlantListings(
       continue;
     }
 
-    // ─── 2. Required terms ──────────────────────────────────────────────
+    // ─── 2. Seller feedback quality ─────────────────────────────────────
+    // Both conditions must fail simultaneously (loose filter — avoids blocking
+    // legitimate niche sellers who are new to eBay).
+    const score = listing.sellerFeedbackScore;
+    const pct = listing.sellerPositivePercentage;
+    if (
+      typeof score === "number" && score < 50 &&
+      typeof pct === "number" && !isNaN(pct) && pct < 90
+    ) {
+      rejected.push({
+        listing,
+        reason: `Seller feedback too low (score: ${score}, positive: ${pct}%)`,
+      });
+      continue;
+    }
+
+    // ─── 3. Required terms (now step 3 in the updated pipeline) ─────────
     const hasAllRequired = config.requiredTerms.every((term) =>
       title.includes(term.toLowerCase())
     );

@@ -17,6 +17,7 @@ const PlantPhotoCarousel = dynamic(() => import("@/components/PlantPhotoCarousel
 import type { PriceHistoryPoint } from "@/lib/prices/types";
 import { getPriceRarityTier, getStaticTierLabel } from "@/lib/prices/priceRarityTier";
 import { getBotanicalTypeDetails } from "@/components/GenusPlantList";
+import PriceCalculator from "@/components/PriceCalculator";
 
 interface PricePoint {
   date: string;
@@ -98,6 +99,11 @@ interface PlantData {
     marketStatus: string | null;
   };
   priceHistory?: PricePoint[];
+  priceTracking?: {
+    enabled?: boolean;
+    varianceEnabled?: boolean;
+    [key: string]: unknown;
+  };
   recommendedPlants: RecommendedPlant[];
   propagation?: Propagation;
   careGuide?: CareGuide;
@@ -202,10 +208,13 @@ export default function PlantDetailPage({
     currency: string;
     url: string;
     listingType?: string;
+    lotSize?: number;
+    condition?: string;
   }
 
   const [soldCompsData, setSoldCompsData] = useState<PriceHistoryPoint[]>([]);
   const [fairPrice, setFairPrice] = useState<number | null>(null);
+  const [normalizedEbayPrice, setNormalizedEbayPrice] = useState<number | null>(null);
   const [fairPriceIsEstimate, setFairPriceIsEstimate] = useState(false);
   const [recentSales, setRecentSales] = useState<RecentSale[]>([]);
   const [hoveredWeekDate, setHoveredWeekDate] = useState<string | null>(null);
@@ -221,6 +230,9 @@ export default function PlantDetailPage({
         }
         if (typeof json.fairPurchasePrice === "number") {
           setFairPrice(json.fairPurchasePrice);
+        }
+        if (typeof json.normalizedAaPrice === "number") {
+          setNormalizedEbayPrice(json.normalizedAaPrice);
         }
         setFairPriceIsEstimate(json.isEstimate === true);
         if (json.recentSales && Array.isArray(json.recentSales)) {
@@ -280,12 +292,34 @@ export default function PlantDetailPage({
     return null;
   })();
 
-  const aaDisplayPrice: { value: number; source: "ebay" | "retail" | "estimate" } | null = (() => {
-    if (fairPrice !== null && !fairPriceIsEstimate) return { value: fairPrice, source: "ebay" };
-    if (retailAverage !== null) return { value: Math.round(retailAverage.value), source: "retail" };
-    if (fairPrice !== null) return { value: fairPrice, source: "estimate" };
-    return null;
-  })();
+  // Retail whole-plant 7cm equivalent: strip the retail markup factor.
+  // Retail prices are ~35% above secondhand market value.
+  const RETAIL_MARKUP = 1.35;
+  const retailWholesaleEquiv =
+    retailAverage !== null ? retailAverage.value / RETAIL_MARKUP : null;
+
+  const aaDisplayPrice: { value: number; source: "ebay" | "retail" | "blended" | "estimate" } | null =
+    (() => {
+      const ebayBase = normalizedEbayPrice ?? fairPrice;
+      const hasEbay = ebayBase !== null && !fairPriceIsEstimate;
+      const hasRetail = retailWholesaleEquiv !== null;
+
+      if (hasEbay && hasRetail) {
+        // Confidence-weighted blend: eBay weight scales with grade quality
+        const ebayWeight =
+          priceConfidence === "A" ? 4 : priceConfidence === "B" ? 3 : priceConfidence === "C" ? 2 : 1;
+        const retailWeight = 1;
+        const blended =
+          (ebayWeight * ebayBase! + retailWeight * retailWholesaleEquiv!) /
+          (ebayWeight + retailWeight);
+        return { value: Math.round(blended), source: "blended" };
+      }
+      if (hasEbay) return { value: Math.round(ebayBase!), source: "ebay" };
+      if (hasRetail)
+        return { value: Math.round(retailWholesaleEquiv!), source: "retail" };
+      if (fairPrice !== null) return { value: fairPrice, source: "estimate" };
+      return null;
+    })();
 
   const latestWeek = soldCompsData.length > 0 ? soldCompsData[soldCompsData.length - 1] : null;
   const showTypicalRange = latestWeek !== null && !fairPriceIsEstimate && latestWeek.p25 < latestWeek.p75;
@@ -490,11 +524,23 @@ export default function PlantDetailPage({
                                     {typeLabel}
                                   </span>
                                 )}
+                                {sale.condition && sale.condition !== "" && (
+                                  <span className="rounded-sm bg-muted/10 px-1.5 py-0.5 text-[9px] font-medium text-muted">
+                                    {sale.condition}
+                                  </span>
+                                )}
+                                {sale.lotSize && sale.lotSize > 1 && (
+                                  <span className="rounded-sm bg-yellow-500/10 px-1.5 py-0.5 text-[9px] font-medium text-yellow-700 dark:text-yellow-400">
+                                    Lot ×{sale.lotSize}
+                                  </span>
+                                )}
                                 <span className="text-[9px] text-muted">{displayDate}</span>
                               </div>
                               <div className="mt-1 flex items-center justify-between">
                                 <span className="text-xs font-bold text-leaf">
-                                  {isUsSale
+                                  {sale.lotSize && sale.lotSize > 1
+                                    ? `${isUsSale ? "~" : ""}£${sale.totalPrice.toFixed(2)} lot · ~£${(sale.totalPrice / sale.lotSize).toFixed(2)}/ea`
+                                    : isUsSale
                                     ? `~£${sale.totalPrice.toFixed(2)}`
                                     : `£${sale.totalPrice.toFixed(2)}`}
                                 </span>
@@ -984,7 +1030,7 @@ export default function PlantDetailPage({
                 >
                   £{aaDisplayPrice.value.toFixed(0)}
                 </span>
-                <span className="text-xs text-muted">GBP</span>
+                <span className="text-xs text-muted">· 7cm plant</span>
                 <span
                   className={`ml-auto rounded-sm px-1.5 py-0.5 text-[9px] font-semibold ${
                     priceSampleCount !== null && priceSampleCount < 5
@@ -994,22 +1040,49 @@ export default function PlantDetailPage({
                 >
                   {priceSampleCount !== null && priceSampleCount < 5
                     ? `Low data (${priceSampleCount} sale${priceSampleCount !== 1 ? "s" : ""})`
+                    : aaDisplayPrice.source === "blended"
+                    ? `Blended${priceConfidence ? ` · Grade ${priceConfidence}` : ""}`
                     : aaDisplayPrice.source === "ebay"
-                    ? `eBay Global${priceConfidence ? ` · Grade ${priceConfidence}` : ""}`
+                    ? `eBay${priceConfidence ? ` · Grade ${priceConfidence}` : ""}`
                     : aaDisplayPrice.source === "retail"
                     ? "Retail Derived"
                     : "Estimate"}
                 </span>
               </div>
               <p className="mt-1.5 text-xs text-muted">
-                {aaDisplayPrice.source === "ebay"
-                  ? "Based on global eBay sales converted to GBP"
+                {aaDisplayPrice.source === "blended"
+                  ? "Blended from eBay sold data and retail listings"
+                  : aaDisplayPrice.source === "ebay"
+                  ? "Based on eBay sold data, normalised to 7cm"
                   : aaDisplayPrice.source === "retail"
-                  ? "Based on current UK retail prices"
+                  ? "Retail price adjusted for secondhand market"
                   : "Community estimate — limited market data"}
               </p>
+
+              {/* Sub-prices: derived from AA Price via size ratios */}
+              {(aaDisplayPrice.source === "ebay" || aaDisplayPrice.source === "blended") &&
+                priceSampleCount !== null && priceSampleCount >= 5 && (
+                  <div className="mt-3 space-y-1 border-t border-accent/15 pt-3">
+                    <p className="text-[9px] font-semibold uppercase tracking-wider text-muted/60">
+                      Derived estimates
+                    </p>
+                    <div className="flex justify-between text-[10px]">
+                      <span className="text-muted">Rooted cutting</span>
+                      <span className="font-semibold text-accent/80">
+                        ~£{Math.round(aaDisplayPrice.value * 0.32)}
+                      </span>
+                    </div>
+                    <div className="flex justify-between text-[10px]">
+                      <span className="text-muted">TC / Plantlet</span>
+                      <span className="font-semibold text-accent/80">
+                        ~£{Math.round(aaDisplayPrice.value * 0.12)}
+                      </span>
+                    </div>
+                  </div>
+                )}
+
               {soldCompsData.length > 0 && (
-                <p className="mt-1 text-[10px] text-muted/60">
+                <p className="mt-2 text-[10px] text-muted/60">
                   Data as of{" "}
                   {new Date(soldCompsData[soldCompsData.length - 1].date).toLocaleDateString("en-GB", {
                     month: "short",
@@ -1025,6 +1098,15 @@ export default function PlantDetailPage({
               </a>
             </div>
           )}
+
+          {/* ── Price Calculator ── */}
+          {aaDisplayPrice !== null && (aaDisplayPrice.source === "ebay" || aaDisplayPrice.source === "blended") &&
+            priceSampleCount !== null && priceSampleCount >= 5 && (
+              <PriceCalculator
+                aaPrice={aaDisplayPrice.value}
+                varianceEnabled={!!data.priceTracking?.varianceEnabled}
+              />
+            )}
 
           {/* ── KPI Cards ── */}
           <div className="space-y-3">

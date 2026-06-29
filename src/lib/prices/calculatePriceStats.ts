@@ -85,9 +85,14 @@ export function calculateStats(
   else if (sampleSize >= 15) confidence = "B";
   else if (sampleSize >= 5) confidence = "C";
 
-  // Downgrade if more than 50% of results were rejected
+  // Downgrade if more than 50% of results were rejected at filter stage
   const totalResults = sampleSize + totalRejectedCount;
   if (totalResults > 0 && totalRejectedCount / totalResults > 0.5) {
+    confidence = confidence === "A" ? "B" : confidence === "B" ? "C" : "D";
+  }
+
+  // Downgrade if more than 30% of accepted prices were IQR outliers
+  if (outlierCount > 0 && outlierCount / (sampleSize + outlierCount) > 0.3) {
     confidence = confidence === "A" ? "B" : confidence === "B" ? "C" : "D";
   }
 

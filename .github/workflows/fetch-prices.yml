@@ -63,3 +63,9 @@ jobs:
             git pull --rebase origin main
             git push
           fi
+
+      - name: Notify on failure
+        if: failure()
+        run: |
+          curl -s -o /dev/null -d "AroidAtlas price fetch FAILED — check GitHub Actions: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            https://ntfy.sh/aroidatlas-price-alerts || true

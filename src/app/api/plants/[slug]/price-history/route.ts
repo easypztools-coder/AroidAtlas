@@ -3,6 +3,8 @@ import fs from "fs";
 import path from "path";
 import { loadLatestSnapshot, loadLatestSnapshotFromDb } from "@/lib/prices/database";
 import { PriceHistoryResponse, PriceHistoryPoint } from "@/lib/prices/types";
+import { getListingRatio } from "@/lib/prices/sizeRatios";
+import { extractPotSizeCm } from "@/lib/prices/classifyPlantListing";
 
 /**
  * ─── PUBLIC PRICE HISTORY ─────────────────────────────────────────────────
@@ -118,21 +120,35 @@ export async function GET(
   }
 
   // ════════════════════════════════════════════════════════════════════════
-  // 2. CALCULATE FAIR PURCHASE PRICE
+  // 2. CALCULATE FAIR PURCHASE PRICE & NORMALISED AA PRICE
   // ════════════════════════════════════════════════════════════════════════
-  //
-  // Take all accepted listings from the latest snapshot.
-  // Remove top & bottom 20% (outliers), then calculate trimmed mean.
-  // This gives a "fair" price you'd expect to pay today.
 
-  const allPrices: number[] = (snapshot.listings ?? [])
-    .map((l) => l.totalPrice ?? l.soldPrice ?? 0)
+  const listings = snapshot.listings ?? [];
+
+  // Raw trimmed mean — all listing types mixed (legacy, used for fallback)
+  const allPrices: number[] = listings
+    .map((l) => l.unitPrice ?? l.totalPrice ?? l.soldPrice ?? 0)
     .filter((p) => p > 0)
     .sort((a, b) => a - b);
 
   const fairPurchasePrice = calculateTrimmedMean(allPrices, 0.2);
 
-  const recentSales = (snapshot.listings ?? [])
+  // Normalised AA Price — every listing unit price divided by its size ratio,
+  // expressing all prices as "what would a standard 7cm whole plant cost?"
+  const normalised7cmPrices: number[] = listings
+    .map((l) => {
+      const unitPrice = l.unitPrice ?? l.totalPrice ?? l.soldPrice ?? 0;
+      if (unitPrice <= 0) return 0;
+      const potSizeCm = extractPotSizeCm(l.title);
+      const ratio = getListingRatio(l.listingType ?? "unknown", potSizeCm);
+      return unitPrice / ratio;
+    })
+    .filter((p) => p > 0)
+    .sort((a, b) => a - b);
+
+  const normalizedAaPrice = calculateTrimmedMean(normalised7cmPrices, 0.2);
+
+  const recentSales = listings
     .map((l) => ({
       title: l.title,
       soldPrice: l.soldPrice,
@@ -141,6 +157,8 @@ export async function GET(
       currency: l.currency,
       url: l.url,
       listingType: l.listingType,
+      lotSize: l.lotSize,
+      condition: l.condition,
     }))
     .sort((a, b) => {
       const dateA = a.soldDate ? new Date(a.soldDate).getTime() : 0;
@@ -156,10 +174,12 @@ export async function GET(
     slug,
     history,
     fairPurchasePrice,
+    normalizedAaPrice,
     recentSales,
     isEstimate: false,
     confidenceScore,
     sampleCount,
+    aaSource: "ebay",
   };
 
   return NextResponse.json(response);

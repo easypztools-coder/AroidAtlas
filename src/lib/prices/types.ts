@@ -35,6 +35,8 @@ export interface NormalisedListing {
   seller: string;
   condition: string;
   url: string;
+  sellerFeedbackScore?: number;
+  sellerPositivePercentage?: number;
 }
 
 // ─── Listing Classification ────────────────────────────────────────────────
@@ -54,6 +56,7 @@ export type ListingType =
 export interface ClassifiedListing extends NormalisedListing {
   listingType: ListingType;
   lotSize: number;
+  potSizeCm?: number;
 }
 
 // ─── Filtering ─────────────────────────────────────────────────────────────
@@ -163,16 +166,21 @@ export interface RecentSale {
   soldDate: string | null;
   currency: string;
   url: string;
+  listingType?: string;
+  lotSize?: number;
+  condition?: string;
 }
 
 export interface PriceHistoryResponse {
   slug: string;
   history: PriceHistoryPoint[];
   fairPurchasePrice: number | null;
+  normalizedAaPrice?: number | null;
   recentSales?: RecentSale[];
   isEstimate?: boolean;
   confidenceScore?: string;
   sampleCount?: number;
+  aaSource?: "ebay" | "retail" | "blended" | "estimate";
 }
 
 // ─── Admin Update Response ─────────────────────────────────────────────────

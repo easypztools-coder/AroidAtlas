@@ -325,16 +325,16 @@ async function main() {
           );
           const snapshotId = snapRes.rows[0].id;
 
-          const vals = acceptedListings.map((_, i) => {
+          const vals = classified.map((_, i) => {
             const b = i * 13;
             return `($${b+1},$${b+2},$${b+3},$${b+4},$${b+5},$${b+6},$${b+7},$${b+8},$${b+9},$${b+10},$${b+11},$${b+12},$${b+13})`;
           });
           const params: any[] = [];
-          for (const l of acceptedListings) {
+          for (const l of classified) {
             params.push(
-              snapshotId, slug, l.title, l.listingType, 1,
-              l.soldPrice, 0, l.totalPrice, l.totalPrice,
-              l.currency, l.soldDate || null, l.url, null
+              snapshotId, slug, l.originalTitle, l.listingType, l.lotSize,
+              l.soldPrice, l.shippingPrice, l.totalPrice, l.unitPrice,
+              l.currency, l.soldDate || null, l.url, l.seller || null
             );
           }
           await db.query(
