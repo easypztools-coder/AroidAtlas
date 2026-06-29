@@ -5,17 +5,51 @@ export interface FilterResult {
   rejected: { listing: NormalisedListing; reason: string }[];
 }
 
+// Terms that are never part of a legitimate plant listing regardless of plant species.
+// These catch collectibles, military gear, media, toys etc. that share a plant's name.
+const GLOBAL_EXCLUDE_TERMS = [
+  "challenge coin",
+  "action figure",
+  "1/6 scale",
+  "1:6 scale",
+  "blu-ray",
+  "blu ray",
+  " dvd ",
+  "dvd ",
+  "soundtrack",
+  "militaria",
+  "military patch",
+  "embroidered patch",
+  "tactical vest",
+  "special forces",
+  "navy seal",
+  "army ranger",
+  "video game",
+  "pc game",
+  "board game",
+  "trading card",
+  "jigsaw",
+  "funko pop",
+  "lego ",
+  "minifig",
+  "t-shirt",
+  "hoodie",
+  "sweatshirt",
+  "coffee mug",
+  "sticker pack",
+];
+
 /**
  * Filter normalised listings based on a species' priceTracking rules.
  *
  * Rules applied:
- * 1. Title must contain ALL requiredTerms
- * 2. Title must contain at least ONE acceptedTerms
- * 3. Title must NOT contain any excludeTerms
- * 4. Currency must be GBP
- * 5. totalPrice must be > 0 and numeric
- * 6. totalPrice must be >= £5
- * 7. Title must not be obviously not the target species
+ * 1. Title must not contain any GLOBAL_EXCLUDE_TERMS (non-plant collectibles/media)
+ * 2. Title must contain ALL requiredTerms
+ * 3. Title must contain at least ONE acceptedTerms
+ * 4. Title must NOT contain any per-plant excludeTerms
+ * 5. Currency must be GBP or USD
+ * 6. totalPrice must be > 0 and numeric
+ * 7. totalPrice must be >= £5
  */
 export function filterPlantListings(
   listings: NormalisedListing[],
@@ -27,7 +61,19 @@ export function filterPlantListings(
   for (const listing of listings) {
     const title = listing.title;
 
-    // ─── 1. Required terms ──────────────────────────────────────────────
+    // ─── 1. Global non-plant block list ─────────────────────────────────
+    const globalExcluded = GLOBAL_EXCLUDE_TERMS.find((term) =>
+      title.includes(term.toLowerCase())
+    );
+    if (globalExcluded) {
+      rejected.push({
+        listing,
+        reason: `Global block: contains "${globalExcluded}"`,
+      });
+      continue;
+    }
+
+    // ─── 2. Required terms ──────────────────────────────────────────────
     const hasAllRequired = config.requiredTerms.every((term) =>
       title.includes(term.toLowerCase())
     );
@@ -41,7 +87,7 @@ export function filterPlantListings(
       continue;
     }
 
-    // ─── 2. Accepted terms (at least one) ────────────────────────────────
+    // ─── 3. Accepted terms (at least one) ────────────────────────────────
     const hasAccepted = config.acceptedTerms.some((term) =>
       title.includes(term.toLowerCase())
     );
@@ -53,7 +99,7 @@ export function filterPlantListings(
       continue;
     }
 
-    // ─── 3. Exclude terms ────────────────────────────────────────────────
+    // ─── 4. Exclude terms ────────────────────────────────────────────────
     const hasExcluded = config.excludeTerms.some((term) =>
       title.includes(term.toLowerCase())
     );
@@ -67,7 +113,7 @@ export function filterPlantListings(
       continue;
     }
 
-    // ─── 4. Currency check — accept GBP or USD (convert USD to GBP) ────
+    // ─── 5. Currency check — accept GBP or USD (convert USD to GBP) ────
     const currency = listing.currency;
     if (currency !== "GBP" && currency !== "USD") {
       rejected.push({
@@ -77,7 +123,7 @@ export function filterPlantListings(
       continue;
     }
 
-    // ─── 5. Price validity ──────────────────────────────────────────────
+    // ─── 6. Price validity ──────────────────────────────────────────────
     if (listing.totalPrice <= 0 || isNaN(listing.totalPrice)) {
       rejected.push({
         listing,
@@ -86,7 +132,7 @@ export function filterPlantListings(
       continue;
     }
 
-    // ─── 6. Minimum price ────────────────────────────────────────────────
+    // ─── 7. Minimum price ────────────────────────────────────────────────
     if (listing.totalPrice < 5) {
       rejected.push({
         listing,
@@ -95,7 +141,7 @@ export function filterPlantListings(
       continue;
     }
 
-    // ─── 7. Passed all checks ────────────────────────────────────────────
+    // ─── 8. Passed all checks ────────────────────────────────────────────
     accepted.push(listing);
   }
 

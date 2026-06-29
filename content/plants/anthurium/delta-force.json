@@ -74,7 +74,7 @@
     "source": "soldcomps",
     "marketplace": "ebay.co.uk",
     "query": "anthurium delta force",
-    "requiredTerms": [],
+    "requiredTerms": ["anthurium"],
     "acceptedTerms": [
       "delta force",
       "anthurium delta force",
