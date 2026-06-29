@@ -97,6 +97,28 @@ async function buildRows(): Promise<PriceIndexRow[]> {
   const retailSnapMap = new Map<string, number | null>();
   const ebayMap = new Map<string, { median: number | null; count: number | null }>();
 
+  // Read eBay data from filesystem snapshots first — always available, deployed with the bundle.
+  // DB will override these values where it has fresher data.
+  const priceSnapshotsRoot = path.join(process.cwd(), 'content', 'price-snapshots');
+  if (fs.existsSync(priceSnapshotsRoot)) {
+    for (const slug of fs.readdirSync(priceSnapshotsRoot)) {
+      const latestPath = path.join(priceSnapshotsRoot, slug, 'latest.json');
+      try {
+        if (fs.existsSync(latestPath)) {
+          const data = JSON.parse(fs.readFileSync(latestPath, 'utf-8'));
+          if (data?.snapshot) {
+            ebayMap.set(slug, {
+              median: data.snapshot.medianPrice ?? null,
+              count: data.snapshot.acceptedCount ?? null,
+            });
+          }
+        }
+      } catch {
+        // skip malformed snapshot
+      }
+    }
+  }
+
   const hasDb = !!(process.env.POSTGRES_URL || process.env.DATABASE_URL);
   if (hasDb) {
     try {
@@ -104,7 +126,7 @@ async function buildRows(): Promise<PriceIndexRow[]> {
       const [obsResult, retailSnapResult, ebayResult] = await Promise.all([
         db.query(QUERY_OBSERVATIONS),
         db.query(QUERY_RETAIL_SNAPSHOTS),
-        db.query(QUERY_EBAY_SNAPSHOTS),
+        db.query(QUERY_EBAY_SNAPSHOTS).catch(() => ({ rows: [] })),
       ]);
       for (const row of obsResult.rows) {
         obsMap.set(row.plant_slug, {
@@ -116,6 +138,7 @@ async function buildRows(): Promise<PriceIndexRow[]> {
       for (const row of retailSnapResult.rows) {
         retailSnapMap.set(row.plant_slug, row.median_price != null ? parseFloat(row.median_price) : null);
       }
+      // DB overrides filesystem eBay data where available
       for (const row of ebayResult.rows) {
         ebayMap.set(row.plant_slug, {
           median: row.ebay_median != null ? parseFloat(row.ebay_median) : null,
@@ -123,7 +146,7 @@ async function buildRows(): Promise<PriceIndexRow[]> {
         });
       }
     } catch (err) {
-      console.error('[price-index] DB query failed, showing JSON-only data:', err);
+      console.error('[price-index] DB query failed, showing filesystem data:', err);
     }
   }
 

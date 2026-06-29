@@ -212,7 +212,7 @@ export async function GET(request: NextRequest) {
       console.log(`[Cron Scraper] Extracted ${extracted.length} products from ${retailer.name}`);
 
       const seenProductUrls: string[] = [];
-      let fetched = extracted.length;
+      const fetched = extracted.length;
       let accepted = 0;
       let review = 0;
       let rejected = 0;

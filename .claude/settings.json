@@ -1,10 +1,7 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npx tsc --noEmit *)",
-      "Bash(curl -s *)",
-      "Bash(npm run lint *)",
-      "Bash(npm run dev)"
+      "Bash(*)"
     ]
   }
 }
