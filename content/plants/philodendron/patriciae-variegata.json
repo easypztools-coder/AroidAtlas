@@ -11,7 +11,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Ultra Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£",
   "aboutText": "Philodendron patriciae 'Variegata' is a highly coveted variegated form of the Colombian species, prized for its extraordinary pendant leaves that can grow 50-100 cm or more in length. It features a unique corrugated and quilted texture between the veins and a prominent pale midrib. The variegation displays as stunning cream to yellow sectors, marbling, or mottling over the deep green foliage. It is a vigorous climber that thrives in warm, humid conditions with vertical support.",
   "quickFacts": {
     "growthHabit": "Climbing vine with aerial roots",
@@ -33,7 +33,7 @@
     "growthHabit": "Climbing with elongated internodes"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 700,
+    "currentMedianPriceGBP": 23,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Ultra Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£££",
   "aboutText": "The Napo Form of Monstera obliqua is a hemiepiphyte native to the humid, lowland to lower montane rainforests of Napo, Ecuador. It thrives in warm, shaded understories with high humidity and filtered light, ascending slender supports with aerial roots. This form is distinguished by its elongated, oblong-elliptic leaves with multiple irregular perforations. It represents a cultivated locality form, valued for its unique fenestration and airy structure.",
   "quickFacts": {
     "growthHabit": "Hemiepiphyte climber",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 19,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

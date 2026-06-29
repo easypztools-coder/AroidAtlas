@@ -12,7 +12,7 @@
   "collectorPopularity": 3,
   "rarityStatus": "Uncommon",
   "availability": "Moderate",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Begonia serratipetala, described by Irmsch., is a caulescent cane begonia from the humid tropical forests of New Guinea, growing in warm, shaded understory conditions with high humidity on moist organic substrate where filtered light supports its refined habit. The slender upright canes with distinct nodes carry asymmetrical, elongated leaves of deep green densely marked with silvery spots, with serrate to finely toothed margins adding textural interest. Reddish, setose petioles and leaf undersides are characteristic. The plant's combination of the spotted foliage pattern with the clean cane habit and serrated margins gives it a more refined, graphic quality than many cane begonias, and it remains a popular choice for collectors who want something more interesting than the common maculata but more manageable than the rarer Bornean species.",
   "quickFacts": {
     "growthHabit": "Upright caulescent cane",
@@ -34,7 +34,7 @@
     "growthHabit": "Slender upright canes with distinct nodes"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 20,
+    "currentMedianPriceGBP": 9,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

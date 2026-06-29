@@ -11,7 +11,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Philodendron sodiroi 'Variegated' is a stunning climbing aroid native to Colombia. Prized for its gorgeous, broad ovate-cordate leaves with a shallow sinus, this variety is highly sought after by collectors. In cultivation, it thrives in warm, humid conditions with bright indirect light and vertical support to shingle and climb. Its foliage displays a matte-satin texture adorned with a distinctive silver pattern (mottling) overlaid with beautiful cream-to-pale-yellow marbling or sectoral patches.",
   "quickFacts": {
     "growthHabit": "Climbing aroid",
@@ -33,7 +33,7 @@
     "growthHabit": "Climbing with aerial roots at nodes"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 130,
+    "currentMedianPriceGBP": 14,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Anthurium polyschistum is a naturally occurring epiphyte native to the wet tropical forests of Colombia, Ecuador, and northeastern Bolivia. It thrives in humid, shaded to bright understory conditions, growing on tree trunks and large branches, preferring good air movement and organic-rich detritus. Its distinct morphology includes pedately divided leaves with 7-11 narrow, linear-lanceolate lobes that are rigid to mildly undulate, featuring a glossy dark green surface and a prominent midrib. This species adapts well to humid montane and lowland forests with abundant rainfall and filtered light, often climbing with aerial roots.",
   "quickFacts": {
     "growthHabit": "Epiphytic, climbing",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing Epiphyte"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 80,
+    "currentMedianPriceGBP": 10,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

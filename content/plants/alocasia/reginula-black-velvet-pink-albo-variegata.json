@@ -11,7 +11,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Ultra Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£",
   "aboutText": "Alocasia reginula 'Black Velvet' Pink Albo Variegata is a highly sought-after aroid cultivar, originating from Borneo where the species thrives as a humid tropical understory plant. This specific variegated form is a rare collector's selection, distinguished by its striking foliage. The plant features thick, velvety, almost black sagittate to heart-shaped leaves, adorned with vibrant blush pink, white, and dark green marbling or sectoral variegation patches. It maintains a compact, upright, and self-heading growth habit, supported by relatively short, reddish petioles and crisp silver venation, making it a truly unique specimen.",
   "quickFacts": {
     "growthHabit": "Compact, upright, self-heading",
@@ -33,7 +33,7 @@
     "growthHabit": "Compact, self-heading"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 380,
+    "currentMedianPriceGBP": 24,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

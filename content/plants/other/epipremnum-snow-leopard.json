@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Epipremnum 'Snow Leopard' is a striking variegated cultivar derived from tropical Epipremnum ancestry, selected for its distinctive cream to pale yellow marbling on an elongated, pinnatum-type leaf. The variegation appears as irregular patches and streaks rather than a sectoral pattern, creating a dappled, almost leopard-like effect across the deep green surface. It climbs readily with slender stems and produces aerial roots at every node, making it well suited to moss poles or bark mounts. A cultivar of genuine collector appeal that stands apart from the more common Marble Queen or Neon lineages.",
   "quickFacts": {
     "growthHabit": "Climbing viner",
@@ -34,7 +34,7 @@
     "growthHabit": "Vining climber with aerial roots at nodes"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 110,
+    "currentMedianPriceGBP": 8,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

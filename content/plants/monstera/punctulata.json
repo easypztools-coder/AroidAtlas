@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Monstera punctulata is a robust climbing aroid native to the wet tropical forests of Southern Mexico and Central America. In its juvenile stage, it shingles closely against tree trunks, while the adult shoots climb strongly with visible nodes and aerial roots. Mature leaves are glossy, medium green, oblong to ovate-elliptic, and feature a distinct midrib and numerous elongated interior perforations plus marginal divisions toward the leaf edge. The stout stems show moderate internodes and abundant climbing aerial roots.",
   "quickFacts": {
     "growthHabit": "Root-climbing hemiepiphytic climber",
@@ -34,7 +34,7 @@
     "growthHabit": "Stout climbing stem"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 187,
+    "currentMedianPriceGBP": 30,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

@@ -11,7 +11,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Very Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Philodendron tortum 'Aurea Variegated' is an exceptional climbing aroid native from northern Brazil to Bolivia. Prized for its highly unusual, deeply divided skeleton-like or lace-like leaves with many narrow, linear segments, this cultivated select form displays vibrant aurea (yellow to chartreuse) variegation in both sectoral patches and delicate marbling. It has a climbing growth habit, supported by smooth green petioles with sheathing nodes and sturdy aerial roots, and thrives in wet tropical setups with bright indirect light and high humidity.",
   "quickFacts": {
     "growthHabit": "Climbing Aroid",
@@ -33,7 +33,7 @@
     "growthHabit": "Climbing with aerial roots at nodes"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 190,
+    "currentMedianPriceGBP": 38,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"
