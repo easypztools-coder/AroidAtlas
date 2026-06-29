@@ -174,6 +174,19 @@ async function main() {
         )
       `);
       await db.query(`CREATE INDEX IF NOT EXISTS idx_ebay_listings_plant_date ON ebay_price_listings(plant_slug, sold_date DESC)`);
+      // Unique index prevents the same eBay sold listing accumulating across repeated runs
+      await db.query(`CREATE UNIQUE INDEX IF NOT EXISTS idx_ebay_listings_plant_url ON ebay_price_listings(plant_slug, url) WHERE url <> ''`);
+      // One-time cleanup: remove duplicate URL rows, keeping the earliest insert per plant+url
+      await db.query(`
+        DELETE FROM ebay_price_listings
+        WHERE url <> ''
+          AND id NOT IN (
+            SELECT MIN(id)
+            FROM ebay_price_listings
+            WHERE url <> ''
+            GROUP BY plant_slug, url
+          )
+      `);
       console.log("Database connection established — snapshots will also be saved to Postgres.");
     } catch (dbErr) {
       console.warn("Database connection failed, running filesystem-only:", dbErr);
@@ -342,7 +355,8 @@ async function main() {
                (snapshot_id, plant_slug, title, listing_type, lot_size,
                 sold_price, shipping_price, total_price, unit_price,
                 currency, sold_date, url, seller)
-             VALUES ${vals.join(", ")}`,
+             VALUES ${vals.join(", ")}
+             ON CONFLICT (plant_slug, url) WHERE url <> '' DO NOTHING`,
             params
           );
           console.log(`  ✓ Saved to database (snapshot ID: ${snapshotId})`);

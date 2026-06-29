@@ -155,6 +155,21 @@ export async function GET(request: NextRequest) {
       CREATE INDEX IF NOT EXISTS idx_ebay_listings_plant_date
         ON ebay_price_listings(plant_slug, sold_date DESC)
     `);
+    await db.query(`
+      CREATE UNIQUE INDEX IF NOT EXISTS idx_ebay_listings_plant_url
+        ON ebay_price_listings(plant_slug, url) WHERE url <> ''
+    `);
+    // One-time cleanup of existing duplicates
+    await db.query(`
+      DELETE FROM ebay_price_listings
+      WHERE url <> ''
+        AND id NOT IN (
+          SELECT MIN(id)
+          FROM ebay_price_listings
+          WHERE url <> ''
+          GROUP BY plant_slug, url
+        )
+    `);
   } catch (dbErr) {
     console.error("[update-ebay-prices] DB setup failed (non-fatal):", dbErr);
     db = null;
@@ -248,7 +263,8 @@ export async function GET(request: NextRequest) {
                  (snapshot_id, plant_slug, title, listing_type, lot_size,
                   sold_price, shipping_price, total_price, unit_price,
                   currency, sold_date, url, seller)
-               VALUES ${vals.join(", ")}`,
+               VALUES ${vals.join(", ")}
+               ON CONFLICT (plant_slug, url) WHERE url <> '' DO NOTHING`,
               params
             );
           }

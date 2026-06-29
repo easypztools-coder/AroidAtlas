@@ -75,15 +75,28 @@ export async function loadLatestSnapshotFromDb(slug: string): Promise<SnapshotRe
     };
 
     // Get all individual listings for this plant across all snapshots,
-    // most recent sales first. Scoping to a single snapshot_id misses
-    // listings from earlier runs that are still the most recent sold data.
+    // deduplicating by URL (same eBay listing can appear across multiple runs).
+    // For listings without a URL, deduplicate by (title, sold_date).
     const listingsRes = await db.query(
-      `SELECT l.title, l.listing_type, l.lot_size, l.sold_price, l.shipping_price,
-              l.total_price, l.unit_price, l.currency, l.sold_date, l.url, l.seller, l.condition
-       FROM ebay_price_listings l
-       JOIN ebay_price_snapshots s ON l.snapshot_id = s.id
-       WHERE s.plant_slug = $1
-       ORDER BY l.sold_date DESC NULLS LAST
+      `WITH deduped AS (
+         SELECT DISTINCT ON (
+           CASE WHEN l.url <> '' THEN l.url
+                ELSE l.plant_slug || '|' || l.title || '|' || COALESCE(l.sold_date::text, '')
+           END
+         )
+           l.title, l.listing_type, l.lot_size, l.sold_price, l.shipping_price,
+           l.total_price, l.unit_price, l.currency, l.sold_date, l.url, l.seller, l.condition
+         FROM ebay_price_listings l
+         JOIN ebay_price_snapshots s ON l.snapshot_id = s.id
+         WHERE s.plant_slug = $1
+         ORDER BY
+           CASE WHEN l.url <> '' THEN l.url
+                ELSE l.plant_slug || '|' || l.title || '|' || COALESCE(l.sold_date::text, '')
+           END,
+           l.id ASC
+       )
+       SELECT * FROM deduped
+       ORDER BY sold_date DESC NULLS LAST
        LIMIT 150`,
       [slug]
     );
