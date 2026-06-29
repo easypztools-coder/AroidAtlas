@@ -38,3 +38,6 @@ next-env.d.ts
 # old nested repo (consolidated into root)
 aroid-atlas/
 .env*
+
+# Price snapshots — DB is the source of truth; these files are local-dev fallbacks only
+content/price-snapshots/

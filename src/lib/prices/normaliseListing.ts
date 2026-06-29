@@ -44,11 +44,12 @@ export function normaliseListing(raw: SoldCompsRawItem, usdToGbpRate = 0.79): No
   const condition = (raw.condition ?? "").trim();
 
   // ─── URL ───────────────────────────────────────────────────────────────
-  // Build from itemId rather than raw.url — SoldComps can return ebay.com (US)
-  // URLs or mismatched links even when querying ebay.co.uk.
-  const url = raw.itemId
-    ? `https://www.ebay.co.uk/itm/${raw.itemId}`
-    : (raw.url ?? "").trim();
+  // Use raw.url from SoldComps — it is the actual sale URL for the correct
+  // marketplace. Constructing ebay.co.uk/itm/{id} breaks for US sales because
+  // the same item ID on ebay.co.uk shows a different active listing at a
+  // different price, not the completed US sale.
+  const rawUrl = (raw.url ?? "").trim();
+  const url = rawUrl || (raw.itemId ? `https://www.ebay.com/itm/${raw.itemId}` : "");
 
   return {
     title,

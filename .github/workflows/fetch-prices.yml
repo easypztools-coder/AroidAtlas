@@ -55,7 +55,7 @@ jobs:
         run: |
           git config --local user.email "bot@aroid-atlas.com"
           git config --local user.name "Aroid Atlas Bot"
-          git add content/price-snapshots/ content/plants/
+          git add content/plants/
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
