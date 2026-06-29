@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Ultra Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£",
   "aboutText": "The Monstera obliqua 'Sangay Form' is a highly sought-after, delicate climber originating from the montane rainforests of the Sangay region in Ecuador. Unlike more heavily perforated forms, this selection is prized for its refined, narrow, oblong-lanceolate leaves that remain largely intact even as the plant matures. It thrives in cool, humid environments with filtered light, naturally ascending tree trunks via fine aerial roots. This specific locality form represents a distinct, stable expression of the species that appeals to serious collectors of rare Aroid genetics.",
   "quickFacts": {
     "growthHabit": "Climbing epiphyte",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 25,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

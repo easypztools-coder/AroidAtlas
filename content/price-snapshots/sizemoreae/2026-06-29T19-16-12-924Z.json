@@ -1,0 +1,65 @@
+{
+  "snapshot": {
+    "plantSlug": "sizemoreae",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia sizemoreae Vietnam",
+    "checkedAt": "2026-06-29T19:16:12.924Z",
+    "currency": "GBP",
+    "rawResultCount": 3,
+    "acceptedCount": 2,
+    "rejectedCount": 1,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 6.1,
+    "p25Price": 9.82,
+    "medianPrice": 13.54,
+    "meanPrice": 13.54,
+    "trimmedMeanPrice": 13.54,
+    "p75Price": 17.259999999999998,
+    "maxPrice": 20.98,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 2,
+    "min": 6.1,
+    "max": 20.98,
+    "median": 13.54,
+    "mean": 13.54,
+    "p25": 9.82,
+    "p75": 17.259999999999998,
+    "iqr": 7.439999999999998,
+    "trimmedMean": 13.54,
+    "confidenceScore": "D",
+    "rejectedCount": 1,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Begonia Sizemoreae Longiciliata",
+      "url": "https://www.ebay.co.uk/itm/366387775776",
+      "soldPrice": 3.16,
+      "totalPrice": 6.1,
+      "soldDate": "2026-05-11",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "begonia sizemoreae House plant Begonia 12cm potted",
+      "url": "https://www.ebay.co.uk/itm/297753452210",
+      "soldPrice": 15.99,
+      "totalPrice": 20.98,
+      "soldDate": "2026-05-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 2,
+  "rejectedCount": 1,
+  "rejectionBreakdown": {
+    "Global block": [
+      "victoria's secret vs pink french terry full zip colorblock hoodie soft begonia l"
+    ]
+  }
+}

@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Ultra Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£",
   "aboutText": "Anthurium villenaorum, described by Croat, is a compact epiphytic species from the humid, shaded montane rainforests of Peru's San Martín region — growing on tree trunks and branches in high humidity with filtered light, abundant rainfall, and consistently warm conditions year-round. The deeply cordate, velvety leaves are dark green to nearly black, with bold and strikingly contrasting pale venation that rivals the finest velvet anthuriums in visual impact. Short petioles and a tight crown with visible ephemeral roots give it an admirably neat habit. Inflorescences are rarely produced in cultivation, adding a further layer of mystique. Villenaorum has become one of the most discussed species among advanced Anthurium collectors — genuinely rare, genuinely beautiful, and genuinely difficult to grow to its full potential outside a precisely controlled environment.",
   "quickFacts": {
     "growthHabit": "Compact epiphyte, self-heading",
@@ -34,7 +34,7 @@
     "growthHabit": "Tight compact crown with visible ephemeral roots, epiphytic"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 400,
+    "currentMedianPriceGBP": 11,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

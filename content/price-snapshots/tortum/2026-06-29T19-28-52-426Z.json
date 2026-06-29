@@ -1,0 +1,72 @@
+{
+  "snapshot": {
+    "plantSlug": "tortum",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron tortum",
+    "checkedAt": "2026-06-29T19:28:52.426Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 2,
+    "rejectedCount": 238,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 16.76,
+    "p25Price": 20.067500000000003,
+    "medianPrice": 23.375,
+    "meanPrice": 23.375,
+    "trimmedMeanPrice": 23.375,
+    "p75Price": 26.6825,
+    "maxPrice": 29.990000000000002,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 2,
+    "min": 16.76,
+    "max": 29.990000000000002,
+    "median": 23.375,
+    "mean": 23.375,
+    "p25": 20.067500000000003,
+    "p75": 26.6825,
+    "iqr": 6.614999999999998,
+    "trimmedMean": 23.375,
+    "confidenceScore": "D",
+    "rejectedCount": 238,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Rare Philodendron Tortum Rare Aroid Fully Rooted Potted House Plant",
+      "url": "https://www.ebay.co.uk/itm/336640364531",
+      "soldPrice": 13.38,
+      "totalPrice": 16.76,
+      "soldDate": "2026-06-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron tortum",
+      "url": "https://www.ebay.co.uk/itm/197187021757",
+      "soldPrice": 25,
+      "totalPrice": 29.990000000000002,
+      "soldDate": "2025-12-06",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 2,
+  "rejectedCount": 238,
+  "rejectionBreakdown": {
+    "Contains excluded term": [
+      "very rare philodendron tortum hybrid highly variegated 2-leaf top cut, rooted",
+      "rare 💚philodendron tortum variegated one leaf rooted cutting",
+      "very rare philodendron tortum hybrid highly variegated 2-leaf top cut rooting"
+    ],
+    "No accepted term found. Expected one of": [
+      "rare philodendron🤍❌tortum albo❌variegated one leaf rooted two active growths",
+      "rare philodendron florida beauty x tortum variegated 1 leaf cuttings",
+      "rare philodendron hybrid tortum x mayoi variehated rooter plant"
+    ]
+  }
+}

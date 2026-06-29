@@ -1,0 +1,103 @@
+{
+  "snapshot": {
+    "plantSlug": "villenaorum",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium villenaorum",
+    "checkedAt": "2026-06-29T19:13:44.827Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 6,
+    "rejectedCount": 234,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 6.29,
+    "p25Price": 9.1125,
+    "medianPrice": 11.1,
+    "meanPrice": 10.704999999999998,
+    "trimmedMeanPrice": 10.704999999999998,
+    "p75Price": 12,
+    "maxPrice": 14.99,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 6,
+    "min": 6.29,
+    "max": 14.99,
+    "median": 11.1,
+    "mean": 10.704999999999998,
+    "p25": 9.1125,
+    "p75": 12,
+    "iqr": 2.8874999999999993,
+    "trimmedMean": 10.704999999999998,
+    "confidenceScore": "D",
+    "rejectedCount": 234,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Anthurium Villenaorum Croat - Rare Aroid #5",
+      "url": "https://www.ebay.co.uk/itm/206247464522",
+      "soldPrice": 10.2,
+      "totalPrice": 10.2,
+      "soldDate": "2026-06-07",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Villenaorum Croat Rare Aroid",
+      "url": "https://www.ebay.co.uk/itm/205979378881",
+      "soldPrice": 12,
+      "totalPrice": 12,
+      "soldDate": "2026-05-31",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Villenaorum Large Plant Indoor House Plant",
+      "url": "https://www.ebay.co.uk/itm/227317725798",
+      "soldPrice": 1.14,
+      "totalPrice": 6.29,
+      "soldDate": "2026-05-20",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Villenaorum Croat - Rare Aroid #3",
+      "url": "https://www.ebay.co.uk/itm/206248763153",
+      "soldPrice": 12,
+      "totalPrice": 14.99,
+      "soldDate": "2026-05-10",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Villenaorum Croat - Rare Aroid #2",
+      "url": "https://www.ebay.co.uk/itm/206247464613",
+      "soldPrice": 12,
+      "totalPrice": 12,
+      "soldDate": "2026-05-03",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium villenaorum (0320)",
+      "url": "https://www.ebay.co.uk/itm/127764171438",
+      "soldPrice": 5.37,
+      "totalPrice": 8.75,
+      "soldDate": "2026-04-14",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 6,
+  "rejectedCount": 234,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "anthurium warocqueanum",
+      "anthurium carla (gph001 x self) x pap (ra5 x self) full plant.",
+      "anthurium dresscarla x bvep"
+    ]
+  }
+}

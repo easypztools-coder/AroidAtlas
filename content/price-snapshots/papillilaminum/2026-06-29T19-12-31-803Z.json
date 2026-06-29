@@ -1,0 +1,648 @@
+{
+  "snapshot": {
+    "plantSlug": "papillilaminum",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium papillilaminum",
+    "checkedAt": "2026-06-29T19:12:31.803Z",
+    "currency": "GBP",
+    "rawResultCount": 126,
+    "acceptedCount": 66,
+    "rejectedCount": 60,
+    "outlierCount": 4,
+    "confidenceScore": "A",
+    "minPrice": 8.17,
+    "p25Price": 19.76,
+    "medianPrice": 25,
+    "meanPrice": 30.07045454545454,
+    "trimmedMeanPrice": 25.0662,
+    "p75Price": 32,
+    "maxPrice": 107.72999999999999,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 66,
+    "min": 8.17,
+    "max": 107.72999999999999,
+    "median": 25,
+    "mean": 30.07045454545454,
+    "p25": 19.76,
+    "p75": 32,
+    "iqr": 12.239999999999998,
+    "trimmedMean": 25.0662,
+    "confidenceScore": "A",
+    "rejectedCount": 60,
+    "rejectionReasons": {},
+    "outlierCount": 4
+  },
+  "acceptedListings": [
+    {
+      "title": "Anthurium papillilaminum - Tracked 24 - dark velvet leafed Houseplant",
+      "url": "https://www.ebay.co.uk/itm/198458681206",
+      "soldPrice": 25,
+      "totalPrice": 25,
+      "soldDate": "2026-06-29",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum Fort Sherman Rare Aroid #5",
+      "url": "https://www.ebay.co.uk/itm/206369468160",
+      "soldPrice": 16.99,
+      "totalPrice": 16.99,
+      "soldDate": "2026-06-25",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum soul reaper tezula",
+      "url": "https://www.ebay.co.uk/itm/358606130258",
+      "soldPrice": 15.96,
+      "totalPrice": 19.76,
+      "soldDate": "2026-06-22",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum marie chonk -F",
+      "url": "https://www.ebay.co.uk/itm/358540879227",
+      "soldPrice": 21.25,
+      "totalPrice": 25.05,
+      "soldDate": "2026-06-22",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum - Tracked 24 - dark velvet leafed Houseplant",
+      "url": "https://www.ebay.co.uk/itm/198442648122",
+      "soldPrice": 32,
+      "totalPrice": 32,
+      "soldDate": "2026-06-22",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum Dark Form | Grow Tropicals | Rooted Plant 27cm foliage",
+      "url": "https://www.ebay.co.uk/itm/398003785972",
+      "soldPrice": 26.42,
+      "totalPrice": 29.8,
+      "soldDate": "2026-06-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum - Tracked 24 - dark velvet leafed Houseplant",
+      "url": "https://www.ebay.co.uk/itm/198431718967",
+      "soldPrice": 35,
+      "totalPrice": 35,
+      "soldDate": "2026-06-17",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum x forgetti x carla",
+      "url": "https://www.ebay.co.uk/itm/358587433492",
+      "soldPrice": 102.88,
+      "totalPrice": 107.72999999999999,
+      "soldDate": "2026-06-14",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum RA17 x RA6 established propagation US plant",
+      "url": "https://www.ebay.co.uk/itm/358674694451",
+      "soldPrice": 27.21,
+      "totalPrice": 30.59,
+      "soldDate": "2026-06-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum Fort Sherman Rare Aroid",
+      "url": "https://www.ebay.co.uk/itm/206004762591",
+      "soldPrice": 24.99,
+      "totalPrice": 24.99,
+      "soldDate": "2026-06-13",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum Fort Sherman #3",
+      "url": "https://www.ebay.co.uk/itm/206249019342",
+      "soldPrice": 21.24,
+      "totalPrice": 21.24,
+      "soldDate": "2026-06-13",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum - Tracked 24 - dark velvet leafed Houseplant",
+      "url": "https://www.ebay.co.uk/itm/198409363417",
+      "soldPrice": 32,
+      "totalPrice": 32,
+      "soldDate": "2026-06-12",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum Voldemort x self -1",
+      "url": "https://www.ebay.co.uk/itm/358606034355",
+      "soldPrice": 26.42,
+      "totalPrice": 30.220000000000002,
+      "soldDate": "2026-06-09",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum Fort Sherman #2",
+      "url": "https://www.ebay.co.uk/itm/206249018974",
+      "soldPrice": 21.24,
+      "totalPrice": 21.24,
+      "soldDate": "2026-06-08",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum Blue X BVEP x Dorito Portillae",
+      "url": "https://www.ebay.co.uk/itm/306972961265",
+      "soldPrice": 16.31,
+      "totalPrice": 19.689999999999998,
+      "soldDate": "2026-06-06",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum x - Houseplant/Terrarium Plant - P0392",
+      "url": "https://www.ebay.co.uk/itm/227258048564",
+      "soldPrice": 48.99,
+      "totalPrice": 48.99,
+      "soldDate": "2026-06-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum - Tracked 24 - dark velvet leafed Houseplant",
+      "url": "https://www.ebay.co.uk/itm/198375256309",
+      "soldPrice": 25,
+      "totalPrice": 25,
+      "soldDate": "2026-06-01",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum shrek x RA5 x papillilaminum gatorskin x swampy bunny",
+      "url": "https://www.ebay.co.uk/itm/358617466222",
+      "soldPrice": 40.88,
+      "totalPrice": 45.53,
+      "soldDate": "2026-06-01",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum Guna Yala Rare Aroid Houseplant Dark",
+      "url": "https://www.ebay.co.uk/itm/287339013330",
+      "soldPrice": 16.79,
+      "totalPrice": 16.79,
+      "soldDate": "2026-05-29",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum Ree Gardens Clone.",
+      "url": "https://www.ebay.co.uk/itm/127888721872",
+      "soldPrice": 10.67,
+      "totalPrice": 14.05,
+      "soldDate": "2026-05-28",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum Voldemort x self -2",
+      "url": "https://www.ebay.co.uk/itm/358606027228",
+      "soldPrice": 21.25,
+      "totalPrice": 25.05,
+      "soldDate": "2026-05-28",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum Voldemort x self -3",
+      "url": "https://www.ebay.co.uk/itm/358606031769",
+      "soldPrice": 21.25,
+      "totalPrice": 25.05,
+      "soldDate": "2026-05-27",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum Ree Gardens Clone.",
+      "url": "https://www.ebay.co.uk/itm/127888037280",
+      "soldPrice": 10.67,
+      "totalPrice": 14.05,
+      "soldDate": "2026-05-27",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum fs x rl butt cut -1",
+      "url": "https://www.ebay.co.uk/itm/358582982922",
+      "soldPrice": 21.25,
+      "totalPrice": 25.05,
+      "soldDate": "2026-05-27",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum marie chonk -C",
+      "url": "https://www.ebay.co.uk/itm/358540872583",
+      "soldPrice": 15.96,
+      "totalPrice": 19.76,
+      "soldDate": "2026-05-27",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum RA5  fresh cut chonk -C",
+      "url": "https://www.ebay.co.uk/itm/358537450758",
+      "soldPrice": 15.96,
+      "totalPrice": 20.810000000000002,
+      "soldDate": "2026-05-26",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum marie x grim reaper",
+      "url": "https://www.ebay.co.uk/itm/358587348904",
+      "soldPrice": 102.88,
+      "totalPrice": 107.72999999999999,
+      "soldDate": "2026-05-25",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum Guna Yala Established Clone House Plant",
+      "url": "https://www.ebay.co.uk/itm/318318082861",
+      "soldPrice": 19.76,
+      "totalPrice": 24.910000000000004,
+      "soldDate": "2026-05-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum - Tracked 24 - dark velvet leafed Houseplant",
+      "url": "https://www.ebay.co.uk/itm/198375254830",
+      "soldPrice": 35,
+      "totalPrice": 35,
+      "soldDate": "2026-05-24",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum Ree Gardens Clone.",
+      "url": "https://www.ebay.co.uk/itm/127871268082",
+      "soldPrice": 10.67,
+      "totalPrice": 14.05,
+      "soldDate": "2026-05-20",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum – Velvet Leaf Collector Aroid (UK Plant Passport)",
+      "url": "https://www.ebay.co.uk/itm/168221695081",
+      "soldPrice": 21.24,
+      "totalPrice": 24.18,
+      "soldDate": "2026-05-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum - Tracked 24 - dark velvet leafed Houseplant",
+      "url": "https://www.ebay.co.uk/itm/198350269725",
+      "soldPrice": 23,
+      "totalPrice": 23,
+      "soldDate": "2026-05-17",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum FSRL x Tim's Black",
+      "url": "https://www.ebay.co.uk/itm/306913690780",
+      "soldPrice": 44,
+      "totalPrice": 49,
+      "soldDate": "2026-05-02",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum - Tracked 24 - dark velvet leafed Houseplant",
+      "url": "https://www.ebay.co.uk/itm/198354177177",
+      "soldPrice": 23,
+      "totalPrice": 23,
+      "soldDate": "2026-05-15",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum red stem from columbia 1 plant (3 in a pot shown)",
+      "url": "https://www.ebay.co.uk/itm/358512353986",
+      "soldPrice": 26.42,
+      "totalPrice": 31.07,
+      "soldDate": "2026-05-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum RA5  fresh cut chonk -B",
+      "url": "https://www.ebay.co.uk/itm/358537448127",
+      "soldPrice": 10.67,
+      "totalPrice": 15.52,
+      "soldDate": "2026-05-13",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum marie chonk -A",
+      "url": "https://www.ebay.co.uk/itm/358540870259",
+      "soldPrice": 15.96,
+      "totalPrice": 19.76,
+      "soldDate": "2026-05-10",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum RA5  fresh cut chonk -A",
+      "url": "https://www.ebay.co.uk/itm/358537446325",
+      "soldPrice": 10.67,
+      "totalPrice": 15.52,
+      "soldDate": "2026-05-10",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum - Tracked 24 - dark velvet leafed Houseplant",
+      "url": "https://www.ebay.co.uk/itm/198334247715",
+      "soldPrice": 25,
+      "totalPrice": 25,
+      "soldDate": "2026-05-08",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum Fort Sherman #1",
+      "url": "https://www.ebay.co.uk/itm/206249018426",
+      "soldPrice": 24.99,
+      "totalPrice": 24.99,
+      "soldDate": "2026-05-07",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum  ra5 butt cut fresh",
+      "url": "https://www.ebay.co.uk/itm/358518888102",
+      "soldPrice": 15.96,
+      "totalPrice": 19.76,
+      "soldDate": "2026-05-06",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum A+ X Mr WW CLONE RARE AROID **see Description**",
+      "url": "https://www.ebay.co.uk/itm/318208186626",
+      "soldPrice": 47.08,
+      "totalPrice": 47.08,
+      "soldDate": "2026-05-04",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum lg grown from chonk",
+      "url": "https://www.ebay.co.uk/itm/358512402010",
+      "soldPrice": 21.25,
+      "totalPrice": 25.9,
+      "soldDate": "2026-05-03",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum highland cocle grown from chonk",
+      "url": "https://www.ebay.co.uk/itm/358512382843",
+      "soldPrice": 26.42,
+      "totalPrice": 31.07,
+      "soldDate": "2026-05-03",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum fort sherman jv grown from chonk",
+      "url": "https://www.ebay.co.uk/itm/358512349383",
+      "soldPrice": 15.96,
+      "totalPrice": 20.61,
+      "soldDate": "2026-05-03",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum Fort Sherman #1",
+      "url": "https://www.ebay.co.uk/itm/205922634192",
+      "soldPrice": 23.43,
+      "totalPrice": 26.88,
+      "soldDate": "2026-05-01",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum RA2 x Forgetii Small Plant From Chonk",
+      "url": "https://www.ebay.co.uk/itm/306820136147",
+      "soldPrice": 15.96,
+      "totalPrice": 19.34,
+      "soldDate": "2026-05-01",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum Guna Yala x Eastern dressleri hybrid plant",
+      "url": "https://www.ebay.co.uk/itm/168279530580",
+      "soldPrice": 26.42,
+      "totalPrice": 29.8,
+      "soldDate": "2026-05-01",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum x Red Crystal Rare Aroid",
+      "url": "https://www.ebay.co.uk/itm/326814712191",
+      "soldPrice": 31.58,
+      "totalPrice": 34.96,
+      "soldDate": "2026-04-28",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum Plant",
+      "url": "https://www.ebay.co.uk/itm/358449017900",
+      "soldPrice": 44.6,
+      "totalPrice": 44.6,
+      "soldDate": "2026-04-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum fort sherman hybrid flowering size",
+      "url": "https://www.ebay.co.uk/itm/358435218864",
+      "soldPrice": 78.08,
+      "totalPrice": 82.53,
+      "soldDate": "2026-04-27",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum Fort Sherman #7",
+      "url": "https://www.ebay.co.uk/itm/205971774967",
+      "soldPrice": 25.47,
+      "totalPrice": 28.46,
+      "soldDate": "2026-04-27",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum - Tracked 24 - dark velvet leafed Houseplant",
+      "url": "https://www.ebay.co.uk/itm/198276705423",
+      "soldPrice": 25,
+      "totalPrice": 25,
+      "soldDate": "2026-04-24",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum x Dark Phoenix – Rooted Offset – 2 Leaves",
+      "url": "https://www.ebay.co.uk/itm/318168938058",
+      "soldPrice": 34.66,
+      "totalPrice": 38.04,
+      "soldDate": "2026-04-23",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum True Form Very Rare",
+      "url": "https://www.ebay.co.uk/itm/117139198560",
+      "soldPrice": 31.58,
+      "totalPrice": 34.96,
+      "soldDate": "2026-04-23",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum RA6 X Self - Cutting",
+      "url": "https://www.ebay.co.uk/itm/198292952750",
+      "soldPrice": 85,
+      "totalPrice": 85,
+      "soldDate": "2026-04-19",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum Fort Sherman - Rare Plant #13",
+      "url": "https://www.ebay.co.uk/itm/206174310415",
+      "soldPrice": 24.74,
+      "totalPrice": 24.74,
+      "soldDate": "2026-04-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum Guna Yala",
+      "url": "https://www.ebay.co.uk/itm/406851546588",
+      "soldPrice": 36.75,
+      "totalPrice": 40.13,
+      "soldDate": "2026-04-13",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum X (Fort Sherman X Veitchii) 12cm Pot. Hybrid",
+      "url": "https://www.ebay.co.uk/itm/127805853856",
+      "soldPrice": 15.96,
+      "totalPrice": 19.34,
+      "soldDate": "2026-04-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum True Form Very Rare",
+      "url": "https://www.ebay.co.uk/itm/117125207282",
+      "soldPrice": 20.75,
+      "totalPrice": 24.13,
+      "soldDate": "2026-04-11",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum - tracked 24 + heat pack",
+      "url": "https://www.ebay.co.uk/itm/198252881554",
+      "soldPrice": 32,
+      "totalPrice": 32,
+      "soldDate": "2026-04-09",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum Legend X Portillae Rare Hybrid Aroid Mid Cut Roots Leaf",
+      "url": "https://www.ebay.co.uk/itm/277858878035",
+      "soldPrice": 3.72,
+      "totalPrice": 8.17,
+      "soldDate": "2026-04-05",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum Legend X Portillae Rare Hybrid Aroid Mid Cut Roots Leaf",
+      "url": "https://www.ebay.co.uk/itm/277858873902",
+      "soldPrice": 4.2,
+      "totalPrice": 8.65,
+      "soldDate": "2026-04-05",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum Aroid Houseplant Roots Leaves Prop Multi Headed",
+      "url": "https://www.ebay.co.uk/itm/277860413965",
+      "soldPrice": 11.5,
+      "totalPrice": 15.95,
+      "soldDate": "2026-04-04",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum X Unknown Clone. Hybrid.",
+      "url": "https://www.ebay.co.uk/itm/127782729270",
+      "soldPrice": 10.67,
+      "totalPrice": 14.05,
+      "soldDate": "2026-04-01",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum 'Daniel' Butt Cut",
+      "url": "https://www.ebay.co.uk/itm/306850247208",
+      "soldPrice": 15.96,
+      "totalPrice": 19.34,
+      "soldDate": "2026-04-01",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 66,
+  "rejectedCount": 60,
+  "rejectionBreakdown": {
+    "Contains excluded term": [
+      "1 x anthurium papillilaminum x1 x papillilaminum (ra5 x swamp bunny) seedling",
+      "1 x anthurium papillilaminum rlfs x (panamama 2.0 x (zara x michelle) seedling",
+      "anthurium papillilaminum variegated x dressleri rg x michelle"
+    ],
+    "No accepted term found. Expected one of": [
+      "anthurium ace of spades x papillilaminum - aos x pap",
+      "anthurium cutting duo - nigrolaminum gigi x veitchii - aos x papillilaminum",
+      "anthurium seedling duo - mag x x pap gy x self - forgetii x papillilaminum"
+    ]
+  }
+}

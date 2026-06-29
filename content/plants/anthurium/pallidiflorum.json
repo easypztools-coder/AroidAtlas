@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Anthurium pallidiflorum is an epiphytic herb native to Ecuador, thriving in wet tropical forests. It typically anchors itself to branches and trunks in humid, shaded environments with high rainfall and constant moisture, often found in montane to lowland cloud forests at moderate elevations. The plant develops a compact basal crown with numerous adventitious roots that anchor firmly to wood. Its distinctive foliage features very long, narrow, strap-like, linear-lanceolate leaves, borne on slender petioles. These leaves are laterally compressed with a prominent midrib and entire margins, forming an elegant, pendent cascade.",
   "quickFacts": {
     "growthHabit": "Epiphytic",
@@ -34,7 +34,7 @@
     "growthHabit": "Pendent, cascading"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 50,
+    "currentMedianPriceGBP": 29,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

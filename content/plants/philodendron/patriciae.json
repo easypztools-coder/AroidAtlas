@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Very Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£",
   "aboutText": "Philodendron patriciae, described by Croat, is a climbing Colombian aroid from humid montane and lowland forests — ascending trees in warm, shaded understories where humidity remains consistently high. It occupies a position of considerable distinctiveness among climbing Philodendrons by virtue of its extraordinary leaves: very long, very narrow, and pendent, with a shallow to open basal sinus and strongly reduced posterior lobes, each blade tapering gradually to an elongated acuminate tip. The effect is dramatic and immediately unlike any other cultivated Philodendron — long, drooping, strap-like leaves that hang from the climbing stem with languid elegance. Slender stems root at the nodes for support. The base species shares its elegance but not its common name with the 'Variegata' form, which has become extremely sought after; patriciae itself commands serious interest from collectors who seek the genuine botanical species rather than its cultivated derivatives.",
   "quickFacts": {
     "growthHabit": "Climbing hemiepiphyte",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing on slender stems rooting at nodes, leaves hanging pendulously"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 280,
+    "currentMedianPriceGBP": 23,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

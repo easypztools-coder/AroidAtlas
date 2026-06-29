@@ -1,0 +1,58 @@
+{
+  "snapshot": {
+    "plantSlug": "patriciae",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron patriciae",
+    "checkedAt": "2026-06-29T19:27:50.938Z",
+    "currency": "GBP",
+    "rawResultCount": 6,
+    "acceptedCount": 1,
+    "rejectedCount": 5,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 22.95,
+    "p25Price": 22.95,
+    "medianPrice": 22.95,
+    "meanPrice": 22.95,
+    "trimmedMeanPrice": 22.95,
+    "p75Price": 22.95,
+    "maxPrice": 22.95,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 1,
+    "min": 22.95,
+    "max": 22.95,
+    "median": 22.95,
+    "mean": 22.95,
+    "p25": 22.95,
+    "p75": 22.95,
+    "iqr": 0,
+    "trimmedMean": 22.95,
+    "confidenceScore": "D",
+    "rejectedCount": 5,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Exact TC bag | Rare Philodendron Patriciae Tissue Culture",
+      "url": "https://www.ebay.co.uk/itm/168473707810",
+      "soldPrice": 19.57,
+      "totalPrice": 22.95,
+      "soldDate": "2026-06-23",
+      "listingType": "tc_plantlet",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 1,
+  "rejectedCount": 5,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "philodendron billietiae variegated | exact tc bag | tissue culture fresh import",
+      "rescue plant bundle rare philodendrons mix - rooting, wetstick",
+      "top chop 4 colour philodendron fresh aurea. pink emergent, mother plant in pics"
+    ]
+  }
+}

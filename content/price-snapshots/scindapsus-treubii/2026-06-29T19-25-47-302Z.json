@@ -1,0 +1,115 @@
+{
+  "snapshot": {
+    "plantSlug": "scindapsus-treubii",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Scindapsus treubii",
+    "checkedAt": "2026-06-29T19:25:47.302Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 7,
+    "rejectedCount": 233,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 8.09,
+    "p25Price": 13.239999999999998,
+    "medianPrice": 13.239999999999998,
+    "meanPrice": 14.728571428571426,
+    "trimmedMeanPrice": 14.728571428571426,
+    "p75Price": 17.88,
+    "maxPrice": 19.53,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 7,
+    "min": 8.09,
+    "max": 19.53,
+    "median": 13.239999999999998,
+    "mean": 14.728571428571426,
+    "p25": 13.239999999999998,
+    "p75": 17.88,
+    "iqr": 4.640000000000001,
+    "trimmedMean": 14.728571428571426,
+    "confidenceScore": "D",
+    "rejectedCount": 233,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "scindapsus treubii moonlight Albo Variegated",
+      "url": "https://www.ebay.co.uk/itm/257544005087",
+      "soldPrice": 13.53,
+      "totalPrice": 19.53,
+      "soldDate": "2026-06-10",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rate! Scindapsus Treubii Moonlight Tricolor  variegated one leaf cutting",
+      "url": "https://www.ebay.co.uk/itm/168386808488",
+      "soldPrice": 9.86,
+      "totalPrice": 13.239999999999998,
+      "soldDate": "2026-05-24",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rate! Scindapsus Treubii Moonlight Tricolor  variegated one leaf cutting",
+      "url": "https://www.ebay.co.uk/itm/168375605003",
+      "soldPrice": 9.86,
+      "totalPrice": 13.239999999999998,
+      "soldDate": "2026-05-19",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rate! Scindapsus Treubii Moonlight Tricolor  variegated one leaf cutting",
+      "url": "https://www.ebay.co.uk/itm/168370747120",
+      "soldPrice": 9.86,
+      "totalPrice": 13.239999999999998,
+      "soldDate": "2026-05-17",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rate! Scindapsus Treubii Moonlight Tricolor  variegated one leaf cutting rooted",
+      "url": "https://www.ebay.co.uk/itm/168343721629",
+      "soldPrice": 15.14,
+      "totalPrice": 18.52,
+      "soldDate": "2026-05-05",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Treubii Moonlight Pothos Scindapsus Houseplant 2psc",
+      "url": "https://www.ebay.co.uk/itm/236778093805",
+      "soldPrice": 5.37,
+      "totalPrice": 8.09,
+      "soldDate": "2026-05-04",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rate! Scindapsus  treubii Moonlight albo variegated potted Half-moon rooted",
+      "url": "https://www.ebay.co.uk/itm/168318631598",
+      "soldPrice": 13.86,
+      "totalPrice": 17.24,
+      "soldDate": "2026-04-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 7,
+  "rejectedCount": 233,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "scindapsus pictus exotica treubii / trebie silver satin rare rooted 2 leaves",
+      "✨️rare✨️ scindapsus moonlight treubii rooted",
+      "scindapsus pictus exotica treubii | trebie | silver satin rare | 12cm pot"
+    ],
+    "Total price £4.75 is below £5 minimum": [
+      "scindapsus treubii moonlight grown from cutting. new leaf on it’s way"
+    ]
+  }
+}

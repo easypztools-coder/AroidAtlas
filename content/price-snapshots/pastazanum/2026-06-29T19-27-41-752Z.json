@@ -1,0 +1,58 @@
+{
+  "snapshot": {
+    "plantSlug": "pastazanum",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron pastazanum",
+    "checkedAt": "2026-06-29T19:27:41.752Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 1,
+    "rejectedCount": 239,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 66.23,
+    "p25Price": 66.23,
+    "medianPrice": 66.23,
+    "meanPrice": 66.23,
+    "trimmedMeanPrice": 66.23,
+    "p75Price": 66.23,
+    "maxPrice": 66.23,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 1,
+    "min": 66.23,
+    "max": 66.23,
+    "median": 66.23,
+    "mean": 66.23,
+    "p25": 66.23,
+    "p75": 66.23,
+    "iqr": 0,
+    "trimmedMean": 66.23,
+    "confidenceScore": "D",
+    "rejectedCount": 239,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Philodendron PASTAZANUM",
+      "url": "https://www.ebay.co.uk/itm/296615621449",
+      "soldPrice": 30.01,
+      "totalPrice": 66.23,
+      "soldDate": "2026-06-22",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 1,
+  "rejectedCount": 239,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "! rare!! pastazanum x melanochrysum rare hybrid philodendron, top cut rooting.",
+      "philodendron hybrid pastazanum x plowmanii",
+      "pastazanum hybrid philodendron"
+    ]
+  }
+}

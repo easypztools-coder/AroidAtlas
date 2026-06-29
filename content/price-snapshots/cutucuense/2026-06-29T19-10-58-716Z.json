@@ -1,0 +1,58 @@
+{
+  "snapshot": {
+    "plantSlug": "cutucuense",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium cutucuense",
+    "checkedAt": "2026-06-29T19:10:58.716Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 1,
+    "rejectedCount": 239,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 22.74,
+    "p25Price": 22.74,
+    "medianPrice": 22.74,
+    "meanPrice": 22.74,
+    "trimmedMeanPrice": 22.74,
+    "p75Price": 22.74,
+    "maxPrice": 22.74,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 1,
+    "min": 22.74,
+    "max": 22.74,
+    "median": 22.74,
+    "mean": 22.74,
+    "p25": 22.74,
+    "p75": 22.74,
+    "iqr": 0,
+    "trimmedMean": 22.74,
+    "confidenceScore": "D",
+    "rejectedCount": 239,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Anthurium cutucuense 0403",
+      "url": "https://www.ebay.co.uk/itm/127826536223",
+      "soldPrice": 19.36,
+      "totalPrice": 22.74,
+      "soldDate": "2026-04-24",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 1,
+  "rejectedCount": 239,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "anthurium king of spades (kos/hu) | rare anthurium houseplant | 7 cm pot",
+      "anthurium fsrl x hulk naomi",
+      "anthurium warocqueanum"
+    ]
+  }
+}

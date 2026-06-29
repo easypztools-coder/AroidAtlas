@@ -1,0 +1,697 @@
+{
+  "snapshot": {
+    "plantSlug": "scalprum",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia scalprum",
+    "checkedAt": "2026-06-29T19:09:44.491Z",
+    "currency": "GBP",
+    "rawResultCount": 77,
+    "acceptedCount": 72,
+    "rejectedCount": 5,
+    "outlierCount": 5,
+    "confidenceScore": "A",
+    "minPrice": 2.1052631578947367,
+    "p25Price": 15.805,
+    "medianPrice": 23.049999999999997,
+    "meanPrice": 27.3162768031189,
+    "trimmedMeanPrice": 22.475818181818173,
+    "p75Price": 32.974999999999994,
+    "maxPrice": 103.79,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 72,
+    "min": 2.1052631578947367,
+    "max": 103.79,
+    "median": 23.049999999999997,
+    "mean": 27.3162768031189,
+    "p25": 15.805,
+    "p75": 32.974999999999994,
+    "iqr": 17.169999999999995,
+    "trimmedMean": 22.475818181818173,
+    "confidenceScore": "A",
+    "rejectedCount": 5,
+    "rejectionReasons": {},
+    "outlierCount": 5
+  },
+  "acceptedListings": [
+    {
+      "title": "Alocasia Scalprum Albo Variegata  very rare variegated aroid plant 06ASA24",
+      "url": "https://www.ebay.co.uk/itm/327199723714",
+      "soldPrice": 15.32,
+      "totalPrice": 15.32,
+      "soldDate": "2026-06-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata  very rare variegated aroid plant 06ASA26",
+      "url": "https://www.ebay.co.uk/itm/327199725820",
+      "soldPrice": 14.59,
+      "totalPrice": 14.59,
+      "soldDate": "2026-06-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Aurea Variegata  very rare variegated aroid plant 06ASY01",
+      "url": "https://www.ebay.co.uk/itm/327209997201",
+      "soldPrice": 17.21,
+      "totalPrice": 17.21,
+      "soldDate": "2026-06-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata  very rare variegated aroid plant 06ASA27",
+      "url": "https://www.ebay.co.uk/itm/327199728232",
+      "soldPrice": 14.59,
+      "totalPrice": 14.59,
+      "soldDate": "2026-06-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata  very rare variegated aroid plant 06ASA25",
+      "url": "https://www.ebay.co.uk/itm/327199724823",
+      "soldPrice": 14.59,
+      "totalPrice": 14.59,
+      "soldDate": "2026-06-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum – Healthy Rooted Plant, New Growth",
+      "url": "https://www.ebay.co.uk/itm/147347670967",
+      "soldPrice": 9.86,
+      "totalPrice": 12.799999999999999,
+      "soldDate": "2026-06-18",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata  very rare variegated aroid plant 06ASA19",
+      "url": "https://www.ebay.co.uk/itm/327199705421",
+      "soldPrice": 24.32,
+      "totalPrice": 24.32,
+      "soldDate": "2026-06-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata  very rare variegated aroid plant 05ASA17",
+      "url": "https://www.ebay.co.uk/itm/327185110962",
+      "soldPrice": 22.15,
+      "totalPrice": 22.15,
+      "soldDate": "2026-06-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata  very rare variegated aroid plant 06ASA20",
+      "url": "https://www.ebay.co.uk/itm/327199706338",
+      "soldPrice": 28.37,
+      "totalPrice": 28.37,
+      "soldDate": "2026-06-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Baby Plant 🌿 Exact Plant 🌿 ✨️ Self-Watering Pot✨️",
+      "url": "https://www.ebay.co.uk/itm/298366377562",
+      "soldPrice": 6.91,
+      "totalPrice": 10.29,
+      "soldDate": "2026-06-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata  very rare variegated aroid plant 05ASA14",
+      "url": "https://www.ebay.co.uk/itm/327185098628",
+      "soldPrice": 28.63,
+      "totalPrice": 28.63,
+      "soldDate": "2026-06-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata - very rare variegated aroid plant 11ASA08",
+      "url": "https://www.ebay.co.uk/itm/326859730042",
+      "soldPrice": 41.7,
+      "totalPrice": 41.7,
+      "soldDate": "2025-12-01",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata - very rare variegated aroid plant 11ASA07",
+      "url": "https://www.ebay.co.uk/itm/326859726053",
+      "soldPrice": 103.79,
+      "totalPrice": 103.79,
+      "soldDate": "2025-11-16",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata  very rare variegated aroid plant 05ASA16",
+      "url": "https://www.ebay.co.uk/itm/327185107188",
+      "soldPrice": 37.01,
+      "totalPrice": 37.01,
+      "soldDate": "2026-06-06",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata - very rare variegated aroid plant 11ASA05",
+      "url": "https://www.ebay.co.uk/itm/326849686712",
+      "soldPrice": 82.7,
+      "totalPrice": 82.7,
+      "soldDate": "2025-11-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata - very rare variegated aroid plant 11ASA04",
+      "url": "https://www.ebay.co.uk/itm/326849685624",
+      "soldPrice": 32.07,
+      "totalPrice": 32.07,
+      "soldDate": "2025-12-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata - very rare variegated aroid plant 11ASA03",
+      "url": "https://www.ebay.co.uk/itm/326849683936",
+      "soldPrice": 82.7,
+      "totalPrice": 82.7,
+      "soldDate": "2025-11-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata - very rare variegated aroid plant 11ASA02",
+      "url": "https://www.ebay.co.uk/itm/326849682844",
+      "soldPrice": 34.48,
+      "totalPrice": 34.48,
+      "soldDate": "2025-12-01",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata - very rare variegated aroid plant 11ASA01",
+      "url": "https://www.ebay.co.uk/itm/326849680077",
+      "soldPrice": 74.64,
+      "totalPrice": 74.64,
+      "soldDate": "2025-11-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Aurea Variegata - very rare variegated aroid plant 11ASY01",
+      "url": "https://www.ebay.co.uk/itm/326849631963",
+      "soldPrice": 29.73,
+      "totalPrice": 29.73,
+      "soldDate": "2025-11-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata  very rare variegated aroid plant 05ASA02",
+      "url": "https://www.ebay.co.uk/itm/327153082984",
+      "soldPrice": 18.97,
+      "totalPrice": 18.97,
+      "soldDate": "2026-06-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata - very rare variegated aroid plant 12ASA02",
+      "url": "https://www.ebay.co.uk/itm/326895867106",
+      "soldPrice": 88.35,
+      "totalPrice": 88.35,
+      "soldDate": "2025-12-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum 'Samar Lance' and Golden Bone🌿RARE🌿 aroid Tropical House",
+      "url": "https://www.ebay.co.uk/itm/406969202652",
+      "soldPrice": 12.05,
+      "totalPrice": 15.43,
+      "soldDate": "2026-06-02",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum 'Samar Lance'. 🌿RARE🌿 aroid Tropical House Plant",
+      "url": "https://www.ebay.co.uk/itm/406922251008",
+      "soldPrice": 7.41,
+      "totalPrice": 10.79,
+      "soldDate": "2026-06-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata  very rare variegated aroid plant 05ASA13",
+      "url": "https://www.ebay.co.uk/itm/327185097902",
+      "soldPrice": 47.83,
+      "totalPrice": 47.83,
+      "soldDate": "2026-06-01",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata  very rare variegated aroid plant 05ASA06",
+      "url": "https://www.ebay.co.uk/itm/327153094325",
+      "soldPrice": 21.02,
+      "totalPrice": 21.02,
+      "soldDate": "2026-06-01",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata  very rare variegated aroid plant 05ASA09",
+      "url": "https://www.ebay.co.uk/itm/327153096971",
+      "soldPrice": 23.29,
+      "totalPrice": 23.29,
+      "soldDate": "2026-05-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "X4 Alocasia Scalprum Aurea Variegata  very rare variegated aroid plant 04ASY16",
+      "url": "https://www.ebay.co.uk/itm/327173008910",
+      "soldPrice": 41,
+      "totalPrice": 41,
+      "soldDate": "2026-05-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata  very rare variegated aroid plant 05ASA03",
+      "url": "https://www.ebay.co.uk/itm/327153085610",
+      "soldPrice": 27.17,
+      "totalPrice": 27.17,
+      "soldDate": "2026-05-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata  very rare variegated aroid plant 05ASA04",
+      "url": "https://www.ebay.co.uk/itm/327153089605",
+      "soldPrice": 27.17,
+      "totalPrice": 27.17,
+      "soldDate": "2026-05-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata  very rare variegated aroid plant 05ASA07",
+      "url": "https://www.ebay.co.uk/itm/327153094918",
+      "soldPrice": 27.17,
+      "totalPrice": 27.17,
+      "soldDate": "2026-05-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Aurea Variegata - very rare variegated aroid plant 04ASY10",
+      "url": "https://www.ebay.co.uk/itm/327110753778",
+      "soldPrice": 14.6,
+      "totalPrice": 14.6,
+      "soldDate": "2026-05-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata  very rare variegated aroid plant 05ASA10",
+      "url": "https://www.ebay.co.uk/itm/327153097756",
+      "soldPrice": 30.11,
+      "totalPrice": 30.11,
+      "soldDate": "2026-05-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata  very rare variegated aroid plant 05ASA01",
+      "url": "https://www.ebay.co.uk/itm/327153082347",
+      "soldPrice": 35.12,
+      "totalPrice": 35.12,
+      "soldDate": "2026-05-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata  very rare variegated aroid plant 05ASA08",
+      "url": "https://www.ebay.co.uk/itm/327153095661",
+      "soldPrice": 35.12,
+      "totalPrice": 35.12,
+      "soldDate": "2026-05-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata  very rare variegated aroid plant 05ASA05",
+      "url": "https://www.ebay.co.uk/itm/327153093124",
+      "soldPrice": 36.39,
+      "totalPrice": 36.39,
+      "soldDate": "2026-05-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Aurea Variegata - very rare variegated aroid plant 04ASY11",
+      "url": "https://www.ebay.co.uk/itm/327110754300",
+      "soldPrice": 15.93,
+      "totalPrice": 15.93,
+      "soldDate": "2026-05-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum 8cm Pot Rare Jewel Alocasia Indoor House Plant Well Rooted",
+      "url": "https://www.ebay.co.uk/itm/206194297402",
+      "soldPrice": 8.88,
+      "totalPrice": 11.82,
+      "soldDate": "2026-05-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata  very rare variegated aroid plant 05ASA12",
+      "url": "https://www.ebay.co.uk/itm/327153100425",
+      "soldPrice": 47.16,
+      "totalPrice": 47.16,
+      "soldDate": "2026-05-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Pot 12.5Øcm",
+      "url": "https://www.ebay.co.uk/itm/277972622532",
+      "soldPrice": 26.31,
+      "totalPrice": 29.689999999999998,
+      "soldDate": "2026-05-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum",
+      "url": "https://www.ebay.co.uk/itm/366377155567",
+      "soldPrice": 7.48,
+      "totalPrice": 10.86,
+      "soldDate": "2026-05-12",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Aurea Variegata - very rare variegated aroid plant 04ASY08",
+      "url": "https://www.ebay.co.uk/itm/327110752318",
+      "soldPrice": 16.77,
+      "totalPrice": 16.77,
+      "soldDate": "2026-05-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Aurea Variegata - very rare variegated aroid plant 04ASY12",
+      "url": "https://www.ebay.co.uk/itm/327110754868",
+      "soldPrice": 16.77,
+      "totalPrice": 16.77,
+      "soldDate": "2026-05-09",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Aurea Variegata - very rare variegated aroid plant 04ASY07",
+      "url": "https://www.ebay.co.uk/itm/327110750303",
+      "soldPrice": 16.77,
+      "totalPrice": 16.77,
+      "soldDate": "2026-05-08",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Houseplant",
+      "url": "https://www.ebay.co.uk/itm/178095212311",
+      "soldPrice": 6.91,
+      "totalPrice": 6.91,
+      "soldDate": "2026-05-07",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Aurea Variegata - very rare variegated aroid plant 04ASY14",
+      "url": "https://www.ebay.co.uk/itm/327110755723",
+      "soldPrice": 16.18,
+      "totalPrice": 16.18,
+      "soldDate": "2026-05-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata - very rare variegated aroid plant 04ASA05",
+      "url": "https://www.ebay.co.uk/itm/327116003398",
+      "soldPrice": 27.3,
+      "totalPrice": 27.3,
+      "soldDate": "2026-05-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Rare Indoor House Plant in 6cm Pot",
+      "url": "https://www.ebay.co.uk/itm/389920635842",
+      "soldPrice": 7.48,
+      "totalPrice": 10.42,
+      "soldDate": "2026-04-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Aurea Variegata - very rare variegated aroid plant 04ASY09",
+      "url": "https://www.ebay.co.uk/itm/327110753020",
+      "soldPrice": 17.65,
+      "totalPrice": 17.65,
+      "soldDate": "2026-05-01",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata - very rare variegated aroid plant 04ASA06",
+      "url": "https://www.ebay.co.uk/itm/327116005388",
+      "soldPrice": 31.84,
+      "totalPrice": 31.84,
+      "soldDate": "2026-04-30",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata - very rare variegated aroid plant 04ASA01",
+      "url": "https://www.ebay.co.uk/itm/327110737729",
+      "soldPrice": 32.94,
+      "totalPrice": 32.94,
+      "soldDate": "2026-04-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "X12 Alocasia Scalprum (from Albo Mother Plants) 04AP10",
+      "url": "https://www.ebay.co.uk/itm/327128426578",
+      "soldPrice": 62,
+      "totalPrice": 62,
+      "soldDate": "2026-04-29",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia reginula 'Black Velvet' and Scalprum 🌿RARE🌿 aroid Tropical House Pl",
+      "url": "https://www.ebay.co.uk/itm/406890110934",
+      "soldPrice": 12.74,
+      "totalPrice": 16.12,
+      "soldDate": "2026-04-28",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum 'Samar Lance'. 🌿RARE🌿 aroid Tropical House Plant",
+      "url": "https://www.ebay.co.uk/itm/406860065426",
+      "soldPrice": 8.02,
+      "totalPrice": 11.399999999999999,
+      "soldDate": "2026-04-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata - very rare variegated aroid plant 04ASA02",
+      "url": "https://www.ebay.co.uk/itm/327110738176",
+      "soldPrice": 33.08,
+      "totalPrice": 33.08,
+      "soldDate": "2026-04-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata - very rare variegated aroid plant 04ASA04",
+      "url": "https://www.ebay.co.uk/itm/327116002731",
+      "soldPrice": 41.15,
+      "totalPrice": 41.15,
+      "soldDate": "2026-04-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Aurea Variegata - very rare variegated aroid plant 04ASY13",
+      "url": "https://www.ebay.co.uk/itm/327110755134",
+      "soldPrice": 21.67,
+      "totalPrice": 21.67,
+      "soldDate": "2026-04-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Aurea Variegata - very rare variegated aroid plant 04ASY02",
+      "url": "https://www.ebay.co.uk/itm/327097466685",
+      "soldPrice": 18.58,
+      "totalPrice": 18.58,
+      "soldDate": "2026-04-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata - very rare variegated aroid plant 03ASA14",
+      "url": "https://www.ebay.co.uk/itm/327074805615",
+      "soldPrice": 24.47,
+      "totalPrice": 24.47,
+      "soldDate": "2026-04-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Aurea Variegata - very rare variegated aroid plant 04ASY01",
+      "url": "https://www.ebay.co.uk/itm/327097465343",
+      "soldPrice": 18.58,
+      "totalPrice": 18.58,
+      "soldDate": "2026-04-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata - very rare variegated aroid plant 03ASA10",
+      "url": "https://www.ebay.co.uk/itm/327074800829",
+      "soldPrice": 27.12,
+      "totalPrice": 27.12,
+      "soldDate": "2026-04-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata - very rare variegated aroid plant 03ASA11",
+      "url": "https://www.ebay.co.uk/itm/327074802196",
+      "soldPrice": 27.12,
+      "totalPrice": 27.12,
+      "soldDate": "2026-04-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Aurea Variegata - very rare variegated aroid plant 04ASY05",
+      "url": "https://www.ebay.co.uk/itm/327097469562",
+      "soldPrice": 20.59,
+      "totalPrice": 20.59,
+      "soldDate": "2026-04-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata - very rare variegated aroid plant 03ASA12",
+      "url": "https://www.ebay.co.uk/itm/327074804017",
+      "soldPrice": 33.29,
+      "totalPrice": 33.29,
+      "soldDate": "2026-04-16",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata - very rare variegated aroid plant 03ASA15",
+      "url": "https://www.ebay.co.uk/itm/327074806571",
+      "soldPrice": 33.29,
+      "totalPrice": 33.29,
+      "soldDate": "2026-04-16",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum 12cm",
+      "url": "https://www.ebay.co.uk/itm/198179554310",
+      "soldPrice": 12.78,
+      "totalPrice": 16.49,
+      "soldDate": "2026-04-16",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "X38 Alocasia Scalprum TC Plantlets",
+      "url": "https://www.ebay.co.uk/itm/327099373116",
+      "soldPrice": 80,
+      "totalPrice": 80,
+      "soldDate": "2026-04-15",
+      "listingType": "tc_plantlet",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Aurea Variegata - very rare variegated aroid plant 04ASY03",
+      "url": "https://www.ebay.co.uk/itm/327097467476",
+      "soldPrice": 22.81,
+      "totalPrice": 22.81,
+      "soldDate": "2026-04-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Aurea Variegata - very rare variegated aroid plant 04ASY04",
+      "url": "https://www.ebay.co.uk/itm/327097468538",
+      "soldPrice": 26.6,
+      "totalPrice": 26.6,
+      "soldDate": "2026-04-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Albo Variegata - very rare variegated aroid plant 03ASA13",
+      "url": "https://www.ebay.co.uk/itm/327074804885",
+      "soldPrice": 40.86,
+      "totalPrice": 40.86,
+      "soldDate": "2026-04-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "🌿 Alocasia scalprum – Baby Plant | The Aroid Heist Collection",
+      "url": "https://www.ebay.co.uk/itm/147234951053",
+      "soldPrice": 1,
+      "totalPrice": 7.99,
+      "soldDate": "2026-04-09",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Scalprum Aurea Variegata - very rare variegated aroid plant 03ASY02",
+      "url": "https://www.ebay.co.uk/itm/327047731053",
+      "soldPrice": 18.82,
+      "totalPrice": 18.82,
+      "soldDate": "2026-04-06",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 72,
+  "rejectedCount": 5,
+  "rejectionBreakdown": {
+    "Contains excluded term": [
+      "alocasia scalprum albo in self watering corm cup, rare houseplant",
+      "alocasia scalprum albo in self watering corm cup, rare houseplant",
+      "alocasia scalprum albo variegated pup in corm cup tropical rare house plant"
+    ]
+  }
+}

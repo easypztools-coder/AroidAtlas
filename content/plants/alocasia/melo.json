@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Alocasia melo is a spectacular dwarf jewel Alocasia endemic to the Sabah region of Borneo, where it grows specifically in ultramafic soils on rocky forest slopes. It is famous for its extremely thick, almost cardboard-like leaves with a deeply rugose, brain-like texture and a dark bluish-green to grey-green coloration. The leaves form a compact, low-growing rosette. Due to its specific native habitat, it requires excellent drainage and careful watering, but rewards growers with its unmatched sculptural beauty.",
   "quickFacts": {
     "growthHabit": "Compact, self-heading",
@@ -34,7 +34,7 @@
     "growthHabit": "Basal rosette from corm"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 69,
+    "currentMedianPriceGBP": 39,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

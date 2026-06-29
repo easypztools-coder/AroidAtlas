@@ -1,0 +1,198 @@
+{
+  "snapshot": {
+    "plantSlug": "delta-force",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "anthurium delta force",
+    "checkedAt": "2026-06-29T19:11:05.791Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 16,
+    "rejectedCount": 224,
+    "outlierCount": 2,
+    "confidenceScore": "C",
+    "minPrice": 19.34,
+    "p25Price": 28.8125,
+    "medianPrice": 33.239999999999995,
+    "meanPrice": 32.3025,
+    "trimmedMeanPrice": 31.328333333333333,
+    "p75Price": 34.19,
+    "maxPrice": 60,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 16,
+    "min": 19.34,
+    "max": 60,
+    "median": 33.239999999999995,
+    "mean": 32.3025,
+    "p25": 28.8125,
+    "p75": 34.19,
+    "iqr": 5.377499999999998,
+    "trimmedMean": 31.328333333333333,
+    "confidenceScore": "C",
+    "rejectedCount": 224,
+    "rejectionReasons": {},
+    "outlierCount": 2
+  },
+  "acceptedListings": [
+    {
+      "title": "Anthurium Delta Force X Forgetii | anthurium hybrid houseplant | 7 cm pot",
+      "url": "https://www.ebay.co.uk/itm/158034591192",
+      "soldPrice": 40,
+      "totalPrice": 40,
+      "soldDate": "2026-06-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Delta Force",
+      "url": "https://www.ebay.co.uk/itm/398013544325",
+      "soldPrice": 15.96,
+      "totalPrice": 19.34,
+      "soldDate": "2026-06-27",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Delta Force Rare Aroid",
+      "url": "https://www.ebay.co.uk/itm/327188315770",
+      "soldPrice": 18.6,
+      "totalPrice": 21.560000000000002,
+      "soldDate": "2026-06-21",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "TC Anthurium Delta Force In cataphyll",
+      "url": "https://www.ebay.co.uk/itm/198442654296",
+      "soldPrice": 60,
+      "totalPrice": 60,
+      "soldDate": "2026-06-21",
+      "listingType": "tc_plantlet",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Delta Force - Rare Aroid #12",
+      "url": "https://www.ebay.co.uk/itm/206329010409",
+      "soldPrice": 29.99,
+      "totalPrice": 29.99,
+      "soldDate": "2026-06-18",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Delta Force Rare Aroid #8",
+      "url": "https://www.ebay.co.uk/itm/206251117363",
+      "soldPrice": 25.28,
+      "totalPrice": 25.28,
+      "soldDate": "2026-06-05",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Delta Force Rare Aroid #9",
+      "url": "https://www.ebay.co.uk/itm/206297510913",
+      "soldPrice": 29.99,
+      "totalPrice": 29.99,
+      "soldDate": "2026-06-03",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Delta Force Rare Plant #3",
+      "url": "https://www.ebay.co.uk/itm/206232662555",
+      "soldPrice": 29.74,
+      "totalPrice": 33.239999999999995,
+      "soldDate": "2026-05-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Delta Force Rare Aroid",
+      "url": "https://www.ebay.co.uk/itm/327139360340",
+      "soldPrice": 21.25,
+      "totalPrice": 24.21,
+      "soldDate": "2026-05-10",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Delta Force Rare Aroid #7",
+      "url": "https://www.ebay.co.uk/itm/206248803563",
+      "soldPrice": 29.74,
+      "totalPrice": 34.19,
+      "soldDate": "2026-05-03",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Delta Force Rare Plant #1",
+      "url": "https://www.ebay.co.uk/itm/206232661502",
+      "soldPrice": 29.74,
+      "totalPrice": 34.19,
+      "soldDate": "2026-05-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Delta Force Rare Aroid",
+      "url": "https://www.ebay.co.uk/itm/206004787165",
+      "soldPrice": 29.99,
+      "totalPrice": 29.99,
+      "soldDate": "2026-04-29",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Delta Force Rare Plant #2",
+      "url": "https://www.ebay.co.uk/itm/206232662107",
+      "soldPrice": 29.74,
+      "totalPrice": 34.19,
+      "soldDate": "2026-04-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Delta Force Rare Plant #4",
+      "url": "https://www.ebay.co.uk/itm/206232663019",
+      "soldPrice": 29.74,
+      "totalPrice": 34.19,
+      "soldDate": "2026-04-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Delta Force - Rare Plant #12",
+      "url": "https://www.ebay.co.uk/itm/206177346229",
+      "soldPrice": 29.74,
+      "totalPrice": 33.239999999999995,
+      "soldDate": "2026-04-14",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Delta Force - Rare Plant #13",
+      "url": "https://www.ebay.co.uk/itm/206186733595",
+      "soldPrice": 29.74,
+      "totalPrice": 33.239999999999995,
+      "soldDate": "2026-04-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 16,
+  "rejectedCount": 224,
+  "rejectionBreakdown": {
+    "Contains excluded term": [
+      "anthurium delta force x forgetii seed 4 clone very rare aroid plant",
+      "anthurium delta force x forgetii seed 1 clone very rare aroid plant",
+      "anthurium delta force x forgetii seed 6 clone very rare aroid plant"
+    ],
+    "No accepted term found. Expected one of": [
+      "anthurium warocqueanum",
+      "anthurium clarinervium",
+      "anthurium clarinervium"
+    ]
+  }
+}

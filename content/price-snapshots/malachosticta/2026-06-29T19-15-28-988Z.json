@@ -1,0 +1,245 @@
+{
+  "snapshot": {
+    "plantSlug": "malachosticta",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia malachosticta Ecuador",
+    "checkedAt": "2026-06-29T19:15:28.988Z",
+    "currency": "GBP",
+    "rawResultCount": 23,
+    "acceptedCount": 22,
+    "rejectedCount": 1,
+    "outlierCount": 1,
+    "confidenceScore": "B",
+    "minPrice": 10.870000000000001,
+    "p25Price": 12.989999999999998,
+    "medianPrice": 14.440000000000001,
+    "meanPrice": 15.69363636363636,
+    "trimmedMeanPrice": 14.765882352941176,
+    "p75Price": 18.545,
+    "maxPrice": 30.650000000000002,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 22,
+    "min": 10.870000000000001,
+    "max": 30.650000000000002,
+    "median": 14.440000000000001,
+    "mean": 15.69363636363636,
+    "p25": 12.989999999999998,
+    "p75": 18.545,
+    "iqr": 5.555000000000003,
+    "trimmedMean": 14.765882352941176,
+    "confidenceScore": "B",
+    "rejectedCount": 1,
+    "rejectionReasons": {},
+    "outlierCount": 1
+  },
+  "acceptedListings": [
+    {
+      "title": "Begonia Malachosticta 6cm Pot. Pink Polkadot Leaves.",
+      "url": "https://www.ebay.co.uk/itm/127938050464",
+      "soldPrice": 8.55,
+      "totalPrice": 11.93,
+      "soldDate": "2026-06-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Malachosticta 6cm Pot. Pink Polkadot Leaves.",
+      "url": "https://www.ebay.co.uk/itm/127938053753",
+      "soldPrice": 10.67,
+      "totalPrice": 14.05,
+      "soldDate": "2026-06-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Malachosticta Rooted cuttings",
+      "url": "https://www.ebay.co.uk/itm/336638876362",
+      "soldPrice": 14.83,
+      "totalPrice": 14.83,
+      "soldDate": "2026-06-17",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Malachosticta Rooted Plant",
+      "url": "https://www.ebay.co.uk/itm/267650309007",
+      "soldPrice": 15.96,
+      "totalPrice": 19.34,
+      "soldDate": "2026-04-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Malachosticta 7cm Pot. Pink Polkadot Leaves.",
+      "url": "https://www.ebay.co.uk/itm/127871099144",
+      "soldPrice": 10.67,
+      "totalPrice": 14.05,
+      "soldDate": "2026-05-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Malachosticta 6cm Pot. Pink Polkadot Leaves.",
+      "url": "https://www.ebay.co.uk/itm/127938051566",
+      "soldPrice": 8.55,
+      "totalPrice": 11.93,
+      "soldDate": "2026-06-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Malachosticta 9cm Pot. Pink Polkadot Leaves.",
+      "url": "https://www.ebay.co.uk/itm/127887899133",
+      "soldPrice": 10.67,
+      "totalPrice": 14.05,
+      "soldDate": "2026-05-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "🦩Rare Begonia malachosticta – Established Propagated Division 🌿",
+      "url": "https://www.ebay.co.uk/itm/377185689806",
+      "soldPrice": 12.78,
+      "totalPrice": 15.719999999999999,
+      "soldDate": "2026-05-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Malachosticta 6cm Pot. Pink Polkadot Leaves. No2.",
+      "url": "https://www.ebay.co.uk/itm/127887894062",
+      "soldPrice": 7.49,
+      "totalPrice": 10.870000000000001,
+      "soldDate": "2026-05-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Malachosticta 6cm Pot. Pink Polkadot Leaves. No1.",
+      "url": "https://www.ebay.co.uk/itm/127887891057",
+      "soldPrice": 7.49,
+      "totalPrice": 10.870000000000001,
+      "soldDate": "2026-05-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Malachosticta 6cm Pot. Pink  Polkadot Leaves.",
+      "url": "https://www.ebay.co.uk/itm/127804650849",
+      "soldPrice": 15.96,
+      "totalPrice": 19.34,
+      "soldDate": "2026-04-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Malachosticta x Amphioxus Rare Plant Terranium Plant Indoor House Plant",
+      "url": "https://www.ebay.co.uk/itm/137275044665",
+      "soldPrice": 27.71,
+      "totalPrice": 30.650000000000002,
+      "soldDate": "2026-05-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Malachosticta 7cm Pot. Pink Polkadot Leaves.",
+      "url": "https://www.ebay.co.uk/itm/127806180594",
+      "soldPrice": 12.78,
+      "totalPrice": 16.16,
+      "soldDate": "2026-04-18",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Malachosticta 9cm Pot. Pink Polkadot Leaves.",
+      "url": "https://www.ebay.co.uk/itm/127806176329",
+      "soldPrice": 15.96,
+      "totalPrice": 19.34,
+      "soldDate": "2026-04-18",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Malachosticta Rooted Snip. Pink Polkadot Leaves.",
+      "url": "https://www.ebay.co.uk/itm/127825844525",
+      "soldPrice": 9.61,
+      "totalPrice": 12.989999999999998,
+      "soldDate": "2026-05-04",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Malachosticta 6cm Pot. Pink Polkadot Leaves. No4.",
+      "url": "https://www.ebay.co.uk/itm/127887897477",
+      "soldPrice": 7.49,
+      "totalPrice": 10.870000000000001,
+      "soldDate": "2026-05-31",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Malachosticta Rooted Snip. Pink Polkadot Leaves.",
+      "url": "https://www.ebay.co.uk/itm/127825852778",
+      "soldPrice": 11.72,
+      "totalPrice": 15.100000000000001,
+      "soldDate": "2026-05-09",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Malachosticta Very RARE Terrarium Collector Plant Pink Spots",
+      "url": "https://www.ebay.co.uk/itm/306934108769",
+      "soldPrice": 11.84,
+      "totalPrice": 15.34,
+      "soldDate": "2026-06-18",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Malachosticta Rooted Snip. Pink Polkadot Leaves.",
+      "url": "https://www.ebay.co.uk/itm/127825837271",
+      "soldPrice": 9.61,
+      "totalPrice": 12.989999999999998,
+      "soldDate": "2026-04-29",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Malachosticta 7cm Pot. Pink Polkadot Leaves.",
+      "url": "https://www.ebay.co.uk/itm/127806184816",
+      "soldPrice": 19.13,
+      "totalPrice": 22.509999999999998,
+      "soldDate": "2026-04-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Malachosticta Rooted Snip. Pink Polkadot Leaves.",
+      "url": "https://www.ebay.co.uk/itm/127825858414",
+      "soldPrice": 9.61,
+      "totalPrice": 12.989999999999998,
+      "soldDate": "2026-04-26",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Malachosticta 9cm Pot. Pink Polkadot Leaves.",
+      "url": "https://www.ebay.co.uk/itm/127840026706",
+      "soldPrice": 15.96,
+      "totalPrice": 19.34,
+      "soldDate": "2026-05-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 22,
+  "rejectedCount": 1,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "begonia dracopelta x malachosticta dark form - (hybrid by india rose) rare"
+    ]
+  }
+}

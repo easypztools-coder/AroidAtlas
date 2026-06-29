@@ -1,0 +1,52 @@
+{
+  "snapshot": {
+    "plantSlug": "obliqua-costa-rica-locality-form",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera obliqua Costa Rica",
+    "checkedAt": "2026-06-29T19:19:28.663Z",
+    "rawResultCount": 240,
+    "acceptedCount": 0,
+    "rejectedCount": 240,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 0,
+    "p25Price": 0,
+    "medianPrice": 0,
+    "meanPrice": 0,
+    "trimmedMeanPrice": 0,
+    "p75Price": 0,
+    "maxPrice": 0,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 0,
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "mean": 0,
+    "p25": 0,
+    "p75": 0,
+    "iqr": 0,
+    "trimmedMean": 0,
+    "confidenceScore": "D",
+    "rejectedCount": 240,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [],
+  "acceptedCount": 0,
+  "rejectedCount": 240,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "monstera sp. costa rica - very rare - terrarium plant - p0345",
+      "monstera sp. costa rica rare tropical terrarium plant houseplant aroid",
+      "2026 england v new zealand/costa rica (friendly usa) official programe in stock"
+    ],
+    "Global block": [
+      "nike acg toucan corcovado costa rica heavy t-shirt - mens size medium hj0792-480",
+      "carnival in costa rica dvd region 1 us import 20th century cinema archives 1947",
+      "nike acg toucan corcovado costa rica heavy t-shirt - mens size large hj0792-480"
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "snapshot": {
+    "plantSlug": "dean-mcdowell",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron Dean McDowell",
+    "checkedAt": "2026-06-29T19:26:26.874Z",
+    "currency": "GBP",
+    "rawResultCount": 98,
+    "acceptedCount": 7,
+    "rejectedCount": 91,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 7.49,
+    "p25Price": 15.96,
+    "medianPrice": 24.3,
+    "meanPrice": 24.157142857142855,
+    "trimmedMeanPrice": 24.157142857142855,
+    "p75Price": 30.705000000000002,
+    "maxPrice": 43.98,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 7,
+    "min": 7.49,
+    "max": 43.98,
+    "median": 24.3,
+    "mean": 24.157142857142855,
+    "p25": 15.96,
+    "p75": 30.705000000000002,
+    "iqr": 14.745000000000001,
+    "trimmedMean": 24.157142857142855,
+    "confidenceScore": "D",
+    "rejectedCount": 91,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "🌿✨ **Philodendron ‘Dean McDowell’ ✨🌿Rare one-leaf rooted cutting 🌱",
+      "url": "https://www.ebay.co.uk/itm/377185711400",
+      "soldPrice": 24.3,
+      "totalPrice": 24.3,
+      "soldDate": "2026-06-12",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Dean Mcdowell Rooted Base Cutting -  Two Nodes, One Active Growing",
+      "url": "https://www.ebay.co.uk/itm/117202264452",
+      "soldPrice": 15.96,
+      "totalPrice": 15.96,
+      "soldDate": "2026-05-26",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Dean Mcdowell Rooted Base Cutting - Two Active Nodes Growing",
+      "url": "https://www.ebay.co.uk/itm/117202260809",
+      "soldPrice": 15.96,
+      "totalPrice": 15.96,
+      "soldDate": "2026-05-22",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "🌿✨ **Philodendron ‘Dean McDowell’ ✨🌿Rare rooted top cut with 3 leaves 🌱",
+      "url": "https://www.ebay.co.uk/itm/377185722382",
+      "soldPrice": 43.98,
+      "totalPrice": 43.98,
+      "soldDate": "2026-05-18",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Dean Mcdowell Huge Rooted Top Cutting - Mother Plants 1st image",
+      "url": "https://www.ebay.co.uk/itm/117162176781",
+      "soldPrice": 26.42,
+      "totalPrice": 26.42,
+      "soldDate": "2026-04-26",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "RARE, Philodendron Dean McDowell (Gloriosum x Pastazanum) XL 1-LEAF TOP Cutting",
+      "url": "https://www.ebay.co.uk/itm/177863353829",
+      "soldPrice": 34.99,
+      "totalPrice": 34.99,
+      "soldDate": "2026-04-17",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Dean McDowell Imperfect Pot12 Cm Houseplant",
+      "url": "https://www.ebay.co.uk/itm/406812485444",
+      "soldPrice": 7.49,
+      "totalPrice": 7.49,
+      "soldDate": "2026-04-04",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 7,
+  "rejectedCount": 91,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "rare philodendron melanochrysum highly variegated, 3-leaf young plant, potted, a",
+      "philodendron melanochrysum orange 🍊 highly variegated, 1-leaf cut, rooting, a1",
+      "rare philodendron melanochrysum highly variegated, 2-leaf young plant, potted, a"
+    ]
+  }
+}

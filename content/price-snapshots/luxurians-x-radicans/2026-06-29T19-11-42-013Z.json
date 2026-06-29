@@ -1,0 +1,70 @@
+{
+  "snapshot": {
+    "plantSlug": "luxurians-x-radicans",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium luxurians radicans hybrid",
+    "checkedAt": "2026-06-29T19:11:42.013Z",
+    "currency": "GBP",
+    "rawResultCount": 12,
+    "acceptedCount": 2,
+    "rejectedCount": 10,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 26.490000000000002,
+    "p25Price": 36.9425,
+    "medianPrice": 47.394999999999996,
+    "meanPrice": 47.394999999999996,
+    "trimmedMeanPrice": 47.394999999999996,
+    "p75Price": 57.8475,
+    "maxPrice": 68.3,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 2,
+    "min": 26.490000000000002,
+    "max": 68.3,
+    "median": 47.394999999999996,
+    "mean": 47.394999999999996,
+    "p25": 36.9425,
+    "p75": 57.8475,
+    "iqr": 20.904999999999994,
+    "trimmedMean": 47.394999999999996,
+    "confidenceScore": "D",
+    "rejectedCount": 10,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Huge 20cm Pot Anthurium Luxurians X Radicans Huge plant",
+      "url": "https://www.ebay.co.uk/itm/257556368792",
+      "soldPrice": 68.3,
+      "totalPrice": 68.3,
+      "soldDate": "2026-06-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium luxurians x radicansIn 12 Cm Pot",
+      "url": "https://www.ebay.co.uk/itm/127729691921",
+      "soldPrice": 22.5,
+      "totalPrice": 26.490000000000002,
+      "soldDate": "2026-06-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 2,
+  "rejectedCount": 10,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "anthurium ‘luxurians x radicans’ 6cm -rare find - indoor potted houseplant",
+      "rare - anthurium dark crystallinum x luxurians hybrid, 3-leaf top cut, rooting",
+      "rare - anthurium dark crystallinum x luxurians hybrid, 1-leaf top cutting rooted"
+    ],
+    "Contains excluded term": [
+      "anthurium luxurians x radicans 9 cm plastic pot special house plant"
+    ]
+  }
+}

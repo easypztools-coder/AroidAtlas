@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Alocasia reversa is a compact, self-heading aroid species native to the wet tropical forest understory of Borneo, specifically Sarawak. It thrives terrestrially in humid, shaded conditions with a consistently moist substrate. This distinctive Alocasia features ovate-sagittate leaves with a striking reverse coloration, presenting pale silvery centers beautifully contrasted by darker margins and venation. The leaf texture is smooth to slightly velvety, and the plant exhibits a neat terrestrial habit, forming its petioles from a condensed basal corm-like base without developing climbing stems or aerial roots.",
   "quickFacts": {
     "growthHabit": "Compact, terrestrial, self-heading",
@@ -34,7 +34,7 @@
     "growthHabit": "Compact, self-heading, terrestrial"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 70,
+    "currentMedianPriceGBP": 20,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

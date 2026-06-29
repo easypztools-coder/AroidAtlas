@@ -1,0 +1,157 @@
+{
+  "snapshot": {
+    "plantSlug": "brevirimosa",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia brevirimosa",
+    "checkedAt": "2026-06-29T19:14:46.971Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 12,
+    "rejectedCount": 228,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 11.27,
+    "p25Price": 15.56,
+    "medianPrice": 20.83,
+    "meanPrice": 19.745,
+    "trimmedMeanPrice": 19.467000000000002,
+    "p75Price": 22.115000000000002,
+    "maxPrice": 31,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 12,
+    "min": 11.27,
+    "max": 31,
+    "median": 20.83,
+    "mean": 19.745,
+    "p25": 15.56,
+    "p75": 22.115000000000002,
+    "iqr": 6.5550000000000015,
+    "trimmedMean": 19.467000000000002,
+    "confidenceScore": "D",
+    "rejectedCount": 228,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Begonia Brevirimosa Terrarium Houseplant Rare! Pink Plant Small Fresh Cuttings",
+      "url": "https://www.ebay.co.uk/itm/206307267788",
+      "soldPrice": 9.99,
+      "totalPrice": 11.540000000000001,
+      "soldDate": "2026-06-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Brevirimosa Terrarium Houseplant Rare! Pink Plant",
+      "url": "https://www.ebay.co.uk/itm/307001491028",
+      "soldPrice": 17.78,
+      "totalPrice": 21.28,
+      "soldDate": "2026-06-23",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Brevirimosa Terrarium Houseplant Rare! Pink Plant",
+      "url": "https://www.ebay.co.uk/itm/306983171335",
+      "soldPrice": 17.78,
+      "totalPrice": 21.28,
+      "soldDate": "2026-06-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Brevirimosa small plant",
+      "url": "https://www.ebay.co.uk/itm/336628373051",
+      "soldPrice": 15.96,
+      "totalPrice": 15.96,
+      "soldDate": "2026-06-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "begonia brevirimosa rooted cutting.",
+      "url": "https://www.ebay.co.uk/itm/398011557752",
+      "soldPrice": 21.24,
+      "totalPrice": 24.619999999999997,
+      "soldDate": "2026-06-07",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Brevirimosa Rooted Plant Rare",
+      "url": "https://www.ebay.co.uk/itm/267659195510",
+      "soldPrice": 15.96,
+      "totalPrice": 19.34,
+      "soldDate": "2026-05-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Brevirimosa Terrarium Houseplant Rare! Pink Plant Small Rooted Props",
+      "url": "https://www.ebay.co.uk/itm/306934106429",
+      "soldPrice": 10.86,
+      "totalPrice": 14.36,
+      "soldDate": "2026-05-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia brevirimosa exotica - Rare Plant",
+      "url": "https://www.ebay.co.uk/itm/287294867914",
+      "soldPrice": 28,
+      "totalPrice": 31,
+      "soldDate": "2026-05-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Damaged Begonia Brevirimosa Houseplant",
+      "url": "https://www.ebay.co.uk/itm/178096830566",
+      "soldPrice": 7.89,
+      "totalPrice": 11.27,
+      "soldDate": "2026-05-04",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Damaged Begonia Brevirimosa Rare Pink Houseplant",
+      "url": "https://www.ebay.co.uk/itm/178042267960",
+      "soldPrice": 14.83,
+      "totalPrice": 20.83,
+      "soldDate": "2026-04-22",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Brevirimosa Rooted Plant Cutting Bright Pink Variegation",
+      "url": "https://www.ebay.co.uk/itm/358450679886",
+      "soldPrice": 21.25,
+      "totalPrice": 24.63,
+      "soldDate": "2026-04-20",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Damaged Begonia Brevirimosa Rare Pink Houseplant",
+      "url": "https://www.ebay.co.uk/itm/178042268928",
+      "soldPrice": 14.83,
+      "totalPrice": 20.83,
+      "soldDate": "2026-04-13",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 12,
+  "rejectedCount": 228,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "begonia amphioxus – polka dot begonia",
+      "begonia fulvovillosa formerly u012 very rare terrarium plant",
+      "begonia maculata 'pink spot' houseplant in 6 cm pot"
+    ]
+  }
+}

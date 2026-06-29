@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Monstera acacoyaguensis is a climbing canopy aroid native to the tropical forests of southern Mexico and Central America. It climbs trees using aerial roots, developing large fenestrated leaves. Unlike Monstera deliciosa, the fenestrations are large, oval holes clustered along the midrib, leaving the margins mostly intact. The foliage is thick, coriaceous, and glossy green, making it a highly sculptural and dramatic climber for vertical growing spaces.",
   "quickFacts": {
     "growthHabit": "Root-climbing climber",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing, vining"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 75,
+    "currentMedianPriceGBP": 18,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

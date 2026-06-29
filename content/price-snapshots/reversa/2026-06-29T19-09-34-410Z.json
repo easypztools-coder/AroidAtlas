@@ -1,0 +1,58 @@
+{
+  "snapshot": {
+    "plantSlug": "reversa",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia reversa",
+    "checkedAt": "2026-06-29T19:09:34.410Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 1,
+    "rejectedCount": 239,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 19.67,
+    "p25Price": 19.67,
+    "medianPrice": 19.67,
+    "meanPrice": 19.67,
+    "trimmedMeanPrice": 19.67,
+    "p75Price": 19.67,
+    "maxPrice": 19.67,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 1,
+    "min": 19.67,
+    "max": 19.67,
+    "median": 19.67,
+    "mean": 19.67,
+    "p25": 19.67,
+    "p75": 19.67,
+    "iqr": 0,
+    "trimmedMean": 19.67,
+    "confidenceScore": "D",
+    "rejectedCount": 239,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "2 Different House Plant,  Indoor Plant,  Alocasia Reversa,  Alocasia Platinum",
+      "url": "https://www.ebay.co.uk/itm/178038101341",
+      "soldPrice": 15.96,
+      "totalPrice": 19.67,
+      "soldDate": "2026-04-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 1,
+  "rejectedCount": 239,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "alocasia olanii | rare alocasia houseplant | 5 cm pot",
+      "stunning alocasia jacklyn- rare houseplant pot 6 cm",
+      "alocasia regal shield corm a-extra large uk only aroid plant"
+    ]
+  }
+}

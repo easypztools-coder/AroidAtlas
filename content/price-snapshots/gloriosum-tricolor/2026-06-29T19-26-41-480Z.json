@@ -1,0 +1,193 @@
+{
+  "snapshot": {
+    "plantSlug": "gloriosum-tricolor",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron gloriosum tricolor",
+    "checkedAt": "2026-06-29T19:26:41.480Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 16,
+    "rejectedCount": 224,
+    "outlierCount": 0,
+    "confidenceScore": "C",
+    "minPrice": 7.09,
+    "p25Price": 34.99,
+    "medianPrice": 103.9,
+    "meanPrice": 88.636875,
+    "trimmedMeanPrice": 89.39857142857144,
+    "p75Price": 129.8125,
+    "maxPrice": 159.52,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 16,
+    "min": 7.09,
+    "max": 159.52,
+    "median": 103.9,
+    "mean": 88.636875,
+    "p25": 34.99,
+    "p75": 129.8125,
+    "iqr": 94.82249999999999,
+    "trimmedMean": 89.39857142857144,
+    "confidenceScore": "C",
+    "rejectedCount": 224,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Philodendron Gloriosum Tricolor Variegated Houseplant Indoor Plant",
+      "url": "https://www.ebay.co.uk/itm/236859451740",
+      "soldPrice": 150.42,
+      "totalPrice": 150.42,
+      "soldDate": "2026-06-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Gloriosum Tricolor Variegated Houseplant Indoor Plant",
+      "url": "https://www.ebay.co.uk/itm/236828745386",
+      "soldPrice": 129.75,
+      "totalPrice": 133.69,
+      "soldDate": "2026-05-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Gloriosum Tricolor Variegated Houseplant Indoor Plant",
+      "url": "https://www.ebay.co.uk/itm/236725753774",
+      "soldPrice": 114.25,
+      "totalPrice": 114.25,
+      "soldDate": "2026-05-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "RARE! Philodendron Gloriosum tricolor, HIGHLY Variegated + heat pack",
+      "url": "https://www.ebay.co.uk/itm/306890507507",
+      "soldPrice": 134.02,
+      "totalPrice": 137.96,
+      "soldDate": "2026-05-19",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "RARE! Philodendron Gloriosum tricolor, HIGHLY Variegated + heat pack",
+      "url": "https://www.ebay.co.uk/itm/306922608210",
+      "soldPrice": 98.25,
+      "totalPrice": 101.63,
+      "soldDate": "2026-05-12",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Gloriosum Variegated",
+      "url": "https://www.ebay.co.uk/itm/137388442340",
+      "soldPrice": 31.58,
+      "totalPrice": 34.96,
+      "soldDate": "2026-06-08",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "RARE! Philodendron Gloriosum variegated, HIGHLY Variegated + heat pack",
+      "url": "https://www.ebay.co.uk/itm/306913787563",
+      "soldPrice": 155.58,
+      "totalPrice": 159.52,
+      "soldDate": "2026-05-03",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Gloriosum Variegated Rare Plant #1",
+      "url": "https://www.ebay.co.uk/itm/206234204440",
+      "soldPrice": 34.99,
+      "totalPrice": 38.49,
+      "soldDate": "2026-05-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Gloriosum Variegated Rare Plant #4",
+      "url": "https://www.ebay.co.uk/itm/206330840596",
+      "soldPrice": 34.99,
+      "totalPrice": 34.99,
+      "soldDate": "2026-06-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "RARE! Philodendron Gloriosum variegated, HIGHLY Variegated + heat pack",
+      "url": "https://www.ebay.co.uk/itm/306902890354",
+      "soldPrice": 124.58,
+      "totalPrice": 128.52,
+      "soldDate": "2026-05-27",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "RARE! Philodendron Gloriosum variegated, house plant+ heat pack",
+      "url": "https://www.ebay.co.uk/itm/306912779448",
+      "soldPrice": 119.42,
+      "totalPrice": 125.58,
+      "soldDate": "2026-06-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Gloriosum Variegated Rare Plant #3",
+      "url": "https://www.ebay.co.uk/itm/206313894697",
+      "soldPrice": 34.99,
+      "totalPrice": 34.99,
+      "soldDate": "2026-06-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "RARE! Philodendron Gloriosum variegated, house plant+ heat pack",
+      "url": "https://www.ebay.co.uk/itm/306912787053",
+      "soldPrice": 98.75,
+      "totalPrice": 103.9,
+      "soldDate": "2026-06-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "RARE! Philodendron Gloriosum variegated, house plant+ heat pack",
+      "url": "https://www.ebay.co.uk/itm/306912786851",
+      "soldPrice": 98.75,
+      "totalPrice": 103.9,
+      "soldDate": "2026-05-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Gloriosum Variegated 1",
+      "url": "https://www.ebay.co.uk/itm/800083501544",
+      "soldPrice": 5.36,
+      "totalPrice": 8.3,
+      "soldDate": "2026-05-31",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Gloriosum Variegated",
+      "url": "https://www.ebay.co.uk/itm/800202549194",
+      "soldPrice": 4.15,
+      "totalPrice": 7.09,
+      "soldDate": "2026-06-21",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 16,
+  "rejectedCount": 224,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "rare 💚philodendron gloriosum tricolour variegated one big leaf rooted cutting",
+      "rare💛philodendron gloriosum tricolour variehated rooting nicely top plant",
+      "rare 🤍💛philodendron gloriosum tricolour variegated rooted cutting"
+    ]
+  }
+}

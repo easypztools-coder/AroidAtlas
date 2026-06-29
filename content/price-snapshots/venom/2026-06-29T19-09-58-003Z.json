@@ -1,0 +1,1361 @@
+{
+  "snapshot": {
+    "plantSlug": "venom",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia Venom",
+    "checkedAt": "2026-06-29T19:09:58.003Z",
+    "currency": "GBP",
+    "rawResultCount": 147,
+    "acceptedCount": 146,
+    "rejectedCount": 1,
+    "outlierCount": 23,
+    "confidenceScore": "A",
+    "minPrice": 4.282,
+    "p25Price": 29.755000000000003,
+    "medianPrice": 42.44,
+    "meanPrice": 63.702885844748856,
+    "trimmedMeanPrice": 39.489696969696965,
+    "p75Price": 62.605000000000004,
+    "maxPrice": 460,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 146,
+    "min": 4.282,
+    "max": 460,
+    "median": 42.44,
+    "mean": 63.702885844748856,
+    "p25": 29.755000000000003,
+    "p75": 62.605000000000004,
+    "iqr": 32.85,
+    "trimmedMean": 39.489696969696965,
+    "confidenceScore": "A",
+    "rejectedCount": 1,
+    "rejectionReasons": {},
+    "outlierCount": 23
+  },
+  "acceptedListings": [
+    {
+      "title": "Alocasia venom 9cm Houseplant",
+      "url": "https://www.ebay.co.uk/itm/358617333078",
+      "soldPrice": 40,
+      "totalPrice": 40,
+      "soldDate": "2026-06-20",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Corm Only Tropical Houseplant Huge CHUNKY",
+      "url": "https://www.ebay.co.uk/itm/257584558389",
+      "soldPrice": 20,
+      "totalPrice": 22.85,
+      "soldDate": "2026-06-28",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Corm Rare Chunky",
+      "url": "https://www.ebay.co.uk/itm/377242340953",
+      "soldPrice": 14.9,
+      "totalPrice": 17.62,
+      "soldDate": "2026-06-26",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Baby Alocasia Venom - rare aroid plant",
+      "url": "https://www.ebay.co.uk/itm/398101570794",
+      "soldPrice": 35.72,
+      "totalPrice": 38.66,
+      "soldDate": "2026-06-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 06AV09",
+      "url": "https://www.ebay.co.uk/itm/327222309431",
+      "soldPrice": 49.5,
+      "totalPrice": 49.5,
+      "soldDate": "2026-06-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom corm grown 🌿RARE🌿 aroid Tropical House Plant",
+      "url": "https://www.ebay.co.uk/itm/407000618393",
+      "soldPrice": 31.69,
+      "totalPrice": 35.07,
+      "soldDate": "2026-06-23",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 06AV14",
+      "url": "https://www.ebay.co.uk/itm/327222315266",
+      "soldPrice": 166.5,
+      "totalPrice": 166.5,
+      "soldDate": "2026-06-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 06AV12",
+      "url": "https://www.ebay.co.uk/itm/327222311877",
+      "soldPrice": 166.5,
+      "totalPrice": 166.5,
+      "soldDate": "2026-06-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Corm Only Tropical Houseplant Huge CHUNKY",
+      "url": "https://www.ebay.co.uk/itm/257509640611",
+      "soldPrice": 22,
+      "totalPrice": 24.85,
+      "soldDate": "2026-06-21",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom pink varigated corm only",
+      "url": "https://www.ebay.co.uk/itm/327221555111",
+      "soldPrice": 167.4,
+      "totalPrice": 167.4,
+      "soldDate": "2026-06-21",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Juvenile Plant Corm Grown",
+      "url": "https://www.ebay.co.uk/itm/257548252984",
+      "soldPrice": 26,
+      "totalPrice": 26,
+      "soldDate": "2026-06-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 06AV13",
+      "url": "https://www.ebay.co.uk/itm/327222312635",
+      "soldPrice": 185,
+      "totalPrice": 185,
+      "soldDate": "2026-06-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 06AV08",
+      "url": "https://www.ebay.co.uk/itm/327222309048",
+      "soldPrice": 55,
+      "totalPrice": 55,
+      "soldDate": "2026-06-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom pink varigated corm only",
+      "url": "https://www.ebay.co.uk/itm/327222266232",
+      "soldPrice": 94.48,
+      "totalPrice": 94.48,
+      "soldDate": "2026-06-19",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Aurea Variegated  Very rare aroid plant 06AVA05",
+      "url": "https://www.ebay.co.uk/itm/327203155182",
+      "soldPrice": 116.59,
+      "totalPrice": 116.59,
+      "soldDate": "2026-06-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 11AV33",
+      "url": "https://www.ebay.co.uk/itm/326871954688",
+      "soldPrice": 49.64,
+      "totalPrice": 49.64,
+      "soldDate": "2025-11-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 11AV31",
+      "url": "https://www.ebay.co.uk/itm/326871951541",
+      "soldPrice": 42.44,
+      "totalPrice": 42.44,
+      "soldDate": "2025-11-23",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 11AV30",
+      "url": "https://www.ebay.co.uk/itm/326871945171",
+      "soldPrice": 52.25,
+      "totalPrice": 52.25,
+      "soldDate": "2025-11-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 11AV25",
+      "url": "https://www.ebay.co.uk/itm/326871931898",
+      "soldPrice": 42.44,
+      "totalPrice": 42.44,
+      "soldDate": "2025-11-23",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 11AV22",
+      "url": "https://www.ebay.co.uk/itm/326871926162",
+      "soldPrice": 38.3,
+      "totalPrice": 38.3,
+      "soldDate": "2025-11-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 11AV21",
+      "url": "https://www.ebay.co.uk/itm/326871925080",
+      "soldPrice": 34.57,
+      "totalPrice": 34.57,
+      "soldDate": "2025-11-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 11AV20",
+      "url": "https://www.ebay.co.uk/itm/326871924034",
+      "soldPrice": 32.84,
+      "totalPrice": 32.84,
+      "soldDate": "2025-11-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 11AV18",
+      "url": "https://www.ebay.co.uk/itm/326871920433",
+      "soldPrice": 34.57,
+      "totalPrice": 34.57,
+      "soldDate": "2025-11-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 11AV17",
+      "url": "https://www.ebay.co.uk/itm/326871916324",
+      "soldPrice": 38.3,
+      "totalPrice": 38.3,
+      "soldDate": "2025-11-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 11AV16",
+      "url": "https://www.ebay.co.uk/itm/326871913560",
+      "soldPrice": 38.3,
+      "totalPrice": 38.3,
+      "soldDate": "2025-11-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 11AV15",
+      "url": "https://www.ebay.co.uk/itm/326871912522",
+      "soldPrice": 38.3,
+      "totalPrice": 38.3,
+      "soldDate": "2025-11-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 11AV14",
+      "url": "https://www.ebay.co.uk/itm/326871911059",
+      "soldPrice": 38.3,
+      "totalPrice": 38.3,
+      "soldDate": "2025-11-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 11AV13",
+      "url": "https://www.ebay.co.uk/itm/326871908990",
+      "soldPrice": 49.64,
+      "totalPrice": 49.64,
+      "soldDate": "2025-11-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 11AV12",
+      "url": "https://www.ebay.co.uk/itm/326871906147",
+      "soldPrice": 34.57,
+      "totalPrice": 34.57,
+      "soldDate": "2025-11-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 11AV11",
+      "url": "https://www.ebay.co.uk/itm/326871905406",
+      "soldPrice": 52.25,
+      "totalPrice": 52.25,
+      "soldDate": "2025-11-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Variegated **Rare corm Only**",
+      "url": "https://www.ebay.co.uk/itm/188515985984",
+      "soldPrice": 62.58,
+      "totalPrice": 65.52,
+      "soldDate": "2026-06-18",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom",
+      "url": "https://www.ebay.co.uk/itm/257548711951",
+      "soldPrice": 45,
+      "totalPrice": 45,
+      "soldDate": "2026-06-17",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 06AV02",
+      "url": "https://www.ebay.co.uk/itm/327192255849",
+      "soldPrice": 21.95,
+      "totalPrice": 21.95,
+      "soldDate": "2026-06-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 06AV01",
+      "url": "https://www.ebay.co.uk/itm/327192251821",
+      "soldPrice": 21.95,
+      "totalPrice": 21.95,
+      "soldDate": "2026-06-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Corms - rare plant",
+      "url": "https://www.ebay.co.uk/itm/157783881244",
+      "soldPrice": 18.36,
+      "totalPrice": 21.74,
+      "soldDate": "2026-06-16",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Corms X5 Available (mother Plant Not For Sale)",
+      "url": "https://www.ebay.co.uk/itm/277993312382",
+      "soldPrice": 21.25,
+      "totalPrice": 24.63,
+      "soldDate": "2026-06-16",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 06AV04",
+      "url": "https://www.ebay.co.uk/itm/327192260995",
+      "soldPrice": 23.1,
+      "totalPrice": 23.1,
+      "soldDate": "2026-06-16",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Mutation  Very rare aroid plant 05AVMUT02",
+      "url": "https://www.ebay.co.uk/itm/327169295078",
+      "soldPrice": 26.78,
+      "totalPrice": 26.78,
+      "soldDate": "2026-06-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Mutation  Very rare aroid plant 05AVMUT01",
+      "url": "https://www.ebay.co.uk/itm/327169294153",
+      "soldPrice": 29.67,
+      "totalPrice": 29.67,
+      "soldDate": "2026-06-14",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom & Dragon scale Albo",
+      "url": "https://www.ebay.co.uk/itm/137388439779",
+      "soldPrice": 38.82,
+      "totalPrice": 42.2,
+      "soldDate": "2026-06-10",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Aurea Variegated  Very rare aroid plant 06AVA04",
+      "url": "https://www.ebay.co.uk/itm/327203154215",
+      "soldPrice": 175.75,
+      "totalPrice": 175.75,
+      "soldDate": "2026-06-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Aurea Variegated  Very rare aroid plant 06AVA03",
+      "url": "https://www.ebay.co.uk/itm/327192284642",
+      "soldPrice": 158.04,
+      "totalPrice": 158.04,
+      "soldDate": "2026-06-08",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Corm",
+      "url": "https://www.ebay.co.uk/itm/397999321087",
+      "soldPrice": 18.53,
+      "totalPrice": 18.53,
+      "soldDate": "2026-06-08",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Aurea Variegated  Very rare aroid plant 06AVA02",
+      "url": "https://www.ebay.co.uk/itm/327192283307",
+      "soldPrice": 166.36,
+      "totalPrice": 166.36,
+      "soldDate": "2026-06-08",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Mutation  Very rare aroid plant 05AVMUT03",
+      "url": "https://www.ebay.co.uk/itm/327169296061",
+      "soldPrice": 40.36,
+      "totalPrice": 40.36,
+      "soldDate": "2026-06-08",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Aurea Variegated  Very rare aroid plant 06AVA01",
+      "url": "https://www.ebay.co.uk/itm/327192282327",
+      "soldPrice": 175.12,
+      "totalPrice": 175.12,
+      "soldDate": "2026-06-06",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 06AV05",
+      "url": "https://www.ebay.co.uk/itm/327192261748",
+      "soldPrice": 38.58,
+      "totalPrice": 38.58,
+      "soldDate": "2026-06-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 06AV03",
+      "url": "https://www.ebay.co.uk/itm/327192260288",
+      "soldPrice": 40.61,
+      "totalPrice": 40.61,
+      "soldDate": "2026-06-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Baby Plant Alocasia Venom Sprouted Corm One Leaf",
+      "url": "https://www.ebay.co.uk/itm/318400381394",
+      "soldPrice": 19.76,
+      "totalPrice": 23.14,
+      "soldDate": "2026-06-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV32",
+      "url": "https://www.ebay.co.uk/itm/327167271600",
+      "soldPrice": 27.26,
+      "totalPrice": 27.26,
+      "soldDate": "2026-06-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV33",
+      "url": "https://www.ebay.co.uk/itm/327167273580",
+      "soldPrice": 28.69,
+      "totalPrice": 28.69,
+      "soldDate": "2026-06-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 06AV06",
+      "url": "https://www.ebay.co.uk/itm/327192262780",
+      "soldPrice": 45,
+      "totalPrice": 45,
+      "soldDate": "2026-06-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Variegated  Very rare aroid plant 05AVA01",
+      "url": "https://www.ebay.co.uk/itm/327185140212",
+      "soldPrice": 244.35,
+      "totalPrice": 244.35,
+      "soldDate": "2026-06-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Corm Grown",
+      "url": "https://www.ebay.co.uk/itm/127890538095",
+      "soldPrice": 36.75,
+      "totalPrice": 40.13,
+      "soldDate": "2026-05-31",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Variegated  Very rare aroid plant 05AVA02",
+      "url": "https://www.ebay.co.uk/itm/327185142429",
+      "soldPrice": 270.75,
+      "totalPrice": 270.75,
+      "soldDate": "2026-05-31",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom 1 Corm only (mother Plant is also For sale)",
+      "url": "https://www.ebay.co.uk/itm/198381615094",
+      "soldPrice": 18.45,
+      "totalPrice": 21.39,
+      "soldDate": "2026-05-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "X12 Alocasia Venom  rare aroid plant 05AV34",
+      "url": "https://www.ebay.co.uk/itm/327173030070",
+      "soldPrice": 117,
+      "totalPrice": 117,
+      "soldDate": "2026-05-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV14",
+      "url": "https://www.ebay.co.uk/itm/327155057742",
+      "soldPrice": 25.81,
+      "totalPrice": 25.81,
+      "soldDate": "2026-05-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Mutation  Very rare aroid plant 05AVMUT06",
+      "url": "https://www.ebay.co.uk/itm/327172875702",
+      "soldPrice": 44,
+      "totalPrice": 44,
+      "soldDate": "2026-05-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV28",
+      "url": "https://www.ebay.co.uk/itm/327167258522",
+      "soldPrice": 124.14,
+      "totalPrice": 124.14,
+      "soldDate": "2026-05-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV30",
+      "url": "https://www.ebay.co.uk/itm/327167270168",
+      "soldPrice": 41.07,
+      "totalPrice": 41.07,
+      "soldDate": "2026-05-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Mutation  Very rare aroid plant 05AVMUT05",
+      "url": "https://www.ebay.co.uk/itm/327172874276",
+      "soldPrice": 39,
+      "totalPrice": 39,
+      "soldDate": "2026-05-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Albo Pink Variegated  Very rare aroid plant 05AVA01",
+      "url": "https://www.ebay.co.uk/itm/327167363071",
+      "soldPrice": 460,
+      "totalPrice": 460,
+      "soldDate": "2026-05-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Mutation  Very rare aroid plant 05AVMUT04",
+      "url": "https://www.ebay.co.uk/itm/327172873345",
+      "soldPrice": 36,
+      "totalPrice": 36,
+      "soldDate": "2026-05-23",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia venom large plant",
+      "url": "https://www.ebay.co.uk/itm/198364549966",
+      "soldPrice": 115.22,
+      "totalPrice": 119.88,
+      "soldDate": "2026-05-23",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV12",
+      "url": "https://www.ebay.co.uk/itm/327155055946",
+      "soldPrice": 35.12,
+      "totalPrice": 35.12,
+      "soldDate": "2026-05-23",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV11",
+      "url": "https://www.ebay.co.uk/itm/327155055412",
+      "soldPrice": 35.12,
+      "totalPrice": 35.12,
+      "soldDate": "2026-05-23",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV16",
+      "url": "https://www.ebay.co.uk/itm/327155059265",
+      "soldPrice": 35.12,
+      "totalPrice": 35.12,
+      "soldDate": "2026-05-23",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV31",
+      "url": "https://www.ebay.co.uk/itm/327167268832",
+      "soldPrice": 52.25,
+      "totalPrice": 52.25,
+      "soldDate": "2026-05-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV29",
+      "url": "https://www.ebay.co.uk/itm/327167263173",
+      "soldPrice": 90.25,
+      "totalPrice": 90.25,
+      "soldDate": "2026-05-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV24",
+      "url": "https://www.ebay.co.uk/itm/327155073010",
+      "soldPrice": 73.31,
+      "totalPrice": 73.31,
+      "soldDate": "2026-05-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Rare Plant",
+      "url": "https://www.ebay.co.uk/itm/287337327211",
+      "soldPrice": 45,
+      "totalPrice": 48,
+      "soldDate": "2026-05-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Corms X3 Available (mother Plant Not For Sale)",
+      "url": "https://www.ebay.co.uk/itm/358530272919",
+      "soldPrice": 14.9,
+      "totalPrice": 18.28,
+      "soldDate": "2026-05-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV18",
+      "url": "https://www.ebay.co.uk/itm/327155060361",
+      "soldPrice": 58.66,
+      "totalPrice": 58.66,
+      "soldDate": "2026-05-16",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Rare Plant",
+      "url": "https://www.ebay.co.uk/itm/287332778622",
+      "soldPrice": 45,
+      "totalPrice": 45,
+      "soldDate": "2026-05-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Corm in self watering pot",
+      "url": "https://www.ebay.co.uk/itm/236796288348",
+      "soldPrice": 15.96,
+      "totalPrice": 18.900000000000002,
+      "soldDate": "2026-05-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Rare Plant",
+      "url": "https://www.ebay.co.uk/itm/287331606588",
+      "soldPrice": 45,
+      "totalPrice": 48,
+      "soldDate": "2026-05-14",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV20",
+      "url": "https://www.ebay.co.uk/itm/327155064508",
+      "soldPrice": 52.25,
+      "totalPrice": 52.25,
+      "soldDate": "2026-05-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV22",
+      "url": "https://www.ebay.co.uk/itm/327155070946",
+      "soldPrice": 52.25,
+      "totalPrice": 52.25,
+      "soldDate": "2026-05-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV15",
+      "url": "https://www.ebay.co.uk/itm/327155058677",
+      "soldPrice": 65,
+      "totalPrice": 65,
+      "soldDate": "2026-05-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV13",
+      "url": "https://www.ebay.co.uk/itm/327155056531",
+      "soldPrice": 85,
+      "totalPrice": 85,
+      "soldDate": "2026-05-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV23",
+      "url": "https://www.ebay.co.uk/itm/327155071732",
+      "soldPrice": 95,
+      "totalPrice": 95,
+      "soldDate": "2026-05-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV25",
+      "url": "https://www.ebay.co.uk/itm/327155078740",
+      "soldPrice": 225,
+      "totalPrice": 225,
+      "soldDate": "2026-05-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV10",
+      "url": "https://www.ebay.co.uk/itm/327155054879",
+      "soldPrice": 85,
+      "totalPrice": 85,
+      "soldDate": "2026-05-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV21",
+      "url": "https://www.ebay.co.uk/itm/327155067272",
+      "soldPrice": 95,
+      "totalPrice": 95,
+      "soldDate": "2026-05-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV19",
+      "url": "https://www.ebay.co.uk/itm/327155061354",
+      "soldPrice": 95,
+      "totalPrice": 95,
+      "soldDate": "2026-05-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV17",
+      "url": "https://www.ebay.co.uk/itm/327155059972",
+      "soldPrice": 65,
+      "totalPrice": 65,
+      "soldDate": "2026-05-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV04",
+      "url": "https://www.ebay.co.uk/itm/327136336081",
+      "soldPrice": 42.56,
+      "totalPrice": 42.56,
+      "soldDate": "2026-05-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Aroid Plant",
+      "url": "https://www.ebay.co.uk/itm/127855161281",
+      "soldPrice": 40.88,
+      "totalPrice": 44.260000000000005,
+      "soldDate": "2026-05-09",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV02",
+      "url": "https://www.ebay.co.uk/itm/327136334188",
+      "soldPrice": 47.16,
+      "totalPrice": 47.16,
+      "soldDate": "2026-05-09",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 04AV33",
+      "url": "https://www.ebay.co.uk/itm/327128566874",
+      "soldPrice": 38.41,
+      "totalPrice": 38.41,
+      "soldDate": "2026-05-09",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV06",
+      "url": "https://www.ebay.co.uk/itm/327136342452",
+      "soldPrice": 47.16,
+      "totalPrice": 47.16,
+      "soldDate": "2026-05-08",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV03",
+      "url": "https://www.ebay.co.uk/itm/327136334925",
+      "soldPrice": 52.25,
+      "totalPrice": 52.25,
+      "soldDate": "2026-05-08",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 04AV25",
+      "url": "https://www.ebay.co.uk/itm/327128560725",
+      "soldPrice": 40.43,
+      "totalPrice": 40.43,
+      "soldDate": "2026-05-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Corms X5 Available (mother Plant Not For Sale)",
+      "url": "https://www.ebay.co.uk/itm/358513965653",
+      "soldPrice": 18.03,
+      "totalPrice": 21.41,
+      "soldDate": "2026-05-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV01",
+      "url": "https://www.ebay.co.uk/itm/327136333700",
+      "soldPrice": 52.25,
+      "totalPrice": 52.25,
+      "soldDate": "2026-05-06",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Corm",
+      "url": "https://www.ebay.co.uk/itm/198300620459",
+      "soldPrice": 23.32,
+      "totalPrice": 26.28,
+      "soldDate": "2026-05-05",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 04AV18",
+      "url": "https://www.ebay.co.uk/itm/327121726609",
+      "soldPrice": 23.22,
+      "totalPrice": 23.22,
+      "soldDate": "2026-05-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Aurea Variegated - Very rare aroid plant 04AVA03",
+      "url": "https://www.ebay.co.uk/itm/327121833041",
+      "soldPrice": 129.37,
+      "totalPrice": 129.37,
+      "soldDate": "2026-05-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Variegated Very rare aroid plant 05AVA05",
+      "url": "https://www.ebay.co.uk/itm/327136366672",
+      "soldPrice": 175.75,
+      "totalPrice": 175.75,
+      "soldDate": "2026-05-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV09",
+      "url": "https://www.ebay.co.uk/itm/327136353002",
+      "soldPrice": 175.75,
+      "totalPrice": 175.75,
+      "soldDate": "2026-05-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV08",
+      "url": "https://www.ebay.co.uk/itm/327136351044",
+      "soldPrice": 55,
+      "totalPrice": 55,
+      "soldDate": "2026-05-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Aurea Variegated - Very rare aroid plant 05AVA04",
+      "url": "https://www.ebay.co.uk/itm/327136365130",
+      "soldPrice": 185,
+      "totalPrice": 185,
+      "soldDate": "2026-05-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Very rare aroid plant 05AV07",
+      "url": "https://www.ebay.co.uk/itm/327136345581",
+      "soldPrice": 55,
+      "totalPrice": 55,
+      "soldDate": "2026-05-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 04AV32",
+      "url": "https://www.ebay.co.uk/itm/327128566290",
+      "soldPrice": 44.8,
+      "totalPrice": 44.8,
+      "soldDate": "2026-05-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 04AV14",
+      "url": "https://www.ebay.co.uk/itm/327121716608",
+      "soldPrice": 27.08,
+      "totalPrice": 27.08,
+      "soldDate": "2026-05-01",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 04AV24",
+      "url": "https://www.ebay.co.uk/itm/327121737235",
+      "soldPrice": 27.08,
+      "totalPrice": 27.08,
+      "soldDate": "2026-04-30",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Aurea Variegated - Very rare aroid plant 04AVA02",
+      "url": "https://www.ebay.co.uk/itm/327121832576",
+      "soldPrice": 127.67,
+      "totalPrice": 127.67,
+      "soldDate": "2026-04-30",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 04AV21",
+      "url": "https://www.ebay.co.uk/itm/327121727741",
+      "soldPrice": 27.08,
+      "totalPrice": 27.08,
+      "soldDate": "2026-04-30",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 04AV17",
+      "url": "https://www.ebay.co.uk/itm/327121724739",
+      "soldPrice": 28.51,
+      "totalPrice": 28.51,
+      "soldDate": "2026-04-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 04AV22",
+      "url": "https://www.ebay.co.uk/itm/327121731065",
+      "soldPrice": 28.51,
+      "totalPrice": 28.51,
+      "soldDate": "2026-04-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 04AV28",
+      "url": "https://www.ebay.co.uk/itm/327128562282",
+      "soldPrice": 125,
+      "totalPrice": 125,
+      "soldDate": "2026-04-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Aurea Variegated - Very rare aroid plant 04AVA01",
+      "url": "https://www.ebay.co.uk/itm/327121832072",
+      "soldPrice": 141.46,
+      "totalPrice": 141.46,
+      "soldDate": "2026-04-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 04AV27",
+      "url": "https://www.ebay.co.uk/itm/327128561660",
+      "soldPrice": 55,
+      "totalPrice": 55,
+      "soldDate": "2026-04-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 04AV30",
+      "url": "https://www.ebay.co.uk/itm/327128564333",
+      "soldPrice": 55,
+      "totalPrice": 55,
+      "soldDate": "2026-04-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 04AV29",
+      "url": "https://www.ebay.co.uk/itm/327128563368",
+      "soldPrice": 55,
+      "totalPrice": 55,
+      "soldDate": "2026-04-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 04AV26",
+      "url": "https://www.ebay.co.uk/itm/327128561066",
+      "soldPrice": 55,
+      "totalPrice": 55,
+      "soldDate": "2026-04-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 04AV31",
+      "url": "https://www.ebay.co.uk/itm/327128565403",
+      "soldPrice": 55,
+      "totalPrice": 55,
+      "soldDate": "2026-04-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia venom Corm Grown",
+      "url": "https://www.ebay.co.uk/itm/127740207610",
+      "soldPrice": 40.88,
+      "totalPrice": 44.260000000000005,
+      "soldDate": "2026-04-28",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 04AV16",
+      "url": "https://www.ebay.co.uk/itm/327121722719",
+      "soldPrice": 30.01,
+      "totalPrice": 30.01,
+      "soldDate": "2026-04-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Plant",
+      "url": "https://www.ebay.co.uk/itm/127818167149",
+      "soldPrice": 60.54,
+      "totalPrice": 63.92,
+      "soldDate": "2026-04-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 04AV23",
+      "url": "https://www.ebay.co.uk/itm/327121734639",
+      "soldPrice": 33.25,
+      "totalPrice": 33.25,
+      "soldDate": "2026-04-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare Alocasia Venom – Healthy Corm-Grown Pup",
+      "url": "https://www.ebay.co.uk/itm/267643689397",
+      "soldPrice": 15.36,
+      "totalPrice": 18.74,
+      "soldDate": "2026-04-25",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 04AV19",
+      "url": "https://www.ebay.co.uk/itm/327121726955",
+      "soldPrice": 35,
+      "totalPrice": 35,
+      "soldDate": "2026-04-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 04AV20",
+      "url": "https://www.ebay.co.uk/itm/327121727296",
+      "soldPrice": 35,
+      "totalPrice": 35,
+      "soldDate": "2026-04-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 04AV15",
+      "url": "https://www.ebay.co.uk/itm/327121719822",
+      "soldPrice": 35,
+      "totalPrice": 35,
+      "soldDate": "2026-04-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 04AV13",
+      "url": "https://www.ebay.co.uk/itm/327121712558",
+      "soldPrice": 35,
+      "totalPrice": 35,
+      "soldDate": "2026-04-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia 'Venom'  10.5cm Pot  -SUPER RARE-  Evergreen Indoor Tropical Houseplant",
+      "url": "https://www.ebay.co.uk/itm/206226453497",
+      "soldPrice": 49.99,
+      "totalPrice": 53.980000000000004,
+      "soldDate": "2026-04-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Corm Rare Plant Corm",
+      "url": "https://www.ebay.co.uk/itm/377082674547",
+      "soldPrice": 14.9,
+      "totalPrice": 17.62,
+      "soldDate": "2026-04-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom  Variegated - Very rare aroid plant 04AVA02",
+      "url": "https://www.ebay.co.uk/itm/327110716567",
+      "soldPrice": 255,
+      "totalPrice": 255,
+      "soldDate": "2026-04-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom  Variegated - Very rare aroid plant 04AVA01",
+      "url": "https://www.ebay.co.uk/itm/327110715728",
+      "soldPrice": 82,
+      "totalPrice": 82,
+      "soldDate": "2026-04-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Private Listing | Alocasia Venom Corm |",
+      "url": "https://www.ebay.co.uk/itm/157845117277",
+      "soldPrice": 12,
+      "totalPrice": 12,
+      "soldDate": "2026-04-19",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Full Plant Semi Mature",
+      "url": "https://www.ebay.co.uk/itm/318168688493",
+      "soldPrice": 64.47,
+      "totalPrice": 67.85,
+      "soldDate": "2026-04-19",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom | Exact TC Bag | Tissue Culture",
+      "url": "https://www.ebay.co.uk/itm/168312717002",
+      "soldPrice": 24.53,
+      "totalPrice": 27.91,
+      "soldDate": "2026-04-16",
+      "listingType": "tc_plantlet",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom in 8cm pot",
+      "url": "https://www.ebay.co.uk/itm/188277556088",
+      "soldPrice": 52.25,
+      "totalPrice": 55.19,
+      "soldDate": "2026-04-16",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Corm X 1. Very Rare",
+      "url": "https://www.ebay.co.uk/itm/236748324305",
+      "soldPrice": 21.25,
+      "totalPrice": 24.19,
+      "soldDate": "2026-04-12",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia  Venom Corm",
+      "url": "https://www.ebay.co.uk/itm/257453013289",
+      "soldPrice": 15.96,
+      "totalPrice": 18.68,
+      "soldDate": "2026-04-12",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Corm X 1. Very Rare",
+      "url": "https://www.ebay.co.uk/itm/236748328412",
+      "soldPrice": 21.25,
+      "totalPrice": 24.19,
+      "soldDate": "2026-04-11",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Mutation  - Very rare aroid plant 03AVMUT05",
+      "url": "https://www.ebay.co.uk/itm/327073617319",
+      "soldPrice": 53.42,
+      "totalPrice": 53.42,
+      "soldDate": "2026-04-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant",
+      "url": "https://www.ebay.co.uk/itm/326396393859",
+      "soldPrice": 35,
+      "totalPrice": 35,
+      "soldDate": "2026-04-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Corm",
+      "url": "https://www.ebay.co.uk/itm/397792142456",
+      "soldPrice": 14.21,
+      "totalPrice": 14.21,
+      "soldDate": "2026-04-09",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "**Rare Alocasia Venom -  Corm Only ** Mother Plant NFS",
+      "url": "https://www.ebay.co.uk/itm/198260593896",
+      "soldPrice": 26.42,
+      "totalPrice": 29.360000000000003,
+      "soldDate": "2026-04-09",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia venom 8cm Houseplant",
+      "url": "https://www.ebay.co.uk/itm/358413050746",
+      "soldPrice": 50,
+      "totalPrice": 54.75,
+      "soldDate": "2026-04-06",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 03AV36",
+      "url": "https://www.ebay.co.uk/itm/327074669349",
+      "soldPrice": 33.42,
+      "totalPrice": 33.42,
+      "soldDate": "2026-04-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom - Very rare aroid plant 03AV34",
+      "url": "https://www.ebay.co.uk/itm/327074667716",
+      "soldPrice": 33.42,
+      "totalPrice": 33.42,
+      "soldDate": "2026-04-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Venom Aroid Plant Rare Established",
+      "url": "https://www.ebay.co.uk/itm/377084903242",
+      "soldPrice": 28.95,
+      "totalPrice": 32.33,
+      "soldDate": "2026-04-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 146,
+  "rejectedCount": 1,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "alocasia ‘venom’ – collector houseplant"
+    ]
+  }
+}

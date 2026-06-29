@@ -1,0 +1,378 @@
+{
+  "snapshot": {
+    "plantSlug": "micholitziana-frydek-mint-variegated",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia Frydek Mint Variegated",
+    "checkedAt": "2026-06-29T19:09:13.819Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 36,
+    "rejectedCount": 204,
+    "outlierCount": 0,
+    "confidenceScore": "B",
+    "minPrice": 14.05,
+    "p25Price": 15.6675,
+    "medianPrice": 17,
+    "meanPrice": 18.191666666666674,
+    "trimmedMeanPrice": 18.031666666666673,
+    "p75Price": 20.432499999999997,
+    "maxPrice": 24.619999999999997,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 36,
+    "min": 14.05,
+    "max": 24.619999999999997,
+    "median": 17,
+    "mean": 18.191666666666674,
+    "p25": 15.6675,
+    "p75": 20.432499999999997,
+    "iqr": 4.764999999999997,
+    "trimmedMean": 18.031666666666673,
+    "confidenceScore": "B",
+    "rejectedCount": 204,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Alocasia Frydek Variegated Rare Plant",
+      "url": "https://www.ebay.co.uk/itm/206189443751",
+      "soldPrice": 17,
+      "totalPrice": 19.990000000000002,
+      "soldDate": "2026-05-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated Plant",
+      "url": "https://www.ebay.co.uk/itm/198444493687",
+      "soldPrice": 12.78,
+      "totalPrice": 15.719999999999999,
+      "soldDate": "2026-06-23",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia frydek variegated good size",
+      "url": "https://www.ebay.co.uk/itm/117259069630",
+      "soldPrice": 21.24,
+      "totalPrice": 24.619999999999997,
+      "soldDate": "2026-06-27",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek variegated a very beautiful houseplant",
+      "url": "https://www.ebay.co.uk/itm/358683568537",
+      "soldPrice": 12.78,
+      "totalPrice": 15.719999999999999,
+      "soldDate": "2026-06-18",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated",
+      "url": "https://www.ebay.co.uk/itm/366400036987",
+      "soldPrice": 12.13,
+      "totalPrice": 15.510000000000002,
+      "soldDate": "2026-05-11",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia FRYDEK Variegated Baby Plant In Small Pot",
+      "url": "https://www.ebay.co.uk/itm/188190635664",
+      "soldPrice": 11.71,
+      "totalPrice": 15.09,
+      "soldDate": "2026-04-09",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated Plant",
+      "url": "https://www.ebay.co.uk/itm/318183010724",
+      "soldPrice": 15.96,
+      "totalPrice": 19.61,
+      "soldDate": "2026-04-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated - Rare Aroid #13",
+      "url": "https://www.ebay.co.uk/itm/206313852829",
+      "soldPrice": 17,
+      "totalPrice": 17,
+      "soldDate": "2026-06-22",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated - Rare Plant #5",
+      "url": "https://www.ebay.co.uk/itm/206232643788",
+      "soldPrice": 14.45,
+      "totalPrice": 14.45,
+      "soldDate": "2026-06-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated Albo Full Plant",
+      "url": "https://www.ebay.co.uk/itm/318168696237",
+      "soldPrice": 19.76,
+      "totalPrice": 23.14,
+      "soldDate": "2026-04-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated for james",
+      "url": "https://www.ebay.co.uk/itm/206193580543",
+      "soldPrice": 19.99,
+      "totalPrice": 22.979999999999997,
+      "soldDate": "2026-04-06",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated - Rare Plant #8",
+      "url": "https://www.ebay.co.uk/itm/206251117360",
+      "soldPrice": 14.45,
+      "totalPrice": 14.45,
+      "soldDate": "2026-05-31",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated Rare Plant #4",
+      "url": "https://www.ebay.co.uk/itm/206369490697",
+      "soldPrice": 16.99,
+      "totalPrice": 16.99,
+      "soldDate": "2026-06-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated - Rare Plant #3",
+      "url": "https://www.ebay.co.uk/itm/206232640005",
+      "soldPrice": 14.45,
+      "totalPrice": 14.45,
+      "soldDate": "2026-06-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated - Rare Aroid #12",
+      "url": "https://www.ebay.co.uk/itm/206313852638",
+      "soldPrice": 17,
+      "totalPrice": 17,
+      "soldDate": "2026-06-08",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated - Rare Plant #1",
+      "url": "https://www.ebay.co.uk/itm/206223438571",
+      "soldPrice": 19.74,
+      "totalPrice": 23.189999999999998,
+      "soldDate": "2026-04-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated - Rare Plant #10",
+      "url": "https://www.ebay.co.uk/itm/206297603024",
+      "soldPrice": 19.99,
+      "totalPrice": 19.99,
+      "soldDate": "2026-05-30",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated 1 x potted plant",
+      "url": "https://www.ebay.co.uk/itm/318104864692",
+      "soldPrice": 14.9,
+      "totalPrice": 18.28,
+      "soldDate": "2026-04-09",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated Rare Plant #1",
+      "url": "https://www.ebay.co.uk/itm/206369490058",
+      "soldPrice": 16.99,
+      "totalPrice": 16.99,
+      "soldDate": "2026-06-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated - Rare Aroid #11",
+      "url": "https://www.ebay.co.uk/itm/206313852261",
+      "soldPrice": 17,
+      "totalPrice": 17,
+      "soldDate": "2026-06-08",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated - Rare Plant #2",
+      "url": "https://www.ebay.co.uk/itm/206223443328",
+      "soldPrice": 18.74,
+      "totalPrice": 21.729999999999997,
+      "soldDate": "2026-05-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated Baby Plant. All Proceeds Go To Our Fundraiser!",
+      "url": "https://www.ebay.co.uk/itm/277896989410",
+      "soldPrice": 10.67,
+      "totalPrice": 14.05,
+      "soldDate": "2026-04-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated - Rare Plant #9",
+      "url": "https://www.ebay.co.uk/itm/206297602007",
+      "soldPrice": 17,
+      "totalPrice": 17,
+      "soldDate": "2026-06-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated - Rare Plant #7",
+      "url": "https://www.ebay.co.uk/itm/206248792397",
+      "soldPrice": 17,
+      "totalPrice": 17,
+      "soldDate": "2026-05-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated Rare Plant #16",
+      "url": "https://www.ebay.co.uk/itm/206323854339",
+      "soldPrice": 17,
+      "totalPrice": 17,
+      "soldDate": "2026-06-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated Rare Plant #14",
+      "url": "https://www.ebay.co.uk/itm/206323852678",
+      "soldPrice": 17,
+      "totalPrice": 17,
+      "soldDate": "2026-06-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated - Rare Plant #6",
+      "url": "https://www.ebay.co.uk/itm/206246537565",
+      "soldPrice": 19.74,
+      "totalPrice": 22.729999999999997,
+      "soldDate": "2026-05-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated Rare Plant",
+      "url": "https://www.ebay.co.uk/itm/168363806630",
+      "soldPrice": 20,
+      "totalPrice": 20,
+      "soldDate": "2026-05-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated Rare Plant #1",
+      "url": "https://www.ebay.co.uk/itm/206120048792",
+      "soldPrice": 19,
+      "totalPrice": 22.5,
+      "soldDate": "2026-04-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated - Rare Plant #1",
+      "url": "https://www.ebay.co.uk/itm/206191696294",
+      "soldPrice": 19.74,
+      "totalPrice": 22.729999999999997,
+      "soldDate": "2026-04-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated Plant Pup 4 Sale Decorative Pot NOT Included 6cm pot",
+      "url": "https://www.ebay.co.uk/itm/377166344189",
+      "soldPrice": 11.52,
+      "totalPrice": 14.459999999999999,
+      "soldDate": "2026-05-08",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated - Rare Plant #4",
+      "url": "https://www.ebay.co.uk/itm/206232641810",
+      "soldPrice": 19.74,
+      "totalPrice": 23.189999999999998,
+      "soldDate": "2026-04-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated Rare Plant",
+      "url": "https://www.ebay.co.uk/itm/206309570832",
+      "soldPrice": 17,
+      "totalPrice": 17,
+      "soldDate": "2026-06-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia FRYDEK Variegated Baby Plant In Small Pot",
+      "url": "https://www.ebay.co.uk/itm/188259395568",
+      "soldPrice": 11.71,
+      "totalPrice": 15.09,
+      "soldDate": "2026-04-23",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated",
+      "url": "https://www.ebay.co.uk/itm/318407777844",
+      "soldPrice": 12.78,
+      "totalPrice": 16.16,
+      "soldDate": "2026-06-07",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Frydek Variegated plant (1)",
+      "url": "https://www.ebay.co.uk/itm/318488839563",
+      "soldPrice": 11.71,
+      "totalPrice": 15.09,
+      "soldDate": "2026-06-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 36,
+  "rejectedCount": 204,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "alocasia macrorrhiza variegated and frydek fm1",
+      "alocasia ‘frydek’ variegated – rare velvet aroid (pot 7 cm)",
+      "alocasia frydek albo variegated"
+    ],
+    "Contains excluded term": [
+      "alocasia frydek variegated sprouted corm. velvet leaves.",
+      "alocasia frydek variegated – baby plant (grown from corm)",
+      "alocasia frydek variegated – baby plant (grown from corm)"
+    ]
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "snapshot": {
+    "plantSlug": "verrucosum",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron verrucosum",
+    "checkedAt": "2026-06-29T19:29:05.739Z",
+    "currency": "GBP",
+    "rawResultCount": 48,
+    "acceptedCount": 37,
+    "rejectedCount": 11,
+    "outlierCount": 0,
+    "confidenceScore": "A",
+    "minPrice": 9.37,
+    "p25Price": 13.6,
+    "medianPrice": 20.13,
+    "meanPrice": 24.104864864864865,
+    "trimmedMeanPrice": 23.12806451612903,
+    "p75Price": 34.82,
+    "maxPrice": 52.23,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 37,
+    "min": 9.37,
+    "max": 52.23,
+    "median": 20.13,
+    "mean": 24.104864864864865,
+    "p25": 13.6,
+    "p75": 34.82,
+    "iqr": 21.22,
+    "trimmedMean": 23.12806451612903,
+    "confidenceScore": "A",
+    "rejectedCount": 11,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "🖤🩶Philodendron Verrucosum Cutting Rare Aroid Uncommon Plant Fuzzy Stem🖤🩶",
+      "url": "https://www.ebay.co.uk/itm/278106017536",
+      "soldPrice": 8.02,
+      "totalPrice": 10.959999999999999,
+      "soldDate": "2026-06-28",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "* Philodendron Verrucosum 'Tumbez' (A) | Tropical Aroid Rare Plant - Cutting",
+      "url": "https://www.ebay.co.uk/itm/178231480223",
+      "soldPrice": 9.61,
+      "totalPrice": 14.91,
+      "soldDate": "2026-06-28",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Verrucosum 'Incensi' Baby Plant, Rooted Cuttigs",
+      "url": "https://www.ebay.co.uk/itm/147401483285",
+      "soldPrice": 15.96,
+      "totalPrice": 18.900000000000002,
+      "soldDate": "2026-06-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "* Philodendron Verrucosum 'Esmeraldas' (C ) | Tropical Aroid Rare Plant",
+      "url": "https://www.ebay.co.uk/itm/178175627504",
+      "soldPrice": 29.52,
+      "totalPrice": 34.82,
+      "soldDate": "2026-06-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "* Philodendron Verrucosum 'Bosco' | Tropical Aroid Rare Plant",
+      "url": "https://www.ebay.co.uk/itm/178103867975",
+      "soldPrice": 10.28,
+      "totalPrice": 13.579999999999998,
+      "soldDate": "2026-06-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "💚Philodendron Verrucosum Rooted Mid Cut💜",
+      "url": "https://www.ebay.co.uk/itm/278106012937",
+      "soldPrice": 8.39,
+      "totalPrice": 11.33,
+      "soldDate": "2026-06-20",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron verrucosum ‘Dark small’ Established Rare Terrarium Plant Climbing",
+      "url": "https://www.ebay.co.uk/itm/327214527866",
+      "soldPrice": 39.85,
+      "totalPrice": 43.230000000000004,
+      "soldDate": "2026-06-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Verrucosum 'Incensi' | Aroid Houseplant",
+      "url": "https://www.ebay.co.uk/itm/298409963114",
+      "soldPrice": 18.77,
+      "totalPrice": 22.15,
+      "soldDate": "2026-06-14",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron verrucosum 'Amazon Sunset' very rare house plant",
+      "url": "https://www.ebay.co.uk/itm/298402349171",
+      "soldPrice": 23.32,
+      "totalPrice": 26.7,
+      "soldDate": "2026-06-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron verrucosum ‘Dark small’ Established Rare Terrarium Plant Climbing",
+      "url": "https://www.ebay.co.uk/itm/327193310134",
+      "soldPrice": 39.85,
+      "totalPrice": 43.230000000000004,
+      "soldDate": "2026-06-09",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "* Philodendron Verrucosum 'Esmeraldas' (A) | Tropical Aroid Rare Plant",
+      "url": "https://www.ebay.co.uk/itm/178091650645",
+      "soldPrice": 31.58,
+      "totalPrice": 36.879999999999995,
+      "soldDate": "2026-06-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Verrucosum 'Incensi' Plant, Rare Rooted In 9cm Pot Climbing Plant",
+      "url": "https://www.ebay.co.uk/itm/147337292065",
+      "soldPrice": 31.58,
+      "totalPrice": 34.519999999999996,
+      "soldDate": "2026-06-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Verrucosum Cutting Rare Aroid Uncommon Plant Fuzzy Stem Red Back",
+      "url": "https://www.ebay.co.uk/itm/178180673098",
+      "soldPrice": 10.66,
+      "totalPrice": 13.6,
+      "soldDate": "2026-05-31",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Verrucosum Cutting Rare Aroid Uncommon Plant Fuzzy Stem Red Back",
+      "url": "https://www.ebay.co.uk/itm/178177739571",
+      "soldPrice": 10.66,
+      "totalPrice": 13.6,
+      "soldDate": "2026-05-31",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Verrucosum Rude Top Cut Rooted and Shooted",
+      "url": "https://www.ebay.co.uk/itm/227356411281",
+      "soldPrice": 21.25,
+      "totalPrice": 24.63,
+      "soldDate": "2026-05-26",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Verrucosum Cutting Rare Aroid Uncommon Plant Fuzzy Stem Red Back",
+      "url": "https://www.ebay.co.uk/itm/178118823489",
+      "soldPrice": 10.66,
+      "totalPrice": 13.6,
+      "soldDate": "2026-05-10",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron verrucosum ‘Mini Purple’ Established Rare Terrarium Plant Climbing",
+      "url": "https://www.ebay.co.uk/itm/327149186847",
+      "soldPrice": 39.85,
+      "totalPrice": 43.230000000000004,
+      "soldDate": "2026-05-09",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Verrucosum 'Incensi' Plant Indoor House Plant",
+      "url": "https://www.ebay.co.uk/itm/137287785538",
+      "soldPrice": 14.83,
+      "totalPrice": 17.77,
+      "soldDate": "2026-05-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Verrucosum Cutting Rare Aroid Uncommon Plant Fuzzy Stem Red Back",
+      "url": "https://www.ebay.co.uk/itm/178101396571",
+      "soldPrice": 10.66,
+      "totalPrice": 13.6,
+      "soldDate": "2026-05-06",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "* XXL Philodendron Verrucosum 'Bosco' (B2) | Tropical Aroid Rare Plant - Cutting",
+      "url": "https://www.ebay.co.uk/itm/178104165401",
+      "soldPrice": 14.83,
+      "totalPrice": 20.13,
+      "soldDate": "2026-05-05",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "* XXL Philodendron Verrucosum 'Bosco' (A1) | Tropical Aroid Rare Plant - Cutting",
+      "url": "https://www.ebay.co.uk/itm/178104166160",
+      "soldPrice": 14.83,
+      "totalPrice": 20.13,
+      "soldDate": "2026-05-05",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Verrucosum | Aroid Houseplant",
+      "url": "https://www.ebay.co.uk/itm/298285791833",
+      "soldPrice": 6.43,
+      "totalPrice": 9.809999999999999,
+      "soldDate": "2026-05-04",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Verrucosum 'Bosco' One Leaf Cutting (01) Rare Plant",
+      "url": "https://www.ebay.co.uk/itm/318203829663",
+      "soldPrice": 6.43,
+      "totalPrice": 9.809999999999999,
+      "soldDate": "2026-05-02",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Verrucosum 'Bosco' One Leaf Cutting (05 Base Cutting ) Rare Plant",
+      "url": "https://www.ebay.co.uk/itm/318203834949",
+      "soldPrice": 8.55,
+      "totalPrice": 11.49,
+      "soldDate": "2026-05-02",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron verrucosum ‘Mini’ Established Rare Terrarium Plant Climbing",
+      "url": "https://www.ebay.co.uk/itm/327114341803",
+      "soldPrice": 39.85,
+      "totalPrice": 43.230000000000004,
+      "soldDate": "2026-05-01",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Verrucosum 'Bosco' One Leaf Cutting (02) Rare Plant",
+      "url": "https://www.ebay.co.uk/itm/318203832014",
+      "soldPrice": 6.43,
+      "totalPrice": 9.37,
+      "soldDate": "2026-04-30",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Verrucosum Mindo",
+      "url": "https://www.ebay.co.uk/itm/267650298041",
+      "soldPrice": 31.58,
+      "totalPrice": 34.96,
+      "soldDate": "2026-04-28",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Verrucosum 'Bosco' One Leaf Cutting (03) Rare Plant",
+      "url": "https://www.ebay.co.uk/itm/318203832936",
+      "soldPrice": 6.43,
+      "totalPrice": 9.809999999999999,
+      "soldDate": "2026-04-26",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Verrucosum Black Rooted Plant",
+      "url": "https://www.ebay.co.uk/itm/267650273046",
+      "soldPrice": 47.08,
+      "totalPrice": 50.46,
+      "soldDate": "2026-04-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron verrucosum 'Amazon Sunset' very rare house plant",
+      "url": "https://www.ebay.co.uk/itm/327089029307",
+      "soldPrice": 26.42,
+      "totalPrice": 29.380000000000003,
+      "soldDate": "2026-04-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron verrucosum ‘Mini’ Established Rare Terrarium Plant Climbing",
+      "url": "https://www.ebay.co.uk/itm/327100689771",
+      "soldPrice": 39.85,
+      "totalPrice": 43.230000000000004,
+      "soldDate": "2026-04-18",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron verrucosum Incensi  cutting",
+      "url": "https://www.ebay.co.uk/itm/287270702700",
+      "soldPrice": 7.49,
+      "totalPrice": 10.43,
+      "soldDate": "2026-04-13",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron verrucosum ‘Mini’ Established Rare Terrarium Plant Climbing",
+      "url": "https://www.ebay.co.uk/itm/327044421549",
+      "soldPrice": 47.08,
+      "totalPrice": 52.23,
+      "soldDate": "2026-04-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron verrucosum Incensi",
+      "url": "https://www.ebay.co.uk/itm/287264546781",
+      "soldPrice": 19.77,
+      "totalPrice": 22.71,
+      "soldDate": "2026-04-11",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "* Philodendron Verrucosum 'Esmeraldas' (C) | Tropical Aroid Rare Plant",
+      "url": "https://www.ebay.co.uk/itm/178010717420",
+      "soldPrice": 24.35,
+      "totalPrice": 29.650000000000002,
+      "soldDate": "2026-04-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Verrucosum Cutting Rooted Cutting Aroid RARE Plant UK ONLY",
+      "url": "https://www.ebay.co.uk/itm/298185555275",
+      "soldPrice": 11.53,
+      "totalPrice": 14.469999999999999,
+      "soldDate": "2026-04-02",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Verrucosum Amazon Sunset Mid Cut Rooted and Shooted",
+      "url": "https://www.ebay.co.uk/itm/227275407592",
+      "soldPrice": 15.96,
+      "totalPrice": 19.34,
+      "soldDate": "2026-04-01",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 37,
+  "rejectedCount": 11,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "philodendron splendid (verrucosum x melanochrysum) large rather unruly plant!",
+      "philodendron splendid (verrucosum x melanochrysum) | tropical aroid houseplant",
+      "philodendron splendid plant verrucosum x melanochrysum hybrid rare aroid"
+    ]
+  }
+}

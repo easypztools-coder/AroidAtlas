@@ -1,0 +1,85 @@
+{
+  "snapshot": {
+    "plantSlug": "rhaphidophora-cryptantha-variegated",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Rhaphidophora cryptantha",
+    "checkedAt": "2026-06-29T19:24:37.897Z",
+    "currency": "GBP",
+    "rawResultCount": 86,
+    "acceptedCount": 4,
+    "rejectedCount": 82,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 19.5,
+    "p25Price": 19.875,
+    "medianPrice": 22.22,
+    "meanPrice": 22.205,
+    "trimmedMeanPrice": 22.205,
+    "p75Price": 24.55,
+    "maxPrice": 24.88,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 4,
+    "min": 19.5,
+    "max": 24.88,
+    "median": 22.22,
+    "mean": 22.205,
+    "p25": 19.875,
+    "p75": 24.55,
+    "iqr": 4.675000000000001,
+    "trimmedMean": 22.205,
+    "confidenceScore": "D",
+    "rejectedCount": 82,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Rhaphidophora cryptantha Established Rare Terrarium Shingling Climber Plant",
+      "url": "https://www.ebay.co.uk/itm/327193578960",
+      "soldPrice": 21.5,
+      "totalPrice": 24.88,
+      "soldDate": "2026-06-23",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Ecuagenera Rehab Rhaphidophora cryptantha (A26)",
+      "url": "https://www.ebay.co.uk/itm/397959006962",
+      "soldPrice": 19.5,
+      "totalPrice": 19.5,
+      "soldDate": "2026-05-24",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "rhaphidophora cryptantha rare plant",
+      "url": "https://www.ebay.co.uk/itm/277863467458",
+      "soldPrice": 20,
+      "totalPrice": 20,
+      "soldDate": "2026-04-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Cryptantha Rooted Cutting",
+      "url": "https://www.ebay.co.uk/itm/257437943671",
+      "soldPrice": 21.5,
+      "totalPrice": 24.44,
+      "soldDate": "2026-04-02",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 4,
+  "rejectedCount": 82,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "various terrarium plants🌱 jewel orchid, pellionia, marcgravia 🌱updated 19jun26",
+      "rhaphidophora tetrasperma high variegated albo plant",
+      "rhaphidophora sp. velvet climbing houseplant unbranded"
+    ]
+  }
+}

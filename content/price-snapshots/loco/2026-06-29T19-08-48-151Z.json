@@ -1,0 +1,143 @@
+{
+  "snapshot": {
+    "plantSlug": "loco",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia Loco",
+    "checkedAt": "2026-06-29T19:08:48.151Z",
+    "currency": "GBP",
+    "rawResultCount": 134,
+    "acceptedCount": 10,
+    "rejectedCount": 124,
+    "outlierCount": 3,
+    "confidenceScore": "D",
+    "minPrice": 16.99,
+    "p25Price": 19.74,
+    "medianPrice": 19.99,
+    "meanPrice": 20.31,
+    "trimmedMeanPrice": 20.31,
+    "p75Price": 19.99,
+    "maxPrice": 29.689999999999998,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 10,
+    "min": 16.99,
+    "max": 29.689999999999998,
+    "median": 19.99,
+    "mean": 20.31,
+    "p25": 19.74,
+    "p75": 19.99,
+    "iqr": 0.25,
+    "trimmedMean": 20.31,
+    "confidenceScore": "D",
+    "rejectedCount": 124,
+    "rejectionReasons": {},
+    "outlierCount": 3
+  },
+  "acceptedListings": [
+    {
+      "title": "Alocasia Loco Rare Plant",
+      "url": "https://www.ebay.co.uk/itm/206140386245",
+      "soldPrice": 19.99,
+      "totalPrice": 19.99,
+      "soldDate": "2026-06-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Loco Rare Plant #1",
+      "url": "https://www.ebay.co.uk/itm/206237162128",
+      "soldPrice": 19.99,
+      "totalPrice": 19.99,
+      "soldDate": "2026-06-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Loco Rare Plant #13",
+      "url": "https://www.ebay.co.uk/itm/206329013099",
+      "soldPrice": 19.99,
+      "totalPrice": 19.99,
+      "soldDate": "2026-06-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Loco Rare Plant #7",
+      "url": "https://www.ebay.co.uk/itm/206237162129",
+      "soldPrice": 19.74,
+      "totalPrice": 19.74,
+      "soldDate": "2026-06-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Loco Rare Plant",
+      "url": "https://www.ebay.co.uk/itm/277900078293",
+      "soldPrice": 26.31,
+      "totalPrice": 29.689999999999998,
+      "soldDate": "2026-04-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Loco Rare Plant #10",
+      "url": "https://www.ebay.co.uk/itm/206246537570",
+      "soldPrice": 16.99,
+      "totalPrice": 16.99,
+      "soldDate": "2026-06-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Loco Rare Plant #9",
+      "url": "https://www.ebay.co.uk/itm/206237162830",
+      "soldPrice": 16.99,
+      "totalPrice": 16.99,
+      "soldDate": "2026-06-06",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Loco Rare Plant #5",
+      "url": "https://www.ebay.co.uk/itm/206155771707",
+      "soldPrice": 19.99,
+      "totalPrice": 19.99,
+      "soldDate": "2026-04-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Loco Rare Plant #8",
+      "url": "https://www.ebay.co.uk/itm/206186733602",
+      "soldPrice": 19.74,
+      "totalPrice": 19.74,
+      "soldDate": "2026-04-06",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Loco Rare Plant #3",
+      "url": "https://www.ebay.co.uk/itm/206155769077",
+      "soldPrice": 19.99,
+      "totalPrice": 19.99,
+      "soldDate": "2026-04-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 10,
+  "rejectedCount": 124,
+  "rejectionBreakdown": {
+    "Contains excluded term": [
+      "alocasia loco corms rare chunky",
+      "alocasia loco [corm only]"
+    ],
+    "No accepted term found. Expected one of": [
+      "alocasia olanii | rare alocasia houseplant | 5 cm pot",
+      "alocasia longiloba purle rare aroid plant ref 06alp01",
+      "alocasia longiloba purle rare aroid plant ref 06alp02"
+    ]
+  }
+}

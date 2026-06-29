@@ -1,0 +1,192 @@
+{
+  "snapshot": {
+    "plantSlug": "acuminata",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera acuminata",
+    "checkedAt": "2026-06-29T19:16:35.147Z",
+    "rawResultCount": 240,
+    "acceptedCount": 16,
+    "rejectedCount": 224,
+    "outlierCount": 1,
+    "confidenceScore": "C",
+    "minPrice": 6.199999999999999,
+    "p25Price": 9.49,
+    "medianPrice": 10.27,
+    "meanPrice": 13.098750000000003,
+    "trimmedMeanPrice": 11.453846153846156,
+    "p75Price": 15.48,
+    "maxPrice": 34.99,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 16,
+    "min": 6.199999999999999,
+    "max": 34.99,
+    "median": 10.27,
+    "mean": 13.098750000000003,
+    "p25": 9.49,
+    "p75": 15.48,
+    "iqr": 5.99,
+    "trimmedMean": 11.453846153846156,
+    "confidenceScore": "C",
+    "rejectedCount": 224,
+    "rejectionReasons": {},
+    "outlierCount": 1
+  },
+  "acceptedListings": [
+    {
+      "title": "RARE! Monstera Acuminata FULL MINT, HIGHLY Variegated 1-LEAF Cutting, Rooting A1",
+      "url": "https://www.ebay.co.uk/itm/178243156884",
+      "soldPrice": 7.99,
+      "totalPrice": 7.99,
+      "soldDate": "2026-06-28",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Acuminata Top",
+      "url": "https://www.ebay.co.uk/itm/267706781599",
+      "soldPrice": 8.55,
+      "totalPrice": 10.55,
+      "soldDate": "2026-06-26",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Acuminata",
+      "url": "https://www.ebay.co.uk/itm/267681102505",
+      "soldPrice": 4.32,
+      "totalPrice": 6.32,
+      "soldDate": "2026-06-16",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "RARE! Monstera Acuminata FULL MINT, HIGHLY Variegated 1-LEAF Cutting, Rooted, A1",
+      "url": "https://www.ebay.co.uk/itm/178198384272",
+      "soldPrice": 9.99,
+      "totalPrice": 9.99,
+      "soldDate": "2026-06-15",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "RARE! Monstera Acuminata FULL MINT, HIGHLY Variegated 2-LEAF Cutting, Rooted, A1",
+      "url": "https://www.ebay.co.uk/itm/178198380847",
+      "soldPrice": 9.99,
+      "totalPrice": 9.99,
+      "soldDate": "2026-06-14",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "RARE! Monstera Acuminata FULL MINT, HIGHLY Variegated 2-LEAF TOP Cutting, A1",
+      "url": "https://www.ebay.co.uk/itm/178198378600",
+      "soldPrice": 9.99,
+      "totalPrice": 9.99,
+      "soldDate": "2026-06-13",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Acuminata Grown From Cutting From My Mature Plant",
+      "url": "https://www.ebay.co.uk/itm/298267067587",
+      "soldPrice": 3.26,
+      "totalPrice": 6.199999999999999,
+      "soldDate": "2026-06-01",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "RARE! Monstera Acuminata FULL MINT, HIGHLY Variegated 1-LEAF Cutting, Rooting A1",
+      "url": "https://www.ebay.co.uk/itm/178158819110",
+      "soldPrice": 9.99,
+      "totalPrice": 9.99,
+      "soldDate": "2026-05-30",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Acuminata Well Rooted Cutting With New Growth",
+      "url": "https://www.ebay.co.uk/itm/298267089025",
+      "soldPrice": 4.32,
+      "totalPrice": 7.26,
+      "soldDate": "2026-05-13",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "RARE! Monstera Acuminata FULL MINT, HIGHLY Variegated 5-LEAF Young Plant, Potted",
+      "url": "https://www.ebay.co.uk/itm/177247317416",
+      "soldPrice": 34.99,
+      "totalPrice": 34.99,
+      "soldDate": "2026-05-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Acuminata Albo Highly Variegated 1-Leaf Cutting, Rooted",
+      "url": "https://www.ebay.co.uk/itm/257503038194",
+      "soldPrice": 11.45,
+      "totalPrice": 14.389999999999999,
+      "soldDate": "2026-05-12",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "RARE! Monstera Acuminata FULL MINT, HIGHLY Variegated 1-LEAF Cutting w/Growth A2",
+      "url": "https://www.ebay.co.uk/itm/178081780068",
+      "soldPrice": 9.99,
+      "totalPrice": 15.48,
+      "soldDate": "2026-05-04",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "VERY RARE! Monstera Acuminata Albo Variegated 2x 1-LEAF Cuttings, Rooting, A2",
+      "url": "https://www.ebay.co.uk/itm/178078295598",
+      "soldPrice": 9.99,
+      "totalPrice": 15.48,
+      "soldDate": "2026-05-03",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "VERY RARE! Monstera Acuminata Albo Variegated 2x 1-LEAF Cuttings, Rooting, A1",
+      "url": "https://www.ebay.co.uk/itm/178078288783",
+      "soldPrice": 10.5,
+      "totalPrice": 15.99,
+      "soldDate": "2026-05-02",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "RARE! Monstera Acuminata FULL MINT, HIGHLY Variegated 1-LEAF Cutting w/Growth A1",
+      "url": "https://www.ebay.co.uk/itm/178059305372",
+      "soldPrice": 9.99,
+      "totalPrice": 15.48,
+      "soldDate": "2026-04-25",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "RARE! Monstera Acuminata FULL MINT, HIGHLY Variegated 1-LEAF Cutting, Rooting A3",
+      "url": "https://www.ebay.co.uk/itm/178041202970",
+      "soldPrice": 14,
+      "totalPrice": 19.490000000000002,
+      "soldDate": "2026-04-19",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 16,
+  "rejectedCount": 224,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "rare monstera adansonii acuminata mint variegated cutting rooting in water",
+      "monstera deliciosa albo, half-moon variegated, 1-leaf cutting, rooting, a2",
+      "monstera deliciosa albo, half-moon variegated, 1-leaf cutting, rooting, a3"
+    ]
+  }
+}

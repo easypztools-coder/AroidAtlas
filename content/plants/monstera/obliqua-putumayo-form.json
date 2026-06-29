@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Very Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£",
   "aboutText": "The Monstera obliqua 'Putumayo Form' is a highly sought-after botanical treasure hailing from the lush rainforests of the western Amazon basin. This delicate epiphyte is distinguished by its refined, narrow, and thin asymmetric foliage, which features balanced, elongated oval fenestrations. As an inhabitant of the dim understory, it evolved as a light climber that thrives when given the chance to scale mossy surfaces. Its rarity stems from its specific geographical origin in the Putumayo region, setting it apart from other well-known forms like the Peruvian or Zamora-Chinchipe variants.",
   "quickFacts": {
     "growthHabit": "Delicate epiphyte, light climber",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing epiphyte"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 25,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

@@ -1,0 +1,94 @@
+{
+  "snapshot": {
+    "plantSlug": "anthurium-nigrolaminum-gigi-x-papillilaminum",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium nigrolaminum Gigi papillilaminum",
+    "checkedAt": "2026-06-29T19:23:02.078Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 5,
+    "rejectedCount": 235,
+    "outlierCount": 2,
+    "confidenceScore": "D",
+    "minPrice": 24.63,
+    "p25Price": 34.519999999999996,
+    "medianPrice": 35.48,
+    "meanPrice": 48.432,
+    "trimmedMeanPrice": 48.432,
+    "p75Price": 40,
+    "maxPrice": 107.53,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 5,
+    "min": 24.63,
+    "max": 107.53,
+    "median": 35.48,
+    "mean": 48.432,
+    "p25": 34.519999999999996,
+    "p75": 40,
+    "iqr": 5.480000000000004,
+    "trimmedMean": 48.432,
+    "confidenceScore": "D",
+    "rejectedCount": 235,
+    "rejectionReasons": {},
+    "outlierCount": 2
+  },
+  "acceptedListings": [
+    {
+      "title": "Anthurium Minahasa x Blue Papillilaminum Clone. Anthurium Hybrid.",
+      "url": "https://www.ebay.co.uk/itm/127712629427",
+      "soldPrice": 21.25,
+      "totalPrice": 24.63,
+      "soldDate": "2026-04-02",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare Anthurium carlablackaie round x gph x RA8",
+      "url": "https://www.ebay.co.uk/itm/358707435651",
+      "soldPrice": 102.88,
+      "totalPrice": 107.53,
+      "soldDate": "2026-06-22",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Delta Force X Forgetii | anthurium hybrid houseplant | 7 cm pot",
+      "url": "https://www.ebay.co.uk/itm/158034591192",
+      "soldPrice": 40,
+      "totalPrice": 40,
+      "soldDate": "2026-06-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "RARE - Anthurium Hybrid Magnificum x Luxurians, 3-LEAF TOP Cutting, Rooted",
+      "url": "https://www.ebay.co.uk/itm/178078137485",
+      "soldPrice": 29.99,
+      "totalPrice": 35.48,
+      "soldDate": "2026-04-28",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Very Healthy Rare Anthurium Pallidiflorum 5 leaves 8 cms Pot",
+      "url": "https://www.ebay.co.uk/itm/306930551441",
+      "soldPrice": 31.58,
+      "totalPrice": 34.519999999999996,
+      "soldDate": "2026-05-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 5,
+  "rejectedCount": 235,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "anthurium cutting duo - nigrolaminum gigi x veitchii - aos x papillilaminum",
+      "anthurium bundle (nigrolaminum gigi x veitchii) - aos x pap - veitchii - fs pap",
+      "anthurium papillilaminum lg grown from chonk"
+    ]
+  }
+}

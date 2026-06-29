@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Ultra Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£",
   "aboutText": "The Monstera obliqua 'Amazonas B Form' is a highly distinct and sought-after cultivar originating from the Amazon basin. Known for its delicate hemiepiphytic growth, this form is characterized by more entire, less perforated foliage compared to other obliqua types, resulting in a unique, continuous lamina. It thrives in the filtered light and high-humidity environments typical of lowland to lower montane rainforests. Its refined, slender aesthetic and slow-growing nature make it a prized specimen for dedicated aroid collectors.",
   "quickFacts": {
     "growthHabit": "Hemiepiphytic climber",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 13,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

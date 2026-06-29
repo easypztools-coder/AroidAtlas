@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Begonia rajah, described by Ridley, is a rare understory species from the humid lowland rainforests of Peninsular Malaysia — growing in deep shade on the forest floor in consistently warm, humid conditions, rooted in moist humus and leaf litter over rocky organic substrates with minimal light. Its sculptural foliage is among the most dramatically beautiful in the genus: large, strongly bullate leaves with a metallic olive-bronze to dark green upper surface bearing light green venation and banding of considerable subtlety, while the undersides are rich red to burgundy. The stout, creeping rhizome anchors the plant firmly as leaves emerge in succession. Rajah shares its Malaysian forest-floor home with the celebrated pavonina, and together they represent the very finest of what Peninsular Malaysia's shaded undergrowth offers the collector. The name 'Rajah' — Malay for ruler or king — was earned honestly.",
   "quickFacts": {
     "growthHabit": "Rhizomatous, stout creeping",
@@ -34,7 +34,7 @@
     "growthHabit": "Stout creeping rhizome, forest-floor specialist"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 90,
+    "currentMedianPriceGBP": 21,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

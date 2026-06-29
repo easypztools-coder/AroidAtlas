@@ -1,0 +1,63 @@
+{
+  "snapshot": {
+    "plantSlug": "scindapsus-silver-hero",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Scindapsus Silver Hero",
+    "checkedAt": "2026-06-29T19:25:34.252Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 1,
+    "rejectedCount": 239,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 12.780000000000001,
+    "p25Price": 12.780000000000001,
+    "medianPrice": 12.780000000000001,
+    "meanPrice": 12.780000000000001,
+    "trimmedMeanPrice": 12.780000000000001,
+    "p75Price": 12.780000000000001,
+    "maxPrice": 12.780000000000001,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 1,
+    "min": 12.780000000000001,
+    "max": 12.780000000000001,
+    "median": 12.780000000000001,
+    "mean": 12.780000000000001,
+    "p25": 12.780000000000001,
+    "p75": 12.780000000000001,
+    "iqr": 0,
+    "trimmedMean": 12.780000000000001,
+    "confidenceScore": "D",
+    "rejectedCount": 239,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Scindapsus Silver Hero | Rooted Rare Vining Trailing Tropical House Plant | 1 |",
+      "url": "https://www.ebay.co.uk/itm/226994031954",
+      "soldPrice": 9.08,
+      "totalPrice": 12.780000000000001,
+      "soldDate": "2026-04-16",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 1,
+  "rejectedCount": 239,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "scindapsus pictus platinum, \"silver hero\" rooted plant. beautiful silvery leaves",
+      "scindapsus silver knight tricolour",
+      "scindapsus pictus argyraeus 4-5 leaves silver satin pothos plant rooted cutting"
+    ],
+    "Global block": [
+      "lego chrome silver plated loki minifigure marvel super heroes new!!",
+      "custom lego minifigure lord of the rings hobbit toy hero gandalf frodo golem",
+      "lego chrome silver plated loki minifigure marvel super heroes new!!"
+    ]
+  }
+}

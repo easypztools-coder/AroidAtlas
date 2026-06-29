@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Begonia malachosticta is a striking species native to the humid, shaded tropical forests of Ecuador. It thrives in the warm, moist understory where filtered light, high humidity, and a rich organic substrate from leaf litter and decaying wood create ideal growing conditions. This upright cane begonia features distinctive setose red stems and petioles. Its asymmetrical, elongate-ovate leaves have a dark green upper surface densely spotted with pale green to whitish maculations, contrasted by red undersides, and the plant exhibits a natural cane-like branching habit.",
   "quickFacts": {
     "growthHabit": "Upright cane begonia with cane-like branching habit",
@@ -34,7 +34,7 @@
     "growthHabit": "Upright cane begonia with natural cane-like branching habit"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 13,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

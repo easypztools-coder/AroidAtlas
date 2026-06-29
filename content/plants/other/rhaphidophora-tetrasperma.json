@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Rhaphidophora tetrasperma is a compact climbing aroid native to the humid tropical forests of Southern Thailand and Peninsular Malaysia, where it ascends tree trunks and natural supports from the shaded understory to the lower canopy. Its glossy leaves are deeply divided to the margin into typically four clean lobes without internal holes — a fenestration pattern that superficially resembles a miniature Monstera deliciosa, earning it the trade name 'Mini Monstera'. In cultivation it climbs enthusiastically with short internodes and visible aerial roots, making it an ideal specimen for moss poles in indoor collections.",
   "quickFacts": {
     "growthHabit": "Compact climbing hemiepiphyte",
@@ -34,7 +34,7 @@
     "growthHabit": "Vining climber, short internodes"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 41,
+    "currentMedianPriceGBP": 17,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

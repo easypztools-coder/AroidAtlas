@@ -1,0 +1,58 @@
+{
+  "snapshot": {
+    "plantSlug": "obliqua-putumayo-form",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera obliqua Putumayo",
+    "checkedAt": "2026-06-29T19:20:07.209Z",
+    "currency": "GBP",
+    "rawResultCount": 56,
+    "acceptedCount": 1,
+    "rejectedCount": 55,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 24.99,
+    "p25Price": 24.99,
+    "medianPrice": 24.99,
+    "meanPrice": 24.99,
+    "trimmedMeanPrice": 24.99,
+    "p75Price": 24.99,
+    "maxPrice": 24.99,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 1,
+    "min": 24.99,
+    "max": 24.99,
+    "median": 24.99,
+    "mean": 24.99,
+    "p25": 24.99,
+    "p75": 24.99,
+    "iqr": 0,
+    "trimmedMean": 24.99,
+    "confidenceScore": "D",
+    "rejectedCount": 55,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "RARE Monstera Obliqua 'Muyuna' Aurea HIGHLY Variegated - 3-LEAF Young Plant",
+      "url": "https://www.ebay.co.uk/itm/178001268918",
+      "soldPrice": 24.99,
+      "totalPrice": 24.99,
+      "soldDate": "2026-04-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 1,
+  "rejectedCount": 55,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "monstera obliqua napo",
+      "monstera obliqua peru | aroid houseplant | 6 cm pot",
+      "monstera obliqua 'peru' rare find - houseplant- home decor- tropical plant"
+    ]
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "snapshot": {
+    "plantSlug": "darthvaderiana",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia darthvaderiana",
+    "checkedAt": "2026-06-29T19:14:59.830Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 16,
+    "rejectedCount": 224,
+    "outlierCount": 3,
+    "confidenceScore": "C",
+    "minPrice": 10.940000000000001,
+    "p25Price": 18.89,
+    "medianPrice": 22.509999999999998,
+    "meanPrice": 28.734375,
+    "trimmedMeanPrice": 20.88272727272727,
+    "p75Price": 30.965,
+    "maxPrice": 72.93,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 16,
+    "min": 10.940000000000001,
+    "max": 72.93,
+    "median": 22.509999999999998,
+    "mean": 28.734375,
+    "p25": 18.89,
+    "p75": 30.965,
+    "iqr": 12.075,
+    "trimmedMean": 20.88272727272727,
+    "confidenceScore": "C",
+    "rejectedCount": 224,
+    "rejectionReasons": {},
+    "outlierCount": 3
+  },
+  "acceptedListings": [
+    {
+      "title": "Begonia darthvaderiana",
+      "url": "https://www.ebay.co.uk/itm/198413995086",
+      "soldPrice": 40.16,
+      "totalPrice": 43.099999999999994,
+      "soldDate": "2026-06-29",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "💚💚 Begonia Darthvaderiana X Lahad Datu Stunning Rare House Plant 💚💚",
+      "url": "https://www.ebay.co.uk/itm/377275158717",
+      "soldPrice": 10.39,
+      "totalPrice": 15.540000000000001,
+      "soldDate": "2026-06-23",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Darthvaderiana Green Spots",
+      "url": "https://www.ebay.co.uk/itm/406992746211",
+      "soldPrice": 20.19,
+      "totalPrice": 23.57,
+      "soldDate": "2026-06-18",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Darthvaderiana Green spot Houseplant",
+      "url": "https://www.ebay.co.uk/itm/267683376168",
+      "soldPrice": 19.13,
+      "totalPrice": 22.509999999999998,
+      "soldDate": "2026-06-02",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Darthvaderiana Green spot Houseplant",
+      "url": "https://www.ebay.co.uk/itm/336592634681",
+      "soldPrice": 15.96,
+      "totalPrice": 19.34,
+      "soldDate": "2026-05-21",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Very Rare House Plant Sale Collectors Begonia Darthvaderiana Green Spot",
+      "url": "https://www.ebay.co.uk/itm/306930535875",
+      "soldPrice": 15.96,
+      "totalPrice": 18.900000000000002,
+      "soldDate": "2026-05-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Darthvaderiana Green Spot  Pot9cm Houseplant",
+      "url": "https://www.ebay.co.uk/itm/406872341997",
+      "soldPrice": 19.13,
+      "totalPrice": 22.509999999999998,
+      "soldDate": "2026-04-23",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Darthvaderiana X Tawau Rare Hybrid Terrarium Begonia Houseplant",
+      "url": "https://www.ebay.co.uk/itm/277947402255",
+      "soldPrice": 6.49,
+      "totalPrice": 10.940000000000001,
+      "soldDate": "2026-05-04",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia darthvaderiana x daun hitam small plant",
+      "url": "https://www.ebay.co.uk/itm/168352797945",
+      "soldPrice": 26.92,
+      "totalPrice": 26.92,
+      "soldDate": "2026-05-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "NEW! HYBRID! Begonia Darthvaderiana x Lahad Datu High Humidity Terrarium",
+      "url": "https://www.ebay.co.uk/itm/306777521177",
+      "soldPrice": 49.55,
+      "totalPrice": 53.05,
+      "soldDate": "2026-05-03",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Very Rare House Plant Sale Collectors Begonia Darthvaderiana Green Spot",
+      "url": "https://www.ebay.co.uk/itm/306910949879",
+      "soldPrice": 15.95,
+      "totalPrice": 18.89,
+      "soldDate": "2026-04-30",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Very Rare House Plant Sale Collectors Begonia Darthvaderiana Green Spot",
+      "url": "https://www.ebay.co.uk/itm/306888765329",
+      "soldPrice": 15.95,
+      "totalPrice": 18.89,
+      "soldDate": "2026-04-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Very Rare House Plant Sale Collectors Begonia Darthvaderiana Green Spot",
+      "url": "https://www.ebay.co.uk/itm/306886493638",
+      "soldPrice": 15.95,
+      "totalPrice": 18.89,
+      "soldDate": "2026-04-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia darthvaderiana",
+      "url": "https://www.ebay.co.uk/itm/365604860718",
+      "soldPrice": 47.08,
+      "totalPrice": 50.019999999999996,
+      "soldDate": "2026-04-17",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Darthvaderiana Green Spot 8cm Houseplant",
+      "url": "https://www.ebay.co.uk/itm/358413055570",
+      "soldPrice": 19,
+      "totalPrice": 23.75,
+      "soldDate": "2026-04-07",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "NEW! HYBRID! Begonia Darthvaderiana x Lahad Datu Terrarium Exact Plant For Sale",
+      "url": "https://www.ebay.co.uk/itm/306860872867",
+      "soldPrice": 69.43,
+      "totalPrice": 72.93,
+      "soldDate": "2026-04-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 16,
+  "rejectedCount": 224,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "new! hybrid! begonia (dracopelta x sarawak) x darthvaderiana terrarium plant",
+      "rare begonia amphioxus x darthvaderiana rooted base hybrid plant",
+      "begonia “darthvaderiana green spot” 9cm potted indoor houseplant"
+    ]
+  }
+}

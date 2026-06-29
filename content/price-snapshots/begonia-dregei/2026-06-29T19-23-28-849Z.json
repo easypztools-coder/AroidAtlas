@@ -1,0 +1,170 @@
+{
+  "snapshot": {
+    "plantSlug": "begonia-dregei",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia dregei",
+    "checkedAt": "2026-06-29T19:23:28.849Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 13,
+    "rejectedCount": 227,
+    "outlierCount": 1,
+    "confidenceScore": "D",
+    "minPrice": 7.44,
+    "p25Price": 12.080000000000002,
+    "medianPrice": 15.4,
+    "meanPrice": 17.38153846153846,
+    "trimmedMeanPrice": 15.409,
+    "p75Price": 18.32,
+    "maxPrice": 38.660000000000004,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 13,
+    "min": 7.44,
+    "max": 38.660000000000004,
+    "median": 15.4,
+    "mean": 17.38153846153846,
+    "p25": 12.080000000000002,
+    "p75": 18.32,
+    "iqr": 6.239999999999998,
+    "trimmedMean": 15.409,
+    "confidenceScore": "D",
+    "rejectedCount": 227,
+    "rejectionReasons": {},
+    "outlierCount": 1
+  },
+  "acceptedListings": [
+    {
+      "title": "Begonia dregei v. partita - Caudiciform Succulent",
+      "url": "https://www.ebay.co.uk/itm/117240545491",
+      "soldPrice": 7.44,
+      "totalPrice": 7.44,
+      "soldDate": "2026-06-21",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia dregei Rooted Cuttings Caudex Rare Houseplant Great for Bonsai Bareroot",
+      "url": "https://www.ebay.co.uk/itm/298402450649",
+      "soldPrice": 12.78,
+      "totalPrice": 16.16,
+      "soldDate": "2026-06-11",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia dregei - sets of multiple rooted caudiciform succulent",
+      "url": "https://www.ebay.co.uk/itm/267690466086",
+      "soldPrice": 9.38,
+      "totalPrice": 11.88,
+      "soldDate": "2026-06-08",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia dregei v. partita - Caudiciform Succulent",
+      "url": "https://www.ebay.co.uk/itm/117218454741",
+      "soldPrice": 15.4,
+      "totalPrice": 15.4,
+      "soldDate": "2026-06-07",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia dregei - sets of multiple rooted caudiciform succulent",
+      "url": "https://www.ebay.co.uk/itm/267687555979",
+      "soldPrice": 9.38,
+      "totalPrice": 12.080000000000002,
+      "soldDate": "2026-06-05",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia dregei v. partita - Caudiciform Succulent",
+      "url": "https://www.ebay.co.uk/itm/117193802830",
+      "soldPrice": 21.81,
+      "totalPrice": 21.81,
+      "soldDate": "2026-05-24",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Dregei 'Tripartita' Rare Houseplant with Caudex Tree Like Bonsai Plant",
+      "url": "https://www.ebay.co.uk/itm/306934099428",
+      "soldPrice": 14.82,
+      "totalPrice": 18.32,
+      "soldDate": "2026-05-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia dregei (variegated form) - house plant, terrarium, bonsai, caudex.",
+      "url": "https://www.ebay.co.uk/itm/267659264618",
+      "soldPrice": 8.02,
+      "totalPrice": 11.399999999999999,
+      "soldDate": "2026-05-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Dregei 'Tripartita' Rare Houseplant with Caudex Tree Like Bonsai Plant",
+      "url": "https://www.ebay.co.uk/itm/306909190095",
+      "soldPrice": 14.82,
+      "totalPrice": 18.32,
+      "soldDate": "2026-05-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia dregei v. partita - Caudiciform Succulent",
+      "url": "https://www.ebay.co.uk/itm/117143284963",
+      "soldPrice": 25.77,
+      "totalPrice": 25.77,
+      "soldDate": "2026-04-26",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia dregei v. partita - Caudiciform Succulent",
+      "url": "https://www.ebay.co.uk/itm/117130845682",
+      "soldPrice": 35.7,
+      "totalPrice": 38.660000000000004,
+      "soldDate": "2026-04-19",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Dregei 'Tripartita' Rare Houseplant with Caudex Tree Like Bonsai Plant",
+      "url": "https://www.ebay.co.uk/itm/306855726681",
+      "soldPrice": 10.86,
+      "totalPrice": 14.36,
+      "soldDate": "2026-04-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Dregei 'Tripartita' Rare Houseplant with Caudex Tree Like Bonsai Plant",
+      "url": "https://www.ebay.co.uk/itm/306848604372",
+      "soldPrice": 10.86,
+      "totalPrice": 14.36,
+      "soldDate": "2026-04-01",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 13,
+  "rejectedCount": 227,
+  "rejectionBreakdown": {
+    "Contains excluded term": [
+      "begonia dregei caudex bonsai houseplant easy care seedling in 7cm pot",
+      "begonia dregei caudex bonsai rare houseplant easy care bareroot seedling"
+    ],
+    "No accepted term found. Expected one of": [
+      "begonia shepherdii/dregei, small leaves spotted with silver, small white flowers",
+      "begonia shepherdii/dregei, small leaves spotted with silver, small white flowers",
+      "begonia shepherdii/dregei, small leaves spotted with silver, small white flowers"
+    ]
+  }
+}

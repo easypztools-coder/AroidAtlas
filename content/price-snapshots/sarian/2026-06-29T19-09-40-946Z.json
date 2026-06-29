@@ -1,0 +1,277 @@
+{
+  "snapshot": {
+    "plantSlug": "sarian",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia Sarian",
+    "checkedAt": "2026-06-29T19:09:40.946Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 25,
+    "rejectedCount": 215,
+    "outlierCount": 1,
+    "confidenceScore": "C",
+    "minPrice": 3.375,
+    "p25Price": 20.96,
+    "medianPrice": 24.44,
+    "meanPrice": 25.1,
+    "trimmedMeanPrice": 25.89975,
+    "p75Price": 28.7,
+    "maxPrice": 38,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 25,
+    "min": 3.375,
+    "max": 38,
+    "median": 24.44,
+    "mean": 25.1,
+    "p25": 20.96,
+    "p75": 28.7,
+    "iqr": 7.739999999999998,
+    "trimmedMean": 25.89975,
+    "confidenceScore": "C",
+    "rejectedCount": 215,
+    "rejectionReasons": {},
+    "outlierCount": 1
+  },
+  "acceptedListings": [
+    {
+      "title": "Alocasia Sarian Variegata Albo - Very rare variegated aroid plant ref 11ASARV05",
+      "url": "https://www.ebay.co.uk/itm/326889817233",
+      "soldPrice": 33.37,
+      "totalPrice": 33.37,
+      "soldDate": "2025-12-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sarian Variegata Albo - Very rare variegated aroid plant ref 11ASARV04",
+      "url": "https://www.ebay.co.uk/itm/326889812939",
+      "soldPrice": 28.61,
+      "totalPrice": 28.61,
+      "soldDate": "2025-12-08",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sarian Variegata Albo - Very rare variegated aroid plant ref 11ASARV03",
+      "url": "https://www.ebay.co.uk/itm/326889811200",
+      "soldPrice": 22.58,
+      "totalPrice": 22.58,
+      "soldDate": "2025-12-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sarian Variegata Albo - Very rare variegated aroid plant ref 11ASARV01",
+      "url": "https://www.ebay.co.uk/itm/326889810071",
+      "soldPrice": 27.18,
+      "totalPrice": 27.18,
+      "soldDate": "2025-12-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sarian Aurea Variegata  - Very rare variegated aroid plant 11ASARV05",
+      "url": "https://www.ebay.co.uk/itm/326885166602",
+      "soldPrice": 28.7,
+      "totalPrice": 28.7,
+      "soldDate": "2025-12-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sarian Aurea Variegata  - Very rare variegated aroid plant 12ASARV03",
+      "url": "https://www.ebay.co.uk/itm/326911943901",
+      "soldPrice": 27.36,
+      "totalPrice": 27.36,
+      "soldDate": "2025-12-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sarian Aurea Variegata  - Very rare variegated aroid plant 12ASARV02",
+      "url": "https://www.ebay.co.uk/itm/326911943135",
+      "soldPrice": 38,
+      "totalPrice": 38,
+      "soldDate": "2025-12-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sarian Aurea Variegata  - Very rare variegated aroid plant 12ASARV01",
+      "url": "https://www.ebay.co.uk/itm/326911942033",
+      "soldPrice": 27.36,
+      "totalPrice": 27.36,
+      "soldDate": "2025-12-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sarian Variegata Albo - Very rare variegated aroid plant ref 12ASARV05",
+      "url": "https://www.ebay.co.uk/itm/326911938798",
+      "soldPrice": 27.36,
+      "totalPrice": 27.36,
+      "soldDate": "2025-12-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sarian Variegata Albo - Very rare variegated aroid plant ref 12ASARV04",
+      "url": "https://www.ebay.co.uk/itm/326911938327",
+      "soldPrice": 38,
+      "totalPrice": 38,
+      "soldDate": "2025-12-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sarian Aurea Variegata  - Very rare variegated aroid plant 05ASARV04",
+      "url": "https://www.ebay.co.uk/itm/327153139471",
+      "soldPrice": 15.48,
+      "totalPrice": 15.48,
+      "soldDate": "2026-05-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sarian Aurea Variegata  - Very rare variegated aroid plant 05ASARV03",
+      "url": "https://www.ebay.co.uk/itm/327153137590",
+      "soldPrice": 18.81,
+      "totalPrice": 18.81,
+      "soldDate": "2026-05-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sarian Aurea Variegata  - Very rare variegated aroid plant 05ASARV05",
+      "url": "https://www.ebay.co.uk/itm/327153140664",
+      "soldPrice": 19.29,
+      "totalPrice": 19.29,
+      "soldDate": "2026-05-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sarian Aurea Variegata  - Very rare variegated aroid plant 05ASARV01",
+      "url": "https://www.ebay.co.uk/itm/327153131043",
+      "soldPrice": 23.15,
+      "totalPrice": 23.15,
+      "soldDate": "2026-05-16",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sarian Aurea Variegata  - Very rare variegated aroid plant 05ASARV06",
+      "url": "https://www.ebay.co.uk/itm/327153141760",
+      "soldPrice": 24.01,
+      "totalPrice": 24.01,
+      "soldDate": "2026-05-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sarian Aurea Variegata  - Very rare variegated aroid plant 05ASARV02",
+      "url": "https://www.ebay.co.uk/itm/327153133804",
+      "soldPrice": 24.37,
+      "totalPrice": 24.37,
+      "soldDate": "2026-05-14",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sarian Aurea Variegata  - Very rare variegated aroid plant 04ASARV02",
+      "url": "https://www.ebay.co.uk/itm/327123396287",
+      "soldPrice": 20.96,
+      "totalPrice": 20.96,
+      "soldDate": "2026-05-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sarian | alocasia houseplant | 7 cm pot",
+      "url": "https://www.ebay.co.uk/itm/157899101459",
+      "soldPrice": 10,
+      "totalPrice": 14.65,
+      "soldDate": "2026-05-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sarian Aurea Variegata  - Very rare variegated aroid plant 04ASARV01",
+      "url": "https://www.ebay.co.uk/itm/327123395705",
+      "soldPrice": 23.22,
+      "totalPrice": 23.22,
+      "soldDate": "2026-05-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sarian Aurea Variegata  - Very rare variegated aroid plant 04ASARV03",
+      "url": "https://www.ebay.co.uk/itm/327123397227",
+      "soldPrice": 24.44,
+      "totalPrice": 24.44,
+      "soldDate": "2026-05-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sarian Variegata Albo - Very rare variegated aroid plant ref 04ASARV01",
+      "url": "https://www.ebay.co.uk/itm/327123406759",
+      "soldPrice": 30.01,
+      "totalPrice": 30.01,
+      "soldDate": "2026-04-30",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sarian Variegata Albo - Very rare variegated aroid plant ref 04ASARV02",
+      "url": "https://www.ebay.co.uk/itm/327123408285",
+      "soldPrice": 30.01,
+      "totalPrice": 30.01,
+      "soldDate": "2026-04-30",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sarian Variegata Albo - Very rare variegated aroid plant ref 04ASARV03",
+      "url": "https://www.ebay.co.uk/itm/327123409364",
+      "soldPrice": 38,
+      "totalPrice": 38,
+      "soldDate": "2026-04-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "X2 Alocasia Sarian Aurea & Albo - Very rare variegated Plant",
+      "url": "https://www.ebay.co.uk/itm/327095865395",
+      "soldPrice": 38.41,
+      "totalPrice": 38.41,
+      "soldDate": "2026-04-18",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "X4 Alocasia Sarian TC Plantlets",
+      "url": "https://www.ebay.co.uk/itm/327093992262",
+      "soldPrice": 13.5,
+      "totalPrice": 13.5,
+      "soldDate": "2026-04-12",
+      "listingType": "tc_plantlet",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 25,
+  "rejectedCount": 215,
+  "rejectionBreakdown": {
+    "Contains excluded term": [
+      "alocasia sarian baby plant and a corm"
+    ],
+    "No accepted term found. Expected one of": [
+      "alocasia venom very rare aroid plant 06av08",
+      "alocasia corms mixed x 10 unknown",
+      "alocasia olanii | rare alocasia houseplant | 5 cm pot"
+    ]
+  }
+}

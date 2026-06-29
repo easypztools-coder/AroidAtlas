@@ -1,0 +1,58 @@
+{
+  "snapshot": {
+    "plantSlug": "rhaphidophora-foraminifera",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Rhaphidophora foraminifera",
+    "checkedAt": "2026-06-29T19:24:53.202Z",
+    "currency": "GBP",
+    "rawResultCount": 6,
+    "acceptedCount": 1,
+    "rejectedCount": 5,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 21.45,
+    "p25Price": 21.45,
+    "medianPrice": 21.45,
+    "meanPrice": 21.45,
+    "trimmedMeanPrice": 21.45,
+    "p75Price": 21.45,
+    "maxPrice": 21.45,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 1,
+    "min": 21.45,
+    "max": 21.45,
+    "median": 21.45,
+    "mean": 21.45,
+    "p25": 21.45,
+    "p75": 21.45,
+    "iqr": 0,
+    "trimmedMean": 21.45,
+    "confidenceScore": "D",
+    "rejectedCount": 5,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Rhaphidophora Foraminifera Very Rare Aroid With Holes Only One On EBay",
+      "url": "https://www.ebay.co.uk/itm/127810311833",
+      "soldPrice": 18.07,
+      "totalPrice": 21.45,
+      "soldDate": "2026-05-09",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 1,
+  "rejectedCount": 5,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "rhaphidophora tetrasperma variegated",
+      "ecuagenera rehab rhaphidophora cryptantha (a26)",
+      "rhaphidophora sp noid rare established terrarium plant climber low light"
+    ]
+  }
+}

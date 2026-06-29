@@ -1,0 +1,58 @@
+{
+  "snapshot": {
+    "plantSlug": "tenue",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron tenue",
+    "checkedAt": "2026-06-29T19:28:43.264Z",
+    "currency": "GBP",
+    "rawResultCount": 33,
+    "acceptedCount": 1,
+    "rejectedCount": 32,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 29.869999999999997,
+    "p25Price": 29.869999999999997,
+    "medianPrice": 29.869999999999997,
+    "meanPrice": 29.869999999999997,
+    "trimmedMeanPrice": 29.869999999999997,
+    "p75Price": 29.869999999999997,
+    "maxPrice": 29.869999999999997,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 1,
+    "min": 29.869999999999997,
+    "max": 29.869999999999997,
+    "median": 29.869999999999997,
+    "mean": 29.869999999999997,
+    "p25": 29.869999999999997,
+    "p75": 29.869999999999997,
+    "iqr": 0,
+    "trimmedMean": 29.869999999999997,
+    "confidenceScore": "D",
+    "rejectedCount": 32,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Rare Philodendron Tenue Plant",
+      "url": "https://www.ebay.co.uk/itm/327114217840",
+      "soldPrice": 24.72,
+      "totalPrice": 29.869999999999997,
+      "soldDate": "2026-04-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 1,
+  "rejectedCount": 32,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "philodendron esmeraldense rare philodendron 🌱",
+      "philodendron splendid fully rooted mid-stem cuttings from mature plant",
+      "philodendron splendid cutting read description"
+    ]
+  }
+}

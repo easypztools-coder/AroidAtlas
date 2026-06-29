@@ -1,0 +1,390 @@
+{
+  "snapshot": {
+    "plantSlug": "obliqua-amazonas-form",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera obliqua Amazonas",
+    "checkedAt": "2026-06-29T19:19:12.480Z",
+    "rawResultCount": 240,
+    "acceptedCount": 38,
+    "rejectedCount": 202,
+    "outlierCount": 4,
+    "confidenceScore": "B",
+    "minPrice": 6.04,
+    "p25Price": 10.075,
+    "medianPrice": 13.11,
+    "meanPrice": 14.98184210526316,
+    "trimmedMeanPrice": 12.895714285714288,
+    "p75Price": 17.549999999999997,
+    "maxPrice": 34.96,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 38,
+    "min": 6.04,
+    "max": 34.96,
+    "median": 13.11,
+    "mean": 14.98184210526316,
+    "p25": 10.075,
+    "p75": 17.549999999999997,
+    "iqr": 7.474999999999998,
+    "trimmedMean": 12.895714285714288,
+    "confidenceScore": "B",
+    "rejectedCount": 202,
+    "rejectionReasons": {},
+    "outlierCount": 4
+  },
+  "acceptedListings": [
+    {
+      "title": "Monstera Obliqua Amazonas RARE House Plant Aroid Rooted Node Cutting",
+      "url": "https://www.ebay.co.uk/itm/287377813364",
+      "soldPrice": 9.87,
+      "totalPrice": 13.25,
+      "soldDate": "2026-06-13",
+      "listingType": "node",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Obliqua Napo",
+      "url": "https://www.ebay.co.uk/itm/277395453761",
+      "soldPrice": 26.42,
+      "totalPrice": 29.8,
+      "soldDate": "2026-05-01",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Obliqua peru | aroid houseplant | 6 cm pot",
+      "url": "https://www.ebay.co.uk/itm/157957013099",
+      "soldPrice": 7.5,
+      "totalPrice": 7.5,
+      "soldDate": "2026-06-14",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Obliqua peru Live Potted Indoor Houseplant Green",
+      "url": "https://www.ebay.co.uk/itm/358705159816",
+      "soldPrice": 9.6,
+      "totalPrice": 12.98,
+      "soldDate": "2026-06-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Obliqua 'Peru' RARE find - Houseplant- Home Decor- Tropical Plant",
+      "url": "https://www.ebay.co.uk/itm/205121020747",
+      "soldPrice": 8.99,
+      "totalPrice": 12.98,
+      "soldDate": "2026-06-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Obliqua Napo Grown From Cutting. New Shoot",
+      "url": "https://www.ebay.co.uk/itm/298348793723",
+      "soldPrice": 5.37,
+      "totalPrice": 8.31,
+      "soldDate": "2026-06-13",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "RARE Monstera Obliqua 'Muyuna' Aurea HIGHLY Variegated - 3-LEAF Young Plant",
+      "url": "https://www.ebay.co.uk/itm/178001268918",
+      "soldPrice": 24.99,
+      "totalPrice": 24.99,
+      "soldDate": "2026-04-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Obliqua Peru Plant.",
+      "url": "https://www.ebay.co.uk/itm/327027153522",
+      "soldPrice": 12.77,
+      "totalPrice": 15.709999999999999,
+      "soldDate": "2026-04-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Obliqua Peru Tropical Houseplant",
+      "url": "https://www.ebay.co.uk/itm/336591794058",
+      "soldPrice": 12.85,
+      "totalPrice": 16.23,
+      "soldDate": "2026-05-26",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "*RARE* Monstera Obliqua ‘tamarindo’ Grown From Cutting. New Leaf On It’s Way.",
+      "url": "https://www.ebay.co.uk/itm/298323369268",
+      "soldPrice": 8.97,
+      "totalPrice": 11.91,
+      "soldDate": "2026-05-16",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Baby Monstera Obliqua Small Rare Ornamental Indoor Houseplant in 6cm Pot",
+      "url": "https://www.ebay.co.uk/itm/275551612844",
+      "soldPrice": 9.49,
+      "totalPrice": 9.49,
+      "soldDate": "2026-06-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Obliqua Peru Plant, 30cm Tall, Exact Plant ‘M1’",
+      "url": "https://www.ebay.co.uk/itm/397969263639",
+      "soldPrice": 12.78,
+      "totalPrice": 12.78,
+      "soldDate": "2026-05-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Obliqua Peru Houseplant",
+      "url": "https://www.ebay.co.uk/itm/318454834651",
+      "soldPrice": 9.86,
+      "totalPrice": 13.239999999999998,
+      "soldDate": "2026-06-21",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Exotic Monstera Obliqua Peru Rare Rooted Indoor House Plant",
+      "url": "https://www.ebay.co.uk/itm/287346642785",
+      "soldPrice": 15,
+      "totalPrice": 18.990000000000002,
+      "soldDate": "2026-05-23",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Obliqua Peru Plant, 30cm Tall, Exact Plant ‘M2’",
+      "url": "https://www.ebay.co.uk/itm/397969265941",
+      "soldPrice": 12.78,
+      "totalPrice": 12.78,
+      "soldDate": "2026-05-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Obliqua Peru Tropical Houseplant Fully Rooted",
+      "url": "https://www.ebay.co.uk/itm/336585407870",
+      "soldPrice": 12.85,
+      "totalPrice": 16.23,
+      "soldDate": "2026-05-19",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera obliqua Peru Form, rare find, stunning plant, 12cm nursery pot, 30cm",
+      "url": "https://www.ebay.co.uk/itm/397176970067",
+      "soldPrice": 23.99,
+      "totalPrice": 28.979999999999997,
+      "soldDate": "2026-04-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera obliqua Monkey Leaf 6cm Live Tropical Terrarium Plant Easy Leafy Housep",
+      "url": "https://www.ebay.co.uk/itm/356938341331",
+      "soldPrice": 6.04,
+      "totalPrice": 6.04,
+      "soldDate": "2026-06-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Obliqua Peru Rare Rooted Indoor House Plant Cutting",
+      "url": "https://www.ebay.co.uk/itm/206290947133",
+      "soldPrice": 8.56,
+      "totalPrice": 11.11,
+      "soldDate": "2026-06-22",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Obliqua Peru '2'  Rare Indoor Rooted Houseplant",
+      "url": "https://www.ebay.co.uk/itm/177865449828",
+      "soldPrice": 8.87,
+      "totalPrice": 12.25,
+      "soldDate": "2026-05-26",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Obliqua Peru 🌿RARE🌿 aroid Tropical House Plant",
+      "url": "https://www.ebay.co.uk/itm/406860061402",
+      "soldPrice": 11.2,
+      "totalPrice": 14.579999999999998,
+      "soldDate": "2026-04-16",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Obliqua Peru BUY 1 GET 1 FREERunner Node Rare Aroid Unusual Houseplant",
+      "url": "https://www.ebay.co.uk/itm/235784348342",
+      "soldPrice": 8.5,
+      "totalPrice": 10.6,
+      "soldDate": "2026-04-17",
+      "listingType": "node",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Obliqua Leitchtinii Rare House Plant  Lightly Rooted, Growing Well",
+      "url": "https://www.ebay.co.uk/itm/298348849946",
+      "soldPrice": 6.43,
+      "totalPrice": 9.37,
+      "soldDate": "2026-05-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Collectors item!! Monstera Obliqua Leitchlinii Rare House Plant",
+      "url": "https://www.ebay.co.uk/itm/298348840515",
+      "soldPrice": 6.96,
+      "totalPrice": 9.9,
+      "soldDate": "2026-06-08",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Obliqua Indoor House Plant 40cm Tall (Window Leaf/Monkey Leaf)",
+      "url": "https://www.ebay.co.uk/itm/127838425889",
+      "soldPrice": 14.61,
+      "totalPrice": 18.669999999999998,
+      "soldDate": "2026-05-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera obliqua \"peru\" 6 cm pot (rare house plant/terrarium plant )",
+      "url": "https://www.ebay.co.uk/itm/127710528775",
+      "soldPrice": 9.99,
+      "totalPrice": 13.98,
+      "soldDate": "2026-04-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Collectors item!!! Monstera Obliqua Leichtinii Rare House Plant Well Rooted",
+      "url": "https://www.ebay.co.uk/itm/298348862194",
+      "soldPrice": 5.9,
+      "totalPrice": 8.84,
+      "soldDate": "2026-06-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Obliqua ‘Peru’",
+      "url": "https://www.ebay.co.uk/itm/366387778409",
+      "soldPrice": 6.44,
+      "totalPrice": 9.38,
+      "soldDate": "2026-05-11",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Lovely Monstera obliqua 'Monkey Leaf' Air Purifying Indoor Houseplant 20-30cm",
+      "url": "https://www.ebay.co.uk/itm/264687019489",
+      "soldPrice": 17.99,
+      "totalPrice": 17.99,
+      "soldDate": "2026-06-12",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Exotic Monstera Obliqua Peru Rare Rooted Indoor House Plant",
+      "url": "https://www.ebay.co.uk/itm/278017951460",
+      "soldPrice": 10,
+      "totalPrice": 13.99,
+      "soldDate": "2026-05-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "MONSTERA OBLIQUA RARE PLANT - MINATURE HOUSEPLANT TERRANIUM Tropical climbing",
+      "url": "https://www.ebay.co.uk/itm/227226621345",
+      "soldPrice": 8.54,
+      "totalPrice": 11.919999999999998,
+      "soldDate": "2026-06-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera obliqua Monkey Mask in 5cm Pot - Mini Air Purifying Potted Indoor Plant",
+      "url": "https://www.ebay.co.uk/itm/326440439297",
+      "soldPrice": 8.99,
+      "totalPrice": 8.99,
+      "soldDate": "2026-05-30",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Stunning 1 x Monstera obliqua Monkey Leaf Indoor Houseplant 20-30cm with Pot",
+      "url": "https://www.ebay.co.uk/itm/274325435579",
+      "soldPrice": 17.99,
+      "totalPrice": 17.99,
+      "soldDate": "2026-06-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Obliqua Peru | Ultra Rare - Fenestrated Collector Plant",
+      "url": "https://www.ebay.co.uk/itm/196457816234",
+      "soldPrice": 25,
+      "totalPrice": 29.990000000000002,
+      "soldDate": "2026-03-30",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Obliqua in 10.5cm Pot - Monkey Mask Indoor House Plant - Air Purifying",
+      "url": "https://www.ebay.co.uk/itm/326582117030",
+      "soldPrice": 15.49,
+      "totalPrice": 15.49,
+      "soldDate": "2026-05-31",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Obliqua Peru – Runner Node Cuttings",
+      "url": "https://www.ebay.co.uk/itm/356611535227",
+      "soldPrice": 6.43,
+      "totalPrice": 9.129999999999999,
+      "soldDate": "2026-05-01",
+      "listingType": "node",
+      "currency": "GBP"
+    },
+    {
+      "title": "1 x Unique Monstera obliqua Monkey Leaf Potted Air Purifying 20-30cm Houseplant",
+      "url": "https://www.ebay.co.uk/itm/274379806080",
+      "soldPrice": 17.99,
+      "totalPrice": 17.99,
+      "soldDate": "2026-04-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Monkey Leaf (Monstera obliqua)",
+      "url": "https://www.ebay.co.uk/itm/227317957387",
+      "soldPrice": 31.58,
+      "totalPrice": 34.96,
+      "soldDate": "2026-05-03",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 38,
+  "rejectedCount": 202,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "variegated monstera adansonii european obliqua mint. rare indoor house plant",
+      "monstera deliciosa albo, half-moon variegated, 1-leaf cutting, rooting, a3",
+      "rare monstera adansonii albo archipelago variegate houseplant tropical plant"
+    ]
+  }
+}

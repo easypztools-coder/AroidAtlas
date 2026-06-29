@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Epipremnum giganteum is a massive, climbing liana native to the monsoon and tropical wet forests of Indochina and Malaysia. In its natural habitat, it climbs tall trees using strong aerial roots, producing massive, undivided, paddle-shaped leaves that can reach over a meter long. The leaves are thick, leathery, and dark green with a leathery texture. It is a highly robust grower that requires a very sturdy support or tree trunk to reach its potential, making a magnificent statement piece.",
   "quickFacts": {
     "growthHabit": "Root-climbing climber",
@@ -34,7 +34,7 @@
     "growthHabit": "Thick vining stem, root climber"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 65,
+    "currentMedianPriceGBP": 16,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

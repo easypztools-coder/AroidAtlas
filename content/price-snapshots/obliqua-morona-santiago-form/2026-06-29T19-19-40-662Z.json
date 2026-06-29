@@ -1,0 +1,57 @@
+{
+  "snapshot": {
+    "plantSlug": "obliqua-morona-santiago-form",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera obliqua Morona-Santiago",
+    "checkedAt": "2026-06-29T19:19:40.662Z",
+    "rawResultCount": 57,
+    "acceptedCount": 1,
+    "rejectedCount": 56,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 11.919999999999998,
+    "p25Price": 11.919999999999998,
+    "medianPrice": 11.919999999999998,
+    "meanPrice": 11.919999999999998,
+    "trimmedMeanPrice": 11.919999999999998,
+    "p75Price": 11.919999999999998,
+    "maxPrice": 11.919999999999998,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 1,
+    "min": 11.919999999999998,
+    "max": 11.919999999999998,
+    "median": 11.919999999999998,
+    "mean": 11.919999999999998,
+    "p25": 11.919999999999998,
+    "p75": 11.919999999999998,
+    "iqr": 0,
+    "trimmedMean": 11.919999999999998,
+    "confidenceScore": "D",
+    "rejectedCount": 56,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "MONSTERA OBLIQUA RARE PLANT - MINATURE HOUSEPLANT TERRANIUM Tropical climbing",
+      "url": "https://www.ebay.co.uk/itm/227226621345",
+      "soldPrice": 8.54,
+      "totalPrice": 11.919999999999998,
+      "soldDate": "2026-06-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 1,
+  "rejectedCount": 56,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "monstera obliqua 'muyuna' aurea highly variegated, 2x 1-leaf cuttings, rootinga1",
+      "monstera obliqua peru 🌿rare🌿 aroid tropical house plant",
+      "monstera obliqua ‘peru’"
+    ]
+  }
+}

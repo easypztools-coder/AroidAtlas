@@ -1,0 +1,184 @@
+{
+  "snapshot": {
+    "plantSlug": "dubia",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera dubia",
+    "checkedAt": "2026-06-29T19:17:54.449Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 15,
+    "rejectedCount": 225,
+    "outlierCount": 1,
+    "confidenceScore": "C",
+    "minPrice": 5.609999999999999,
+    "p25Price": 9.775,
+    "medianPrice": 13.520000000000001,
+    "meanPrice": 16.337333333333333,
+    "trimmedMeanPrice": 13.788333333333334,
+    "p75Price": 19.85,
+    "maxPrice": 42.99,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 15,
+    "min": 5.609999999999999,
+    "max": 42.99,
+    "median": 13.520000000000001,
+    "mean": 16.337333333333333,
+    "p25": 9.775,
+    "p75": 19.85,
+    "iqr": 10.075000000000001,
+    "trimmedMean": 13.788333333333334,
+    "confidenceScore": "C",
+    "rejectedCount": 225,
+    "rejectionReasons": {},
+    "outlierCount": 1
+  },
+  "acceptedListings": [
+    {
+      "title": "Monstera Dubia Rare Indoor Houseplant  Rooted Propogation",
+      "url": "https://www.ebay.co.uk/itm/267704164721",
+      "soldPrice": 2.23,
+      "totalPrice": 5.609999999999999,
+      "soldDate": "2026-06-26",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Dubia 2-Leaf Fresh Cutting Aroid Houseplant",
+      "url": "https://www.ebay.co.uk/itm/236810284285",
+      "soldPrice": 6.52,
+      "totalPrice": 9.24,
+      "soldDate": "2026-06-17",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera dubia (juveniel) on Pole",
+      "url": "https://www.ebay.co.uk/itm/196260401800",
+      "soldPrice": 38,
+      "totalPrice": 42.99,
+      "soldDate": "2026-02-21",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "1 x single leaf Monstera Dubia -mid cut fully rooted",
+      "url": "https://www.ebay.co.uk/itm/298057153310",
+      "soldPrice": 5.45,
+      "totalPrice": 8.39,
+      "soldDate": "2026-06-11",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Dubia Mid-Cutting with Rooting in Moss",
+      "url": "https://www.ebay.co.uk/itm/267676419562",
+      "soldPrice": 9.72,
+      "totalPrice": 13.100000000000001,
+      "soldDate": "2026-06-05",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Dubia",
+      "url": "https://www.ebay.co.uk/itm/318172934818",
+      "soldPrice": 15.61,
+      "totalPrice": 18.99,
+      "soldDate": "2026-05-29",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Dubia 4 Leaf Fresh Cutting Aroid Houseplant",
+      "url": "https://www.ebay.co.uk/itm/236811072189",
+      "soldPrice": 10.8,
+      "totalPrice": 13.520000000000001,
+      "soldDate": "2026-05-22",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Dubia - Rehab Tropical Plant Indoor Plant 1 X",
+      "url": "https://www.ebay.co.uk/itm/317863276486",
+      "soldPrice": 19.36,
+      "totalPrice": 22.74,
+      "soldDate": "2026-05-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Dubia Rooted Cutting Rare Shingling Climbing Aroid Plant",
+      "url": "https://www.ebay.co.uk/itm/198103970290",
+      "soldPrice": 8.39,
+      "totalPrice": 16.14,
+      "soldDate": "2026-05-10",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Dubia- 14cm Diameter Rare Plant",
+      "url": "https://www.ebay.co.uk/itm/287294945627",
+      "soldPrice": 28,
+      "totalPrice": 31,
+      "soldDate": "2026-05-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Dubia Cutting Houseplant",
+      "url": "https://www.ebay.co.uk/itm/236778103446",
+      "soldPrice": 4.63,
+      "totalPrice": 7.35,
+      "soldDate": "2026-04-26",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Dubia Cutting Rare Shingling Climbing Aroid Plant",
+      "url": "https://www.ebay.co.uk/itm/198101115850",
+      "soldPrice": 6.25,
+      "totalPrice": 14,
+      "soldDate": "2026-04-23",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "RARE Monstera dubia rooted plant",
+      "url": "https://www.ebay.co.uk/itm/267620765546",
+      "soldPrice": 17.75,
+      "totalPrice": 20.71,
+      "soldDate": "2026-04-14",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera DUBIA mid-cut rooted 1-LEAF, active growth point",
+      "url": "https://www.ebay.co.uk/itm/389855153669",
+      "soldPrice": 7.59,
+      "totalPrice": 10.969999999999999,
+      "soldDate": "2026-04-11",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Dubia Rooted Tiny Leaves  Over 60 Cm Long",
+      "url": "https://www.ebay.co.uk/itm/236705205375",
+      "soldPrice": 7.59,
+      "totalPrice": 10.31,
+      "soldDate": "2026-04-03",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 15,
+  "rejectedCount": 225,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "monstera albo fresh snip. climbing plant.",
+      "monstera lechleriana albo - 2x rooted cuttings",
+      "monstera obliqua peru live potted indoor houseplant green"
+    ]
+  }
+}

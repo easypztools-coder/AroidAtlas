@@ -1,0 +1,103 @@
+{
+  "snapshot": {
+    "plantSlug": "papillilaminum-variegata",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium papillilaminum Variegata",
+    "checkedAt": "2026-06-29T19:12:22.886Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 6,
+    "rejectedCount": 234,
+    "outlierCount": 1,
+    "confidenceScore": "D",
+    "minPrice": 25.05,
+    "p25Price": 26.3425,
+    "medianPrice": 48.09,
+    "meanPrice": 79.80166666666666,
+    "trimmedMeanPrice": 79.80166666666666,
+    "p75Price": 97.1375,
+    "maxPrice": 225,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 6,
+    "min": 25.05,
+    "max": 225,
+    "median": 48.09,
+    "mean": 79.80166666666666,
+    "p25": 26.3425,
+    "p75": 97.1375,
+    "iqr": 70.795,
+    "trimmedMean": 79.80166666666666,
+    "confidenceScore": "D",
+    "rejectedCount": 234,
+    "rejectionReasons": {},
+    "outlierCount": 1
+  },
+  "acceptedListings": [
+    {
+      "title": "Anthurium Papillilaminum variegated  x dressleri rg  x michelle",
+      "url": "https://www.ebay.co.uk/itm/358696215698",
+      "soldPrice": 102.88,
+      "totalPrice": 107.53,
+      "soldDate": "2026-06-21",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum var X RVDP | RARE variegated Anthurium | 7 cm pot",
+      "url": "https://www.ebay.co.uk/itm/157960821226",
+      "soldPrice": 225,
+      "totalPrice": 225,
+      "soldDate": "2026-06-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Papillilaminum Variegated X Carlablackiae AU1 Clone/cutting",
+      "url": "https://www.ebay.co.uk/itm/287242669747",
+      "soldPrice": 62.58,
+      "totalPrice": 65.96,
+      "soldDate": "2026-04-05",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum Voldemort x self -2",
+      "url": "https://www.ebay.co.uk/itm/358606027228",
+      "soldPrice": 21.25,
+      "totalPrice": 25.05,
+      "soldDate": "2026-05-28",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum Voldemort x self -1",
+      "url": "https://www.ebay.co.uk/itm/358606034355",
+      "soldPrice": 26.42,
+      "totalPrice": 30.220000000000002,
+      "soldDate": "2026-06-09",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium papillilaminum Voldemort x self -3",
+      "url": "https://www.ebay.co.uk/itm/358606031769",
+      "soldPrice": 21.25,
+      "totalPrice": 25.05,
+      "soldDate": "2026-05-27",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 6,
+  "rejectedCount": 234,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "anthurium 'black widow' x papillilaminum - rare - aroid - houseplant - p03129",
+      "anthurium papillilaminum (variegated) x michelle d-3",
+      "anthurium papillilaminum ra6 x self - cutting"
+    ]
+  }
+}

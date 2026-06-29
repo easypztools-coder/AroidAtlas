@@ -1,0 +1,67 @@
+{
+  "snapshot": {
+    "plantSlug": "pedatoradiatum",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium pedatoradiatum",
+    "checkedAt": "2026-06-29T19:12:37.584Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 2,
+    "rejectedCount": 238,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 29.79,
+    "p25Price": 36.995,
+    "medianPrice": 44.2,
+    "meanPrice": 44.2,
+    "trimmedMeanPrice": 44.2,
+    "p75Price": 51.405,
+    "maxPrice": 58.61,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 2,
+    "min": 29.79,
+    "max": 58.61,
+    "median": 44.2,
+    "mean": 44.2,
+    "p25": 36.995,
+    "p75": 51.405,
+    "iqr": 14.410000000000004,
+    "trimmedMean": 44.2,
+    "confidenceScore": "D",
+    "rejectedCount": 238,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Anthurium Pedatoradiatum",
+      "url": "https://www.ebay.co.uk/itm/366332931439",
+      "soldPrice": 26.41,
+      "totalPrice": 29.79,
+      "soldDate": "2026-04-07",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pedatoradiatum (Finger Anthurium) 🦄🌿Super RARE🌿 aroid House Plant",
+      "url": "https://www.ebay.co.uk/itm/406812362344",
+      "soldPrice": 53.46,
+      "totalPrice": 58.61,
+      "soldDate": "2026-04-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 2,
+  "rejectedCount": 238,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "anthurium king of spades (kos/hu) | rare anthurium houseplant | 7 cm pot",
+      "anthurium fsrl x hulk naomi",
+      "tc anthurium delta force in cataphyll"
+    ]
+  }
+}

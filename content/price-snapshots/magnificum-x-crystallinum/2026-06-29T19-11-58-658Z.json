@@ -1,0 +1,58 @@
+{
+  "snapshot": {
+    "plantSlug": "magnificum-x-crystallinum",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium magnificum crystallinum hybrid",
+    "checkedAt": "2026-06-29T19:11:58.658Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 1,
+    "rejectedCount": 239,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 11.36,
+    "p25Price": 11.36,
+    "medianPrice": 11.36,
+    "meanPrice": 11.36,
+    "trimmedMeanPrice": 11.36,
+    "p75Price": 11.36,
+    "maxPrice": 11.36,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 1,
+    "min": 11.36,
+    "max": 11.36,
+    "median": 11.36,
+    "mean": 11.36,
+    "p25": 11.36,
+    "p75": 11.36,
+    "iqr": 0,
+    "trimmedMean": 11.36,
+    "confidenceScore": "D",
+    "rejectedCount": 239,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Anthurium Magnificum X Crystallinum Plant",
+      "url": "https://www.ebay.co.uk/itm/358609539493",
+      "soldPrice": 8.42,
+      "totalPrice": 11.36,
+      "soldDate": "2026-06-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 1,
+  "rejectedCount": 239,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "anthurium (crystallinum x magnificum) x crystallinum clone. hybrid.",
+      "anthurium crystallinum x magnificum (0313)",
+      "anthurium crystallinum x zara x michelle"
+    ]
+  }
+}

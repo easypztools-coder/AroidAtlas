@@ -1,0 +1,58 @@
+{
+  "snapshot": {
+    "plantSlug": "venosa",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia venosa Brazil",
+    "checkedAt": "2026-06-29T19:16:22.807Z",
+    "currency": "GBP",
+    "rawResultCount": 5,
+    "acceptedCount": 1,
+    "rejectedCount": 4,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 16.43,
+    "p25Price": 16.43,
+    "medianPrice": 16.43,
+    "meanPrice": 16.43,
+    "trimmedMeanPrice": 16.43,
+    "p75Price": 16.43,
+    "maxPrice": 16.43,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 1,
+    "min": 16.43,
+    "max": 16.43,
+    "median": 16.43,
+    "mean": 16.43,
+    "p25": 16.43,
+    "p75": 16.43,
+    "iqr": 0,
+    "trimmedMean": 16.43,
+    "confidenceScore": "D",
+    "rejectedCount": 4,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Begonia venosa - Succulent",
+      "url": "https://www.ebay.co.uk/itm/117107908389",
+      "soldPrice": 16.43,
+      "totalPrice": 16.43,
+      "soldDate": "2026-04-05",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 1,
+  "rejectedCount": 4,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "begonia lubbersii very rare terrarium collector house plant from brazil",
+      "begonia lubbersii very rare terrarium collector house plant from brazil",
+      "begonia lubbersii very rare terrarium collector house plant from brazil"
+    ]
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "snapshot": {
+    "plantSlug": "magnificum",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium magnificum",
+    "checkedAt": "2026-06-29T19:12:06.843Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 12,
+    "rejectedCount": 228,
+    "outlierCount": 2,
+    "confidenceScore": "D",
+    "minPrice": 6.64,
+    "p25Price": 10.4325,
+    "medianPrice": 17.104999999999997,
+    "meanPrice": 23.024166666666662,
+    "trimmedMeanPrice": 13.635,
+    "p75Price": 18.7525,
+    "maxPrice": 107.33,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 12,
+    "min": 6.64,
+    "max": 107.33,
+    "median": 17.104999999999997,
+    "mean": 23.024166666666662,
+    "p25": 10.4325,
+    "p75": 18.7525,
+    "iqr": 8.320000000000002,
+    "trimmedMean": 13.635,
+    "confidenceScore": "D",
+    "rejectedCount": 228,
+    "rejectionReasons": {},
+    "outlierCount": 2
+  },
+  "acceptedListings": [
+    {
+      "title": "Anthurium Magnificum Verde 9cm Pot Rare Houseplant At Cataphyll",
+      "url": "https://www.ebay.co.uk/itm/127936052947",
+      "soldPrice": 16.79,
+      "totalPrice": 20.169999999999998,
+      "soldDate": "2026-06-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Magnificum 8cm Pot Rare Velvet Leaf Indoor House Plant",
+      "url": "https://www.ebay.co.uk/itm/206230149179",
+      "soldPrice": 9.71,
+      "totalPrice": 12.65,
+      "soldDate": "2026-05-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium magnificum x bullatus x dressleri rg",
+      "url": "https://www.ebay.co.uk/itm/358435202678",
+      "soldPrice": 102.88,
+      "totalPrice": 107.33,
+      "soldDate": "2026-06-20",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Magnificum Baby Houseplant Unbranded Easy Care Well Rooted",
+      "url": "https://www.ebay.co.uk/itm/137379259214",
+      "soldPrice": 6.64,
+      "totalPrice": 6.64,
+      "soldDate": "2026-06-17",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Magnificum",
+      "url": "https://www.ebay.co.uk/itm/406997495007",
+      "soldPrice": 14.9,
+      "totalPrice": 18.28,
+      "soldDate": "2026-06-14",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Magnificum",
+      "url": "https://www.ebay.co.uk/itm/406992767027",
+      "soldPrice": 14.9,
+      "totalPrice": 18.28,
+      "soldDate": "2026-06-12",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Magnificum X Crystallinum Plant",
+      "url": "https://www.ebay.co.uk/itm/358609539493",
+      "soldPrice": 8.42,
+      "totalPrice": 11.36,
+      "soldDate": "2026-06-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Large Anthurium Magnificum Whole Plant House Plant",
+      "url": "https://www.ebay.co.uk/itm/227339303915",
+      "soldPrice": 26.42,
+      "totalPrice": 33.07,
+      "soldDate": "2026-05-27",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium magnificum x AOS fresh cut chonk -A",
+      "url": "https://www.ebay.co.uk/itm/358537435255",
+      "soldPrice": 12.78,
+      "totalPrice": 17.63,
+      "soldDate": "2026-05-18",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium magnificum x AOS fresh cut chonk -B",
+      "url": "https://www.ebay.co.uk/itm/358537437214",
+      "soldPrice": 12.78,
+      "totalPrice": 16.58,
+      "soldDate": "2026-05-10",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Magnificum X Michelle Rare Hybrid Aroid Rooted Prop Leaves",
+      "url": "https://www.ebay.co.uk/itm/277858922573",
+      "soldPrice": 3.2,
+      "totalPrice": 7.65,
+      "soldDate": "2026-04-05",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Magnificum X Michelle Rare Hybrid Aroid Rooted Mid Prop Leaves",
+      "url": "https://www.ebay.co.uk/itm/277858914090",
+      "soldPrice": 2.2,
+      "totalPrice": 6.65,
+      "soldDate": "2026-04-05",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 12,
+  "rejectedCount": 228,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "rare - anthurium hybrid magnificum x luxurians, xxl 3-leaf top cutting, rooting",
+      "anthurium gigi x magnificum large flowering size",
+      "anthurium forgetii x magnificum x x papillilaminum guna yala"
+    ],
+    "Contains excluded term": [
+      "anthurium magnificum var x (skg silver x michelle) | variegated anthurium | 7 cm",
+      "anthurium magnificum x luxurians (seedling) - aroid - houseplant - p0326",
+      "anthurium magnificum x luxurians (seedling) - aroid - houseplant - p0325"
+    ]
+  }
+}

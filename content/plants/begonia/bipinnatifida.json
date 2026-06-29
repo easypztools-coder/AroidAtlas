@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Very Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Begonia bipinnatifida, described by J.J.Smith, is a rare rhizomatous species from the humid montane and lowland tropical forests of New Guinea, growing in warm, shaded, moist conditions on organic substrate. Its distinction lies entirely in its foliage: the leaves are deeply bipinnatifid — divided and then further divided again into narrow, toothed lobes — producing a feathery, highly dissected silhouette that is almost fern-like and entirely unlike the typical Begonia leaf form. Borne on red petioles from a creeping rhizome with reddish undersides accentuating the delicate lobes, bipinnatifida is one of the more structurally unusual Begonias in collector cultivation. It appeals strongly to those whose interest in the genus extends beyond the typical cane and rex forms into genuine botanical oddity.",
   "quickFacts": {
     "growthHabit": "Rhizomatous, creeping",
@@ -34,7 +34,7 @@
     "growthHabit": "Creeping rhizome producing upright, highly divided foliage"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 120,
+    "currentMedianPriceGBP": 15,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

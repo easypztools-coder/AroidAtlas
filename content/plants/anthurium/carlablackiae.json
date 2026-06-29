@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Ultra Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "££",
   "aboutText": "Anthurium carlablackiae, described by Croat and O.Ortiz, is a compact and fiercely coveted species from the tropical forests spanning Panama to Colombia. It grows as a terrestrial or low epiphyte in rich organic debris and deep leaf litter on shaded forest floors, developing short, tightly spaced internodes and a self-heading crown of extraordinary leaves. The broad, cordate to ovate-cordate blades are deep velvety dark green to a startling near-black, with crisp, contrasting white venation and burgundy-toned petioles that deepen with maturity. A pale spathe flushed with pink completes the picture. Among the velvet anthuriums, carlablackiae is spoken of in hushed tones — exceptionally difficult to locate and one of the most desirable species in serious aroid collections.",
   "quickFacts": {
     "growthHabit": "Compact terrestrial to low epiphyte, self-heading",
@@ -34,7 +34,7 @@
     "growthHabit": "Dense basal crown, short internodes, self-supporting"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 380,
+    "currentMedianPriceGBP": 59,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

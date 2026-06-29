@@ -1,0 +1,58 @@
+{
+  "snapshot": {
+    "plantSlug": "scindapsus-lucens",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Scindapsus lucens",
+    "checkedAt": "2026-06-29T19:25:21.968Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 1,
+    "rejectedCount": 239,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 21.99,
+    "p25Price": 21.99,
+    "medianPrice": 21.99,
+    "meanPrice": 21.99,
+    "trimmedMeanPrice": 21.99,
+    "p75Price": 21.99,
+    "maxPrice": 21.99,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 1,
+    "min": 21.99,
+    "max": 21.99,
+    "median": 21.99,
+    "mean": 21.99,
+    "p25": 21.99,
+    "p75": 21.99,
+    "iqr": 0,
+    "trimmedMean": 21.99,
+    "confidenceScore": "D",
+    "rejectedCount": 239,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Scindapsus lucens - Aroid - Houseplant/Terrarium Plant - P0437",
+      "url": "https://www.ebay.co.uk/itm/227315567583",
+      "soldPrice": 21.99,
+      "totalPrice": 21.99,
+      "soldDate": "2026-05-09",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 1,
+  "rejectedCount": 239,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "new! rare scindapsus sp. blue aurea highly variegated 1-leaf cutting rooting a2",
+      "rare! scindapsus pictus albo 'mayari', selection of highly variegated cuttings",
+      "new! rare scindapsus sp. blue aurea highly variegated 1-leaf cutting rooting a1"
+    ]
+  }
+}

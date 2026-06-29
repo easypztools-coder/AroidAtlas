@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Very Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Anthurium papillilaminum is a rare and highly desirable collector species native to the humid tropical forests of Panama, where it grows terrestrially or epiphytically in shaded understory conditions. Its elongated, cordate to triangular-cordate leaves are among the darkest in the genus — deep green to near-black — with a dense, velvety surface and subtle venation that creates a refined, almost monochromatic beauty. The leaves taper to a narrow, elegant apex and arise from a compact basal crown with short internodes. It is considered a gem of the black velvet Anthurium category.",
   "quickFacts": {
     "growthHabit": "Compact terrestrial to epiphytic",
@@ -34,7 +34,7 @@
     "growthHabit": "Compact upright basal crown"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 57,
+    "currentMedianPriceGBP": 25,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

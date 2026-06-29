@@ -11,7 +11,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "££",
   "aboutText": "Philodendron gloriosum 'Tricolor' is an exceptionally beautiful terrestrial aroid native to Colombia. Growing on a crawling surface rhizome, it produces massive heart-shaped velvet leaves with prominent white venation. The 'Tricolor' mutation features gorgeous green, yellow-cream, and soft pink marbled variegation. It thrives in highly organic, well-draining soil and shaded bright indirect light.",
   "quickFacts": {
     "growthHabit": "Terrestrial creeper",
@@ -33,7 +33,7 @@
     "growthHabit": "Terrestrial growth via thick surface rhizome"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 150,
+    "currentMedianPriceGBP": 89,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Begonia soli-mutata, described by L.B.Smith and Schubert, is a rare rhizomatous species native to the humid forests of southeastern Brazil — growing on the forest floor in warm, shaded, consistently moist conditions, creeping through leaf litter and humus-rich soil in the sheltered understory. The name 'soli-mutata' (sun-changed) refers to a remarkable property: the leaf colouration shifts in response to light intensity, with the dark emerald to olive-green surface tones altering perceptibly as conditions change — a response that makes the plant appear slightly different at different times of day. The texture reinforces the drama: leaves are strongly bullate and quilted, asymmetrical and rounded to ovate, with deep blistered zones and contrasting lime-green venation and banding, while the undersides are rich red to burgundy. A creeping rhizome spreads along the forest floor rooting at nodes, creating low colonies of exceptional foliage.",
   "quickFacts": {
     "growthHabit": "Rhizomatous, creeping colony",
@@ -34,7 +34,7 @@
     "growthHabit": "Creeping rhizome spreading along forest floor, rooting at nodes"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 90,
+    "currentMedianPriceGBP": 14,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

@@ -1,0 +1,175 @@
+{
+  "snapshot": {
+    "plantSlug": "begonia-amphioxus",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia amphioxus",
+    "checkedAt": "2026-06-29T19:23:10.257Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 14,
+    "rejectedCount": 226,
+    "outlierCount": 1,
+    "confidenceScore": "D",
+    "minPrice": 8.84,
+    "p25Price": 15.2975,
+    "medianPrice": 16.990000000000002,
+    "meanPrice": 18.83571428571429,
+    "trimmedMeanPrice": 16.85909090909091,
+    "p75Price": 20.7725,
+    "maxPrice": 45.300000000000004,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 14,
+    "min": 8.84,
+    "max": 45.300000000000004,
+    "median": 16.990000000000002,
+    "mean": 18.83571428571429,
+    "p25": 15.2975,
+    "p75": 20.7725,
+    "iqr": 5.475000000000001,
+    "trimmedMean": 16.85909090909091,
+    "confidenceScore": "D",
+    "rejectedCount": 226,
+    "rejectionReasons": {},
+    "outlierCount": 1
+  },
+  "acceptedListings": [
+    {
+      "title": "Begonia amphioxus plant, red polka dot begonia, 7cm pot",
+      "url": "https://www.ebay.co.uk/itm/177040439778",
+      "soldPrice": 6.43,
+      "totalPrice": 11.58,
+      "soldDate": "2026-01-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia amphioxus – Polka Dot Begonia",
+      "url": "https://www.ebay.co.uk/itm/398106664221",
+      "soldPrice": 13.31,
+      "totalPrice": 16.69,
+      "soldDate": "2026-06-26",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare Begonia Amphioxus Spotted Houseplant – Exotic Collector Plant 13/14cm Tall",
+      "url": "https://www.ebay.co.uk/itm/287413667913",
+      "soldPrice": 13.83,
+      "totalPrice": 16.77,
+      "soldDate": "2026-06-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia amphioxus – Established Rare Spotted Species Begonia",
+      "url": "https://www.ebay.co.uk/itm/267699886692",
+      "soldPrice": 18.76,
+      "totalPrice": 21.700000000000003,
+      "soldDate": "2026-06-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Amphioxus High Humidity/Houseplant/ Terrarium Plant Red Spots",
+      "url": "https://www.ebay.co.uk/itm/307006166876",
+      "soldPrice": 8.54,
+      "totalPrice": 12.04,
+      "soldDate": "2026-06-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia amphioxus |10.5cm pot|  (NOT HOYA, MONSTERA, ANTHURIUM, PHILODENDRON)",
+      "url": "https://www.ebay.co.uk/itm/257567383788",
+      "soldPrice": 13.83,
+      "totalPrice": 17.21,
+      "soldDate": "2026-06-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "RARE Begonia Amphioxus x Darthvaderiana Rooted Base Hybrid Plant",
+      "url": "https://www.ebay.co.uk/itm/117217394446",
+      "soldPrice": 41.92,
+      "totalPrice": 45.300000000000004,
+      "soldDate": "2026-06-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "❤️💚 Begonia Amphioxus X Malachostita Top Cutting Rare Plant 💚❤️",
+      "url": "https://www.ebay.co.uk/itm/377214997336",
+      "soldPrice": 13.96,
+      "totalPrice": 17.34,
+      "soldDate": "2026-06-03",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia amphioxus – Established Rare Spotted Species Begonia",
+      "url": "https://www.ebay.co.uk/itm/267687566775",
+      "soldPrice": 17.78,
+      "totalPrice": 20.720000000000002,
+      "soldDate": "2026-06-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia amphioxus Live Plant Rare Tropical Terrarium Vivarium Red Dot Begonia",
+      "url": "https://www.ebay.co.uk/itm/147312724156",
+      "soldPrice": 16.49,
+      "totalPrice": 20.79,
+      "soldDate": "2026-05-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Amphioxus Angel Wing Rare Indoor House Plant - 6cm Pot",
+      "url": "https://www.ebay.co.uk/itm/800055210582",
+      "soldPrice": 5.9,
+      "totalPrice": 8.84,
+      "soldDate": "2026-05-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Amphioxus Plant Cutting Red Polka Dot, Unrooted",
+      "url": "https://www.ebay.co.uk/itm/318182957946",
+      "soldPrice": 10.67,
+      "totalPrice": 15.32,
+      "soldDate": "2026-05-02",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia amphioxus",
+      "url": "https://www.ebay.co.uk/itm/127666203669",
+      "soldPrice": 19.12,
+      "totalPrice": 24.11,
+      "soldDate": "2026-04-22",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Amphioxus Indoor House Plant  In 7cm Pot",
+      "url": "https://www.ebay.co.uk/itm/137218437697",
+      "soldPrice": 12.35,
+      "totalPrice": 15.29,
+      "soldDate": "2026-04-14",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 14,
+  "rejectedCount": 226,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "💚🩷 begonia negrosensis x amphioxus stunning rare house plant 🩷💚",
+      "🩷💚 begonia negrosensis x amphioxus stunning rare house plant 💚🩷",
+      "🩷💚 begonia negrosensis x amphioxus beautiful rare house plant 🩷💚"
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "snapshot": {
+    "plantSlug": "rhaphidophora-megasperma",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Rhaphidophora megasperma",
+    "checkedAt": "2026-06-29T19:25:09.445Z",
+    "currency": "GBP",
+    "rawResultCount": 150,
+    "acceptedCount": 1,
+    "rejectedCount": 149,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 24.63,
+    "p25Price": 24.63,
+    "medianPrice": 24.63,
+    "meanPrice": 24.63,
+    "trimmedMeanPrice": 24.63,
+    "p75Price": 24.63,
+    "maxPrice": 24.63,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 1,
+    "min": 24.63,
+    "max": 24.63,
+    "median": 24.63,
+    "mean": 24.63,
+    "p25": 24.63,
+    "p75": 24.63,
+    "iqr": 0,
+    "trimmedMean": 24.63,
+    "confidenceScore": "D",
+    "rejectedCount": 149,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Rhaphidophora Megasperma Variegated",
+      "url": "https://www.ebay.co.uk/itm/227324964338",
+      "soldPrice": 21.25,
+      "totalPrice": 24.63,
+      "soldDate": "2026-05-17",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 1,
+  "rejectedCount": 149,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "rhaphidophora tetrasperma high variegated albo plant",
+      "rhaphidophora tetrasperma white monster variegated plant",
+      "rhaphidophora tetrasperma white monster variegated plant monstera philodendron"
+    ]
+  }
+}

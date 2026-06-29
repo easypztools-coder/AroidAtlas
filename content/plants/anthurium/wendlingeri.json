@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "££",
   "aboutText": "Anthurium wendlingeri is a famous and visually stunning epiphytic subshrub native to the wet tropical forests of Central and South America, ranging from Southeast Nicaragua to Northwest Colombia. It grows with a compact crown, producing long, strap-like leaves that hang vertically. The leaves are thick, leathery, dark green, and glossy, lacking a broad heart-shaped blade. Its defining feature is the extraordinary, elongated, spiraled spadix that hangs down below the foliage in a tight spiral like a corkscrew.",
   "quickFacts": {
     "growthHabit": "Epiphytic, pendant",
@@ -34,7 +34,7 @@
     "growthHabit": "Pendant epiphytic rosette"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 75,
+    "currentMedianPriceGBP": 52,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

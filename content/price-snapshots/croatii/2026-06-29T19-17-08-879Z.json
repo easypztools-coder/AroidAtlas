@@ -1,0 +1,193 @@
+{
+  "snapshot": {
+    "plantSlug": "croatii",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera croatii",
+    "checkedAt": "2026-06-29T19:17:08.879Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 16,
+    "rejectedCount": 224,
+    "outlierCount": 0,
+    "confidenceScore": "C",
+    "minPrice": 12.5,
+    "p25Price": 28.862499999999997,
+    "medianPrice": 33.485,
+    "meanPrice": 33.46875,
+    "trimmedMeanPrice": 33.857142857142854,
+    "p75Price": 41.510000000000005,
+    "maxPrice": 49,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 16,
+    "min": 12.5,
+    "max": 49,
+    "median": 33.485,
+    "mean": 33.46875,
+    "p25": 28.862499999999997,
+    "p75": 41.510000000000005,
+    "iqr": 12.647500000000008,
+    "trimmedMean": 33.857142857142854,
+    "confidenceScore": "C",
+    "rejectedCount": 224,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "🐱ULTRARARE Monstera CROATII one leaf cutting shooting (not philodendron",
+      "url": "https://www.ebay.co.uk/itm/336650460513",
+      "soldPrice": 26.03,
+      "totalPrice": 31.18,
+      "soldDate": "2026-06-28",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "COLLECTORS ITEM! Monstera Croatii - MATURING 1-LEAF TOP Cutting, Rooted, A1",
+      "url": "https://www.ebay.co.uk/itm/178241485134",
+      "soldPrice": 22.57,
+      "totalPrice": 22.57,
+      "soldDate": "2026-06-28",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "NEW! VERY RARE! Monstera Croatii - Juvenile 1-LEAF Cutting w/Growth, Rooting, A1",
+      "url": "https://www.ebay.co.uk/itm/178228263980",
+      "soldPrice": 19.99,
+      "totalPrice": 19.99,
+      "soldDate": "2026-06-27",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱ULTRARARE Monstera CROATII one leaf cutting shooting (not philodendron",
+      "url": "https://www.ebay.co.uk/itm/336639320493",
+      "soldPrice": 35.7,
+      "totalPrice": 40.85,
+      "soldDate": "2026-06-21",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "NEW! VERY RARE! Monstera Croatii - MATURE 2/3-LEAF TOP Cutting, Rooted in water",
+      "url": "https://www.ebay.co.uk/itm/178219262609",
+      "soldPrice": 49,
+      "totalPrice": 49,
+      "soldDate": "2026-06-21",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱ULTRARARE Monstera CROATII one leaf cutting shooting (not philodendron",
+      "url": "https://www.ebay.co.uk/itm/336626457022",
+      "soldPrice": 25.72,
+      "totalPrice": 30.869999999999997,
+      "soldDate": "2026-06-14",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱ULTRARARE Monstera CROATII TOP CUT rooted (not TC, not philodendron",
+      "url": "https://www.ebay.co.uk/itm/336626455051",
+      "soldPrice": 39.85,
+      "totalPrice": 45,
+      "soldDate": "2026-06-08",
+      "listingType": "tc_plantlet",
+      "currency": "GBP"
+    },
+    {
+      "title": "COLLECTORS ITEM! Monstera Croatii - MATURING 2-LEAF TOP Cutting, Rooting, A1",
+      "url": "https://www.ebay.co.uk/itm/178139562550",
+      "soldPrice": 31,
+      "totalPrice": 36.49,
+      "soldDate": "2026-05-23",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare💚 Monstera Croatii One Leaf  Two  Growths Rooting Cutting",
+      "url": "https://www.ebay.co.uk/itm/366406775499",
+      "soldPrice": 12.5,
+      "totalPrice": 12.5,
+      "soldDate": "2026-05-18",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "COLLECTORS ITEM! Monstera Croatii - MATURE 2-LEAF TOP Cutting, Rooting, A1",
+      "url": "https://www.ebay.co.uk/itm/178119357496",
+      "soldPrice": 32,
+      "totalPrice": 37.49,
+      "soldDate": "2026-05-16",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Croatii",
+      "url": "https://www.ebay.co.uk/itm/198338372871",
+      "soldPrice": 40.67,
+      "totalPrice": 43.63,
+      "soldDate": "2026-05-14",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "COLLECTORS ITEM! Monstera Croatii - MATURING 2-LEAF TOP Cutting, Rooting, A2",
+      "url": "https://www.ebay.co.uk/itm/178100846839",
+      "soldPrice": 29.99,
+      "totalPrice": 29.99,
+      "soldDate": "2026-05-10",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "NEW! VERY RARE! Monstera Croatii - Mature 1-LEAF Cutting, Rooting in water, A1",
+      "url": "https://www.ebay.co.uk/itm/178078311172",
+      "soldPrice": 19.99,
+      "totalPrice": 25.479999999999997,
+      "soldDate": "2026-05-03",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "COLLECTORS ITEM! Monstera Croatii - MATURING 2-LEAF TOP Cutting, Rooting, A3",
+      "url": "https://www.ebay.co.uk/itm/178078305725",
+      "soldPrice": 29.99,
+      "totalPrice": 35.48,
+      "soldDate": "2026-05-02",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "NEW! VERY RARE! Monstera Croatii - Mature 1-LEAF Cutting, Rooting in water",
+      "url": "https://www.ebay.co.uk/itm/178059284087",
+      "soldPrice": 26,
+      "totalPrice": 31.490000000000002,
+      "soldDate": "2026-04-26",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "COLLECTORS ITEM! Monstera Croatii - MATURING 2-LEAF TOP Cutting, Rooting, A2",
+      "url": "https://www.ebay.co.uk/itm/178059219053",
+      "soldPrice": 38,
+      "totalPrice": 43.49,
+      "soldDate": "2026-04-25",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 16,
+  "rejectedCount": 224,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "rare! monstera laniata lime marble, highly variegated, 1-leaf cutting w/growth",
+      "rare💛💚monstera deliciosa platinum compact double mint variegated cutting",
+      "rare💚monstera❌oblique yasuni❌one leaf rooting nicely new shoot cutting"
+    ]
+  }
+}

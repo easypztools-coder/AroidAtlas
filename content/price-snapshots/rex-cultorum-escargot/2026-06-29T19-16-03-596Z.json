@@ -1,0 +1,76 @@
+{
+  "snapshot": {
+    "plantSlug": "rex-cultorum-escargot",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia escargot rex",
+    "checkedAt": "2026-06-29T19:16:03.596Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 3,
+    "rejectedCount": 237,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 9.49,
+    "p25Price": 9.690000000000001,
+    "medianPrice": 9.89,
+    "meanPrice": 10.286666666666667,
+    "trimmedMeanPrice": 10.286666666666667,
+    "p75Price": 10.684999999999999,
+    "maxPrice": 11.479999999999999,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 3,
+    "min": 9.49,
+    "max": 11.479999999999999,
+    "median": 9.89,
+    "mean": 10.286666666666667,
+    "p25": 9.690000000000001,
+    "p75": 10.684999999999999,
+    "iqr": 0.9949999999999974,
+    "trimmedMean": 10.286666666666667,
+    "confidenceScore": "D",
+    "rejectedCount": 237,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Baby Begonia Rex Escargot Small Patterned Tropical Indoor Houseplant in 6cm Pot",
+      "url": "https://www.ebay.co.uk/itm/276280538661",
+      "soldPrice": 9.49,
+      "totalPrice": 9.49,
+      "soldDate": "2026-06-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Rex Escargot Plant",
+      "url": "https://www.ebay.co.uk/itm/327071599600",
+      "soldPrice": 8.54,
+      "totalPrice": 11.479999999999999,
+      "soldDate": "2026-06-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Escargot | Tropical Begonia | Plug Plant",
+      "url": "https://www.ebay.co.uk/itm/297651183599",
+      "soldPrice": 9.89,
+      "totalPrice": 9.89,
+      "soldDate": "2026-05-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 3,
+  "rejectedCount": 237,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "begonia rex unrooted single leaf cuttings! many varieties! easy to propagate!",
+      "cissus discolor (rex begonia vine) - 3 cuttings",
+      "rex begonia fireworks live potted indoor houseplant green purple silver"
+    ]
+  }
+}

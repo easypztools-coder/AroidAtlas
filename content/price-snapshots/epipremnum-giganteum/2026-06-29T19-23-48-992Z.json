@@ -1,0 +1,130 @@
+{
+  "snapshot": {
+    "plantSlug": "epipremnum-giganteum",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Epipremnum giganteum",
+    "checkedAt": "2026-06-29T19:23:48.992Z",
+    "currency": "GBP",
+    "rawResultCount": 220,
+    "acceptedCount": 9,
+    "rejectedCount": 211,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 9.99,
+    "p25Price": 14.5,
+    "medianPrice": 14.51,
+    "meanPrice": 16.445555555555554,
+    "trimmedMeanPrice": 16.445555555555554,
+    "p75Price": 19.99,
+    "maxPrice": 22.979999999999997,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 9,
+    "min": 9.99,
+    "max": 22.979999999999997,
+    "median": 14.51,
+    "mean": 16.445555555555554,
+    "p25": 14.5,
+    "p75": 19.99,
+    "iqr": 5.489999999999998,
+    "trimmedMean": 16.445555555555554,
+    "confidenceScore": "D",
+    "rejectedCount": 211,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Epipremnum Giganteum Marble Variegated #4",
+      "url": "https://www.ebay.co.uk/itm/206249074890",
+      "soldPrice": 19.99,
+      "totalPrice": 19.99,
+      "soldDate": "2026-06-26",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare🤍Epipremnum Giganteum albo mint New Leaves Rooting Top Plant",
+      "url": "https://www.ebay.co.uk/itm/366481132679",
+      "soldPrice": 14.51,
+      "totalPrice": 14.51,
+      "soldDate": "2026-06-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "RARE - Epipremnum Giganteum - TRI-Colour Variegated, 4-LEAF Established Plant",
+      "url": "https://www.ebay.co.uk/itm/178181073239",
+      "soldPrice": 14.5,
+      "totalPrice": 14.5,
+      "soldDate": "2026-06-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Epipremnum Giganteum Marble Variegated #1",
+      "url": "https://www.ebay.co.uk/itm/206223386849",
+      "soldPrice": 21.03,
+      "totalPrice": 21.03,
+      "soldDate": "2026-06-03",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare🤍Epipremnum Giganteum albo mint New Leaves Rooted Plant",
+      "url": "https://www.ebay.co.uk/itm/366419773855",
+      "soldPrice": 12.01,
+      "totalPrice": 17.009999999999998,
+      "soldDate": "2026-05-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Epipremnum Giganteum Marble Variegated #5",
+      "url": "https://www.ebay.co.uk/itm/206249075880",
+      "soldPrice": 19.99,
+      "totalPrice": 22.979999999999997,
+      "soldDate": "2026-05-20",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare🤍Epipremnum Giganteum albo mint New Leaves Rooted Growing From Cutting",
+      "url": "https://www.ebay.co.uk/itm/366398564592",
+      "soldPrice": 9.99,
+      "totalPrice": 9.99,
+      "soldDate": "2026-05-14",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare🤍Epipremnum Giganteum albo mint New Leaves Rooted Growing From Cutting",
+      "url": "https://www.ebay.co.uk/itm/366381907433",
+      "soldPrice": 13.5,
+      "totalPrice": 13.5,
+      "soldDate": "2026-05-06",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Epipremnum giganteum mint",
+      "url": "https://www.ebay.co.uk/itm/167690853938",
+      "soldPrice": 10,
+      "totalPrice": 14.5,
+      "soldDate": "2026-05-01",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 9,
+  "rejectedCount": 211,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "epi giganteum albo variegated",
+      "epipremnum amplissimum variegated #10",
+      "epipremnum amplissimum variegated #4"
+    ]
+  }
+}

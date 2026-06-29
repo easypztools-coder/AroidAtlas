@@ -1,0 +1,142 @@
+{
+  "snapshot": {
+    "plantSlug": "epipremnum-pinnatum-cebu-blue",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Epipremnum pinnatum Cebu Blue",
+    "checkedAt": "2026-06-29T19:23:53.159Z",
+    "currency": "GBP",
+    "rawResultCount": 100,
+    "acceptedCount": 10,
+    "rejectedCount": 90,
+    "outlierCount": 1,
+    "confidenceScore": "D",
+    "minPrice": 1.6433333333333333,
+    "p25Price": 7.7325,
+    "medianPrice": 9.765,
+    "meanPrice": 10.976333333333333,
+    "trimmedMeanPrice": 10.976333333333333,
+    "p75Price": 13.537500000000001,
+    "maxPrice": 28.11,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 10,
+    "min": 1.6433333333333333,
+    "max": 28.11,
+    "median": 9.765,
+    "mean": 10.976333333333333,
+    "p25": 7.7325,
+    "p75": 13.537500000000001,
+    "iqr": 5.8050000000000015,
+    "trimmedMean": 10.976333333333333,
+    "confidenceScore": "D",
+    "rejectedCount": 90,
+    "rejectionReasons": {},
+    "outlierCount": 1
+  },
+  "acceptedListings": [
+    {
+      "title": "x6 Unrooted Cuttings | Epipremnum pinnatum - Cebu Blue Pothos | Indoor Plant",
+      "url": "https://www.ebay.co.uk/itm/377047840382",
+      "soldPrice": 9.86,
+      "totalPrice": 9.86,
+      "soldDate": "2026-06-15",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Epipremnum pinnatum Cebu Blue 4-5  Leaf Pothos Houseplant",
+      "url": "https://www.ebay.co.uk/itm/145709293529",
+      "soldPrice": 10.99,
+      "totalPrice": 10.99,
+      "soldDate": "2025-11-13",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "10 RARE Epipremnum Pinnatum Cebu Blue wet-sticks. Just Nodes,  No Leaves",
+      "url": "https://www.ebay.co.uk/itm/206267598945",
+      "soldPrice": 6.99,
+      "totalPrice": 8.540000000000001,
+      "soldDate": "2026-06-03",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Epipremnum pinnatum Cebu Blue in a 7cm pot - trailing indoor plant",
+      "url": "https://www.ebay.co.uk/itm/188203387669",
+      "soldPrice": 5.37,
+      "totalPrice": 8.31,
+      "soldDate": "2026-05-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "10 RARE Epipremnum Pinnatum Cebu Blue wet-sticks. Just Nodes,  No Leaves",
+      "url": "https://www.ebay.co.uk/itm/206253592652",
+      "soldPrice": 6.99,
+      "totalPrice": 7.54,
+      "soldDate": "2026-05-09",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Pothos Epipremnum Pinnatum Cebu Blue Rooted House Plant for Planting Into Pot X2",
+      "url": "https://www.ebay.co.uk/itm/205866774568",
+      "soldPrice": 5,
+      "totalPrice": 6.7,
+      "soldDate": "2026-04-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Epipremnum Cebu Blue Rooted Indoor Houseplant",
+      "url": "https://www.ebay.co.uk/itm/336585392205",
+      "soldPrice": 11.85,
+      "totalPrice": 15.23,
+      "soldDate": "2026-05-19",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Epipremnum cebu Blue - Cebu Blue Pothos",
+      "url": "https://www.ebay.co.uk/itm/197652890555",
+      "soldPrice": 12,
+      "totalPrice": 12,
+      "soldDate": "2026-04-20",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron White Princess & White Knight, Epipremnum Cebu Blue & Marble",
+      "url": "https://www.ebay.co.uk/itm/298375424577",
+      "soldPrice": 24.73,
+      "totalPrice": 28.11,
+      "soldDate": "2026-06-01",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare!!! Highly Variegated Epipremnum Cebu Blue Rooted Cutting. Beautiful Colours",
+      "url": "https://www.ebay.co.uk/itm/278040669648",
+      "soldPrice": 10.67,
+      "totalPrice": 14.05,
+      "soldDate": "2026-06-07",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 10,
+  "rejectedCount": 90,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "cebu blue fresh cutting epipremnum pinnatum 1 leaf 1 node rare pothos houseplant",
+      "devil’s ivy ‘cebu blue’ | epipremnum pinnatum",
+      "epipremnum pinnatum 'cebu blue' house plant"
+    ],
+    "Total price £4.81 is below £5 minimum": [
+      "cebu blue pothos indoor houseplant cutting and nodes for propagation"
+    ]
+  }
+}

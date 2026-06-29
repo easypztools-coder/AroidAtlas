@@ -1,0 +1,66 @@
+{
+  "snapshot": {
+    "plantSlug": "ningmingensis",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia ningmingensis Guangxi",
+    "checkedAt": "2026-06-29T19:15:40.365Z",
+    "currency": "GBP",
+    "rawResultCount": 4,
+    "acceptedCount": 2,
+    "rejectedCount": 2,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 27.119999999999997,
+    "p25Price": 27.68,
+    "medianPrice": 28.240000000000002,
+    "meanPrice": 28.240000000000002,
+    "trimmedMeanPrice": 28.240000000000002,
+    "p75Price": 28.8,
+    "maxPrice": 29.360000000000003,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 2,
+    "min": 27.119999999999997,
+    "max": 29.360000000000003,
+    "median": 28.240000000000002,
+    "mean": 28.240000000000002,
+    "p25": 27.68,
+    "p75": 28.8,
+    "iqr": 1.120000000000001,
+    "trimmedMean": 28.240000000000002,
+    "confidenceScore": "D",
+    "rejectedCount": 2,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Begonia Ningmingensis (dark form) Start",
+      "url": "https://www.ebay.co.uk/itm/147233824034",
+      "soldPrice": 24.11,
+      "totalPrice": 27.119999999999997,
+      "soldDate": "2026-04-03",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Ningmingensis variety Bella",
+      "url": "https://www.ebay.co.uk/itm/117123629294",
+      "soldPrice": 26.42,
+      "totalPrice": 29.360000000000003,
+      "soldDate": "2026-04-10",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 2,
+  "rejectedCount": 2,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "begonia guangxi very rare high humidity/houseplant",
+      "rare begonia mellanobulata x ningmingensis for terrarium"
+    ]
+  }
+}

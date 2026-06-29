@@ -12,7 +12,7 @@
   "collectorPopularity": 3,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Monstera subpinnata is one of the most visually distinctive members of its genus — a strongly heterobaric climber from the humid wet-tropical forests of south-eastern Colombia through Ecuador and Peru to Bolivia that produces mature leaves of an entirely different character from the typical Monstera silhouette. Juvenile growth produces smaller, entire leaves as the stem ascends shaded supports; in brighter lower-canopy positions the foliage transitions to deeply pinnatifid blades divided into numerous narrow lateral lobes, creating a feather-like or palm-frond silhouette unlike any other Monstera in cultivation. The stem climbs with aerial roots and bears leaves at evenly spaced nodes with considerable elegance. For collectors seeking architectural diversity in a Monstera collection, subpinnata offers something genuinely unlike anything else in the genus.",
   "quickFacts": {
     "growthHabit": "Strongly heterobaric hemiepiphytic climber",
@@ -34,7 +34,7 @@
     "growthHabit": "Climber with aerial roots, spaced nodes, strongly heterobaric leaf development"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 45,
+    "currentMedianPriceGBP": 23,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

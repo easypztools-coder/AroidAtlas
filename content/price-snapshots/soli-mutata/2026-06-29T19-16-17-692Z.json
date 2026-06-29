@@ -1,0 +1,85 @@
+{
+  "snapshot": {
+    "plantSlug": "soli-mutata",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia soli-mutata Brazil",
+    "checkedAt": "2026-06-29T19:16:17.692Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 4,
+    "rejectedCount": 236,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 10.870000000000001,
+    "p25Price": 13.21,
+    "medianPrice": 14.02,
+    "meanPrice": 14.03,
+    "trimmedMeanPrice": 14.03,
+    "p75Price": 14.84,
+    "maxPrice": 17.21,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 4,
+    "min": 10.870000000000001,
+    "max": 17.21,
+    "median": 14.02,
+    "mean": 14.03,
+    "p25": 13.21,
+    "p75": 14.84,
+    "iqr": 1.629999999999999,
+    "trimmedMean": 14.03,
+    "confidenceScore": "D",
+    "rejectedCount": 236,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Begonia Soli-mutata Pink",
+      "url": "https://www.ebay.co.uk/itm/227385191312",
+      "soldPrice": 7.49,
+      "totalPrice": 10.870000000000001,
+      "soldDate": "2026-06-19",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare Begonia Soli Mutata Variegated",
+      "url": "https://www.ebay.co.uk/itm/287311961522",
+      "soldPrice": 10,
+      "totalPrice": 13.99,
+      "soldDate": "2026-06-21",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Soli Mutata",
+      "url": "https://www.ebay.co.uk/itm/227305016959",
+      "soldPrice": 10.67,
+      "totalPrice": 14.05,
+      "soldDate": "2026-04-19",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Soli-Mutata low variegated Reverted, rhizomatous and spectacular foliage",
+      "url": "https://www.ebay.co.uk/itm/187662379570",
+      "soldPrice": 13.83,
+      "totalPrice": 17.21,
+      "soldDate": "2026-05-18",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 4,
+  "rejectedCount": 236,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "begonia lubbersii very rare terrarium collector house plant from brazil",
+      "begonia sterling moon plant",
+      "begonia torsa - hardy large leaved begonia"
+    ]
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "snapshot": {
+    "plantSlug": "adansonii",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera adansonii",
+    "checkedAt": "2026-06-29T19:16:39.318Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 29,
+    "rejectedCount": 211,
+    "outlierCount": 1,
+    "confidenceScore": "C",
+    "minPrice": 5.44,
+    "p25Price": 7.35,
+    "medianPrice": 8.65,
+    "meanPrice": 9.354137931034485,
+    "trimmedMeanPrice": 8.969583333333334,
+    "p75Price": 10.8,
+    "maxPrice": 16.14,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 29,
+    "min": 5.44,
+    "max": 16.14,
+    "median": 8.65,
+    "mean": 9.354137931034485,
+    "p25": 7.35,
+    "p75": 10.8,
+    "iqr": 3.450000000000001,
+    "trimmedMean": 8.969583333333334,
+    "confidenceScore": "C",
+    "rejectedCount": 211,
+    "rejectionReasons": {},
+    "outlierCount": 1
+  },
+  "acceptedListings": [
+    {
+      "title": "Monstera adansonii / Monkey Mask – 20-30cm Rooted Plant - Easy to Grow, Hardy",
+      "url": "https://www.ebay.co.uk/itm/377193618678",
+      "soldPrice": 10.79,
+      "totalPrice": 10.79,
+      "soldDate": "2026-06-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Monkey Mask (Monstera Adansonii)",
+      "url": "https://www.ebay.co.uk/itm/255230919543",
+      "soldPrice": 6.5,
+      "totalPrice": 6.5,
+      "soldDate": "2026-06-28",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Marble Queen Pothos & Monstera Adansonii Swiss Cheese Houseplant Set | Bare root",
+      "url": "https://www.ebay.co.uk/itm/235823224373",
+      "soldPrice": 14.99,
+      "totalPrice": 14.99,
+      "soldDate": "2026-06-26",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera adansonii Swiss Cheese Vine Potted Plant w/ bamboo Pot & Saucer Indoor",
+      "url": "https://www.ebay.co.uk/itm/398085072055",
+      "soldPrice": 7.6,
+      "totalPrice": 7.6,
+      "soldDate": "2026-06-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Exotic Monstera Adansonii European Mint",
+      "url": "https://www.ebay.co.uk/itm/287392645178",
+      "soldPrice": 10,
+      "totalPrice": 10,
+      "soldDate": "2026-06-24",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rooted Plant Set – Marble Queen Pothos & Monstera Adansonii | Bare root",
+      "url": "https://www.ebay.co.uk/itm/235823227362",
+      "soldPrice": 10.99,
+      "totalPrice": 10.99,
+      "soldDate": "2026-06-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Swiss Cheese Monstera Adansonii Cutting – Rooted, Approx. 20cm (No pot inc)",
+      "url": "https://www.ebay.co.uk/itm/235814232985",
+      "soldPrice": 12.99,
+      "totalPrice": 12.99,
+      "soldDate": "2026-06-18",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "well rooted Monstera Adansonii  monkey mask – 5 Plants in 1 Pot – Houseplant",
+      "url": "https://www.ebay.co.uk/itm/157993851168",
+      "soldPrice": 6.52,
+      "totalPrice": 6.52,
+      "soldDate": "2026-06-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Adansonii Houseplant - Monkey Mask - 9cm Pot -",
+      "url": "https://www.ebay.co.uk/itm/406968637250",
+      "soldPrice": 7.35,
+      "totalPrice": 7.35,
+      "soldDate": "2026-06-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Adansonii Frozen Freckles With Well Established Root System",
+      "url": "https://www.ebay.co.uk/itm/377192994913",
+      "soldPrice": 10.8,
+      "totalPrice": 10.8,
+      "soldDate": "2026-06-16",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Adansonii 'Frozen Freckles' Rare Indoor House Plant In 6cm Pot",
+      "url": "https://www.ebay.co.uk/itm/800055363438",
+      "soldPrice": 11.85,
+      "totalPrice": 11.85,
+      "soldDate": "2026-06-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Adansonii Indonesian Marble",
+      "url": "https://www.ebay.co.uk/itm/397653597677",
+      "soldPrice": 16.14,
+      "totalPrice": 16.14,
+      "soldDate": "2026-05-11",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera adansonii( Swiss Cheese/Monkey plant ), House Plant - Bare Rooted Plant",
+      "url": "https://www.ebay.co.uk/itm/144476370914",
+      "soldPrice": 7.99,
+      "totalPrice": 7.99,
+      "soldDate": "2026-06-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Adansonii Houseplant - Monkey Mask - 9cm Pot -",
+      "url": "https://www.ebay.co.uk/itm/406968635141",
+      "soldPrice": 7.35,
+      "totalPrice": 7.35,
+      "soldDate": "2026-06-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Adansonii Frozen Freckles Baby Houseplant Unbranded 6cm Pot",
+      "url": "https://www.ebay.co.uk/itm/137187394134",
+      "soldPrice": 9.19,
+      "totalPrice": 9.19,
+      "soldDate": "2026-06-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Adansonii Monkey Mask Indoor Tropical Houseplant, 7.5 Cm  Diameter Pot",
+      "url": "https://www.ebay.co.uk/itm/127911782596",
+      "soldPrice": 5.44,
+      "totalPrice": 5.44,
+      "soldDate": "2026-06-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Adansonii Swiss Cheese Plant Cuttings Rooted",
+      "url": "https://www.ebay.co.uk/itm/236857738041",
+      "soldPrice": 5.44,
+      "totalPrice": 5.44,
+      "soldDate": "2026-06-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera adansonii, Monkey Mask, Mini Swiss Cheese Plant, 30 cm, 12 cm pot",
+      "url": "https://www.ebay.co.uk/itm/397074885971",
+      "soldPrice": 13,
+      "totalPrice": 13,
+      "soldDate": "2026-06-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Marble Queen Pothos & Monstera Adansonii Rooted Plants for Home or Office",
+      "url": "https://www.ebay.co.uk/itm/235823228716",
+      "soldPrice": 13.99,
+      "totalPrice": 13.99,
+      "soldDate": "2026-01-13",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera adansonii /monkey tail plant",
+      "url": "https://www.ebay.co.uk/itm/117022811861",
+      "soldPrice": 8.65,
+      "totalPrice": 8.65,
+      "soldDate": "2026-06-06",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Adansonii 'Swiss Cheese' Plant",
+      "url": "https://www.ebay.co.uk/itm/267687614300",
+      "soldPrice": 8.65,
+      "totalPrice": 8.65,
+      "soldDate": "2026-06-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Adansonii 9cm Pot. Climbing Plant. Easy Care.",
+      "url": "https://www.ebay.co.uk/itm/127871076234",
+      "soldPrice": 8.65,
+      "totalPrice": 8.65,
+      "soldDate": "2026-05-30",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Adansonii ‘Monkey Mask,’  Rooted Houseplant Cutting, rotted  NO pot",
+      "url": "https://www.ebay.co.uk/itm/198299161541",
+      "soldPrice": 6.4,
+      "totalPrice": 6.4,
+      "soldDate": "2026-05-20",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Adansonii Ghost. Beautiful Little Rooted Wet Stick Cutting. 😊👻😊",
+      "url": "https://www.ebay.co.uk/itm/277949792733",
+      "soldPrice": 5.45,
+      "totalPrice": 5.45,
+      "soldDate": "2026-05-04",
+      "listingType": "node",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Adansonii Monkey Mask Indoor Houseplant In 12 Cm Pot",
+      "url": "https://www.ebay.co.uk/itm/137255236122",
+      "soldPrice": 10.8,
+      "totalPrice": 10.8,
+      "soldDate": "2026-05-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Adansonii Swiss Cheese Plant Cuttings Rooted",
+      "url": "https://www.ebay.co.uk/itm/178004566324",
+      "soldPrice": 5.44,
+      "totalPrice": 5.44,
+      "soldDate": "2026-04-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Adansonii Mint ghost Plant",
+      "url": "https://www.ebay.co.uk/itm/336538597825",
+      "soldPrice": 10.26,
+      "totalPrice": 10.26,
+      "soldDate": "2026-04-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monkey Mask House Plant, Monstera Adansonii in 9cm pot",
+      "url": "https://www.ebay.co.uk/itm/117078963387",
+      "soldPrice": 8.65,
+      "totalPrice": 8.65,
+      "soldDate": "2026-04-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Adansonii European Mint Established Plant. Has Beautiful Marbelling",
+      "url": "https://www.ebay.co.uk/itm/277900317395",
+      "soldPrice": 9.4,
+      "totalPrice": 9.4,
+      "soldDate": "2026-04-23",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 29,
+  "rejectedCount": 211,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "rare💛💚monstera deliciosa platinum compact double mint variegated cutting",
+      "⭐rare monstera esqueleto - 5 leaves 🌿more fenestrated adansonii epipremnoides",
+      "xl 38 cm⭐highly variegated⭐monstera deliciosa albo -white/mint marble- plant🌱"
+    ],
+    "Contains excluded term": [
+      "monstera adansonii albo variegata 3 grow points/plants",
+      "monstera adansonii variegata rate indoor house plant",
+      "variegated monstera adansonii established plant. homegrown! beautiful!"
+    ],
+    "Total price £4.59 is below £5 minimum": [
+      "monstera adansonii european mint vine indoor houseplant potted plant + pot"
+    ],
+    "Total price £4.99 is below £5 minimum": [
+      "monstera adansonii 'swiss cheese' plant 3 small plants, 1 pot"
+    ],
+    "Total price £3.99 is below £5 minimum": [
+      "monstera adansonii mature leaf",
+      "monstera adansonii mature leaf"
+    ],
+    "Total price £3.21 is below £5 minimum": [
+      "monstera adansonii"
+    ],
+    "Total price £4.92 is below £5 minimum": [
+      "monstera adansonii monkey mask cuttings for water rooting",
+      "monstera adansonii pups"
+    ],
+    "Total price £4.64 is below £5 minimum": [
+      "monstera adansonii single leaf cutting. swiss cheese/monkey mask plant"
+    ],
+    "Total price £4.38 is below £5 minimum": [
+      "monstera adansonii swiss cheese plant rooted cutting",
+      "monstera adansonii | monkey mask plant | live houseplant rooted",
+      "monstera adansonii marble indonesian"
+    ],
+    "Total price £3.51 is below £5 minimum": [
+      "monstera adansonii aurea"
+    ],
+    "Total price £3.31 is below £5 minimum": [
+      "monstera adansonii swiss cheese plant cuttings rooted"
+    ],
+    "Total price £3.94 is below £5 minimum": [
+      "monstera adansonii | swiss cheese plant | rooted young houseplant"
+    ],
+    "Total price £1.70 is below £5 minimum": [
+      "monstera adansonii house plant"
+    ],
+    "Total price £1.16 is below £5 minimum": [
+      "free monstera adansonii 'swiss cheese' plant"
+    ],
+    "Total price £1.17 is below £5 minimum": [
+      "monstera adansonii 'swiss cheese' plant cutting"
+    ]
+  }
+}

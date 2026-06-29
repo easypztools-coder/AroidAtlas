@@ -1,0 +1,111 @@
+{
+  "snapshot": {
+    "plantSlug": "standleyana",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera standleyana",
+    "checkedAt": "2026-06-29T19:21:47.068Z",
+    "rawResultCount": 240,
+    "acceptedCount": 7,
+    "rejectedCount": 233,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 9.8,
+    "p25Price": 11.96,
+    "medianPrice": 14.05,
+    "meanPrice": 14.844285714285714,
+    "trimmedMeanPrice": 14.844285714285714,
+    "p75Price": 17.575000000000003,
+    "maxPrice": 20.990000000000002,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 7,
+    "min": 9.8,
+    "max": 20.990000000000002,
+    "median": 14.05,
+    "mean": 14.844285714285714,
+    "p25": 11.96,
+    "p75": 17.575000000000003,
+    "iqr": 5.615000000000002,
+    "trimmedMean": 14.844285714285714,
+    "confidenceScore": "D",
+    "rejectedCount": 233,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Rare Monstera Standleyana Yellow Variegata Plant",
+      "url": "https://www.ebay.co.uk/itm/277978176111",
+      "soldPrice": 17,
+      "totalPrice": 20.990000000000002,
+      "soldDate": "2026-06-14",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Exotic Rare Monstera Standleyana Yellow Variegata",
+      "url": "https://www.ebay.co.uk/itm/287385903933",
+      "soldPrice": 15,
+      "totalPrice": 18.990000000000002,
+      "soldDate": "2026-06-13",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Standleyana Philodendron Cobra Highly Variegated Half Moon",
+      "url": "https://www.ebay.co.uk/itm/357891987530",
+      "soldPrice": 10.67,
+      "totalPrice": 13.39,
+      "soldDate": "2026-05-16",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Standleyana Aurea Rooted Variegated Houseplant Unbranded",
+      "url": "https://www.ebay.co.uk/itm/136972148537",
+      "soldPrice": 10.67,
+      "totalPrice": 14.05,
+      "soldDate": "2026-05-13",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Standleyana Aurea baby plant",
+      "url": "https://www.ebay.co.uk/itm/318042237812",
+      "soldPrice": 6.86,
+      "totalPrice": 9.8,
+      "soldDate": "2026-05-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Standleyana Aurea Unrooted Houseplant Clipping",
+      "url": "https://www.ebay.co.uk/itm/178096821500",
+      "soldPrice": 10.53,
+      "totalPrice": 10.53,
+      "soldDate": "2026-05-04",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Standleyana Cobra Albo White Variegation, Variegata Rare Aroid",
+      "url": "https://www.ebay.co.uk/itm/127810317664",
+      "soldPrice": 12.78,
+      "totalPrice": 16.16,
+      "soldDate": "2026-04-25",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 7,
+  "rejectedCount": 233,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "rare! monstera laniata lime marble, highly variegated, selection of cuttings",
+      "clearance £9.99 - variegated monstera, philodendron, syngonium, amydrium, ficus",
+      "monstera deliciosa albo, half-moon variegated, 1-leaf cutting, rooting, a2"
+    ]
+  }
+}

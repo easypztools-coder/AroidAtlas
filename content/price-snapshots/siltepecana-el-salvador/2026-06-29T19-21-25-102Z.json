@@ -1,0 +1,58 @@
+{
+  "snapshot": {
+    "plantSlug": "siltepecana-el-salvador",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera siltepecana El Salvador",
+    "checkedAt": "2026-06-29T19:21:25.102Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 1,
+    "rejectedCount": 239,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 14.05,
+    "p25Price": 14.05,
+    "medianPrice": 14.05,
+    "meanPrice": 14.05,
+    "trimmedMeanPrice": 14.05,
+    "p75Price": 14.05,
+    "maxPrice": 14.05,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 1,
+    "min": 14.05,
+    "max": 14.05,
+    "median": 14.05,
+    "mean": 14.05,
+    "p25": 14.05,
+    "p75": 14.05,
+    "iqr": 0,
+    "trimmedMean": 14.05,
+    "confidenceScore": "D",
+    "rejectedCount": 239,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Monstera Siltepecana El Salvador Rooted Cutting",
+      "url": "https://www.ebay.co.uk/itm/127818007155",
+      "soldPrice": 10.67,
+      "totalPrice": 14.05,
+      "soldDate": "2026-04-26",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 1,
+  "rejectedCount": 239,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "monstera siltepecana",
+      "monstera siltepecana rooted cuttings",
+      "monstera siltepecana/rare aroid plant/small starter plant"
+    ]
+  }
+}

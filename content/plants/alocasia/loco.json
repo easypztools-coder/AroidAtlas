@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Alocasia 'Loco' is a compact, sculptural cultivar derived from tropical Alocasia ancestry of Southeast Asia, selected for its dramatically undulate, puckered leaves with deeply scalloped margins and a bold, glossy dark green surface. Upright petioles arise from a corm-like base, supporting leaves with pronounced pale veins that trace the scalloped outline with architectural precision. The distinctive puckered leaf form — the feature that earns it the name 'Loco' — gives the plant an almost ruffled, animated presence that stands out immediately in any collection.",
   "quickFacts": {
     "growthHabit": "Compact corm-forming upright",
@@ -34,7 +34,7 @@
     "growthHabit": "Upright from compact corm base"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 120,
+    "currentMedianPriceGBP": 20,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

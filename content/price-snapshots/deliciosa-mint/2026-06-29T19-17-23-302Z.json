@@ -1,0 +1,238 @@
+{
+  "snapshot": {
+    "plantSlug": "deliciosa-mint",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera deliciosa mint",
+    "checkedAt": "2026-06-29T19:17:23.302Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 21,
+    "rejectedCount": 219,
+    "outlierCount": 1,
+    "confidenceScore": "C",
+    "minPrice": 10.440000000000001,
+    "p25Price": 25.73,
+    "medianPrice": 36.73,
+    "meanPrice": 42.635714285714286,
+    "trimmedMeanPrice": 37.923750000000005,
+    "p75Price": 52.25,
+    "maxPrice": 119.99,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 21,
+    "min": 10.440000000000001,
+    "max": 119.99,
+    "median": 36.73,
+    "mean": 42.635714285714286,
+    "p25": 25.73,
+    "p75": 52.25,
+    "iqr": 26.52,
+    "trimmedMean": 37.923750000000005,
+    "confidenceScore": "C",
+    "rejectedCount": 219,
+    "rejectionReasons": {},
+    "outlierCount": 1
+  },
+  "acceptedListings": [
+    {
+      "title": "Monstera Deliciosa  Mint Variegata  -  houseplant In 12 Cm Pot - large form",
+      "url": "https://www.ebay.co.uk/itm/168288408519",
+      "soldPrice": 50,
+      "totalPrice": 56.5,
+      "soldDate": "2026-06-28",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Mint",
+      "url": "https://www.ebay.co.uk/itm/397947275756",
+      "soldPrice": 26.42,
+      "totalPrice": 29.8,
+      "soldDate": "2026-06-20",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "monstera deliciosa Mint variegata  rare variegated aroid plant 05MDM04",
+      "url": "https://www.ebay.co.uk/itm/327179718969",
+      "soldPrice": 24.44,
+      "totalPrice": 24.44,
+      "soldDate": "2026-05-30",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "monstera deliciosa Mint variegata  rare variegated aroid plant 05MDM03",
+      "url": "https://www.ebay.co.uk/itm/327179728966",
+      "soldPrice": 24.44,
+      "totalPrice": 24.44,
+      "soldDate": "2026-05-30",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "monstera deliciosa Mint variegata  rare variegated aroid plant 05MDM01",
+      "url": "https://www.ebay.co.uk/itm/327179707782",
+      "soldPrice": 25.73,
+      "totalPrice": 25.73,
+      "soldDate": "2026-05-30",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "monstera deliciosa Mint variegata  rare variegated aroid plant 05MDM02",
+      "url": "https://www.ebay.co.uk/itm/327179708808",
+      "soldPrice": 28.5,
+      "totalPrice": 28.5,
+      "soldDate": "2026-05-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Mint",
+      "url": "https://www.ebay.co.uk/itm/397734330570",
+      "soldPrice": 67.75,
+      "totalPrice": 72.9,
+      "soldDate": "2026-05-02",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "monstera deliciosa Mint variegata - rare variegated aroid plant 04MDM04",
+      "url": "https://www.ebay.co.uk/itm/327103066478",
+      "soldPrice": 24.44,
+      "totalPrice": 24.44,
+      "soldDate": "2026-04-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "monstera deliciosa Mint variegata - rare variegated aroid plant 04MDM03",
+      "url": "https://www.ebay.co.uk/itm/327103065836",
+      "soldPrice": 24.44,
+      "totalPrice": 24.44,
+      "soldDate": "2026-04-18",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Deliciosa Mint! All Proceeds Go To Our Community Fundraiser!",
+      "url": "https://www.ebay.co.uk/itm/277889979708",
+      "soldPrice": 31.58,
+      "totalPrice": 34.96,
+      "soldDate": "2026-04-14",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Deliciosa Mint. 25cm Tall, Great Roots New Leaf. Beautiful!",
+      "url": "https://www.ebay.co.uk/itm/277889941954",
+      "soldPrice": 31.58,
+      "totalPrice": 34.96,
+      "soldDate": "2026-04-14",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Mint- Rare Houseplant",
+      "url": "https://www.ebay.co.uk/itm/287243355670",
+      "soldPrice": 40,
+      "totalPrice": 43,
+      "soldDate": "2026-04-12",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Mint Base Cut",
+      "url": "https://www.ebay.co.uk/itm/406850953373",
+      "soldPrice": 31.58,
+      "totalPrice": 36.73,
+      "soldDate": "2026-04-23",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Mint Variegated House Plant",
+      "url": "https://www.ebay.co.uk/itm/188511929179",
+      "soldPrice": 52.25,
+      "totalPrice": 52.25,
+      "soldDate": "2026-06-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "VERY RARE! TRUE Monstera MINT NOID Variegated 3-LEAF TOP Cutting, Rooting",
+      "url": "https://www.ebay.co.uk/itm/177741876803",
+      "soldPrice": 119.99,
+      "totalPrice": 119.99,
+      "soldDate": "2026-05-24",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Mint Variegated House Plant Rooted Plant Indoor House Plant",
+      "url": "https://www.ebay.co.uk/itm/117125140049",
+      "soldPrice": 57.42,
+      "totalPrice": 60.800000000000004,
+      "soldDate": "2026-04-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Mint Ultra Rare Variegated Houseplant UK Seller",
+      "url": "https://www.ebay.co.uk/itm/377064131511",
+      "soldPrice": 40.88,
+      "totalPrice": 44.260000000000005,
+      "soldDate": "2026-04-03",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera MINT",
+      "url": "https://www.ebay.co.uk/itm/257052353271",
+      "soldPrice": 57,
+      "totalPrice": 57,
+      "soldDate": "2026-06-08",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Mint Variegated - Rare Plant #1",
+      "url": "https://www.ebay.co.uk/itm/206191699680",
+      "soldPrice": 42.28,
+      "totalPrice": 42.28,
+      "soldDate": "2026-05-30",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "VERY RARE! TRUE Monstera MINT NOID Variegated 3-LEAF Juvenile Plant, Potted",
+      "url": "https://www.ebay.co.uk/itm/178119226777",
+      "soldPrice": 42,
+      "totalPrice": 47.49,
+      "soldDate": "2026-05-16",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Reverted monstera mint",
+      "url": "https://www.ebay.co.uk/itm/377064779486",
+      "soldPrice": 7.48,
+      "totalPrice": 10.440000000000001,
+      "soldDate": "2026-06-06",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 21,
+  "rejectedCount": 219,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "rare💛💚monstera deliciosa platinum compact double mint variegated cutting",
+      "xl 38 cm⭐highly variegated⭐monstera deliciosa albo -white/mint marble- plant🌱",
+      "❌rare monstera deliciosa❌siam mint variegated"
+    ]
+  }
+}

@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Philodendron tortum, described by Soares and Mayo, is a climbing aroid ranging from northern Brazil through to Bolivia — an understory and lower canopy plant that ascends tree trunks in humid wet tropical forest with rich organic litter, constant moisture and diffuse light. It is one of the most immediately identifiable Philodendrons in cultivation: the leaves are deeply dissected pinnatifid, with numerous narrow, linear lobes arrayed along a strong central rachis in an arrangement that is unmistakably skeletal — more reminiscent of a feather or a frond than a conventional cordate aroid leaf. Slender internodal stems bear prominent nodes with cataphyll remnants and aerial roots. The 'Aurea Variegated' form has attracted considerable collector attention, but the base species has its own devoted following among those who appreciate the plant's structural drama without the premium the variegated form commands.",
   "quickFacts": {
     "growthHabit": "Climbing hemiepiphyte, scandent",
@@ -34,7 +34,7 @@
     "growthHabit": "Scandent climber on slender stems with aerial roots at prominent nodes"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 70,
+    "currentMedianPriceGBP": 23,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

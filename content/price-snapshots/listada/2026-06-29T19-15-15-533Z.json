@@ -1,0 +1,58 @@
+{
+  "snapshot": {
+    "plantSlug": "listada",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia listada Brazil",
+    "checkedAt": "2026-06-29T19:15:15.533Z",
+    "currency": "GBP",
+    "rawResultCount": 5,
+    "acceptedCount": 1,
+    "rejectedCount": 4,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 9.38,
+    "p25Price": 9.38,
+    "medianPrice": 9.38,
+    "meanPrice": 9.38,
+    "trimmedMeanPrice": 9.38,
+    "p75Price": 9.38,
+    "maxPrice": 9.38,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 1,
+    "min": 9.38,
+    "max": 9.38,
+    "median": 9.38,
+    "mean": 9.38,
+    "p25": 9.38,
+    "p75": 9.38,
+    "iqr": 0,
+    "trimmedMean": 9.38,
+    "confidenceScore": "D",
+    "rejectedCount": 4,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Begonia Listada",
+      "url": "https://www.ebay.co.uk/itm/366387746299",
+      "soldPrice": 6.44,
+      "totalPrice": 9.38,
+      "soldDate": "2026-05-11",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 1,
+  "rejectedCount": 4,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "begonia lubbersii very rare terrarium collector house plant from brazil",
+      "begonia lubbersii very rare terrarium collector house plant from brazil",
+      "begonia lubbersii very rare terrarium collector house plant from brazil"
+    ]
+  }
+}

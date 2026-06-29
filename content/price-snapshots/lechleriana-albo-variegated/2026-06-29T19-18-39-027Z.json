@@ -1,0 +1,148 @@
+{
+  "snapshot": {
+    "plantSlug": "lechleriana-albo-variegated",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera lechleriana albo",
+    "checkedAt": "2026-06-29T19:18:39.027Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 11,
+    "rejectedCount": 229,
+    "outlierCount": 2,
+    "confidenceScore": "D",
+    "minPrice": 2.685,
+    "p25Price": 10.43,
+    "medianPrice": 11.49,
+    "meanPrice": 12.687727272727273,
+    "trimmedMeanPrice": 12.687727272727273,
+    "p75Price": 14.83,
+    "maxPrice": 26.25,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 11,
+    "min": 2.685,
+    "max": 26.25,
+    "median": 11.49,
+    "mean": 12.687727272727273,
+    "p25": 10.43,
+    "p75": 14.83,
+    "iqr": 4.4,
+    "trimmedMean": 12.687727272727273,
+    "confidenceScore": "D",
+    "rejectedCount": 229,
+    "rejectionReasons": {},
+    "outlierCount": 2
+  },
+  "acceptedListings": [
+    {
+      "title": "Monstera Lechleriana Albo, HIGHLY Variegated Rooted Cutting",
+      "url": "https://www.ebay.co.uk/itm/327221375404",
+      "soldPrice": 10.67,
+      "totalPrice": 14.67,
+      "soldDate": "2026-06-24",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Lechleriana Albo Base with multiple shoots",
+      "url": "https://www.ebay.co.uk/itm/398060067913",
+      "soldPrice": 9.87,
+      "totalPrice": 13.25,
+      "soldDate": "2026-06-15",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Lechleriana Albo - 2x Rooted Cuttings",
+      "url": "https://www.ebay.co.uk/itm/178208337274",
+      "soldPrice": 5.37,
+      "totalPrice": 5.37,
+      "soldDate": "2026-06-10",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Lechleriana Albo",
+      "url": "https://www.ebay.co.uk/itm/397994459862",
+      "soldPrice": 21.25,
+      "totalPrice": 26.25,
+      "soldDate": "2026-05-30",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Lechleriana Albo, HIGHLY Variegated Cuttings, CHOOSE YOUR FAVOURITE !",
+      "url": "https://www.ebay.co.uk/itm/177766810265",
+      "soldPrice": 14.99,
+      "totalPrice": 14.99,
+      "soldDate": "2026-05-07",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Lechleriana Albo, HIGHLY Variegated Rooted Cutting",
+      "url": "https://www.ebay.co.uk/itm/327135882863",
+      "soldPrice": 6.43,
+      "totalPrice": 10.43,
+      "soldDate": "2026-05-07",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Lechleriana Albo, HIGHLY Variegated Rooted Cutting",
+      "url": "https://www.ebay.co.uk/itm/327121432094",
+      "soldPrice": 6.43,
+      "totalPrice": 10.43,
+      "soldDate": "2026-04-29",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Lechleriana Albo Variegated Bare Rooted Houseplant",
+      "url": "https://www.ebay.co.uk/itm/188287925828",
+      "soldPrice": 8.42,
+      "totalPrice": 11.14,
+      "soldDate": "2026-04-24",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Lechleriana Albo, HIGHLY Variegated Rooted Cutting",
+      "url": "https://www.ebay.co.uk/itm/327088335352",
+      "soldPrice": 7.49,
+      "totalPrice": 11.49,
+      "soldDate": "2026-04-11",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Lechleriana Albo, HIGHLY Variegated, Juvenile Young Plant, Potted, A1",
+      "url": "https://www.ebay.co.uk/itm/178001125312",
+      "soldPrice": 9.99,
+      "totalPrice": 15.48,
+      "soldDate": "2026-04-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Lechleriana Albo Variegated Baby Houseplant Unbranded",
+      "url": "https://www.ebay.co.uk/itm/137187395527",
+      "soldPrice": 5.37,
+      "totalPrice": 8.75,
+      "soldDate": "2026-04-04",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 11,
+  "rejectedCount": 229,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "monstera albo variegated 3 leaf potted plant",
+      "monstera albo rooted cutting highly variegated",
+      "monstera deliciosa albo, half-moon variegated, 1-leaf cutting, rooting, a2"
+    ]
+  }
+}

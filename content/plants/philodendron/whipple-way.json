@@ -11,7 +11,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Philodendron 'Whipple Way' is a highly sought-after, rare cultivated philodendron of uncertain parentage, which has been distributed through specialist collector circles. This climbing aroid thrives in warm, high humidity environments and requires bright indirect light with support to flourish. It is prized for its heavily marbled variegation, featuring striking patterns of cream, mint, and green on its oval to heart-shaped leaves, which are smooth and semi-glossy with pointed tips. The variegation is notably unstable, often presenting in captivating sectoral and splashed formations. As a slender climber, it develops green petioles, visible nodes, and aerial roots, making it a distinctive addition to any collection.",
   "quickFacts": {
     "growthHabit": "Climbing aroid",
@@ -33,7 +33,7 @@
     "growthHabit": "Slender climber"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 42,
+    "currentMedianPriceGBP": 19,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

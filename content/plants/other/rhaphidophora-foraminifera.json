@@ -12,7 +12,7 @@
   "collectorPopularity": 3,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Rhaphidophora foraminifera is a climbing aroid native to the wet tropical forests of western Malesia. It thrives in the understory of lowland to lower montane elevations, where it uses aerial roots to ascend tree trunks. This species prefers high humidity, filtered light, and consistently moist soil conditions. Morphologically, it features slender, terete stems with distinct nodes that produce aerial roots. Its alternate, petiolate leaves are elongated, ranging from narrow-elliptic to lanceolate, and are characterized by multiple oblong to elliptical fenestrations that do not reach the leaf margins.",
   "quickFacts": {
     "growthHabit": "Climbing aroid",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing aroid"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 70,
+    "currentMedianPriceGBP": 21,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

@@ -1,0 +1,94 @@
+{
+  "snapshot": {
+    "plantSlug": "bipinnatifida",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia bipinnatifida",
+    "checkedAt": "2026-06-29T19:14:37.190Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 5,
+    "rejectedCount": 235,
+    "outlierCount": 1,
+    "confidenceScore": "D",
+    "minPrice": 14.05,
+    "p25Price": 14.05,
+    "medianPrice": 14.05,
+    "meanPrice": 15.430000000000001,
+    "trimmedMeanPrice": 15.430000000000001,
+    "p75Price": 15,
+    "maxPrice": 20,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 5,
+    "min": 14.05,
+    "max": 20,
+    "median": 14.05,
+    "mean": 15.430000000000001,
+    "p25": 14.05,
+    "p75": 15,
+    "iqr": 0.9499999999999993,
+    "trimmedMean": 15.430000000000001,
+    "confidenceScore": "D",
+    "rejectedCount": 235,
+    "rejectionReasons": {},
+    "outlierCount": 1
+  },
+  "acceptedListings": [
+    {
+      "title": "Begonia Bipinnatifida Rare Terrarium Plant Wet Tropical Biome Established Plant",
+      "url": "https://www.ebay.co.uk/itm/327193554223",
+      "soldPrice": 10.67,
+      "totalPrice": 14.05,
+      "soldDate": "2026-06-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Bipinnatifida Rare Terrarium Plant Wet Tropical Biome Established Plant",
+      "url": "https://www.ebay.co.uk/itm/327188314960",
+      "soldPrice": 10.67,
+      "totalPrice": 14.05,
+      "soldDate": "2026-06-01",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Large Begonia Bipinnatifida - Spiky Red terrarium Plant",
+      "url": "https://www.ebay.co.uk/itm/198375275015",
+      "soldPrice": 20,
+      "totalPrice": 20,
+      "soldDate": "2026-05-25",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Large Begonia Bipinnatifida - Spiky Red terrarium Plant",
+      "url": "https://www.ebay.co.uk/itm/198375274346",
+      "soldPrice": 15,
+      "totalPrice": 15,
+      "soldDate": "2026-05-25",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Bipinnatifida Rare Terrarium Plant Wet Tropical Biome Established Plant",
+      "url": "https://www.ebay.co.uk/itm/327083039219",
+      "soldPrice": 10.67,
+      "totalPrice": 14.05,
+      "soldDate": "2026-04-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 5,
+  "rejectedCount": 235,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "begonia fulvovillosa formerly u012 very rare terrarium plant",
+      "begonia luxurians | tropical begonia | plug plant",
+      "begonia nonstop fire 12 plug plants bedding"
+    ]
+  }
+}

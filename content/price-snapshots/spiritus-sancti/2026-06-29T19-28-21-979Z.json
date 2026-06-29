@@ -1,0 +1,157 @@
+{
+  "snapshot": {
+    "plantSlug": "spiritus-sancti",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron spiritus sancti",
+    "checkedAt": "2026-06-29T19:28:21.979Z",
+    "currency": "GBP",
+    "rawResultCount": 112,
+    "acceptedCount": 12,
+    "rejectedCount": 100,
+    "outlierCount": 3,
+    "confidenceScore": "D",
+    "minPrice": 14.99,
+    "p25Price": 26.5475,
+    "medianPrice": 28.365,
+    "meanPrice": 36.80666666666667,
+    "trimmedMeanPrice": 36.80666666666667,
+    "p75Price": 31.3775,
+    "maxPrice": 124.9,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 12,
+    "min": 14.99,
+    "max": 124.9,
+    "median": 28.365,
+    "mean": 36.80666666666667,
+    "p25": 26.5475,
+    "p75": 31.3775,
+    "iqr": 4.830000000000002,
+    "trimmedMean": 36.80666666666667,
+    "confidenceScore": "D",
+    "rejectedCount": 100,
+    "rejectionReasons": {},
+    "outlierCount": 3
+  },
+  "acceptedListings": [
+    {
+      "title": "Philodendron Spiritus Sancti",
+      "url": "https://www.ebay.co.uk/itm/257550187377",
+      "soldPrice": 29.52,
+      "totalPrice": 29.52,
+      "soldDate": "2026-06-29",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodrendon Spiritus Sancti",
+      "url": "https://www.ebay.co.uk/itm/800242545044",
+      "soldPrice": 19.99,
+      "totalPrice": 19.99,
+      "soldDate": "2026-06-26",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Spiritus Sancti – Adolescent Plant (7 cm Pot)",
+      "url": "https://www.ebay.co.uk/itm/236890100935",
+      "soldPrice": 31.58,
+      "totalPrice": 34.519999999999996,
+      "soldDate": "2026-06-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Spiritus Sancti – 10.5cm Pot",
+      "url": "https://www.ebay.co.uk/itm/397959007270",
+      "soldPrice": 23,
+      "totalPrice": 23,
+      "soldDate": "2026-06-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Spiritus Sancti - Rare Plant #1",
+      "url": "https://www.ebay.co.uk/itm/800095125767",
+      "soldPrice": 14.99,
+      "totalPrice": 14.99,
+      "soldDate": "2026-05-31",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Collection Only/Rare Philodendron Spiritus Sancti PSS Collector Aroid Houseplant",
+      "url": "https://www.ebay.co.uk/itm/257512569043",
+      "soldPrice": 52.24,
+      "totalPrice": 52.24,
+      "soldDate": "2026-05-23",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron spiritus sancti",
+      "url": "https://www.ebay.co.uk/itm/198338371305",
+      "soldPrice": 121.18,
+      "totalPrice": 124.9,
+      "soldDate": "2026-05-14",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Spiritus Sancti - Rare Plant #2",
+      "url": "https://www.ebay.co.uk/itm/206236137964",
+      "soldPrice": 24.99,
+      "totalPrice": 28.49,
+      "soldDate": "2026-05-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Spiritus Sancti",
+      "url": "https://www.ebay.co.uk/itm/287264978624",
+      "soldPrice": 26.62,
+      "totalPrice": 30.330000000000002,
+      "soldDate": "2026-04-16",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Spiritus Sancti - Rare Plant #16",
+      "url": "https://www.ebay.co.uk/itm/206148131539",
+      "soldPrice": 24.74,
+      "totalPrice": 27.729999999999997,
+      "soldDate": "2026-04-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Spiritus Sancti - Rare Plant #14",
+      "url": "https://www.ebay.co.uk/itm/206145803371",
+      "soldPrice": 24.74,
+      "totalPrice": 27.729999999999997,
+      "soldDate": "2026-04-06",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Spiritus Sancti - Rare Plant #15",
+      "url": "https://www.ebay.co.uk/itm/206148131537",
+      "soldPrice": 24.74,
+      "totalPrice": 28.24,
+      "soldDate": "2026-04-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 12,
+  "rejectedCount": 100,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "philodendron spuritus sancti #6",
+      "philodendron spuritus sancti #4",
+      "philodendron spuritus sancti - rare aroid #9"
+    ]
+  }
+}

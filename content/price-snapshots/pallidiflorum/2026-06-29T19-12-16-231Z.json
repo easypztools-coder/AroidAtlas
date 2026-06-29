@@ -1,0 +1,391 @@
+{
+  "snapshot": {
+    "plantSlug": "pallidiflorum",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium pallidiflorum",
+    "checkedAt": "2026-06-29T19:12:16.231Z",
+    "currency": "GBP",
+    "rawResultCount": 49,
+    "acceptedCount": 38,
+    "rejectedCount": 11,
+    "outlierCount": 4,
+    "confidenceScore": "A",
+    "minPrice": 19.99,
+    "p25Price": 24.99,
+    "medianPrice": 27.979999999999997,
+    "meanPrice": 36.16789473684211,
+    "trimmedMeanPrice": 29.261428571428578,
+    "p75Price": 42.13,
+    "maxPrice": 97.67999999999999,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 38,
+    "min": 19.99,
+    "max": 97.67999999999999,
+    "median": 27.979999999999997,
+    "mean": 36.16789473684211,
+    "p25": 24.99,
+    "p75": 42.13,
+    "iqr": 17.140000000000004,
+    "trimmedMean": 29.261428571428578,
+    "confidenceScore": "A",
+    "rejectedCount": 11,
+    "rejectionReasons": {},
+    "outlierCount": 4
+  },
+  "acceptedListings": [
+    {
+      "title": "Anthurium Pallidiflorum Narrow Form Rare Aroid #3",
+      "url": "https://www.ebay.co.uk/itm/206369391039",
+      "soldPrice": 24.99,
+      "totalPrice": 24.99,
+      "soldDate": "2026-06-26",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Narrow Form Rare Aroid",
+      "url": "https://www.ebay.co.uk/itm/206309551804",
+      "soldPrice": 24.99,
+      "totalPrice": 24.99,
+      "soldDate": "2026-06-27",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Big Size",
+      "url": "https://www.ebay.co.uk/itm/267704682524",
+      "soldPrice": 53.04,
+      "totalPrice": 60.23,
+      "soldDate": "2026-06-27",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Big Size",
+      "url": "https://www.ebay.co.uk/itm/277972012943",
+      "soldPrice": 94.3,
+      "totalPrice": 97.67999999999999,
+      "soldDate": "2026-06-24",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Guazalan",
+      "url": "https://www.ebay.co.uk/itm/326855011732",
+      "soldPrice": 42.3,
+      "totalPrice": 45.68,
+      "soldDate": "2026-06-11",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Narrow Form Rare Aroid #17",
+      "url": "https://www.ebay.co.uk/itm/206323889260",
+      "soldPrice": 19.99,
+      "totalPrice": 19.99,
+      "soldDate": "2026-06-11",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium pallidiflorum narrow form #1",
+      "url": "https://www.ebay.co.uk/itm/127912916563",
+      "soldPrice": 19.36,
+      "totalPrice": 22.74,
+      "soldDate": "2026-06-11",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium pallidiflorum narrow form #2",
+      "url": "https://www.ebay.co.uk/itm/127912918497",
+      "soldPrice": 23.58,
+      "totalPrice": 26.959999999999997,
+      "soldDate": "2026-06-11",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium pallidiflorum #3",
+      "url": "https://www.ebay.co.uk/itm/127912983561",
+      "soldPrice": 31.9,
+      "totalPrice": 35.28,
+      "soldDate": "2026-06-10",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Narrow Form Rare Aroid #18",
+      "url": "https://www.ebay.co.uk/itm/206323889613",
+      "soldPrice": 19.99,
+      "totalPrice": 19.99,
+      "soldDate": "2026-06-10",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Big Size",
+      "url": "https://www.ebay.co.uk/itm/277972014111",
+      "soldPrice": 78.7,
+      "totalPrice": 82.08,
+      "soldDate": "2026-06-02",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Narrow Form - Rare Aroid #15",
+      "url": "https://www.ebay.co.uk/itm/206313959351",
+      "soldPrice": 24.99,
+      "totalPrice": 24.99,
+      "soldDate": "2026-06-02",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Narrow Form - Rare Aroid #8",
+      "url": "https://www.ebay.co.uk/itm/206248784530",
+      "soldPrice": 21.24,
+      "totalPrice": 21.24,
+      "soldDate": "2026-06-01",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Narrow Form #12",
+      "url": "https://www.ebay.co.uk/itm/206297654654",
+      "soldPrice": 19.99,
+      "totalPrice": 19.99,
+      "soldDate": "2026-05-30",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Narrow Form Rare Aroid",
+      "url": "https://www.ebay.co.uk/itm/206103445951",
+      "soldPrice": 24.99,
+      "totalPrice": 24.99,
+      "soldDate": "2026-05-29",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Narrow Form #13",
+      "url": "https://www.ebay.co.uk/itm/206297655143",
+      "soldPrice": 19.99,
+      "totalPrice": 19.99,
+      "soldDate": "2026-05-28",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Narrow Form #11",
+      "url": "https://www.ebay.co.uk/itm/206297654266",
+      "soldPrice": 19.99,
+      "totalPrice": 19.99,
+      "soldDate": "2026-05-28",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Narrow Form - Rare Aroid #10",
+      "url": "https://www.ebay.co.uk/itm/206251117364",
+      "soldPrice": 24.99,
+      "totalPrice": 27.979999999999997,
+      "soldDate": "2026-05-11",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Very Healthy Rare Anthurium Pallidiflorum 5 leaves 8 cms Pot",
+      "url": "https://www.ebay.co.uk/itm/306930551441",
+      "soldPrice": 31.9,
+      "totalPrice": 34.839999999999996,
+      "soldDate": "2026-05-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Narrow Form - Rare Aroid #7",
+      "url": "https://www.ebay.co.uk/itm/206248784285",
+      "soldPrice": 24.99,
+      "totalPrice": 27.979999999999997,
+      "soldDate": "2026-05-11",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Narrow Form - Rare Plant #3",
+      "url": "https://www.ebay.co.uk/itm/206223424978",
+      "soldPrice": 26,
+      "totalPrice": 28.990000000000002,
+      "soldDate": "2026-05-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Guazalan Big Size",
+      "url": "https://www.ebay.co.uk/itm/326855012882",
+      "soldPrice": 83.9,
+      "totalPrice": 87.28,
+      "soldDate": "2026-05-02",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Narrow Form - Rare Plant #4",
+      "url": "https://www.ebay.co.uk/itm/206223425127",
+      "soldPrice": 26,
+      "totalPrice": 26,
+      "soldDate": "2026-04-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Narrow Form - Rare Plant #2",
+      "url": "https://www.ebay.co.uk/itm/206223424689",
+      "soldPrice": 25.74,
+      "totalPrice": 25.74,
+      "soldDate": "2026-04-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Narrow Form - Rare Plant #1",
+      "url": "https://www.ebay.co.uk/itm/206223424309",
+      "soldPrice": 25.74,
+      "totalPrice": 25.74,
+      "soldDate": "2026-04-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Narrow Form - Rare Plant #5",
+      "url": "https://www.ebay.co.uk/itm/206232500500",
+      "soldPrice": 26,
+      "totalPrice": 29.45,
+      "soldDate": "2026-04-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium pallidiflorum 0402",
+      "url": "https://www.ebay.co.uk/itm/127826533948",
+      "soldPrice": 43.34,
+      "totalPrice": 46.720000000000006,
+      "soldDate": "2026-04-24",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Very Healthy Rare Anthurium Pallidiflorum 5 leaves 8 cms Pot",
+      "url": "https://www.ebay.co.uk/itm/306888761160",
+      "soldPrice": 31.9,
+      "totalPrice": 34.839999999999996,
+      "soldDate": "2026-04-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Narrow Form - Rare Plant #6",
+      "url": "https://www.ebay.co.uk/itm/206124749853",
+      "soldPrice": 24.99,
+      "totalPrice": 27.979999999999997,
+      "soldDate": "2026-04-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "anthurium pallidiflorum rare plant",
+      "url": "https://www.ebay.co.uk/itm/389589635206",
+      "soldPrice": 69.34,
+      "totalPrice": 72.72,
+      "soldDate": "2026-04-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Narrow Form - Rare Plant #12",
+      "url": "https://www.ebay.co.uk/itm/206186733604",
+      "soldPrice": 24.99,
+      "totalPrice": 27.979999999999997,
+      "soldDate": "2026-04-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Rooted Indoor House Plant",
+      "url": "https://www.ebay.co.uk/itm/178003505456",
+      "soldPrice": 41.26,
+      "totalPrice": 44.64,
+      "soldDate": "2026-04-14",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Narrow Form - Rare Plant #7",
+      "url": "https://www.ebay.co.uk/itm/206145773006",
+      "soldPrice": 24.99,
+      "totalPrice": 28.49,
+      "soldDate": "2026-04-09",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium pallidiflorum - rooted aroid plant",
+      "url": "https://www.ebay.co.uk/itm/267630559150",
+      "soldPrice": 26.7,
+      "totalPrice": 30.08,
+      "soldDate": "2026-04-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Narrow Form - Rare Plant #11",
+      "url": "https://www.ebay.co.uk/itm/206177349162",
+      "soldPrice": 24.99,
+      "totalPrice": 24.99,
+      "soldDate": "2026-04-06",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Guayusa",
+      "url": "https://www.ebay.co.uk/itm/318063527916",
+      "soldPrice": 40,
+      "totalPrice": 43.38,
+      "soldDate": "2026-04-05",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Pallidiflorum Guazhalan",
+      "url": "https://www.ebay.co.uk/itm/318063562649",
+      "soldPrice": 45,
+      "totalPrice": 48.38,
+      "soldDate": "2026-04-05",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium pallidiflorum - rooted aroid plant",
+      "url": "https://www.ebay.co.uk/itm/267628572605",
+      "soldPrice": 35,
+      "totalPrice": 38.38,
+      "soldDate": "2026-04-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 38,
+  "rejectedCount": 11,
+  "rejectionBreakdown": {
+    "Contains excluded term": [
+      "anthurium pallidiflorum x self - seedling",
+      "anthurium pallidiflorum x self - seedling",
+      "anthurium pallidiflorum x self - seedling"
+    ]
+  }
+}

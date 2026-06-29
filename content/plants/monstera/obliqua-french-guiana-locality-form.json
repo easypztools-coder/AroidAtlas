@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Ultra Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£££",
   "aboutText": "This Monstera obliqua French Guiana Locality Form is a delicate climber found in the humid, shaded understories of lowland tropical rainforests. It grows on slender trunks, anchoring itself with woody vines. The plant thrives in conditions of high, stable humidity, filtered light, and rich, decomposing organic matter. Its fenestration is a defining characteristic, making it highly sought after by collectors.",
   "quickFacts": {
     "growthHabit": "Climber",
@@ -34,7 +34,7 @@
     "growthHabit": "Fine-stemmed climber"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 13,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

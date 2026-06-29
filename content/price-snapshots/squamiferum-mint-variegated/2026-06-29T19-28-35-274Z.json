@@ -1,0 +1,121 @@
+{
+  "snapshot": {
+    "plantSlug": "squamiferum-mint-variegated",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron squamiferum variegated",
+    "checkedAt": "2026-06-29T19:28:35.274Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 8,
+    "rejectedCount": 232,
+    "outlierCount": 2,
+    "confidenceScore": "D",
+    "minPrice": 7.13,
+    "p25Price": 9.6575,
+    "medianPrice": 10.15,
+    "meanPrice": 11.22,
+    "trimmedMeanPrice": 11.22,
+    "p75Price": 11.6175,
+    "maxPrice": 18.53,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 8,
+    "min": 7.13,
+    "max": 18.53,
+    "median": 10.15,
+    "mean": 11.22,
+    "p25": 9.6575,
+    "p75": 11.6175,
+    "iqr": 1.959999999999999,
+    "trimmedMean": 11.22,
+    "confidenceScore": "D",
+    "rejectedCount": 232,
+    "rejectionReasons": {},
+    "outlierCount": 2
+  },
+  "acceptedListings": [
+    {
+      "title": "🐱RARE Philodendron SQUAMIFERUM VARIEGATED mid CUT  rooting (not monstera",
+      "url": "https://www.ebay.co.uk/itm/336653496791",
+      "soldPrice": 9.82,
+      "totalPrice": 14.97,
+      "soldDate": "2026-06-28",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱RARE Philodendron SQUAMIFERUM Variegated TOP CUT  (not monstera",
+      "url": "https://www.ebay.co.uk/itm/336639301274",
+      "soldPrice": 13.38,
+      "totalPrice": 18.53,
+      "soldDate": "2026-06-21",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "philodendron squamiferum variegated",
+      "url": "https://www.ebay.co.uk/itm/257553599053",
+      "soldPrice": 1.13,
+      "totalPrice": 7.13,
+      "soldDate": "2026-06-15",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "philodendron squamiferum variegated",
+      "url": "https://www.ebay.co.uk/itm/257553598583",
+      "soldPrice": 2.18,
+      "totalPrice": 8.18,
+      "soldDate": "2026-06-15",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare Philodendron Squamiferum Variegated❌ Reverted Full Plant",
+      "url": "https://www.ebay.co.uk/itm/366453599446",
+      "soldPrice": 10.5,
+      "totalPrice": 10.5,
+      "soldDate": "2026-06-08",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "philodendron squamiferum variegated",
+      "url": "https://www.ebay.co.uk/itm/257508976417",
+      "soldPrice": 4.15,
+      "totalPrice": 10.15,
+      "soldDate": "2026-05-23",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "philodendron squamiferum variegated",
+      "url": "https://www.ebay.co.uk/itm/257508976027",
+      "soldPrice": 4.15,
+      "totalPrice": 10.15,
+      "soldDate": "2026-05-23",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "philodendron squamiferum variegated",
+      "url": "https://www.ebay.co.uk/itm/257508975871",
+      "soldPrice": 4.15,
+      "totalPrice": 10.15,
+      "soldDate": "2026-05-23",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 8,
+  "rejectedCount": 232,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "rare💛philodendron squamiferum x green congo hybrid variegated one leaf",
+      "rare philodendron squamiferum x green congo hybrid variegated",
+      "philodendron squamiferum"
+    ]
+  }
+}

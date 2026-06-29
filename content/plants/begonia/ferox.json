@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Very Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£",
   "aboutText": "Begonia ferox, described by C.-I.Peng and Yan Liu., is a limestone forest endemic from the Guangxi Zhuang Autonomous Region of southern China — typically found in shaded karst habitats at low to mid elevations, growing on moist, humus-rich calcareous soil and in crevices of limestone rock. The name 'ferox' (fierce) refers to the plant's most extraordinary feature: the upper surface of each thick, heavily bullate leaf is covered with numerous dark conical bullae — hard, spine-like projections rising from the raised surface texture in a pattern that resembles armour or reptile scales. The upper surface is deep green with prominent venation; undersides are maroon to burgundy. Short, densely spiny petioles complete the effect. Ferox has become one of the most sought-after of all collector Begonias since its description in 2015, and remains genuinely difficult to obtain in the UK market.",
   "quickFacts": {
     "growthHabit": "Rhizomatous, creeping",
@@ -34,7 +34,7 @@
     "growthHabit": "Creeping rhizome with compact leaf arrangement"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 280,
+    "currentMedianPriceGBP": 18,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

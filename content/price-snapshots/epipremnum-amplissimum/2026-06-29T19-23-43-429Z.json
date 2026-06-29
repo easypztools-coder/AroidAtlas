@@ -1,0 +1,139 @@
+{
+  "snapshot": {
+    "plantSlug": "epipremnum-amplissimum",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Epipremnum amplissimum",
+    "checkedAt": "2026-06-29T19:23:43.429Z",
+    "currency": "GBP",
+    "rawResultCount": 209,
+    "acceptedCount": 10,
+    "rejectedCount": 199,
+    "outlierCount": 1,
+    "confidenceScore": "D",
+    "minPrice": 8.18,
+    "p25Price": 14.93,
+    "medianPrice": 16.325,
+    "meanPrice": 19.032,
+    "trimmedMeanPrice": 19.032,
+    "p75Price": 22.979999999999997,
+    "maxPrice": 39.980000000000004,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 10,
+    "min": 8.18,
+    "max": 39.980000000000004,
+    "median": 16.325,
+    "mean": 19.032,
+    "p25": 14.93,
+    "p75": 22.979999999999997,
+    "iqr": 8.049999999999997,
+    "trimmedMean": 19.032,
+    "confidenceScore": "D",
+    "rejectedCount": 199,
+    "rejectionReasons": {},
+    "outlierCount": 1
+  },
+  "acceptedListings": [
+    {
+      "title": "Epipremnum Amplissimum variegated #10",
+      "url": "https://www.ebay.co.uk/itm/206369521828",
+      "soldPrice": 15.99,
+      "totalPrice": 15.99,
+      "soldDate": "2026-06-28",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "epipremnum amplissimum silver Live Potted Indoor Houseplant",
+      "url": "https://www.ebay.co.uk/itm/358674507446",
+      "soldPrice": 11.85,
+      "totalPrice": 15.23,
+      "soldDate": "2026-06-18",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Epipremnum Amplissimum Houseplant",
+      "url": "https://www.ebay.co.uk/itm/178095254582",
+      "soldPrice": 14.83,
+      "totalPrice": 14.83,
+      "soldDate": "2026-05-20",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Epipremnum amplissimum Variegated - Aroid - Houseplant/Terrarium Plant - P0434",
+      "url": "https://www.ebay.co.uk/itm/227315562909",
+      "soldPrice": 34.99,
+      "totalPrice": 39.980000000000004,
+      "soldDate": "2026-05-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Epipremnum Amplissimum variegated #3",
+      "url": "https://www.ebay.co.uk/itm/206237083090",
+      "soldPrice": 19.99,
+      "totalPrice": 22.979999999999997,
+      "soldDate": "2026-05-24",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Epipremnum Amplissimum variegated #4",
+      "url": "https://www.ebay.co.uk/itm/206246537569",
+      "soldPrice": 19.99,
+      "totalPrice": 22.979999999999997,
+      "soldDate": "2026-05-09",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Epipremnum Amplissimum Aureum Variegated Baby Houseplant Unbranded",
+      "url": "https://www.ebay.co.uk/itm/137187392950",
+      "soldPrice": 5.37,
+      "totalPrice": 8.75,
+      "soldDate": "2026-04-13",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Epipremnum Amplissimum Variegated Rare Plant #11",
+      "url": "https://www.ebay.co.uk/itm/206151879854",
+      "soldPrice": 24.74,
+      "totalPrice": 24.74,
+      "soldDate": "2026-04-06",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Epipremnum Amplissimum Aurea Variegated",
+      "url": "https://www.ebay.co.uk/itm/257428438108",
+      "soldPrice": 2.18,
+      "totalPrice": 8.18,
+      "soldDate": "2026-04-03",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Epipremnum Amplissimum Aurea Variegated",
+      "url": "https://www.ebay.co.uk/itm/257428436045",
+      "soldPrice": 10.66,
+      "totalPrice": 16.66,
+      "soldDate": "2026-04-03",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 10,
+  "rejectedCount": 199,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "epipremnum aureum 'global green pothos' rooted & established houseplant",
+      "epipremnum sp. lime mint platinum variegated selection of cuttings, rooting",
+      "epipremnum aureum neon pothos 1x well rooted cutting 4-5 leaf cuttings"
+    ]
+  }
+}

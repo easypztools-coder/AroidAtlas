@@ -1,0 +1,268 @@
+{
+  "snapshot": {
+    "plantSlug": "melanochrysum-variegated",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron melanochrysum variegated",
+    "checkedAt": "2026-06-29T19:27:24.015Z",
+    "currency": "GBP",
+    "rawResultCount": 61,
+    "acceptedCount": 24,
+    "rejectedCount": 37,
+    "outlierCount": 3,
+    "confidenceScore": "C",
+    "minPrice": 8.23,
+    "p25Price": 26.56,
+    "medianPrice": 29.005,
+    "meanPrice": 31.513750000000005,
+    "trimmedMeanPrice": 30.34235294117647,
+    "p75Price": 33.4875,
+    "maxPrice": 91.69,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 24,
+    "min": 8.23,
+    "max": 91.69,
+    "median": 29.005,
+    "mean": 31.513750000000005,
+    "p25": 26.56,
+    "p75": 33.4875,
+    "iqr": 6.927499999999998,
+    "trimmedMean": 30.34235294117647,
+    "confidenceScore": "C",
+    "rejectedCount": 37,
+    "rejectionReasons": {},
+    "outlierCount": 3
+  },
+  "acceptedListings": [
+    {
+      "title": "Philodendron Melanochrysum Variegated #4",
+      "url": "https://www.ebay.co.uk/itm/397990558877",
+      "soldPrice": 21.56,
+      "totalPrice": 26.56,
+      "soldDate": "2026-06-29",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Melanochrysum Variegated #14",
+      "url": "https://www.ebay.co.uk/itm/397990564392",
+      "soldPrice": 21.56,
+      "totalPrice": 26.56,
+      "soldDate": "2026-06-29",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare Philodendron Melanochrysum Variegated Rooted Plant",
+      "url": "https://www.ebay.co.uk/itm/366485968469",
+      "soldPrice": 9.99,
+      "totalPrice": 9.99,
+      "soldDate": "2026-06-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Melanochrysum Variegated #13",
+      "url": "https://www.ebay.co.uk/itm/397990562958",
+      "soldPrice": 21.56,
+      "totalPrice": 26.56,
+      "soldDate": "2026-06-21",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "philodendron melanochrysum variegated",
+      "url": "https://www.ebay.co.uk/itm/257532367961",
+      "soldPrice": 2.23,
+      "totalPrice": 8.23,
+      "soldDate": "2026-06-04",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Melanochrysum Variegated #20",
+      "url": "https://www.ebay.co.uk/itm/398011541412",
+      "soldPrice": 21.56,
+      "totalPrice": 26.56,
+      "soldDate": "2026-06-04",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Melanochrysum Variegated #17",
+      "url": "https://www.ebay.co.uk/itm/397990569458",
+      "soldPrice": 21.56,
+      "totalPrice": 26.56,
+      "soldDate": "2026-06-03",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Melanochrysum Variegated #2",
+      "url": "https://www.ebay.co.uk/itm/206297630664",
+      "soldPrice": 39.99,
+      "totalPrice": 39.99,
+      "soldDate": "2026-06-01",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Melanochrysum Variegated #20",
+      "url": "https://www.ebay.co.uk/itm/397990577062",
+      "soldPrice": 21.56,
+      "totalPrice": 26.56,
+      "soldDate": "2026-05-31",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Melanochrysum Variegated #15",
+      "url": "https://www.ebay.co.uk/itm/397990565603",
+      "soldPrice": 21.56,
+      "totalPrice": 26.56,
+      "soldDate": "2026-05-29",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Melanochrysum Variegated #19",
+      "url": "https://www.ebay.co.uk/itm/397990574892",
+      "soldPrice": 21.56,
+      "totalPrice": 26.56,
+      "soldDate": "2026-05-28",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Melanochrysum Variegated Rare Plant #3",
+      "url": "https://www.ebay.co.uk/itm/206235436009",
+      "soldPrice": 29,
+      "totalPrice": 32.5,
+      "soldDate": "2026-05-18",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Melanochrysum Variegated Rare Plant #6",
+      "url": "https://www.ebay.co.uk/itm/206249045112",
+      "soldPrice": 32.99,
+      "totalPrice": 36.49,
+      "soldDate": "2026-05-16",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Melanochrysum Variegated #10",
+      "url": "https://www.ebay.co.uk/itm/397883451055",
+      "soldPrice": 21.56,
+      "totalPrice": 26.56,
+      "soldDate": "2026-05-09",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Melanochrysum Variegated #11",
+      "url": "https://www.ebay.co.uk/itm/397883451406",
+      "soldPrice": 21.56,
+      "totalPrice": 26.56,
+      "soldDate": "2026-05-06",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Melanochrysum Variegated Rare Plant #4",
+      "url": "https://www.ebay.co.uk/itm/206235436010",
+      "soldPrice": 32,
+      "totalPrice": 36.45,
+      "soldDate": "2026-05-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Melanochrysum Variegated Rare Plant #5",
+      "url": "https://www.ebay.co.uk/itm/206249044909",
+      "soldPrice": 32.99,
+      "totalPrice": 37.49,
+      "soldDate": "2026-05-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Melanochrysum Variegated Rare Plant #2",
+      "url": "https://www.ebay.co.uk/itm/206234319639",
+      "soldPrice": 27,
+      "totalPrice": 31.45,
+      "soldDate": "2026-05-01",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Melanochrysum Variegated Rare Plant #1",
+      "url": "https://www.ebay.co.uk/itm/206234318416",
+      "soldPrice": 32,
+      "totalPrice": 36.45,
+      "soldDate": "2026-04-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Melanochrysum Variegated Rare Plant #5",
+      "url": "https://www.ebay.co.uk/itm/206191723377",
+      "soldPrice": 29,
+      "totalPrice": 32.5,
+      "soldDate": "2026-04-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Super Rare! Philodendron Melanochrysum Variegated Orange TOP Cutting rooted",
+      "url": "https://www.ebay.co.uk/itm/168060129690",
+      "soldPrice": 88.31,
+      "totalPrice": 91.69,
+      "soldDate": "2026-04-20",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Melanochrysum Variegated Rare Plant #4",
+      "url": "https://www.ebay.co.uk/itm/206191723012",
+      "soldPrice": 29,
+      "totalPrice": 32.5,
+      "soldDate": "2026-04-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Melanochrysum Variegated Rare Plant #3",
+      "url": "https://www.ebay.co.uk/itm/206164052498",
+      "soldPrice": 29,
+      "totalPrice": 32.5,
+      "soldDate": "2026-04-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Melanochrysum Variegated Rare Plant #2",
+      "url": "https://www.ebay.co.uk/itm/206164052497",
+      "soldPrice": 29,
+      "totalPrice": 32.5,
+      "soldDate": "2026-04-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 24,
+  "rejectedCount": 37,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "rare🧡philodendron melanochrysum orange variegated one leaf rooted cutting",
+      "rare philodendron melanochrysum orange variegated rooted top plantt",
+      "rare🧡philodendron melanochrysum orange variegated one leaf rooted cutting"
+    ],
+    "Total price £2.16 is below £5 minimum": [
+      "philodendron melanochrysum variegated x3 cuttings"
+    ]
+  }
+}

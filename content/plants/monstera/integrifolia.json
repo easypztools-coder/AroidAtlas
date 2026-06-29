@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Monstera integrifolia is a rare climbing aroid native to the humid wet tropical forests of Colombia and Panama. It is distinguished by its consistently entire, non-fenestrated leaves, which sets it apart from the more common lobed Monstera species. The plant exhibits a refined climbing architecture, using aerial roots to anchor itself into rich, organic substrates while ascending from the shaded understory toward filtered light. It thrives in high-humidity environments where consistent moisture is maintained.",
   "quickFacts": {
     "growthHabit": "Climbing epiphyte",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing with visible nodes and aerial roots"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 46,
+    "currentMedianPriceGBP": 37,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

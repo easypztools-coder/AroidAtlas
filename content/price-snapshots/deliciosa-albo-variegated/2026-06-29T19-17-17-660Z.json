@@ -1,0 +1,1529 @@
+{
+  "snapshot": {
+    "plantSlug": "deliciosa-albo-variegated",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera Albo Variegated",
+    "checkedAt": "2026-06-29T19:17:17.660Z",
+    "rawResultCount": 240,
+    "acceptedCount": 164,
+    "rejectedCount": 76,
+    "outlierCount": 9,
+    "confidenceScore": "A",
+    "minPrice": 5.12,
+    "p25Price": 9.8975,
+    "medianPrice": 14.67,
+    "meanPrice": 22.155365853658534,
+    "trimmedMeanPrice": 15.776480000000005,
+    "p75Price": 24.63,
+    "maxPrice": 397,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 164,
+    "min": 5.12,
+    "max": 397,
+    "median": 14.67,
+    "mean": 22.155365853658534,
+    "p25": 9.8975,
+    "p75": 24.63,
+    "iqr": 14.732499999999998,
+    "trimmedMean": 15.776480000000005,
+    "confidenceScore": "A",
+    "rejectedCount": 76,
+    "rejectionReasons": {},
+    "outlierCount": 9
+  },
+  "acceptedListings": [
+    {
+      "title": "XL 38 cm⭐Highly Variegated⭐Monstera Deliciosa Albo -WHITE/Mint Marble- Plant🌱",
+      "url": "https://www.ebay.co.uk/itm/398091980549",
+      "soldPrice": 22.73,
+      "totalPrice": 25.67,
+      "soldDate": "2026-06-29",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "⭐HALF MOON Marble⭐ Highly Variegated Monstera Deliciosa Albo - WHITE - Plant🌱",
+      "url": "https://www.ebay.co.uk/itm/398114598419",
+      "soldPrice": 29.68,
+      "totalPrice": 29.68,
+      "soldDate": "2026-06-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegated Plant",
+      "url": "https://www.ebay.co.uk/itm/358562526306",
+      "soldPrice": 9.61,
+      "totalPrice": 12.57,
+      "soldDate": "2026-06-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegated 3 Leaf Potted Plant",
+      "url": "https://www.ebay.co.uk/itm/800251616502",
+      "soldPrice": 19.77,
+      "totalPrice": 23.15,
+      "soldDate": "2026-06-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo, HALF-MOON Variegated, 1-LEAF Cutting, Rooting, A3",
+      "url": "https://www.ebay.co.uk/itm/178241861947",
+      "soldPrice": 24.99,
+      "totalPrice": 24.99,
+      "soldDate": "2026-06-28",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo, HIGHLY Variegated, 1-LEAF Cutting, Rooted in water, A1",
+      "url": "https://www.ebay.co.uk/itm/178228264475",
+      "soldPrice": 9.99,
+      "totalPrice": 9.99,
+      "soldDate": "2026-06-27",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "⭐Variegated Monstera Deliciosa ALBO ⭐ WHITE Marble - House Plant🌱 not aurea",
+      "url": "https://www.ebay.co.uk/itm/398064977521",
+      "soldPrice": 19.76,
+      "totalPrice": 22.700000000000003,
+      "soldDate": "2026-06-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Baby Plant Bundle Monstera Albo Variegated Epipremnum Global Green Raphidophora",
+      "url": "https://www.ebay.co.uk/itm/336648530305",
+      "soldPrice": 5.37,
+      "totalPrice": 8.75,
+      "soldDate": "2026-06-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo Variegated (cosmetics damage)",
+      "url": "https://www.ebay.co.uk/itm/398000459252",
+      "soldPrice": 21.25,
+      "totalPrice": 26.4,
+      "soldDate": "2026-06-20",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo, HIGHLY Variegated, 1-LEAF Cutting, Rooting in water, A1",
+      "url": "https://www.ebay.co.uk/itm/178078596114",
+      "soldPrice": 24.99,
+      "totalPrice": 24.99,
+      "soldDate": "2026-06-26",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo Variegated Young Established Plant",
+      "url": "https://www.ebay.co.uk/itm/236820546276",
+      "soldPrice": 10.67,
+      "totalPrice": 14.05,
+      "soldDate": "2026-06-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegated Cutting",
+      "url": "https://www.ebay.co.uk/itm/127720587571",
+      "soldPrice": 19.13,
+      "totalPrice": 22.07,
+      "soldDate": "2026-06-26",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo, HIGHLY Variegated, 1-LEAF Cutting, Rooting in water, A2",
+      "url": "https://www.ebay.co.uk/itm/178241855381",
+      "soldPrice": 24.99,
+      "totalPrice": 24.99,
+      "soldDate": "2026-06-24",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo/ Variegated",
+      "url": "https://www.ebay.co.uk/itm/406990765304",
+      "soldPrice": 8.55,
+      "totalPrice": 11.93,
+      "soldDate": "2026-06-24",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Deliciosa ALBO ⭐ REVERTED ⭐- swiss cheese House Plant 🌱",
+      "url": "https://www.ebay.co.uk/itm/398065071041",
+      "soldPrice": 4.92,
+      "totalPrice": 7.859999999999999,
+      "soldDate": "2026-06-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo Variegated Indoor Houseplant In A 10cm Pot",
+      "url": "https://www.ebay.co.uk/itm/377241958461",
+      "soldPrice": 15.96,
+      "totalPrice": 15.96,
+      "soldDate": "2026-06-23",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo, HALF-MOON Variegated, 1-LEAF Cutting, Rooting, A2",
+      "url": "https://www.ebay.co.uk/itm/178241860820",
+      "soldPrice": 24.99,
+      "totalPrice": 24.99,
+      "soldDate": "2026-06-22",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱RARE Monstera ALBO GHOST Highly Variegated 7 leaves rooted (not philodendron",
+      "url": "https://www.ebay.co.uk/itm/336639316895",
+      "soldPrice": 48.61,
+      "totalPrice": 53.76,
+      "soldDate": "2026-06-21",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegata beautiful fresh cutting rare plant",
+      "url": "https://www.ebay.co.uk/itm/327208128373",
+      "soldPrice": 17.02,
+      "totalPrice": 19.98,
+      "soldDate": "2026-06-20",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegated 1 Leaf Cutting Rooted half moon read",
+      "url": "https://www.ebay.co.uk/itm/327172826560",
+      "soldPrice": 5.37,
+      "totalPrice": 5.37,
+      "soldDate": "2026-06-19",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "XXL 41 cm⭐Highly Variegated⭐Monstera Deliciosa Albo -WHITE/Mint Marble- Plant🌱",
+      "url": "https://www.ebay.co.uk/itm/398058317454",
+      "soldPrice": 24.72,
+      "totalPrice": 27.66,
+      "soldDate": "2026-06-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "XXL 41 cm🌿Highly Variegated⭐Monstera Deliciosa Albo -WHITE/Mint Marble- Plant🌱",
+      "url": "https://www.ebay.co.uk/itm/398058319906",
+      "soldPrice": 24.72,
+      "totalPrice": 27.66,
+      "soldDate": "2026-06-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Stunning Monstera Albo Variegated Cutting Rooted Half moon READ DESCRIPTION",
+      "url": "https://www.ebay.co.uk/itm/327172803442",
+      "soldPrice": 26.42,
+      "totalPrice": 26.42,
+      "soldDate": "2026-06-17",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegated plant 6/7 leaves well rooted 60-65cm tall 17cm dia pot",
+      "url": "https://www.ebay.co.uk/itm/146656201095",
+      "soldPrice": 64.65,
+      "totalPrice": 69.80000000000001,
+      "soldDate": "2026-06-16",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298419328127",
+      "soldPrice": 5.37,
+      "totalPrice": 5.37,
+      "soldDate": "2026-06-16",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298416073864",
+      "soldPrice": 5.37,
+      "totalPrice": 5.37,
+      "soldDate": "2026-06-16",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298416073004",
+      "soldPrice": 5.37,
+      "totalPrice": 5.37,
+      "soldDate": "2026-06-15",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298416074347",
+      "soldPrice": 5.37,
+      "totalPrice": 5.37,
+      "soldDate": "2026-06-15",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298409958506",
+      "soldPrice": 5.37,
+      "totalPrice": 5.37,
+      "soldDate": "2026-06-15",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298409957026",
+      "soldPrice": 5.37,
+      "totalPrice": 5.37,
+      "soldDate": "2026-06-15",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298409956055",
+      "soldPrice": 5.37,
+      "totalPrice": 5.37,
+      "soldDate": "2026-06-15",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298409945054",
+      "soldPrice": 6.44,
+      "totalPrice": 6.44,
+      "soldDate": "2026-06-15",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo/ Variegated",
+      "url": "https://www.ebay.co.uk/itm/406990758662",
+      "soldPrice": 12.78,
+      "totalPrice": 16.16,
+      "soldDate": "2026-06-14",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare! | Variegated | Monstera Albo | House Plant",
+      "url": "https://www.ebay.co.uk/itm/327200678689",
+      "soldPrice": 10.66,
+      "totalPrice": 15.81,
+      "soldDate": "2026-06-14",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Ultra White Monstera Deliciosa Albo Rooted Wet-Stick. Beautiful and Pristine.",
+      "url": "https://www.ebay.co.uk/itm/278071132471",
+      "soldPrice": 18.6,
+      "totalPrice": 21.98,
+      "soldDate": "2026-06-13",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Highly Variegated Plant",
+      "url": "https://www.ebay.co.uk/itm/137334505918",
+      "soldPrice": 15.96,
+      "totalPrice": 19.34,
+      "soldDate": "2026-06-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "2 leaf ACTIVATED growth, monstera albo, not old leaf and growth point",
+      "url": "https://www.ebay.co.uk/itm/178138953611",
+      "soldPrice": 23.32,
+      "totalPrice": 26.26,
+      "soldDate": "2026-06-13",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298396987019",
+      "soldPrice": 10.4,
+      "totalPrice": 13.34,
+      "soldDate": "2026-06-13",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298396963224",
+      "soldPrice": 5.9,
+      "totalPrice": 8.84,
+      "soldDate": "2026-06-13",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298396958267",
+      "soldPrice": 5.37,
+      "totalPrice": 8.31,
+      "soldDate": "2026-06-13",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298396957144",
+      "soldPrice": 5.9,
+      "totalPrice": 8.84,
+      "soldDate": "2026-06-13",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298396954149",
+      "soldPrice": 7.41,
+      "totalPrice": 10.35,
+      "soldDate": "2026-06-13",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298396952662",
+      "soldPrice": 6.44,
+      "totalPrice": 9.38,
+      "soldDate": "2026-06-13",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo, HIGHLY Variegated, 3-LEAF TOP Cutting, Rooting, A1",
+      "url": "https://www.ebay.co.uk/itm/178198322486",
+      "soldPrice": 16,
+      "totalPrice": 16,
+      "soldDate": "2026-06-13",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298396951569",
+      "soldPrice": 9.42,
+      "totalPrice": 12.36,
+      "soldDate": "2026-06-13",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Top Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298396950220",
+      "soldPrice": 15.96,
+      "totalPrice": 18.900000000000002,
+      "soldDate": "2026-06-13",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298393838253",
+      "soldPrice": 5.37,
+      "totalPrice": 8.31,
+      "soldDate": "2026-06-12",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298393837359",
+      "soldPrice": 5.9,
+      "totalPrice": 8.84,
+      "soldDate": "2026-06-12",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Deliciosa Albo Mid 1 Leaf Snip",
+      "url": "https://www.ebay.co.uk/itm/227356923953",
+      "soldPrice": 13.83,
+      "totalPrice": 17.21,
+      "soldDate": "2026-06-12",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Highly Variegated Monstera Albo Top Cutting (13)",
+      "url": "https://www.ebay.co.uk/itm/227374445973",
+      "soldPrice": 9.42,
+      "totalPrice": 12.36,
+      "soldDate": "2026-06-12",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Highly Variegated Monstera Albo Cutting (12)",
+      "url": "https://www.ebay.co.uk/itm/227374443816",
+      "soldPrice": 6.97,
+      "totalPrice": 9.91,
+      "soldDate": "2026-06-12",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Highly Variegated Monstera Albo Cutting (11)",
+      "url": "https://www.ebay.co.uk/itm/227374443225",
+      "soldPrice": 7.44,
+      "totalPrice": 10.38,
+      "soldDate": "2026-06-12",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Highly Variegated Monstera Albo Cutting (8)",
+      "url": "https://www.ebay.co.uk/itm/227374442196",
+      "soldPrice": 6.44,
+      "totalPrice": 9.38,
+      "soldDate": "2026-06-12",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Highly Variegated Monstera Albo Cutting (7)",
+      "url": "https://www.ebay.co.uk/itm/227374440461",
+      "soldPrice": 6.44,
+      "totalPrice": 9.38,
+      "soldDate": "2026-06-12",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera albo Cutting rooted",
+      "url": "https://www.ebay.co.uk/itm/257547648470",
+      "soldPrice": 21.25,
+      "totalPrice": 24.21,
+      "soldDate": "2026-06-11",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo, HIGHLY Variegated, 1-LEAF Cutting, Rooting in water, A2",
+      "url": "https://www.ebay.co.uk/itm/178198310808",
+      "soldPrice": 19.99,
+      "totalPrice": 19.99,
+      "soldDate": "2026-06-11",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo House Plant. Potted.",
+      "url": "https://www.ebay.co.uk/itm/398025551547",
+      "soldPrice": 21.24,
+      "totalPrice": 24.619999999999997,
+      "soldDate": "2026-06-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Highly Variegated Monstera Albo Cutting (5)",
+      "url": "https://www.ebay.co.uk/itm/227370874371",
+      "soldPrice": 6.91,
+      "totalPrice": 9.85,
+      "soldDate": "2026-06-10",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Highly Variegated Monstera Albo Cutting (4)",
+      "url": "https://www.ebay.co.uk/itm/227370869669",
+      "soldPrice": 8.42,
+      "totalPrice": 11.36,
+      "soldDate": "2026-06-10",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Highly Variegated Monstera Albo cutting (3)",
+      "url": "https://www.ebay.co.uk/itm/227370865837",
+      "soldPrice": 6.44,
+      "totalPrice": 9.38,
+      "soldDate": "2026-06-10",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Highly Variegated Monstera Albo Cutting (2)",
+      "url": "https://www.ebay.co.uk/itm/227370862491",
+      "soldPrice": 6.44,
+      "totalPrice": 9.38,
+      "soldDate": "2026-06-10",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Highly Variegated Monstera Albo Cutting (1)",
+      "url": "https://www.ebay.co.uk/itm/227370848667",
+      "soldPrice": 8.02,
+      "totalPrice": 10.959999999999999,
+      "soldDate": "2026-06-10",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "55/ Monstera Albo Highly Variegated whole Plant Variegata WELL rooted",
+      "url": "https://www.ebay.co.uk/itm/168070725506",
+      "soldPrice": 88.31,
+      "totalPrice": 88.31,
+      "soldDate": "2026-06-09",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegated top cutting Full Rooted",
+      "url": "https://www.ebay.co.uk/itm/358536322655",
+      "soldPrice": 19.13,
+      "totalPrice": 19.13,
+      "soldDate": "2026-06-08",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo Variegated In A 10cm Pot Indoor House Plant",
+      "url": "https://www.ebay.co.uk/itm/377241964280",
+      "soldPrice": 18.07,
+      "totalPrice": 18.07,
+      "soldDate": "2026-06-08",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱RARE Monstera Albo Highly Variegated 1 leaf rooted cutting (not philodendron",
+      "url": "https://www.ebay.co.uk/itm/336612154767",
+      "soldPrice": 8.42,
+      "totalPrice": 13.57,
+      "soldDate": "2026-06-07",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱RARE Monstera Albo Highly Variegated 4 leaves (not philodendron",
+      "url": "https://www.ebay.co.uk/itm/336612153764",
+      "soldPrice": 23.77,
+      "totalPrice": 28.92,
+      "soldDate": "2026-06-07",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱RARE Monstera Albo Highly Variegated 3 leaves (not philodendron",
+      "url": "https://www.ebay.co.uk/itm/336612132081",
+      "soldPrice": 33.71,
+      "totalPrice": 38.86,
+      "soldDate": "2026-06-07",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298378515752",
+      "soldPrice": 6.44,
+      "totalPrice": 9.38,
+      "soldDate": "2026-06-07",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298378514310",
+      "soldPrice": 5.9,
+      "totalPrice": 8.84,
+      "soldDate": "2026-06-07",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298378511023",
+      "soldPrice": 5.37,
+      "totalPrice": 8.31,
+      "soldDate": "2026-06-07",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298378499081",
+      "soldPrice": 5.37,
+      "totalPrice": 5.37,
+      "soldDate": "2026-06-07",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298378493162",
+      "soldPrice": 6.44,
+      "totalPrice": 9.38,
+      "soldDate": "2026-06-07",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Highly Variegated Monstera Albo Cutting (6)",
+      "url": "https://www.ebay.co.uk/itm/227374439850",
+      "soldPrice": 10.66,
+      "totalPrice": 13.6,
+      "soldDate": "2026-06-07",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Highly Variegated Monstera Albo Cutting (9)",
+      "url": "https://www.ebay.co.uk/itm/227374442801",
+      "soldPrice": 10.66,
+      "totalPrice": 13.6,
+      "soldDate": "2026-06-07",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Half Moon 4 Leaf Highly Variegated Monstera Albo Well Rooted In Medium And Cup",
+      "url": "https://www.ebay.co.uk/itm/287361823362",
+      "soldPrice": 30.73,
+      "totalPrice": 34.11,
+      "soldDate": "2026-06-05",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Highly Variegated Monstera Albo Tri Colour Cutting With New Shoot",
+      "url": "https://www.ebay.co.uk/itm/287361775472",
+      "soldPrice": 14.36,
+      "totalPrice": 17.74,
+      "soldDate": "2026-06-05",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo top cutting",
+      "url": "https://www.ebay.co.uk/itm/157970800016",
+      "soldPrice": 19.66,
+      "totalPrice": 22.6,
+      "soldDate": "2026-06-05",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo, HIGHLY Variegated, 2-LEAF TOP Cutting, Rooted, A1",
+      "url": "https://www.ebay.co.uk/itm/178143029406",
+      "soldPrice": 29.99,
+      "totalPrice": 29.99,
+      "soldDate": "2026-06-05",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegata  Top CUTTING  3 Aerial Roots Variegated",
+      "url": "https://www.ebay.co.uk/itm/206223878591",
+      "soldPrice": 15.8,
+      "totalPrice": 15.8,
+      "soldDate": "2026-06-04",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegata beautiful fresh cutting rare plant Ref 8",
+      "url": "https://www.ebay.co.uk/itm/327192310014",
+      "soldPrice": 11.72,
+      "totalPrice": 14.68,
+      "soldDate": "2026-06-03",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Highly Variegated Monstera Albo Whole Plant x2 vines NW London Collection",
+      "url": "https://www.ebay.co.uk/itm/257538560390",
+      "soldPrice": 62.58,
+      "totalPrice": 62.58,
+      "soldDate": "2026-06-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo Variegated Cutting Well-Rooted",
+      "url": "https://www.ebay.co.uk/itm/398007262302",
+      "soldPrice": 41.92,
+      "totalPrice": 45.300000000000004,
+      "soldDate": "2026-06-02",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "MONSTERA DELICIOSA ALBO, HIGH VARIEGATION 4-7 LEAF,2 LTR POT , FULLY ROOTED",
+      "url": "https://www.ebay.co.uk/itm/196487488126",
+      "soldPrice": 34,
+      "totalPrice": 48,
+      "soldDate": "2026-06-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Ultra White Monstera Deliciosa Albo Rooted Wet-Stick. Beautiful and Pristine.",
+      "url": "https://www.ebay.co.uk/itm/278040486382",
+      "soldPrice": 15.96,
+      "totalPrice": 19.34,
+      "soldDate": "2026-06-02",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa albo / variegated - Top",
+      "url": "https://www.ebay.co.uk/itm/406962441782",
+      "soldPrice": 19.13,
+      "totalPrice": 22.509999999999998,
+      "soldDate": "2026-06-02",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "monstera albo large form hi variegation + anthurium RLxFS from jv",
+      "url": "https://www.ebay.co.uk/itm/137369651643",
+      "soldPrice": 167.98,
+      "totalPrice": 174.14,
+      "soldDate": "2026-06-02",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Deliciosa 7ft tall  5 Growing Stems - Delivery Possible",
+      "url": "https://www.ebay.co.uk/itm/335954708114",
+      "soldPrice": 397,
+      "totalPrice": 397,
+      "soldDate": "2026-06-01",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegata Highly Variegated Established Rooted Plant 9cm Pot",
+      "url": "https://www.ebay.co.uk/itm/278021976411",
+      "soldPrice": 78.08,
+      "totalPrice": 78.08,
+      "soldDate": "2026-06-01",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegata  CUTTING  Variegated",
+      "url": "https://www.ebay.co.uk/itm/206296450494",
+      "soldPrice": 2.18,
+      "totalPrice": 5.17,
+      "soldDate": "2026-05-31",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegata  CUTTING  Variegated",
+      "url": "https://www.ebay.co.uk/itm/206296447462",
+      "soldPrice": 4.15,
+      "totalPrice": 7.140000000000001,
+      "soldDate": "2026-05-31",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo Variegated Young Established Plant",
+      "url": "https://www.ebay.co.uk/itm/236820236317",
+      "soldPrice": 15.96,
+      "totalPrice": 19.34,
+      "soldDate": "2026-05-31",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegata  CUTTING  Variegated",
+      "url": "https://www.ebay.co.uk/itm/206296443692",
+      "soldPrice": 2.67,
+      "totalPrice": 5.66,
+      "soldDate": "2026-05-31",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegata  CUTTING  Variegated",
+      "url": "https://www.ebay.co.uk/itm/206296432685",
+      "soldPrice": 2.18,
+      "totalPrice": 5.17,
+      "soldDate": "2026-05-31",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegata  TOP CUTTING  Variegated",
+      "url": "https://www.ebay.co.uk/itm/206296423798",
+      "soldPrice": 15.36,
+      "totalPrice": 18.35,
+      "soldDate": "2026-05-31",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Highly Variegated Plant",
+      "url": "https://www.ebay.co.uk/itm/227362182976",
+      "soldPrice": 19.13,
+      "totalPrice": 22.07,
+      "soldDate": "2026-05-31",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera deliciosa Albo Variegated - Rooted house plant",
+      "url": "https://www.ebay.co.uk/itm/318365465242",
+      "soldPrice": 36.75,
+      "totalPrice": 39.69,
+      "soldDate": "2026-05-30",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegated Variegata WELL rooted",
+      "url": "https://www.ebay.co.uk/itm/168399915080",
+      "soldPrice": 9.86,
+      "totalPrice": 13.239999999999998,
+      "soldDate": "2026-05-29",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Rooted Plant Highly Variegated with New Growth",
+      "url": "https://www.ebay.co.uk/itm/227358935229",
+      "soldPrice": 11.61,
+      "totalPrice": 14.989999999999998,
+      "soldDate": "2026-05-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegated Plant",
+      "url": "https://www.ebay.co.uk/itm/358562520287",
+      "soldPrice": 9.61,
+      "totalPrice": 12.57,
+      "soldDate": "2026-05-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegata Top CUTTING 1 Bud /Node 4 Aerial Roots Variegated",
+      "url": "https://www.ebay.co.uk/itm/206215375441",
+      "soldPrice": 18.76,
+      "totalPrice": 18.76,
+      "soldDate": "2026-05-28",
+      "listingType": "node",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Highly Variegated Plant - Interesting Variegation",
+      "url": "https://www.ebay.co.uk/itm/227354196258",
+      "soldPrice": 36.75,
+      "totalPrice": 39.69,
+      "soldDate": "2026-05-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo Variegated Unrooted/Rooted Cutting (PICK YOUR FAVOURITE)",
+      "url": "https://www.ebay.co.uk/itm/236827008554",
+      "soldPrice": 24.99,
+      "totalPrice": 24.99,
+      "soldDate": "2026-05-27",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Highly Variegated Plant",
+      "url": "https://www.ebay.co.uk/itm/227354220405",
+      "soldPrice": 19.13,
+      "totalPrice": 22.07,
+      "soldDate": "2026-05-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo -  variegated",
+      "url": "https://www.ebay.co.uk/itm/366432771176",
+      "soldPrice": 24.72,
+      "totalPrice": 28.099999999999998,
+      "soldDate": "2026-05-26",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298330147956",
+      "soldPrice": 10.67,
+      "totalPrice": 10.67,
+      "soldDate": "2026-05-25",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298330146986",
+      "soldPrice": 10.67,
+      "totalPrice": 13.61,
+      "soldDate": "2026-05-25",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298330145641",
+      "soldPrice": 10.67,
+      "totalPrice": 13.61,
+      "soldDate": "2026-05-25",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Top Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298330122601",
+      "soldPrice": 39.67,
+      "totalPrice": 39.67,
+      "soldDate": "2026-05-25",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegated Cutting No. 5",
+      "url": "https://www.ebay.co.uk/itm/800045026996",
+      "soldPrice": 5.36,
+      "totalPrice": 8.3,
+      "soldDate": "2026-05-25",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo Variegated Swiss Cheese Plant Rooted  Cutting 1 Leaf",
+      "url": "https://www.ebay.co.uk/itm/257504291611",
+      "soldPrice": 12.78,
+      "totalPrice": 15.719999999999999,
+      "soldDate": "2026-05-25",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Highly Variegated well rooted potted cutting Variegata",
+      "url": "https://www.ebay.co.uk/itm/168386852611",
+      "soldPrice": 9.86,
+      "totalPrice": 13.239999999999998,
+      "soldDate": "2026-05-24",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegata Top CUTTING lightly Variegated",
+      "url": "https://www.ebay.co.uk/itm/206212528759",
+      "soldPrice": 9.86,
+      "totalPrice": 9.86,
+      "soldDate": "2026-05-24",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "LARGE FORM! Monstera Deliciosa Albo Cream 'Yakuza' Variegated Young Plant Potted",
+      "url": "https://www.ebay.co.uk/itm/178139575455",
+      "soldPrice": 59,
+      "totalPrice": 64.49,
+      "soldDate": "2026-05-23",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo, EXTREMELY Variegated, 2-LEAF TOP Cutting, Rooting, A1",
+      "url": "https://www.ebay.co.uk/itm/178139463159",
+      "soldPrice": 21,
+      "totalPrice": 26.490000000000002,
+      "soldDate": "2026-05-23",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegated Full Rooted",
+      "url": "https://www.ebay.co.uk/itm/358365501298",
+      "soldPrice": 10.67,
+      "totalPrice": 15.120000000000001,
+      "soldDate": "2026-05-23",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegata  CUTTING 1 Bud /Node 2 Aerial Roots Variegated",
+      "url": "https://www.ebay.co.uk/itm/206280827968",
+      "soldPrice": 24.72,
+      "totalPrice": 24.72,
+      "soldDate": "2026-05-22",
+      "listingType": "node",
+      "currency": "GBP"
+    },
+    {
+      "title": "Ultra White Monstera Deliciosa Albo Rooted Wet-Stick. New Stem In Train.",
+      "url": "https://www.ebay.co.uk/itm/277937867019",
+      "soldPrice": 18.6,
+      "totalPrice": 21.98,
+      "soldDate": "2026-05-22",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "⭐Highly Variegated⭐Monstera Deliciosa Albo -WHITE/Mint Marble- Plant🌱 not aurea",
+      "url": "https://www.ebay.co.uk/itm/397876422081",
+      "soldPrice": 27.7,
+      "totalPrice": 30.64,
+      "soldDate": "2026-05-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegata CUTTING 1 Node/Bud 1 Aerial Roots Variegated",
+      "url": "https://www.ebay.co.uk/itm/147263885732",
+      "soldPrice": 10.86,
+      "totalPrice": 13.799999999999999,
+      "soldDate": "2026-05-20",
+      "listingType": "node",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegated Cutting Active Growth Node Unrooted",
+      "url": "https://www.ebay.co.uk/itm/227344943231",
+      "soldPrice": 12.78,
+      "totalPrice": 12.78,
+      "soldDate": "2026-05-20",
+      "listingType": "node",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298318156766",
+      "soldPrice": 10.67,
+      "totalPrice": 10.67,
+      "soldDate": "2026-05-19",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Rooted Cutting Highly Variegated",
+      "url": "https://www.ebay.co.uk/itm/327166977220",
+      "soldPrice": 12.78,
+      "totalPrice": 15.739999999999998,
+      "soldDate": "2026-05-19",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegata  CUTTING 2 Bud /Node 2 Aerial Roots Variegated",
+      "url": "https://www.ebay.co.uk/itm/206217289356",
+      "soldPrice": 13.82,
+      "totalPrice": 13.82,
+      "soldDate": "2026-05-18",
+      "listingType": "node",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo, HIGHLY Variegated, 2-LEAF TOP Cutting, Rooting, A1",
+      "url": "https://www.ebay.co.uk/itm/178139302702",
+      "soldPrice": 29.99,
+      "totalPrice": 29.99,
+      "soldDate": "2026-05-18",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo Highly Variegated - Fresh Cutting",
+      "url": "https://www.ebay.co.uk/itm/287334001679",
+      "soldPrice": 11.35,
+      "totalPrice": 14.29,
+      "soldDate": "2026-05-18",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo, HIGHLY Variegated, 3-LEAF TOP Cutting, Rooting, A1",
+      "url": "https://www.ebay.co.uk/itm/178139301268",
+      "soldPrice": 39.99,
+      "totalPrice": 39.99,
+      "soldDate": "2026-05-17",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298312057137",
+      "soldPrice": 10.67,
+      "totalPrice": 10.67,
+      "soldDate": "2026-05-17",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegated Plant",
+      "url": "https://www.ebay.co.uk/itm/358562514307",
+      "soldPrice": 10.67,
+      "totalPrice": 13.629999999999999,
+      "soldDate": "2026-05-16",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo Highly Variegated - Fresh Cutting",
+      "url": "https://www.ebay.co.uk/itm/287334002733",
+      "soldPrice": 11.35,
+      "totalPrice": 14.29,
+      "soldDate": "2026-05-16",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegated Cutting Plant",
+      "url": "https://www.ebay.co.uk/itm/377182548397",
+      "soldPrice": 10.67,
+      "totalPrice": 13.61,
+      "soldDate": "2026-05-16",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo, HIGHLY Variegated, 2-LEAF TOP Cutting, Rooting, A1",
+      "url": "https://www.ebay.co.uk/itm/178078593706",
+      "soldPrice": 29.99,
+      "totalPrice": 29.99,
+      "soldDate": "2026-05-16",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo variegated 1 leaf mid snip B",
+      "url": "https://www.ebay.co.uk/itm/178103261553",
+      "soldPrice": 21.25,
+      "totalPrice": 24.63,
+      "soldDate": "2026-05-15",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298302931816",
+      "soldPrice": 10.67,
+      "totalPrice": 10.67,
+      "soldDate": "2026-05-14",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298302925550",
+      "soldPrice": 10.67,
+      "totalPrice": 10.67,
+      "soldDate": "2026-05-14",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298302921093",
+      "soldPrice": 10.67,
+      "totalPrice": 10.67,
+      "soldDate": "2026-05-14",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo Variegated Large Potted Indoor House Plant 120cm",
+      "url": "https://www.ebay.co.uk/itm/168367627548",
+      "soldPrice": 79.37,
+      "totalPrice": 79.37,
+      "soldDate": "2026-05-14",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegated Cutting Plant",
+      "url": "https://www.ebay.co.uk/itm/377182544847",
+      "soldPrice": 10.67,
+      "totalPrice": 13.61,
+      "soldDate": "2026-05-13",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "highly variegated monstera albo cutting well rooted plant",
+      "url": "https://www.ebay.co.uk/itm/157753072370",
+      "soldPrice": 15.96,
+      "totalPrice": 18.900000000000002,
+      "soldDate": "2026-05-13",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo Highly Variegated Large 1 Leaf Cutting",
+      "url": "https://www.ebay.co.uk/itm/206234876894",
+      "soldPrice": 17.02,
+      "totalPrice": 17.02,
+      "soldDate": "2026-05-13",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298299538629",
+      "soldPrice": 13.38,
+      "totalPrice": 13.38,
+      "soldDate": "2026-05-13",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Highly Variegated Monstera Albo - Potted",
+      "url": "https://www.ebay.co.uk/itm/178108498256",
+      "soldPrice": 5.37,
+      "totalPrice": 8.75,
+      "soldDate": "2026-05-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298297949085",
+      "soldPrice": 5.37,
+      "totalPrice": 5.37,
+      "soldDate": "2026-05-12",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "⭐HALF MOON Marble⭐ Highly Variegated Monstera Deliciosa Albo - WHITE - Plant🌱",
+      "url": "https://www.ebay.co.uk/itm/397876363901",
+      "soldPrice": 29.68,
+      "totalPrice": 32.62,
+      "soldDate": "2026-05-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo - Potted",
+      "url": "https://www.ebay.co.uk/itm/178108485837",
+      "soldPrice": 5.37,
+      "totalPrice": 8.75,
+      "soldDate": "2026-05-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegated top cutting Full Rooted",
+      "url": "https://www.ebay.co.uk/itm/358543340701",
+      "soldPrice": 21.25,
+      "totalPrice": 21.25,
+      "soldDate": "2026-05-11",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo, HIGHLY Variegated, 2-LEAF TOP Cutting, Rooting, A2",
+      "url": "https://www.ebay.co.uk/itm/178104896409",
+      "soldPrice": 9.99,
+      "totalPrice": 9.99,
+      "soldDate": "2026-05-11",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo - Potted - Baby Leaf",
+      "url": "https://www.ebay.co.uk/itm/178108505944",
+      "soldPrice": 4.32,
+      "totalPrice": 7.7,
+      "soldDate": "2026-05-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Ultra White Monstera Deliciosa Albo 2 Stemmed Rooted Wet-Stick. Mother Pictured",
+      "url": "https://www.ebay.co.uk/itm/277937834767",
+      "soldPrice": 21.25,
+      "totalPrice": 24.63,
+      "soldDate": "2026-05-10",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo - Needs TLC. All Proceeds Go To Fundraiser. No Reserve",
+      "url": "https://www.ebay.co.uk/itm/277953523783",
+      "soldPrice": 6.44,
+      "totalPrice": 9.82,
+      "soldDate": "2026-05-10",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegated Chonk",
+      "url": "https://www.ebay.co.uk/itm/389979527360",
+      "soldPrice": 2.18,
+      "totalPrice": 5.12,
+      "soldDate": "2026-05-10",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegated Cutting No. 4",
+      "url": "https://www.ebay.co.uk/itm/389979511217",
+      "soldPrice": 5.36,
+      "totalPrice": 8.3,
+      "soldDate": "2026-05-10",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Variegated Cutting No. 2",
+      "url": "https://www.ebay.co.uk/itm/389979508310",
+      "soldPrice": 5.36,
+      "totalPrice": 8.3,
+      "soldDate": "2026-05-10",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo HIGHLY Variegated Baby Plant, Fully established!",
+      "url": "https://www.ebay.co.uk/itm/188246752936",
+      "soldPrice": 12.85,
+      "totalPrice": 16.23,
+      "soldDate": "2026-05-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "⭐Highly Variegated⭐Monstera Deliciosa Albo -WHITE/Mint Marble- Plant🌱 not aurea",
+      "url": "https://www.ebay.co.uk/itm/397876406515",
+      "soldPrice": 24.72,
+      "totalPrice": 27.66,
+      "soldDate": "2026-05-09",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Albo Highly Variegated - Fresh Cutting",
+      "url": "https://www.ebay.co.uk/itm/287315933828",
+      "soldPrice": 11.72,
+      "totalPrice": 14.66,
+      "soldDate": "2026-05-09",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298289448570",
+      "soldPrice": 10.67,
+      "totalPrice": 10.67,
+      "soldDate": "2026-05-09",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298289446946",
+      "soldPrice": 11.2,
+      "totalPrice": 11.2,
+      "soldDate": "2026-05-09",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298289423187",
+      "soldPrice": 11.4,
+      "totalPrice": 11.4,
+      "soldDate": "2026-05-09",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298289421420",
+      "soldPrice": 35.7,
+      "totalPrice": 35.7,
+      "soldDate": "2026-05-09",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298289419083",
+      "soldPrice": 21.8,
+      "totalPrice": 21.8,
+      "soldDate": "2026-05-09",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Albo Highly Variegated top cut two leaves  potted  Variegata",
+      "url": "https://www.ebay.co.uk/itm/168353194184",
+      "soldPrice": 18.85,
+      "totalPrice": 24,
+      "soldDate": "2026-05-09",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298289392046",
+      "soldPrice": 10.67,
+      "totalPrice": 10.67,
+      "soldDate": "2026-05-09",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Monstera Albo Top Cutting (Unrooted)",
+      "url": "https://www.ebay.co.uk/itm/298289388725",
+      "soldPrice": 18.85,
+      "totalPrice": 18.85,
+      "soldDate": "2026-05-09",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 164,
+  "rejectedCount": 76,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "monstera deliciosa marbled albo variegated cutting rooted new shoot rare aroid",
+      "rhaphidophora tetrasperma high variegated albo plant",
+      "monstera deliciosa borsigana halfmoon variegated variegata plant albo rare"
+    ],
+    "Contains excluded term": [
+      "monstera deliciosa albo variegated rooted cutting in plastic cup",
+      "monstera deliciosa albo variegated rooted cutting in plastic cup",
+      "monstera deliciosa albo variegated rooted cutting in plastic cup"
+    ]
+  }
+}

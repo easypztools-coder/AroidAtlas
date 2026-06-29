@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Begonia sizemoreae, described by Kiew, is a compact rhizomatous species from the humid limestone-associated forest of Vietnam — growing in deep shade with high humidity on moist, humus-rich substrate among rocks and leaf litter in the sheltered understory. The leaves are velvety and asymmetrical, each bearing a distinctly silvery central zone fading to darker margins and rich red undersides — a bicolour effect that is intrinsic to the species and produces a leaf face of considerable ornamental interest. The plant creeps by a surface rhizome and produces handsome clumps of foliage on red petioles well suited to the conditions of a humid understory cabinet or enclosed terrarium. As a Vietnamese limestone begonia from the same tradition as ningmingensis, sizemoreae represents the quieter end of the collector begonia spectrum — beautiful but rarely the first species discussed, which means it is more obtainable than its quality deserves.",
   "quickFacts": {
     "growthHabit": "Compact rhizomatous clump",
@@ -34,7 +34,7 @@
     "growthHabit": "Surface rhizome, compact clumping"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 95,
+    "currentMedianPriceGBP": 14,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

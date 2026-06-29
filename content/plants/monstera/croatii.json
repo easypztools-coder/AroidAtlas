@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Monstera croatii is a naturally occurring climbing hemiepiphyte native to the wet tropical forests of Costa Rica, where it is typically found on tree trunks and large woody vegetation in humid, shaded understories. It exhibits an elongated growth habit with green, terete petioles. Its distinct foliage features narrow-oblong to lanceolate leaves with a strong drip tip, moderately thick blades with entire margins, and a limited number of large, elongated fenestrations aligned along the midrib. Aerial roots emerge from the nodes, aiding its climbing habit.",
   "quickFacts": {
     "growthHabit": "Climbing Hemiepiphyte",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing Hemiepiphyte"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 75,
+    "currentMedianPriceGBP": 34,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

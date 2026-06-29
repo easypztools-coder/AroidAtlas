@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Begonia malachosticta, described by Kollmann and Fontana, is an upright cane species from the humid, shaded tropical forests of Ecuador — growing in warm, moist understory conditions where filtered light, high humidity, and rich organic substrate from leaf litter and decaying wood create the environment it requires. The red, setose (bristly-hairy) stems and petioles are an immediate distinguishing feature even before the leaves are examined; those leaves are asymmetrical and elongate-ovate with a dark green upper surface densely spotted with pale green to whitish maculations that cover the blade in a pattern of considerable visual interest. Deep red undersides complete the display. The natural branching cane habit produces a plant of moderate size that is manageable in cultivation while remaining genuinely uncommon in the UK trade.",
   "quickFacts": {
     "growthHabit": "Upright cane, branching",
@@ -34,7 +34,7 @@
     "growthHabit": "Upright cane with red setose stems, natural branching habit"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 100,
+    "currentMedianPriceGBP": 15,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

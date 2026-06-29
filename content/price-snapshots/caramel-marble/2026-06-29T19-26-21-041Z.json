@@ -1,0 +1,412 @@
+{
+  "snapshot": {
+    "plantSlug": "caramel-marble",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron Caramel Marble",
+    "checkedAt": "2026-06-29T19:26:21.041Z",
+    "currency": "GBP",
+    "rawResultCount": 67,
+    "acceptedCount": 40,
+    "rejectedCount": 27,
+    "outlierCount": 2,
+    "confidenceScore": "A",
+    "minPrice": 13.86,
+    "p25Price": 19.18,
+    "medianPrice": 32.5,
+    "meanPrice": 43.137,
+    "trimmedMeanPrice": 33.656875,
+    "p75Price": 53.32,
+    "maxPrice": 195.68,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 40,
+    "min": 13.86,
+    "max": 195.68,
+    "median": 32.5,
+    "mean": 43.137,
+    "p25": 19.18,
+    "p75": 53.32,
+    "iqr": 34.14,
+    "trimmedMean": 33.656875,
+    "confidenceScore": "A",
+    "rejectedCount": 27,
+    "rejectionReasons": {},
+    "outlierCount": 2
+  },
+  "acceptedListings": [
+    {
+      "title": "Philodendorn caramel marble variegated #1",
+      "url": "https://www.ebay.co.uk/itm/206369342787",
+      "soldPrice": 39.99,
+      "totalPrice": 39.99,
+      "soldDate": "2026-06-28",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Caramel Marble - choose your own",
+      "url": "https://www.ebay.co.uk/itm/398015584803",
+      "soldPrice": 37.91,
+      "totalPrice": 43.9,
+      "soldDate": "2026-06-28",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Caramel Marble HIGHLY Variegated, LARGE 2-LEAF TOP Cut, Rooting",
+      "url": "https://www.ebay.co.uk/itm/178218070111",
+      "soldPrice": 36,
+      "totalPrice": 36,
+      "soldDate": "2026-06-20",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Philodendron Caramel Marble. Beautiful Leaves And Super Healthy.",
+      "url": "https://www.ebay.co.uk/itm/278074339408",
+      "soldPrice": 34.04,
+      "totalPrice": 37.42,
+      "soldDate": "2026-06-19",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Caramel Marble Established Plant Rare",
+      "url": "https://www.ebay.co.uk/itm/377244441807",
+      "soldPrice": 50.18,
+      "totalPrice": 53.56,
+      "soldDate": "2026-06-18",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Caramel Marble – Rare Variegated Aroid – Stunning Pink New Growth",
+      "url": "https://www.ebay.co.uk/itm/168421971170",
+      "soldPrice": 45,
+      "totalPrice": 49.5,
+      "soldDate": "2026-06-15",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Caramel Marble Pup Rooted In Moss",
+      "url": "https://www.ebay.co.uk/itm/398038125979",
+      "soldPrice": 11.4,
+      "totalPrice": 14.780000000000001,
+      "soldDate": "2026-06-14",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Special offer!!! Philo Caramel Marble Variegated One Big Leaf Rooted Cutting",
+      "url": "https://www.ebay.co.uk/itm/327201102566",
+      "soldPrice": 36.75,
+      "totalPrice": 40.13,
+      "soldDate": "2026-06-14",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "philodendron caramel marble - super rare variegated aroid 05PCM09",
+      "url": "https://www.ebay.co.uk/itm/327185147774",
+      "soldPrice": 13.86,
+      "totalPrice": 13.86,
+      "soldDate": "2026-06-14",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron caramel marble Houseplant In 6 Cm Pot",
+      "url": "https://www.ebay.co.uk/itm/127741787349",
+      "soldPrice": 50.1,
+      "totalPrice": 54,
+      "soldDate": "2026-06-09",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "philodendron caramel marble - super rare variegated aroid 05PCM08",
+      "url": "https://www.ebay.co.uk/itm/327185147308",
+      "soldPrice": 18.86,
+      "totalPrice": 18.86,
+      "soldDate": "2026-06-07",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "philodendron caramel marble - super rare variegated aroid 05PCM10",
+      "url": "https://www.ebay.co.uk/itm/327185148189",
+      "soldPrice": 23.15,
+      "totalPrice": 23.15,
+      "soldDate": "2026-06-02",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "philodendron caramel marble - super rare variegated aroid 05PCM07",
+      "url": "https://www.ebay.co.uk/itm/327185146896",
+      "soldPrice": 23.15,
+      "totalPrice": 23.15,
+      "soldDate": "2026-06-02",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "philodendron caramel marble - super rare variegated aroid 05PCM05",
+      "url": "https://www.ebay.co.uk/itm/327174558925",
+      "soldPrice": 18.86,
+      "totalPrice": 18.86,
+      "soldDate": "2026-05-31",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "philodendron caramel marble - super rare variegated aroid 05PCM03",
+      "url": "https://www.ebay.co.uk/itm/327167419424",
+      "soldPrice": 16.41,
+      "totalPrice": 16.41,
+      "soldDate": "2026-05-29",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "philodendron caramel marble - super rare variegated aroid 05PCM02",
+      "url": "https://www.ebay.co.uk/itm/327167413527",
+      "soldPrice": 17.27,
+      "totalPrice": 17.27,
+      "soldDate": "2026-05-29",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "philodendron caramel marble - super rare variegated aroid 05PCM04",
+      "url": "https://www.ebay.co.uk/itm/327174554596",
+      "soldPrice": 27,
+      "totalPrice": 27,
+      "soldDate": "2026-05-24",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendorn caramel marble variegated #4",
+      "url": "https://www.ebay.co.uk/itm/206248976544",
+      "soldPrice": 52.99,
+      "totalPrice": 56.49,
+      "soldDate": "2026-05-20",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "philodendron caramel marble - super rare variegated aroid 05PCM01",
+      "url": "https://www.ebay.co.uk/itm/327167412859",
+      "soldPrice": 27,
+      "totalPrice": 27,
+      "soldDate": "2026-05-19",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Caramel Marble Variegated Aroid Baby Plant",
+      "url": "https://www.ebay.co.uk/itm/318318258921",
+      "soldPrice": 39.62,
+      "totalPrice": 43,
+      "soldDate": "2026-05-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Caramel Marble One Leaf Rooted Cutting",
+      "url": "https://www.ebay.co.uk/itm/327156417157",
+      "soldPrice": 21.24,
+      "totalPrice": 24.619999999999997,
+      "soldDate": "2026-05-16",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Caramel Marble Variegated",
+      "url": "https://www.ebay.co.uk/itm/306920597045",
+      "soldPrice": 155.58,
+      "totalPrice": 159.52,
+      "soldDate": "2026-05-14",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendorn caramel marble variegated #5",
+      "url": "https://www.ebay.co.uk/itm/206248978382",
+      "soldPrice": 52.99,
+      "totalPrice": 56.49,
+      "soldDate": "2026-05-14",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Caramel Marble Variegated, LARGE 2/3-LEAF TOP Cutting, Rooted",
+      "url": "https://www.ebay.co.uk/itm/178001412525",
+      "soldPrice": 79.99,
+      "totalPrice": 79.99,
+      "soldDate": "2026-05-12",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "philodendron caramel marble variegated",
+      "url": "https://www.ebay.co.uk/itm/257484962542",
+      "soldPrice": 9.48,
+      "totalPrice": 15.48,
+      "soldDate": "2026-05-08",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Strawberry Caramel Marble Highly Variegated Rare Aroid",
+      "url": "https://www.ebay.co.uk/itm/397875352440",
+      "soldPrice": 41.66,
+      "totalPrice": 45.04,
+      "soldDate": "2026-05-01",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Caramel Marble Variegated #2",
+      "url": "https://www.ebay.co.uk/itm/206191913343",
+      "soldPrice": 49.74,
+      "totalPrice": 53.24,
+      "soldDate": "2026-04-30",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "🌿 Highly Variegated Philodendron Caramel Marble– Established Plant",
+      "url": "https://www.ebay.co.uk/itm/198306206544",
+      "soldPrice": 195.68,
+      "totalPrice": 195.68,
+      "soldDate": "2026-04-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare Philodendron Caramel Marble Variegated Rooted One Leaf Cutting",
+      "url": "https://www.ebay.co.uk/itm/137263246470",
+      "soldPrice": 36.75,
+      "totalPrice": 41.9,
+      "soldDate": "2026-04-28",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "philodendron caramel marble - super rare variegated aroid 04PCM02",
+      "url": "https://www.ebay.co.uk/itm/327094115017",
+      "soldPrice": 18.28,
+      "totalPrice": 18.28,
+      "soldDate": "2026-04-25",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "philodendron caramel marble - super rare variegated aroid 03PCM10",
+      "url": "https://www.ebay.co.uk/itm/327074674155",
+      "soldPrice": 18.44,
+      "totalPrice": 18.44,
+      "soldDate": "2026-04-24",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Caramel Marble Variegated, LARGE 2-LEAF，top cutting rooted.",
+      "url": "https://www.ebay.co.uk/itm/198303413596",
+      "soldPrice": 79.25,
+      "totalPrice": 79.25,
+      "soldDate": "2026-04-23",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Caramel Marble Variegated Houseplant Indoor Plant",
+      "url": "https://www.ebay.co.uk/itm/236694280911",
+      "soldPrice": 83.25,
+      "totalPrice": 89.9,
+      "soldDate": "2026-04-18",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "philodendron caramel marble - super rare variegated aroid 04PCM05.",
+      "url": "https://www.ebay.co.uk/itm/327108919717",
+      "soldPrice": 19,
+      "totalPrice": 19,
+      "soldDate": "2026-04-18",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "philodendron caramel marble - super rare variegated aroid 04PCM01",
+      "url": "https://www.ebay.co.uk/itm/327094110802",
+      "soldPrice": 19.24,
+      "totalPrice": 19.24,
+      "soldDate": "2026-04-18",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "philodendron caramel marble - super rare variegated aroid 04PCM05",
+      "url": "https://www.ebay.co.uk/itm/327094120703",
+      "soldPrice": 19.24,
+      "totalPrice": 19.24,
+      "soldDate": "2026-04-17",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "philodendron caramel marble - super rare variegated aroid 04PCM06",
+      "url": "https://www.ebay.co.uk/itm/327094121980",
+      "soldPrice": 22.44,
+      "totalPrice": 22.44,
+      "soldDate": "2026-04-15",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "philodendron caramel marble - super rare variegated aroid 04PCM04",
+      "url": "https://www.ebay.co.uk/itm/327094120344",
+      "soldPrice": 24.86,
+      "totalPrice": 24.86,
+      "soldDate": "2026-04-13",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "philodendron caramel marble - super rare variegated aroid 04PCM03",
+      "url": "https://www.ebay.co.uk/itm/327094118429",
+      "soldPrice": 29,
+      "totalPrice": 29,
+      "soldDate": "2026-04-10",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Caramel Marble Variegated #1",
+      "url": "https://www.ebay.co.uk/itm/206191912913",
+      "soldPrice": 56.04,
+      "totalPrice": 59.54,
+      "soldDate": "2026-04-06",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 40,
+  "rejectedCount": 27,
+  "rejectionBreakdown": {
+    "Contains excluded term": [
+      "monstera bulbasaur, philo caramel marble baby plants"
+    ],
+    "No accepted term found. Expected one of": [
+      "philodendron whipple way marble variegated one leaf rooted cutting",
+      "philodendron carmel marble rare plant",
+      "philodendron 'pink princess' marble high variegation 6cm pot- rare houseplant"
+    ]
+  }
+}

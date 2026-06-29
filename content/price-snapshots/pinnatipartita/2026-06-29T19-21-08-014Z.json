@@ -1,0 +1,58 @@
+{
+  "snapshot": {
+    "plantSlug": "pinnatipartita",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera pinnatipartita",
+    "checkedAt": "2026-06-29T19:21:08.014Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 1,
+    "rejectedCount": 239,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 67.75,
+    "p25Price": 67.75,
+    "medianPrice": 67.75,
+    "meanPrice": 67.75,
+    "trimmedMeanPrice": 67.75,
+    "p75Price": 67.75,
+    "maxPrice": 67.75,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 1,
+    "min": 67.75,
+    "max": 67.75,
+    "median": 67.75,
+    "mean": 67.75,
+    "p25": 67.75,
+    "p75": 67.75,
+    "iqr": 0,
+    "trimmedMean": 67.75,
+    "confidenceScore": "D",
+    "rejectedCount": 239,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Monstera Pinnatipartita Cheese plant Houseplant Full Size Unbranded",
+      "url": "https://www.ebay.co.uk/itm/168350461023",
+      "soldPrice": 67.75,
+      "totalPrice": 67.75,
+      "soldDate": "2026-05-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 1,
+  "rejectedCount": 239,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "monstera deliciosa albo, half-moon variegated, 1-leaf cutting, rooting, a2",
+      "monstera deliciosa albo, half-moon variegated, 1-leaf cutting, rooting, a3",
+      "indoor 30-40cm potted monstera deliciosa swiss cheese plant"
+    ]
+  }
+}

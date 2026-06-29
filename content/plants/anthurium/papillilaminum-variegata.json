@@ -11,7 +11,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Ultra Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "££",
   "aboutText": "The Anthurium papillilaminum 'Variegata' is a cultivated collector selection, originating from the species native to Panama. This striking tropical humid forest understory aroid thrives in warmth, high humidity, bright indirect light, and an airy substrate. Its velvety, cordate to elongated-cordate leaves feature a deep basal sinus and a dark green to near-black lamina. The plant displays captivating irregular cream to yellow marbling or sectoral variegation, along with subtle venation and a graceful growth habit. Slender petioles support the softly textured foliage, from which aerial roots emerge.",
   "quickFacts": {
     "growthHabit": "Terrestrial",
@@ -33,7 +33,7 @@
     "growthHabit": "Terrestrial, graceful habit"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 500,
+    "currentMedianPriceGBP": 80,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

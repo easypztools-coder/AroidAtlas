@@ -1,0 +1,98 @@
+{
+  "snapshot": {
+    "plantSlug": "luxurians",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium luxurians",
+    "checkedAt": "2026-06-29T19:11:48.077Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 5,
+    "rejectedCount": 235,
+    "outlierCount": 2,
+    "confidenceScore": "D",
+    "minPrice": 15.49,
+    "p25Price": 16,
+    "medianPrice": 16,
+    "meanPrice": 28.494,
+    "trimmedMeanPrice": 28.494,
+    "p75Price": 16,
+    "maxPrice": 78.97999999999999,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 5,
+    "min": 15.49,
+    "max": 78.97999999999999,
+    "median": 16,
+    "mean": 28.494,
+    "p25": 16,
+    "p75": 16,
+    "iqr": 0,
+    "trimmedMean": 28.494,
+    "confidenceScore": "D",
+    "rejectedCount": 235,
+    "rejectionReasons": {},
+    "outlierCount": 2
+  },
+  "acceptedListings": [
+    {
+      "title": "Anthurium Luxurians Rare Plant",
+      "url": "https://www.ebay.co.uk/itm/205032911095",
+      "soldPrice": 16,
+      "totalPrice": 16,
+      "soldDate": "2026-06-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Luxurians Rare Plant #6",
+      "url": "https://www.ebay.co.uk/itm/206297524801",
+      "soldPrice": 16,
+      "totalPrice": 16,
+      "soldDate": "2026-06-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium luxurians Tropical House Plant In 6 Cm Pot",
+      "url": "https://www.ebay.co.uk/itm/127693147848",
+      "soldPrice": 11.5,
+      "totalPrice": 15.49,
+      "soldDate": "2026-06-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Luxurians Rare Plant #10",
+      "url": "https://www.ebay.co.uk/itm/206327146472",
+      "soldPrice": 16,
+      "totalPrice": 16,
+      "soldDate": "2026-06-14",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium luxurians (Indo) x 'Dorayaki' - Houseplant/Terrarium Plant - P0396",
+      "url": "https://www.ebay.co.uk/itm/227258092779",
+      "soldPrice": 73.99,
+      "totalPrice": 78.97999999999999,
+      "soldDate": "2026-06-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 5,
+  "rejectedCount": 235,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "anthurium papillilaminum - tracked 24 - dark velvet leafed houseplant",
+      "anthurium crystallinum houseplant in 12 cm pot",
+      "anthurium veitchii - rare - aroid - houseplant in 6 cm pot"
+    ],
+    "Contains excluded term": [
+      "anthurium luxurians x radicansin 12 cm pot",
+      "huge 20cm pot anthurium luxurians x radicans huge plant"
+    ]
+  }
+}

@@ -12,7 +12,7 @@
   "collectorPopularity": 3,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Begonia ningmingensis, described by Fang, Wei and Peng, is a compact rhizomatous species native to limestone forest in Guangxi, China, growing in shaded, humid understory conditions on moist organic debris and thin humus over limestone rock with warm temperatures and high atmospheric humidity. Its bullate, dark green to bronzy leaves carry pale, contrasting venation and rich red undersides, borne on reddish petioles from a short rhizome that creeps at substrate level to produce a neat clump of sculptural foliage. As one of the Chinese limestone-dwelling begonias attracting increasing collector interest — a group that includes the celebrated ferox — ningmingensis represents the more accessible end of that cohort: still rare in cultivation, but somewhat more available than its spiny-bullate relatives, and bringing genuine beauty in a manageable compact form.",
   "quickFacts": {
     "growthHabit": "Compact rhizomatous clump",
@@ -34,7 +34,7 @@
     "growthHabit": "Short rhizome at substrate surface producing compact clump"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 85,
+    "currentMedianPriceGBP": 28,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

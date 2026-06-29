@@ -1,0 +1,76 @@
+{
+  "snapshot": {
+    "plantSlug": "vittariifolium",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium vittariifolium",
+    "checkedAt": "2026-06-29T19:13:58.763Z",
+    "currency": "GBP",
+    "rawResultCount": 51,
+    "acceptedCount": 3,
+    "rejectedCount": 48,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 31.57,
+    "p25Price": 36.735,
+    "medianPrice": 41.9,
+    "meanPrice": 41.31,
+    "trimmedMeanPrice": 41.31,
+    "p75Price": 46.18,
+    "maxPrice": 50.46,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 3,
+    "min": 31.57,
+    "max": 50.46,
+    "median": 41.9,
+    "mean": 41.31,
+    "p25": 36.735,
+    "p75": 46.18,
+    "iqr": 9.445,
+    "trimmedMean": 41.31,
+    "confidenceScore": "D",
+    "rejectedCount": 48,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Anthurium Vittariifolium Rooted Plant",
+      "url": "https://www.ebay.co.uk/itm/298393832745",
+      "soldPrice": 26.42,
+      "totalPrice": 31.57,
+      "soldDate": "2026-06-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Vittariifolium (P14)",
+      "url": "https://www.ebay.co.uk/itm/397966811511",
+      "soldPrice": 47.08,
+      "totalPrice": 50.46,
+      "soldDate": "2026-05-24",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Vittariifolium (P14)",
+      "url": "https://www.ebay.co.uk/itm/397696485695",
+      "soldPrice": 36.75,
+      "totalPrice": 41.9,
+      "soldDate": "2026-04-03",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 3,
+  "rejectedCount": 48,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "anthurium vittarifolium - tracked 24",
+      "anthurium vittarifolium rare plant #5",
+      "anthurium vittarifolium variegated #5"
+    ]
+  }
+}

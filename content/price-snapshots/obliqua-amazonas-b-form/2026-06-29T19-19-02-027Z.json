@@ -1,0 +1,52 @@
+{
+  "snapshot": {
+    "plantSlug": "obliqua-amazonas-b-form",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera obliqua Amazonas B",
+    "checkedAt": "2026-06-29T19:19:02.027Z",
+    "currency": "GBP",
+    "rawResultCount": 1,
+    "acceptedCount": 1,
+    "rejectedCount": 0,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 13.25,
+    "p25Price": 13.25,
+    "medianPrice": 13.25,
+    "meanPrice": 13.25,
+    "trimmedMeanPrice": 13.25,
+    "p75Price": 13.25,
+    "maxPrice": 13.25,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 1,
+    "min": 13.25,
+    "max": 13.25,
+    "median": 13.25,
+    "mean": 13.25,
+    "p25": 13.25,
+    "p75": 13.25,
+    "iqr": 0,
+    "trimmedMean": 13.25,
+    "confidenceScore": "D",
+    "rejectedCount": 0,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Monstera Obliqua Amazonas RARE House Plant Aroid Rooted Node Cutting",
+      "url": "https://www.ebay.co.uk/itm/287377813364",
+      "soldPrice": 9.87,
+      "totalPrice": 13.25,
+      "soldDate": "2026-06-13",
+      "listingType": "node",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 1,
+  "rejectedCount": 0,
+  "rejectionBreakdown": {}
+}

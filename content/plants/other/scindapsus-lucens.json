@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Scindapsus lucens is a rare and highly attractive climbing species native to Sumatra, Indonesia. It is outstanding for its highly shiny, deeply bullate (puckered) leaves that have a metallic, dark green finish. The leaves are ovate-lanceolate and shingle or sprawl as they climb. Unlike most variegated Scindapsus, the beauty of S. lucens lies in its texture and gloss, catching light beautifully. It grows best climbing up a moss pole in humid, warm conditions.",
   "quickFacts": {
     "growthHabit": "Root-climbing, shingling to vining",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing, rooting at nodes"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 70,
+    "currentMedianPriceGBP": 22,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

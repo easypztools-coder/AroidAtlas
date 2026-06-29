@@ -1,0 +1,508 @@
+{
+  "snapshot": {
+    "plantSlug": "baginda-dragon-scale-albo-variegated",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia dragon scale variegated",
+    "checkedAt": "2026-06-29T19:08:02.611Z",
+    "currency": "GBP",
+    "rawResultCount": 120,
+    "acceptedCount": 51,
+    "rejectedCount": 69,
+    "outlierCount": 9,
+    "confidenceScore": "B",
+    "minPrice": 15.57,
+    "p25Price": 18.8,
+    "medianPrice": 21.6,
+    "meanPrice": 26.43784313725491,
+    "trimmedMeanPrice": 20.677352941176476,
+    "p75Price": 27,
+    "maxPrice": 58.49,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 51,
+    "min": 15.57,
+    "max": 58.49,
+    "median": 21.6,
+    "mean": 26.43784313725491,
+    "p25": 18.8,
+    "p75": 27,
+    "iqr": 8.2,
+    "trimmedMean": 20.677352941176476,
+    "confidenceScore": "B",
+    "rejectedCount": 69,
+    "rejectionReasons": {},
+    "outlierCount": 9
+  },
+  "acceptedListings": [
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata  rare variegated aroid plant 06ADSA07",
+      "url": "https://www.ebay.co.uk/itm/327209928403",
+      "soldPrice": 17.21,
+      "totalPrice": 17.21,
+      "soldDate": "2026-06-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "X2 Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 11ADSA02",
+      "url": "https://www.ebay.co.uk/itm/326885223790",
+      "soldPrice": 31.59,
+      "totalPrice": 31.59,
+      "soldDate": "2025-11-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "X2 Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 11ADSA01",
+      "url": "https://www.ebay.co.uk/itm/326885223285",
+      "soldPrice": 31.59,
+      "totalPrice": 31.59,
+      "soldDate": "2025-11-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia dragon scale albo Variegated #5",
+      "url": "https://www.ebay.co.uk/itm/206369354334",
+      "soldPrice": 39.99,
+      "totalPrice": 39.99,
+      "soldDate": "2026-06-25",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata  rare variegated aroid plant 06ADSA08",
+      "url": "https://www.ebay.co.uk/itm/327209928883",
+      "soldPrice": 17.21,
+      "totalPrice": 17.21,
+      "soldDate": "2026-06-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata  rare variegated aroid plant 06ADSA02",
+      "url": "https://www.ebay.co.uk/itm/327211829958",
+      "soldPrice": 22.44,
+      "totalPrice": 22.44,
+      "soldDate": "2026-06-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata  rare variegated aroid plant 06ADSA03",
+      "url": "https://www.ebay.co.uk/itm/327211830252",
+      "soldPrice": 22.44,
+      "totalPrice": 22.44,
+      "soldDate": "2026-06-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata  rare variegated aroid plant 06ADSA01",
+      "url": "https://www.ebay.co.uk/itm/327211829022",
+      "soldPrice": 27.55,
+      "totalPrice": 27.55,
+      "soldDate": "2026-06-14",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "X2 Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 12ADSA04",
+      "url": "https://www.ebay.co.uk/itm/326911982647",
+      "soldPrice": 34.56,
+      "totalPrice": 34.56,
+      "soldDate": "2025-12-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "X2 Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 12ADSA03",
+      "url": "https://www.ebay.co.uk/itm/326911981861",
+      "soldPrice": 48,
+      "totalPrice": 48,
+      "soldDate": "2025-12-14",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "X2 Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 12ADSA02",
+      "url": "https://www.ebay.co.uk/itm/326911980995",
+      "soldPrice": 43.2,
+      "totalPrice": 43.2,
+      "soldDate": "2025-12-14",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "X2 Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 12ADSA01",
+      "url": "https://www.ebay.co.uk/itm/326911980017",
+      "soldPrice": 34.56,
+      "totalPrice": 34.56,
+      "soldDate": "2025-12-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata  rare variegated aroid plant 06ADSA03",
+      "url": "https://www.ebay.co.uk/itm/327192133675",
+      "soldPrice": 15.57,
+      "totalPrice": 15.57,
+      "soldDate": "2026-06-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata  rare variegated aroid plant 06ADSA01",
+      "url": "https://www.ebay.co.uk/itm/327192127243",
+      "soldPrice": 19.12,
+      "totalPrice": 19.12,
+      "soldDate": "2026-06-09",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Variegated small plant",
+      "url": "https://www.ebay.co.uk/itm/398041234183",
+      "soldPrice": 24.73,
+      "totalPrice": 28.11,
+      "soldDate": "2026-06-08",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata  rare variegated aroid plant 06ADSA02",
+      "url": "https://www.ebay.co.uk/itm/327192130432",
+      "soldPrice": 22.3,
+      "totalPrice": 22.3,
+      "soldDate": "2026-06-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata  rare variegated aroid plant 06ADSA04",
+      "url": "https://www.ebay.co.uk/itm/327192135229",
+      "soldPrice": 23.47,
+      "totalPrice": 23.47,
+      "soldDate": "2026-06-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata  rare variegated aroid plant 06ADSA05",
+      "url": "https://www.ebay.co.uk/itm/327192136809",
+      "soldPrice": 26,
+      "totalPrice": 26,
+      "soldDate": "2026-06-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo - Variegated Rare Plant #4",
+      "url": "https://www.ebay.co.uk/itm/206237518540",
+      "soldPrice": 49.74,
+      "totalPrice": 53.24,
+      "soldDate": "2026-05-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo - Variegated Rare Plant #8",
+      "url": "https://www.ebay.co.uk/itm/206251117367",
+      "soldPrice": 49.74,
+      "totalPrice": 53.24,
+      "soldDate": "2026-05-18",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo - Variegated Rare Plant #3",
+      "url": "https://www.ebay.co.uk/itm/206234147538",
+      "soldPrice": 49.74,
+      "totalPrice": 53.24,
+      "soldDate": "2026-05-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 04ADSA16",
+      "url": "https://www.ebay.co.uk/itm/327121778985",
+      "soldPrice": 17.92,
+      "totalPrice": 17.92,
+      "soldDate": "2026-05-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 04ADSA22",
+      "url": "https://www.ebay.co.uk/itm/327121785473",
+      "soldPrice": 17.92,
+      "totalPrice": 17.92,
+      "soldDate": "2026-05-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 04ADSA23",
+      "url": "https://www.ebay.co.uk/itm/327121786477",
+      "soldPrice": 18.86,
+      "totalPrice": 18.86,
+      "soldDate": "2026-05-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 04ADSA18",
+      "url": "https://www.ebay.co.uk/itm/327121780482",
+      "soldPrice": 18.86,
+      "totalPrice": 18.86,
+      "soldDate": "2026-05-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 04ADSA14",
+      "url": "https://www.ebay.co.uk/itm/327121776976",
+      "soldPrice": 19.85,
+      "totalPrice": 19.85,
+      "soldDate": "2026-05-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 04ADSA20",
+      "url": "https://www.ebay.co.uk/itm/327121781821",
+      "soldPrice": 19.85,
+      "totalPrice": 19.85,
+      "soldDate": "2026-05-01",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo - Variegated Rare Plant #5",
+      "url": "https://www.ebay.co.uk/itm/206234194820",
+      "soldPrice": 46,
+      "totalPrice": 50.45,
+      "soldDate": "2026-05-01",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo - Variegated Rare Plant #6",
+      "url": "https://www.ebay.co.uk/itm/206242332256",
+      "soldPrice": 46,
+      "totalPrice": 50.45,
+      "soldDate": "2026-05-01",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 04ADSA24",
+      "url": "https://www.ebay.co.uk/itm/327121790457",
+      "soldPrice": 23.15,
+      "totalPrice": 23.15,
+      "soldDate": "2026-04-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 04ADSA13",
+      "url": "https://www.ebay.co.uk/itm/327121775699",
+      "soldPrice": 24.37,
+      "totalPrice": 24.37,
+      "soldDate": "2026-04-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 04ADSA15",
+      "url": "https://www.ebay.co.uk/itm/327121777673",
+      "soldPrice": 24.37,
+      "totalPrice": 24.37,
+      "soldDate": "2026-04-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 04ADSA21",
+      "url": "https://www.ebay.co.uk/itm/327121784318",
+      "soldPrice": 25.65,
+      "totalPrice": 25.65,
+      "soldDate": "2026-04-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 04ADSA19",
+      "url": "https://www.ebay.co.uk/itm/327121781142",
+      "soldPrice": 27,
+      "totalPrice": 27,
+      "soldDate": "2026-04-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 04ADSA17",
+      "url": "https://www.ebay.co.uk/itm/327121779984",
+      "soldPrice": 27,
+      "totalPrice": 27,
+      "soldDate": "2026-04-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Baby Alocasia Dragon Scale Albo Variegated Plant B",
+      "url": "https://www.ebay.co.uk/itm/389808382465",
+      "soldPrice": 33.65,
+      "totalPrice": 37.199999999999996,
+      "soldDate": "2026-04-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegated Full Plant",
+      "url": "https://www.ebay.co.uk/itm/318168693673",
+      "soldPrice": 44.59,
+      "totalPrice": 47.970000000000006,
+      "soldDate": "2026-04-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 03ADSA11",
+      "url": "https://www.ebay.co.uk/itm/327073487526",
+      "soldPrice": 18.8,
+      "totalPrice": 18.8,
+      "soldDate": "2026-04-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 03ADSA06",
+      "url": "https://www.ebay.co.uk/itm/327047707931",
+      "soldPrice": 18.58,
+      "totalPrice": 18.58,
+      "soldDate": "2026-04-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 03ADSA02",
+      "url": "https://www.ebay.co.uk/itm/327047702371",
+      "soldPrice": 18.58,
+      "totalPrice": 18.58,
+      "soldDate": "2026-04-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 03ADSA03",
+      "url": "https://www.ebay.co.uk/itm/327047703126",
+      "soldPrice": 18.58,
+      "totalPrice": 18.58,
+      "soldDate": "2026-04-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo - Variegated Rare Plant 6cm Pot #6",
+      "url": "https://www.ebay.co.uk/itm/206086829057",
+      "soldPrice": 54.99,
+      "totalPrice": 58.49,
+      "soldDate": "2026-04-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegated #1",
+      "url": "https://www.ebay.co.uk/itm/206073805430",
+      "soldPrice": 50.5,
+      "totalPrice": 54,
+      "soldDate": "2026-04-10",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 03ADSA14",
+      "url": "https://www.ebay.co.uk/itm/327073490270",
+      "soldPrice": 18.8,
+      "totalPrice": 18.8,
+      "soldDate": "2026-04-09",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 03ADSA13",
+      "url": "https://www.ebay.co.uk/itm/327073489877",
+      "soldPrice": 18.8,
+      "totalPrice": 18.8,
+      "soldDate": "2026-04-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 03ADSA15",
+      "url": "https://www.ebay.co.uk/itm/327073499083",
+      "soldPrice": 18.8,
+      "totalPrice": 18.8,
+      "soldDate": "2026-04-06",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 03ADSA12",
+      "url": "https://www.ebay.co.uk/itm/327073489353",
+      "soldPrice": 19.79,
+      "totalPrice": 19.79,
+      "soldDate": "2026-04-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 03ADSA08",
+      "url": "https://www.ebay.co.uk/itm/327073483599",
+      "soldPrice": 19.79,
+      "totalPrice": 19.79,
+      "soldDate": "2026-04-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 03ADSA10",
+      "url": "https://www.ebay.co.uk/itm/327073485592",
+      "soldPrice": 19.79,
+      "totalPrice": 19.79,
+      "soldDate": "2026-04-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 03ADSA09",
+      "url": "https://www.ebay.co.uk/itm/327073484690",
+      "soldPrice": 19.79,
+      "totalPrice": 19.79,
+      "soldDate": "2026-04-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Dragon Scale Albo Variegata - rare variegated aroid plant 03ADSA07",
+      "url": "https://www.ebay.co.uk/itm/327073483051",
+      "soldPrice": 21.99,
+      "totalPrice": 21.99,
+      "soldDate": "2026-04-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 51,
+  "rejectedCount": 69,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "alocasia dragon scale yellow aurea variegata - rare variegated plant 11adsy19",
+      "alocasia dragon scale yellow aurea variegata - rare variegated plant 11adsy18",
+      "alocasia dragon scale yellow aurea variegata - rare variegated plant 11adsy17"
+    ]
+  }
+}

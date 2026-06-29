@@ -1,0 +1,229 @@
+{
+  "snapshot": {
+    "plantSlug": "xanthospatha",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera xanthospatha",
+    "checkedAt": "2026-06-29T19:22:18.430Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 20,
+    "rejectedCount": 220,
+    "outlierCount": 1,
+    "confidenceScore": "C",
+    "minPrice": 14.780000000000001,
+    "p25Price": 20.3325,
+    "medianPrice": 31.025,
+    "meanPrice": 40.042500000000004,
+    "trimmedMeanPrice": 35.00411764705883,
+    "p75Price": 48.34,
+    "maxPrice": 112,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 20,
+    "min": 14.780000000000001,
+    "max": 112,
+    "median": 31.025,
+    "mean": 40.042500000000004,
+    "p25": 20.3325,
+    "p75": 48.34,
+    "iqr": 28.007500000000004,
+    "trimmedMean": 35.00411764705883,
+    "confidenceScore": "C",
+    "rejectedCount": 220,
+    "rejectionReasons": {},
+    "outlierCount": 1
+  },
+  "acceptedListings": [
+    {
+      "title": "Rare Monstera Light 🍋‍🟩 Lime Variegated One Leaf Rooted Cutting",
+      "url": "https://www.ebay.co.uk/itm/366400579425",
+      "soldPrice": 68,
+      "totalPrice": 68,
+      "soldDate": "2026-05-15",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱ULTRARARE Monstera CROATII one leaf cutting shooting (not philodendron",
+      "url": "https://www.ebay.co.uk/itm/336650460513",
+      "soldPrice": 26.03,
+      "totalPrice": 31.18,
+      "soldDate": "2026-06-28",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱RARE Monstera Aurea borsigiana Highly Variegated  rooted (not philodendron",
+      "url": "https://www.ebay.co.uk/itm/336626417282",
+      "soldPrice": 15.84,
+      "totalPrice": 20.990000000000002,
+      "soldDate": "2026-06-14",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare Monstera White Lava Mint Variegated One Leaf Rooted Cutting",
+      "url": "https://www.ebay.co.uk/itm/366390027573",
+      "soldPrice": 73,
+      "totalPrice": 73,
+      "soldDate": "2026-05-10",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱ULTRARARE Monstera CROATII TOP CUT rooted (not TC, not philodendron",
+      "url": "https://www.ebay.co.uk/itm/336626455051",
+      "soldPrice": 39.85,
+      "totalPrice": 45,
+      "soldDate": "2026-06-08",
+      "listingType": "tc_plantlet",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare Monstera Aurea tri Colour Mid Cut With Root",
+      "url": "https://www.ebay.co.uk/itm/406990264737",
+      "soldPrice": 16.86,
+      "totalPrice": 19.8,
+      "soldDate": "2026-06-15",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱RARE Monstera Aurea borsigiana Highly Variegated  rooted (not philodendron",
+      "url": "https://www.ebay.co.uk/itm/336626410951",
+      "soldPrice": 15.36,
+      "totalPrice": 20.509999999999998,
+      "soldDate": "2026-06-14",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare Monstera Light 🍋‍🟩 Lime Variegated One Leaf Rooted Cutting",
+      "url": "https://www.ebay.co.uk/itm/366419516017",
+      "soldPrice": 74,
+      "totalPrice": 79,
+      "soldDate": "2026-05-24",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare Monstera White Lava💚🤍💚variegated Rooted Two Growths",
+      "url": "https://www.ebay.co.uk/itm/366438211749",
+      "soldPrice": 112,
+      "totalPrice": 112,
+      "soldDate": "2026-06-01",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱RARE Monstera AUREA Highly Variegated  TOP CUT rooted (not philodendron",
+      "url": "https://www.ebay.co.uk/itm/336639250236",
+      "soldPrice": 11.85,
+      "totalPrice": 17,
+      "soldDate": "2026-06-21",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱RARE Monstera Deliciosa NOID mutation one leaf cutting (not philodendron",
+      "url": "https://www.ebay.co.uk/itm/336639245761",
+      "soldPrice": 10.35,
+      "totalPrice": 15.5,
+      "soldDate": "2026-06-21",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare Monstera Jungle Mint Variegated Rooter Top Plant",
+      "url": "https://www.ebay.co.uk/itm/366415200495",
+      "soldPrice": 29,
+      "totalPrice": 29,
+      "soldDate": "2026-05-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱RARE Monstera Deliciosa  WHITE LAVA  one leaf cutting (not philodendron",
+      "url": "https://www.ebay.co.uk/itm/336639216416",
+      "soldPrice": 45.71,
+      "totalPrice": 50.86,
+      "soldDate": "2026-06-21",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱ULTRARARE Monstera CROATII one leaf cutting shooting (not philodendron",
+      "url": "https://www.ebay.co.uk/itm/336626457022",
+      "soldPrice": 25.72,
+      "totalPrice": 30.869999999999997,
+      "soldDate": "2026-06-14",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱RARE Monstera Aurea borsi Highly Variegated  rooted (not philodendron",
+      "url": "https://www.ebay.co.uk/itm/336650482568",
+      "soldPrice": 11.4,
+      "totalPrice": 16.55,
+      "soldDate": "2026-06-28",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "VERY RARE Monstera Burle Marx Flame LARGE 6-LEAF Established Young Plant, Potted",
+      "url": "https://www.ebay.co.uk/itm/178001149973",
+      "soldPrice": 39.99,
+      "totalPrice": 45.480000000000004,
+      "soldDate": "2026-04-01",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare Monstera Adansonii Highly Variegated Plant rooted Variegata",
+      "url": "https://www.ebay.co.uk/itm/168373238556",
+      "soldPrice": 11.4,
+      "totalPrice": 14.780000000000001,
+      "soldDate": "2026-05-18",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "VERY RARE Monstera Burle Marx Flame LARGE 4-LEAF Established Young Plant, Potted",
+      "url": "https://www.ebay.co.uk/itm/178062017755",
+      "soldPrice": 22,
+      "totalPrice": 22,
+      "soldDate": "2026-04-26",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare Monstera 💚jungle Mint Variegated One Leaf Rooted Cutting Active Growth",
+      "url": "https://www.ebay.co.uk/itm/366499389388",
+      "soldPrice": 47.5,
+      "totalPrice": 47.5,
+      "soldDate": "2026-06-28",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱RARE Monstera Deliciosa Var. BRAZIL (not TC, not philodendron",
+      "url": "https://www.ebay.co.uk/itm/336612145287",
+      "soldPrice": 36.68,
+      "totalPrice": 41.83,
+      "soldDate": "2026-06-07",
+      "listingType": "tc_plantlet",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 20,
+  "rejectedCount": 220,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "rare💚monstera deliciosa veitsiosa variegated one leaf rooted cutting",
+      "monstera adansonii albo",
+      "variegated monstera albo cutting (unrooted)"
+    ]
+  }
+}

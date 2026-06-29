@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Uncommon",
   "availability": "Moderate",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Rhaphidophora cryptantha, described by Boyce and Allen, is a shingling climber from the wet rainforests of Papua New Guinea — ascending mossy trunks in persistently humid, shaded conditions, with juvenile growth remaining tightly appressed to bark by adhesive roots. It is one of the most neotenic Rhaphidophoras in cultivation: the overlapping leaves lie completely flat against the substrate in a permanently shingling arrangement, each ovate to elliptic, green and strongly veined blade carrying a distinctive folded profile that partially encloses the stem. Short internodes ensure leaves are packed closely. The base species is distinct from the cultivated 'Variegata' form, which has become considerably more sought-after due to its chimeric white patterning; the plain cryptantha is the more botanically correct expression of the species and appeals to collectors who appreciate the shingling habit for its own sake rather than as a backdrop for variegation.",
   "quickFacts": {
     "growthHabit": "Permanently shingling climber",
@@ -34,7 +34,7 @@
     "growthHabit": "Permanently shingling, overlapping leaves appressed to bark by adhesive roots"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 35,
+    "currentMedianPriceGBP": 22,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

@@ -1,0 +1,67 @@
+{
+  "snapshot": {
+    "plantSlug": "amydrium-zippelianum",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Amydrium zippelianum",
+    "checkedAt": "2026-06-29T19:22:50.525Z",
+    "currency": "GBP",
+    "rawResultCount": 29,
+    "acceptedCount": 2,
+    "rejectedCount": 27,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 15,
+    "p25Price": 16.75,
+    "medianPrice": 18.5,
+    "meanPrice": 18.5,
+    "trimmedMeanPrice": 18.5,
+    "p75Price": 20.25,
+    "maxPrice": 22,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 2,
+    "min": 15,
+    "max": 22,
+    "median": 18.5,
+    "mean": 18.5,
+    "p25": 16.75,
+    "p75": 20.25,
+    "iqr": 3.5,
+    "trimmedMean": 18.5,
+    "confidenceScore": "D",
+    "rejectedCount": 27,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Amydrium Zippelianum Rare Aroid | Rooted Plant | Exotic Collector Houseplant",
+      "url": "https://www.ebay.co.uk/itm/236790753688",
+      "soldPrice": 22,
+      "totalPrice": 22,
+      "soldDate": "2026-06-18",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Amydrium Zippelianum Rare Aroid | Rooted Plant | Exotic Collector Houseplant",
+      "url": "https://www.ebay.co.uk/itm/236605863673",
+      "soldPrice": 15,
+      "totalPrice": 15,
+      "soldDate": "2026-04-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 2,
+  "rejectedCount": 27,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "amydrium medium zippelianum variegated",
+      "amydrium medium variegated",
+      "amydrium sp java variegated rooted and shooted cutting"
+    ]
+  }
+}

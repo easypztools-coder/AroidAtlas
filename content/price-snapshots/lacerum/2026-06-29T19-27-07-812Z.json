@@ -1,0 +1,67 @@
+{
+  "snapshot": {
+    "plantSlug": "lacerum",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron lacerum",
+    "checkedAt": "2026-06-29T19:27:07.812Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 2,
+    "rejectedCount": 238,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 42.5,
+    "p25Price": 43.06,
+    "medianPrice": 43.620000000000005,
+    "meanPrice": 43.620000000000005,
+    "trimmedMeanPrice": 43.620000000000005,
+    "p75Price": 44.18,
+    "maxPrice": 44.74,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 2,
+    "min": 42.5,
+    "max": 44.74,
+    "median": 43.620000000000005,
+    "mean": 43.620000000000005,
+    "p25": 43.06,
+    "p75": 44.18,
+    "iqr": 1.1199999999999974,
+    "trimmedMean": 43.620000000000005,
+    "confidenceScore": "D",
+    "rejectedCount": 238,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Philodendron Lacerum Aurea - Variegated Rare Plant #1",
+      "url": "https://www.ebay.co.uk/itm/206155747492",
+      "soldPrice": 44.74,
+      "totalPrice": 44.74,
+      "soldDate": "2026-06-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Lacerum Aurea - Variegated Rare Plant #5",
+      "url": "https://www.ebay.co.uk/itm/206242332253",
+      "soldPrice": 39,
+      "totalPrice": 42.5,
+      "soldDate": "2026-05-09",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 2,
+  "rejectedCount": 238,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "philodendron micans highly variegated, 1-leaf cuttings, choose your favourite!",
+      "philodendron gloriosum variegata very rare variegated plant 06pgv18",
+      "philodendron micans variegata - 2x highly variegated 1-leaf cuttings, rooted"
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "snapshot": {
+    "plantSlug": "hastatum",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron hastatum silver sword",
+    "checkedAt": "2026-06-29T19:26:46.622Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 3,
+    "rejectedCount": 237,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 5.58,
+    "p25Price": 6.8,
+    "medianPrice": 8.02,
+    "meanPrice": 8.363333333333333,
+    "trimmedMeanPrice": 8.363333333333333,
+    "p75Price": 9.754999999999999,
+    "maxPrice": 11.49,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 3,
+    "min": 5.58,
+    "max": 11.49,
+    "median": 8.02,
+    "mean": 8.363333333333333,
+    "p25": 6.8,
+    "p75": 9.754999999999999,
+    "iqr": 2.954999999999999,
+    "trimmedMean": 8.363333333333333,
+    "confidenceScore": "D",
+    "rejectedCount": 237,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "x1 Node Cutting | Philodendron Hastatum | Silver Sword | Indoor Plant",
+      "url": "https://www.ebay.co.uk/itm/177426776696",
+      "soldPrice": 8.02,
+      "totalPrice": 8.02,
+      "soldDate": "2026-04-28",
+      "listingType": "node",
+      "currency": "GBP"
+    },
+    {
+      "title": "Houseplant Philodendron Silver Sword",
+      "url": "https://www.ebay.co.uk/itm/358329660026",
+      "soldPrice": 8.55,
+      "totalPrice": 11.49,
+      "soldDate": "2026-05-02",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Silver Sword Cutting",
+      "url": "https://www.ebay.co.uk/itm/188410788443",
+      "soldPrice": 2.2,
+      "totalPrice": 5.58,
+      "soldDate": "2026-06-01",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 3,
+  "rejectedCount": 237,
+  "rejectionBreakdown": {
+    "Contains excluded term": [
+      "rare🤍philodendron hastatum /silver sword variegated one leaf rooting cutting",
+      "rare - philodendron hastatum silver sword variegated - 1-leaf cutting, rooted a2",
+      "philodendron silver sword variegated"
+    ],
+    "No accepted term found. Expected one of": [
+      "houseplant bundle 2 philodendron plants : silver sword florida green 6cm",
+      "philodendron sp silver/ colombia",
+      "philodendron micans highly variegated, 1-leaf cuttings, choose your favourite!"
+    ],
+    "Total price £4.51 is below £5 minimum": [
+      "philodendron silver sword cutting"
+    ]
+  }
+}

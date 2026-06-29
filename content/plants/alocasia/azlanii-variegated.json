@@ -11,7 +11,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Very Rare",
   "availability": "Low",
-  "priceGuideTier": "£",
+  "priceGuideTier": "££",
   "aboutText": "Alocasia azlanii 'Variegated' is an exceptionally beautiful, compact jewel Alocasia native to Brunei on the island of Borneo. Prized for its gorgeous, metallic-looking leaves, it features glossy, deep green to bronzy foliage highlighted by contrasting venation with iridescent purple or red undertones. This corm-forming variety grows in a compact rosette on upright dark petioles. The ultra-rare variegated form boasts stunning cream or pale mint sectors and marbling that beautifully complement its dark, shimmering leaf surfaces.",
   "quickFacts": {
     "growthHabit": "Compact corm-forming aroid",
@@ -33,7 +33,7 @@
     "growthHabit": "Compact rosette from corm"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 22,
+    "currentMedianPriceGBP": 60,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

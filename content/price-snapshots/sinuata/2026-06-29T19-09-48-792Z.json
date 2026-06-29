@@ -1,0 +1,607 @@
+{
+  "snapshot": {
+    "plantSlug": "sinuata",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia sinuata",
+    "checkedAt": "2026-06-29T19:09:48.792Z",
+    "currency": "GBP",
+    "rawResultCount": 71,
+    "acceptedCount": 62,
+    "rejectedCount": 9,
+    "outlierCount": 5,
+    "confidenceScore": "A",
+    "minPrice": 8.15,
+    "p25Price": 13.82,
+    "medianPrice": 18.18,
+    "meanPrice": 18.545483870967736,
+    "trimmedMeanPrice": 16.646808510638294,
+    "p75Price": 19.93,
+    "maxPrice": 44.99,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 62,
+    "min": 8.15,
+    "max": 44.99,
+    "median": 18.18,
+    "mean": 18.545483870967736,
+    "p25": 13.82,
+    "p75": 19.93,
+    "iqr": 6.109999999999999,
+    "trimmedMean": 16.646808510638294,
+    "confidenceScore": "A",
+    "rejectedCount": 9,
+    "rejectionReasons": {},
+    "outlierCount": 5
+  },
+  "acceptedListings": [
+    {
+      "title": "Alocasia sinuata aurea #6",
+      "url": "https://www.ebay.co.uk/itm/206323910324",
+      "soldPrice": 44.99,
+      "totalPrice": 44.99,
+      "soldDate": "2026-06-29",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint  rare variegated aroid plant ref 06ASV05",
+      "url": "https://www.ebay.co.uk/itm/327210183457",
+      "soldPrice": 14.88,
+      "totalPrice": 14.88,
+      "soldDate": "2026-06-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint  rare variegated aroid plant ref 06ASV06",
+      "url": "https://www.ebay.co.uk/itm/327210184182",
+      "soldPrice": 14.88,
+      "totalPrice": 14.88,
+      "soldDate": "2026-06-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare Alocasia Sinuata – Well Rooted, Healthy Plant, New Growth",
+      "url": "https://www.ebay.co.uk/itm/147393841703",
+      "soldPrice": 8.99,
+      "totalPrice": 11.93,
+      "soldDate": "2026-06-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Full Mint  rare variegated aroid plant ref 06ASV02",
+      "url": "https://www.ebay.co.uk/itm/327199687350",
+      "soldPrice": 13.13,
+      "totalPrice": 13.13,
+      "soldDate": "2026-06-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint - rare variegated aroid plant ref 11ASV08",
+      "url": "https://www.ebay.co.uk/itm/326877686415",
+      "soldPrice": 23.89,
+      "totalPrice": 23.89,
+      "soldDate": "2025-11-30",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint - rare variegated aroid plant ref 11ASV07",
+      "url": "https://www.ebay.co.uk/itm/326877684518",
+      "soldPrice": 19.63,
+      "totalPrice": 19.63,
+      "soldDate": "2025-12-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint - rare variegated aroid plant ref 11ASV06",
+      "url": "https://www.ebay.co.uk/itm/326877682824",
+      "soldPrice": 23.74,
+      "totalPrice": 23.74,
+      "soldDate": "2025-12-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint - rare variegated aroid plant ref 11ASV05",
+      "url": "https://www.ebay.co.uk/itm/326877681663",
+      "soldPrice": 29.77,
+      "totalPrice": 29.77,
+      "soldDate": "2025-11-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint - rare variegated aroid plant ref 11ASV04",
+      "url": "https://www.ebay.co.uk/itm/326877679183",
+      "soldPrice": 23.74,
+      "totalPrice": 23.74,
+      "soldDate": "2025-12-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint - rare variegated aroid plant ref 11ASV03",
+      "url": "https://www.ebay.co.uk/itm/326877678253",
+      "soldPrice": 19.93,
+      "totalPrice": 19.93,
+      "soldDate": "2025-12-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint - rare variegated aroid plant ref 11ASV02",
+      "url": "https://www.ebay.co.uk/itm/326877677575",
+      "soldPrice": 19.93,
+      "totalPrice": 19.93,
+      "soldDate": "2025-12-09",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sinuata Aroid Plant",
+      "url": "https://www.ebay.co.uk/itm/397999356051",
+      "soldPrice": 5.45,
+      "totalPrice": 8.83,
+      "soldDate": "2026-06-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint  rare variegated aroid plant ref 06ASV01",
+      "url": "https://www.ebay.co.uk/itm/327199686958",
+      "soldPrice": 16.17,
+      "totalPrice": 16.17,
+      "soldDate": "2026-06-18",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint  rare variegated aroid plant ref 06ASV04",
+      "url": "https://www.ebay.co.uk/itm/327210182577",
+      "soldPrice": 20.36,
+      "totalPrice": 20.36,
+      "soldDate": "2026-06-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sinuata Aroid Plant",
+      "url": "https://www.ebay.co.uk/itm/397999361814",
+      "soldPrice": 5.45,
+      "totalPrice": 8.83,
+      "soldDate": "2026-06-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sinuata",
+      "url": "https://www.ebay.co.uk/itm/227385272330",
+      "soldPrice": 7.59,
+      "totalPrice": 10.969999999999999,
+      "soldDate": "2026-06-14",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Full Mint  rare variegated aroid plant ref 06ASV03",
+      "url": "https://www.ebay.co.uk/itm/327199687990",
+      "soldPrice": 19.85,
+      "totalPrice": 19.85,
+      "soldDate": "2026-06-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata Aurea Variegata - rare variegated aroid plant ref 10ASINVA02",
+      "url": "https://www.ebay.co.uk/itm/326810532952",
+      "soldPrice": 19.47,
+      "totalPrice": 19.47,
+      "soldDate": "2025-11-16",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata Aurea Variegata  rare variegated aroid plant ref 05ASINVA06",
+      "url": "https://www.ebay.co.uk/itm/327155130442",
+      "soldPrice": 13.82,
+      "totalPrice": 13.82,
+      "soldDate": "2026-06-09",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata Aurea Variegata - rare variegated aroid plant ref 11ASINVA11",
+      "url": "https://www.ebay.co.uk/itm/326855446541",
+      "soldPrice": 17.96,
+      "totalPrice": 17.96,
+      "soldDate": "2025-11-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata Aurea Variegata - rare variegated aroid plant ref 11ASINVA10",
+      "url": "https://www.ebay.co.uk/itm/326855445261",
+      "soldPrice": 19.91,
+      "totalPrice": 19.91,
+      "soldDate": "2025-11-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata Aurea Variegata - rare variegated aroid plant ref 11ASINVA07",
+      "url": "https://www.ebay.co.uk/itm/326855440984",
+      "soldPrice": 17.96,
+      "totalPrice": 17.96,
+      "soldDate": "2025-12-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata Aurea Variegata  rare variegated aroid plant ref 05ASINVA02",
+      "url": "https://www.ebay.co.uk/itm/327155123643",
+      "soldPrice": 13.82,
+      "totalPrice": 13.82,
+      "soldDate": "2026-06-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint  rare variegated aroid plant ref 05ASV15",
+      "url": "https://www.ebay.co.uk/itm/327155106130",
+      "soldPrice": 13.82,
+      "totalPrice": 13.82,
+      "soldDate": "2026-06-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint - rare variegated aroid plant ref 12ASV07",
+      "url": "https://www.ebay.co.uk/itm/326900583582",
+      "soldPrice": 38,
+      "totalPrice": 38,
+      "soldDate": "2025-12-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata Aurea Variegata  rare variegated aroid plant ref 05ASINVA03",
+      "url": "https://www.ebay.co.uk/itm/327155124469",
+      "soldPrice": 13.82,
+      "totalPrice": 13.82,
+      "soldDate": "2026-06-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint  rare variegated aroid plant ref 05ASV12",
+      "url": "https://www.ebay.co.uk/itm/327155096965",
+      "soldPrice": 13.56,
+      "totalPrice": 13.56,
+      "soldDate": "2026-06-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint  rare variegated aroid plant ref 05ASV11",
+      "url": "https://www.ebay.co.uk/itm/327155095872",
+      "soldPrice": 13.56,
+      "totalPrice": 13.56,
+      "soldDate": "2026-05-31",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint  rare variegated aroid plant ref 05ASV13",
+      "url": "https://www.ebay.co.uk/itm/327155098397",
+      "soldPrice": 13.82,
+      "totalPrice": 13.82,
+      "soldDate": "2026-05-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint  rare variegated aroid plant ref 05ASV07",
+      "url": "https://www.ebay.co.uk/itm/327155092529",
+      "soldPrice": 15.02,
+      "totalPrice": 15.02,
+      "soldDate": "2026-05-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sinuata Aurea - Variegated Rare Plant #5",
+      "url": "https://www.ebay.co.uk/itm/206255570433",
+      "soldPrice": 44.99,
+      "totalPrice": 44.99,
+      "soldDate": "2026-05-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint  rare variegated aroid plant ref 05ASV08",
+      "url": "https://www.ebay.co.uk/itm/327155093264",
+      "soldPrice": 17.52,
+      "totalPrice": 17.52,
+      "soldDate": "2026-05-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Large Alocasia Sinuata Aurea Variegated Plant Rare In Pon & Self Watering Pot",
+      "url": "https://www.ebay.co.uk/itm/377210543624",
+      "soldPrice": 37.1,
+      "totalPrice": 42.25,
+      "soldDate": "2026-05-25",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint  rare variegated aroid plant ref 05ASV10",
+      "url": "https://www.ebay.co.uk/itm/327155095055",
+      "soldPrice": 18.44,
+      "totalPrice": 18.44,
+      "soldDate": "2026-05-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sinuata Aroid House Plant",
+      "url": "https://www.ebay.co.uk/itm/397948213066",
+      "soldPrice": 5.45,
+      "totalPrice": 8.83,
+      "soldDate": "2026-05-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint - rare variegated aroid plant ref 05ASV01",
+      "url": "https://www.ebay.co.uk/itm/327134489888",
+      "soldPrice": 15.16,
+      "totalPrice": 15.16,
+      "soldDate": "2026-05-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint - rare variegated aroid plant ref 05ASV06",
+      "url": "https://www.ebay.co.uk/itm/327134505756",
+      "soldPrice": 14.6,
+      "totalPrice": 14.6,
+      "soldDate": "2026-05-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata Aurea Variegata  rare variegated aroid plant ref 05ASINVA01",
+      "url": "https://www.ebay.co.uk/itm/327155122985",
+      "soldPrice": 16.98,
+      "totalPrice": 16.98,
+      "soldDate": "2026-05-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata Aurea Variegata  rare variegated aroid plant ref 05ASINVA04",
+      "url": "https://www.ebay.co.uk/itm/327155126931",
+      "soldPrice": 18.81,
+      "totalPrice": 18.81,
+      "soldDate": "2026-05-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint  rare variegated aroid plant ref 05ASV09",
+      "url": "https://www.ebay.co.uk/itm/327155094204",
+      "soldPrice": 22.29,
+      "totalPrice": 22.29,
+      "soldDate": "2026-05-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata Aurea Variegata  rare variegated aroid plant ref 05ASINVA05",
+      "url": "https://www.ebay.co.uk/itm/327155128471",
+      "soldPrice": 20.52,
+      "totalPrice": 20.52,
+      "soldDate": "2026-05-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint  rare variegated aroid plant ref 05ASV14",
+      "url": "https://www.ebay.co.uk/itm/327155103042",
+      "soldPrice": 21.6,
+      "totalPrice": 21.6,
+      "soldDate": "2026-05-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint - rare variegated aroid plant ref 05ASV02",
+      "url": "https://www.ebay.co.uk/itm/327134494452",
+      "soldPrice": 19.29,
+      "totalPrice": 19.29,
+      "soldDate": "2026-05-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sinuata Houseplant",
+      "url": "https://www.ebay.co.uk/itm/188363288990",
+      "soldPrice": 8.12,
+      "totalPrice": 11.5,
+      "soldDate": "2026-05-13",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint - rare variegated aroid plant ref 05ASV05",
+      "url": "https://www.ebay.co.uk/itm/327134504492",
+      "soldPrice": 25,
+      "totalPrice": 25,
+      "soldDate": "2026-05-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint - rare variegated aroid plant ref 05ASV03",
+      "url": "https://www.ebay.co.uk/itm/327134497756",
+      "soldPrice": 25,
+      "totalPrice": 25,
+      "soldDate": "2026-05-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sinuata. Dark Green Leaves. Textured Leaves.",
+      "url": "https://www.ebay.co.uk/itm/127815409675",
+      "soldPrice": 7.59,
+      "totalPrice": 10.969999999999999,
+      "soldDate": "2026-05-11",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint - rare variegated aroid plant ref 05ASV04",
+      "url": "https://www.ebay.co.uk/itm/327134499818",
+      "soldPrice": 26.32,
+      "totalPrice": 26.32,
+      "soldDate": "2026-05-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sinuata Aroid Plant",
+      "url": "https://www.ebay.co.uk/itm/397896030904",
+      "soldPrice": 5.45,
+      "totalPrice": 8.83,
+      "soldDate": "2026-05-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Alocasia Sinuata",
+      "url": "https://www.ebay.co.uk/itm/257465894429",
+      "soldPrice": 8.66,
+      "totalPrice": 11.38,
+      "soldDate": "2026-04-23",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sinuata Houseplant UK ONLY",
+      "url": "https://www.ebay.co.uk/itm/267636749493",
+      "soldPrice": 5.21,
+      "totalPrice": 8.15,
+      "soldDate": "2026-04-19",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata Aurea Variegata - rare variegated aroid plant ref 03ASINVA07",
+      "url": "https://www.ebay.co.uk/itm/327047681198",
+      "soldPrice": 18.16,
+      "totalPrice": 18.16,
+      "soldDate": "2026-04-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sinuata 9cm Pot. Quilted Dreams.",
+      "url": "https://www.ebay.co.uk/itm/127805867089",
+      "soldPrice": 7.59,
+      "totalPrice": 10.969999999999999,
+      "soldDate": "2026-04-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint - rare variegated aroid plant ref 03ASV05",
+      "url": "https://www.ebay.co.uk/itm/327059378561",
+      "soldPrice": 18.2,
+      "totalPrice": 18.2,
+      "soldDate": "2026-04-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata Aurea Variegata - rare variegated aroid plant ref 03ASINVA04",
+      "url": "https://www.ebay.co.uk/itm/327047672947",
+      "soldPrice": 18.91,
+      "totalPrice": 18.91,
+      "soldDate": "2026-04-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata Aurea Variegata - rare variegated aroid plant ref 03ASINVA01",
+      "url": "https://www.ebay.co.uk/itm/327047667293",
+      "soldPrice": 18.91,
+      "totalPrice": 18.91,
+      "soldDate": "2026-04-06",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata Aurea Variegata - rare variegated aroid plant ref 03ASINVA05",
+      "url": "https://www.ebay.co.uk/itm/327047674957",
+      "soldPrice": 18.91,
+      "totalPrice": 18.91,
+      "soldDate": "2026-04-06",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata Aurea Variegata - rare variegated aroid plant ref 03ASINVA02",
+      "url": "https://www.ebay.co.uk/itm/327047669099",
+      "soldPrice": 18.91,
+      "totalPrice": 18.91,
+      "soldDate": "2026-04-06",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint - rare variegated aroid plant ref 03ASV01",
+      "url": "https://www.ebay.co.uk/itm/327059372974",
+      "soldPrice": 18.2,
+      "totalPrice": 18.2,
+      "soldDate": "2026-04-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Sinuata  Mint (plant 4)",
+      "url": "https://www.ebay.co.uk/itm/318075194497",
+      "soldPrice": 8.65,
+      "totalPrice": 12.030000000000001,
+      "soldDate": "2026-04-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia sinuata variegata Albo Mint - rare variegated aroid plant ref 03ASV02",
+      "url": "https://www.ebay.co.uk/itm/327059374008",
+      "soldPrice": 18.2,
+      "totalPrice": 18.2,
+      "soldDate": "2026-04-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 62,
+  "rejectedCount": 9,
+  "rejectionBreakdown": {
+    "Contains excluded term": [
+      "alocasia sinuata varegated corm",
+      "alocasia sinuata mint variegated corm only, indoor rare houseplant",
+      "alocasia sinuata variegated x4 corms available"
+    ]
+  }
+}

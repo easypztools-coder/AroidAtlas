@@ -1,0 +1,121 @@
+{
+  "snapshot": {
+    "plantSlug": "luxurians",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia luxurians palm begonia",
+    "checkedAt": "2026-06-29T19:15:20.526Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 8,
+    "rejectedCount": 232,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 10.5,
+    "p25Price": 13.044999999999998,
+    "medianPrice": 13.73,
+    "meanPrice": 21.00875,
+    "trimmedMeanPrice": 21.00875,
+    "p75Price": 27.7925,
+    "maxPrice": 45,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 8,
+    "min": 10.5,
+    "max": 45,
+    "median": 13.73,
+    "mean": 21.00875,
+    "p25": 13.044999999999998,
+    "p75": 27.7925,
+    "iqr": 14.747500000000002,
+    "trimmedMean": 21.00875,
+    "confidenceScore": "D",
+    "rejectedCount": 232,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Begonia Luxurians 9cm Pot Palm Leaf Begonia",
+      "url": "https://www.ebay.co.uk/itm/226253570726",
+      "soldPrice": 9.73,
+      "totalPrice": 13.73,
+      "soldDate": "2026-06-06",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Luxurians- Palm Leaf Begonia",
+      "url": "https://www.ebay.co.uk/itm/287217022667",
+      "soldPrice": 42,
+      "totalPrice": 45,
+      "soldDate": "2026-04-05",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia luxurians | Tropical Begonia | Plug Plant",
+      "url": "https://www.ebay.co.uk/itm/297458368775",
+      "soldPrice": 10.99,
+      "totalPrice": 10.99,
+      "soldDate": "2026-06-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia luxurians",
+      "url": "https://www.ebay.co.uk/itm/287299335202",
+      "soldPrice": 32,
+      "totalPrice": 35,
+      "soldDate": "2026-05-10",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Luxurians Tropical Plug Plant 9cm Pot",
+      "url": "https://www.ebay.co.uk/itm/277871293347",
+      "soldPrice": 10.79,
+      "totalPrice": 13.729999999999999,
+      "soldDate": "2026-04-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia luxurians (larger)",
+      "url": "https://www.ebay.co.uk/itm/277869349472",
+      "soldPrice": 19.89,
+      "totalPrice": 25.39,
+      "soldDate": "2026-04-22",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia luxurians in a 9cm pot - Free pp on combined orders £15+",
+      "url": "https://www.ebay.co.uk/itm/278070937708",
+      "soldPrice": 6.75,
+      "totalPrice": 10.5,
+      "soldDate": "2026-06-09",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Luxurians Tropical Plug Plant 9cm Pot",
+      "url": "https://www.ebay.co.uk/itm/277852109005",
+      "soldPrice": 10.79,
+      "totalPrice": 13.729999999999999,
+      "soldDate": "2026-04-06",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 8,
+  "rejectedCount": 232,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "begonia torsa - hardy large leaved begonia",
+      "begonia 'torsa'. massive leaves on hardy exotic perennial. supplied in 9cm pot.",
+      "begonia torsa giant hardy begonia 3 x plug plant"
+    ]
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "snapshot": {
+    "plantSlug": "azlanii-variegated",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia azlanii variegated",
+    "checkedAt": "2026-06-29T19:07:56.499Z",
+    "currency": "GBP",
+    "rawResultCount": 136,
+    "acceptedCount": 4,
+    "rejectedCount": 132,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 52.99,
+    "p25Price": 58.24,
+    "medianPrice": 61.74,
+    "meanPrice": 59.99,
+    "trimmedMeanPrice": 59.99,
+    "p75Price": 63.49,
+    "maxPrice": 63.49,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 4,
+    "min": 52.99,
+    "max": 63.49,
+    "median": 61.74,
+    "mean": 59.99,
+    "p25": 58.24,
+    "p75": 63.49,
+    "iqr": 5.25,
+    "trimmedMean": 59.99,
+    "confidenceScore": "D",
+    "rejectedCount": 132,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Alocasia Azlanii Variegated #2",
+      "url": "https://www.ebay.co.uk/itm/206297638007",
+      "soldPrice": 52.99,
+      "totalPrice": 52.99,
+      "soldDate": "2026-06-24",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Azlanii Variegated #4",
+      "url": "https://www.ebay.co.uk/itm/206247462621",
+      "soldPrice": 59.99,
+      "totalPrice": 63.49,
+      "soldDate": "2026-05-18",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Azlanii Variegated #3",
+      "url": "https://www.ebay.co.uk/itm/206247462467",
+      "soldPrice": 59.99,
+      "totalPrice": 63.49,
+      "soldDate": "2026-05-07",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Azlanii Variegated #2",
+      "url": "https://www.ebay.co.uk/itm/206236090032",
+      "soldPrice": 59.99,
+      "totalPrice": 59.99,
+      "soldDate": "2026-04-27",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 4,
+  "rejectedCount": 132,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "alocasia azlanii variegata albo pink - very rare variegated plant 11aav17",
+      "alocasia azlanii variegata albo pink - very rare variegated plant 11aav16",
+      "alocasia azlanii variegata albo pink very rare variegated plant 06aav38"
+    ]
+  }
+}

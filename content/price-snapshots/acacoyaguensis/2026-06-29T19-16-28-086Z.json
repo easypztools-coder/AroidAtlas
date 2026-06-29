@@ -1,0 +1,121 @@
+{
+  "snapshot": {
+    "plantSlug": "acacoyaguensis",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera acacoyaguensis",
+    "checkedAt": "2026-06-29T19:16:28.086Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 8,
+    "rejectedCount": 232,
+    "outlierCount": 1,
+    "confidenceScore": "D",
+    "minPrice": 10.35,
+    "p25Price": 10.67,
+    "medianPrice": 11.005,
+    "meanPrice": 17.58875,
+    "trimmedMeanPrice": 17.58875,
+    "p75Price": 12.7575,
+    "maxPrice": 60,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 8,
+    "min": 10.35,
+    "max": 60,
+    "median": 11.005,
+    "mean": 17.58875,
+    "p25": 10.67,
+    "p75": 12.7575,
+    "iqr": 2.0875000000000004,
+    "trimmedMean": 17.58875,
+    "confidenceScore": "D",
+    "rejectedCount": 232,
+    "rejectionReasons": {},
+    "outlierCount": 1
+  },
+  "acceptedListings": [
+    {
+      "title": "Rare💚 monstera acacoyaguensis variegated One Leaf Rooting Cutting",
+      "url": "https://www.ebay.co.uk/itm/366467627079",
+      "soldPrice": 15,
+      "totalPrice": 15,
+      "soldDate": "2026-06-14",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare💚 monstera acacoyaguensis variegated Rooted Plant",
+      "url": "https://www.ebay.co.uk/itm/366460503043",
+      "soldPrice": 60,
+      "totalPrice": 60,
+      "soldDate": "2026-06-06",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare💚 monstera acacoyaguensis variegated One Leaf Rooted Cutting",
+      "url": "https://www.ebay.co.uk/itm/366448960675",
+      "soldPrice": 12.01,
+      "totalPrice": 12.01,
+      "soldDate": "2026-06-06",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "VERY RARE Monstera Acacoyaguensis cuttings rooted with active growth",
+      "url": "https://www.ebay.co.uk/itm/389855039642",
+      "soldPrice": 7.49,
+      "totalPrice": 10.870000000000001,
+      "soldDate": "2026-05-10",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Acacoyaguensis",
+      "url": "https://www.ebay.co.uk/itm/397987715175",
+      "soldPrice": 10.67,
+      "totalPrice": 10.67,
+      "soldDate": "2026-06-02",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Acacoyaguensis",
+      "url": "https://www.ebay.co.uk/itm/397744289055",
+      "soldPrice": 10.67,
+      "totalPrice": 10.67,
+      "soldDate": "2026-05-21",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera acacoyaguensis albo variegated",
+      "url": "https://www.ebay.co.uk/itm/257424992700",
+      "soldPrice": 5.14,
+      "totalPrice": 11.14,
+      "soldDate": "2026-04-01",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera acacoyaguensis albo variegated",
+      "url": "https://www.ebay.co.uk/itm/257424977835",
+      "soldPrice": 4.35,
+      "totalPrice": 10.35,
+      "soldDate": "2026-04-01",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 8,
+  "rejectedCount": 232,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "monstera deliciosa [mint] variegata - houseplant in 6 cm pot",
+      "monstera deliciosa albo, half-moon variegated, 1-leaf cutting, rooting, a2",
+      "monstera albo variegated 3 leaf potted plant"
+    ]
+  }
+}

@@ -11,7 +11,7 @@
   "collectorPopularity": 4.5,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Monstera siltepecana 'El Salvador Form' is a highly attractive climbing aroid native from southern Mexico to Nicaragua. Prized for its gorgeous silvery coloration, it features juvenile lanceolate-to-ovate leaves with a beautiful dark green reticulate venation. In cultivation, it prefers warm, humid conditions with bright indirect light and vertical support to climb and mature. As it matures, the leaves become longer, narrower, and develop graceful inner fenestrations, while retaining the signature siltepecana silver color.",
   "quickFacts": {
     "growthHabit": "Climbing aroid",
@@ -33,7 +33,7 @@
     "growthHabit": "Climbing with aerial and adhesive roots"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 76,
+    "currentMedianPriceGBP": 14,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

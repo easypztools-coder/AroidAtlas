@@ -1,0 +1,85 @@
+{
+  "snapshot": {
+    "plantSlug": "rhaphidophora-cryptantha",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Rhaphidophora cryptantha shingling",
+    "checkedAt": "2026-06-29T19:24:44.303Z",
+    "currency": "GBP",
+    "rawResultCount": 63,
+    "acceptedCount": 4,
+    "rejectedCount": 59,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 19.5,
+    "p25Price": 19.7025,
+    "medianPrice": 21.98,
+    "meanPrice": 22.022499999999997,
+    "trimmedMeanPrice": 22.022499999999997,
+    "p75Price": 24.3,
+    "maxPrice": 24.63,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 4,
+    "min": 19.5,
+    "max": 24.63,
+    "median": 21.98,
+    "mean": 22.022499999999997,
+    "p25": 19.7025,
+    "p75": 24.3,
+    "iqr": 4.5975,
+    "trimmedMean": 22.022499999999997,
+    "confidenceScore": "D",
+    "rejectedCount": 59,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Rhaphidophora cryptantha Established Rare Terrarium Shingling Climber Plant",
+      "url": "https://www.ebay.co.uk/itm/327193578960",
+      "soldPrice": 21.25,
+      "totalPrice": 24.63,
+      "soldDate": "2026-06-23",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "rhaphidophora cryptantha rare plant",
+      "url": "https://www.ebay.co.uk/itm/277863467458",
+      "soldPrice": 19.77,
+      "totalPrice": 19.77,
+      "soldDate": "2026-04-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Cryptantha Rooted Cutting",
+      "url": "https://www.ebay.co.uk/itm/257437943671",
+      "soldPrice": 21.25,
+      "totalPrice": 24.19,
+      "soldDate": "2026-04-02",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Ecuagenera Rehab Rhaphidophora cryptantha (A26)",
+      "url": "https://www.ebay.co.uk/itm/397959006962",
+      "soldPrice": 19.5,
+      "totalPrice": 19.5,
+      "soldDate": "2026-05-24",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 4,
+  "rejectedCount": 59,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "rhaphidophora 'puberula variegata'-6cm pot- tropical indoor evergreen houseplant",
+      "various terrarium plants🌱 jewel orchid, pellionia, marcgravia 🌱updated 19jun26",
+      "rhaphidophora tenuis x 1 leaf cutting."
+    ]
+  }
+}

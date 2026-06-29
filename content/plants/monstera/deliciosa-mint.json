@@ -11,7 +11,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Very Rare",
   "availability": "Low",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Monstera deliciosa 'Mint' is a highly prized cultivated selection of the iconic deliciosa species, celebrated for its unique mint-coloured variegation. The large, broad, deeply fenestrated leaves display spectacular marbled mint, pale green, and cream speckling distributed throughout the blade rather than in stark sectoral blocks. As a robust climbing hemiepiphyte, it thrives in warm, humid conditions with bright, indirect light, producing thick climbing stems, strong petioles, and abundant aerial roots.",
   "quickFacts": {
     "growthHabit": "Climbing hemiepiphyte on moss pole",
@@ -33,7 +33,7 @@
     "growthHabit": "Climbing with thick stems and aerial roots"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 95,
+    "currentMedianPriceGBP": 38,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

@@ -1,0 +1,107 @@
+{
+  "snapshot": {
+    "plantSlug": "wendlingeri",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium wendlingeri",
+    "checkedAt": "2026-06-29T19:14:16.396Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 6,
+    "rejectedCount": 234,
+    "outlierCount": 1,
+    "confidenceScore": "D",
+    "minPrice": 40.13,
+    "p25Price": 40.760000000000005,
+    "medianPrice": 46.075,
+    "meanPrice": 51.76666666666667,
+    "trimmedMeanPrice": 51.76666666666667,
+    "p75Price": 50.22,
+    "maxPrice": 87.72999999999999,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 6,
+    "min": 40.13,
+    "max": 87.72999999999999,
+    "median": 46.075,
+    "mean": 51.76666666666667,
+    "p25": 40.760000000000005,
+    "p75": 50.22,
+    "iqr": 9.459999999999994,
+    "trimmedMean": 51.76666666666667,
+    "confidenceScore": "D",
+    "rejectedCount": 234,
+    "rejectionReasons": {},
+    "outlierCount": 1
+  },
+  "acceptedListings": [
+    {
+      "title": "Anthurium Wendlingeri (P14)",
+      "url": "https://www.ebay.co.uk/itm/397968883587",
+      "soldPrice": 36.75,
+      "totalPrice": 40.13,
+      "soldDate": "2026-06-21",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Wendlingeri",
+      "url": "https://www.ebay.co.uk/itm/398087190582",
+      "soldPrice": 36.75,
+      "totalPrice": 40.13,
+      "soldDate": "2026-06-20",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium  Wendlingeri",
+      "url": "https://www.ebay.co.uk/itm/398013550766",
+      "soldPrice": 47.08,
+      "totalPrice": 50.46,
+      "soldDate": "2026-06-19",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium wendlingeri",
+      "url": "https://www.ebay.co.uk/itm/327133734053",
+      "soldPrice": 84.35,
+      "totalPrice": 87.72999999999999,
+      "soldDate": "2026-05-06",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Wendlingeri | strap leaf anthurium houseplant | 7 cm pot",
+      "url": "https://www.ebay.co.uk/itm/168311847225",
+      "soldPrice": 45,
+      "totalPrice": 49.5,
+      "soldDate": "2026-04-23",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Wendlingeri | strap leaf anthurium houseplant | 7 cm pot",
+      "url": "https://www.ebay.co.uk/itm/157830356182",
+      "soldPrice": 38,
+      "totalPrice": 42.65,
+      "soldDate": "2026-04-14",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 6,
+  "rejectedCount": 234,
+  "rejectionBreakdown": {
+    "Contains excluded term": [
+      "anthurium wendlingeri seedling + 7cm tower pot + 7cm tower pot cover in green",
+      "anthurium wendlingeri seedling. strapping glossy leaves. hanging plant."
+    ],
+    "No accepted term found. Expected one of": [
+      "anthurium king of spades (kos/hu) | rare anthurium houseplant | 7 cm pot",
+      "anthurium warocqueanum",
+      "anthurium dresscarla x bvep"
+    ]
+  }
+}

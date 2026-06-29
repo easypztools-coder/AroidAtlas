@@ -1,0 +1,893 @@
+{
+  "snapshot": {
+    "plantSlug": "rhaphidophora-tetrasperma",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Rhaphidophora tetrasperma",
+    "checkedAt": "2026-06-29T19:25:14.485Z",
+    "currency": "GBP",
+    "rawResultCount": 103,
+    "acceptedCount": 93,
+    "rejectedCount": 10,
+    "outlierCount": 6,
+    "confidenceScore": "A",
+    "minPrice": 3.395,
+    "p25Price": 12.809999999999999,
+    "medianPrice": 16.66,
+    "meanPrice": 18.753494623655918,
+    "trimmedMeanPrice": 16.93070422535212,
+    "p75Price": 23.15,
+    "maxPrice": 47.07,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 93,
+    "min": 3.395,
+    "max": 47.07,
+    "median": 16.66,
+    "mean": 18.753494623655918,
+    "p25": 12.809999999999999,
+    "p75": 23.15,
+    "iqr": 10.34,
+    "trimmedMean": 16.93070422535212,
+    "confidenceScore": "A",
+    "rejectedCount": 10,
+    "rejectionReasons": {},
+    "outlierCount": 6
+  },
+  "acceptedListings": [
+    {
+      "title": "Rhaphidophora Tetrasperma Mini Monstera Rooted Cutting Tropical Houseplant",
+      "url": "https://www.ebay.co.uk/itm/188277189105",
+      "soldPrice": 4.85,
+      "totalPrice": 8.23,
+      "soldDate": "2026-06-29",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma high Variegated Albo plant",
+      "url": "https://www.ebay.co.uk/itm/117271540942",
+      "soldPrice": 13.83,
+      "totalPrice": 13.83,
+      "soldDate": "2026-06-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Minima Rhaphidophora Tetrasperma Indoor Plant, Fully Rooted In 14cm Pot",
+      "url": "https://www.ebay.co.uk/itm/377241975131",
+      "soldPrice": 12.78,
+      "totalPrice": 15.719999999999999,
+      "soldDate": "2026-06-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Minima Variegated Albo Plant Pot 6cm Houseplant",
+      "url": "https://www.ebay.co.uk/itm/406948287580",
+      "soldPrice": 22.28,
+      "totalPrice": 25.66,
+      "soldDate": "2026-05-31",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma White Monster Variegated Plant Monstera Philodendron",
+      "url": "https://www.ebay.co.uk/itm/287405628763",
+      "soldPrice": 23,
+      "totalPrice": 26.990000000000002,
+      "soldDate": "2026-06-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Mini Monstera | Rhaphidophora tetrasperma",
+      "url": "https://www.ebay.co.uk/itm/188463133481",
+      "soldPrice": 11.99,
+      "totalPrice": 18.490000000000002,
+      "soldDate": "2026-06-23",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Minima Lagre Variegated Albo plant",
+      "url": "https://www.ebay.co.uk/itm/278018003194",
+      "soldPrice": 12,
+      "totalPrice": 15.99,
+      "soldDate": "2026-06-23",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Mini Monstera, Rhaphidophora tetrasperma, Unrooted Cutting",
+      "url": "https://www.ebay.co.uk/itm/287191371209",
+      "soldPrice": 3.26,
+      "totalPrice": 5.26,
+      "soldDate": "2026-06-22",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Variegated 2 Plants In Pot",
+      "url": "https://www.ebay.co.uk/itm/366466692155",
+      "soldPrice": 12.78,
+      "totalPrice": 16.16,
+      "soldDate": "2026-06-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Variegated. Strongly Variegation New Groth",
+      "url": "https://www.ebay.co.uk/itm/117248901516",
+      "soldPrice": 6.06,
+      "totalPrice": 6.06,
+      "soldDate": "2026-06-21",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Topcutting Variegated Rhaphidophora Tetrasperma Monstera Minima  Riverted",
+      "url": "https://www.ebay.co.uk/itm/206293645631",
+      "soldPrice": 37.27,
+      "totalPrice": 40.230000000000004,
+      "soldDate": "2026-06-20",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma White Monster Variegated Plant Monstera Philodendron",
+      "url": "https://www.ebay.co.uk/itm/287405632194",
+      "soldPrice": 23,
+      "totalPrice": 26.990000000000002,
+      "soldDate": "2026-06-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Albo, HIGHLY Variegated, 1-LEAF Cutting, Rooting, A1",
+      "url": "https://www.ebay.co.uk/itm/178139359165",
+      "soldPrice": 16.99,
+      "totalPrice": 16.99,
+      "soldDate": "2026-06-17",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma White Monster Variegated Plant Monstera Philodendron",
+      "url": "https://www.ebay.co.uk/itm/278084761288",
+      "soldPrice": 29,
+      "totalPrice": 32.99,
+      "soldDate": "2026-06-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera minima - Mini Monstera",
+      "url": "https://www.ebay.co.uk/itm/196407819288",
+      "soldPrice": 15,
+      "totalPrice": 19.990000000000002,
+      "soldDate": "2026-01-04",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Minima Variegated Albo Plant Rooted Cutting Rare Plant",
+      "url": "https://www.ebay.co.uk/itm/188456221700",
+      "soldPrice": 13.82,
+      "totalPrice": 16.76,
+      "soldDate": "2026-06-17",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "1x Monstera Minima Cutting Rhaphidophora Tetrasperma Cutting Rare House Plant",
+      "url": "https://www.ebay.co.uk/itm/145874126913",
+      "soldPrice": 5.99,
+      "totalPrice": 5.99,
+      "soldDate": "2026-06-16",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Minima Lagre Variegated Albo plant",
+      "url": "https://www.ebay.co.uk/itm/278084802620",
+      "soldPrice": 18,
+      "totalPrice": 22.5,
+      "soldDate": "2026-06-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Minima Rooted Cutting Rare Indoor Houseplant Rhaphidophora Tetrasperma",
+      "url": "https://www.ebay.co.uk/itm/317261653061",
+      "soldPrice": 14.83,
+      "totalPrice": 15.74,
+      "soldDate": "2026-06-14",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare💚rhaphidophora tetrasperma migma Variegated One Leaf Rooting Cutting",
+      "url": "https://www.ebay.co.uk/itm/366467366804",
+      "soldPrice": 22,
+      "totalPrice": 22,
+      "soldDate": "2026-06-14",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Albo, HIGHLY Variegated, 3-LEAF Cutting, Rooting, A1",
+      "url": "https://www.ebay.co.uk/itm/178198369487",
+      "soldPrice": 9.99,
+      "totalPrice": 9.99,
+      "soldDate": "2026-06-13",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma White Monster Variegated Plant Monstera Philodendron",
+      "url": "https://www.ebay.co.uk/itm/278081261068",
+      "soldPrice": 35,
+      "totalPrice": 38.99,
+      "soldDate": "2026-06-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "rhaphidophora tetrasperma  Albo variegated",
+      "url": "https://www.ebay.co.uk/itm/257546534925",
+      "soldPrice": 5.9,
+      "totalPrice": 11.9,
+      "soldDate": "2026-06-11",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma White Monster Variegated Plant Monstera Philodendron",
+      "url": "https://www.ebay.co.uk/itm/278074086089",
+      "soldPrice": 26,
+      "totalPrice": 29.990000000000002,
+      "soldDate": "2026-06-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Variegated",
+      "url": "https://www.ebay.co.uk/itm/277900085198",
+      "soldPrice": 24.25,
+      "totalPrice": 27.63,
+      "soldDate": "2026-06-10",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Albo, HIGHLY Variegated, 2-LEAF TOP Cut, Rooting, A1",
+      "url": "https://www.ebay.co.uk/itm/178198528870",
+      "soldPrice": 19.99,
+      "totalPrice": 19.99,
+      "soldDate": "2026-06-09",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Minima Variegated Albo Plant Low Var",
+      "url": "https://www.ebay.co.uk/itm/298373898787",
+      "soldPrice": 6.43,
+      "totalPrice": 9.37,
+      "soldDate": "2026-06-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Variegated. Rooted Plant. Nice Variegation.",
+      "url": "https://www.ebay.co.uk/itm/116313829226",
+      "soldPrice": 23.95,
+      "totalPrice": 23.95,
+      "soldDate": "2026-06-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare💚 Rare Rhaphidophora tetrasperma White Monster Rooting Active Growth",
+      "url": "https://www.ebay.co.uk/itm/366451186513",
+      "soldPrice": 21,
+      "totalPrice": 21,
+      "soldDate": "2026-06-07",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare💚rhaphidophora tetrasperma migma Variegated One Leaf Rooting Cutting",
+      "url": "https://www.ebay.co.uk/itm/366448959078",
+      "soldPrice": 20,
+      "totalPrice": 20,
+      "soldDate": "2026-06-06",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Minima Lagre Variegated Albo plant",
+      "url": "https://www.ebay.co.uk/itm/278018002448",
+      "soldPrice": 12,
+      "totalPrice": 15.99,
+      "soldDate": "2026-06-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "rhaphidophora tetrasperma  Albo variegated",
+      "url": "https://www.ebay.co.uk/itm/257531061895",
+      "soldPrice": 10.66,
+      "totalPrice": 16.66,
+      "soldDate": "2026-06-03",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare💚 Rare Rhaphidophora tetrasperma White Monster Rooting Active Growth",
+      "url": "https://www.ebay.co.uk/itm/366438245924",
+      "soldPrice": 9.99,
+      "totalPrice": 9.99,
+      "soldDate": "2026-06-01",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Minima Lagre Variegated Albo plant",
+      "url": "https://www.ebay.co.uk/itm/278004930685",
+      "soldPrice": 18,
+      "totalPrice": 21.990000000000002,
+      "soldDate": "2026-06-01",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "2x Monstera Minima Cutting Rhaphidophora Tetrasperma Cutting Rare House Plant",
+      "url": "https://www.ebay.co.uk/itm/146546299195",
+      "soldPrice": 6.79,
+      "totalPrice": 6.79,
+      "soldDate": "2026-06-01",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Minima 13cm Pot Rhaphidophora Tetrasperma Live Indoor Houseplant Vine",
+      "url": "https://www.ebay.co.uk/itm/358439101830",
+      "soldPrice": 21.74,
+      "totalPrice": 24.7,
+      "soldDate": "2026-05-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Minima Lagre Variegated Albo plant",
+      "url": "https://www.ebay.co.uk/itm/287350724663",
+      "soldPrice": 14,
+      "totalPrice": 17.990000000000002,
+      "soldDate": "2026-05-30",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Albo, HIGHLY Variegated, 2-LEAF TOP Cutting, Rooted A1",
+      "url": "https://www.ebay.co.uk/itm/178139354857",
+      "soldPrice": 29.99,
+      "totalPrice": 29.99,
+      "soldDate": "2026-05-30",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "1x Monstera Minima Well Rooted Cutting Rhaphidophora Tetrasperma Rare Houseplant",
+      "url": "https://www.ebay.co.uk/itm/145991593278",
+      "soldPrice": 9.99,
+      "totalPrice": 9.99,
+      "soldDate": "2026-05-27",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora tetrasperma 'Goldrush' Houseplant In 12 Cm Pot",
+      "url": "https://www.ebay.co.uk/itm/127703257212",
+      "soldPrice": 19.99,
+      "totalPrice": 23.979999999999997,
+      "soldDate": "2026-05-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma 'Ginny, White Monster' 1-LEAF Cutting, Rooted, A1",
+      "url": "https://www.ebay.co.uk/itm/178139863159",
+      "soldPrice": 19.99,
+      "totalPrice": 25.479999999999997,
+      "soldDate": "2026-05-24",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Variegated | ROOTED Rare House plant",
+      "url": "https://www.ebay.co.uk/itm/147315175588",
+      "soldPrice": 41.92,
+      "totalPrice": 47.07,
+      "soldDate": "2026-05-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Albo, HIGHLY Variegated, 2x 1-LEAF Cuttings, Rooting",
+      "url": "https://www.ebay.co.uk/itm/178139374921",
+      "soldPrice": 9.99,
+      "totalPrice": 15.48,
+      "soldDate": "2026-05-23",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Marmer Variegated Cutting With Active Root Node",
+      "url": "https://www.ebay.co.uk/itm/277987616912",
+      "soldPrice": 4.85,
+      "totalPrice": 8.23,
+      "soldDate": "2026-05-22",
+      "listingType": "node",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Marmer Variegated Cutting With Active Root Node",
+      "url": "https://www.ebay.co.uk/itm/277987618291",
+      "soldPrice": 4.32,
+      "totalPrice": 7.7,
+      "soldDate": "2026-05-22",
+      "listingType": "node",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Rhaphidophora Tetrasperma 2 Stemmed Cutting With 3rd In Train.",
+      "url": "https://www.ebay.co.uk/itm/277987021342",
+      "soldPrice": 9.42,
+      "totalPrice": 12.8,
+      "soldDate": "2026-05-22",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Marmer Variegated Cutting With Active Root Node",
+      "url": "https://www.ebay.co.uk/itm/277987614232",
+      "soldPrice": 12.14,
+      "totalPrice": 15.52,
+      "soldDate": "2026-05-22",
+      "listingType": "node",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma White Monster Variegated Plant",
+      "url": "https://www.ebay.co.uk/itm/278011187675",
+      "soldPrice": 26,
+      "totalPrice": 29.990000000000002,
+      "soldDate": "2026-05-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Aurea  | ROOTED Rare House plant - 5cm Pot",
+      "url": "https://www.ebay.co.uk/itm/406938966911",
+      "soldPrice": 15,
+      "totalPrice": 15,
+      "soldDate": "2026-05-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Minima Lagre Variegated Albo plant",
+      "url": "https://www.ebay.co.uk/itm/278005043787",
+      "soldPrice": 18,
+      "totalPrice": 21.990000000000002,
+      "soldDate": "2026-05-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare💚 Rare Rhaphidophora tetrasperma White Monster Rooting Active Growth",
+      "url": "https://www.ebay.co.uk/itm/366413358354",
+      "soldPrice": 12.5,
+      "totalPrice": 17.5,
+      "soldDate": "2026-05-21",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma White Monster Variegated Plant",
+      "url": "https://www.ebay.co.uk/itm/278004931482",
+      "soldPrice": 23,
+      "totalPrice": 26.990000000000002,
+      "soldDate": "2026-05-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma White Monster Variegated Plant",
+      "url": "https://www.ebay.co.uk/itm/287342620803",
+      "soldPrice": 29,
+      "totalPrice": 32.99,
+      "soldDate": "2026-05-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Minima Lagre Variegated Albo plant",
+      "url": "https://www.ebay.co.uk/itm/278004930068",
+      "soldPrice": 19,
+      "totalPrice": 22.990000000000002,
+      "soldDate": "2026-05-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Albo, HIGHLY Variegated, 1-LEAF Cutting, Rooting, A3",
+      "url": "https://www.ebay.co.uk/itm/178139362709",
+      "soldPrice": 16.99,
+      "totalPrice": 16.99,
+      "soldDate": "2026-05-19",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Mint Aurea  Variegated",
+      "url": "https://www.ebay.co.uk/itm/257502802179",
+      "soldPrice": 12.38,
+      "totalPrice": 18.380000000000003,
+      "soldDate": "2026-05-19",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Albo, HIGHLY Variegated, 1-LEAF Cutting, Rooting, A1",
+      "url": "https://www.ebay.co.uk/itm/178139357525",
+      "soldPrice": 19.99,
+      "totalPrice": 19.99,
+      "soldDate": "2026-05-18",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare💚 Rare Rhaphidophora tetrasperma White Monster Rooting Active Growth",
+      "url": "https://www.ebay.co.uk/itm/366398670213",
+      "soldPrice": 16.05,
+      "totalPrice": 21.05,
+      "soldDate": "2026-05-14",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Aurea Variegated",
+      "url": "https://www.ebay.co.uk/itm/257493196524",
+      "soldPrice": 10.66,
+      "totalPrice": 16.66,
+      "soldDate": "2026-05-12",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma 'Ginny, White Monster' 2-LEAF TOP Cutting, Rooting, A1",
+      "url": "https://www.ebay.co.uk/itm/178119389719",
+      "soldPrice": 44.99,
+      "totalPrice": 44.99,
+      "soldDate": "2026-05-12",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Albo HIGHLY Variegated Cuttings, CHOOSE YOUR FAVOURITE",
+      "url": "https://www.ebay.co.uk/itm/177540004523",
+      "soldPrice": 14.99,
+      "totalPrice": 14.99,
+      "soldDate": "2026-05-12",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Variegated Rhaphidophora Tetrasperma Cutting – Rooted Node",
+      "url": "https://www.ebay.co.uk/itm/327117734085",
+      "soldPrice": 14.9,
+      "totalPrice": 14.9,
+      "soldDate": "2026-05-11",
+      "listingType": "node",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Mint Aurea  Variegated",
+      "url": "https://www.ebay.co.uk/itm/257487184639",
+      "soldPrice": 10.66,
+      "totalPrice": 16.66,
+      "soldDate": "2026-05-09",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma  Aurea  Variegated",
+      "url": "https://www.ebay.co.uk/itm/257486949532",
+      "soldPrice": 6.42,
+      "totalPrice": 12.42,
+      "soldDate": "2026-05-09",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "1x Monstera Minima Well Rooted Cutting Rhaphidophora Tetrasperma Rare Houseplant",
+      "url": "https://www.ebay.co.uk/itm/146638914965",
+      "soldPrice": 6.99,
+      "totalPrice": 6.99,
+      "soldDate": "2026-05-09",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Mini Monstera (Rhaphidophora tetrasperma) - Well established young plants (20cm)",
+      "url": "https://www.ebay.co.uk/itm/188279914893",
+      "soldPrice": 6.43,
+      "totalPrice": 9.37,
+      "soldDate": "2026-05-08",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma White Monster Variegated Plant",
+      "url": "https://www.ebay.co.uk/itm/287311886756",
+      "soldPrice": 35,
+      "totalPrice": 38.99,
+      "soldDate": "2026-05-08",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora tetrasperma Variegated Cutting",
+      "url": "https://www.ebay.co.uk/itm/318157687126",
+      "soldPrice": 9.61,
+      "totalPrice": 12.549999999999999,
+      "soldDate": "2026-05-08",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Mint Aurea  Variegated",
+      "url": "https://www.ebay.co.uk/itm/257484024667",
+      "soldPrice": 3.16,
+      "totalPrice": 9.16,
+      "soldDate": "2026-05-07",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Aurea Variegated",
+      "url": "https://www.ebay.co.uk/itm/257483687620",
+      "soldPrice": 4.93,
+      "totalPrice": 10.93,
+      "soldDate": "2026-05-07",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Super white! Rhaphidophora tetrasperma variegata / Monstera Minima potted!",
+      "url": "https://www.ebay.co.uk/itm/168343663313",
+      "soldPrice": 10.4,
+      "totalPrice": 13.780000000000001,
+      "soldDate": "2026-05-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma 'Ginny, White Monster' 1-LEAF Cutting, Rooting, A1",
+      "url": "https://www.ebay.co.uk/itm/178081777678",
+      "soldPrice": 19.99,
+      "totalPrice": 25.479999999999997,
+      "soldDate": "2026-05-04",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Variegated | ROOTED Rare House plant",
+      "url": "https://www.ebay.co.uk/itm/327130189059",
+      "soldPrice": 13.31,
+      "totalPrice": 16.27,
+      "soldDate": "2026-05-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Monstera Minima Split Leaf Plant UK",
+      "url": "https://www.ebay.co.uk/itm/298232773599",
+      "soldPrice": 6.9,
+      "totalPrice": 9.84,
+      "soldDate": "2026-05-01",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Variegated | ROOTED Rare House plant",
+      "url": "https://www.ebay.co.uk/itm/327130188462",
+      "soldPrice": 13.31,
+      "totalPrice": 16.27,
+      "soldDate": "2026-04-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Minima Monstera Variegata Indoor Houseplant In 9cm Pot",
+      "url": "https://www.ebay.co.uk/itm/137258965200",
+      "soldPrice": 9.87,
+      "totalPrice": 12.809999999999999,
+      "soldDate": "2026-04-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Albo. Small Plant Grown From Wetstick",
+      "url": "https://www.ebay.co.uk/itm/298267056638",
+      "soldPrice": 6.43,
+      "totalPrice": 9.809999999999999,
+      "soldDate": "2026-04-29",
+      "listingType": "node",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Albo, HIGHLY Variegated, 1-LEAF Cut w/Growth, Rooted",
+      "url": "https://www.ebay.co.uk/itm/178059238780",
+      "soldPrice": 9.99,
+      "totalPrice": 15.48,
+      "soldDate": "2026-04-25",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora tetrasperma variegata / Monstera Minima potted / Super rare!",
+      "url": "https://www.ebay.co.uk/itm/168318632343",
+      "soldPrice": 9.86,
+      "totalPrice": 13.239999999999998,
+      "soldDate": "2026-04-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Minima Rhaphidophora Tetrasperma Rare Houseplant UK",
+      "url": "https://www.ebay.co.uk/itm/298232771734",
+      "soldPrice": 6.9,
+      "totalPrice": 9.84,
+      "soldDate": "2026-04-21",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "HousePlant Rhaphidophora  Tetrasperma Partially Rooted 4Cuttings Minima Monstera",
+      "url": "https://www.ebay.co.uk/itm/198104388515",
+      "soldPrice": 5.37,
+      "totalPrice": 13.120000000000001,
+      "soldDate": "2026-04-21",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare💚 Rare Rhaphidophora tetrasperma White Monster Rooted Top Plant",
+      "url": "https://www.ebay.co.uk/itm/366345031836",
+      "soldPrice": 13.53,
+      "totalPrice": 13.53,
+      "soldDate": "2026-04-18",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora tetrasperma variegata / Monstera Minima potted / Super rare!",
+      "url": "https://www.ebay.co.uk/itm/168300194310",
+      "soldPrice": 9.86,
+      "totalPrice": 13.239999999999998,
+      "soldDate": "2026-04-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare! Rhaphidophora Tetrasperma (Mini Monstera) White Ginny Rooted cutting (B)",
+      "url": "https://www.ebay.co.uk/itm/277872891502",
+      "soldPrice": 19.77,
+      "totalPrice": 23.15,
+      "soldDate": "2026-04-14",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare!! Rhaphidophora Tetrasperma (Mini Monstera) White Ginny. Rooted Cutting (A)",
+      "url": "https://www.ebay.co.uk/itm/277872876251",
+      "soldPrice": 17.85,
+      "totalPrice": 21.23,
+      "soldDate": "2026-04-14",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma 'Ginny, White Monster' 2-LEAF Cutting, Rooting, A1",
+      "url": "https://www.ebay.co.uk/itm/178040733323",
+      "soldPrice": 39.99,
+      "totalPrice": 39.99,
+      "soldDate": "2026-04-12",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera minima | Rhaphidophora tetrasperma | x2 Cuttings",
+      "url": "https://www.ebay.co.uk/itm/177499196014",
+      "soldPrice": 9.86,
+      "totalPrice": 9.86,
+      "soldDate": "2026-04-09",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Minima Monstera Variegata Tropical Plant.",
+      "url": "https://www.ebay.co.uk/itm/188257463119",
+      "soldPrice": 26.42,
+      "totalPrice": 29.8,
+      "soldDate": "2026-04-08",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Minima Monstera Variegata Tropical Plant.",
+      "url": "https://www.ebay.co.uk/itm/188208225240",
+      "soldPrice": 26.42,
+      "totalPrice": 29.8,
+      "soldDate": "2026-04-08",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "rhaphidophora tetrasperma Mint Dust variegated",
+      "url": "https://www.ebay.co.uk/itm/257428786259",
+      "soldPrice": 10.66,
+      "totalPrice": 16.66,
+      "soldDate": "2026-04-03",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora tetrasperma variegata / Monstera Minima potted / Super rare!",
+      "url": "https://www.ebay.co.uk/itm/168271756153",
+      "soldPrice": 9.86,
+      "totalPrice": 13.239999999999998,
+      "soldDate": "2026-04-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Mint Variegated",
+      "url": "https://www.ebay.co.uk/itm/257428451722",
+      "soldPrice": 13.38,
+      "totalPrice": 19.380000000000003,
+      "soldDate": "2026-04-03",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rhaphidophora Tetrasperma Mint Aurea  Variegated",
+      "url": "https://www.ebay.co.uk/itm/257424979752",
+      "soldPrice": 12.38,
+      "totalPrice": 18.380000000000003,
+      "soldDate": "2026-04-01",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 93,
+  "rejectedCount": 10,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "variegated monstera minima live potted indoor houseplant green white",
+      "variegated monstera minima houseplant",
+      "monstera minima variegated houseplant live potted indoor houseplant"
+    ],
+    "Total price £0.99 is below £5 minimum": [
+      "rhaphidophora tetrasperma variegated. rooted plant. small reverted new groth."
+    ],
+    "Total price £4.63 is below £5 minimum": [
+      "monstera 'minima' - rhaphidophora tetrasperma",
+      "monstera minima rhaphidophora tetrasperma houseplant"
+    ]
+  }
+}

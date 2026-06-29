@@ -11,7 +11,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Anthurium 'Delta Force' is a deliberate hybrid created by Steve Nock of Ree Gardens, Miami, Florida, in the 1990s — a cross between Anthurium clarinervium and Anthurium pedatoradiatum. Delta Force was the sole seedling from the cross to produce the distinctive deltoid (triangular) leaf form with a sharply acuminate tip, a geometry found in no other common Anthurium. From A. clarinervium it inherits bold, luminous white venation against a deep dark-green coriaceous blade; from A. pedatoradiatum it inherits the triangular leaf outline. The result is a compact, self-heading terrestrial velvet anthurium valued for its architectural leaf shape and striking vein contrast. Still relatively scarce in the hobby, Delta Force commands premium prices and is increasingly sought by serious velvet anthurium collectors.",
   "quickFacts": {
     "growthHabit": "Self-heading, terrestrial clumping",
@@ -33,7 +33,7 @@
     "growthHabit": "Self-heading, compact terrestrial clump"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 49,
+    "currentMedianPriceGBP": 31,
     "threeMonthChangePercent": -8.2,
     "marketStatus": "Stable"
   },
@@ -74,7 +74,9 @@
     "source": "soldcomps",
     "marketplace": "ebay.co.uk",
     "query": "anthurium delta force",
-    "requiredTerms": ["anthurium"],
+    "requiredTerms": [
+      "anthurium"
+    ],
     "acceptedTerms": [
       "delta force",
       "anthurium delta force",

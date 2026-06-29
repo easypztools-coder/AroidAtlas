@@ -1,0 +1,67 @@
+{
+  "snapshot": {
+    "plantSlug": "crystallinum-variegated",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium crystallinum variegated",
+    "checkedAt": "2026-06-29T19:10:49.699Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 2,
+    "rejectedCount": 238,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 74,
+    "p25Price": 86.645,
+    "medianPrice": 99.28999999999999,
+    "meanPrice": 99.28999999999999,
+    "trimmedMeanPrice": 99.28999999999999,
+    "p75Price": 111.935,
+    "maxPrice": 124.58,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 2,
+    "min": 74,
+    "max": 124.58,
+    "median": 99.28999999999999,
+    "mean": 99.28999999999999,
+    "p25": 86.645,
+    "p75": 111.935,
+    "iqr": 25.290000000000006,
+    "trimmedMean": 99.28999999999999,
+    "confidenceScore": "D",
+    "rejectedCount": 238,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Anthurium crystallinum variegated",
+      "url": "https://www.ebay.co.uk/itm/306973956288",
+      "soldPrice": 124.58,
+      "totalPrice": 124.58,
+      "soldDate": "2026-06-07",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare🧡🤍Anthurium crystallinum variegated Rooted Cutting",
+      "url": "https://www.ebay.co.uk/itm/366448955315",
+      "soldPrice": 74,
+      "totalPrice": 74,
+      "soldDate": "2026-06-06",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 2,
+  "rejectedCount": 238,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "anthurium crystallinum live potted houseplant green broadleaf indoor",
+      "rare ❌anthurium crystallinum separated from variegated mother plant",
+      "rare ❌anthurium crystallinum highly variegated well rooted plant new leaf"
+    ]
+  }
+}

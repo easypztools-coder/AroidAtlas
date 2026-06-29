@@ -1,0 +1,748 @@
+{
+  "snapshot": {
+    "plantSlug": "deliciosa",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera deliciosa plant",
+    "checkedAt": "2026-06-29T19:17:29.383Z",
+    "currency": "GBP",
+    "rawResultCount": 172,
+    "acceptedCount": 77,
+    "rejectedCount": 95,
+    "outlierCount": 8,
+    "confidenceScore": "B",
+    "minPrice": 5.44,
+    "p25Price": 8.75,
+    "medianPrice": 14.97,
+    "meanPrice": 33.044285714285714,
+    "trimmedMeanPrice": 16.744736842105265,
+    "p75Price": 31.99,
+    "maxPrice": 313,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 77,
+    "min": 5.44,
+    "max": 313,
+    "median": 14.97,
+    "mean": 33.044285714285714,
+    "p25": 8.75,
+    "p75": 31.99,
+    "iqr": 23.24,
+    "trimmedMean": 16.744736842105265,
+    "confidenceScore": "B",
+    "rejectedCount": 95,
+    "rejectionReasons": {},
+    "outlierCount": 8
+  },
+  "acceptedListings": [
+    {
+      "title": "Monstera Deliciosa ‘Swiss Cheese Plant’ – approximately 40-50cm Tall | Lush",
+      "url": "https://www.ebay.co.uk/itm/376284152509",
+      "soldPrice": 14.82,
+      "totalPrice": 14.82,
+      "soldDate": "2026-06-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Swiss Cheese Plant Monstera Deliciosa House Plants Evergreen Indoor Plant in Pot",
+      "url": "https://www.ebay.co.uk/itm/254558086886",
+      "soldPrice": 37.49,
+      "totalPrice": 37.49,
+      "soldDate": "2026-06-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱RARE Monstera Deliciosa Var. BRAZIL top cut (not TC, not philodendron",
+      "url": "https://www.ebay.co.uk/itm/336650505705",
+      "soldPrice": 11.4,
+      "totalPrice": 16.55,
+      "soldDate": "2026-06-28",
+      "listingType": "tc_plantlet",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱RARE Monstera Deliciosa NOID mutation 1 leaf cutting shooted not philodendron",
+      "url": "https://www.ebay.co.uk/itm/336650497181",
+      "soldPrice": 9.82,
+      "totalPrice": 14.97,
+      "soldDate": "2026-06-28",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱RARE Monstera Deliciosa NOID mutation 1 leaf cutting shootin(not philodendron",
+      "url": "https://www.ebay.co.uk/itm/336650479245",
+      "soldPrice": 9.82,
+      "totalPrice": 14.97,
+      "soldDate": "2026-06-28",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Baby Swiss Cheese Plant Monstera Deliciosa Small Indoor Houseplant in 6cm Pot",
+      "url": "https://www.ebay.co.uk/itm/266017699094",
+      "soldPrice": 9.49,
+      "totalPrice": 9.49,
+      "soldDate": "2026-06-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa / Swiss Cheese Plant Cuttings - Medium Well Rooted Cutting",
+      "url": "https://www.ebay.co.uk/itm/144444727341",
+      "soldPrice": 7.99,
+      "totalPrice": 7.99,
+      "soldDate": "2026-06-28",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "1 x Stunning Monstera Deliciosa 30-40cm Potted Indoor Houseplant",
+      "url": "https://www.ebay.co.uk/itm/274325444277",
+      "soldPrice": 15.99,
+      "totalPrice": 15.99,
+      "soldDate": "2026-06-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Indoor 30-40cm Potted Monstera Deliciosa Swiss Cheese Plant",
+      "url": "https://www.ebay.co.uk/itm/254558086943",
+      "soldPrice": 15.99,
+      "totalPrice": 15.99,
+      "soldDate": "2026-06-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Swiss Cheese Plant",
+      "url": "https://www.ebay.co.uk/itm/177885680790",
+      "soldPrice": 8.55,
+      "totalPrice": 11.510000000000002,
+      "soldDate": "2026-06-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Swiss Cheese Plant in 12 cm pot",
+      "url": "https://www.ebay.co.uk/itm/127723714281",
+      "soldPrice": 9.99,
+      "totalPrice": 13.98,
+      "soldDate": "2026-06-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "🪴Monstera deliciosa 🌿Swiss Cheese Plant🌴",
+      "url": "https://www.ebay.co.uk/itm/236859585388",
+      "soldPrice": 6.17,
+      "totalPrice": 6.17,
+      "soldDate": "2026-06-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa / Swiss Cheese Baby Plant Cutting - Rooted",
+      "url": "https://www.ebay.co.uk/itm/144446015697",
+      "soldPrice": 6.49,
+      "totalPrice": 6.49,
+      "soldDate": "2026-06-24",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱RARE Monstera Deliciosa NOID mutation one leaf cutting (not philodendron",
+      "url": "https://www.ebay.co.uk/itm/336639245761",
+      "soldPrice": 10.35,
+      "totalPrice": 15.5,
+      "soldDate": "2026-06-21",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱RARE Monstera Deliciosa  WHITE LAVA  one leaf cutting (not philodendron",
+      "url": "https://www.ebay.co.uk/itm/336639216416",
+      "soldPrice": 45.71,
+      "totalPrice": 50.86,
+      "soldDate": "2026-06-21",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "🌴Monstera deliciosa 🪴Swiss Cheese Plant🌴",
+      "url": "https://www.ebay.co.uk/itm/236887964763",
+      "soldPrice": 6.17,
+      "totalPrice": 6.17,
+      "soldDate": "2026-06-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "☘️Monstera deliciosa 🌿Swiss Cheese Plant🪴",
+      "url": "https://www.ebay.co.uk/itm/236859581859",
+      "soldPrice": 6.17,
+      "totalPrice": 6.17,
+      "soldDate": "2026-06-18",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Swiss Cheese Plant 130cm Large Potted",
+      "url": "https://www.ebay.co.uk/itm/147357738410",
+      "soldPrice": 55.02,
+      "totalPrice": 55.02,
+      "soldDate": "2026-06-17",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera deliciosa - Swiss Cheese Plant",
+      "url": "https://www.ebay.co.uk/itm/195760027544",
+      "soldPrice": 12,
+      "totalPrice": 12,
+      "soldDate": "2024-10-08",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "MONSTERA DELICIOSA ELECTROLYTE HIGH VARIEGATION 3 LEAF FULLY ROOTED PLANT",
+      "url": "https://www.ebay.co.uk/itm/195893339371",
+      "soldPrice": 299,
+      "totalPrice": 313,
+      "soldDate": "2026-06-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Houseplant Bundle 3 Plants, Monstera deliciosa & adansonii, pilea peperomioides",
+      "url": "https://www.ebay.co.uk/itm/287315919529",
+      "soldPrice": 5.37,
+      "totalPrice": 8.75,
+      "soldDate": "2026-06-16",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "☘️Monstera deliciosa 🌿Swiss Cheese Plant 🪴",
+      "url": "https://www.ebay.co.uk/itm/236859578677",
+      "soldPrice": 6.17,
+      "totalPrice": 6.17,
+      "soldDate": "2026-06-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱RARE Monstera Deliciosa Var. BRAZIL top cut (not TC, not philodendron",
+      "url": "https://www.ebay.co.uk/itm/336626451642",
+      "soldPrice": 25.77,
+      "totalPrice": 30.92,
+      "soldDate": "2026-06-14",
+      "listingType": "tc_plantlet",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱RARE Monstera Deliciosa NOID mutation one leaf cutting (not philodendron",
+      "url": "https://www.ebay.co.uk/itm/336626368632",
+      "soldPrice": 20.12,
+      "totalPrice": 25.270000000000003,
+      "soldDate": "2026-06-14",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Swiss Cheese Plant (1 Plant)",
+      "url": "https://www.ebay.co.uk/itm/365877969607",
+      "soldPrice": 10.81,
+      "totalPrice": 14.48,
+      "soldDate": "2026-06-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Swiss Cheese Plant",
+      "url": "https://www.ebay.co.uk/itm/257524743910",
+      "soldPrice": 50.12,
+      "totalPrice": 50.12,
+      "soldDate": "2026-06-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Extra Large Monstera Deliciosa Swiss Cheese Indoor House Plant",
+      "url": "https://www.ebay.co.uk/itm/377208060089",
+      "soldPrice": 49.95,
+      "totalPrice": 49.95,
+      "soldDate": "2026-06-10",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa, Cheese Plant, Single Leaf, Fully Rooted",
+      "url": "https://www.ebay.co.uk/itm/137347133574",
+      "soldPrice": 3.26,
+      "totalPrice": 6.64,
+      "soldDate": "2026-06-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Large Swiss Cheese Plant 130cm",
+      "url": "https://www.ebay.co.uk/itm/267678451894",
+      "soldPrice": 47.52,
+      "totalPrice": 47.52,
+      "soldDate": "2026-06-09",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Healthy Mature Monstera Deliciosa extra large XL Swiss Cheese plant",
+      "url": "https://www.ebay.co.uk/itm/198394576437",
+      "soldPrice": 260.79,
+      "totalPrice": 260.79,
+      "soldDate": "2026-06-08",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱RARE Monstera Deliciosa Var. BRAZIL (not TC, not philodendron",
+      "url": "https://www.ebay.co.uk/itm/336612145287",
+      "soldPrice": 36.68,
+      "totalPrice": 41.83,
+      "soldDate": "2026-06-07",
+      "listingType": "tc_plantlet",
+      "currency": "GBP"
+    },
+    {
+      "title": "🪴Monstera deliciosa 🌿Swiss Cheese Plant🌺",
+      "url": "https://www.ebay.co.uk/itm/236859591176",
+      "soldPrice": 6.17,
+      "totalPrice": 6.17,
+      "soldDate": "2026-06-06",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Large Mature Monstera Deliciosa – 120cm Tall – ceramic pots  Swiss Cheese Plant",
+      "url": "https://www.ebay.co.uk/itm/800123333951",
+      "soldPrice": 87.05,
+      "totalPrice": 87.05,
+      "soldDate": "2026-06-06",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera deliciosa House Plant",
+      "url": "https://www.ebay.co.uk/itm/178185736591",
+      "soldPrice": 10.67,
+      "totalPrice": 13.61,
+      "soldDate": "2026-06-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Swiss Cheese Plant Monkey Mask 12cm Pot Home Decor Gift",
+      "url": "https://www.ebay.co.uk/itm/127812163398",
+      "soldPrice": 11.84,
+      "totalPrice": 14.8,
+      "soldDate": "2026-05-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa – Large Healthy Swiss Cheese Plant",
+      "url": "https://www.ebay.co.uk/itm/306946124068",
+      "soldPrice": 68.33,
+      "totalPrice": 68.33,
+      "soldDate": "2026-06-04",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa / Swiss Cheese Plant Cuttings - Large Rooted Cutting",
+      "url": "https://www.ebay.co.uk/itm/144431160854",
+      "soldPrice": 9.29,
+      "totalPrice": 9.29,
+      "soldDate": "2026-06-04",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Swiss Cheese Plant Mature Indoor Tropical House Plant",
+      "url": "https://www.ebay.co.uk/itm/147337232940",
+      "soldPrice": 7.49,
+      "totalPrice": 10.43,
+      "soldDate": "2026-06-02",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera deliciosa 'Swiss Cheese Plant'",
+      "url": "https://www.ebay.co.uk/itm/236748600952",
+      "soldPrice": 11.99,
+      "totalPrice": 11.99,
+      "soldDate": "2026-05-31",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Swiss Cheese Plant Node Rooted Cutting With New Growth",
+      "url": "https://www.ebay.co.uk/itm/227359479322",
+      "soldPrice": 5.9,
+      "totalPrice": 8.84,
+      "soldDate": "2026-05-30",
+      "listingType": "node",
+      "currency": "GBP"
+    },
+    {
+      "title": "Swiss Cheese Plant (Monstera deliciosa) in 12cm pot. 40cm tall approx.",
+      "url": "https://www.ebay.co.uk/itm/137089835931",
+      "soldPrice": 8.99,
+      "totalPrice": 14.940000000000001,
+      "soldDate": "2026-05-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa var Sierrana Young Plant as shown A",
+      "url": "https://www.ebay.co.uk/itm/267653411948",
+      "soldPrice": 15.98,
+      "totalPrice": 19.36,
+      "soldDate": "2026-05-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "☘️Monstera deliciosa 🌿Swiss Cheese Plant 🪴",
+      "url": "https://www.ebay.co.uk/itm/236748170341",
+      "soldPrice": 6.26,
+      "totalPrice": 6.26,
+      "soldDate": "2026-05-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa 60cm – Tropical Houseplant in 17cm Pot | Swiss Cheese Plant",
+      "url": "https://www.ebay.co.uk/itm/317990679555",
+      "soldPrice": 31.99,
+      "totalPrice": 31.99,
+      "soldDate": "2026-05-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "🌴Monstera deliciosa 🌿Swiss Cheese Plant 🍃",
+      "url": "https://www.ebay.co.uk/itm/236748163970",
+      "soldPrice": 6.17,
+      "totalPrice": 6.17,
+      "soldDate": "2026-05-18",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera deliciosa Starter Plant • Swiss Cheese • Easy Care Houseplant",
+      "url": "https://www.ebay.co.uk/itm/396949008713",
+      "soldPrice": 10.81,
+      "totalPrice": 13.75,
+      "soldDate": "2026-05-18",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Swiss Cheese Plant Rooted Cutting Large Healthy Roots!",
+      "url": "https://www.ebay.co.uk/itm/397860978501",
+      "soldPrice": 10.67,
+      "totalPrice": 13.61,
+      "soldDate": "2026-05-17",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Beautiful Mature 2 Plants",
+      "url": "https://www.ebay.co.uk/itm/236590594727",
+      "soldPrice": 31.58,
+      "totalPrice": 38.23,
+      "soldDate": "2026-05-15",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "🌿 Monstera Deliciosa | Fully Rooted | Indoor Plant | 12 cm Pot | 45-55cm tall",
+      "url": "https://www.ebay.co.uk/itm/146987145679",
+      "soldPrice": 9.86,
+      "totalPrice": 9.86,
+      "soldDate": "2026-05-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Swiss Cheese Plant. Mature and In Excellent Condition No Pot",
+      "url": "https://www.ebay.co.uk/itm/306906590249",
+      "soldPrice": 31.58,
+      "totalPrice": 38.23,
+      "soldDate": "2026-05-14",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "House Plant Monstera Deliciosa in pot",
+      "url": "https://www.ebay.co.uk/itm/146800641400",
+      "soldPrice": 72.49,
+      "totalPrice": 72.49,
+      "soldDate": "2026-05-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Swiss Cheese Plant (Monstera Deliciosa) | 2 Meters / 79 Inches  XL Extra Large",
+      "url": "https://www.ebay.co.uk/itm/277966035806",
+      "soldPrice": 198.37,
+      "totalPrice": 198.37,
+      "soldDate": "2026-05-10",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Swiss Cheese Plant House Plant Monstera Deliciosa 50-60cm tall in a  20 cm pot",
+      "url": "https://www.ebay.co.uk/itm/406284586802",
+      "soldPrice": 8.55,
+      "totalPrice": 15.200000000000001,
+      "soldDate": "2026-05-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Large Form Swiss Cheese Plant",
+      "url": "https://www.ebay.co.uk/itm/227323110214",
+      "soldPrice": 21.51,
+      "totalPrice": 21.51,
+      "soldDate": "2026-05-07",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Swiss Cheese Plant Monstera Deliciosa House Plants Evergreen Indoor Plant in Pot",
+      "url": "https://www.ebay.co.uk/itm/355271051061",
+      "soldPrice": 17.99,
+      "totalPrice": 17.99,
+      "soldDate": "2026-05-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Large Indoor House Plant (Cheese Plant) 80cm Tall",
+      "url": "https://www.ebay.co.uk/itm/277928974077",
+      "soldPrice": 23.97,
+      "totalPrice": 29.919999999999998,
+      "soldDate": "2026-05-04",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "MONSTERA DELICIOSA- Swiss CHEESE PLANT. Potted- 35cm Plant, With Fenestrations.",
+      "url": "https://www.ebay.co.uk/itm/205374949838",
+      "soldPrice": 10.81,
+      "totalPrice": 15.06,
+      "soldDate": "2026-05-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Swiss Cheese Plant - Large",
+      "url": "https://www.ebay.co.uk/itm/178032086173",
+      "soldPrice": 57.93,
+      "totalPrice": 57.93,
+      "soldDate": "2026-05-02",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "🌴Monstera deliciosa 🌿Swiss Cheese Plant 🌳",
+      "url": "https://www.ebay.co.uk/itm/236748165779",
+      "soldPrice": 5.44,
+      "totalPrice": 5.44,
+      "soldDate": "2026-05-01",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Large Form Swiss Cheese Plant",
+      "url": "https://www.ebay.co.uk/itm/227313367102",
+      "soldPrice": 21.51,
+      "totalPrice": 21.51,
+      "soldDate": "2026-04-30",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Kunzo White Monster. Established Plant. Beautiful Plant!!",
+      "url": "https://www.ebay.co.uk/itm/277921481663",
+      "soldPrice": 36.75,
+      "totalPrice": 40.13,
+      "soldDate": "2026-04-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Swiss Cheese Plant – Mature Indoor Tropical House Plant",
+      "url": "https://www.ebay.co.uk/itm/188161194587",
+      "soldPrice": 104.74,
+      "totalPrice": 104.74,
+      "soldDate": "2026-04-23",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Large Indoor House Plant (Cheese Plant) 80cm Tall",
+      "url": "https://www.ebay.co.uk/itm/277896425425",
+      "soldPrice": 23.97,
+      "totalPrice": 29.919999999999998,
+      "soldDate": "2026-04-20",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "30-40cm Potted Monstera Deliciosa Best Indoor Plants for Sale",
+      "url": "https://www.ebay.co.uk/itm/254610458525",
+      "soldPrice": 15.99,
+      "totalPrice": 15.99,
+      "soldDate": "2026-04-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "🌴Monstera deliciosa 🎋Swiss Cheese Plant 🍃",
+      "url": "https://www.ebay.co.uk/itm/236748163166",
+      "soldPrice": 5.44,
+      "totalPrice": 5.44,
+      "soldDate": "2026-04-18",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "🌴Monstera deliciosa 🌿Swiss Cheese Plant 🪴",
+      "url": "https://www.ebay.co.uk/itm/236748169187",
+      "soldPrice": 5.44,
+      "totalPrice": 5.44,
+      "soldDate": "2026-04-16",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Large Indoor House Plant (Cheese Plant) 80cm Tall",
+      "url": "https://www.ebay.co.uk/itm/277894432132",
+      "soldPrice": 23.97,
+      "totalPrice": 29.919999999999998,
+      "soldDate": "2026-04-15",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa Large Indoor House Plant (Cheese Plant) 80cm Tall",
+      "url": "https://www.ebay.co.uk/itm/277846076901",
+      "soldPrice": 23.97,
+      "totalPrice": 29.919999999999998,
+      "soldDate": "2026-04-13",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Houseplant Bundle 3 Plants, Monstera deliciosa & adansonii, pilea peperomioides",
+      "url": "https://www.ebay.co.uk/itm/287267916658",
+      "soldPrice": 7.89,
+      "totalPrice": 10.83,
+      "soldDate": "2026-04-12",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Huge Monstera Deliciosa Swiss Cheese Plant Near Ceiling Height Collection CR3",
+      "url": "https://www.ebay.co.uk/itm/267633945067",
+      "soldPrice": 30.01,
+      "totalPrice": 30.01,
+      "soldDate": "2026-04-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Healthy Mature Giant Large Monstera Deliciosa Swiss Cheese House Plant 170cm+pot",
+      "url": "https://www.ebay.co.uk/itm/358391786509",
+      "soldPrice": 141.15,
+      "totalPrice": 141.15,
+      "soldDate": "2026-04-05",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "A Monstera Deliciosa Rooted Cutting. Swiss Cheese Plant",
+      "url": "https://www.ebay.co.uk/itm/277848372493",
+      "soldPrice": 3.26,
+      "totalPrice": 5.98,
+      "soldDate": "2026-04-05",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "🌴Monstera deliciosa 🎋Swiss Cheese Plant 🍃",
+      "url": "https://www.ebay.co.uk/itm/236731566613",
+      "soldPrice": 5.44,
+      "totalPrice": 5.44,
+      "soldDate": "2026-04-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "🌴Monstera deliciosa 🌿Swiss Cheese Plant 🍃",
+      "url": "https://www.ebay.co.uk/itm/236731570693",
+      "soldPrice": 5.44,
+      "totalPrice": 5.44,
+      "soldDate": "2026-04-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "🌴Monstera deliciosa 🌿Swiss Cheese Plant 🌴",
+      "url": "https://www.ebay.co.uk/itm/236731573435",
+      "soldPrice": 5.44,
+      "totalPrice": 5.44,
+      "soldDate": "2026-04-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "🌴Monstera deliciosa 🎋Swiss Cheese Plant 🍃",
+      "url": "https://www.ebay.co.uk/itm/236695058009",
+      "soldPrice": 5.44,
+      "totalPrice": 5.44,
+      "soldDate": "2026-04-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Deliciosa houseplant heart leaves rooted Swiss Cheese Plant",
+      "url": "https://www.ebay.co.uk/itm/377037002765",
+      "soldPrice": 4.32,
+      "totalPrice": 7.28,
+      "soldDate": "2026-04-01",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 77,
+  "rejectedCount": 95,
+  "rejectionBreakdown": {
+    "Contains excluded term": [
+      "xl 38 cm⭐highly variegated⭐monstera deliciosa albo -white/mint marble- plant🌱",
+      "monstera deliciosa green on green variegated house plant",
+      "monstera deliciosa mint variegata - rare variegated aroid plant 11mdm06"
+    ],
+    "Total price £4.39 is below £5 minimum": [
+      "monstera deliciosa healthy swiss cheese plant in pot m"
+    ],
+    "Total price £4.08 is below £5 minimum": [
+      "monstera deliciosa swiss cheese plant houseplant well rooted plant"
+    ]
+  }
+}

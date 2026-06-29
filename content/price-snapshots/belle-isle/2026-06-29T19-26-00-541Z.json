@@ -1,0 +1,53 @@
+{
+  "snapshot": {
+    "plantSlug": "belle-isle",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron Belle Isle",
+    "checkedAt": "2026-06-29T19:26:00.541Z",
+    "currency": "GBP",
+    "rawResultCount": 157,
+    "acceptedCount": 0,
+    "rejectedCount": 157,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 0,
+    "p25Price": 0,
+    "medianPrice": 0,
+    "meanPrice": 0,
+    "trimmedMeanPrice": 0,
+    "p75Price": 0,
+    "maxPrice": 0,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 0,
+    "min": 0,
+    "max": 0,
+    "median": 0,
+    "mean": 0,
+    "p25": 0,
+    "p75": 0,
+    "iqr": 0,
+    "trimmedMean": 0,
+    "confidenceScore": "D",
+    "rejectedCount": 157,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [],
+  "acceptedCount": 0,
+  "rejectedCount": 157,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "michigan mi detroit river belle isle ambassador bridge postcard old vintage card",
+      "michigan mi detroit belle isle casino postcard old vintage card view standard pc",
+      "michigan mi belle isle detroit canal postcard old vintage card view standard pc"
+    ],
+    "Global block": [
+      "the magic of belle isle dvd 2012 morgan freeman rob reiner virginia madsen new",
+      "next level belle isle graphic t-shirt blue crewneck short sleeve cotton blend me",
+      "the magic of belle isle dvd 2012 widescreen morgan freeman rob reiner"
+    ]
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "snapshot": {
+    "plantSlug": "amydrium-medium",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Amydrium medium",
+    "checkedAt": "2026-06-29T19:22:37.234Z",
+    "currency": "GBP",
+    "rawResultCount": 221,
+    "acceptedCount": 17,
+    "rejectedCount": 204,
+    "outlierCount": 4,
+    "confidenceScore": "C",
+    "minPrice": 5.37,
+    "p25Price": 11.219999999999999,
+    "medianPrice": 13.08,
+    "meanPrice": 14.341764705882351,
+    "trimmedMeanPrice": 12.422727272727274,
+    "p75Price": 15.100000000000001,
+    "maxPrice": 32.5,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 17,
+    "min": 5.37,
+    "max": 32.5,
+    "median": 13.08,
+    "mean": 14.341764705882351,
+    "p25": 11.219999999999999,
+    "p75": 15.100000000000001,
+    "iqr": 3.8800000000000026,
+    "trimmedMean": 12.422727272727274,
+    "confidenceScore": "C",
+    "rejectedCount": 204,
+    "rejectionReasons": {},
+    "outlierCount": 4
+  },
+  "acceptedListings": [
+    {
+      "title": "CLEARANCE £9.99 - Variegated Monstera, Philodendron, Syngonium, Amydrium, Ficus",
+      "url": "https://www.ebay.co.uk/itm/177883964219",
+      "soldPrice": 9.99,
+      "totalPrice": 9.99,
+      "soldDate": "2026-06-22",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Amydrium Zippelianum Rare Aroid | Rooted Plant | Exotic Collector Houseplant",
+      "url": "https://www.ebay.co.uk/itm/236790753688",
+      "soldPrice": 22,
+      "totalPrice": 22,
+      "soldDate": "2026-06-18",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Amydrium Medium Variegated",
+      "url": "https://www.ebay.co.uk/itm/227385273313",
+      "soldPrice": 11.72,
+      "totalPrice": 15.100000000000001,
+      "soldDate": "2026-06-13",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Amydrium Medium",
+      "url": "https://www.ebay.co.uk/itm/298373909507",
+      "soldPrice": 4.32,
+      "totalPrice": 7.26,
+      "soldDate": "2026-06-02",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Amydrium Medium Silver Aurea - Variegated Rare Plant #2",
+      "url": "https://www.ebay.co.uk/itm/206234011951",
+      "soldPrice": 24.65,
+      "totalPrice": 24.65,
+      "soldDate": "2026-06-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Amydrium Sp Java Variegated Rooted and Shooted Cutting",
+      "url": "https://www.ebay.co.uk/itm/227277920155",
+      "soldPrice": 10.67,
+      "totalPrice": 14.05,
+      "soldDate": "2026-06-02",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Amydrium Medium Zippelianum Variegated",
+      "url": "https://www.ebay.co.uk/itm/257517499436",
+      "soldPrice": 6.42,
+      "totalPrice": 12.42,
+      "soldDate": "2026-05-28",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Amydrium Medium Easy Care Houseplant Baby Rooted Cutting",
+      "url": "https://www.ebay.co.uk/itm/137336723357",
+      "soldPrice": 5.37,
+      "totalPrice": 5.37,
+      "soldDate": "2026-05-24",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Amydrium Medium Silver Aurea - Variegated Rare Plant #1",
+      "url": "https://www.ebay.co.uk/itm/206234011622",
+      "soldPrice": 29,
+      "totalPrice": 32.5,
+      "soldDate": "2026-05-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Indoor Houseplant Monstera Amydrium Silver Rooted Cutting In 7cm Pot",
+      "url": "https://www.ebay.co.uk/itm/137316309134",
+      "soldPrice": 10.14,
+      "totalPrice": 13.08,
+      "soldDate": "2026-05-16",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Indoor Houseplant Monstera Amydrium Silver Rooted Cutting In 7cm Pot",
+      "url": "https://www.ebay.co.uk/itm/137158316288",
+      "soldPrice": 10.14,
+      "totalPrice": 13.08,
+      "soldDate": "2026-05-16",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Amydrium Medium Silver Pot6cm Houseplant",
+      "url": "https://www.ebay.co.uk/itm/406763412461",
+      "soldPrice": 9.61,
+      "totalPrice": 12.989999999999998,
+      "soldDate": "2026-05-15",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Amydrium Medium ALBO Variegated, 3-LEAF TOP Cutting w/Growth, Rooted in water",
+      "url": "https://www.ebay.co.uk/itm/178078056260",
+      "soldPrice": 9.99,
+      "totalPrice": 15.48,
+      "soldDate": "2026-05-02",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Amydrium Variegated",
+      "url": "https://www.ebay.co.uk/itm/227324960495",
+      "soldPrice": 9.08,
+      "totalPrice": 12.46,
+      "soldDate": "2026-05-02",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Amydrium Zippelianum Rare Aroid | Rooted Plant | Exotic Collector Houseplant",
+      "url": "https://www.ebay.co.uk/itm/236605863673",
+      "soldPrice": 15,
+      "totalPrice": 15,
+      "soldDate": "2026-04-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Amydrium Medium",
+      "url": "https://www.ebay.co.uk/itm/257426601278",
+      "soldPrice": 5.22,
+      "totalPrice": 11.219999999999999,
+      "soldDate": "2026-04-02",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Amydrium Medium Watermelon Variegated",
+      "url": "https://www.ebay.co.uk/itm/257424973825",
+      "soldPrice": 1.16,
+      "totalPrice": 7.16,
+      "soldDate": "2026-04-01",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 17,
+  "rejectedCount": 204,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "philodendron pedatum variegated one leaf rooting new shoot",
+      "syngonium albo variegated rooted cutting",
+      "philodendron micans highly variegated, 1-leaf cuttings, choose your favourite!"
+    ]
+  }
+}

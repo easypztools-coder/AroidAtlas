@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Very Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£",
   "aboutText": "Anthurium besseae is a compact epiphytic Anthurium described by Croat, native to the cloud-influenced humid forests of Bolivia at montane elevations. It grows on trees in high-humidity environments, producing a dense crown of velvety, dark green leaves with contrasting pale venation and a distinctively narrow to moderate sinus. Short petioles keep the plant tightly formed, and it rarely exceeds a manageable size — making it ideal for cabinet and terrarium cultivation. Known from only limited localities in Bolivia, it remains one of the more challenging velvet anthuriums to source legitimately, and it commands serious attention among dedicated collectors.",
   "quickFacts": {
     "growthHabit": "Compact epiphyte, self-heading",
@@ -34,7 +34,7 @@
     "growthHabit": "Dense compact crown, short internodes"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 180,
+    "currentMedianPriceGBP": 39,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

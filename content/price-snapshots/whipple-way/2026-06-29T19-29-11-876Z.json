@@ -1,0 +1,139 @@
+{
+  "snapshot": {
+    "plantSlug": "whipple-way",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron Whipple Way",
+    "checkedAt": "2026-06-29T19:29:11.876Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 10,
+    "rejectedCount": 230,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 1.6666666666666667,
+    "p25Price": 10.1175,
+    "medianPrice": 13.555,
+    "meanPrice": 19.32566666666667,
+    "trimmedMeanPrice": 18.54375,
+    "p75Price": 31.63,
+    "maxPrice": 43.24,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 10,
+    "min": 1.6666666666666667,
+    "max": 43.24,
+    "median": 13.555,
+    "mean": 19.32566666666667,
+    "p25": 10.1175,
+    "p75": 31.63,
+    "iqr": 21.5125,
+    "trimmedMean": 18.54375,
+    "confidenceScore": "D",
+    "rejectedCount": 230,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "🐱RARE BUNDLE Philodendron WHIPPLE WAY + Monstera obliqua Peru rooted",
+      "url": "https://www.ebay.co.uk/itm/336650502014",
+      "soldPrice": 9.82,
+      "totalPrice": 14.97,
+      "soldDate": "2026-06-28",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Whipple Way Variegated - Rare Plant #7",
+      "url": "https://www.ebay.co.uk/itm/206327169235",
+      "soldPrice": 37,
+      "totalPrice": 37,
+      "soldDate": "2026-06-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare Philodendron Whipple Way🤍💚marble Variegated One Leaf Rooted Cutting",
+      "url": "https://www.ebay.co.uk/itm/366438188547",
+      "soldPrice": 10.5,
+      "totalPrice": 10.5,
+      "soldDate": "2026-06-01",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Whipple Way Marble Variegated One Leaf Rooted Cutting",
+      "url": "https://www.ebay.co.uk/itm/366419771250",
+      "soldPrice": 9.99,
+      "totalPrice": 9.99,
+      "soldDate": "2026-05-24",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Whipple Way Variegated - Rare Plant #2",
+      "url": "https://www.ebay.co.uk/itm/206234043720",
+      "soldPrice": 39.74,
+      "totalPrice": 43.24,
+      "soldDate": "2026-05-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare💚philodendron Whipple Way❌marble❌variegated Rooted One Leaf",
+      "url": "https://www.ebay.co.uk/itm/366397738859",
+      "soldPrice": 9.99,
+      "totalPrice": 9.99,
+      "soldDate": "2026-05-14",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Whipple way white marbel (pleas see description)",
+      "url": "https://www.ebay.co.uk/itm/287293645027",
+      "soldPrice": 10.87,
+      "totalPrice": 15.52,
+      "soldDate": "2026-05-02",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "X12 Philodendron Whipple Way - 04AP12",
+      "url": "https://www.ebay.co.uk/itm/327128458323",
+      "soldPrice": 20,
+      "totalPrice": 20,
+      "soldDate": "2026-05-01",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Whipple way white marbel (pleas see description)",
+      "url": "https://www.ebay.co.uk/itm/287277151208",
+      "soldPrice": 7.49,
+      "totalPrice": 12.14,
+      "soldDate": "2026-04-24",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Whipple Way Variegated #9",
+      "url": "https://www.ebay.co.uk/itm/206155760211",
+      "soldPrice": 34.74,
+      "totalPrice": 38.24,
+      "soldDate": "2026-04-17",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 10,
+  "rejectedCount": 230,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "rare! - philodendron 'whipple way' variegated, large 2-leaf top cutting, rooting",
+      "rare! - philodendron 'whipple way' variegated, large 1-leaf cutting, rooting, a1",
+      "philodendron variegated plowmanii roots well established base 1st leaf growing"
+    ]
+  }
+}

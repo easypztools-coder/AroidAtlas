@@ -1,0 +1,252 @@
+{
+  "snapshot": {
+    "plantSlug": "crystallinum",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium crystallinum",
+    "checkedAt": "2026-06-29T19:10:53.771Z",
+    "currency": "GBP",
+    "rawResultCount": 67,
+    "acceptedCount": 22,
+    "rejectedCount": 45,
+    "outlierCount": 5,
+    "confidenceScore": "C",
+    "minPrice": 5.93,
+    "p25Price": 13.055,
+    "medianPrice": 15.41,
+    "meanPrice": 16.774090909090912,
+    "trimmedMeanPrice": 14.979999999999999,
+    "p75Price": 16.98,
+    "maxPrice": 47.059999999999995,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 22,
+    "min": 5.93,
+    "max": 47.059999999999995,
+    "median": 15.41,
+    "mean": 16.774090909090912,
+    "p25": 13.055,
+    "p75": 16.98,
+    "iqr": 3.9250000000000007,
+    "trimmedMean": 14.979999999999999,
+    "confidenceScore": "C",
+    "rejectedCount": 45,
+    "rejectionReasons": {},
+    "outlierCount": 5
+  },
+  "acceptedListings": [
+    {
+      "title": "Anthurium Crystallinum Houseplant In 12 Cm Pot",
+      "url": "https://www.ebay.co.uk/itm/127731751367",
+      "soldPrice": 12.5,
+      "totalPrice": 16.4,
+      "soldDate": "2026-06-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Crystallinum Houseplant In 6 Cm Pot",
+      "url": "https://www.ebay.co.uk/itm/127779273360",
+      "soldPrice": 6.9,
+      "totalPrice": 10.8,
+      "soldDate": "2026-06-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium crystallinum silver Blush Young Houseplant Unbranded Easy Care",
+      "url": "https://www.ebay.co.uk/itm/137404488115",
+      "soldPrice": 5.93,
+      "totalPrice": 5.93,
+      "soldDate": "2026-06-18",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Crystallinum Silver Bush",
+      "url": "https://www.ebay.co.uk/itm/406992775152",
+      "soldPrice": 13.84,
+      "totalPrice": 17.22,
+      "soldDate": "2026-06-14",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium crystallinum Live Potted Houseplant Green Broadleaf Indoor",
+      "url": "https://www.ebay.co.uk/itm/358673498373",
+      "soldPrice": 9.87,
+      "totalPrice": 13.25,
+      "soldDate": "2026-06-14",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "🐱RARE Anthurium Crystallinum mature plant rooted  (not philodendron monstera)",
+      "url": "https://www.ebay.co.uk/itm/336626382917",
+      "soldPrice": 27.71,
+      "totalPrice": 32.86,
+      "soldDate": "2026-06-08",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Crystallinum - Tracked 24",
+      "url": "https://www.ebay.co.uk/itm/198393303862",
+      "soldPrice": 15,
+      "totalPrice": 15,
+      "soldDate": "2026-06-07",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Crystallinum - Tracked 24",
+      "url": "https://www.ebay.co.uk/itm/198393306475",
+      "soldPrice": 15,
+      "totalPrice": 15,
+      "soldDate": "2026-06-07",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium crystallinum 'Silver Blush' medium size plant",
+      "url": "https://www.ebay.co.uk/itm/336400218706",
+      "soldPrice": 10.67,
+      "totalPrice": 14.05,
+      "soldDate": "2026-06-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Crystallinum X Zara x Michelle",
+      "url": "https://www.ebay.co.uk/itm/137368525589",
+      "soldPrice": 41.91,
+      "totalPrice": 47.059999999999995,
+      "soldDate": "2026-06-01",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Crystallinum Silver Blush Young Houseplant Unbranded Easy-care",
+      "url": "https://www.ebay.co.uk/itm/137275627278",
+      "soldPrice": 7.51,
+      "totalPrice": 7.51,
+      "soldDate": "2026-05-29",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "2 x very healthy Anthurium Crystallinum house plants",
+      "url": "https://www.ebay.co.uk/itm/306916184230",
+      "soldPrice": 10.66,
+      "totalPrice": 13.6,
+      "soldDate": "2026-05-26",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Crystallinum Silver Blush Houseplant",
+      "url": "https://www.ebay.co.uk/itm/178096825791",
+      "soldPrice": 11.85,
+      "totalPrice": 11.85,
+      "soldDate": "2026-05-05",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium crystallinum - Aroid - Houseplant/Terrarium Plant - P0432",
+      "url": "https://www.ebay.co.uk/itm/227315537798",
+      "soldPrice": 11.99,
+      "totalPrice": 16.98,
+      "soldDate": "2026-05-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium crystallinum - Aroid - Houseplant/Terrarium Plant - P0405",
+      "url": "https://www.ebay.co.uk/itm/227311074245",
+      "soldPrice": 14.99,
+      "totalPrice": 19.98,
+      "soldDate": "2026-05-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium crystallinum - Aroid - Houseplant/Terrarium Plant - P0433",
+      "url": "https://www.ebay.co.uk/itm/227315535853",
+      "soldPrice": 11.99,
+      "totalPrice": 16.98,
+      "soldDate": "2026-04-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Crystallinum Sparkling Plant",
+      "url": "https://www.ebay.co.uk/itm/227310156138",
+      "soldPrice": 9.61,
+      "totalPrice": 12.989999999999998,
+      "soldDate": "2026-04-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "anthurium crystallinum Silver Blush And anthurium clarinervium",
+      "url": "https://www.ebay.co.uk/itm/198279686318",
+      "soldPrice": 15,
+      "totalPrice": 15,
+      "soldDate": "2026-04-17",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Crystallinum",
+      "url": "https://www.ebay.co.uk/itm/358449830131",
+      "soldPrice": 21.25,
+      "totalPrice": 24.19,
+      "soldDate": "2026-04-15",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Crystallinum Mature potted plant see description",
+      "url": "https://www.ebay.co.uk/itm/306878379947",
+      "soldPrice": 11.72,
+      "totalPrice": 16.87,
+      "soldDate": "2026-04-14",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Beautiful House Plant,  Indoor Plant Anthurium crystallinum",
+      "url": "https://www.ebay.co.uk/itm/178038107261",
+      "soldPrice": 12.78,
+      "totalPrice": 16.49,
+      "soldDate": "2026-04-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Crystallinum X Regale Imperfect Houseplant",
+      "url": "https://www.ebay.co.uk/itm/406734245752",
+      "soldPrice": 10.67,
+      "totalPrice": 15.82,
+      "soldDate": "2026-04-08",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 22,
+  "rejectedCount": 45,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "2 anthurium seedlings crystallinum x (aos x dress) x michelle (doc block)",
+      "anthurium red crystallinum (nse x tezula) x (red crystal x skg pink lemonade)",
+      "anthurium ' crystallinum silver blush'"
+    ],
+    "Contains excluded term": [
+      "anthurium crystallinum x indo port grown on seedling growing",
+      "anthurium crystallinum variegated",
+      "rare🧡🤍anthurium crystallinum variegated rooted cutting"
+    ]
+  }
+}

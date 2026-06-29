@@ -1,0 +1,97 @@
+{
+  "snapshot": {
+    "plantSlug": "chlorosticta",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia chlorosticta Borneo",
+    "checkedAt": "2026-06-29T19:14:53.787Z",
+    "currency": "GBP",
+    "rawResultCount": 6,
+    "acceptedCount": 6,
+    "rejectedCount": 0,
+    "outlierCount": 1,
+    "confidenceScore": "C",
+    "minPrice": 13.61,
+    "p25Price": 23.615000000000002,
+    "medianPrice": 23.97,
+    "meanPrice": 24.186666666666667,
+    "trimmedMeanPrice": 24.186666666666667,
+    "p75Price": 27.7975,
+    "maxPrice": 31,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 6,
+    "min": 13.61,
+    "max": 31,
+    "median": 23.97,
+    "mean": 24.186666666666667,
+    "p25": 23.615000000000002,
+    "p75": 27.7975,
+    "iqr": 4.182499999999997,
+    "trimmedMean": 24.186666666666667,
+    "confidenceScore": "C",
+    "rejectedCount": 0,
+    "rejectionReasons": {},
+    "outlierCount": 1
+  },
+  "acceptedListings": [
+    {
+      "title": "Begonia Chlorosticta rooted young plant very rare terrarium begonia",
+      "url": "https://www.ebay.co.uk/itm/236874065322",
+      "soldPrice": 10.67,
+      "totalPrice": 13.61,
+      "soldDate": "2026-06-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Chlorosticta Small Plant Indoor House Plant 🦚",
+      "url": "https://www.ebay.co.uk/itm/377175520949",
+      "soldPrice": 21.25,
+      "totalPrice": 24.19,
+      "soldDate": "2026-05-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Chlorosticta 8cm Houseplant",
+      "url": "https://www.ebay.co.uk/itm/358413055482",
+      "soldPrice": 19,
+      "totalPrice": 23.75,
+      "soldDate": "2026-04-05",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia chlorosticta -  Rare Terrarium Plant",
+      "url": "https://www.ebay.co.uk/itm/287218152396",
+      "soldPrice": 26,
+      "totalPrice": 29,
+      "soldDate": "2026-03-31",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia chlorosticta -  Rare Terrarium Plant",
+      "url": "https://www.ebay.co.uk/itm/287271847100",
+      "soldPrice": 28,
+      "totalPrice": 31,
+      "soldDate": "2026-04-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Chlorosticta",
+      "url": "https://www.ebay.co.uk/itm/406992812880",
+      "soldPrice": 20.19,
+      "totalPrice": 23.57,
+      "soldDate": "2026-06-18",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 6,
+  "rejectedCount": 0,
+  "rejectionBreakdown": {}
+}

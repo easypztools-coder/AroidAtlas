@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Very Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "££",
   "aboutText": "This exquisite hybrid combines the iconic traits of Anthurium nigrolaminum 'Gigi' and Anthurium papillilaminum to create a stunning collector's specimen. Originating from horticultural efforts in Thailand during the 2010s, this plant is celebrated for its deep, velvety black foliage and striking silver-white venation. It produces elongated, heart-sagittate leaves that exhibit a distinct contrast between the dark lamina and bright veins. Requiring warm, humid conditions, it thrives best as an epiphyte in a chunky, well-draining substrate.",
   "quickFacts": {
     "growthHabit": "Epiphytic, clumping",
@@ -34,7 +34,7 @@
     "growthHabit": "Epiphytic"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 48,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

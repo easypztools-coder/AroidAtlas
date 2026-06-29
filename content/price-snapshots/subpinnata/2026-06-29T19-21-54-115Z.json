@@ -1,0 +1,76 @@
+{
+  "snapshot": {
+    "plantSlug": "subpinnata",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera subpinnata",
+    "checkedAt": "2026-06-29T19:21:54.115Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 3,
+    "rejectedCount": 237,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 18.900000000000002,
+    "p25Price": 19.445,
+    "medianPrice": 19.99,
+    "meanPrice": 22.959999999999997,
+    "trimmedMeanPrice": 22.959999999999997,
+    "p75Price": 24.99,
+    "maxPrice": 29.99,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 3,
+    "min": 18.900000000000002,
+    "max": 29.99,
+    "median": 19.99,
+    "mean": 22.959999999999997,
+    "p25": 19.445,
+    "p75": 24.99,
+    "iqr": 5.544999999999998,
+    "trimmedMean": 22.959999999999997,
+    "confidenceScore": "D",
+    "rejectedCount": 237,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "COLLECTORS ITEM!  Monstera Subpinnata - LARGE 1-LEAF Cutting, Rooting, A1",
+      "url": "https://www.ebay.co.uk/itm/178139196259",
+      "soldPrice": 19.99,
+      "totalPrice": 19.99,
+      "soldDate": "2026-05-22",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "COLLECTORS ITEM!  Monstera Subpinnata - LARGE 1-LEAF TOP Cutting, Rooting, A1",
+      "url": "https://www.ebay.co.uk/itm/178139207119",
+      "soldPrice": 29.99,
+      "totalPrice": 29.99,
+      "soldDate": "2026-05-20",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Subpinnata Cutting Large 1-Leaf Rare Aroid Tropical Plant",
+      "url": "https://www.ebay.co.uk/itm/389821928687",
+      "soldPrice": 15.96,
+      "totalPrice": 18.900000000000002,
+      "soldDate": "2026-04-04",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 3,
+  "rejectedCount": 237,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "monstera deliciosa albo, half-moon variegated, 1-leaf cutting, rooting, a2",
+      "monstera deliciosa albo, half-moon variegated, 1-leaf cutting, rooting, a3",
+      "monstera deliciosa aurea variegata large form rare variegated aroid plant 6ma03"
+    ]
+  }
+}

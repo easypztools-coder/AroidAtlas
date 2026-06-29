@@ -11,7 +11,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Rhaphidophora cryptantha 'Variegated' is an exceptional climbing shingler native to Papua New Guinea. Famed for its highly tight, appressed growth habit, its leaves grow completely flat against a board or bark. The foliage features a beautiful silver reticulate pattern on deep green, decorated with stunning cream-to-white sectoral splashes. It climbs via adhesive roots and thrives in warm, highly humid environments with bright indirect light.",
   "quickFacts": {
     "growthHabit": "Climbing shingler",
@@ -33,7 +33,7 @@
     "growthHabit": "Climbing shingler appressed to support"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 150,
+    "currentMedianPriceGBP": 22,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

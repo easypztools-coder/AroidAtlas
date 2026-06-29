@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Alocasia lauterbachiana is a self-heading terrestrial aroid originating from the wet tropical habitats of Northern New Guinea to the Bismarck Archipelago. It thrives in warm, humid forest conditions, growing from a compact basal structure with fibrous feeder roots. This species is characterized by its upright habit and long, narrow, sword-like leaves with distinctive undulating margins. The upper surfaces are green, while the undersides typically exhibit darker purplish tones, making it a unique ornamental.",
   "quickFacts": {
     "growthHabit": "Self-heading, upright terrestrial",
@@ -34,7 +34,7 @@
     "growthHabit": "Self-heading, upright"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 18,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

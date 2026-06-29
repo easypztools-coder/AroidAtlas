@@ -12,7 +12,7 @@
   "collectorPopularity": 5,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Anthurium magnificum is a classic velvet Anthurium native to the humid montane forests of Colombia, where it grows as a compact terrestrial to epiphytic aroid in shaded understory environments. It is distinguished from similar species by its robust, distinctly quadrangular (square) petioles and its broad, heart-shaped leaves with a wide sinus and prominent pale venation. The deep green velvety texture of the blades is exceptional under any light, and the plant maintains a tidy upright compact habit throughout its life. A benchmark species for any serious collector.",
   "quickFacts": {
     "growthHabit": "Compact terrestrial to epiphytic",
@@ -34,7 +34,7 @@
     "growthHabit": "Compact upright rosette"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 58,
+    "currentMedianPriceGBP": 14,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

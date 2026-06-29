@@ -1,0 +1,292 @@
+{
+  "snapshot": {
+    "plantSlug": "ace-of-spades",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium Ace of Spades",
+    "checkedAt": "2026-06-29T19:10:17.964Z",
+    "currency": "GBP",
+    "rawResultCount": 202,
+    "acceptedCount": 27,
+    "rejectedCount": 175,
+    "outlierCount": 1,
+    "confidenceScore": "C",
+    "minPrice": 15,
+    "p25Price": 20,
+    "medianPrice": 29.74,
+    "meanPrice": 33.65925925925926,
+    "trimmedMeanPrice": 28.268636363636368,
+    "p75Price": 38.49,
+    "maxPrice": 169.33999999999997,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 27,
+    "min": 15,
+    "max": 169.33999999999997,
+    "median": 29.74,
+    "mean": 33.65925925925926,
+    "p25": 20,
+    "p75": 38.49,
+    "iqr": 18.490000000000002,
+    "trimmedMean": 28.268636363636368,
+    "confidenceScore": "C",
+    "rejectedCount": 175,
+    "rejectionReasons": {},
+    "outlierCount": 1
+  },
+  "acceptedListings": [
+    {
+      "title": "Anthurium Ace of spades x carlablackaie nse (l) off shoot",
+      "url": "https://www.ebay.co.uk/itm/358674140879",
+      "soldPrice": 40.88,
+      "totalPrice": 45.53,
+      "soldDate": "2026-06-29",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Ace of Spades Rare Aroid #4",
+      "url": "https://www.ebay.co.uk/itm/206369364480",
+      "soldPrice": 29.99,
+      "totalPrice": 29.99,
+      "soldDate": "2026-06-25",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Ace Of Spades x Papillilaminum -  AOS X PAP",
+      "url": "https://www.ebay.co.uk/itm/198409098257",
+      "soldPrice": 15,
+      "totalPrice": 15,
+      "soldDate": "2026-06-21",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Ace of Spades Rare Aroid #12",
+      "url": "https://www.ebay.co.uk/itm/206297542032",
+      "soldPrice": 34.99,
+      "totalPrice": 34.99,
+      "soldDate": "2026-06-18",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Ace of Spades - Rare Plant #7",
+      "url": "https://www.ebay.co.uk/itm/800095138822",
+      "soldPrice": 19.99,
+      "totalPrice": 19.99,
+      "soldDate": "2026-06-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Ace of Spades - Rare Plant #7",
+      "url": "https://www.ebay.co.uk/itm/206223490501",
+      "soldPrice": 29.74,
+      "totalPrice": 29.74,
+      "soldDate": "2026-06-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Ace of Spades (AOS) x (Papi x Cry) Rare Aroid. Tropical houseplant",
+      "url": "https://www.ebay.co.uk/itm/168415638031",
+      "soldPrice": 11.72,
+      "totalPrice": 15.100000000000001,
+      "soldDate": "2026-06-09",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Ace Of Spades  - AOS",
+      "url": "https://www.ebay.co.uk/itm/198409126026",
+      "soldPrice": 22,
+      "totalPrice": 22,
+      "soldDate": "2026-06-07",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Ace Of Spades  - AOS",
+      "url": "https://www.ebay.co.uk/itm/198390560923",
+      "soldPrice": 35,
+      "totalPrice": 35,
+      "soldDate": "2026-06-07",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Ace of Spades Rare Aroid",
+      "url": "https://www.ebay.co.uk/itm/206004733548",
+      "soldPrice": 34.99,
+      "totalPrice": 34.99,
+      "soldDate": "2026-06-04",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Ace of Spades",
+      "url": "https://www.ebay.co.uk/itm/318164151299",
+      "soldPrice": 165.92,
+      "totalPrice": 169.33999999999997,
+      "soldDate": "2026-06-02",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Ace of Spades - Rare Plant #10",
+      "url": "https://www.ebay.co.uk/itm/206253257186",
+      "soldPrice": 29.74,
+      "totalPrice": 29.74,
+      "soldDate": "2026-05-31",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Ace Of Spades X Forgetii Yellow Spider Small Plant From Chonk",
+      "url": "https://www.ebay.co.uk/itm/306957291022",
+      "soldPrice": 14.9,
+      "totalPrice": 18.28,
+      "soldDate": "2026-05-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Ace Of Spades x Papillilaminum -  AOS X PAP",
+      "url": "https://www.ebay.co.uk/itm/198356120390",
+      "soldPrice": 20,
+      "totalPrice": 20,
+      "soldDate": "2026-05-19",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Ace of Spades - Rare Plant #9",
+      "url": "https://www.ebay.co.uk/itm/206248997138",
+      "soldPrice": 34.99,
+      "totalPrice": 38.49,
+      "soldDate": "2026-05-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Ace Of Spades x Papillilaminum -  AOS X PAP",
+      "url": "https://www.ebay.co.uk/itm/198331897181",
+      "soldPrice": 20,
+      "totalPrice": 20,
+      "soldDate": "2026-05-11",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Ace Of Spades x Papillilaminum -  AOS X PAP",
+      "url": "https://www.ebay.co.uk/itm/198331954385",
+      "soldPrice": 20,
+      "totalPrice": 20,
+      "soldDate": "2026-05-08",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Ace of Spades - Rare Plant #8",
+      "url": "https://www.ebay.co.uk/itm/206232500501",
+      "soldPrice": 34.74,
+      "totalPrice": 34.74,
+      "soldDate": "2026-05-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Ace Of Spades x Papillilaminum -  AOS X PAP",
+      "url": "https://www.ebay.co.uk/itm/198331958460",
+      "soldPrice": 20,
+      "totalPrice": 20,
+      "soldDate": "2026-05-07",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Ace Of Spades x Papillilaminum -  AOS X PAP",
+      "url": "https://www.ebay.co.uk/itm/198317382488",
+      "soldPrice": 20,
+      "totalPrice": 20,
+      "soldDate": "2026-04-29",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Ace of Spades - Rare Plant #3",
+      "url": "https://www.ebay.co.uk/itm/206145748396",
+      "soldPrice": 34.99,
+      "totalPrice": 38.49,
+      "soldDate": "2026-04-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Ace Of Spades x Papillilaminum -  AOS X PAP",
+      "url": "https://www.ebay.co.uk/itm/198276640762",
+      "soldPrice": 20,
+      "totalPrice": 20,
+      "soldDate": "2026-04-19",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Ace Of Spades x Papillilaminum -  AOS X PAP",
+      "url": "https://www.ebay.co.uk/itm/198276636801",
+      "soldPrice": 20,
+      "totalPrice": 20,
+      "soldDate": "2026-04-15",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Ace of Spades - Rare Plant #2",
+      "url": "https://www.ebay.co.uk/itm/206145747184",
+      "soldPrice": 34.99,
+      "totalPrice": 38.49,
+      "soldDate": "2026-04-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Ace of Spades - Rare Plant #5",
+      "url": "https://www.ebay.co.uk/itm/206145750174",
+      "soldPrice": 34.99,
+      "totalPrice": 38.49,
+      "soldDate": "2026-04-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Ace of Spades - Rare Plant #1",
+      "url": "https://www.ebay.co.uk/itm/206145735427",
+      "soldPrice": 34.99,
+      "totalPrice": 38.49,
+      "soldDate": "2026-04-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Double headed Anthurium AOS DF X BVEP Small Plant Rare Aroid",
+      "url": "https://www.ebay.co.uk/itm/318357281607",
+      "soldPrice": 41.92,
+      "totalPrice": 41.92,
+      "soldDate": "2026-05-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 27,
+  "rejectedCount": 175,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "anthurium (michelle x zara) x ace of spades",
+      "anthurium (michelle x zara) x ace of spades",
+      "anthurium 'dark mama x ace of spades' extremely rare 10.5cm pot - houseplant"
+    ]
+  }
+}

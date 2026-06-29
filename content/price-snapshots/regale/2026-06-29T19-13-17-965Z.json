@@ -1,0 +1,148 @@
+{
+  "snapshot": {
+    "plantSlug": "regale",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium regale",
+    "checkedAt": "2026-06-29T19:13:17.965Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 11,
+    "rejectedCount": 229,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 8.08,
+    "p25Price": 12.775,
+    "medianPrice": 18.3,
+    "meanPrice": 21.486363636363638,
+    "trimmedMeanPrice": 20.921111111111106,
+    "p75Price": 29.99,
+    "maxPrice": 39.980000000000004,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 11,
+    "min": 8.08,
+    "max": 39.980000000000004,
+    "median": 18.3,
+    "mean": 21.486363636363638,
+    "p25": 12.775,
+    "p75": 29.99,
+    "iqr": 17.214999999999996,
+    "trimmedMean": 20.921111111111106,
+    "confidenceScore": "D",
+    "rejectedCount": 229,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Anthurium Regale - Small Plant Grown From Stem Cutting",
+      "url": "https://www.ebay.co.uk/itm/358681571384",
+      "soldPrice": 5.14,
+      "totalPrice": 8.08,
+      "soldDate": "2026-06-15",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Regale - Small Plant Grown From Stem Cutting",
+      "url": "https://www.ebay.co.uk/itm/358650298119",
+      "soldPrice": 5.14,
+      "totalPrice": 8.08,
+      "soldDate": "2026-06-14",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Regale Rare Aroid #7",
+      "url": "https://www.ebay.co.uk/itm/206313849567",
+      "soldPrice": 29.99,
+      "totalPrice": 29.99,
+      "soldDate": "2026-06-03",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Regale Plant",
+      "url": "https://www.ebay.co.uk/itm/358573108130",
+      "soldPrice": 15.36,
+      "totalPrice": 18.3,
+      "soldDate": "2026-05-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Regale Rare Aroid In 6cm Pot",
+      "url": "https://www.ebay.co.uk/itm/336575747079",
+      "soldPrice": 11.5,
+      "totalPrice": 11.5,
+      "soldDate": "2026-05-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Regale #3",
+      "url": "https://www.ebay.co.uk/itm/206237115928",
+      "soldPrice": 29.99,
+      "totalPrice": 34.489999999999995,
+      "soldDate": "2026-05-04",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Regale X Forgetii Clone 9cm Pot. Hybrid.",
+      "url": "https://www.ebay.co.uk/itm/127805858638",
+      "soldPrice": 10.67,
+      "totalPrice": 14.05,
+      "soldDate": "2026-05-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Regale Rare Aroid",
+      "url": "https://www.ebay.co.uk/itm/205979378884",
+      "soldPrice": 29.99,
+      "totalPrice": 29.99,
+      "soldDate": "2026-04-29",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium REGALE   Exact TC Bag | Tissue Culture",
+      "url": "https://www.ebay.co.uk/itm/168312739630",
+      "soldPrice": 14.62,
+      "totalPrice": 18,
+      "soldDate": "2026-04-26",
+      "listingType": "tc_plantlet",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium regale (Species) - Aroid - Houseplant/Terrarium Plant - P0311",
+      "url": "https://www.ebay.co.uk/itm/227242399878",
+      "soldPrice": 34.99,
+      "totalPrice": 39.980000000000004,
+      "soldDate": "2026-04-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Regale Rare Aroid Plant In 12 Cm Pot",
+      "url": "https://www.ebay.co.uk/itm/127628628316",
+      "soldPrice": 19.99,
+      "totalPrice": 23.889999999999997,
+      "soldDate": "2026-04-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 11,
+  "rejectedCount": 229,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "anthurium 'regale' 6cm -rare find - houseplant- home decor- tropical plant",
+      "anthurium crystallinum x regale imperfect houseplant",
+      "anthurium fsrl x hulk naomi"
+    ]
+  }
+}

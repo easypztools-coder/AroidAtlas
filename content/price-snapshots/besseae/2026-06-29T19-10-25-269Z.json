@@ -1,0 +1,103 @@
+{
+  "snapshot": {
+    "plantSlug": "besseae",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium besseae",
+    "checkedAt": "2026-06-29T19:10:25.269Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 6,
+    "rejectedCount": 234,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 21.45,
+    "p25Price": 30.972499999999997,
+    "medianPrice": 39.91,
+    "meanPrice": 39.281666666666666,
+    "trimmedMeanPrice": 39.281666666666666,
+    "p75Price": 48.075,
+    "maxPrice": 55.63,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 6,
+    "min": 21.45,
+    "max": 55.63,
+    "median": 39.91,
+    "mean": 39.281666666666666,
+    "p25": 30.972499999999997,
+    "p75": 48.075,
+    "iqr": 17.102500000000006,
+    "trimmedMean": 39.281666666666666,
+    "confidenceScore": "D",
+    "rejectedCount": 234,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Anthurium besseae aff. ‘Oblivion’ Clone — Thunder Veins",
+      "url": "https://www.ebay.co.uk/itm/366460141437",
+      "soldPrice": 41.92,
+      "totalPrice": 45.300000000000004,
+      "soldDate": "2026-06-07",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium besseae aff 'Pink' x papillilaminum 'Daniel' - my own hybrid",
+      "url": "https://www.ebay.co.uk/itm/306874500390",
+      "soldPrice": 44,
+      "totalPrice": 49,
+      "soldDate": "2026-05-02",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Besseae Aff (See Last 2 Pics Of The Main Plant)",
+      "url": "https://www.ebay.co.uk/itm/327137372596",
+      "soldPrice": 31.58,
+      "totalPrice": 34.519999999999996,
+      "soldDate": "2026-05-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Besseae aff. top Cut Rooted Leaves New Growth Rare Tropical Aroid",
+      "url": "https://www.ebay.co.uk/itm/277900553013",
+      "soldPrice": 17,
+      "totalPrice": 21.45,
+      "soldDate": "2026-04-26",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Besseae Aff",
+      "url": "https://www.ebay.co.uk/itm/277671646219",
+      "soldPrice": 52.25,
+      "totalPrice": 55.63,
+      "soldDate": "2026-04-15",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Anthurium Besseae",
+      "url": "https://www.ebay.co.uk/itm/366332937326",
+      "soldPrice": 26.41,
+      "totalPrice": 29.79,
+      "soldDate": "2026-04-09",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 6,
+  "rejectedCount": 234,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "anthurium aos x besseae aff. - aroid - houseplant - p03101",
+      "anthurium michelle x (eu papi x besseae) eu import rare aroid seed grown plant",
+      "3 imperfect anthurium hybrid bundle rare aroid incl aos red crystal kos besseae"
+    ]
+  }
+}

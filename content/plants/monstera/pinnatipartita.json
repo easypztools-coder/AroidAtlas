@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£",
+  "priceGuideTier": "££",
   "aboutText": "Monstera pinnatipartita is a striking hemiepiphytic climber native to the tropical rainforests of Central and South America. Highly prized by collectors for its dramatic transformation, it begins as a modest juvenile plant with entire, elliptic leaves before maturing into a spectacular specimen with deeply pinnatifid foliage. As it climbs, it develops robust, knotty stems and produces stout aerial roots that allow it to anchor onto tree trunks in its natural humid understory habitat. This species is best known for the deep sinuses that divide its mature leaves into broad, elongated segments, creating a bold, architectural appearance.",
   "quickFacts": {
     "growthHabit": "Hemiepiphytic climber",
@@ -34,7 +34,7 @@
     "growthHabit": "Hemiepiphytic climber"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 23,
+    "currentMedianPriceGBP": 68,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

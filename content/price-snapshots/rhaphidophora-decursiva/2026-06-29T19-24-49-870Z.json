@@ -1,0 +1,70 @@
+{
+  "snapshot": {
+    "plantSlug": "rhaphidophora-decursiva",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Rhaphidophora decursiva",
+    "checkedAt": "2026-06-29T19:24:49.870Z",
+    "currency": "GBP",
+    "rawResultCount": 31,
+    "acceptedCount": 2,
+    "rejectedCount": 29,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 11.93,
+    "p25Price": 14.445,
+    "medianPrice": 16.96,
+    "meanPrice": 16.96,
+    "trimmedMeanPrice": 16.96,
+    "p75Price": 19.475,
+    "maxPrice": 21.990000000000002,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 2,
+    "min": 11.93,
+    "max": 21.990000000000002,
+    "median": 16.96,
+    "mean": 16.96,
+    "p25": 14.445,
+    "p75": 19.475,
+    "iqr": 5.030000000000001,
+    "trimmedMean": 16.96,
+    "confidenceScore": "D",
+    "rejectedCount": 29,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Rhaphidophora decursiva - Philodendron Dragon Tail",
+      "url": "https://www.ebay.co.uk/itm/198208839798",
+      "soldPrice": 17,
+      "totalPrice": 21.990000000000002,
+      "soldDate": "2026-03-30",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Dragon’s Tail Plant, Rhaphidophora Decursiva Leaf Cutting, 3 growth points",
+      "url": "https://www.ebay.co.uk/itm/389925025884",
+      "soldPrice": 8.55,
+      "totalPrice": 11.93,
+      "soldDate": "2026-04-26",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 2,
+  "rejectedCount": 29,
+  "rejectionBreakdown": {
+    "Contains excluded term": [
+      "rare houseplant! seeds rhaphidophora decursiva. easy to grow, adaptable climber!"
+    ],
+    "No accepted term found. Expected one of": [
+      "rhaphidophora 'puberula variegata'-6cm pot- tropical indoor evergreen houseplant",
+      "rhaphidophora sp. velvet climbing houseplant unbranded",
+      "rhaphidophora cryptantha established rare terrarium shingling climber plant"
+    ]
+  }
+}

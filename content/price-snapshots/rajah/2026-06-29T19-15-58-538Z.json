@@ -1,0 +1,58 @@
+{
+  "snapshot": {
+    "plantSlug": "rajah",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia rajah Malaysia",
+    "checkedAt": "2026-06-29T19:15:58.538Z",
+    "currency": "GBP",
+    "rawResultCount": 41,
+    "acceptedCount": 1,
+    "rejectedCount": 40,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 20.91,
+    "p25Price": 20.91,
+    "medianPrice": 20.91,
+    "meanPrice": 20.91,
+    "trimmedMeanPrice": 20.91,
+    "p75Price": 20.91,
+    "maxPrice": 20.91,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 1,
+    "min": 20.91,
+    "max": 20.91,
+    "median": 20.91,
+    "mean": 20.91,
+    "p25": 20.91,
+    "p75": 20.91,
+    "iqr": 0,
+    "trimmedMean": 20.91,
+    "confidenceScore": "D",
+    "rejectedCount": 40,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Begonia rajah - rare plant",
+      "url": "https://www.ebay.co.uk/itm/188421458846",
+      "soldPrice": 17.97,
+      "totalPrice": 20.91,
+      "soldDate": "2026-05-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 1,
+  "rejectedCount": 40,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "perlis malaysia 1951 $2 raja syed putra green & scarlet sg 26 mint",
+      "perlis malaysia 1951 $5 raja syed putra green & brown sg 27 mint",
+      "4 x sarawak coins ( malaysia )- c brooke - rajah 1863 1870 1887 1892"
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "snapshot": {
+    "plantSlug": "splendid",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron Splendid",
+    "checkedAt": "2026-06-29T19:28:30.104Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 11,
+    "rejectedCount": 229,
+    "outlierCount": 1,
+    "confidenceScore": "D",
+    "minPrice": 8.09,
+    "p25Price": 11.3,
+    "medianPrice": 13.61,
+    "meanPrice": 19.12090909090909,
+    "trimmedMeanPrice": 14.77,
+    "p75Price": 22.66,
+    "maxPrice": 48.79,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 11,
+    "min": 8.09,
+    "max": 48.79,
+    "median": 13.61,
+    "mean": 19.12090909090909,
+    "p25": 11.3,
+    "p75": 22.66,
+    "iqr": 11.36,
+    "trimmedMean": 14.77,
+    "confidenceScore": "D",
+    "rejectedCount": 229,
+    "rejectionReasons": {},
+    "outlierCount": 1
+  },
+  "acceptedListings": [
+    {
+      "title": "Philodendron Splendid (Verrucosum x Melanochrysum) Large rather unruly plant!",
+      "url": "https://www.ebay.co.uk/itm/287405500112",
+      "soldPrice": 43.64,
+      "totalPrice": 48.79,
+      "soldDate": "2026-06-28",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Splendid (Verrucosum X Melanochrysum) | Tropical Aroid Houseplant",
+      "url": "https://www.ebay.co.uk/itm/298415849241",
+      "soldPrice": 9.39,
+      "totalPrice": 12.77,
+      "soldDate": "2026-06-18",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Splendid Fully Rooted Mid-stem Cuttings from mature plant",
+      "url": "https://www.ebay.co.uk/itm/306924276180",
+      "soldPrice": 10.67,
+      "totalPrice": 13.61,
+      "soldDate": "2026-06-08",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Splendid Houseplant Houseplants Pot B Climber Velvet Leaves Aroid",
+      "url": "https://www.ebay.co.uk/itm/168423605509",
+      "soldPrice": 8.55,
+      "totalPrice": 11.93,
+      "soldDate": "2026-06-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron splendid cutting READ DESCRIPTION",
+      "url": "https://www.ebay.co.uk/itm/287363459523",
+      "soldPrice": 5.37,
+      "totalPrice": 8.09,
+      "soldDate": "2026-05-31",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Splendid Baby Houseplant Houseplants Pot A Climber Velvet Leaves",
+      "url": "https://www.ebay.co.uk/itm/168404309686",
+      "soldPrice": 6.43,
+      "totalPrice": 9.809999999999999,
+      "soldDate": "2026-05-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Splendid Pot 12 Cm Houseplant",
+      "url": "https://www.ebay.co.uk/itm/406873624819",
+      "soldPrice": 25.38,
+      "totalPrice": 30.53,
+      "soldDate": "2026-05-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Splendid Plant Verrucosum X Melanochrysum Hybrid Rare Aroid",
+      "url": "https://www.ebay.co.uk/itm/178101317577",
+      "soldPrice": 11.85,
+      "totalPrice": 14.79,
+      "soldDate": "2026-05-06",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare Philodendron Splendid Verrucosum x Melanochrysum Active Growth Plant Aroid",
+      "url": "https://www.ebay.co.uk/itm/336566453390",
+      "soldPrice": 10.67,
+      "totalPrice": 10.67,
+      "soldDate": "2026-05-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rare Philodendron Splendid Verrucosum x Melanochrysum Potted Plant House Plant",
+      "url": "https://www.ebay.co.uk/itm/336554157990",
+      "soldPrice": 10.67,
+      "totalPrice": 14.05,
+      "soldDate": "2026-05-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "THREE Philodendron Splendid - Fully Rooted Medium Sized Plant Indoor House Plant",
+      "url": "https://www.ebay.co.uk/itm/306840543078",
+      "soldPrice": 31.58,
+      "totalPrice": 35.29,
+      "soldDate": "2026-04-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 11,
+  "rejectedCount": 229,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "philodendron pedatum, bolivia, heavily divided leaf, excellent aroid plant!!!",
+      "philodendron joepii",
+      "philodendron melanochrysum"
+    ]
+  }
+}

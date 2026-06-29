@@ -1,0 +1,1204 @@
+{
+  "snapshot": {
+    "plantSlug": "melo",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia melo",
+    "checkedAt": "2026-06-29T19:09:07.425Z",
+    "currency": "GBP",
+    "rawResultCount": 137,
+    "acceptedCount": 128,
+    "rejectedCount": 9,
+    "outlierCount": 2,
+    "confidenceScore": "A",
+    "minPrice": 3.2844444444444445,
+    "p25Price": 28.37,
+    "medianPrice": 35.19,
+    "meanPrice": 42.87112847222222,
+    "trimmedMeanPrice": 39.16607843137253,
+    "p75Price": 57.7725,
+    "maxPrice": 150.04,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 128,
+    "min": 3.2844444444444445,
+    "max": 150.04,
+    "median": 35.19,
+    "mean": 42.87112847222222,
+    "p25": 28.37,
+    "p75": 57.7725,
+    "iqr": 29.4025,
+    "trimmedMean": 39.16607843137253,
+    "confidenceScore": "A",
+    "rejectedCount": 9,
+    "rejectionReasons": {},
+    "outlierCount": 2
+  },
+  "acceptedListings": [
+    {
+      "title": "Alocasia Melo – Rare Collector’s Aroid",
+      "url": "https://www.ebay.co.uk/itm/147347887134",
+      "soldPrice": 8.88,
+      "totalPrice": 11.82,
+      "soldDate": "2026-06-29",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 11AMA24",
+      "url": "https://www.ebay.co.uk/itm/326889893586",
+      "soldPrice": 67.77,
+      "totalPrice": 67.77,
+      "soldDate": "2025-12-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 11AMA22",
+      "url": "https://www.ebay.co.uk/itm/326889887659",
+      "soldPrice": 59.88,
+      "totalPrice": 59.88,
+      "soldDate": "2025-12-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 11AMA21",
+      "url": "https://www.ebay.co.uk/itm/326889886852",
+      "soldPrice": 67.77,
+      "totalPrice": 67.77,
+      "soldDate": "2025-12-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 11AMA20",
+      "url": "https://www.ebay.co.uk/itm/326889885477",
+      "soldPrice": 66.93,
+      "totalPrice": 66.93,
+      "soldDate": "2025-12-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 06AMA13",
+      "url": "https://www.ebay.co.uk/itm/327229066166",
+      "soldPrice": 42,
+      "totalPrice": 42,
+      "soldDate": "2026-06-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 06AMA14",
+      "url": "https://www.ebay.co.uk/itm/327229068357",
+      "soldPrice": 42,
+      "totalPrice": 42,
+      "soldDate": "2026-06-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo - Juvenile Plant - Rare House Plant",
+      "url": "https://www.ebay.co.uk/itm/398098482621",
+      "soldPrice": 50.18,
+      "totalPrice": 53.12,
+      "soldDate": "2026-06-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 11AMA18",
+      "url": "https://www.ebay.co.uk/itm/326879655241",
+      "soldPrice": 80.09,
+      "totalPrice": 80.09,
+      "soldDate": "2025-11-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 11AMA17",
+      "url": "https://www.ebay.co.uk/itm/326879654040",
+      "soldPrice": 59.4,
+      "totalPrice": 59.4,
+      "soldDate": "2025-12-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 11AMA16",
+      "url": "https://www.ebay.co.uk/itm/326879648939",
+      "soldPrice": 72.29,
+      "totalPrice": 72.29,
+      "soldDate": "2025-11-30",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 11AMA14",
+      "url": "https://www.ebay.co.uk/itm/326879642227",
+      "soldPrice": 80.09,
+      "totalPrice": 80.09,
+      "soldDate": "2025-11-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 11AMA13",
+      "url": "https://www.ebay.co.uk/itm/326879640721",
+      "soldPrice": 88.74,
+      "totalPrice": 88.74,
+      "soldDate": "2025-11-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 11AMA11",
+      "url": "https://www.ebay.co.uk/itm/326879626663",
+      "soldPrice": 80.09,
+      "totalPrice": 80.09,
+      "soldDate": "2025-11-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 11AMA10",
+      "url": "https://www.ebay.co.uk/itm/326879621790",
+      "soldPrice": 63.87,
+      "totalPrice": 63.87,
+      "soldDate": "2025-12-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 06AMA09",
+      "url": "https://www.ebay.co.uk/itm/327210130495",
+      "soldPrice": 27.79,
+      "totalPrice": 27.79,
+      "soldDate": "2026-06-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 06AMA07",
+      "url": "https://www.ebay.co.uk/itm/327210122876",
+      "soldPrice": 35.28,
+      "totalPrice": 35.28,
+      "soldDate": "2026-06-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 06AMA04",
+      "url": "https://www.ebay.co.uk/itm/327210116995",
+      "soldPrice": 35.28,
+      "totalPrice": 35.28,
+      "soldDate": "2026-06-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 06AMA06",
+      "url": "https://www.ebay.co.uk/itm/327210120406",
+      "soldPrice": 37.14,
+      "totalPrice": 37.14,
+      "soldDate": "2026-06-18",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia melo Live Potted Indoor Houseplant Green",
+      "url": "https://www.ebay.co.uk/itm/358692503966",
+      "soldPrice": 6.91,
+      "totalPrice": 10.29,
+      "soldDate": "2026-06-18",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Plant",
+      "url": "https://www.ebay.co.uk/itm/227392662206",
+      "soldPrice": 6.43,
+      "totalPrice": 9.809999999999999,
+      "soldDate": "2026-06-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 06AMA03",
+      "url": "https://www.ebay.co.uk/itm/327210116149",
+      "soldPrice": 39.09,
+      "totalPrice": 39.09,
+      "soldDate": "2026-06-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 06AMA05",
+      "url": "https://www.ebay.co.uk/itm/327210119200",
+      "soldPrice": 39.09,
+      "totalPrice": 39.09,
+      "soldDate": "2026-06-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 06AMA02",
+      "url": "https://www.ebay.co.uk/itm/327210115337",
+      "soldPrice": 39.09,
+      "totalPrice": 39.09,
+      "soldDate": "2026-06-16",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia melo Live Potted Indoor Houseplant Tropical",
+      "url": "https://www.ebay.co.uk/itm/358677676411",
+      "soldPrice": 6.91,
+      "totalPrice": 10.29,
+      "soldDate": "2026-06-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 06AMA01",
+      "url": "https://www.ebay.co.uk/itm/327210114037",
+      "soldPrice": 43.32,
+      "totalPrice": 43.32,
+      "soldDate": "2026-06-14",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 06AMA08",
+      "url": "https://www.ebay.co.uk/itm/327210125301",
+      "soldPrice": 43.32,
+      "totalPrice": 43.32,
+      "soldDate": "2026-06-14",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA26",
+      "url": "https://www.ebay.co.uk/itm/327185069694",
+      "soldPrice": 20.53,
+      "totalPrice": 20.53,
+      "soldDate": "2026-06-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA29",
+      "url": "https://www.ebay.co.uk/itm/327185075395",
+      "soldPrice": 20.53,
+      "totalPrice": 20.53,
+      "soldDate": "2026-06-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Aurea Variegata  Very rare variegated aroid plant ref 06AMA01",
+      "url": "https://www.ebay.co.uk/itm/327203168732",
+      "soldPrice": 60.02,
+      "totalPrice": 60.02,
+      "soldDate": "2026-06-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA25",
+      "url": "https://www.ebay.co.uk/itm/327185068439",
+      "soldPrice": 21.61,
+      "totalPrice": 21.61,
+      "soldDate": "2026-06-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Aurea Variegata  Very rare variegated aroid plant ref 06AMA02",
+      "url": "https://www.ebay.co.uk/itm/327203169083",
+      "soldPrice": 66.5,
+      "totalPrice": 66.5,
+      "soldDate": "2026-06-09",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 11AMA07",
+      "url": "https://www.ebay.co.uk/itm/326855397079",
+      "soldPrice": 80.61,
+      "totalPrice": 80.61,
+      "soldDate": "2025-11-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 11AMA06",
+      "url": "https://www.ebay.co.uk/itm/326855395990",
+      "soldPrice": 84.85,
+      "totalPrice": 84.85,
+      "soldDate": "2025-11-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 11AMA04",
+      "url": "https://www.ebay.co.uk/itm/326855395323",
+      "soldPrice": 62.2,
+      "totalPrice": 62.2,
+      "soldDate": "2025-11-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 11AMA05",
+      "url": "https://www.ebay.co.uk/itm/326855394735",
+      "soldPrice": 59.09,
+      "totalPrice": 59.09,
+      "soldDate": "2025-11-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo 🩶 Rare Indoor Plant 💚 Fully Rooted Houseplant",
+      "url": "https://www.ebay.co.uk/itm/377210646154",
+      "soldPrice": 7.48,
+      "totalPrice": 7.48,
+      "soldDate": "2026-06-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA31",
+      "url": "https://www.ebay.co.uk/itm/327185077909",
+      "soldPrice": 31.43,
+      "totalPrice": 31.43,
+      "soldDate": "2026-06-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA24",
+      "url": "https://www.ebay.co.uk/itm/327185067813",
+      "soldPrice": 26.54,
+      "totalPrice": 26.54,
+      "soldDate": "2026-06-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA23",
+      "url": "https://www.ebay.co.uk/itm/327185066806",
+      "soldPrice": 26.54,
+      "totalPrice": 26.54,
+      "soldDate": "2026-06-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA27",
+      "url": "https://www.ebay.co.uk/itm/327185073554",
+      "soldPrice": 26.54,
+      "totalPrice": 26.54,
+      "soldDate": "2026-06-06",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA28",
+      "url": "https://www.ebay.co.uk/itm/327185074595",
+      "soldPrice": 26.54,
+      "totalPrice": 26.54,
+      "soldDate": "2026-06-06",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA22",
+      "url": "https://www.ebay.co.uk/itm/327185063432",
+      "soldPrice": 27.94,
+      "totalPrice": 27.94,
+      "soldDate": "2026-06-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA33",
+      "url": "https://www.ebay.co.uk/itm/327185080189",
+      "soldPrice": 29.41,
+      "totalPrice": 29.41,
+      "soldDate": "2026-06-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Aurea Variegata - Very rare variegated aroid plant ref 11AMY01",
+      "url": "https://www.ebay.co.uk/itm/326849707550",
+      "soldPrice": 150.04,
+      "totalPrice": 150.04,
+      "soldDate": "2025-11-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 11AMA03",
+      "url": "https://www.ebay.co.uk/itm/326849700028",
+      "soldPrice": 74.22,
+      "totalPrice": 74.22,
+      "soldDate": "2025-11-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 11AMA02",
+      "url": "https://www.ebay.co.uk/itm/326849696687",
+      "soldPrice": 91.13,
+      "totalPrice": 91.13,
+      "soldDate": "2025-11-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 11AMA01",
+      "url": "https://www.ebay.co.uk/itm/326849695337",
+      "soldPrice": 95.93,
+      "totalPrice": 95.93,
+      "soldDate": "2025-11-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA32",
+      "url": "https://www.ebay.co.uk/itm/327185078864",
+      "soldPrice": 32.59,
+      "totalPrice": 32.59,
+      "soldDate": "2026-06-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo – Rare Collector’s Aroid",
+      "url": "https://www.ebay.co.uk/itm/147343282685",
+      "soldPrice": 8.88,
+      "totalPrice": 11.82,
+      "soldDate": "2026-05-31",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA30",
+      "url": "https://www.ebay.co.uk/itm/327185076304",
+      "soldPrice": 45,
+      "totalPrice": 45,
+      "soldDate": "2026-05-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 02AMA27",
+      "url": "https://www.ebay.co.uk/itm/327185115528",
+      "soldPrice": 58,
+      "totalPrice": 58,
+      "soldDate": "2026-05-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA10",
+      "url": "https://www.ebay.co.uk/itm/327158565670",
+      "soldPrice": 21.36,
+      "totalPrice": 21.36,
+      "soldDate": "2026-05-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA16",
+      "url": "https://www.ebay.co.uk/itm/327158598339",
+      "soldPrice": 21.36,
+      "totalPrice": 21.36,
+      "soldDate": "2026-05-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA19",
+      "url": "https://www.ebay.co.uk/itm/327158601475",
+      "soldPrice": 22.48,
+      "totalPrice": 22.48,
+      "soldDate": "2026-05-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA18",
+      "url": "https://www.ebay.co.uk/itm/327158600675",
+      "soldPrice": 23.66,
+      "totalPrice": 23.66,
+      "soldDate": "2026-05-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA13",
+      "url": "https://www.ebay.co.uk/itm/327158581388",
+      "soldPrice": 24.91,
+      "totalPrice": 24.91,
+      "soldDate": "2026-05-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA17",
+      "url": "https://www.ebay.co.uk/itm/327158599767",
+      "soldPrice": 29.05,
+      "totalPrice": 29.05,
+      "soldDate": "2026-05-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA15",
+      "url": "https://www.ebay.co.uk/itm/327158588386",
+      "soldPrice": 29.05,
+      "totalPrice": 29.05,
+      "soldDate": "2026-05-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA11",
+      "url": "https://www.ebay.co.uk/itm/327158566595",
+      "soldPrice": 29.05,
+      "totalPrice": 29.05,
+      "soldDate": "2026-05-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA20",
+      "url": "https://www.ebay.co.uk/itm/327158603105",
+      "soldPrice": 29.05,
+      "totalPrice": 29.05,
+      "soldDate": "2026-05-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA12",
+      "url": "https://www.ebay.co.uk/itm/327158568100",
+      "soldPrice": 30.1,
+      "totalPrice": 30.1,
+      "soldDate": "2026-05-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA14",
+      "url": "https://www.ebay.co.uk/itm/327158583295",
+      "soldPrice": 31.68,
+      "totalPrice": 31.68,
+      "soldDate": "2026-05-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA21",
+      "url": "https://www.ebay.co.uk/itm/327158607001",
+      "soldPrice": 35.1,
+      "totalPrice": 35.1,
+      "soldDate": "2026-05-18",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA04",
+      "url": "https://www.ebay.co.uk/itm/327136224078",
+      "soldPrice": 31.43,
+      "totalPrice": 31.43,
+      "soldDate": "2026-05-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Mature plant",
+      "url": "https://www.ebay.co.uk/itm/298221755181",
+      "soldPrice": 120,
+      "totalPrice": 120,
+      "soldDate": "2026-05-15",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA01",
+      "url": "https://www.ebay.co.uk/itm/327136221969",
+      "soldPrice": 33.08,
+      "totalPrice": 33.08,
+      "soldDate": "2026-05-14",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA07",
+      "url": "https://www.ebay.co.uk/itm/327136234979",
+      "soldPrice": 31.43,
+      "totalPrice": 31.43,
+      "soldDate": "2026-05-14",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA06",
+      "url": "https://www.ebay.co.uk/itm/327136229867",
+      "soldPrice": 33.08,
+      "totalPrice": 33.08,
+      "soldDate": "2026-05-14",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA08",
+      "url": "https://www.ebay.co.uk/itm/327136235411",
+      "soldPrice": 31.43,
+      "totalPrice": 31.43,
+      "soldDate": "2026-05-14",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA05",
+      "url": "https://www.ebay.co.uk/itm/327136225110",
+      "soldPrice": 34.82,
+      "totalPrice": 34.82,
+      "soldDate": "2026-05-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA03",
+      "url": "https://www.ebay.co.uk/itm/327136223455",
+      "soldPrice": 34.82,
+      "totalPrice": 34.82,
+      "soldDate": "2026-05-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Aurea Variegata  Very rare variegated aroid plant ref 05AMA03",
+      "url": "https://www.ebay.co.uk/itm/327141958718",
+      "soldPrice": 64.31,
+      "totalPrice": 64.31,
+      "soldDate": "2026-05-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Aurea Variegata  Very rare variegated aroid plant ref 05AMA02",
+      "url": "https://www.ebay.co.uk/itm/327141950320",
+      "soldPrice": 64.31,
+      "totalPrice": 64.31,
+      "soldDate": "2026-05-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Aurea Variegata  Very rare variegated aroid plant ref 05AMA01",
+      "url": "https://www.ebay.co.uk/itm/327141947215",
+      "soldPrice": 67.69,
+      "totalPrice": 67.69,
+      "soldDate": "2026-05-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegated - Very rare variegated aroid plant #2",
+      "url": "https://www.ebay.co.uk/itm/206236108973",
+      "soldPrice": 89.99,
+      "totalPrice": 93.49,
+      "soldDate": "2026-05-09",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 04AMA23",
+      "url": "https://www.ebay.co.uk/itm/327121760189",
+      "soldPrice": 26.95,
+      "totalPrice": 26.95,
+      "soldDate": "2026-05-08",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 04AMA18",
+      "url": "https://www.ebay.co.uk/itm/327121750351",
+      "soldPrice": 28.37,
+      "totalPrice": 28.37,
+      "soldDate": "2026-05-08",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 04AMA21",
+      "url": "https://www.ebay.co.uk/itm/327121759201",
+      "soldPrice": 28.37,
+      "totalPrice": 28.37,
+      "soldDate": "2026-05-06",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata Very rare variegated aroid plant ref 05AMA02",
+      "url": "https://www.ebay.co.uk/itm/327136222648",
+      "soldPrice": 40.61,
+      "totalPrice": 40.61,
+      "soldDate": "2026-05-06",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 04AMA16",
+      "url": "https://www.ebay.co.uk/itm/327121747750",
+      "soldPrice": 28.37,
+      "totalPrice": 28.37,
+      "soldDate": "2026-05-06",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 04AMA25",
+      "url": "https://www.ebay.co.uk/itm/327121761110",
+      "soldPrice": 28.37,
+      "totalPrice": 28.37,
+      "soldDate": "2026-05-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 04AMA17",
+      "url": "https://www.ebay.co.uk/itm/327121748367",
+      "soldPrice": 29.86,
+      "totalPrice": 29.86,
+      "soldDate": "2026-05-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 04AMA22",
+      "url": "https://www.ebay.co.uk/itm/327121759681",
+      "soldPrice": 29.86,
+      "totalPrice": 29.86,
+      "soldDate": "2026-05-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 04AMA19",
+      "url": "https://www.ebay.co.uk/itm/327121753503",
+      "soldPrice": 29.86,
+      "totalPrice": 29.86,
+      "soldDate": "2026-05-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Aurea Variegata - Very rare variegated aroid plant ref 04AMA05",
+      "url": "https://www.ebay.co.uk/itm/327115887523",
+      "soldPrice": 55.06,
+      "totalPrice": 55.06,
+      "soldDate": "2026-04-30",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Aurea Variegata - Very rare variegated aroid plant ref 04AMA04",
+      "url": "https://www.ebay.co.uk/itm/327115886882",
+      "soldPrice": 57.96,
+      "totalPrice": 57.96,
+      "soldDate": "2026-04-30",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 04AMA24",
+      "url": "https://www.ebay.co.uk/itm/327121760636",
+      "soldPrice": 36.65,
+      "totalPrice": 36.65,
+      "soldDate": "2026-04-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 04AMA26",
+      "url": "https://www.ebay.co.uk/itm/327121761621",
+      "soldPrice": 36.65,
+      "totalPrice": 36.65,
+      "soldDate": "2026-04-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 04AMA20",
+      "url": "https://www.ebay.co.uk/itm/327121757245",
+      "soldPrice": 36.65,
+      "totalPrice": 36.65,
+      "soldDate": "2026-04-29",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 04AMA04",
+      "url": "https://www.ebay.co.uk/itm/327108818784",
+      "soldPrice": 26.95,
+      "totalPrice": 26.95,
+      "soldDate": "2026-04-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 04AMA10",
+      "url": "https://www.ebay.co.uk/itm/327108832496",
+      "soldPrice": 19.16,
+      "totalPrice": 19.16,
+      "soldDate": "2026-04-28",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 04AMA11",
+      "url": "https://www.ebay.co.uk/itm/327108833346",
+      "soldPrice": 20.17,
+      "totalPrice": 20.17,
+      "soldDate": "2026-04-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 04AMA12",
+      "url": "https://www.ebay.co.uk/itm/327108833644",
+      "soldPrice": 20.17,
+      "totalPrice": 20.17,
+      "soldDate": "2026-04-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 04AMA08",
+      "url": "https://www.ebay.co.uk/itm/327108829789",
+      "soldPrice": 28.37,
+      "totalPrice": 28.37,
+      "soldDate": "2026-04-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 04AMA13",
+      "url": "https://www.ebay.co.uk/itm/327108834151",
+      "soldPrice": 23.53,
+      "totalPrice": 23.53,
+      "soldDate": "2026-04-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 04AMA09",
+      "url": "https://www.ebay.co.uk/itm/327108832146",
+      "soldPrice": 29.41,
+      "totalPrice": 29.41,
+      "soldDate": "2026-04-24",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 04AMA05",
+      "url": "https://www.ebay.co.uk/itm/327108820443",
+      "soldPrice": 33.08,
+      "totalPrice": 33.08,
+      "soldDate": "2026-04-23",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 04AMA01",
+      "url": "https://www.ebay.co.uk/itm/327108815588",
+      "soldPrice": 34.82,
+      "totalPrice": 34.82,
+      "soldDate": "2026-04-22",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "X9 Alocasia Melo TC Plantlets",
+      "url": "https://www.ebay.co.uk/itm/327112377963",
+      "soldPrice": 29.56,
+      "totalPrice": 29.56,
+      "soldDate": "2026-04-22",
+      "listingType": "tc_plantlet",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 04AMA14",
+      "url": "https://www.ebay.co.uk/itm/327108834574",
+      "soldPrice": 28.88,
+      "totalPrice": 28.88,
+      "soldDate": "2026-04-20",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 04AMA06",
+      "url": "https://www.ebay.co.uk/itm/327108821706",
+      "soldPrice": 40.61,
+      "totalPrice": 40.61,
+      "soldDate": "2026-04-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 04AMA07",
+      "url": "https://www.ebay.co.uk/itm/327108822586",
+      "soldPrice": 40.61,
+      "totalPrice": 40.61,
+      "soldDate": "2026-04-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 04AMA02",
+      "url": "https://www.ebay.co.uk/itm/327108817134",
+      "soldPrice": 42.75,
+      "totalPrice": 42.75,
+      "soldDate": "2026-04-18",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 04AMA03",
+      "url": "https://www.ebay.co.uk/itm/327108817826",
+      "soldPrice": 45,
+      "totalPrice": 45,
+      "soldDate": "2026-04-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 04AMA14",
+      "url": "https://www.ebay.co.uk/itm/327108835046",
+      "soldPrice": 25,
+      "totalPrice": 25,
+      "soldDate": "2026-04-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Aurea Variegata - Very rare variegated aroid plant ref 04AMA02",
+      "url": "https://www.ebay.co.uk/itm/327094213825",
+      "soldPrice": 57.71,
+      "totalPrice": 57.71,
+      "soldDate": "2026-04-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 02AMA64",
+      "url": "https://www.ebay.co.uk/itm/327078234543",
+      "soldPrice": 28.13,
+      "totalPrice": 28.13,
+      "soldDate": "2026-04-17",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 02AMA59",
+      "url": "https://www.ebay.co.uk/itm/327078225089",
+      "soldPrice": 29.61,
+      "totalPrice": 29.61,
+      "soldDate": "2026-04-16",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Aurea Variegata - Very rare variegated aroid plant ref 04AMA01",
+      "url": "https://www.ebay.co.uk/itm/327094210677",
+      "soldPrice": 63.95,
+      "totalPrice": 63.95,
+      "soldDate": "2026-04-16",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 02AMA60",
+      "url": "https://www.ebay.co.uk/itm/327078225597",
+      "soldPrice": 32.81,
+      "totalPrice": 32.81,
+      "soldDate": "2026-04-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 02AMA52",
+      "url": "https://www.ebay.co.uk/itm/327066398134",
+      "soldPrice": 28.44,
+      "totalPrice": 28.44,
+      "soldDate": "2026-04-14",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 02AMA63",
+      "url": "https://www.ebay.co.uk/itm/327078231796",
+      "soldPrice": 36.36,
+      "totalPrice": 36.36,
+      "soldDate": "2026-04-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 02AMA61",
+      "url": "https://www.ebay.co.uk/itm/327078226159",
+      "soldPrice": 38.27,
+      "totalPrice": 38.27,
+      "soldDate": "2026-04-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 02AMA62",
+      "url": "https://www.ebay.co.uk/itm/327078226792",
+      "soldPrice": 38.27,
+      "totalPrice": 38.27,
+      "soldDate": "2026-04-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 02AMA66",
+      "url": "https://www.ebay.co.uk/itm/327078236600",
+      "soldPrice": 31.67,
+      "totalPrice": 31.67,
+      "soldDate": "2026-04-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 02AMA69",
+      "url": "https://www.ebay.co.uk/itm/327078238365",
+      "soldPrice": 30.56,
+      "totalPrice": 30.56,
+      "soldDate": "2026-04-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 02AMA67",
+      "url": "https://www.ebay.co.uk/itm/327078237396",
+      "soldPrice": 30.56,
+      "totalPrice": 30.56,
+      "soldDate": "2026-04-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Aurea Variegata - Very rare variegated aroid plant ref 04AMA03",
+      "url": "https://www.ebay.co.uk/itm/327094216263",
+      "soldPrice": 82.65,
+      "totalPrice": 82.65,
+      "soldDate": "2026-04-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegated - Rare Plant #3",
+      "url": "https://www.ebay.co.uk/itm/206157952889",
+      "soldPrice": 98,
+      "totalPrice": 101.5,
+      "soldDate": "2026-04-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 02AMA58",
+      "url": "https://www.ebay.co.uk/itm/327078224240",
+      "soldPrice": 42.4,
+      "totalPrice": 42.4,
+      "soldDate": "2026-04-09",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 02AMA68",
+      "url": "https://www.ebay.co.uk/itm/327078237941",
+      "soldPrice": 35.74,
+      "totalPrice": 35.74,
+      "soldDate": "2026-04-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 02AMA65",
+      "url": "https://www.ebay.co.uk/itm/327078236282",
+      "soldPrice": 38.99,
+      "totalPrice": 38.99,
+      "soldDate": "2026-04-06",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 02AMA54",
+      "url": "https://www.ebay.co.uk/itm/327066400064",
+      "soldPrice": 40.85,
+      "totalPrice": 40.85,
+      "soldDate": "2026-04-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 02AMA55",
+      "url": "https://www.ebay.co.uk/itm/327066400679",
+      "soldPrice": 45.39,
+      "totalPrice": 45.39,
+      "soldDate": "2026-04-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 02AMA57",
+      "url": "https://www.ebay.co.uk/itm/327066409116",
+      "soldPrice": 45.39,
+      "totalPrice": 45.39,
+      "soldDate": "2026-04-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegated Rare Plant #1",
+      "url": "https://www.ebay.co.uk/itm/206156573985",
+      "soldPrice": 98,
+      "totalPrice": 98,
+      "soldDate": "2026-04-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Melo Albo Variegata - Very rare variegated aroid plant ref 02AMA53",
+      "url": "https://www.ebay.co.uk/itm/327066399005",
+      "soldPrice": 45.39,
+      "totalPrice": 45.39,
+      "soldDate": "2026-04-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 128,
+  "rejectedCount": 9,
+  "rejectionBreakdown": {
+    "Contains excluded term": [
+      "alocasia melo albo variegated corm only tropical houseplant",
+      "alocasia melo baby plant 🌱 grown from corm 🌱✨️ self-watering pot ✨️",
+      "alocasia melo albo corm"
+    ],
+    "No accepted term found. Expected one of": [
+      "alocasia maharani | melo x black velvet hybrid | 7 cm pot"
+    ]
+  }
+}

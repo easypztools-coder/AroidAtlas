@@ -1,0 +1,148 @@
+{
+  "snapshot": {
+    "plantSlug": "red-anderson",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron Red Anderson",
+    "checkedAt": "2026-06-29T19:27:55.889Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 11,
+    "rejectedCount": 229,
+    "outlierCount": 0,
+    "confidenceScore": "D",
+    "minPrice": 5.26,
+    "p25Price": 9.015,
+    "medianPrice": 10.95,
+    "meanPrice": 11.632727272727273,
+    "trimmedMeanPrice": 11.412222222222221,
+    "p75Price": 14.76,
+    "maxPrice": 19.99,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 11,
+    "min": 5.26,
+    "max": 19.99,
+    "median": 10.95,
+    "mean": 11.632727272727273,
+    "p25": 9.015,
+    "p75": 14.76,
+    "iqr": 5.744999999999999,
+    "trimmedMean": 11.412222222222221,
+    "confidenceScore": "D",
+    "rejectedCount": 229,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Philodendron Red Anderson Small Plant Grown From Cutting.",
+      "url": "https://www.ebay.co.uk/itm/298390896241",
+      "soldPrice": 6.96,
+      "totalPrice": 9.9,
+      "soldDate": "2026-06-27",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Red Anderson HIGHLY Variegated MULTI-LEAF Established Plant, Potted",
+      "url": "https://www.ebay.co.uk/itm/178201651019",
+      "soldPrice": 19.99,
+      "totalPrice": 19.99,
+      "soldDate": "2026-06-16",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron 'Red Anderson' Rare Houseplant",
+      "url": "https://www.ebay.co.uk/itm/327144219367",
+      "soldPrice": 8.01,
+      "totalPrice": 10.95,
+      "soldDate": "2026-06-12",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Red Anderson Top Cutting. Started to root.",
+      "url": "https://www.ebay.co.uk/itm/278035198938",
+      "soldPrice": 5.91,
+      "totalPrice": 9.29,
+      "soldDate": "2026-06-05",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Red Anderson Unrooted X One Leaf/Node",
+      "url": "https://www.ebay.co.uk/itm/278018191631",
+      "soldPrice": 1.88,
+      "totalPrice": 5.26,
+      "soldDate": "2026-05-29",
+      "listingType": "node",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Red Anderson Unrooted X One Leaf/Node",
+      "url": "https://www.ebay.co.uk/itm/277985323299",
+      "soldPrice": 3.17,
+      "totalPrice": 5.890000000000001,
+      "soldDate": "2026-05-18",
+      "listingType": "node",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Red Anderson - Variegated Rare Rooted Cutting Aroid Houseplant",
+      "url": "https://www.ebay.co.uk/itm/366369274526",
+      "soldPrice": 5.36,
+      "totalPrice": 8.74,
+      "soldDate": "2026-05-05",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Red Anderson HIGHLY Variegated MULTI-LEAF Established Plant, Potted",
+      "url": "https://www.ebay.co.uk/itm/178059349872",
+      "soldPrice": 9.99,
+      "totalPrice": 15.48,
+      "soldDate": "2026-04-26",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron red anderson (pleas see description)",
+      "url": "https://www.ebay.co.uk/itm/287277153834",
+      "soldPrice": 7.08,
+      "totalPrice": 11.73,
+      "soldDate": "2026-04-24",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Red Anderson Full Plant",
+      "url": "https://www.ebay.co.uk/itm/327097116412",
+      "soldPrice": 10.66,
+      "totalPrice": 14.04,
+      "soldDate": "2026-04-14",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Red Anderson Rooting Top Cutting",
+      "url": "https://www.ebay.co.uk/itm/236666623018",
+      "soldPrice": 13.31,
+      "totalPrice": 16.69,
+      "soldDate": "2026-04-07",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 11,
+  "rejectedCount": 229,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "philodendron ‘red anderson’ – variegated aroid (10 cm pot)",
+      "philodendron ‘red anderson’ – variegated aroid (7 cm pot)",
+      "philodendron ‘red anderson’ – variegated aroid (7 cm pot)"
+    ]
+  }
+}

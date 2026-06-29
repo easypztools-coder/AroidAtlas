@@ -1,0 +1,206 @@
+{
+  "snapshot": {
+    "plantSlug": "lauterbachiana",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia lauterbachiana",
+    "checkedAt": "2026-06-29T19:08:41.651Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 17,
+    "rejectedCount": 223,
+    "outlierCount": 0,
+    "confidenceScore": "C",
+    "minPrice": 5.5,
+    "p25Price": 11.49,
+    "medianPrice": 15.709999999999999,
+    "meanPrice": 17.71294117647059,
+    "trimmedMeanPrice": 17.884666666666664,
+    "p75Price": 23.47,
+    "maxPrice": 27.35,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 17,
+    "min": 5.5,
+    "max": 27.35,
+    "median": 15.709999999999999,
+    "mean": 17.71294117647059,
+    "p25": 11.49,
+    "p75": 23.47,
+    "iqr": 11.979999999999999,
+    "trimmedMean": 17.884666666666664,
+    "confidenceScore": "C",
+    "rejectedCount": 223,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "Alocasia Lauterbachiana Albo- Very rare variegated Plant 11ALA02",
+      "url": "https://www.ebay.co.uk/itm/326885188466",
+      "soldPrice": 27.35,
+      "totalPrice": 27.35,
+      "soldDate": "2025-12-02",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Lauterbachiana Albo- Very rare variegated Plant 11ALA01",
+      "url": "https://www.ebay.co.uk/itm/326885187455",
+      "soldPrice": 25.44,
+      "totalPrice": 25.44,
+      "soldDate": "2025-12-03",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Lauterbachiana Low/no Var. This Came From An Albo Mother Plant",
+      "url": "https://www.ebay.co.uk/itm/298396824326",
+      "soldPrice": 7.49,
+      "totalPrice": 10.43,
+      "soldDate": "2026-06-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Lauterbachiana Variegated Rare Plant #4",
+      "url": "https://www.ebay.co.uk/itm/206247458386",
+      "soldPrice": 22.94,
+      "totalPrice": 22.94,
+      "soldDate": "2026-06-08",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Lauterbachiana Variegated Rare Plant #2",
+      "url": "https://www.ebay.co.uk/itm/206237126702",
+      "soldPrice": 22.94,
+      "totalPrice": 22.94,
+      "soldDate": "2026-06-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Lauterbachiana Albo Low Variegation . Rare Small Plant",
+      "url": "https://www.ebay.co.uk/itm/298375502381",
+      "soldPrice": 8.55,
+      "totalPrice": 11.49,
+      "soldDate": "2026-06-04",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Lauterbachiana  Albo Low Var Baby Plant Rare Aroid",
+      "url": "https://www.ebay.co.uk/itm/298372256203",
+      "soldPrice": 10.67,
+      "totalPrice": 13.61,
+      "soldDate": "2026-06-01",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia lauterbachiana 'Variegata' RARE Houseplant",
+      "url": "https://www.ebay.co.uk/itm/327144010075",
+      "soldPrice": 12.77,
+      "totalPrice": 15.709999999999999,
+      "soldDate": "2026-05-28",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "X6 Alocasia Lauterbachiana True Aurea  rare variegated aroid plant ref 05ALY07",
+      "url": "https://www.ebay.co.uk/itm/327173004960",
+      "soldPrice": 33,
+      "totalPrice": 33,
+      "soldDate": "2026-05-27",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Lauterbachiana Aurea Variegata Very rare variegated Plant 05ALY02",
+      "url": "https://www.ebay.co.uk/itm/327136253993",
+      "soldPrice": 14.74,
+      "totalPrice": 14.74,
+      "soldDate": "2026-05-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Lauterbachiana Aurea Variegata Very rare variegated Plant 05ALY05",
+      "url": "https://www.ebay.co.uk/itm/327136257696",
+      "soldPrice": 15.52,
+      "totalPrice": 15.52,
+      "soldDate": "2026-05-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Lauterbachiana Aurea Variegata Very rare variegated Plant 05ALY01",
+      "url": "https://www.ebay.co.uk/itm/327136253113",
+      "soldPrice": 23.47,
+      "totalPrice": 23.47,
+      "soldDate": "2026-05-10",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Lauterbachiana Aurea Variegata Very rare variegated Plant 05ALY04",
+      "url": "https://www.ebay.co.uk/itm/327136257001",
+      "soldPrice": 24.7,
+      "totalPrice": 24.7,
+      "soldDate": "2026-05-06",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Lauterbachiana Aurea Variegata Very rare variegated Plant 05ALY03",
+      "url": "https://www.ebay.co.uk/itm/327136255617",
+      "soldPrice": 23.47,
+      "totalPrice": 23.47,
+      "soldDate": "2026-05-05",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "X2 Alocasia Lauterbachiana Albo Variegata - Very rare variegated Plant 03ALA05",
+      "url": "https://www.ebay.co.uk/itm/327074779102",
+      "soldPrice": 19.41,
+      "totalPrice": 19.41,
+      "soldDate": "2026-04-14",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "X2 Alocasia Lauterbachiana Albo Variegata - Very rare variegated Plant 03ALA04",
+      "url": "https://www.ebay.co.uk/itm/327074775893",
+      "soldPrice": 20.43,
+      "totalPrice": 20.43,
+      "soldDate": "2026-04-13",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Alocasia Lauterbachiana Aurea Variegata - Very rare variegated Plant 03ALY01",
+      "url": "https://www.ebay.co.uk/itm/327074788314",
+      "soldPrice": 23.89,
+      "totalPrice": 23.89,
+      "soldDate": "2026-04-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 17,
+  "rejectedCount": 223,
+  "rejectionBreakdown": {
+    "Contains excluded term": [
+      "alocasia lauterbachiana albo corm",
+      "alocasia lauterbachiana aurea variegated small corms - sold separately"
+    ],
+    "No accepted term found. Expected one of": [
+      "alocasia cuprea aurea latte variegata very rare variegated plant 06acl04",
+      "rare alocasia variegated and reverted mixed 6 plant bundle",
+      "alocasia ninja albo rare variegated aroid plant 06anjv09"
+    ]
+  }
+}

@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Anthurium 'Ace of Spades' is a cultivated horticultural selection bred for its exceptional dark foliage, maintained under controlled conditions worldwide. The leaves are a deep, velvety dark green to near-black — broad, cordate and spade-like, with an elegantly elongated apex, clean sinus, and striking pale venation that creates dramatic contrast against the almost luminous dark blade. New growth emerges lighter before hardening to the characteristic lustrous, near-black finish that makes this cultivar so sought after. Compact in habit with a short basal crown, it is one of those rare plants that combines genuine rarity with refined aesthetics in equal measure.",
   "quickFacts": {
     "growthHabit": "Compact, self-heading",
@@ -34,7 +34,7 @@
     "growthHabit": "Compact basal rosette, short internodes"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 50,
+    "currentMedianPriceGBP": 28,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

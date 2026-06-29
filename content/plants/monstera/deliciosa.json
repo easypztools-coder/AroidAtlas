@@ -12,7 +12,7 @@
   "collectorPopularity": 3,
   "rarityStatus": "Common",
   "availability": "High",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£",
   "aboutText": "Monstera deliciosa is the plant that introduced an entire generation to tropical foliage — a robust hemiepiphytic climber from the humid forests of southern Mexico to Panama that has become one of the most recognised houseplants on earth. In its juvenile stage the leaves are entire and cordate, clinging to trunks and working upward; as the plant matures and climbs into brighter canopy positions, the foliage transforms dramatically into the large, leathery, deeply split blades with characteristic inner fenestrations that have made the species so visually iconic. Stout, geniculate petioles project the broad mature leaves outward from the support with considerable authority. The base species remains a worthwhile addition to any collection in its own right — large, bold, architecturally significant, and considerably more forgiving than many of its rarer cousins. A gateway plant that earns its place in the most advanced collections too.",
   "quickFacts": {
     "growthHabit": "Robust climbing hemiepiphyte",
@@ -34,7 +34,7 @@
     "growthHabit": "Strong climber with thick stems, conspicuous nodes, and robust aerial roots"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 417,
+    "currentMedianPriceGBP": 17,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

@@ -1,0 +1,112 @@
+{
+  "snapshot": {
+    "plantSlug": "alocasia-ferox",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Begonia ferox",
+    "checkedAt": "2026-06-29T19:22:24.257Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 7,
+    "rejectedCount": 233,
+    "outlierCount": 1,
+    "confidenceScore": "D",
+    "minPrice": 12.84,
+    "p25Price": 12.84,
+    "medianPrice": 12.99,
+    "meanPrice": 17.797142857142855,
+    "trimmedMeanPrice": 17.797142857142855,
+    "p75Price": 15.41,
+    "maxPrice": 42.25,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 7,
+    "min": 12.84,
+    "max": 42.25,
+    "median": 12.99,
+    "mean": 17.797142857142855,
+    "p25": 12.84,
+    "p75": 15.41,
+    "iqr": 2.5700000000000003,
+    "trimmedMean": 17.797142857142855,
+    "confidenceScore": "D",
+    "rejectedCount": 233,
+    "rejectionReasons": {},
+    "outlierCount": 1
+  },
+  "acceptedListings": [
+    {
+      "title": "Begonia Ferox (Spiky Begonia) | Rare Plant | Indoor Plant | Houseplant",
+      "url": "https://www.ebay.co.uk/itm/407004953486",
+      "soldPrice": 12.99,
+      "totalPrice": 12.99,
+      "soldDate": "2026-06-21",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Ferox (Spiky Begonia) | Rare Plant | Indoor Plant | Houseplant",
+      "url": "https://www.ebay.co.uk/itm/377069469835",
+      "soldPrice": 12.84,
+      "totalPrice": 12.84,
+      "soldDate": "2026-06-19",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Ferox (Spiky Begonia) | Rare Plant | Indoor Plant | Houseplant",
+      "url": "https://www.ebay.co.uk/itm/137386430266",
+      "soldPrice": 13.83,
+      "totalPrice": 16.77,
+      "soldDate": "2026-06-15",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Ferox SPIKY BEGONIA",
+      "url": "https://www.ebay.co.uk/itm/377246907823",
+      "soldPrice": 10.67,
+      "totalPrice": 14.05,
+      "soldDate": "2026-06-09",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Ferox (Spiky Begonia) | Rare Plant | Indoor Plant | Houseplant",
+      "url": "https://www.ebay.co.uk/itm/178000808478",
+      "soldPrice": 12.84,
+      "totalPrice": 12.84,
+      "soldDate": "2026-05-25",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia Ferox (Spiky Begonia) | Rare Plant | Indoor Plant | Houseplant",
+      "url": "https://www.ebay.co.uk/itm/198325285140",
+      "soldPrice": 12.84,
+      "totalPrice": 12.84,
+      "soldDate": "2026-05-11",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Begonia ferox",
+      "url": "https://www.ebay.co.uk/itm/277768722670",
+      "soldPrice": 36.75,
+      "totalPrice": 42.25,
+      "soldDate": "2026-04-12",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 7,
+  "rejectedCount": 233,
+  "rejectionBreakdown": {
+    "No accepted term found. Expected one of": [
+      "begonia melanobullata x ferox hybird seedlings 2 or 3 in pot",
+      "rare begonia rex ferox troll spikey gothic plant houseplant cutting",
+      "begonia rex ferox in 12cm pot - rare textured foliage statement houseplant"
+    ]
+  }
+}

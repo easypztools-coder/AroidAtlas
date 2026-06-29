@@ -1,0 +1,271 @@
+{
+  "snapshot": {
+    "plantSlug": "siltepecana",
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera siltepecana",
+    "checkedAt": "2026-06-29T19:21:31.551Z",
+    "currency": "GBP",
+    "rawResultCount": 240,
+    "acceptedCount": 24,
+    "rejectedCount": 216,
+    "outlierCount": 0,
+    "confidenceScore": "C",
+    "minPrice": 4.0200000000000005,
+    "p25Price": 6.195,
+    "medianPrice": 8.54,
+    "meanPrice": 8.896250000000002,
+    "trimmedMeanPrice": 8.8015,
+    "p75Price": 10.985,
+    "maxPrice": 14.36,
+    "notes": ""
+  },
+  "stats": {
+    "sampleSize": 24,
+    "min": 4.0200000000000005,
+    "max": 14.36,
+    "median": 8.54,
+    "mean": 8.896250000000002,
+    "p25": 6.195,
+    "p75": 10.985,
+    "iqr": 4.789999999999999,
+    "trimmedMean": 8.8015,
+    "confidenceScore": "C",
+    "rejectedCount": 216,
+    "rejectionReasons": {},
+    "outlierCount": 0
+  },
+  "acceptedListings": [
+    {
+      "title": "💚🩶 Monstera Siltepecana 🩶💚",
+      "url": "https://www.ebay.co.uk/itm/358709774614",
+      "soldPrice": 3.94,
+      "totalPrice": 7.32,
+      "soldDate": "2026-06-27",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Siltepecana | Rare Aroid  Rooted Tropical House plant  | 5 |",
+      "url": "https://www.ebay.co.uk/itm/227278745782",
+      "soldPrice": 3.79,
+      "totalPrice": 7.49,
+      "soldDate": "2026-06-23",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Siltepecana",
+      "url": "https://www.ebay.co.uk/itm/358679513325",
+      "soldPrice": 4.15,
+      "totalPrice": 7.53,
+      "soldDate": "2026-06-19",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera siltepecana large pot of rooted cuttings beautiful rare house plant",
+      "url": "https://www.ebay.co.uk/itm/327208278319",
+      "soldPrice": 5.37,
+      "totalPrice": 8.33,
+      "soldDate": "2026-06-12",
+      "listingType": "mature_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Siltepecana/Rare Aroid Plant/Small Starter Plant",
+      "url": "https://www.ebay.co.uk/itm/336452446629",
+      "soldPrice": 8.55,
+      "totalPrice": 11.93,
+      "soldDate": "2026-06-12",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Siltepecana - Silver Fox Trailing House Plant Rooted Cutting Indoors",
+      "url": "https://www.ebay.co.uk/itm/315668662135",
+      "soldPrice": 10.86,
+      "totalPrice": 14.36,
+      "soldDate": "2026-06-12",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Siltepecana | Rare Aroid  Rooted Tropical House plant  | 2 plants| 2 |",
+      "url": "https://www.ebay.co.uk/itm/267687612838",
+      "soldPrice": 3.79,
+      "totalPrice": 5.34,
+      "soldDate": "2026-06-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Siltepecana Houseplant Houseplants Pot B Easy Vining Plant",
+      "url": "https://www.ebay.co.uk/itm/168407248017",
+      "soldPrice": 5.37,
+      "totalPrice": 8.75,
+      "soldDate": "2026-06-07",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera siltepecana Mid Cuttings X3",
+      "url": "https://www.ebay.co.uk/itm/267439272370",
+      "soldPrice": 9.34,
+      "totalPrice": 12.06,
+      "soldDate": "2026-06-01",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Siltepecana | Rare Aroid Plant | 4 Unrooted 1 leaf cutting",
+      "url": "https://www.ebay.co.uk/itm/336178412775",
+      "soldPrice": 6.43,
+      "totalPrice": 9.809999999999999,
+      "soldDate": "2026-06-01",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera siltepecana Cutting well rooted",
+      "url": "https://www.ebay.co.uk/itm/168386841831",
+      "soldPrice": 9.86,
+      "totalPrice": 13.239999999999998,
+      "soldDate": "2026-05-24",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Siltepecana | Rare Aroid Plant | 4 Unrooted 1 leaf cutting",
+      "url": "https://www.ebay.co.uk/itm/366271651181",
+      "soldPrice": 5.9,
+      "totalPrice": 9.3,
+      "soldDate": "2026-05-24",
+      "listingType": "unrooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Siltepecana",
+      "url": "https://www.ebay.co.uk/itm/277972613456",
+      "soldPrice": 10.56,
+      "totalPrice": 13.940000000000001,
+      "soldDate": "2026-05-19",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Siltepecana | Rare Aroid  Rooted Tropical House plant  | 3 |",
+      "url": "https://www.ebay.co.uk/itm/227200090851",
+      "soldPrice": 3.79,
+      "totalPrice": 7.49,
+      "soldDate": "2026-05-14",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rooted Cutting Of Monstera Siltepecana.",
+      "url": "https://www.ebay.co.uk/itm/327144977565",
+      "soldPrice": 5.91,
+      "totalPrice": 9.41,
+      "soldDate": "2026-05-11",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "56/ Monstera siltepecana Cutting well rooted",
+      "url": "https://www.ebay.co.uk/itm/168351003892",
+      "soldPrice": 9.86,
+      "totalPrice": 13.239999999999998,
+      "soldDate": "2026-05-08",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Small Monstera Siltepecana in 9cm pot (two rooted vines)",
+      "url": "https://www.ebay.co.uk/itm/389957782905",
+      "soldPrice": 6.86,
+      "totalPrice": 9.8,
+      "soldDate": "2026-05-01",
+      "listingType": "whole_plant",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Siltepecana Rooted Cuttings",
+      "url": "https://www.ebay.co.uk/itm/257445477955",
+      "soldPrice": 1.67,
+      "totalPrice": 5.05,
+      "soldDate": "2026-05-01",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rooted Cutting Of Monstera Siltepecana.",
+      "url": "https://www.ebay.co.uk/itm/327121498206",
+      "soldPrice": 2.62,
+      "totalPrice": 6.12,
+      "soldDate": "2026-04-29",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Siltepecana El Salvador Rooted Cutting",
+      "url": "https://www.ebay.co.uk/itm/127818007155",
+      "soldPrice": 10.67,
+      "totalPrice": 14.05,
+      "soldDate": "2026-04-26",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Rooted Cutting Of Monstera Siltepecana house plant",
+      "url": "https://www.ebay.co.uk/itm/327073039458",
+      "soldPrice": 3.26,
+      "totalPrice": 6.22,
+      "soldDate": "2026-04-09",
+      "listingType": "rooted_cutting",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Siltepecana Rooted Cuttings",
+      "url": "https://www.ebay.co.uk/itm/257437297523",
+      "soldPrice": 1.67,
+      "totalPrice": 5.05,
+      "soldDate": "2026-04-04",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Monstera Siltepecana Rooted Cuttings",
+      "url": "https://www.ebay.co.uk/itm/257421460076",
+      "soldPrice": 1.67,
+      "totalPrice": 5.05,
+      "soldDate": "2026-04-01",
+      "listingType": "unknown",
+      "currency": "GBP"
+    },
+    {
+      "title": "Philodendron Vercossum And Monstera Siltepecana For Chapagne",
+      "url": "https://www.ebay.co.uk/itm/298180470892",
+      "soldPrice": 10.67,
+      "totalPrice": 10.67,
+      "soldDate": "2026-03-31",
+      "listingType": "unknown",
+      "currency": "GBP"
+    }
+  ],
+  "acceptedCount": 24,
+  "rejectedCount": 216,
+  "rejectionBreakdown": {
+    "Total price £4.17 is below £5 minimum": [
+      "monstera siltepecana 1-leaf small houseplant cutting"
+    ],
+    "Total price £4.60 is below £5 minimum": [
+      "monstera siltepecana rooted cutting"
+    ],
+    "No accepted term found. Expected one of": [
+      "rare! monstera laniata lime marble, highly variegated, 1-leaf cutting w/growth",
+      "monstera albo variegated 3 leaf potted plant",
+      "monstera albo fresh snip. climbing plant."
+    ]
+  }
+}

@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Alocasia 'Sarian' is a remarkable cultivated hybrid, developed from tropical Alocasia species native to Southeast Asia. This ornamental plant is highly valued for its striking foliage and elegant form, thriving in warm, humid, and shaded understory conditions. It features large, sagittate leaves with distinct wavy or subtly serrated margins and contrasting pale venation. The plant exhibits an upright, self-heading growth habit, arising from a compact corm-like basal structure that produces fibrous feeder roots.",
   "quickFacts": {
     "growthHabit": "Self-heading, upright",
@@ -34,7 +34,7 @@
     "growthHabit": "Self-heading"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": null,
+    "currentMedianPriceGBP": 26,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },
