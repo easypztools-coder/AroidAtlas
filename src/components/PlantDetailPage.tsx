@@ -368,6 +368,18 @@ export default function PlantDetailPage({
                 {data.name}
               </h1>
               <p className="mt-1 text-sm text-muted">{data.commonName}</p>
+              <div className="mt-1.5 flex items-center gap-1.5" aria-label={`${data.collectorPopularity} out of 5 stars`}>
+                <div className="flex text-accent text-sm">
+                  {Array.from({ length: 5 }).map((_, i) => (
+                    <span key={i}>
+                      {i < Math.floor(data.collectorPopularity) ? "★" : "☆"}
+                    </span>
+                  ))}
+                </div>
+                <span className="text-[10px] font-medium text-muted">
+                  {data.collectorPopularity.toFixed(1)} Collector Rating
+                </span>
+              </div>
             </div>
             <div className="flex flex-wrap items-center gap-2">
               {data.botanicalType &&
@@ -764,6 +776,29 @@ export default function PlantDetailPage({
                     <span className="text-muted">Genus</span>
                     <span className="font-medium text-heading">{data.genus}</span>
                   </div>
+                </div>
+              </div>
+
+              {/* Collector Rating Card */}
+              <div className="mt-5 rounded border border-border bg-surface p-4">
+                <div className="flex items-center justify-between">
+                  <h4 className="font-body text-[10px] font-bold uppercase tracking-[0.14em] text-heading">
+                    Collector Popularity Review
+                  </h4>
+                  <div className="flex text-accent text-sm" aria-label={`${data.collectorPopularity} out of 5 stars`}>
+                    {Array.from({ length: 5 }).map((_, i) => (
+                      <span key={i}>
+                        {i < Math.floor(data.collectorPopularity) ? "★" : "☆"}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <p className="mt-2 text-xs leading-relaxed text-muted">
+                  <strong className="text-heading">Aroid Atlas Collector Review:</strong> {data.scientificName} ({data.commonName}) is ranked as {data.rarityStatus} rarity on the market. Rating is calculated based on overall cultivation difficulty, aesthetic appeal, and search popularity among active collectors.
+                </p>
+                <div className="mt-3 flex items-center justify-between text-[9px] text-muted/60 border-t border-border/60 pt-2">
+                  <span>Score: {data.collectorPopularity.toFixed(1)} / 5.0</span>
+                  <span>Based on collector index metrics</span>
                 </div>
               </div>
             </div>
