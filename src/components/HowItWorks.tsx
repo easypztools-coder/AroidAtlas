@@ -49,7 +49,7 @@ export default function HowItWorks() {
         >
           <div className="mb-4 flex items-center justify-center gap-3">
             <div className="h-px w-8 bg-accent/60" />
-            <p className="font-body text-[10px] font-semibold uppercase tracking-[0.18em] text-accent">
+            <p className="font-body text-xs font-semibold tracking-wider uppercase text-accent">
               How It Works
             </p>
             <div className="h-px w-8 bg-accent/60" />
@@ -66,17 +66,17 @@ export default function HowItWorks() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-40px" }}
               transition={{ duration: 0.5, delay: i * 0.1, ease: "easeOut" }}
-              className="relative rounded border border-border bg-surface p-6"
+              className="relative rounded-xl border border-border/40 bg-surface p-6 shadow-card-sm transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:opacity-95 hover:border-border-strong hover:shadow-glass"
             >
               {/* Top accent rule */}
               <div className="absolute left-0 right-0 top-0 h-px bg-accent/20" />
 
               {/* Step number + icon row */}
               <div className="mb-5 flex items-start justify-between">
-                <div className="flex h-7 w-7 items-center justify-center rounded-sm bg-accent/10">
+                <div className="flex h-7 w-7 items-center justify-center rounded-lg bg-accent/10">
                   <span className="font-body text-[10px] font-bold text-accent">{step.number}</span>
                 </div>
-                <div className="flex h-10 w-10 items-center justify-center rounded-sm border border-border bg-background-soft">
+                <div className="flex h-10 w-10 items-center justify-center rounded-xl border border-border/40 bg-background-soft">
                   {step.icon}
                 </div>
               </div>

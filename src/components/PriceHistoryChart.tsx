@@ -60,8 +60,8 @@ function CustomTooltip({ active, payload, label }: any) {
     <div
       style={{
         backgroundColor: BG_TOOLTIP,
-        border: `1px solid ${BORDER_COLOR}`,
-        borderRadius: "4px",
+        border: `1px solid ${BORDER_COLOR}66`,
+        borderRadius: "8px",
         padding: "10px 14px",
         fontSize: "12px",
         color: "#173229",
@@ -96,7 +96,7 @@ function CustomTooltip({ active, payload, label }: any) {
 export default function PriceHistoryChart({ data, onHover, highlightedDate }: PriceHistoryChartProps) {
   if (!data || data.length === 0) {
     return (
-      <div className="rounded border border-border bg-background-soft p-6 text-center">
+      <div className="rounded-xl border border-border/40 bg-background-soft p-6 text-center">
         <p className="text-sm text-muted">Not enough sales data to build a price graph yet.</p>
         <p className="mt-1 text-xs text-muted/60">Check back as more listings are tracked over time.</p>
       </div>
@@ -107,10 +107,11 @@ export default function PriceHistoryChart({ data, onHover, highlightedDate }: Pr
 
   return (
     <div className="space-y-4">
-      <div className="h-64 rounded border border-border bg-surface p-3 md:h-72">
+      <div className="h-64 rounded-xl border border-border/40 bg-surface p-3 md:h-72 shadow-card-sm">
         <ResponsiveContainer width="100%" height="100%">
           <ComposedChart
             data={data}
+            margin={{ top: 10, right: 5, left: -15, bottom: 0 }}
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
             onMouseMove={(state: any) => {
               if (state?.isTooltipActive && state?.activePayload?.length > 0) {
@@ -231,7 +232,7 @@ export default function PriceHistoryChart({ data, onHover, highlightedDate }: Pr
       </div>
 
       {/* Stats footer */}
-      <div className="flex items-center justify-between border-t border-border pt-3 text-xs">
+      <div className="flex items-center justify-between border-t border-border/30 pt-3 text-xs">
         <div className="flex flex-col gap-0.5">
           <span className="text-muted">eBay UK sold prices</span>
           <span className="text-[10px] text-muted/60">

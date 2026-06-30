@@ -138,7 +138,7 @@ function ShareButton({ scientificName }: { scientificName: string }) {
   return (
     <button
       onClick={handleShare}
-      className="inline-flex items-center gap-2 rounded-sm border border-border px-4 py-2 text-sm font-medium text-muted transition-all duration-150 hover:border-border-strong hover:text-heading"
+      className="inline-flex items-center gap-2 rounded-xl border border-border/40 px-4 py-2 text-sm font-medium text-muted transition-all duration-300 ease-in-out hover:border-border-strong hover:text-heading hover:-translate-y-0.5"
     >
       {copied ? (
         <>
@@ -376,7 +376,7 @@ export default function PlantDetailPage({
                     </span>
                   ))}
                 </div>
-                <span className="text-[10px] font-medium text-muted">
+                <span className="text-xs font-semibold tracking-wider uppercase text-muted">
                   {data.collectorPopularity.toFixed(1)} Collector Rating
                 </span>
               </div>
@@ -387,7 +387,7 @@ export default function PlantDetailPage({
                   const details = getBotanicalTypeDetails(data.botanicalType);
                   return (
                     <span
-                      className={`inline-flex items-center gap-1.5 rounded-sm border px-3 py-1 text-xs font-medium ${details.badgeClass}`}
+                      className={`inline-flex items-center gap-1.5 rounded-md border px-3 py-1 text-xs font-medium ${details.badgeClass}`}
                     >
                       <span className={`h-1.5 w-1.5 rounded-full ${details.dotClass}`} />
                       {details.label}
@@ -404,21 +404,21 @@ export default function PlantDetailPage({
 
           {/* Status Badges Row */}
           <div className="flex flex-wrap items-center gap-3">
-            <span className="inline-flex items-center gap-1.5 rounded-sm border border-accent/25 bg-accent/10 px-3 py-1 text-xs font-medium text-accent">
+            <span className="inline-flex items-center gap-1.5 rounded-md border border-accent/25 bg-accent/10 px-3 py-1 text-xs font-medium text-accent">
               {combinedTier.tier} · {combinedTier.label}
             </span>
             {data.availability && (
-              <span className="inline-flex items-center gap-1.5 rounded-sm border border-border bg-surface px-3 py-1 text-xs font-medium text-muted">
+              <span className="inline-flex items-center gap-1.5 rounded-md border border-border/40 bg-surface px-3 py-1 text-xs font-medium text-muted">
                 {data.availability}
               </span>
             )}
-            <span className="inline-flex items-center gap-1.5 rounded-sm border border-border bg-surface px-3 py-1 text-xs font-medium text-muted">
+            <span className="inline-flex items-center gap-1.5 rounded-md border border-border/40 bg-surface px-3 py-1 text-xs font-medium text-muted">
               {data.origin}
             </span>
           </div>
 
           {/* Main Feature Image */}
-          <div className="relative overflow-hidden rounded border border-border bg-background-soft">
+          <div className="relative overflow-hidden rounded-xl border border-border/40 bg-background-soft shadow-card-sm">
             <div className="relative aspect-[3/4]">
               <Image
                 src={`/plants/${genus}/${data.slug}.png`}
@@ -435,11 +435,11 @@ export default function PlantDetailPage({
           </div>
 
           {/* ── Auction History & Retail Data ─────────────────────── */}
-          <div id="market-analysis" className="rounded border border-border bg-surface p-6 md:p-8 space-y-6">
-            <div className="-mx-6 -mt-6 mb-6 h-px bg-accent/30 md:-mx-8 md:-mt-8 md:mb-8" />
+          <div id="market-analysis" className="rounded-xl border border-border/40 bg-surface p-6 md:p-8 space-y-6 shadow-card-sm">
+            <div className="-mx-6 -mt-6 mb-6 h-px bg-accent/10 md:-mx-8 md:-mt-8 md:mb-8" />
 
             <div>
-              <p className="font-body text-[10px] font-bold uppercase tracking-[0.16em] text-accent">
+              <p className="font-body text-xs font-semibold tracking-wider uppercase text-accent">
                 Market Analysis
               </p>
               <h2 className="mt-1 font-heading text-xl font-semibold text-heading md:text-2xl">
@@ -468,7 +468,7 @@ export default function PlantDetailPage({
                         </p>
                       </div>
                       {soldCompsData.length > 0 && (
-                        <span className="rounded-sm border border-border bg-background-soft px-2 py-0.5 text-[10px] text-muted">
+                        <span className="rounded-md border border-border/40 bg-background-soft px-2 py-0.5 text-[10px] text-muted">
                           {soldCompsData.reduce((sum, d) => sum + d.sampleSize, 0)} sales analyzed
                         </span>
                       )}
@@ -487,7 +487,7 @@ export default function PlantDetailPage({
                       <p className="text-[10px] text-muted">Global completed transactions — US sales converted to GBP</p>
                     </div>
 
-                    <div className="max-h-[300px] flex-1 space-y-2 overflow-y-auto rounded border border-border bg-background-soft p-3 pr-1">
+                    <div className="max-h-[300px] flex-1 space-y-2 overflow-y-auto rounded-xl border border-border/40 bg-background-soft p-3 pr-1">
                       {recentSales && recentSales.length > 0 ? (
                         recentSales.map((sale, idx) => {
                           const displayTitle = sale.title || `${data.scientificName} - eBay Sale`;
@@ -514,10 +514,10 @@ export default function PlantDetailPage({
                           const isUsSale = sale.currency === "USD";
 
                           const cardClass = [
-                            "flex flex-col gap-1 rounded border p-2.5 transition-all duration-150",
+                            "flex flex-col gap-1 rounded-xl border p-2.5 transition-all duration-300 ease-in-out hover:-translate-y-0.5",
                             isHighlighted
                               ? "border-accent/30 bg-accent/8"
-                              : "border-border bg-surface hover:bg-background-soft",
+                              : "border-border/40 bg-surface hover:bg-background-soft",
                           ].join(" ");
 
                           const inner = (
@@ -527,22 +527,22 @@ export default function PlantDetailPage({
                               </div>
                               <div className="mt-0.5 flex flex-wrap items-center gap-1.5">
                                 {isUsSale && (
-                                  <span className="rounded-sm bg-muted/10 px-1.5 py-0.5 text-[9px] font-medium text-muted">
+                                  <span className="rounded-md bg-muted/10 px-1.5 py-0.5 text-[9px] font-medium text-muted">
                                     🇺🇸 US sale
                                   </span>
                                 )}
                                 {typeLabel && (
-                                  <span className="rounded-sm bg-primary/8 px-1.5 py-0.5 text-[9px] font-medium text-primary">
+                                  <span className="rounded-md bg-primary/8 px-1.5 py-0.5 text-[9px] font-medium text-primary">
                                     {typeLabel}
                                   </span>
                                 )}
                                 {sale.condition && sale.condition !== "" && (
-                                  <span className="rounded-sm bg-muted/10 px-1.5 py-0.5 text-[9px] font-medium text-muted">
+                                  <span className="rounded-md bg-muted/10 px-1.5 py-0.5 text-[9px] font-medium text-muted">
                                     {sale.condition}
                                   </span>
                                 )}
                                 {sale.lotSize && sale.lotSize > 1 && (
-                                  <span className="rounded-sm bg-yellow-500/10 px-1.5 py-0.5 text-[9px] font-medium text-yellow-700 dark:text-yellow-400">
+                                  <span className="rounded-md bg-yellow-500/10 px-1.5 py-0.5 text-[9px] font-medium text-yellow-700 dark:text-yellow-400">
                                     Lot ×{sale.lotSize}
                                   </span>
                                 )}
@@ -597,7 +597,7 @@ export default function PlantDetailPage({
 
             {/* Retail Listings */}
             {retailData && retailData.listings.length > 0 && (
-              <div id="retail-specimens" className="grid grid-cols-1 gap-6 border-t border-border pt-6 md:grid-cols-5">
+              <div id="retail-specimens" className="grid grid-cols-1 gap-6 border-t border-border/30 pt-6 md:grid-cols-5">
                 <div className="space-y-3 md:col-span-3">
                   <div>
                     <h3 className="text-sm font-semibold text-heading">Retail Specimens</h3>
@@ -613,10 +613,10 @@ export default function PlantDetailPage({
                         href={list.productUrl}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className={`group flex flex-col gap-3 rounded border p-3.5 transition-all duration-150 sm:flex-row sm:items-center sm:justify-between ${
+                        className={`group flex flex-col gap-3 rounded-xl border p-3.5 transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:opacity-95 ${
                           list.inStock === false
-                            ? "border-border bg-background-soft/50 opacity-70"
-                            : "border-border bg-background-soft hover:border-border-strong hover:bg-surface"
+                            ? "border-border/30 bg-background-soft/50 opacity-70"
+                            : "border-border/40 bg-background-soft hover:border-border-strong hover:bg-surface hover:shadow-card-sm"
                         }`}
                       >
                         <div className="space-y-1">
@@ -624,11 +624,11 @@ export default function PlantDetailPage({
                             {list.title}
                           </div>
                           <div className="flex flex-wrap items-center gap-2 text-[9px] text-muted">
-                            <span className="rounded-sm bg-primary/10 px-1.5 py-0.5 font-medium text-primary">
+                            <span className="rounded-md bg-primary/10 px-1.5 py-0.5 font-medium text-primary">
                               {list.retailerName}
                             </span>
                             {list.inStock === false && (
-                              <span className="rounded-sm bg-red-100 px-1.5 py-0.5 font-semibold text-red-600">
+                              <span className="rounded-md bg-red-100 px-1.5 py-0.5 font-semibold text-red-600">
                                 Sold Out
                               </span>
                             )}
@@ -650,7 +650,7 @@ export default function PlantDetailPage({
                             )}
                           </div>
                           {list.inStock !== false && (
-                            <span className="inline-flex items-center gap-1 rounded-sm bg-primary px-3 py-1.5 text-[10px] font-semibold text-surface transition-colors duration-150 group-hover:bg-primary-dark">
+                            <span className="inline-flex items-center gap-1 rounded-xl bg-primary px-3 py-1.5 text-[10px] font-semibold text-surface transition-all duration-300 ease-in-out hover:bg-primary-dark">
                               Buy Now
                               <svg className="h-3 w-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
@@ -673,7 +673,7 @@ export default function PlantDetailPage({
                       </p>
                     </div>
 
-                    <div className="rounded border border-border bg-background-soft p-4 space-y-3.5">
+                    <div className="rounded-xl border border-border/40 bg-background-soft p-4 space-y-3.5 shadow-card-sm">
                       {Object.entries(retailData.statsByType).map(([type, stats]: [string, any]) => {
                         if (type === "all" || type === "unknown") return null;
                         const formattedType = type
@@ -682,7 +682,7 @@ export default function PlantDetailPage({
                         return (
                           <div
                             key={type}
-                            className="flex flex-col gap-1 border-b border-border pb-2.5 last:border-0 last:pb-0"
+                            className="flex flex-col gap-1 border-b border-border/30 pb-2.5 last:border-0 last:pb-0"
                           >
                             <div className="flex justify-between text-xs">
                               <span className="font-medium text-muted">{formattedType}</span>
@@ -707,7 +707,7 @@ export default function PlantDetailPage({
 
             {/* Buyer's Checklist */}
             {data.buyerChecklist && data.buyerChecklist.items.length > 0 && (
-              <div className="border-t border-border pt-6">
+              <div className="border-t border-border/30 pt-6">
                 <h3 className="mb-1 text-sm font-semibold text-heading">Before You Buy</h3>
                 <p className="mb-3 text-[10px] text-muted">Species-specific things to check when evaluating a listing</p>
                 <ul className="space-y-2">
@@ -731,13 +731,18 @@ export default function PlantDetailPage({
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
             <div>
               <h2 className="mb-4 font-heading text-lg font-semibold text-heading">Morphology</h2>
-              <div className="space-y-3">
-                {morphEntries.map(([key, value]) => (
-                  <div key={key} className="flex items-baseline justify-between border-b border-border pb-2">
+              <div className="space-y-1">
+                {morphEntries.map(([key, value], i) => (
+                  <div
+                    key={key}
+                    className={`flex items-baseline justify-between px-3 py-2 rounded-lg ${
+                      i % 2 === 0 ? "bg-background-soft/30" : "bg-transparent"
+                    }`}
+                  >
                     <span className="text-xs font-medium capitalize text-muted">
                       {key.replace(/([A-Z])/g, " $1").trim()}
                     </span>
-                    <span className="max-w-[180px] text-right text-sm text-heading">{value as string}</span>
+                    <span className="max-w-[180px] text-right text-xs font-semibold text-heading">{value as string}</span>
                   </div>
                 ))}
               </div>
@@ -745,44 +750,44 @@ export default function PlantDetailPage({
 
             <div>
               <h2 className="mb-4 font-heading text-lg font-semibold text-heading">About</h2>
-              <p className="mb-5 text-sm leading-relaxed text-muted">{data.aboutText}</p>
+              <p className="mb-5 max-w-2xl text-sm leading-relaxed text-muted">{data.aboutText}</p>
 
-              <div className="rounded border border-border bg-surface p-4">
-                <h4 className="mb-3 font-body text-[10px] font-bold uppercase tracking-[0.14em] text-heading">
+              <div className="rounded-xl border border-border/40 bg-surface p-4 shadow-card-sm">
+                <h4 className="mb-3 font-body text-xs font-semibold tracking-wider uppercase text-heading">
                   Climate Profile
                 </h4>
                 <div className="grid grid-cols-2 gap-3 text-xs">
                   <div className="flex flex-col gap-1">
-                    <span className="text-muted">Origin</span>
+                    <span className="text-[10px] font-semibold tracking-wider uppercase text-muted-light">Origin</span>
                     <span className="font-medium text-heading">{data.origin}</span>
                   </div>
                   <div className="flex flex-col gap-1">
-                    <span className="text-muted">Humidity</span>
+                    <span className="text-[10px] font-semibold tracking-wider uppercase text-muted-light">Humidity</span>
                     <span className="font-medium text-heading">{formatHumidity(data.quickFacts.humidity)}</span>
                   </div>
                   <div className="flex flex-col gap-1">
-                    <span className="text-muted">Temperature</span>
+                    <span className="text-[10px] font-semibold tracking-wider uppercase text-muted-light">Temperature</span>
                     <span className="font-medium text-heading">{data.quickFacts.temperature}</span>
                   </div>
                   <div className="flex flex-col gap-1">
-                    <span className="text-muted">Light</span>
+                    <span className="text-[10px] font-semibold tracking-wider uppercase text-muted-light">Light</span>
                     <span className="font-medium text-heading">{data.quickFacts.light}</span>
                   </div>
                   <div className="flex flex-col gap-1">
-                    <span className="text-muted">Family</span>
+                    <span className="text-[10px] font-semibold tracking-wider uppercase text-muted-light">Family</span>
                     <span className="font-medium text-heading">{data.family}</span>
                   </div>
                   <div className="flex flex-col gap-1">
-                    <span className="text-muted">Genus</span>
+                    <span className="text-[10px] font-semibold tracking-wider uppercase text-muted-light">Genus</span>
                     <span className="font-medium text-heading">{data.genus}</span>
                   </div>
                 </div>
               </div>
 
               {/* Collector Rating Card */}
-              <div className="mt-5 rounded border border-border bg-surface p-4">
+              <div className="mt-5 rounded-xl border border-border/40 bg-surface p-4 shadow-card-sm">
                 <div className="flex items-center justify-between">
-                  <h4 className="font-body text-[10px] font-bold uppercase tracking-[0.14em] text-heading">
+                  <h4 className="font-body text-xs font-semibold tracking-wider uppercase text-heading">
                     Collector Popularity Review
                   </h4>
                   <div className="flex text-accent text-sm" aria-label={`${data.collectorPopularity} out of 5 stars`}>
@@ -793,10 +798,10 @@ export default function PlantDetailPage({
                     ))}
                   </div>
                 </div>
-                <p className="mt-2 text-xs leading-relaxed text-muted">
+                <p className="mt-2 max-w-2xl text-xs leading-relaxed text-muted">
                   <strong className="text-heading">Aroid Atlas Collector Review:</strong> {data.scientificName} ({data.commonName}) is ranked as {data.rarityStatus} rarity on the market. Rating is calculated based on overall cultivation difficulty, aesthetic appeal, and search popularity among active collectors.
                 </p>
-                <div className="mt-3 flex items-center justify-between text-[9px] text-muted/60 border-t border-border/60 pt-2">
+                <div className="mt-3 flex items-center justify-between text-[9px] text-muted/60 border-t border-border/20 pt-2">
                   <span>Score: {data.collectorPopularity.toFixed(1)} / 5.0</span>
                   <span>Based on collector index metrics</span>
                 </div>
@@ -806,9 +811,9 @@ export default function PlantDetailPage({
 
           {/* Propagation */}
           {data.propagation && (
-            <div className="rounded border border-border bg-surface p-6 md:p-8">
-              <div className="-mx-6 -mt-6 mb-6 h-px bg-accent/30 md:-mx-8 md:-mt-8 md:mb-8" />
-              <p className="font-body text-[10px] font-bold uppercase tracking-[0.16em] text-accent">
+            <div className="rounded-xl border border-border/40 bg-surface p-6 md:p-8 shadow-card-sm">
+              <div className="-mx-6 -mt-6 mb-6 h-px bg-accent/10 md:-mx-8 md:-mt-8 md:mb-8" />
+              <p className="font-body text-xs font-semibold tracking-wider uppercase text-accent">
                 Propagation Guide
               </p>
               <h2 className="mt-1 font-heading text-xl font-semibold text-heading md:text-2xl">
@@ -818,7 +823,7 @@ export default function PlantDetailPage({
               <div className="mt-6 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
                 {/* Methods */}
                 <div className="space-y-2">
-                  <span className="font-body text-[10px] font-bold uppercase tracking-wider text-muted">
+                  <span className="font-body text-[10px] font-semibold tracking-widest uppercase text-muted-light">
                     Methods
                   </span>
                   <div className="flex flex-wrap gap-1.5 pt-1">
@@ -828,14 +833,14 @@ export default function PlantDetailPage({
                         <Link
                           key={m}
                           href={`/guides/propagation/${slug}`}
-                          className="rounded-sm border border-primary/20 bg-primary/8 px-2 py-0.5 text-[10px] font-medium text-primary underline-offset-2 transition-colors duration-150 hover:border-primary/40 hover:bg-primary/15 hover:underline"
+                          className="rounded-xl border border-primary/20 bg-primary/8 px-2 py-0.5 text-[10px] font-medium text-primary underline-offset-2 transition-all duration-300 ease-in-out hover:border-primary/40 hover:bg-primary/15 hover:underline hover:-translate-y-0.5"
                         >
                           {m}
                         </Link>
                       ) : (
                         <span
                           key={m}
-                          className="rounded-sm border border-primary/20 bg-primary/8 px-2 py-0.5 text-[10px] font-medium text-primary"
+                          className="rounded-xl border border-primary/20 bg-primary/8 px-2 py-0.5 text-[10px] font-medium text-primary"
                         >
                           {m}
                         </span>
@@ -846,12 +851,12 @@ export default function PlantDetailPage({
 
                 {/* Difficulty */}
                 <div className="space-y-2">
-                  <span className="font-body text-[10px] font-bold uppercase tracking-wider text-muted">
+                  <span className="font-body text-[10px] font-semibold tracking-widest uppercase text-muted-light">
                     Difficulty
                   </span>
                   <div className="pt-1">
                     <span
-                      className={`inline-block rounded-sm px-2.5 py-1 text-xs font-semibold ${
+                      className={`inline-block rounded-md px-2.5 py-1 text-xs font-semibold ${
                         data.propagation.difficulty === "Easy"
                           ? "bg-leaf/10 text-leaf"
                           : data.propagation.difficulty === "Moderate"
@@ -868,7 +873,7 @@ export default function PlantDetailPage({
 
                 {/* Time to established */}
                 <div className="space-y-2">
-                  <span className="font-body text-[10px] font-bold uppercase tracking-wider text-muted">
+                  <span className="font-body text-[10px] font-semibold tracking-widest uppercase text-muted-light">
                     Time to Establish
                   </span>
                   <p className="pt-1 text-sm font-medium text-heading">
@@ -879,7 +884,7 @@ export default function PlantDetailPage({
                 {/* Propagates true */}
                 {data.propagation.propagatesTrue !== null && (
                   <div className="space-y-2">
-                    <span className="font-body text-[10px] font-bold uppercase tracking-wider text-muted">
+                    <span className="font-body text-[10px] font-semibold tracking-widest uppercase text-muted-light">
                       True From Cuttings
                     </span>
                     <div className="flex items-center gap-1.5 pt-1">
@@ -909,7 +914,7 @@ export default function PlantDetailPage({
               </div>
 
               {data.propagation.notes && (
-                <div className="mt-6 flex items-start gap-3 rounded border border-border bg-background-soft px-4 py-3">
+                <div className="mt-6 flex items-start gap-3 rounded-xl border border-border/40 bg-background-soft px-4 py-3 shadow-card-sm">
                   <svg className="mt-0.5 h-3.5 w-3.5 shrink-0 text-muted/50" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
                     <circle cx="12" cy="12" r="10" />
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 16v-4m0-4h.01" />
@@ -922,9 +927,9 @@ export default function PlantDetailPage({
 
           {/* Care Guide */}
           {data.careGuide && (
-            <div className="rounded border border-border bg-surface p-6 md:p-8">
-              <div className="-mx-6 -mt-6 mb-6 h-px bg-accent/30 md:-mx-8 md:-mt-8 md:mb-8" />
-              <p className="font-body text-[10px] font-bold uppercase tracking-[0.16em] text-accent">
+            <div className="rounded-xl border border-border/40 bg-surface p-6 md:p-8 shadow-card-sm">
+              <div className="-mx-6 -mt-6 mb-6 h-px bg-accent/10 md:-mx-8 md:-mt-8 md:mb-8" />
+              <p className="font-body text-xs font-semibold tracking-wider uppercase text-accent">
                 Care Guide
               </p>
               <h2 className="mt-1 font-heading text-xl font-semibold text-heading md:text-2xl">
@@ -969,12 +974,12 @@ export default function PlantDetailPage({
                     ),
                   },
                 ].map(({ label, value, icon }) => (
-                  <div key={label} className="rounded border border-border bg-background-soft p-4">
+                  <div key={label} className="rounded-xl border border-border/40 bg-background-soft p-4 shadow-card-sm transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:shadow-card">
                     <div className="mb-2 flex items-center gap-2">
                       <svg className="h-3.5 w-3.5 shrink-0 text-muted/60" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                         {icon}
                       </svg>
-                      <span className="font-body text-[10px] font-bold uppercase tracking-wider text-muted">
+                      <span className="font-body text-[10px] font-semibold tracking-widest uppercase text-muted-light">
                         {label}
                       </span>
                     </div>
@@ -988,17 +993,17 @@ export default function PlantDetailPage({
                   <h3 className="mb-3 text-sm font-semibold text-heading">Common Problems</h3>
                   <div className="space-y-2">
                     {data.careGuide.commonProblems.map(({ problem, cause, fix }) => (
-                      <div key={problem} className="grid grid-cols-1 gap-1 rounded border border-border bg-background-soft p-3.5 sm:grid-cols-3 sm:gap-3">
+                      <div key={problem} className="grid grid-cols-1 gap-1 rounded-xl border border-border/40 bg-background-soft p-3.5 sm:grid-cols-3 sm:gap-3 shadow-card-sm transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:shadow-card">
                         <div>
-                          <span className="font-body text-[9px] font-bold uppercase tracking-wider text-muted">Problem</span>
+                          <span className="font-body text-[9px] font-semibold tracking-widest uppercase text-muted-light">Problem</span>
                           <p className="mt-0.5 text-xs font-medium text-heading">{problem}</p>
                         </div>
                         <div>
-                          <span className="font-body text-[9px] font-bold uppercase tracking-wider text-muted">Cause</span>
+                          <span className="font-body text-[9px] font-semibold tracking-widest uppercase text-muted-light">Cause</span>
                           <p className="mt-0.5 text-xs text-muted">{cause}</p>
                         </div>
                         <div>
-                          <span className="font-body text-[9px] font-bold uppercase tracking-wider text-muted">Fix</span>
+                          <span className="font-body text-[9px] font-semibold tracking-widest uppercase text-muted-light">Fix</span>
                           <p className="mt-0.5 text-xs text-leaf">{fix}</p>
                         </div>
                       </div>
@@ -1011,9 +1016,9 @@ export default function PlantDetailPage({
 
           {/* Field Notes */}
           {data.fieldNotes && (
-            <div className="relative overflow-hidden rounded border-2 border-border bg-surface p-8">
-              <div className="pointer-events-none absolute inset-3 border border-dashed border-border" />
-              <div className="absolute left-0 right-0 top-0 h-px bg-accent/40" />
+            <div className="relative overflow-hidden rounded-xl border-2 border-border bg-surface p-8 shadow-card-sm">
+              <div className="pointer-events-none absolute inset-3 border border-dashed border-border/40" />
+              <div className="absolute left-0 right-0 top-0 h-px bg-accent/15" />
 
               <div className="relative z-10 px-2 py-1">
                 <div className="mb-4 flex items-center justify-between border-b border-border pb-3">
@@ -1033,7 +1038,7 @@ export default function PlantDetailPage({
                   {data.fieldNotes.title}
                 </h3>
 
-                <p className="font-heading text-sm leading-relaxed text-muted">
+                <p className="max-w-2xl font-heading text-sm md:text-base leading-relaxed text-muted">
                   {data.fieldNotes.content}
                 </p>
 
@@ -1052,9 +1057,9 @@ export default function PlantDetailPage({
         <div className="plant-detail-sidebar-col">
           {/* ── AA Price Hero ── */}
           {aaDisplayPrice !== null && (
-            <div className="relative overflow-hidden rounded border border-accent/30 bg-accent/8 px-5 py-5">
-              <div className="absolute left-0 right-0 top-0 h-px bg-accent/40" />
-              <p className="font-body text-[10px] font-bold uppercase tracking-wider text-accent/80">
+            <div className="relative overflow-hidden rounded-xl border border-accent/20 bg-accent/8 px-5 py-5 shadow-card-sm">
+              <div className="absolute left-0 right-0 top-0 h-px bg-accent/15" />
+              <p className="font-body text-xs font-semibold tracking-wider uppercase text-accent">
                 Aroid Atlas Price Guide
               </p>
               <div className="mt-2 flex items-baseline gap-2">
@@ -1067,7 +1072,7 @@ export default function PlantDetailPage({
                 </span>
                 <span className="text-xs text-muted">· 7cm plant</span>
                 <span
-                  className={`ml-auto rounded-sm px-1.5 py-0.5 text-[9px] font-semibold ${
+                  className={`ml-auto rounded-md px-1.5 py-0.5 text-[9px] font-semibold ${
                     priceSampleCount !== null && priceSampleCount < 5
                       ? "bg-amber-100 text-amber-700"
                       : "bg-accent/10 text-accent"
@@ -1148,7 +1153,7 @@ export default function PlantDetailPage({
             {retailAverage ? (
               <a
                 href="#retail-specimens"
-                className="flex flex-col justify-between rounded border border-border bg-background-soft p-4 transition-all duration-150 hover:border-primary/40 hover:bg-surface hover:shadow-glass group"
+                className="flex flex-col justify-between rounded-xl border border-border/40 bg-background-soft p-4 transition-all duration-300 ease-in-out hover:border-primary/40 hover:bg-surface hover:-translate-y-0.5 hover:shadow-glass group shadow-card-sm"
               >
                 <div className="flex items-center justify-between">
                   <span className="font-body text-[10px] font-bold uppercase tracking-wider text-muted">
@@ -1169,7 +1174,7 @@ export default function PlantDetailPage({
                 </span>
               </a>
             ) : (
-              <div className="flex flex-col justify-between rounded border border-border bg-background-soft p-4">
+              <div className="flex flex-col justify-between rounded-xl border border-border/40 bg-background-soft p-4 shadow-card-sm">
                 <span className="font-body text-[10px] font-bold uppercase tracking-wider text-muted">
                   Retail Price
                 </span>
@@ -1182,7 +1187,7 @@ export default function PlantDetailPage({
               </div>
             )}
 
-            <div className="flex flex-col justify-between rounded border border-border bg-background-soft p-4">
+            <div className="flex flex-col justify-between rounded-xl border border-border/40 bg-background-soft p-4 shadow-card-sm">
               <span className="font-body text-[10px] font-bold uppercase tracking-wider text-muted">
                 Market Trend
               </span>
@@ -1217,7 +1222,7 @@ export default function PlantDetailPage({
             </div>
 
             {showTypicalRange && latestWeek && (
-              <div className="flex flex-col justify-between rounded border border-border bg-background-soft p-4">
+              <div className="flex flex-col justify-between rounded-xl border border-border/40 bg-background-soft p-4 shadow-card-sm">
                 <span className="font-body text-[10px] font-bold uppercase tracking-wider text-muted">
                   Typical Range
                 </span>
@@ -1238,7 +1243,7 @@ export default function PlantDetailPage({
           </div>
 
           {/* Methodology note */}
-          <div className="flex items-start gap-3 rounded border border-border bg-background-soft px-4 py-3">
+          <div className="flex items-start gap-3 rounded-xl border border-border/40 bg-background-soft px-4 py-3 shadow-card-sm">
             <svg
               className="mt-0.5 h-3.5 w-3.5 shrink-0 text-muted/50"
               viewBox="0 0 24 24"
@@ -1258,9 +1263,9 @@ export default function PlantDetailPage({
           </div>
 
           {/* ── Quick Facts ── */}
-          <div className="rounded border border-border bg-surface p-5">
-            <div className="-mx-5 -mt-5 mb-4 h-px bg-accent/30" />
-            <h3 className="mb-4 font-body text-[10px] font-bold uppercase tracking-[0.14em] text-heading">
+          <div className="rounded-xl border border-border/40 bg-surface p-5 shadow-card-sm">
+            <div className="-mx-5 -mt-5 mb-4 h-px bg-accent/10" />
+            <h3 className="mb-4 font-body text-xs font-semibold tracking-wider uppercase text-heading">
               Quick Facts
             </h3>
             <div className="space-y-3">
@@ -1277,7 +1282,7 @@ export default function PlantDetailPage({
             </div>
             <Link
               href="/learn"
-              className="mt-5 block w-full rounded-sm bg-primary px-5 py-3 text-center text-sm font-semibold tracking-wide text-surface transition-colors duration-150 hover:bg-primary-dark"
+              className="mt-5 block w-full rounded-xl bg-primary px-5 py-3 text-center text-sm font-semibold tracking-wide text-surface transition-all duration-300 ease-in-out hover:bg-primary-dark hover:-translate-y-0.5 hover:opacity-95 shadow-card-sm"
             >
               View Care Guide
             </Link>
@@ -1287,7 +1292,7 @@ export default function PlantDetailPage({
             href={`https://www.etsy.com/uk/search?q=${encodeURIComponent(data.name)}`}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex w-full items-center justify-center gap-2 rounded-sm border border-primary/30 bg-transparent px-5 py-3 text-sm font-semibold text-primary transition-all duration-150 hover:border-primary/50 hover:bg-primary/5"
+            className="flex w-full items-center justify-center gap-2 rounded-xl border border-primary/30 bg-transparent px-5 py-3 text-sm font-semibold text-primary transition-all duration-300 ease-in-out hover:border-primary/50 hover:bg-primary/5 hover:-translate-y-0.5 hover:opacity-95 shadow-card-sm"
           >
             <svg className="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
               <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15l-5-5 1.41-1.41L11 14.17l7.59-7.59L20 8l-9 9z" />
@@ -1299,7 +1304,7 @@ export default function PlantDetailPage({
             href={`https://www.ebay.co.uk/sch/i.html?_nkw=${encodeURIComponent(data.name)}&_sacat=0&LH_BIN=1&_sop=15`}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex w-full items-center justify-center gap-2 rounded-sm border border-border bg-transparent px-5 py-3 text-sm font-semibold text-muted transition-all duration-150 hover:border-border-strong hover:text-heading"
+            className="flex w-full items-center justify-center gap-2 rounded-xl border border-border/40 bg-transparent px-5 py-3 text-sm font-semibold text-muted transition-all duration-300 ease-in-out hover:border-border-strong hover:text-heading hover:-translate-y-0.5 hover:opacity-95 shadow-card-sm"
           >
             <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" />
@@ -1321,7 +1326,7 @@ export default function PlantDetailPage({
               <Link
                 key={plant.slug}
                 href={`/plants/${recommendedGenus}/${plant.slug}`}
-                className="group rounded border border-border bg-surface p-4 transition-all duration-150 hover:border-border-strong hover:shadow-glass"
+                className="group rounded-xl border border-border/40 bg-surface p-4 transition-all duration-300 ease-in-out hover:border-border-strong hover:shadow-glass hover:-translate-y-0.5 hover:opacity-95 shadow-card-sm"
               >
                 <div className="flex items-start justify-between gap-3">
                   <div>
@@ -1334,7 +1339,7 @@ export default function PlantDetailPage({
                       </span>
                     </div>
                   </div>
-                  <div className="relative h-16 w-16 shrink-0 overflow-hidden rounded border border-border bg-background-soft">
+                  <div className="relative h-16 w-16 shrink-0 overflow-hidden rounded-lg border border-border/40 bg-background-soft">
                     <Image
                       src={`/plants/${recommendedGenus}/${plant.slug}.png`}
                       alt={plant.name}

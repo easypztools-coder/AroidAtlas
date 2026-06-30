@@ -21,11 +21,11 @@
 @layer components {
   /* ── Botanical Card System ─────────────────────────────────────────── */
   .glass-card {
-    @apply rounded border border-border bg-surface shadow-card-sm;
+    @apply rounded-xl border border-border/30 bg-surface shadow-card-sm;
   }
 
   .glass-card-hover {
-    @apply glass-card transition-all duration-200 hover:border-border-strong hover:shadow-glass;
+    @apply glass-card transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:opacity-95 hover:border-border-strong hover:shadow-glass;
   }
 
   /* glass-card-glow is an alias — no glow effect on light backgrounds */
@@ -35,24 +35,24 @@
 
   /* ── Badges ────────────────────────────────────────────────────────── */
   .badge-primary {
-    @apply inline-flex items-center gap-1.5 rounded-sm border border-primary/20 bg-primary/10 px-2.5 py-0.5 text-[10px] font-medium uppercase tracking-wide text-primary;
+    @apply inline-flex items-center gap-1.5 rounded-md border border-primary/20 bg-primary/10 px-2.5 py-0.5 text-[10px] font-medium uppercase tracking-wide text-primary;
   }
 
   .badge-rarity {
-    @apply inline-flex items-center gap-1.5 rounded-sm border border-rarity/20 bg-rarity/10 px-2.5 py-0.5 text-[10px] font-medium uppercase tracking-wide text-rarity;
+    @apply inline-flex items-center gap-1.5 rounded-md border border-rarity/20 bg-rarity/10 px-2.5 py-0.5 text-[10px] font-medium uppercase tracking-wide text-rarity;
   }
 
   .badge-price {
-    @apply inline-flex items-center gap-1.5 rounded-sm border border-accent/25 bg-accent/10 px-2.5 py-0.5 text-[10px] font-medium uppercase tracking-wide text-accent;
+    @apply inline-flex items-center gap-1.5 rounded-md border border-accent/25 bg-accent/10 px-2.5 py-0.5 text-[10px] font-medium uppercase tracking-wide text-accent;
   }
 
   .badge-leaf {
-    @apply inline-flex items-center gap-1.5 rounded-sm border border-leaf/20 bg-leaf/10 px-2.5 py-0.5 text-[10px] font-medium uppercase tracking-wide text-leaf;
+    @apply inline-flex items-center gap-1.5 rounded-md border border-leaf/20 bg-leaf/10 px-2.5 py-0.5 text-[10px] font-medium uppercase tracking-wide text-leaf;
   }
 
   /* ── Typography ─────────────────────────────────────────────────────── */
   .section-heading {
-    @apply font-heading text-2xl font-semibold tracking-tight text-heading md:text-3xl;
+    @apply font-heading text-2xl font-semibold tracking-tight leading-snug text-heading md:text-3xl md:leading-tight;
   }
 
   .section-subheading {
@@ -61,24 +61,24 @@
 
   /* ── Buttons ─────────────────────────────────────────────────────────── */
   .btn-primary {
-    @apply inline-flex items-center justify-center gap-2 rounded-sm bg-primary px-6 py-3 text-sm font-semibold tracking-wide text-surface transition-colors duration-150 hover:bg-primary-dark;
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-primary px-6 py-3 text-sm font-semibold tracking-wide text-surface transition-all duration-300 ease-in-out hover:bg-primary-dark hover:-translate-y-0.5 hover:opacity-95;
   }
 
   .btn-secondary {
-    @apply inline-flex items-center justify-center gap-2 rounded-sm border border-primary/30 bg-transparent px-6 py-3 text-sm font-semibold tracking-wide text-primary transition-all duration-150 hover:border-primary/50 hover:bg-primary/5;
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border border-primary/30 bg-transparent px-6 py-3 text-sm font-semibold tracking-wide text-primary transition-all duration-300 ease-in-out hover:border-primary/50 hover:bg-primary/5 hover:-translate-y-0.5 hover:opacity-95;
   }
 
   /* ── Navigation ──────────────────────────────────────────────────────── */
   .nav-link {
-    @apply text-xs font-medium uppercase tracking-[0.1em] text-muted transition-colors duration-150 hover:text-heading;
+    @apply text-xs font-medium uppercase tracking-[0.1em] text-muted transition-all duration-300 ease-in-out hover:text-heading hover:-translate-y-0.5;
   }
 
   .nav-link-active {
-    @apply text-xs font-semibold uppercase tracking-[0.1em] text-heading underline decoration-accent decoration-1 underline-offset-4;
+    @apply text-xs font-semibold uppercase tracking-[0.1em] text-heading underline decoration-accent decoration-1 underline-offset-4 transition-all duration-300 ease-in-out;
   }
 
   .icon-btn {
-    @apply flex h-9 w-9 items-center justify-center rounded text-muted transition-all duration-150 hover:bg-primary/10 hover:text-heading;
+    @apply flex h-9 w-9 items-center justify-center rounded-lg text-muted transition-all duration-300 ease-in-out hover:bg-primary/10 hover:text-heading;
   }
 
   /* ── Layout Helpers ──────────────────────────────────────────────────── */
@@ -91,31 +91,31 @@
   }
 
   .section-spacing {
-    @apply py-12 md:py-16;
+    @apply py-16 md:py-24;
   }
 
   .section-spacing-tighter {
-    @apply py-8 md:py-12;
+    @apply py-12 md:py-16;
   }
 
   /* ── Plant Detail Layout ──────────────────────────────────────────────── */
   .plant-detail-container {
-    @apply mx-auto max-w-[1300px] px-4 py-6 md:py-10;
+    @apply mx-auto max-w-[1300px] px-4 py-8 md:py-12;
   }
 
   .plant-detail-grid {
-    @apply grid grid-cols-1 gap-6 lg:grid-cols-10 lg:gap-10 lg:items-start;
+    @apply grid grid-cols-1 gap-8 lg:grid-cols-10 lg:gap-10 lg:items-start;
   }
 
   .plant-detail-main-col {
-    @apply space-y-6 md:space-y-8 lg:col-span-6;
+    @apply space-y-6 md:space-y-8 lg:col-span-7;
   }
 
   .plant-detail-sidebar-col {
-    @apply space-y-4 lg:col-span-4 lg:sticky lg:top-24 lg:max-h-[calc(100vh-8rem)] lg:overflow-y-auto pr-1;
+    @apply space-y-6 md:space-y-8 lg:col-span-3 lg:sticky lg:top-24 lg:max-h-[calc(100vh-8rem)] lg:overflow-y-auto pr-1;
   }
 
   .plant-detail-recommended-section {
-    @apply mt-10 border-t border-border pt-8;
+    @apply mt-12 border-t border-border/30 pt-8;
   }
 }

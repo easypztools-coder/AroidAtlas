@@ -23,10 +23,10 @@ function StatCard({ label, value, index }: { label: string; value: string; index
       initial={{ opacity: 0, y: 16 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: 0.4 + index * 0.1 }}
-      className="flex flex-col items-center gap-1 border-r border-border px-5 py-2 text-center last:border-r-0"
+      className="flex flex-col items-center gap-1 border-r border-border/40 px-5 py-2 text-center last:border-r-0"
     >
       <span className="font-heading text-xl font-semibold text-heading tabular-nums">{value}</span>
-      <span className="text-[9px] uppercase tracking-[0.12em] text-muted">{label}</span>
+      <span className="text-[10px] font-semibold tracking-widest uppercase text-muted">{label}</span>
     </motion.div>
   );
 }
@@ -147,7 +147,7 @@ export default function HeroSection() {
         />
       </div>
 
-      <div className="section-container relative py-14 md:py-20">
+      <div className="section-container relative py-16 md:py-24">
         <div className="mx-auto max-w-3xl text-center">
 
           {/* Eyebrow */}
@@ -179,7 +179,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 14 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.15 }}
-            className="mx-auto mt-5 max-w-xl text-base leading-relaxed text-muted"
+            className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-muted"
           >
             Live UK auction prices and retailer data for 170+ rare tropical species — so you never overpay again.
           </motion.p>
@@ -213,7 +213,7 @@ export default function HeroSection() {
                 onChange={(e) => handleSearch(e.target.value)}
                 onFocus={ensureSearchIndexLoaded}
                 placeholder="Search species, cultivars or common names..."
-                className="w-full rounded-sm border border-border bg-surface py-4 pl-11 pr-4 text-sm text-heading placeholder-muted/50 outline-none transition-all duration-150 focus:border-primary/40 focus:shadow-glow"
+                className="w-full rounded-xl border border-border/40 bg-surface py-4 pl-11 pr-4 text-sm text-heading placeholder-muted/50 outline-none transition-all duration-300 focus:border-primary/30 focus:shadow-glow"
               />
             </form>
 
@@ -222,15 +222,15 @@ export default function HeroSection() {
               <motion.div
                 initial={{ opacity: 0, y: -8 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="absolute left-0 right-0 top-full z-50 mt-1 overflow-hidden rounded border border-border bg-surface shadow-glass-hover"
+                className="absolute left-0 right-0 top-full z-50 mt-1 overflow-hidden rounded-xl border border-border/30 bg-surface shadow-glass-hover"
               >
                 {searchResults.slice(0, 6).map((plant) => (
                   <button
                     key={plant.slug}
                     onClick={() => handleSelect(plant.slug, plant.genus)}
-                    className="flex w-full items-center gap-3 px-4 py-3 text-left text-sm transition-colors duration-100 hover:bg-background-soft"
+                    className="flex w-full items-center gap-3 px-4 py-3 text-left text-sm transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:bg-background-soft"
                   >
-                    <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-sm bg-primary/10 text-[10px] font-semibold text-primary">
+                    <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-[10px] font-semibold text-primary">
                       {plant.genus.slice(0, 2).toUpperCase()}
                     </div>
                     <div className="min-w-0 flex-1">
@@ -255,12 +255,12 @@ export default function HeroSection() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="mt-4 flex flex-wrap items-center justify-center gap-2"
           >
-            <span className="text-[10px] uppercase tracking-wide text-muted/60">Browse:</span>
+            <span className="text-xs font-semibold tracking-wider uppercase text-muted">Browse:</span>
             {GENUS_PILLS.map((pill) => (
               <Link
                 key={pill.href}
                 href={pill.href}
-                className="rounded-sm border border-border bg-surface px-3 py-1 text-xs font-medium text-muted transition-all duration-150 hover:border-border-strong hover:text-heading"
+                className="rounded-xl border border-border/40 bg-surface px-3 py-1 text-xs font-medium text-muted transition-all duration-300 ease-in-out hover:border-border-strong hover:text-heading hover:-translate-y-0.5 hover:opacity-95 hover:shadow-card-sm"
               >
                 {pill.label}
               </Link>
@@ -289,7 +289,7 @@ export default function HeroSection() {
             transition={{ duration: 0.5, delay: 0.45 }}
             className="mt-10 flex justify-center"
           >
-            <div className="inline-flex items-stretch divide-x divide-border rounded border border-border bg-surface">
+            <div className="inline-flex items-stretch divide-x divide-border/40 rounded-xl border border-border/40 bg-surface">
               {LIVE_STAT_LABELS.map((s, i) => (
                 <StatCard key={s.key} label={s.label} value={liveStats[s.key] ?? "—"} index={i} />
               ))}

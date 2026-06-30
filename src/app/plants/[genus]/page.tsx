@@ -128,13 +128,13 @@ export default function GenusPage({ params }: PageProps) {
   };
 
   return (
-    <div className="max-w-7xl mx-auto px-6 py-16">
+    <div className="section-container py-16 md:py-24">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
       <nav className="flex items-center gap-2 text-xs text-muted mb-8">
-        <Link href="/plants" className="hover:text-primary transition-colors">Species</Link>
+        <Link href="/plants" className="hover:text-primary transition-all duration-300 ease-in-out hover:-translate-y-0.5">Species</Link>
         <span>/</span>
         <span className="text-heading">{genusCapitalized}</span>
       </nav>
@@ -142,7 +142,7 @@ export default function GenusPage({ params }: PageProps) {
       <h1 className="text-3xl md:text-4xl font-heading font-bold text-heading mb-4">
         {genusCapitalized}
       </h1>
-      <p className="text-sm md:text-base text-muted max-w-2xl mb-12">
+      <p className="text-sm md:text-base leading-relaxed text-muted max-w-2xl mb-12">
         {description}
       </p>
 

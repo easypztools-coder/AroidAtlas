@@ -100,7 +100,7 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 border-b border-border bg-background/98 backdrop-blur-sm">
+    <header className="sticky top-0 z-50 border-b border-border/30 bg-background/98 backdrop-blur-sm">
       <nav className="mx-auto max-w-[1300px] px-6">
         <div className="flex h-[82px] items-center gap-8">
 
@@ -170,7 +170,7 @@ export default function Navbar() {
                 onChange={(e) => handleSearch(e.target.value)}
                 onFocus={ensureSearchIndexLoaded}
                 placeholder="Search species..."
-                className="w-full rounded-sm border border-border bg-surface py-2 pl-9 pr-3 text-sm text-heading placeholder-muted/50 outline-none transition-all duration-150 focus:border-primary/40 focus:shadow-glow"
+                className="w-full rounded-xl border border-border/40 bg-surface py-2 pl-9 pr-3 text-sm text-heading placeholder-muted/50 outline-none transition-all duration-300 focus:border-primary/30 focus:shadow-glow"
               />
             </form>
 
@@ -181,13 +181,13 @@ export default function Navbar() {
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: -8 }}
                   transition={{ duration: 0.15 }}
-                  className="absolute right-0 top-full z-50 mt-1.5 w-[380px] lg:w-[420px] overflow-hidden rounded border border-border bg-surface shadow-glass-hover"
+                  className="absolute right-0 top-full z-50 mt-1.5 w-[380px] lg:w-[420px] overflow-hidden rounded-xl border border-border/30 bg-surface shadow-glass-hover"
                 >
                   {searchResults.slice(0, 6).map((plant) => (
                     <button
                       key={plant.slug}
                       onClick={() => handleSelect(plant.slug, plant.genus)}
-                      className="flex w-full items-center gap-3 px-4 py-3 text-left text-sm transition-colors duration-100 hover:bg-background-soft"
+                      className="flex w-full items-center gap-3 px-4 py-3 text-left text-sm transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:bg-background-soft"
                     >
                       <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-sm bg-primary/10 text-[10px] font-semibold text-primary">
                         {plant.genus.slice(0, 2).toUpperCase()}
@@ -232,7 +232,7 @@ export default function Navbar() {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: "auto" }}
             exit={{ opacity: 0, height: 0 }}
-            className="overflow-hidden border-t border-border bg-surface md:hidden"
+            className="overflow-hidden border-t border-border/30 bg-surface md:hidden"
           >
             <div className="px-6 py-5 space-y-1">
               {/* Mobile Search */}
@@ -257,7 +257,7 @@ export default function Navbar() {
                   onChange={(e) => handleSearch(e.target.value)}
                   onFocus={ensureSearchIndexLoaded}
                   placeholder="Search species, cultivars..."
-                  className="w-full rounded-sm border border-border bg-background py-2.5 pl-10 pr-4 text-sm text-heading placeholder-muted/50 outline-none transition-all duration-150 focus:border-primary/40 focus:shadow-glow"
+                  className="w-full rounded-xl border border-border/40 bg-background py-2.5 pl-10 pr-4 text-sm text-heading placeholder-muted/50 outline-none transition-all duration-300 focus:border-primary/30 focus:shadow-glow"
                 />
               </form>
 

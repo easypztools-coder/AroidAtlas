@@ -43,16 +43,18 @@ interface ThHeaderProps {
   activeSortKey: SortKey;
   sortDir: 'asc' | 'desc';
   onSort: (k: SortKey) => void;
+  align?: 'left' | 'right' | 'center';
 }
 
-function ThHeader({ children, sortKey: k, activeSortKey, sortDir, onSort }: ThHeaderProps) {
+function ThHeader({ children, sortKey: k, activeSortKey, sortDir, onSort, align = 'left' }: ThHeaderProps) {
   const isActive = k === activeSortKey;
+  const alignClass = align === 'right' ? 'justify-end' : align === 'center' ? 'justify-center' : 'justify-start';
   return (
     <th
       onClick={() => onSort(k)}
-      className="px-3 py-3 text-left text-xs font-medium text-muted whitespace-nowrap sticky top-0 z-20 bg-[#FAF8F2] cursor-pointer select-none hover:text-heading transition-colors duration-100 border-b border-primary/10"
+      className={`px-3 py-3 ${align === 'right' ? 'text-right' : align === 'center' ? 'text-center' : 'text-left'} text-xs font-medium text-muted whitespace-nowrap sticky top-0 z-20 bg-[#FAF8F2] cursor-pointer select-none hover:text-heading transition-colors duration-100 border-b border-border/30`}
     >
-      <span className="flex items-center gap-0.5">
+      <span className={`inline-flex items-center gap-0.5 ${alignClass} w-full`}>
         {children}
         <span className={`ml-0.5 text-[10px] ${isActive ? 'text-accent' : 'text-muted/30'}`}>
           {isActive ? (sortDir === 'asc' ? '↑' : '↓') : '↕'}
@@ -63,7 +65,7 @@ function ThHeader({ children, sortKey: k, activeSortKey, sortDir, onSort }: ThHe
 }
 
 const SELECT_CLASS =
-  'border border-border bg-surface rounded-sm px-3 py-1.5 text-xs text-heading outline-none focus:border-primary/40 transition-colors';
+  'border border-border/40 bg-surface rounded-xl px-3 py-1.5 text-xs text-heading outline-none focus:border-primary/30 transition-all duration-300';
 
 interface Props {
   rows: PriceIndexRow[];
@@ -138,7 +140,7 @@ export default function PriceIndexTable({ rows }: Props) {
           placeholder="Search species..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-          className="border border-border bg-surface rounded-sm px-3 py-1.5 text-xs text-heading placeholder-muted/50 outline-none focus:border-primary/40 transition-colors w-44"
+          className="border border-border/40 bg-surface rounded-xl px-3 py-1.5 text-xs text-heading placeholder-muted/50 outline-none focus:border-primary/30 transition-all duration-300 w-44"
         />
         <select value={filterGenus} onChange={(e) => setFilterGenus(e.target.value)} className={SELECT_CLASS}>
           <option value="all">All Genera</option>
@@ -181,24 +183,24 @@ export default function PriceIndexTable({ rows }: Props) {
                 <ThHeader {...thProps} sortKey="botanicalType">Type</ThHeader>
                 <ThHeader {...thProps} sortKey="rarityStatus">Rarity</ThHeader>
                 <ThHeader {...thProps} sortKey="priceGuideTier">Tier</ThHeader>
-                <ThHeader {...thProps} sortKey="displayPrice">Median £</ThHeader>
-                <ThHeader {...thProps} sortKey="ebayDataPoints">eBay #</ThHeader>
-                <ThHeader {...thProps} sortKey="threeMonthChangePercent">3M Change</ThHeader>
+                <ThHeader {...thProps} sortKey="displayPrice" align="right">Median £</ThHeader>
+                <ThHeader {...thProps} sortKey="ebayDataPoints" align="right">eBay #</ThHeader>
+                <ThHeader {...thProps} sortKey="threeMonthChangePercent" align="right">3M Change</ThHeader>
                 <ThHeader {...thProps} sortKey="marketStatus">Market</ThHeader>
-                <ThHeader {...thProps} sortKey="listingCount">Listings</ThHeader>
-                <ThHeader {...thProps} sortKey="inStockCount">In Stock</ThHeader>
-                <ThHeader {...thProps} sortKey="retailerCount">Retailers</ThHeader>
+                <ThHeader {...thProps} sortKey="listingCount" align="right">Listings</ThHeader>
+                <ThHeader {...thProps} sortKey="inStockCount" align="right">In Stock</ThHeader>
+                <ThHeader {...thProps} sortKey="retailerCount" align="right">Retailers</ThHeader>
                 <ThHeader {...thProps} sortKey="collectorPopularity">Popularity</ThHeader>
               </tr>
             </thead>
-            <tbody className="divide-y divide-border">
+            <tbody className="divide-y divide-border/30">
               {displayed.map((row) => {
                 const genusSlug = row.genus.toLowerCase();
 
                 return (
                   <tr
                     key={`${genusSlug}-${row.slug}`}
-                    className="hover:bg-primary/[.025] transition-colors duration-100"
+                    className="even:bg-background-soft/15 odd:bg-surface hover:bg-primary/[.025] transition-colors duration-100"
                   >
                     {/* Plant: image left, name right */}
                     <td className="px-3 py-2 min-w-[200px] max-w-[260px]">
@@ -244,7 +246,7 @@ export default function PriceIndexTable({ rows }: Props) {
                     </td>
 
                     {/* Median £ — retailer DB → eBay sold comps → AI estimate */}
-                    <td className="px-3 py-2 whitespace-nowrap">
+                    <td className="px-3 py-2 text-right whitespace-nowrap font-mono">
                       {(() => {
                         const price = row.dbMedianPrice ?? row.ebayMedianPrice ?? row.currentMedianPriceGBP;
                         const isEstimate = !row.dbMedianPrice && !row.ebayMedianPrice && row.estimatedSource === 'ai_estimate';
@@ -260,7 +262,7 @@ export default function PriceIndexTable({ rows }: Props) {
                     </td>
 
                     {/* eBay # — number of sold listings the last price snapshot was based on */}
-                    <td className="px-3 py-2 text-center whitespace-nowrap">
+                    <td className="px-3 py-2 text-right whitespace-nowrap font-mono">
                       {row.ebayDataPoints != null ? (
                         <span className="text-xs text-heading">{row.ebayDataPoints}</span>
                       ) : (
@@ -269,7 +271,7 @@ export default function PriceIndexTable({ rows }: Props) {
                     </td>
 
                     {/* 3M change */}
-                    <td className="px-3 py-2 whitespace-nowrap">
+                    <td className="px-3 py-2 text-right whitespace-nowrap font-mono">
                       {row.threeMonthChangePercent != null ? (
                         <span
                           className={`text-xs font-medium ${
@@ -305,7 +307,7 @@ export default function PriceIndexTable({ rows }: Props) {
                     </td>
 
                     {/* Listings */}
-                    <td className="px-3 py-2 text-center whitespace-nowrap">
+                    <td className="px-3 py-2 text-right whitespace-nowrap font-mono">
                       {row.hasRetailData ? (
                         <span className="text-xs font-medium text-heading">{row.listingCount}</span>
                       ) : (
@@ -314,7 +316,7 @@ export default function PriceIndexTable({ rows }: Props) {
                     </td>
 
                     {/* In stock */}
-                    <td className="px-3 py-2 text-center whitespace-nowrap">
+                    <td className="px-3 py-2 text-right whitespace-nowrap font-mono">
                       {row.hasRetailData ? (
                         <span
                           className={`text-xs font-medium ${
@@ -329,7 +331,7 @@ export default function PriceIndexTable({ rows }: Props) {
                     </td>
 
                     {/* Retailers */}
-                    <td className="px-3 py-2 text-center whitespace-nowrap">
+                    <td className="px-3 py-2 text-right whitespace-nowrap font-mono">
                       {row.hasRetailData ? (
                         <span className="text-xs text-heading">{row.retailerCount}</span>
                       ) : (

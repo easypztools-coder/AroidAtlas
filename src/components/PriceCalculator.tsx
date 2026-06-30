@@ -39,9 +39,9 @@ export default function PriceCalculator({ aaPrice, varianceEnabled = false }: Pr
   const baseDesc = SIZE_OPTIONS.find((s) => s.key === selectedSize)?.label ?? "";
 
   return (
-    <div className="rounded border border-border bg-surface p-4 space-y-4">
+    <div className="rounded-xl border border-border/40 bg-surface p-4 space-y-4 shadow-card-sm">
       <div>
-        <p className="font-body text-[10px] font-bold uppercase tracking-[0.14em] text-muted">
+        <p className="font-body text-xs font-semibold tracking-wider uppercase text-muted">
           Price Calculator
         </p>
         <p className="mt-0.5 text-[10px] text-muted/70">
@@ -51,17 +51,17 @@ export default function PriceCalculator({ aaPrice, varianceEnabled = false }: Pr
 
       {/* Size selector */}
       <div className="space-y-1.5">
-        <p className="text-[10px] font-semibold text-heading">Size / Form</p>
+        <p className="text-[10px] font-semibold tracking-wider uppercase text-heading">Size / Form</p>
         <div className="flex flex-wrap gap-1.5">
           {SIZE_OPTIONS.map((opt) => (
             <button
               key={opt.key}
               onClick={() => setSelectedSize(opt.key)}
               className={[
-                "rounded-sm border px-2.5 py-1 text-[10px] font-medium transition-colors duration-100",
+                "rounded-xl border px-2.5 py-1.5 text-[10px] font-medium transition-all duration-300 ease-in-out hover:-translate-y-0.5",
                 selectedSize === opt.key
                   ? "border-accent bg-accent/10 text-accent"
-                  : "border-border bg-background-soft text-muted hover:border-accent/40 hover:text-heading",
+                  : "border-border/40 bg-background-soft text-muted hover:border-accent/40 hover:text-heading",
               ].join(" ")}
             >
               {opt.label}
@@ -73,15 +73,15 @@ export default function PriceCalculator({ aaPrice, varianceEnabled = false }: Pr
       {/* Variegation selector — only if enabled */}
       {varianceEnabled && (
         <div className="space-y-1.5">
-          <p className="text-[10px] font-semibold text-heading">Variegation</p>
+          <p className="text-[10px] font-semibold tracking-wider uppercase text-heading">Variegation</p>
           <div className="flex flex-wrap gap-1.5">
             <button
               onClick={() => setSelectedVar(null)}
               className={[
-                "rounded-sm border px-2.5 py-1 text-[10px] font-medium transition-colors duration-100",
+                "rounded-xl border px-2.5 py-1.5 text-[10px] font-medium transition-all duration-300 ease-in-out hover:-translate-y-0.5",
                 selectedVar === null
                   ? "border-accent bg-accent/10 text-accent"
-                  : "border-border bg-background-soft text-muted hover:border-accent/40 hover:text-heading",
+                  : "border-border/40 bg-background-soft text-muted hover:border-accent/40 hover:text-heading",
               ].join(" ")}
             >
               Standard
@@ -91,10 +91,10 @@ export default function PriceCalculator({ aaPrice, varianceEnabled = false }: Pr
                 key={opt.key}
                 onClick={() => setSelectedVar(opt.key)}
                 className={[
-                  "rounded-sm border px-2.5 py-1 text-[10px] font-medium transition-colors duration-100",
+                  "rounded-xl border px-2.5 py-1.5 text-[10px] font-medium transition-all duration-300 ease-in-out hover:-translate-y-0.5",
                   selectedVar === opt.key
                     ? "border-accent bg-accent/10 text-accent"
-                    : "border-border bg-background-soft text-muted hover:border-accent/40 hover:text-heading",
+                    : "border-border/40 bg-background-soft text-muted hover:border-accent/40 hover:text-heading",
                 ].join(" ")}
               >
                 {opt.label}
@@ -105,7 +105,7 @@ export default function PriceCalculator({ aaPrice, varianceEnabled = false }: Pr
       )}
 
       {/* Estimated price output */}
-      <div className="flex items-baseline justify-between border-t border-border pt-3">
+      <div className="flex items-baseline justify-between border-t border-border/30 pt-3">
         <div>
           <p className="text-[9px] text-muted/60 uppercase tracking-wider">Estimated value</p>
           <p className="mt-0.5 font-heading text-2xl font-semibold text-accent">~£{estimate}</p>
@@ -114,7 +114,7 @@ export default function PriceCalculator({ aaPrice, varianceEnabled = false }: Pr
             {varMultiplier > 1 && ` × ${varMultiplier}× variegation`}
           </p>
         </div>
-        <span className="rounded-sm bg-amber-50 border border-amber-200/60 px-2 py-1 text-[9px] font-medium text-amber-700">
+        <span className="rounded-xl bg-amber-50 border border-amber-200/60 px-2 py-1 text-[9px] font-medium text-amber-700">
           Estimate only
         </span>
       </div>

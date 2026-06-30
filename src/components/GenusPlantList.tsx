@@ -106,7 +106,7 @@ export default function GenusPlantList({ initialPlants, genus }: GenusPlantListP
     <div className="space-y-8">
       {/* Filter bar */}
       <div className="flex flex-col gap-2">
-        <span className="font-body text-[10px] font-bold uppercase tracking-[0.14em] text-muted">
+        <span className="font-body text-xs font-semibold tracking-wider uppercase text-muted">
           Filter by Origin Type
         </span>
         <div className="-mx-4 flex items-center gap-2 overflow-x-auto px-4 pb-3 sm:mx-0 sm:px-0">
@@ -131,7 +131,7 @@ export default function GenusPlantList({ initialPlants, genus }: GenusPlantListP
                 key={opt.value}
                 onClick={() => setSelectedFilter(opt.value)}
                 disabled={count === 0 && !isSelected}
-                className={`relative flex shrink-0 select-none items-center gap-2 rounded-sm px-3.5 py-1.5 text-xs font-semibold tracking-wide transition-all duration-150 ${btnClass} ${
+                className={`relative flex shrink-0 select-none items-center gap-2 rounded-xl px-3.5 py-1.5 text-xs font-semibold tracking-wide transition-all duration-300 ease-in-out hover:-translate-y-0.5 ${btnClass} ${
                   count === 0 ? "cursor-not-allowed border-dashed opacity-35" : "cursor-pointer"
                 }`}
               >
@@ -140,7 +140,7 @@ export default function GenusPlantList({ initialPlants, genus }: GenusPlantListP
                 )}
                 <span>{opt.label}</span>
                 <span
-                  className={`rounded-sm px-1.5 py-0.5 text-[10px] font-bold ${
+                  className={`rounded-md px-1.5 py-0.5 text-[10px] font-bold ${
                     isSelected
                       ? opt.value === "all"
                         ? "bg-surface/20 text-surface"
@@ -181,7 +181,7 @@ export default function GenusPlantList({ initialPlants, genus }: GenusPlantListP
                 >
                   <Link
                     href={`/plants/${genus}/${plant.slug}`}
-                    className="group block overflow-hidden rounded border border-border bg-surface shadow-card-sm transition-all duration-200 hover:border-border-strong hover:shadow-glass"
+                    className="group block overflow-hidden rounded-xl border border-border/40 bg-surface shadow-card-sm transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:opacity-95 hover:border-border-strong hover:shadow-glass"
                   >
                     {/* Image area */}
                     <div className="relative aspect-[3/4] overflow-hidden bg-background-soft">
@@ -200,7 +200,7 @@ export default function GenusPlantList({ initialPlants, genus }: GenusPlantListP
 
                       {/* Botanical type badge — bottom-left */}
                       <div className="absolute bottom-4 left-4">
-                        <span className={`inline-flex items-center gap-1 rounded-sm border px-2 py-0.5 text-[9px] font-bold uppercase tracking-wide ${details.badgeClass}`}>
+                        <span className={`inline-flex items-center gap-1 rounded-md border px-2 py-0.5 text-[9px] font-bold uppercase tracking-wide ${details.badgeClass}`}>
                           <span className={`h-1 w-1 rounded-full ${details.dotClass}`} />
                           {details.label}
                         </span>
@@ -209,7 +209,7 @@ export default function GenusPlantList({ initialPlants, genus }: GenusPlantListP
 
                     {/* Card info section */}
                     <div className="px-4 pb-4 pt-3">
-                      <div className="mb-2.5 h-px w-full bg-accent/20" />
+                      <div className="mb-2.5 h-px w-full bg-accent/15" />
                       <h3 className="font-heading text-[15px] font-semibold italic leading-snug text-heading transition-colors duration-150 group-hover:text-primary line-clamp-2">
                         {plant.scientificName}
                       </h3>
@@ -222,7 +222,7 @@ export default function GenusPlantList({ initialPlants, genus }: GenusPlantListP
                         </span>
                         {plant.marketStatus && (
                           <span
-                            className={`inline-flex items-center gap-1 rounded-sm border px-2 py-0.5 text-[9px] font-bold ${
+                            className={`inline-flex items-center gap-1 rounded-md border px-2 py-0.5 text-[9px] font-bold ${
                               plant.marketStatus === "Rising"
                                 ? "border-leaf/20 bg-leaf/10 text-leaf"
                                 : plant.marketStatus === "Declining"

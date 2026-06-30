@@ -26,7 +26,7 @@ export default function PriceMethodology() {
     <section className="section-spacing bg-surface">
       <div className="section-container">
         {/* Brass rule above */}
-        <div className="mb-12 h-px w-full bg-accent/30" />
+        <div className="mb-12 h-px w-full bg-border/40" />
 
         <div className="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-16 lg:items-center">
 
@@ -41,7 +41,7 @@ export default function PriceMethodology() {
             <div>
               <div className="mb-4 flex items-center gap-3">
                 <div className="h-px w-8 bg-accent/60" />
-                <p className="font-body text-[10px] font-semibold uppercase tracking-[0.18em] text-accent">
+                <p className="font-body text-xs font-semibold tracking-wider uppercase text-accent">
                   The AA Price
                 </p>
               </div>
@@ -73,10 +73,10 @@ export default function PriceMethodology() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1, ease: "easeOut" }}
-            className="rounded border border-border bg-background-soft p-6 space-y-0"
+            className="rounded-xl border border-border/40 bg-background-soft p-6 space-y-0 shadow-card-sm"
           >
-            <div className="-mx-6 -mt-6 mb-6 h-px bg-accent/20" />
-            <p className="mb-5 font-body text-[10px] font-bold uppercase tracking-[0.16em] text-muted">
+            <div className="-mx-6 -mt-6 mb-6 h-px bg-accent/10" />
+            <p className="mb-5 font-body text-xs font-semibold tracking-wider uppercase text-muted">
               Methodology
             </p>
             <div className="space-y-5">

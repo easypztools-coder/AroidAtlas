@@ -10,11 +10,11 @@ export const metadata: Metadata = {
 
 export default function PlantsPage() {
   return (
-    <div className="max-w-7xl mx-auto px-6 py-16">
+    <div className="section-container py-16 md:py-24">
       <h1 className="text-3xl md:text-4xl font-heading font-bold text-heading mb-4">
         Explore Aroids by Genus
       </h1>
-      <p className="text-sm md:text-base text-muted max-w-2xl mb-12">
+      <p className="text-sm md:text-base leading-relaxed text-muted max-w-2xl mb-12">
         Select a genus below to browse species profiles, care data, and live market prices.
       </p>
 

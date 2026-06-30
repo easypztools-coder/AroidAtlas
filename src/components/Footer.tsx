@@ -42,9 +42,9 @@ const footerLinks = {
 
 export default function Footer() {
   return (
-    <footer className="relative border-t border-border bg-background-soft">
+    <footer className="relative border-t border-border/30 bg-background-soft">
       {/* Fine brass accent rule */}
-      <div className="h-px w-full bg-accent/35" />
+      <div className="h-px w-full bg-accent/15" />
 
       <div className="section-container py-12 md:py-16">
         <div className="grid grid-cols-2 gap-8 md:grid-cols-5 md:gap-12">
@@ -88,7 +88,7 @@ export default function Footer() {
                   <li key={link.label}>
                     <Link
                       href={link.href}
-                      className="text-xs text-muted transition-colors duration-150 hover:text-heading"
+                      className="text-xs text-muted transition-all duration-300 ease-in-out hover:text-heading"
                     >
                       {link.label}
                     </Link>
@@ -100,7 +100,7 @@ export default function Footer() {
         </div>
 
         {/* ── Bottom Bar ───────────────────────────────────────── */}
-        <div className="mt-10 flex flex-col items-start justify-between gap-3 border-t border-border pt-6 sm:flex-row sm:items-center">
+        <div className="mt-10 flex flex-col items-start justify-between gap-3 border-t border-border/30 pt-6 sm:flex-row sm:items-center">
           <p className="text-[11px] text-muted/60">
             &copy; {new Date().getFullYear()} Aroid Atlas. All rights reserved.
           </p>

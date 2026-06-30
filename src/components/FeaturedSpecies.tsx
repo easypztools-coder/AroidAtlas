@@ -23,7 +23,7 @@ function PlantCard({
     >
       <Link
         href={`/plants/${plant.genus.toLowerCase()}/${plant.slug}`}
-        className="group flex h-full flex-col overflow-hidden rounded border border-border bg-surface shadow-card-sm transition-all duration-200 hover:border-border-strong hover:shadow-glass"
+        className="group flex h-full flex-col overflow-hidden rounded-xl border border-border/40 bg-surface shadow-card-sm transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:opacity-95 hover:border-border-strong hover:shadow-glass"
       >
         {/* Image Area — fixed aspect ratio, always same height */}
         <div className="relative aspect-[3/4] overflow-hidden bg-background-soft">
@@ -74,7 +74,7 @@ export default function FeaturedSpecies() {
         >
           <div className="mb-4 flex items-center gap-3">
             <div className="h-px w-8 bg-accent/60" />
-            <p className="font-body text-[10px] font-semibold uppercase tracking-[0.18em] text-accent">
+            <p className="font-body text-xs font-semibold tracking-wider uppercase text-accent">
               Featured Species
             </p>
           </div>
@@ -101,7 +101,7 @@ export default function FeaturedSpecies() {
         >
           <Link
             href="/plants"
-            className="inline-flex items-center gap-2 text-sm font-medium text-muted underline underline-offset-4 transition-colors duration-150 hover:text-heading"
+            className="inline-flex items-center gap-2 text-sm font-medium text-muted underline underline-offset-4 transition-all duration-300 ease-in-out hover:text-heading hover:-translate-y-0.5"
           >
             View all species in the atlas
             <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

@@ -33,7 +33,7 @@ function GenusCard({
     >
       <Link
         href={`/plants/${genus.slug}`}
-        className="group relative flex h-64 w-64 shrink-0 flex-col overflow-hidden rounded border border-border bg-surface shadow-card-sm transition-all duration-200 hover:border-border-strong hover:shadow-glass md:h-72 md:w-72"
+        className="group relative flex h-64 w-64 shrink-0 flex-col overflow-hidden rounded-xl border border-border/40 bg-surface shadow-card-sm transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:opacity-95 hover:border-border-strong hover:shadow-glass md:h-72 md:w-72"
       >
         {/* Warm background base */}
         <div className="absolute inset-0 bg-background-soft" />
@@ -61,7 +61,7 @@ function GenusCard({
         {/* Bottom warm-ivory gradient overlay for text */}
         <div className="relative mt-auto p-5 z-10 bg-gradient-to-t from-surface via-surface/90 to-transparent pt-10">
           {/* Fine brass rule */}
-          <div className="mb-2.5 h-px w-full bg-accent/25" />
+          <div className="mb-2.5 h-px w-full bg-accent/15" />
           <h3 className="font-heading text-base font-semibold italic text-heading transition-colors duration-150 group-hover:text-primary">
             {genus.name}
           </h3>
@@ -97,7 +97,7 @@ export default function GenusGrid() {
         >
           <div className="mb-4 flex items-center gap-3">
             <div className="h-px w-8 bg-accent/60" />
-            <p className="font-body text-[10px] font-semibold uppercase tracking-[0.18em] text-accent">
+            <p className="font-body text-xs font-semibold tracking-wider uppercase text-accent">
               Browse by Genus
             </p>
           </div>
