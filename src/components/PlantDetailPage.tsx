@@ -5,8 +5,10 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 
+import { PriceHistoryChartSkeleton } from "@/components/PriceHistoryChart";
+
 const PriceHistoryChart = dynamic(() => import("@/components/PriceHistoryChart"), {
-  loading: () => <div className="h-48 animate-pulse rounded bg-background-soft" />,
+  loading: () => <PriceHistoryChartSkeleton />,
   ssr: false,
 });
 const PlantPhotoCarousel = dynamic(() => import("@/components/PlantPhotoCarousel"), {
@@ -343,6 +345,14 @@ export default function PlantDetailPage({
       ? getPriceRarityTier(aaDisplayPrice.value)
       : { tier: data.priceGuideTier, label: getStaticTierLabel(data.priceGuideTier) };
 
+  const marketIndicator: { label: string; tone: "buy" | "stable" } | null = (() => {
+    const pct = data.marketMetrics?.threeMonthChangePercent;
+    if (pct === null || pct === undefined) return null;
+    if (pct <= -20) return { label: "Strong Correction — Potential Buying Window", tone: "buy" };
+    if (pct >= -5 && pct <= 5) return { label: "Asset Value Consolidated & Stable", tone: "stable" };
+    return null;
+  })();
+
   return (
     <div className="plant-detail-container">
       <div className="plant-detail-grid">
@@ -478,6 +488,24 @@ export default function PlantDetailPage({
                       onHover={setHoveredWeekDate}
                       highlightedDate={hoveredWeekDate}
                     />
+                    {marketIndicator && (
+                      <div
+                        className={`flex items-center gap-2 rounded-xl border px-3.5 py-2.5 text-[11px] font-semibold ${
+                          marketIndicator.tone === "buy"
+                            ? "border-leaf/25 bg-leaf/10 text-leaf"
+                            : "border-accent/25 bg-accent/10 text-accent"
+                        }`}
+                      >
+                        <svg className="h-3.5 w-3.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                          {marketIndicator.tone === "buy" ? (
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M2.25 18L9 11.25l4.306 4.306a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.281m5.94 2.28l-2.28 5.941" />
+                          ) : (
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M3 12h18M3 12l4-4M3 12l4 4" />
+                          )}
+                        </svg>
+                        <span>Market Indicator: {marketIndicator.label}</span>
+                      </div>
+                    )}
                   </div>
 
                   {/* Recent Sales */}

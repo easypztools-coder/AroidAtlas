@@ -13,6 +13,28 @@ function fileMtime(filePath: string): Date {
   }
 }
 
+/**
+ * Real eBay sale data lives in deploy-time snapshots under content/price-snapshots/<slug>/,
+ * not in the plant JSON's embedded `priceHistory` (which is a stale AI-estimate fallback
+ * for the handful of plants without a snapshot yet). Mirrors the sample-size lookup used
+ * on /radar.
+ */
+function hasRealSnapshotData(slug: string): boolean {
+  const dirPath = path.join(process.cwd(), "content", "price-snapshots", slug);
+  if (!fs.existsSync(dirPath)) return false;
+  try {
+    const files = fs.readdirSync(dirPath).filter((f) => f.endsWith(".json"));
+    if (files.length === 0) return false;
+    const latestFile = files.sort()[files.length - 1];
+    const raw = fs.readFileSync(path.join(dirPath, latestFile), "utf-8");
+    const parsed = JSON.parse(raw);
+    const sampleSize = parsed.stats?.sampleSize ?? parsed.snapshot?.acceptedCount ?? parsed.acceptedCount ?? 0;
+    return sampleSize > 0;
+  } catch {
+    return false;
+  }
+}
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const plantsRoot = path.join(process.cwd(), "content", "plants");
 
@@ -28,6 +50,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.9,
+    },
+    {
+      url: `${BASE_URL}/plants/all`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 0.85,
+    },
+    {
+      url: `${BASE_URL}/radar`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 1.0,
     },
     {
       url: `${BASE_URL}/about`,
@@ -95,13 +129,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     for (const file of files) {
       const filePath = path.join(dirPath, file);
       const slug = file.replace(".json", "");
-      let hasPriceData = false;
-      try {
-        const plantJson = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-        hasPriceData = plantJson?.marketMetrics?.currentMedianPriceGBP != null;
-      } catch {
-        // leave hasPriceData false
-      }
+      const hasPriceData = hasRealSnapshotData(slug);
       routes.push({
         url: `${BASE_URL}/plants/${genus}/${slug}`,
         lastModified: fileMtime(filePath),

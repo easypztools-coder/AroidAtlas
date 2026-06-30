@@ -11,11 +11,17 @@ export const metadata: Metadata = {
 export default function PlantsPage() {
   return (
     <div className="section-container py-16 md:py-24">
-      <h1 className="text-3xl md:text-4xl font-heading font-bold text-heading mb-4">
-        Explore Aroids by Genus
-      </h1>
+      <div className="flex flex-wrap items-end justify-between gap-4 mb-4">
+        <h1 className="text-3xl md:text-4xl font-heading font-bold text-heading">
+          Explore Aroids by Genus
+        </h1>
+        <Link href="/plants/all" className="btn-secondary">
+          Browse Full Catalog
+        </Link>
+      </div>
       <p className="text-sm md:text-base leading-relaxed text-muted max-w-2xl mb-12">
-        Select a genus below to browse species profiles, care data, and live market prices.
+        Select a genus below to browse species profiles, care data, and live market prices — or browse the
+        full catalog with genus, rarity, and market filters.
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

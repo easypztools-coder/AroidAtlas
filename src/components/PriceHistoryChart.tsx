@@ -93,6 +93,31 @@ function CustomTooltip({ active, payload, label }: any) {
   );
 }
 
+export function PriceHistoryChartSkeleton() {
+  return (
+    <div className="space-y-4">
+      <div className="h-64 animate-pulse rounded-xl border border-border/40 bg-surface p-3 md:h-72 shadow-card-sm">
+        <div className="flex h-full flex-col justify-between">
+          <div className="h-3 w-24 rounded bg-background-soft" />
+          <div className="flex flex-1 items-end gap-2 pb-2 pt-4">
+            {[40, 65, 50, 80, 60, 90, 70].map((h, i) => (
+              <div key={i} className="flex-1 rounded-t bg-background-soft" style={{ height: `${h}%` }} />
+            ))}
+          </div>
+          <div className="h-2.5 w-full rounded bg-background-soft" />
+        </div>
+      </div>
+      <div className="flex items-center justify-between border-t border-border/30 pt-3 text-xs">
+        <div className="flex flex-col gap-1.5">
+          <div className="h-2.5 w-28 animate-pulse rounded bg-background-soft" />
+          <div className="h-2 w-44 animate-pulse rounded bg-background-soft" />
+        </div>
+        <div className="h-2.5 w-14 animate-pulse rounded bg-background-soft" />
+      </div>
+    </div>
+  );
+}
+
 export default function PriceHistoryChart({ data, onHover, highlightedDate }: PriceHistoryChartProps) {
   if (!data || data.length === 0) {
     return (
