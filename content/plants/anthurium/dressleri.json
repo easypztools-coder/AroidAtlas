@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Extremely Rare",
   "availability": "Very Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "££",
   "aboutText": "Anthurium dressleri is a native species of the tropical Americas. It exhibits outstanding foliage characteristics suitable for rare plant collectors.",
   "quickFacts": {
     "growthHabit": "Terrestrial, slow-clumping",
@@ -34,7 +34,7 @@
     "growthHabit": "Slow basal growth"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 250,
+    "currentMedianPriceGBP": 74,
     "threeMonthChangePercent": 0,
     "marketStatus": "Awaiting Synchronisation Pipeline Run"
   },

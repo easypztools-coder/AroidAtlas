@@ -26,7 +26,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£",
+  "priceGuideTier": "££",
   "aboutText": "Monstera oreophila is a distinct climbing species native to the misty montane forests of Costa Rica and Panama. As a hemiepiphyte, it utilizes its adventitious roots to ascend tree trunks in the humid forest understory. It is celebrated for its elongated, elliptic leaves that feature elegant perforations as the plant reaches maturity. With its thick, matte to glossy foliage and characteristically long, tapering apices, it remains a highly sought-after specimen for aroid enthusiasts.",
   "quickFacts": {
     "growthHabit": "Climbing hemiepiphyte",
@@ -48,7 +48,7 @@
     "growthHabit": "Climbing"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 34,
+    "currentMedianPriceGBP": 94,
     "threeMonthChangePercent": null,
     "marketStatus": null
   },

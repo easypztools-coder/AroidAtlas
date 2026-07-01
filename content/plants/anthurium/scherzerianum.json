@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Common",
   "availability": "High",
-  "priceGuideTier": "£",
+  "priceGuideTier": "££",
   "aboutText": "Anthurium scherzerianum is a native species of the tropical Americas. It exhibits outstanding foliage characteristics suitable for rare plant collectors.",
   "quickFacts": {
     "growthHabit": "Clumping, erect",
@@ -34,7 +34,7 @@
     "growthHabit": "Basal clumps"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 15,
+    "currentMedianPriceGBP": 40,
     "threeMonthChangePercent": 0,
     "marketStatus": "Awaiting Synchronisation Pipeline Run"
   },

@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Anthurium forgetii is a native species of the tropical Americas. It exhibits outstanding foliage characteristics suitable for rare plant collectors.",
   "quickFacts": {
     "growthHabit": "Compact, clumping",
@@ -34,7 +34,7 @@
     "growthHabit": "Self-heading"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 55,
+    "currentMedianPriceGBP": 18,
     "threeMonthChangePercent": 0,
     "marketStatus": "Awaiting Synchronisation Pipeline Run"
   },

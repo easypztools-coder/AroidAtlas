@@ -11,7 +11,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "££££",
+  "priceGuideTier": "£££",
   "aboutText": "Monstera 'Devil Monster' is a remarkable cultivated variety that emerged from a natural mutation discovered in China, originally referred to as 'Circuit Board Monstera'. It features mint-coloured variegation inherited from the Kunzo White Monster lineage, combined with a rigid, deeply lobed leaf shape from Burle Marx's Flame and a structural, architectural appearance from Jungle Min. This stabilized variegation pattern was developed through years of selective propagation and gained significant popularity in 2024 when it was rebranded in Thailand as 'Devil Monster'.",
   "quickFacts": {
     "growthHabit": "Climbing hemiepiphyte on moss pole",
@@ -33,7 +33,7 @@
     "growthHabit": "Climbing with thick aerial roots"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 785,
+    "currentMedianPriceGBP": 188,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

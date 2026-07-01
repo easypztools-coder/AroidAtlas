@@ -12,7 +12,7 @@
   "collectorPopularity": 3,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "££",
   "aboutText": "Philodendron 'Belle Isle' is a cultivated horticultural Philodendron of undocumented parentage, grown for its striking and highly unusual leaf silhouette. The defining feature is an elongated, strap-like central lobe paired with comparatively short, broad upper lateral lobes — a combination that produces the distinctively bat-wing shaped outline that immediately identifies the cultivar. Leaves are a rich, glossy dark green with slightly undulate margins, carried on a climbing stem that anchors itself via aerial roots along whatever support is provided. The precise parentage remains unpublished, but its tropical aroid ancestry is evident in its warm, humid cultivation requirements. Among cultivated Philodendrons with unusual leaf forms, 'Belle Isle' occupies a distinctive niche, appealing strongly to collectors who prize architectural departure over conventional foliage beauty.",
   "quickFacts": {
     "growthHabit": "Climbing hemiepiphyte",
@@ -34,7 +34,7 @@
     "growthHabit": "Climbing, attaches via aerial roots"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 110,
+    "currentMedianPriceGBP": 77,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"

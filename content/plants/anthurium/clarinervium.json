@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Medium",
-  "priceGuideTier": "££",
+  "priceGuideTier": "£",
   "aboutText": "Anthurium clarinervium is a native species of the tropical Americas. It exhibits outstanding foliage characteristics suitable for rare plant collectors.",
   "quickFacts": {
     "growthHabit": "Compact, terrestrial",
@@ -34,7 +34,7 @@
     "growthHabit": "Compact rosette"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 35,
+    "currentMedianPriceGBP": 17,
     "threeMonthChangePercent": 0,
     "marketStatus": "Awaiting Synchronisation Pipeline Run"
   },

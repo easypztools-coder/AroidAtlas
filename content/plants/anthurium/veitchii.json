@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Very Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Anthurium veitchii is a native species of the tropical Americas. It exhibits outstanding foliage characteristics suitable for rare plant collectors.",
   "quickFacts": {
     "growthHabit": "Pendant epiphyte",
@@ -34,7 +34,7 @@
     "growthHabit": "Erect crown, later pendulous"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 120,
+    "currentMedianPriceGBP": 23,
     "threeMonthChangePercent": 0,
     "marketStatus": "Awaiting Synchronisation Pipeline Run"
   },

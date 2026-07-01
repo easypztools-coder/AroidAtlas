@@ -12,7 +12,7 @@
   "collectorPopularity": 4,
   "rarityStatus": "Rare",
   "availability": "Low",
-  "priceGuideTier": "£££",
+  "priceGuideTier": "£",
   "aboutText": "Cercestis mirabilis is an extraordinary climbing liana native to the humid tropical forests of West and Central Africa, from Benin to Uganda and Angola. It grows in shaded understory to lower canopy conditions. The juvenile leaves display a striking, intricate pale reticulate venation and interveinal silvery-white markings on deeply sagittate blades. As the plant climbs and matures, the leaves become larger, greener, and more hastate or shallowly lobed, with reduced variegation. The stems are slender but robust, climbing trunks with aerial roots.",
   "quickFacts": {
     "growthHabit": "Climbing liana",
@@ -34,7 +34,7 @@
     "growthHabit": "Root-climbing climber"
   },
   "marketMetrics": {
-    "currentMedianPriceGBP": 65,
+    "currentMedianPriceGBP": 27,
     "threeMonthChangePercent": null,
     "marketStatus": null,
     "estimatedSource": "ai_estimate"
