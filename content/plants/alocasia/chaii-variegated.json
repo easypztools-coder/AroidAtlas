@@ -1,0 +1,81 @@
+{
+  "name": "Alocasia chaii 'Variegated'",
+  "slug": "chaii-variegated",
+  "scientificName": "Alocasia chaii P.C.Boyce",
+  "commonName": "Chaii Variegated Alocasia",
+  "statusTag": "Rare Variegated Cultivar",
+  "botanicalType": "variegated",
+  "family": "Araceae",
+  "genus": "Alocasia",
+  "species": "chaii 'Variegated'",
+  "origin": "Sabah, Borneo",
+  "collectorPopularity": 5,
+  "rarityStatus": "Ultra Rare",
+  "availability": "Very Low",
+  "priceGuideTier": "££££",
+  "aboutText": "Alocasia chaii 'Variegated' is a highly coveted horticultural selection derived from the species Alocasia chaii native to the humid tropical forests of Sabah, Borneo. This compact, self-heading plant is celebrated for its stunning, variable variegation that manifests as sectors, splashes, and marbling in striking shades of cream, soft pink, and pale yellow. Inheriting the terrestrial understory habits of its parent species, it produces broad, peltate leaves with a distinctive, slightly bullate texture. As a rare mutation, each new leaf offers a unique, unpredictable pattern, making it a prized specimen for collectors of rare variegated aroids.",
+  "quickFacts": {
+    "growthHabit": "Compact, self-heading",
+    "matureSize": "Small to medium",
+    "light": "Bright, indirect light",
+    "humidity": "High (60-80%)",
+    "temperature": "Warm (20-28°C)",
+    "difficulty": "Advanced",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Broad, peltate",
+    "leafLength": "20-35 cm",
+    "leafWidth": "15-25 cm",
+    "petioleColor": "Light green",
+    "venation": "Pinnate, prominent",
+    "texture": "Slightly bullate",
+    "variegation": "Sectoral, splashed, and marbled in cream, pink, and yellow",
+    "growthHabit": "Self-heading"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia chaii Variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Alocasia chaii variegated",
+      "Alocasia chaii variegated",
+      "Variegated Alocasia chaii",
+      "Rare Alocasia chaii"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

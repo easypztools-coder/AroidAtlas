@@ -1,0 +1,81 @@
+{
+  "name": "Epipremnum aureum 'Marble Queen'",
+  "slug": "epipremnum-aureum-marble-queen",
+  "scientificName": "Epipremnum aureum 'Marble Queen'",
+  "commonName": "Marble Queen Pothos",
+  "statusTag": "Classic Variegated Cultivar",
+  "botanicalType": "cultivar",
+  "family": "Araceae",
+  "genus": "Epipremnum",
+  "species": "aureum 'Marble Queen'",
+  "origin": "Cultivated variegated selection of Epipremnum aureum; native to Mo'orea, Society Islands; now widely cultivated worldwide.",
+  "collectorPopularity": 3,
+  "rarityStatus": "Common",
+  "availability": "High",
+  "priceGuideTier": "£",
+  "aboutText": "The Epipremnum aureum 'Marble Queen' is a highly esteemed variegated cultivar of the common Pothos, celebrated for its striking creamy white and green marbled foliage. Originating as a selection from species native to Mo'orea, this vining hemiepiphyte has become a staple in indoor cultivation globally. It features a robust climbing habit, utilizing aerial roots to scale tree trunks in its native tropical rainforest environment. Its enduring popularity stems from its adaptability, visual beauty, and relative ease of care in home settings.",
+  "quickFacts": {
+    "growthHabit": "Vining hemiepiphyte",
+    "matureSize": "Large (climbing)",
+    "light": "Filtered light",
+    "humidity": "Humid",
+    "temperature": "Warm",
+    "difficulty": "Easy",
+    "growthSpeed": "Moderate to Fast"
+  },
+  "morphology": {
+    "leafShape": "Ovate-cordate",
+    "leafLength": "Variable (enlarging with maturity)",
+    "leafWidth": "Variable",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Glossy",
+    "variegation": "Creamy white and green marbled",
+    "growthHabit": "Vining"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Epipremnum aureum Marble Queen",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Marble Queen Pothos",
+      "Epipremnum Marble Queen",
+      "Pothos Marble Queen",
+      "Variegated Pothos"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

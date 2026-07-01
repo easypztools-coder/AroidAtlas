@@ -1,0 +1,81 @@
+{
+  "name": "Syngonium wendlandii",
+  "slug": "syngonium-wendlandii",
+  "scientificName": "Syngonium wendlandii Schott",
+  "commonName": "Velvet Syngonium",
+  "statusTag": "Classic Tropical Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Syngonium",
+  "species": "wendlandii",
+  "origin": "Costa Rica and nearby Central America",
+  "collectorPopularity": 3,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Syngonium wendlandii is a stunning, velvet-textured climbing aroid native to the shaded understories of Costa Rica and Central America. It is highly valued by collectors for its deeply dark green, velvety foliage, which is dramatically accented by a bright silver-white midrib. In its natural habitat, it uses adventitious roots to ascend trees, thriving in moist, organic-rich forest floors with high humidity and stable tropical temperatures. Its distinct morphology and graceful climbing habit make it a centerpiece species for any serious aroid collection.",
+  "quickFacts": {
+    "growthHabit": "Climbing epiphyte",
+    "matureSize": "Large vine",
+    "light": "Filtered, bright indirect light",
+    "humidity": "High (60-80%)",
+    "temperature": "Warm, 18-28°C",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Sagittate",
+    "leafLength": "15-25 cm",
+    "leafWidth": "8-12 cm",
+    "petioleColor": "Green",
+    "venation": "Subtle, lighter than blade with prominent silver-white midrib",
+    "texture": "Velvety",
+    "variegation": "None (midrib patterning)",
+    "growthHabit": "Climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Syngonium wendlandii",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Syngonium wendlandii",
+      "Velvet Syngonium",
+      "S. wendlandii",
+      "Syngonium wendlandii plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

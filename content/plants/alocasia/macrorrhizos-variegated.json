@@ -1,0 +1,82 @@
+{
+  "name": "Alocasia macrorrhizos 'Variegated'",
+  "slug": "macrorrhizos-variegated",
+  "scientificName": "Alocasia macrorrhizos 'Variegated'",
+  "commonName": "Variegated Giant Taro",
+  "statusTag": "Rare Variegated Cultivar",
+  "botanicalType": "variegated",
+  "family": "Araceae",
+  "genus": "Alocasia",
+  "species": "macrorrhizos 'Variegated'",
+  "origin": "Cultivated variegated form of Alocasia macrorrhizos, a species native from tropical Asia to the western Pacific.",
+  "collectorPopularity": 5,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "££££",
+  "aboutText": "Alocasia macrorrhizos 'Variegated' is a stunning, large-scale cultivar derived from the wild giant taro. This impressive aroid features massive, sagittate leaves decorated with striking sectors and marbling of white against deep green foliage. Naturally occurring in the tropical rainforests and riparian zones of Asia, this plant requires warm, humid conditions to thrive. It is highly prized by collectors for its imposing architectural structure and the unique, high-contrast variegation patterns on each leaf.",
+  "quickFacts": {
+    "growthHabit": "Self-heading terrestrial",
+    "matureSize": "Large",
+    "light": "Dappled to bright filtered light",
+    "humidity": "High",
+    "temperature": "Warm",
+    "difficulty": "Intermediate",
+    "growthSpeed": "Moderate to Fast"
+  },
+  "morphology": {
+    "leafShape": "Sagittate",
+    "leafLength": "Large",
+    "leafWidth": "Broad",
+    "petioleColor": "Green with variegation",
+    "venation": "Prominent",
+    "texture": "Leathery",
+    "variegation": "White sectors and marbling",
+    "growthHabit": "Self-heading"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia macrorrhizos Variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Variegated Alocasia macrorrhizos",
+      "Alocasia macrorrhizos variegated",
+      "Variegated Giant Taro",
+      "Alocasia macrorrhizos albo",
+      "Variegated Elephant Ear"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

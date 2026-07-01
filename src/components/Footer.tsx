@@ -7,8 +7,8 @@ const footerLinks = {
   explore: {
     title: "Explore",
     links: [
-      { label: "Species Database", href: "/plants" },
-      { label: "Genera", href: "/plants" },
+      { label: "Plant Catalog", href: "/catalog" },
+      { label: "Genera", href: "/catalog" },
       { label: "Compare Tool", href: "/compare" },
     ],
   },

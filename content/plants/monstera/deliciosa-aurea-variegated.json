@@ -1,0 +1,81 @@
+{
+  "name": "Monstera deliciosa 'Aurea Variegated'",
+  "slug": "deliciosa-aurea-variegated",
+  "scientificName": "Monstera deliciosa 'Aurea Variegated'",
+  "commonName": "Aurea Variegated Monstera",
+  "statusTag": "Rare Variegated Cultivar",
+  "botanicalType": "variegated",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "deliciosa 'Aurea Variegated'",
+  "origin": "Cultivated yellow-variegated form of Monstera deliciosa, a species native to southern Mexico and Panama.",
+  "collectorPopularity": 5,
+  "rarityStatus": "Very Rare",
+  "availability": "Low",
+  "priceGuideTier": "££££",
+  "aboutText": "Monstera deliciosa 'Aurea Variegated' is a highly sought-after, yellow-variegated sport of the classic tropical climber native to southern Mexico and Panama. This cultivar is prized for its striking marbled and sectoral golden variegation that contrasts beautifully against deep green, fenestrated foliage. It thrives in warm, humid conditions as an epiphyte, utilizing its thick, sturdy stems and aerial roots to scale tree trunks in its natural rainforest habitat. In home environments, providing adequate vertical support and consistent moisture is essential for achieving its impressive mature leaf size and complex, split-leaf morphology.",
+  "quickFacts": {
+    "growthHabit": "Epiphytic climber",
+    "matureSize": "Large",
+    "light": "Bright, filtered light",
+    "humidity": "High (60-80%)",
+    "temperature": "Warm (18-28°C)",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Deeply fenestrated, cordate",
+    "leafLength": "60-90cm",
+    "leafWidth": "45-75cm",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Glossy",
+    "variegation": "Yellow to golden marbled and sectoral",
+    "growthHabit": "Climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera deliciosa Aurea Variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera Aurea",
+      "Aurea Monstera",
+      "Monstera deliciosa Aurea",
+      "Yellow Variegated Monstera"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

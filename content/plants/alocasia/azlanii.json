@@ -1,0 +1,81 @@
+{
+  "name": "Alocasia azlanii",
+  "slug": "azlanii",
+  "scientificName": "Alocasia azlanii",
+  "commonName": "Alocasia Azlanii",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Alocasia",
+  "species": "azlanii",
+  "origin": "Endemic to Sabah, Malaysian Borneo (Montane forests)",
+  "collectorPopularity": 5,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Alocasia azlanii is a stunning, compact terrestrial herb native to the lowland and montane rainforests of Sabah, Malaysian Borneo. Highly prized by collectors for its dark, metallic-green to maroon leaves, it is famously distinguished by its vivid, iridescent pink to red venation. The plant grows from a distinct basal corm, maintaining a neat basal rosette habit that remains smaller and more bullate than its relative, Alocasia reginula. Thriving in humid, shaded conditions, this species requires well-drained, humus-rich soil to mimic its natural forest-floor habitat.",
+  "quickFacts": {
+    "growthHabit": "Compact basal rosette",
+    "matureSize": "Small (up to 30-40cm)",
+    "light": "Bright indirect, shaded",
+    "humidity": "High (60-80%)",
+    "temperature": "Tropical (18-28°C)",
+    "difficulty": "Intermediate to Advanced",
+    "growthSpeed": "Slow"
+  },
+  "morphology": {
+    "leafShape": "Ovate to arrow-shaped",
+    "leafLength": "15-25cm",
+    "leafWidth": "10-15cm",
+    "petioleColor": "Maroon",
+    "venation": "Vivid pink to red",
+    "texture": "Bullate, metallic sheen",
+    "variegation": "None",
+    "growthHabit": "Compact, terrestrial herb from a basal corm"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia azlanii",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Alocasia azlanii",
+      "Azlanii Alocasia",
+      "Alocasia azlanii plant",
+      "Rare Alocasia"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

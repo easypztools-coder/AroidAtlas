@@ -1,0 +1,81 @@
+{
+  "name": "Epipremnum aureum 'Manjula'",
+  "slug": "epipremnum-manjula",
+  "scientificName": "Epipremnum aureum 'Manjula'",
+  "commonName": "Manjula Pothos",
+  "statusTag": "Variegated Cultivar",
+  "botanicalType": "cultivar",
+  "family": "Araceae",
+  "genus": "Epipremnum",
+  "species": "Manjula",
+  "origin": "Cultivated variegated selection of Epipremnum aureum; native to Mo'orea, Society Islands",
+  "collectorPopularity": 3,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "The Epipremnum aureum 'Manjula' is a distinct, highly sought-after cultivar of the classic Pothos, celebrated for its unique, undulating leaf margins and rich, painterly variegation. Developed as a stable mutation, this plant showcases a beautiful mosaic of cream, pale green, and medium green patches that vary significantly from leaf to leaf. Originally derived from species native to the Mo'orea region of the Society Islands, this hemiepiphytic vine is prized for both its striking aesthetics and its adaptable nature in indoor settings. When provided with a support structure like a moss pole, the foliage can reach impressive sizes, mirroring its natural climbing habit in tropical rainforest understories.",
+  "quickFacts": {
+    "growthHabit": "Vining hemiepiphytic climber",
+    "matureSize": "Up to 2-3 meters in indoor settings",
+    "light": "Bright, indirect filtered light",
+    "humidity": "Moderate to High (50-70%)",
+    "temperature": "Warm (18°C - 27°C)",
+    "difficulty": "Easy",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Ovate-cordate with undulating margins",
+    "leafLength": "15-30cm",
+    "leafWidth": "10-20cm",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Smooth and slightly leathery",
+    "variegation": "Cream, pale green, and medium green irregular patches",
+    "growthHabit": "Climbing vining hemiepiphyte"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Epipremnum aureum Manjula",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Manjula Pothos",
+      "Epipremnum Manjula",
+      "Manjula variegated",
+      "Pothos Manjula"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

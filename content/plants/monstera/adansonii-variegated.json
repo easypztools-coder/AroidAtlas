@@ -1,0 +1,82 @@
+{
+  "name": "Monstera adansonii 'Variegated'",
+  "slug": "adansonii-variegated",
+  "scientificName": "Monstera adansonii 'Variegated'",
+  "commonName": "Variegated Swiss Cheese Plant",
+  "statusTag": "Rare Variegated Cultivar",
+  "botanicalType": "variegated",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "adansonii 'Variegated'",
+  "origin": "Cultivated variegated form of a species native from southern Mexico through tropical America.",
+  "collectorPopularity": 5,
+  "rarityStatus": "Rare",
+  "availability": "Very Low",
+  "priceGuideTier": "££££",
+  "aboutText": "Monstera adansonii 'Variegated' is a highly sought-after variegated form of the iconic Swiss Cheese Plant. Originating from the tropical forests of Central and South America, this climber is prized for its dramatic, creamy white to white marbled and sectoral variegation across its signature perforated leaves. As a slender climber, it thrives in warm, humid environments where it uses its aerial roots to ascend trees in the shaded understory. Its unique blend of delicate fenestrations and striking variegation makes it a crown jewel in any aroid collection.",
+  "quickFacts": {
+    "growthHabit": "Slender climber",
+    "matureSize": "Can reach several meters in ideal conditions",
+    "light": "Bright, filtered light",
+    "humidity": "High humidity",
+    "temperature": "Warm tropical temperatures",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Ovate-cordate",
+    "leafLength": "Variable (medium sized)",
+    "leafWidth": "Relatively narrow",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Smooth/Thin",
+    "variegation": "Creamy white to white marbled and sectoral",
+    "growthHabit": "Slender climber"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera adansonii Variegated",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Monstera adansonii variegated",
+      "Variegated adansonii",
+      "Monstera adansonii albo",
+      "Swiss cheese plant variegated",
+      "Monstera adansonii v"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

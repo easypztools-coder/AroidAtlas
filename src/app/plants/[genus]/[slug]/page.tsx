@@ -207,18 +207,24 @@ export default function PlantPage({ params }: PageProps) {
           {
             "@type": "ListItem",
             position: 1,
-            name: "Species",
-            item: `${baseUrl}/plants`,
+            name: "Home",
+            item: baseUrl,
           },
           {
             "@type": "ListItem",
             position: 2,
-            name: data.genus,
-            item: `${baseUrl}/plants/${genusSlug}`,
+            name: "Catalog",
+            item: `${baseUrl}/catalog`,
           },
           {
             "@type": "ListItem",
             position: 3,
+            name: data.genus,
+            item: `${baseUrl}/catalog?genus=${genusSlug}`,
+          },
+          {
+            "@type": "ListItem",
+            position: 4,
             name: data.scientificName,
             item: `${baseUrl}/plants/${genusSlug}/${data.slug}`,
           },

@@ -359,12 +359,19 @@ export default function PlantDetailPage({
         {/* ===== LEFT COLUMN ===== */}
         <div className="plant-detail-main-col">
           {/* Breadcrumbs */}
-          <nav className="flex items-center gap-2 text-xs text-muted">
-            <Link href="/plants" className="transition-colors duration-150 hover:text-heading">
-              Species
+          <nav className="flex items-center gap-2 text-xs text-muted" aria-label="Breadcrumb">
+            <Link href="/" className="transition-colors duration-150 hover:text-heading">
+              Home
             </Link>
             <span className="text-border-strong">/</span>
-            <Link href={`/plants/${genus}`} className="transition-colors duration-150 hover:text-heading">
+            <Link href="/catalog" className="transition-colors duration-150 hover:text-heading">
+              Catalog
+            </Link>
+            <span className="text-border-strong">/</span>
+            <Link
+              href={`/catalog?genus=${genus}`}
+              className="transition-colors duration-150 hover:text-heading"
+            >
               {genusLabel}
             </Link>
             <span className="text-border-strong">/</span>

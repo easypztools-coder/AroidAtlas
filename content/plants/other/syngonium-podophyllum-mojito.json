@@ -1,0 +1,81 @@
+{
+  "name": "Syngonium podophyllum 'Mojito'",
+  "slug": "syngonium-podophyllum-mojito",
+  "scientificName": "Syngonium podophyllum 'Mojito'",
+  "commonName": "Mojito Arrowhead Vine",
+  "statusTag": "Rare Variegated Cultivar",
+  "botanicalType": "variegated",
+  "family": "Araceae",
+  "genus": "Syngonium",
+  "species": "podophyllum 'Mojito'",
+  "origin": "Cultivated variegated selection of Syngonium podophyllum, a species native to Mexico through tropical America.",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "The Syngonium podophyllum 'Mojito' is a stunning, highly sought-after cultivar known for its unique, painterly variegation. Native to the tropical regions of the Americas, this climber features leaves mottled in an artistic blend of dark green, mint, lime, and pale green. As it matures, the foliage transitions from simple arrowhead shapes into elegant, elongated lobed forms. This plant is a beloved choice for collectors seeking a reliable, high-contrast specimen that thrives in warm, humid indoor environments.",
+  "quickFacts": {
+    "growthHabit": "Climbing vine with aerial roots",
+    "matureSize": "Up to 1.5 - 2 meters in height when provided with support",
+    "light": "Bright, indirect dappled light",
+    "humidity": "High humidity (60% or above preferred)",
+    "temperature": "Warm, tropical temperatures (18-28°C)",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate to fast"
+  },
+  "morphology": {
+    "leafShape": "Sagittate, transitioning from juvenile arrowhead to mature lobed forms",
+    "leafLength": "15-30 cm",
+    "leafWidth": "10-20 cm",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Smooth, leathery",
+    "variegation": "Mottled pattern in shades of dark green, mint, lime, and pale green",
+    "growthHabit": "Climbing aroid"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Syngonium podophyllum Mojito",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Syngonium Mojito",
+      "Mojito Arrowhead",
+      "Variegated Syngonium",
+      "Syngonium podophyllum variegated"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

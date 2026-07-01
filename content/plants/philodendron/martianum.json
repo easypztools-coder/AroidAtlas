@@ -1,0 +1,81 @@
+{
+  "name": "Philodendron martianum",
+  "slug": "martianum",
+  "scientificName": "Philodendron martianum Engl.",
+  "commonName": "Flask Philodendron",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "martianum",
+  "origin": "Endemic to Ecuador (Zamora–Chinchipe Province)",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Philodendron martianum is a distinctive, self-heading aroid endemic to the humid lower montane forests of southern Ecuador's Zamora–Chinchipe Province. It is highly sought after by collectors for its unique morphological features, most notably its thick, sausage-like, swollen petioles and compact rosette habit. Adapted to life on steep slopes in shaded understory environments, this species thrives in rocky, well-drained soils rich in leaf litter. Its robust, leathery elliptic leaves and persistent cataphylls at the base make it an iconic and structurally fascinating addition to any collection.",
+  "quickFacts": {
+    "growthHabit": "Self-heading, compact rosette",
+    "matureSize": "Compact, 40-60cm",
+    "light": "Bright, indirect light",
+    "humidity": "High, 60-80%",
+    "temperature": "18°C - 26°C",
+    "difficulty": "Moderate",
+    "growthSpeed": "Slow to Moderate"
+  },
+  "morphology": {
+    "leafShape": "Elliptic to oblong",
+    "leafLength": "20-35 cm",
+    "leafWidth": "10-15 cm",
+    "petioleColor": "Green",
+    "venation": "Pronounced midrib",
+    "texture": "Leathery",
+    "variegation": "None",
+    "growthHabit": "Self-heading rosette"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron martianum",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Philodendron martianum",
+      "P. martianum",
+      "Flask Philodendron",
+      "Martianum plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

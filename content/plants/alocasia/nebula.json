@@ -1,0 +1,82 @@
+{
+  "name": "Alocasia nebula",
+  "slug": "nebula",
+  "scientificName": "Alocasia nebula",
+  "commonName": "Alocasia Nebula",
+  "statusTag": "Rare Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Alocasia",
+  "species": "nebula",
+  "origin": "Sarawak, Borneo",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Alocasia nebula is a stunning, compact terrestrial aroid native to the humid lowland rainforests of Sarawak, Borneo. It is celebrated for its thick, bullate leaves that feature a distinct metallic, silvery sheen contrasted by deep green, sunken venation. Unlike the related Alocasia cuprea or baginda, this species is defined by its uniform pewter coloration and sturdy, compact growth habit. It thrives in the shaded, moisture-rich understory of its native habitat, making it a highly prized specimen for collectors of rare, ornamental Aroids.",
+  "quickFacts": {
+    "growthHabit": "Compact basal rosette",
+    "matureSize": "Small to medium (approx. 30-45cm)",
+    "light": "Bright, filtered indirect light",
+    "humidity": "High (60-80%)",
+    "temperature": "Warm (20-28°C)",
+    "difficulty": "Intermediate",
+    "growthSpeed": "Slow to Moderate"
+  },
+  "morphology": {
+    "leafShape": "Ovate-sagittate",
+    "leafLength": "15-25cm",
+    "leafWidth": "10-15cm",
+    "petioleColor": "Green to brownish-grey",
+    "venation": "Deeply impressed dark green",
+    "texture": "Thick, leathery, and bullate",
+    "variegation": "None (metallic silver sheen)",
+    "growthHabit": "Corm-forming terrestrial"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Alocasia nebula",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Alocasia nebula",
+      "Nebula Alocasia",
+      "Alocasia sp nebula",
+      "Rare Alocasia",
+      "Borneo Alocasia"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

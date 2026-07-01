@@ -1,0 +1,82 @@
+{
+  "name": "Philodendron 'Jose Buono'",
+  "slug": "jose-buono",
+  "scientificName": "Philodendron 'Jose Buono'",
+  "commonName": "Jose Buono Philodendron",
+  "statusTag": "Rare Variegated Cultivar",
+  "botanicalType": "cultivar",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "Jose Buono",
+  "origin": "Cultivated selection",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Philodendron 'Jose Buono' is a highly sought-after, vigorous climbing cultivar developed through selective breeding of tropical American Philodendron species. It is widely recognized for its spectacular, large, elongated foliage that features bold, marbled variegation ranging from creamy white to pale yellow. As a hemiepiphyte, it thrives when provided with a support structure that mimics its natural habitat of climbing trees in warm, humid forest environments. This stable cultivar is prized by collectors for its impressive scale and dramatic, persistent leaf patterns.",
+  "quickFacts": {
+    "growthHabit": "Climbing/Hemiepiphytic",
+    "matureSize": "Large (climbing)",
+    "light": "Bright, indirect light",
+    "humidity": "High (60-80%)",
+    "temperature": "Warm (18-28°C)",
+    "difficulty": "Easy/Intermediate",
+    "growthSpeed": "Vigorous"
+  },
+  "morphology": {
+    "leafShape": "Elongated/Oblong-lanceolate",
+    "leafLength": "Up to 60cm+",
+    "leafWidth": "20-30cm",
+    "petioleColor": "Green to reddish-brown",
+    "venation": "Pinnate",
+    "texture": "Leathery/Smooth",
+    "variegation": "Bold, marbled sectoral variegation",
+    "growthHabit": "Climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron Jose Buono",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Philodendron Jose Buono",
+      "Jose Buono",
+      "Philodendron variegated",
+      "Jose Buono variegated",
+      "Rare Philodendron"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

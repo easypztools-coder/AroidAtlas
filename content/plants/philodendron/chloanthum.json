@@ -1,0 +1,80 @@
+{
+  "name": "Philodendron chloanthum",
+  "slug": "chloanthum",
+  "scientificName": "Philodendron chloanthum Croat & Grayum",
+  "commonName": "Philodendron chloanthum",
+  "statusTag": "Rare Botanical Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "chloanthum",
+  "origin": "Costa Rica and Panama",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Philodendron chloanthum is an elegant, scandent species native to the humid tropical forests of Costa Rica and Panama. It is characterized by its slender growth habit, making it an excellent climber that thrives when provided with a moss pole or woody support to mimic its natural tree-trunk habitat. The plant features elongated, narrowly ovate leaves with a smooth, glossy green finish and delicate posterior lobes. Adapted to lower-canopy conditions, it prefers stable warmth and consistent humidity to maintain its lush appearance.",
+  "quickFacts": {
+    "growthHabit": "Slender climber",
+    "matureSize": "Medium to large depending on support",
+    "light": "Filtered, indirect light",
+    "humidity": "High (60-80%)",
+    "temperature": "Warm, stable tropical temperatures",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Narrowly ovate to narrowly sagittate",
+    "leafLength": "15-30 cm",
+    "leafWidth": "8-15 cm",
+    "petioleColor": "Green",
+    "venation": "Pinnate, subtle",
+    "texture": "Smooth, glossy",
+    "variegation": "None",
+    "growthHabit": "Scandent/Climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron chloanthum",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Philodendron chloanthum",
+      "P. chloanthum",
+      "Philodendron sp. chloanthum"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

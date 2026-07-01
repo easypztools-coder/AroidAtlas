@@ -15,7 +15,7 @@ export default function PlantsPage() {
         <h1 className="text-3xl md:text-4xl font-heading font-bold text-heading">
           Explore Aroids by Genus
         </h1>
-        <Link href="/plants/all" className="btn-secondary">
+        <Link href="/catalog" className="btn-secondary">
           Browse Full Catalog
         </Link>
       </div>

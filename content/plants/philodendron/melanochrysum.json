@@ -1,0 +1,81 @@
+{
+  "name": "Philodendron melanochrysum",
+  "slug": "melanochrysum",
+  "scientificName": "Philodendron melanochrysum",
+  "commonName": "Black Gold Philodendron",
+  "statusTag": "Classic Botanical Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "melanochrysum",
+  "origin": "Native to Colombia; endemic to the Andean slopes of the Cordillera Occidental.",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Philodendron melanochrysum, widely known as the Black Gold Philodendron, is a stunning hemiepiphytic climber native to the humid montane rainforests of Colombia. It is highly prized by collectors for its dramatic, long, velvety dark green leaves that feature striking, contrasting pale yellow-green venation. Historically significant in botanical collections, this species thrives in high humidity and requires vertical support to mimic its natural climbing habitat on forest tree trunks. Its distinctive bronze underside and elongate, cordate leaf structure make it one of the most recognizable and sought-after aroids in the hobby.",
+  "quickFacts": {
+    "growthHabit": "Climbing hemiepiphyte",
+    "matureSize": "Large climber",
+    "light": "Filtered, bright indirect",
+    "humidity": "High",
+    "temperature": "Warm to cool, 18-26°C",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Elongate, pendulous-cordate",
+    "leafLength": "Large, up to 60cm+",
+    "leafWidth": "Narrow",
+    "petioleColor": "Green",
+    "venation": "Prominent pale yellow-green",
+    "texture": "Velvety",
+    "variegation": "None",
+    "growthHabit": "Climbing hemiepiphyte with slender internodes"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron melanochrysum",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Philodendron melanochrysum",
+      "Black Gold Philodendron",
+      "Philodendron micans (large form)",
+      "P. melanochrysum"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

@@ -1,0 +1,81 @@
+{
+  "name": "Anthurium nigrolaminum 'Gigi' x papillilaminum",
+  "slug": "anthurium-nigrolaminum-gigi-x-papillilaminum",
+  "scientificName": "Anthurium nigrolaminum 'Gigi' x papillilaminum",
+  "commonName": "Nigrolaminum Gigi x Papillilaminum Hybrid",
+  "statusTag": "Rare Hybrid Cultivar",
+  "botanicalType": "hybrid",
+  "family": "Araceae",
+  "genus": "Anthurium",
+  "species": "nigrolaminum 'Gigi' x papillilaminum",
+  "origin": "Thailand",
+  "collectorPopularity": 5,
+  "rarityStatus": "Very Rare",
+  "availability": "Very Low",
+  "priceGuideTier": "££££",
+  "aboutText": "This stunning hybrid cross between Anthurium nigrolaminum 'Gigi' and A. papillilaminum was developed in Thailand circa the 2010s. It beautifully combines the signature velvety, dark-to-black laminae of its parents with highly contrasting, silver-white venation. Characterized by its elongated heart-sagittate foliage and dark burgundy petioles, this cultivar is a prized specimen for serious collectors. It requires high humidity and bright, filtered light to maintain its striking coloration and dramatic morphology.",
+  "quickFacts": {
+    "growthHabit": "Epiphytic / Terrestrial",
+    "matureSize": "Large",
+    "light": "Bright, filtered light",
+    "humidity": "High (above 65%)",
+    "temperature": "Warm, tropical",
+    "difficulty": "Intermediate to Advanced",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Elongated heart-sagittate",
+    "leafLength": "40-60cm",
+    "leafWidth": "20-30cm",
+    "petioleColor": "Dark burgundy",
+    "venation": "Conspicuous silver-white",
+    "texture": "Velvety",
+    "variegation": "None (patterned venation)",
+    "growthHabit": "Upright, clustering"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium nigrolaminum Gigi papillilaminum",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Anthurium nigrolaminum Gigi x papil",
+      "Anthurium hybrid Gigi papil",
+      "Anthurium nigrolaminum cross",
+      "Anthurium papil hybrid"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

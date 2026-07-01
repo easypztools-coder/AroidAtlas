@@ -1,0 +1,81 @@
+{
+  "name": "Anthurium schlechtendalii",
+  "slug": "schlechtendalii",
+  "scientificName": "Anthurium schlechtendalii Kunth",
+  "commonName": "Anthurium schlechtendalii",
+  "statusTag": "Botanical Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Anthurium",
+  "species": "schlechtendalii",
+  "origin": "Mexico to northern South America",
+  "collectorPopularity": 3,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Anthurium schlechtendalii is a striking bird's-nest type species native to regions spanning from Mexico down to northern South America. It functions as both an epiphyte and a terrestrial plant, often found nesting in tree crotches or thriving on the humid forest floor. The plant is celebrated for its dramatic, large, strap-like leaves that emerge in a perfect rosette from a central crown. Adapted to warm and wet tropical environments, it remains a highly prized specimen for collectors who appreciate its architectural form and robust root system.",
+  "quickFacts": {
+    "growthHabit": "Self-heading, bird's-nest rosette",
+    "matureSize": "Large, 1-1.5 meters spread",
+    "light": "Filtered light",
+    "humidity": "High",
+    "temperature": "Warm, tropical",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Oblanceolate, strap-like",
+    "leafLength": "Large, up to 100cm+",
+    "leafWidth": "Moderate, strap-like",
+    "petioleColor": "Green",
+    "venation": "Pinnate/prominent midrib",
+    "texture": "Glossy, slightly wavy",
+    "variegation": "None",
+    "growthHabit": "Self-heading rosette"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Anthurium schlechtendalii",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Anthurium schlechtendalii",
+      "A. schlechtendalii",
+      "Schlechtendalii Anthurium",
+      "Strap leaf Anthurium"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

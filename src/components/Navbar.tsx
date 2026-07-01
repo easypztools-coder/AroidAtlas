@@ -86,13 +86,15 @@ export default function Navbar() {
 
   function handleSearchSubmit(e: React.FormEvent) {
     e.preventDefault();
-    if (searchQuery.trim().length >= 2 && searchResults.length > 0) {
-      handleSelect(searchResults[0].slug, searchResults[0].genus);
+    if (searchQuery.trim().length >= 2) {
+      setSearchQuery("");
+      setShowResults(false);
+      router.push(`/catalog?search=${encodeURIComponent(searchQuery.trim())}`);
     }
   }
 
   const navLinks = [
-    { href: "/plants", label: "Plants", active: pathname.startsWith("/plants") },
+    { href: "/catalog", label: "Plants", active: pathname.startsWith("/catalog") || pathname.startsWith("/plants") },
     { href: "/price-index", label: "Price Index", active: pathname === "/price-index" },
     { href: "/compare", label: "Compare", active: pathname === "/compare" },
     { href: "/identify", label: "Identify", active: pathname === "/identify" },

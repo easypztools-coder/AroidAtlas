@@ -1,0 +1,81 @@
+{
+  "name": "Philodendron mamei",
+  "slug": "mamei",
+  "scientificName": "Philodendron mamei Croat.",
+  "commonName": "Philodendron mamei",
+  "statusTag": "Classic Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "mamei",
+  "origin": "Peru",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Philodendron mamei is a beautiful, low-growing terrestrial or creeping hemiepiphyte native to the tropical forest floors of Peru. It is highly prized by collectors for its iconic silver-mottled variegation that overlays its cordate leaves. Featuring a unique horizontal rhizome that roots at the nodes, it thrives in warm, humid environments rich in organic matter. This species maintains a stable growth habit, making it an excellent choice for indoor cultivation in terrariums or humid greenhouse settings.",
+  "quickFacts": {
+    "growthHabit": "Creeping/Terrestrial",
+    "matureSize": "Up to 50-70cm leaves",
+    "light": "Bright indirect light",
+    "humidity": "High (60-80%)",
+    "temperature": "Warm (18-28°C)",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Cordate",
+    "leafLength": "20-50cm",
+    "leafWidth": "15-40cm",
+    "petioleColor": "Green to light green",
+    "venation": "Pinnate with silver-mottled pattern",
+    "texture": "Softly textured, bullate",
+    "variegation": "Silver-mottled pattern",
+    "growthHabit": "Creeping hemiepiphyte with horizontal rhizome"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron mamei",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Philodendron mamei silver",
+      "Philodendron mamei plant",
+      "Philo mamei",
+      "Philodendron mamei rooted"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

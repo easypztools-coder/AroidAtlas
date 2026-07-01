@@ -31,6 +31,10 @@ const SKIPPED_FILES = new Set([
   "Philodendron 'Caramel Marble' (1).png",
   // Duplicate plate — original Monstera pinnatipartita.png exists and will be processed
   "Monstera pinnatipartita (1).png",
+  // Jun 30 within-batch duplicates — older-style plates, canonical plates are from later batches
+  "Philodendron melanochrysum (alt).png",
+  "Philodendron erubescens 'Pink Princess' (alt).png",
+  "Philodendron 'Florida Ghost' (alt).png",
 ]);
 
 // Simple dotenv parser

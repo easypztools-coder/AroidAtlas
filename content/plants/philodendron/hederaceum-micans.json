@@ -1,0 +1,81 @@
+{
+  "name": "Philodendron hederaceum 'Micans'",
+  "slug": "hederaceum-micans",
+  "scientificName": "Philodendron hederaceum (Jacq.) Schott 'Micans'",
+  "commonName": "Velvet Leaf Philodendron",
+  "statusTag": "Classic Cultivar",
+  "botanicalType": "cultivar",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "Micans",
+  "origin": "Cultivated selection.",
+  "collectorPopularity": 3,
+  "rarityStatus": "Common",
+  "availability": "Low",
+  "priceGuideTier": "££",
+  "aboutText": "Philodendron hederaceum 'Micans' is a beloved selection of the common heart-leaf philodendron, cherished for its distinctively soft, velvety texture. Originally derived from tropical Central and South American lineages, this plant is known for its deep green leaves that exhibit a unique, shimmering bronze sheen. As a vining epiphyte, it naturally ascends trees in the humid understory, making it an excellent candidate for climbing supports. Its reputation as a stable, elegant, and rewarding houseplant has cemented its status as a staple in botanical collections worldwide.",
+  "quickFacts": {
+    "growthHabit": "Trailing/Climbing",
+    "matureSize": "Up to 2 meters",
+    "light": "Bright indirect light",
+    "humidity": "60-80%",
+    "temperature": "18-28°C",
+    "difficulty": "Easy",
+    "growthSpeed": "Fast"
+  },
+  "morphology": {
+    "leafShape": "Heart-shaped",
+    "leafLength": "8-12 cm",
+    "leafWidth": "5-8 cm",
+    "petioleColor": "Green to reddish-brown",
+    "venation": "Pinnate, subtle",
+    "texture": "Velvety/Satiny",
+    "variegation": "None",
+    "growthHabit": "Slender climbing vine"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron Micans",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Philodendron hederaceum Micans",
+      "Velvet leaf Philodendron",
+      "Philodendron Micans plant",
+      "Philo Micans"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

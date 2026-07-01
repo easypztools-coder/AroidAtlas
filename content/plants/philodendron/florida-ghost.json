@@ -1,0 +1,81 @@
+{
+  "name": "Philodendron 'Florida Ghost'",
+  "slug": "florida-ghost",
+  "scientificName": "Philodendron 'Florida Ghost'",
+  "commonName": "Florida Ghost Philodendron",
+  "statusTag": "Rare Variegated Cultivar",
+  "botanicalType": "cultivar",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "Florida Ghost",
+  "origin": "Horticultural hybrid (cultivar)",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "The Philodendron 'Florida Ghost' is a stunning horticultural hybrid prized for its unique, ephemeral foliage coloration. Its most distinctive feature is the emergence of new leaves in a striking ghostly pale mint to cream hue, which gradually transitions to a rich, deep glossy green as they mature. This cultivar belongs to the 'Florida' complex, characterized by its elegant, deeply lobed pedate leaves that climb vigorously when provided with support. Developed by horticulturists, this plant has become a staple in Aroid collections for its combination of dramatic aesthetics and relatively straightforward care requirements.",
+  "quickFacts": {
+    "growthHabit": "Climbing/Epiphytic",
+    "matureSize": "Large (1-2m+)",
+    "light": "Bright, indirect light",
+    "humidity": "High (60% +)",
+    "temperature": "18°C - 27°C",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Pedate, deeply lobed",
+    "leafLength": "20-40 cm",
+    "leafWidth": "15-30 cm",
+    "petioleColor": "Green to reddish-brown",
+    "venation": "Pinnate",
+    "texture": "Glossy",
+    "variegation": "Ghostly pale mint to cream",
+    "growthHabit": "Climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron Florida Ghost",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Florida Ghost",
+      "Philodendron Florida Ghost plant",
+      "Philodendron hybrid Ghost",
+      "Florida Ghost rooted cutting"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

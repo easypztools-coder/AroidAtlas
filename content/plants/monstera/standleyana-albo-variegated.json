@@ -1,0 +1,84 @@
+{
+  "name": "Monstera standleyana 'Albo Variegated'",
+  "slug": "standleyana-albo-variegated",
+  "scientificName": "Monstera standleyana 'Albo Variegated'",
+  "commonName": "Five Holes Plant Variegated",
+  "statusTag": "Rare Variegated Cultivar",
+  "botanicalType": "variegated",
+  "family": "Araceae",
+  "genus": "Monstera",
+  "species": "Albo Variegated",
+  "origin": "Cultivated selection",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Monstera standleyana 'Albo Variegated' is a striking variegated cultivar derived from the species native to the tropical lowland rainforests of southern Mexico and Central America. Unlike many other members of the genus, this plant maintains its narrow, entire, elliptic-lanceolate leaf shape throughout its maturity, never developing the fenestrations typical of its relatives. It is highly valued by collectors for its dramatic white sectoral and splash variegation that contrasts beautifully against its deep, glossy green foliage. In nature, the species functions as an epiphyte or hemiepiphyte, utilizing its aerial roots to anchor itself to trees in shaded, humid understory conditions.",
+  "quickFacts": {
+    "growthHabit": "Climbing epiphyte",
+    "matureSize": "Medium to large climbing vine",
+    "light": "Bright, filtered indirect light",
+    "humidity": "High (60%+) preferred",
+    "temperature": "Warm, tropical conditions",
+    "difficulty": "Easy to moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Elliptic-lanceolate",
+    "leafLength": "15-30cm",
+    "leafWidth": "5-12cm",
+    "petioleColor": "Green, sheathing at the nodes",
+    "venation": "Pinnate",
+    "texture": "Glossy, rigid, and leathery",
+    "variegation": "Irregular white sectoral and splash",
+    "growthHabit": "Climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Monstera standleyana Albo Variegated",
+    "requiredTerms": [
+      "standleyana",
+      "albo"
+    ],
+    "acceptedTerms": [
+      "Monstera standleyana variegated",
+      "Five Holes Plant",
+      "Standleyana Albo",
+      "Monstera standleyana 'Albo'"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

@@ -1,0 +1,81 @@
+{
+  "name": "Homalomena rubescens",
+  "slug": "homalomena-rubescens",
+  "scientificName": "Homalomena rubescens (Roxb.) Kunth",
+  "commonName": "Homalomena Red Shield",
+  "statusTag": "Classic Tropical Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Homalomena",
+  "species": "rubescens",
+  "origin": "tropical Southeast Asia",
+  "collectorPopularity": 3,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Homalomena rubescens is a robust, aromatic, self-heading aroid native to the lush, shaded understories of tropical Southeast Asia. It is highly valued for its striking, heart-shaped glossy foliage and vibrant, reddish-pink petioles that provide a beautiful contrast. Flourishing in humid forest floors, this species thrives in rich, well-draining soils with consistent moisture. It remains a staple for collectors who appreciate lush, basal rosette-forming plants with deep green, prominently veined leaves.",
+  "quickFacts": {
+    "growthHabit": "Clumping/Self-heading",
+    "matureSize": "60-90cm tall",
+    "light": "Bright, indirect light",
+    "humidity": "60%+",
+    "temperature": "18-28°C",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Cordate to broadly ovate with acuminate tip",
+    "leafLength": "20-40cm",
+    "leafWidth": "15-30cm",
+    "petioleColor": "Reddish to pinkish",
+    "venation": "Prominent",
+    "texture": "Thick and glossy",
+    "variegation": "None",
+    "growthHabit": "Basal rosette"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Homalomena rubescens",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Homalomena rubescens",
+      "Red Homalomena",
+      "Homalomena red stem",
+      "Homalomena rubescens plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

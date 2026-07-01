@@ -1,0 +1,81 @@
+{
+  "name": "Philodendron erubescens 'Pink Princess'",
+  "slug": "erubescens-pink-princess",
+  "scientificName": "Philodendron erubescens 'Pink Princess'",
+  "commonName": "Pink Princess Philodendron",
+  "statusTag": "Rare Variegated Cultivar",
+  "botanicalType": "variegated",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "erubescens 'Pink Princess'",
+  "origin": "Cultivated variegated selection derived from Philodendron erubescens, a species native to Colombia.",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "The Philodendron erubescens 'Pink Princess' is a highly sought-after variegated cultivar derived from the species native to Colombia. It is celebrated for its striking aesthetic, characterized by dark green to burgundy foliage adorned with vibrant pink sectoral and marbled variegation. As a climbing hemiepiphyte, it thrives in tropical environments and adapts well to indoor cultivation when provided with a support structure. This plant's iconic appearance is a result of a stable mutation that continues to be a staple in collections worldwide.",
+  "quickFacts": {
+    "growthHabit": "Climbing hemiepiphyte",
+    "matureSize": "Large vining",
+    "light": "Bright, indirect light",
+    "humidity": "High",
+    "temperature": "Warm",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Elliptic to narrowly cordate",
+    "leafLength": "20-30 cm",
+    "leafWidth": "10-15 cm",
+    "petioleColor": "Burgundy",
+    "venation": "Inconspicuous",
+    "texture": "Glossy",
+    "variegation": "Sectoral and marbled pink",
+    "growthHabit": "Climbing hemiepiphyte"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron Pink Princess",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "PPP",
+      "Philodendron Pink Princess",
+      "Philodendron erubescens Pink Princess",
+      "Pink Princess Philo"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

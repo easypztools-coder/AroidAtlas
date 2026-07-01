@@ -5,11 +5,11 @@ import path from "path";
 import PlantCatalog, { type CatalogPlant } from "@/components/PlantCatalog";
 
 export const metadata: Metadata = {
-  title: "Full Plant Catalog — All 281 Species & Cultivars | Aroid Atlas",
+  title: "Plant Catalog — All Species & Cultivars | Aroid Atlas",
   description:
     "Search and filter our full catalog of rare aroid species and cultivars by genus, rarity status, and live market status. Detailed profiles with eBay UK price tracking.",
   alternates: {
-    canonical: "https://aroidatlas.co.uk/plants/all",
+    canonical: "https://aroidatlas.co.uk/catalog",
   },
 };
 
@@ -58,14 +58,20 @@ function getAllPlants(): CatalogPlant[] {
   return results.sort((a, b) => a.scientificName.localeCompare(b.scientificName));
 }
 
-export default function AllPlantsPage() {
+interface PageProps {
+  searchParams: { search?: string; genus?: string };
+}
+
+export default function CatalogPage({ searchParams }: PageProps) {
   const plants = getAllPlants();
+  const initialSearch = searchParams.search ?? "";
+  const initialGenus = searchParams.genus ?? "";
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "ItemList",
     name: "Full Plant Catalog on Aroid Atlas",
-    url: "https://aroidatlas.co.uk/plants/all",
+    url: "https://aroidatlas.co.uk/catalog",
     numberOfItems: plants.length,
   };
 
@@ -75,23 +81,25 @@ export default function AllPlantsPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
-      <nav className="flex items-center gap-2 text-xs text-muted mb-8">
-        <Link href="/plants" className="hover:text-primary transition-all duration-300 ease-in-out hover:-translate-y-0.5">
-          Species
-        </Link>
-        <span>/</span>
-        <span className="text-heading">Full Catalog</span>
+      <nav className="flex items-center gap-2 text-xs text-muted mb-8" aria-label="Breadcrumb">
+        <Link href="/" className="hover:text-primary transition-colors duration-150">Home</Link>
+        <span className="text-border-strong">/</span>
+        <span className="text-heading">Catalog</span>
       </nav>
 
-      <h1 className="text-3xl md:text-4xl font-heading font-bold text-heading mb-4">
-        Full Plant Catalog
+      <h1 className="text-3xl md:text-4xl font-heading font-bold text-heading mb-3">
+        Plant Catalog
       </h1>
-      <p className="text-sm md:text-base leading-relaxed text-muted max-w-2xl mb-12">
-        Browse and filter all {plants.length} species and cultivars in the Aroid Atlas directory by genus,
-        rarity status, and live market status.
+      <p className="text-sm md:text-base leading-relaxed text-muted max-w-2xl mb-10">
+        Browse all {plants.length} species and cultivars. Filter by genus, rarity, and live market
+        status — or search by name.
       </p>
 
-      <PlantCatalog plants={plants} />
+      <PlantCatalog
+        plants={plants}
+        initialSearch={initialSearch}
+        initialGenus={initialGenus}
+      />
     </div>
   );
 }

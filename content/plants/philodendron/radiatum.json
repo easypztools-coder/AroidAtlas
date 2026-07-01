@@ -1,0 +1,81 @@
+{
+  "name": "Philodendron radiatum",
+  "slug": "radiatum",
+  "scientificName": "Philodendron radiatum Schott",
+  "commonName": "Philodendron radiatum",
+  "statusTag": "Botanical Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "radiatum",
+  "origin": "Mexico to Central America",
+  "collectorPopularity": 3,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Philodendron radiatum is a striking hemiepiphytic aroid native to the tropical forests spanning from Mexico to Central America. It is characterized by its remarkable heteroblasty, transitioning from simple, entire juvenile leaves to deeply lobed, radiate mature foliage. As a natural climber, it utilizes aerial roots to ascend tree trunks in its native understory habitat. The plant is highly valued by collectors for its elegant, deeply divided leaf structure which adds a dramatic architectural element to tropical plant collections.",
+  "quickFacts": {
+    "growthHabit": "Climbing epiphyte",
+    "matureSize": "Large (climbing)",
+    "light": "Dappled light",
+    "humidity": "High",
+    "temperature": "Warm",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate to fast"
+  },
+  "morphology": {
+    "leafShape": "Entire/Ovate (juvenile) to deeply radiate/lobed (mature)",
+    "leafLength": "Large, variable",
+    "leafWidth": "Large, spreading",
+    "petioleColor": "Green",
+    "venation": "Pinnate with central midrib",
+    "texture": "Glossy",
+    "variegation": "None",
+    "growthHabit": "Climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron radiatum",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Philodendron radiatum",
+      "P. radiatum",
+      "Philodendron eximium",
+      "Philodendron pseudoradiatum"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

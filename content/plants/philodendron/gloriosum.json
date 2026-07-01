@@ -1,0 +1,82 @@
+{
+  "name": "Philodendron gloriosum",
+  "slug": "gloriosum",
+  "scientificName": "Philodendron gloriosum André.",
+  "commonName": "Philodendron gloriosum",
+  "statusTag": "Classic Botanical Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "gloriosum",
+  "origin": "Colombia",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Philodendron gloriosum is a captivating terrestrial species native to the tropical forests of Colombia, where it thrives as a floor-creeping inhabitant. Unlike many of its climbing relatives, it develops a thick, horizontal rhizome that spreads across the forest floor, rooting at each node into organic-rich substrate. Its iconic heart-shaped, velvety leaves are adorned with striking, pale contrasting venation, making it a highly prized specimen for any serious aroid collection. This species is best appreciated in environments that mimic its natural, high-humidity shaded understory habitat.",
+  "quickFacts": {
+    "growthHabit": "Creeping, terrestrial rhizomatous",
+    "matureSize": "Leaves up to 60-90cm long",
+    "light": "Bright, indirect light",
+    "humidity": "60-80% relative humidity",
+    "temperature": "18°C - 28°C",
+    "difficulty": "Moderate",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Cordate (heart-shaped)",
+    "leafLength": "40-90cm",
+    "leafWidth": "30-60cm",
+    "petioleColor": "Light green to reddish-green",
+    "venation": "Strikingly pale, white-to-light-green primary and secondary veins",
+    "texture": "Velvety, matte finish",
+    "variegation": "None (species characteristics)",
+    "growthHabit": "Creeping, horizontal rhizome"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron gloriosum",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Philodendron gloriosum",
+      "P. gloriosum",
+      "gloriosum crawler",
+      "gloriosum velvet",
+      "gloriosum plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

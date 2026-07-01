@@ -1,0 +1,81 @@
+{
+  "name": "Philodendron 'McColley's Finale'",
+  "slug": "mccolleys-finale",
+  "scientificName": "Philodendron 'McColley's Finale'",
+  "commonName": "McColley's Finale Philodendron",
+  "statusTag": "Popular Cultivar",
+  "botanicalType": "cultivar",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "McColley's Finale",
+  "origin": "Cultivated Hybrid (Horticultural Origin)",
+  "collectorPopularity": 3,
+  "rarityStatus": "Common",
+  "availability": "High",
+  "priceGuideTier": "£",
+  "aboutText": "Philodendron 'McColley's Finale' is a stunning self-heading hybrid celebrated for its dramatic color transition. New foliage emerges in vibrant shades of copper, orange, and red, eventually maturing into deep, glossy green leaves. This cultivar maintains a compact, rosette-forming habit, making it an excellent choice for indoor collections. It thrives in warm, humid conditions with bright, indirect light and well-draining soil.",
+  "quickFacts": {
+    "growthHabit": "Self-heading, compact rosette",
+    "matureSize": "Medium, approx. 60-90cm",
+    "light": "Bright, indirect light",
+    "humidity": "High (60%+)",
+    "temperature": "Warm (18-28°C)",
+    "difficulty": "Easy",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Broad, elliptic to oval with acuminate tip",
+    "leafLength": "20-35cm",
+    "leafWidth": "10-20cm",
+    "petioleColor": "Stout and reddish",
+    "venation": "Pinnate",
+    "texture": "Leathery and glossy",
+    "variegation": "None (color changing)",
+    "growthHabit": "Self-heading"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron McColley's Finale",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "McColleys Finale",
+      "Philodendron McColley",
+      "McColley Finale plant",
+      "Philodendron hybrid red leaf"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

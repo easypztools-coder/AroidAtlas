@@ -52,7 +52,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
-      url: `${BASE_URL}/plants/all`,
+      url: `${BASE_URL}/catalog`,
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.85,

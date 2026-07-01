@@ -1,0 +1,81 @@
+{
+  "name": "Epipremnum aureum 'N'Joy'",
+  "slug": "epipremnum-aureum-njoy",
+  "scientificName": "Epipremnum aureum 'N'Joy'",
+  "commonName": "N'Joy Pothos",
+  "statusTag": "Popular Cultivar",
+  "botanicalType": "cultivar",
+  "family": "Araceae",
+  "genus": "Epipremnum",
+  "species": "aureum 'N'Joy'",
+  "origin": "Cultivated variegated selection of Epipremnum aureum; native to Mo'orea, Society Islands",
+  "collectorPopularity": 3,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "The Epipremnum aureum 'N'Joy' is a highly sought-after cultivar derived from the common Pothos, celebrated for its distinct and crisp white variegation. Originally selected for its stable, sectorial patterns, this plant maintains a compact, vining growth habit that makes it ideal for indoor cultivation. In its native habitat of the Society Islands, it functions as a hemiepiphyte, climbing tropical tree trunks in filtered light. Its small, glossy, ovate-cordate leaves exhibit a stunning contrast between deep green and bright white, often with variegation concentrated along the margins.",
+  "quickFacts": {
+    "growthHabit": "Vining hemiepiphyte",
+    "matureSize": "Small to medium, trailing or climbing",
+    "light": "Bright, indirect light",
+    "humidity": "Moderate to high",
+    "temperature": "Warm, 18-28°C",
+    "difficulty": "Easy",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Ovate-cordate",
+    "leafLength": "Small to medium (varies)",
+    "leafWidth": "Small to medium (varies)",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Glossy, smooth",
+    "variegation": "Crisp white, sectorial and marginal",
+    "growthHabit": "Vining"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Epipremnum aureum N'Joy",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "N'Joy Pothos",
+      "Epipremnum N'Joy",
+      "Pothos N'Joy",
+      "Variegated Pothos N'Joy"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

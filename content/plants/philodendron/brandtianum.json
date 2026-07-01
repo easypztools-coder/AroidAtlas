@@ -1,0 +1,81 @@
+{
+  "name": "Philodendron brandtianum",
+  "slug": "brandtianum",
+  "scientificName": "Philodendron brandtianum K.Krause",
+  "commonName": "Philodendron Brandtianum",
+  "statusTag": "Classic Aroid Species",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Philodendron",
+  "species": "brandtianum",
+  "origin": "Brazil, Bolivia and Peru",
+  "collectorPopularity": 4,
+  "rarityStatus": "Rare",
+  "availability": "Low",
+  "priceGuideTier": "£££",
+  "aboutText": "Philodendron brandtianum is a stunning climbing species native to the humid tropical forests of Brazil, Bolivia, and Peru. It is highly prized by collectors for its distinct, heart-shaped leaves adorned with beautiful, silvery-grey camouflage-like variegation between the veins. As a scandent grower, it thrives when provided with a moss pole or support, which encourages the development of larger, more mature foliage. This species perfectly embodies the beauty of South American understory plants, offering both rapid growth and a unique aesthetic appeal.",
+  "quickFacts": {
+    "growthHabit": "Climbing/Scandent",
+    "matureSize": "Up to 3-5 meters in habitat",
+    "light": "Bright, indirect light",
+    "humidity": "60-80%",
+    "temperature": "18-28°C",
+    "difficulty": "Easy to Moderate",
+    "growthSpeed": "Moderate to Fast"
+  },
+  "morphology": {
+    "leafShape": "Heart-shaped (Cordate)",
+    "leafLength": "15-25 cm",
+    "leafWidth": "8-12 cm",
+    "petioleColor": "Green to reddish-brown",
+    "venation": "Pinnate with silvery-grey intercostal mottling",
+    "texture": "Smooth/Satin",
+    "variegation": "Silver-green mosaic patterning",
+    "growthHabit": "Climbing/Scandent"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Philodendron brandtianum",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Philodendron brandtianum",
+      "P. brandtianum",
+      "Silver leaf Philodendron",
+      "Brandtianum philodendron"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}
