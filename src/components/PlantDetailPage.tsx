@@ -433,6 +433,7 @@ export default function PlantDetailPage({
                 scientificName={data.scientificName}
                 botanicalType={data.botanicalType}
                 contentTier={data.contentTier ?? "plate"}
+                slug={data.slug}
                 size="feature"
                 className="object-contain"
                 sizes="(max-width: 768px) 100vw, 50vw"
@@ -749,8 +750,11 @@ export default function PlantDetailPage({
             )}
           </div>
 
-          {/* In the Wild — iNaturalist carousel */}
-          <PlantPhotoCarousel slug={data.slug} scientificName={data.scientificName} />
+          {/* In the Wild — iNaturalist carousel (already shown as the hero image for
+              "sketch" tier plants with no museum plate, so skip the duplicate here) */}
+          {(data.contentTier ?? "plate") !== "sketch" && (
+            <PlantPhotoCarousel slug={data.slug} scientificName={data.scientificName} />
+          )}
 
           {/* Morphology + About split */}
           <div className="grid grid-cols-1 gap-8 md:grid-cols-2">

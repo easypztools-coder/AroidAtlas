@@ -192,6 +192,7 @@ export default function GenusPlantList({ initialPlants, genus }: GenusPlantListP
                         scientificName={plant.scientificName}
                         botanicalType={plant.botanicalType}
                         contentTier={plant.contentTier}
+                        slug={plant.slug}
                         size="card"
                         className="object-contain object-center transition-transform duration-500 ease-out group-hover:scale-[1.015]"
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"

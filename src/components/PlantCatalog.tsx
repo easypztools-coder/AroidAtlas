@@ -356,6 +356,7 @@ export default function PlantCatalog({ plants, initialSearch = "", initialGenus 
                             scientificName={plant.scientificName}
                             botanicalType={plant.botanicalType}
                             contentTier={plant.contentTier}
+                            slug={plant.slug}
                             size="card"
                             className="object-contain object-center transition-transform duration-500 ease-out group-hover:scale-[1.015]"
                             sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 33vw"

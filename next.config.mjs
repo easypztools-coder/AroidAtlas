@@ -29,7 +29,11 @@ const nextConfig = {
         ],
       },
       {
-        source: "/api/plants/:path*",
+        // Per-plant sub-resources only — NOT the base /api/plants search index or
+        // /api/plants/detail, which must stay fresh whenever content changes (the
+        // search bar reads /api/plants directly, and a stale cached response can
+        // be missing fields for newly added plants, breaking the built link).
+        source: "/api/plants/:slug/:resource(price-history|photos)",
         headers: [
           { key: "Cache-Control", value: "public, max-age=3600, s-maxage=86400, stale-while-revalidate=3600" },
         ],
