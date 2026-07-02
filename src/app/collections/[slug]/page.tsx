@@ -14,6 +14,7 @@ interface PlantData {
   rarityStatus: string;
   priceGuideTier: string;
   genus: string;
+  genusSlug: string;
   collectorPopularity: number;
   morphology: {
     variegation: string;
@@ -57,6 +58,7 @@ function getAllPlants(): PlantData[] {
           rarityStatus: data.rarityStatus,
           priceGuideTier: data.priceGuideTier,
           genus: data.genus || genus,
+          genusSlug: genus,
           collectorPopularity: data.collectorPopularity || 0,
           morphology: data.morphology || { variegation: "None" },
           quickFacts: data.quickFacts || { growthHabit: "", matureSize: "" },
@@ -167,7 +169,7 @@ export default function CollectionPage({ params }: PageProps) {
           "@type": "ListItem",
           position: i + 1,
           name: plant.scientificName,
-          url: `${baseUrl}/plants/${plant.genus.toLowerCase()}/${plant.slug}`,
+          url: `${baseUrl}/plants/${plant.genusSlug}/${plant.slug}`,
         })),
       },
     ],
@@ -208,7 +210,7 @@ export default function CollectionPage({ params }: PageProps) {
           {plants.map((plant) => (
             <Link
               key={plant.slug}
-              href={`/plants/${plant.genus.toLowerCase()}/${plant.slug}`}
+              href={`/plants/${plant.genusSlug}/${plant.slug}`}
               className="glass-card-hover group relative flex overflow-hidden rounded-2xl p-6"
             >
               <div className="absolute inset-0 bg-gradient-to-br from-forest-deep via-card to-forest-dark opacity-50" />
@@ -229,7 +231,7 @@ export default function CollectionPage({ params }: PageProps) {
                 {/* Right-aligned soft-reveal thumbnail */}
                 <div className="relative h-20 w-20 shrink-0 rounded-xl overflow-hidden bg-card border border-primary/5">
                   <Image
-                    src={`/plants/${plant.genus.toLowerCase()}/${plant.slug}.png`}
+                    src={`/plants/${plant.genusSlug}/${plant.slug}.png`}
                     alt={plant.commonName}
                     fill
                     className="object-cover object-center scale-[1.3] transition-all duration-500 ease-out group-hover:scale-[1.4] opacity-90 group-hover:opacity-100"

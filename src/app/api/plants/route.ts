@@ -8,6 +8,7 @@ interface SearchPlant {
   scientificName: string;
   commonName: string;
   genus: string;
+  genusSlug: string;
   rarityStatus: string;
   priceGuideTier: string;
   botanicalType: string;
@@ -37,6 +38,7 @@ export async function GET() {
             scientificName: data.scientificName,
             commonName: data.commonName,
             genus: data.genus || genus,
+            genusSlug: genus,
             rarityStatus: data.rarityStatus,
             priceGuideTier: data.priceGuideTier,
             botanicalType: data.botanicalType || "variegated",

@@ -26,7 +26,7 @@ export async function GET(request: NextRequest) {
   try {
     const raw = fs.readFileSync(filePath, "utf-8");
     const data = JSON.parse(raw);
-    return NextResponse.json(data);
+    return NextResponse.json({ ...data, genusSlug: genus.toLowerCase() });
   } catch (err) {
     console.error("Failed to read plant details API:", err);
     return NextResponse.json({ error: "Failed to read plant profile" }, { status: 500 });

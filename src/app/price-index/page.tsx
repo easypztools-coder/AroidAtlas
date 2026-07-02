@@ -75,6 +75,7 @@ async function buildRows(): Promise<PriceIndexRow[]> {
         jsonRows.push({
           slug: data.slug,
           genus: data.genus,
+          genusSlug: genus,
           name: data.name,
           scientificName: data.scientificName,
           commonName: data.commonName ?? '',

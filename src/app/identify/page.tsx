@@ -11,6 +11,7 @@ interface SearchPlant {
   scientificName: string;
   commonName: string;
   genus: string;
+  genusSlug: string;
   rarityStatus: string;
   priceGuideTier: string;
   botanicalType: string;
@@ -111,6 +112,7 @@ export default function IdentifyPage() {
         scientificName: "Philodendron spiritus-sancti",
         commonName: "Spiritus Sancti",
         genus: "philodendron",
+        genusSlug: "philodendron",
         rarityStatus: "Extremely Rare",
         priceGuideTier: "Ultra-Premium",
         botanicalType: "variegated",
@@ -319,7 +321,7 @@ export default function IdentifyPage() {
               {identifiedPlant && (
                 <div className="mt-8 pt-4 border-t border-primary/5">
                   <Link
-                    href={`/plants/${identifiedPlant.genus}/${identifiedPlant.slug}`}
+                    href={`/plants/${identifiedPlant.genusSlug}/${identifiedPlant.slug}`}
                     className="btn-primary w-full text-center"
                   >
                     View Plant Profile

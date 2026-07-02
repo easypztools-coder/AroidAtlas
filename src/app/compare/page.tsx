@@ -10,6 +10,7 @@ interface SearchPlant {
   scientificName: string;
   commonName: string;
   genus: string;
+  genusSlug: string;
   rarityStatus: string;
   priceGuideTier: string;
   botanicalType: string;
@@ -24,6 +25,7 @@ interface PlantData {
   botanicalType: string;
   family: string;
   genus: string;
+  genusSlug: string;
   species: string;
   origin: string;
   collectorPopularity: number;
@@ -90,7 +92,7 @@ export default function ComparePage() {
     }
 
     try {
-      const res = await fetch(`/api/plants/detail?genus=${plant.genus}&slug=${plant.slug}`);
+      const res = await fetch(`/api/plants/detail?genus=${plant.genusSlug}&slug=${plant.slug}`);
       const data = await res.json();
       if (target === "A") {
         setPlantA(data);
@@ -233,7 +235,7 @@ export default function ComparePage() {
                   <p className="text-xs text-muted mt-1 truncate">{plantA.commonName}</p>
                   <p className="text-xs text-muted-light leading-relaxed mt-4 line-clamp-2">{plantA.aboutText}</p>
                   <Link
-                    href={`/plants/${plantA.genus}/${plantA.slug}`}
+                    href={`/plants/${plantA.genusSlug}/${plantA.slug}`}
                     className="mt-6 inline-flex text-xs font-semibold text-primary hover:underline items-center gap-1.5"
                   >
                     View full profile
@@ -245,7 +247,7 @@ export default function ComparePage() {
                 {/* Minimised Botanical Plate */}
                 <div className="relative w-20 sm:w-24 shrink-0 aspect-[3/4] overflow-hidden rounded border border-border bg-background-soft shadow-sm group">
                   <Image
-                    src={`/plants/${plantA.genus}/${plantA.slug}.png`}
+                    src={`/plants/${plantA.genusSlug}/${plantA.slug}.png`}
                     alt={plantA.commonName}
                     fill
                     className="object-contain transition-transform duration-300 group-hover:scale-105"
@@ -273,7 +275,7 @@ export default function ComparePage() {
                   <p className="text-xs text-muted mt-1 truncate">{plantB.commonName}</p>
                   <p className="text-xs text-muted-light leading-relaxed mt-4 line-clamp-2">{plantB.aboutText}</p>
                   <Link
-                    href={`/plants/${plantB.genus}/${plantB.slug}`}
+                    href={`/plants/${plantB.genusSlug}/${plantB.slug}`}
                     className="mt-6 inline-flex text-xs font-semibold text-primary hover:underline items-center gap-1.5"
                   >
                     View full profile
@@ -285,7 +287,7 @@ export default function ComparePage() {
                 {/* Minimised Botanical Plate */}
                 <div className="relative w-20 sm:w-24 shrink-0 aspect-[3/4] overflow-hidden rounded border border-border bg-background-soft shadow-sm group">
                   <Image
-                    src={`/plants/${plantB.genus}/${plantB.slug}.png`}
+                    src={`/plants/${plantB.genusSlug}/${plantB.slug}.png`}
                     alt={plantB.commonName}
                     fill
                     className="object-contain transition-transform duration-300 group-hover:scale-105"
@@ -315,7 +317,7 @@ export default function ComparePage() {
                     <div className="flex items-center gap-3">
                       <div className="relative w-8 h-10 shrink-0 overflow-hidden rounded border border-border bg-background-soft">
                         <Image
-                          src={`/plants/${plantA.genus}/${plantA.slug}.png`}
+                          src={`/plants/${plantA.genusSlug}/${plantA.slug}.png`}
                           alt={plantA.commonName}
                           fill
                           className="object-contain"
@@ -332,7 +334,7 @@ export default function ComparePage() {
                     <div className="flex items-center gap-3">
                       <div className="relative w-8 h-10 shrink-0 overflow-hidden rounded border border-border bg-background-soft">
                         <Image
-                          src={`/plants/${plantB.genus}/${plantB.slug}.png`}
+                          src={`/plants/${plantB.genusSlug}/${plantB.slug}.png`}
                           alt={plantB.commonName}
                           fill
                           className="object-contain"

@@ -195,7 +195,7 @@ export default function PriceIndexTable({ rows }: Props) {
             </thead>
             <tbody className="divide-y divide-border/30">
               {displayed.map((row) => {
-                const genusSlug = row.genus.toLowerCase();
+                const genusSlug = row.genusSlug;
 
                 return (
                   <tr

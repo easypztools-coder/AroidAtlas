@@ -13,6 +13,7 @@ interface SearchPlant {
   scientificName: string;
   commonName: string;
   genus: string;
+  genusSlug: string;
   rarityStatus: string;
   priceGuideTier: string;
 }
@@ -78,10 +79,10 @@ export default function Navbar() {
     setShowResults(results.length > 0);
   }
 
-  function handleSelect(slug: string, genus: string) {
+  function handleSelect(slug: string, genusSlug: string) {
     setSearchQuery("");
     setShowResults(false);
-    router.push(`/plants/${genus.toLowerCase()}/${slug}`);
+    router.push(`/plants/${genusSlug}/${slug}`);
   }
 
   function handleSearchSubmit(e: React.FormEvent) {
@@ -188,7 +189,7 @@ export default function Navbar() {
                   {searchResults.slice(0, 6).map((plant) => (
                     <button
                       key={plant.slug}
-                      onClick={() => handleSelect(plant.slug, plant.genus)}
+                      onClick={() => handleSelect(plant.slug, plant.genusSlug)}
                       className="flex w-full items-center gap-3 px-4 py-3 text-left text-sm transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:bg-background-soft"
                     >
                       <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-sm bg-primary/10 text-[10px] font-semibold text-primary">

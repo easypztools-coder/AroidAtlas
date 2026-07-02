@@ -13,6 +13,7 @@ interface SearchPlant {
   scientificName: string;
   commonName: string;
   genus: string;
+  genusSlug: string;
   rarityStatus: string;
   priceGuideTier: string;
 }
@@ -117,16 +118,16 @@ export default function HeroSection() {
     setShowResults(results.length > 0);
   }
 
-  function handleSelect(slug: string, genus: string) {
+  function handleSelect(slug: string, genusSlug: string) {
     setSearchQuery("");
     setShowResults(false);
-    router.push(`/plants/${genus.toLowerCase()}/${slug}`);
+    router.push(`/plants/${genusSlug}/${slug}`);
   }
 
   function handleSearchSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (searchQuery.trim().length >= 2 && searchResults.length > 0) {
-      handleSelect(searchResults[0].slug, searchResults[0].genus);
+      handleSelect(searchResults[0].slug, searchResults[0].genusSlug);
     }
   }
 
@@ -227,7 +228,7 @@ export default function HeroSection() {
                 {searchResults.slice(0, 6).map((plant) => (
                   <button
                     key={plant.slug}
-                    onClick={() => handleSelect(plant.slug, plant.genus)}
+                    onClick={() => handleSelect(plant.slug, plant.genusSlug)}
                     className="flex w-full items-center gap-3 px-4 py-3 text-left text-sm transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:bg-background-soft"
                   >
                     <div className="flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-primary/10 text-[10px] font-semibold text-primary">

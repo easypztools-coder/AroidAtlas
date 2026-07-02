@@ -1,6 +1,7 @@
 export interface PriceIndexRow {
   slug: string;
   genus: string;
+  genusSlug: string;
   name: string;
   scientificName: string;
   commonName: string;
