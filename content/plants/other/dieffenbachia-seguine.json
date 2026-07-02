@@ -1,0 +1,83 @@
+{
+  "contentTier": "sketch",
+  "name": "Dieffenbachia seguine",
+  "slug": "dieffenbachia-seguine",
+  "scientificName": "Dieffenbachia seguine",
+  "commonName": "Dumb Cane",
+  "statusTag": "Common Houseplant Staple",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Dieffenbachia",
+  "species": "seguine",
+  "origin": "Native to the West Indies and northern South America; widely grown as an interior foliage plant across temperate climates.",
+  "collectorPopularity": 2,
+  "rarityStatus": "Common",
+  "availability": "High",
+  "priceGuideTier": "£",
+  "aboutText": "Dumb Cane gets its common name from the calcium oxalate crystals in its sap, which cause a temporary numbing of the mouth and throat if chewed, a defence mechanism that has done little to dent its popularity as a bold, easy-care foliage plant. Its broad, cream-and-green mottled leaves grow from a thick, cane-like stem that closely resembles a small tropical tree by maturity. Native to the understorey of Caribbean and northern South American forests, it favours warm, humid conditions but adapts readily to average indoor environments. Older canes can be air-layered or cut back hard, since the plant readily resprouts from the base or along the remaining stem.",
+  "quickFacts": {
+    "growthHabit": "Upright, cane-forming",
+    "matureSize": "60cm-1.2m indoors",
+    "light": "Medium to bright indirect light",
+    "humidity": "Average to high humidity",
+    "temperature": "18-27°C",
+    "difficulty": "Easy",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Broadly ovate to oblong",
+    "leafLength": "25-45cm",
+    "leafWidth": "12-20cm",
+    "petioleColor": "Pale green, sheathing",
+    "venation": "Pinnate",
+    "texture": "Semi-glossy",
+    "variegation": "Cream and green mottling/blotching",
+    "growthHabit": "Upright single or clumping cane"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Dieffenbachia seguine Dumb Cane",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Dumb Cane",
+      "Dieffenbachia seguine",
+      "Dieffenbachia plant",
+      "Leopard Lily",
+      "Tropic Snow Dieffenbachia"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

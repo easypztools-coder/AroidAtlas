@@ -45,6 +45,7 @@ interface PlantData {
   commonName: string;
   statusTag: string;
   botanicalType: string;
+  contentTier?: "plate" | "sketch";
   family: string;
   genus: string;
   species: string;
@@ -150,7 +151,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       siteName: "Aroid Atlas",
       images: [
         {
-          url: `/plants/${genus.toLowerCase()}/${data.slug}.png`,
+          url:
+            data.contentTier === "sketch"
+              ? "/images/aroidatlas-emblem-transparent-tight.png"
+              : `/plants/${genus.toLowerCase()}/${data.slug}.png`,
           width: 1200,
           height: 900,
           alt: `${data.scientificName} — ${data.statusTag}`,
@@ -235,7 +239,10 @@ export default function PlantPage({ params }: PageProps) {
             {
               "@type": "Product",
               name: data.scientificName,
-              image: `${baseUrl}/plants/${genusSlug}/${data.slug}.png`,
+              image:
+                data.contentTier === "sketch"
+                  ? `${baseUrl}/images/aroidatlas-emblem-transparent-tight.png`
+                  : `${baseUrl}/plants/${genusSlug}/${data.slug}.png`,
               description: data.aboutText.slice(0, 500),
               brand: {
                 "@type": "Brand",

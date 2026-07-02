@@ -12,6 +12,7 @@ interface PlantSummary {
   rarityStatus: string;
   priceGuideTier: string;
   botanicalType: string;
+  contentTier: "plate" | "sketch";
   marketStatus: string | null;
   currentMedianPriceGBP: number | null;
 }
@@ -44,6 +45,7 @@ function getAllPlantsForGenus(genus: string): PlantSummary[] {
       rarityStatus: data.rarityStatus,
       priceGuideTier: data.priceGuideTier,
       botanicalType: data.botanicalType || "variegated",
+      contentTier: data.contentTier === "sketch" ? "sketch" : "plate",
       marketStatus: data.marketMetrics?.marketStatus ?? null,
       currentMedianPriceGBP: data.marketMetrics?.currentMedianPriceGBP ?? null,
     };

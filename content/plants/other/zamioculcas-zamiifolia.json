@@ -1,0 +1,83 @@
+{
+  "contentTier": "sketch",
+  "name": "Zamioculcas zamiifolia",
+  "slug": "zamioculcas-zamiifolia",
+  "scientificName": "Zamioculcas zamiifolia",
+  "commonName": "ZZ Plant",
+  "statusTag": "Common Houseplant Staple",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Zamioculcas",
+  "species": "zamiifolia",
+  "origin": "Native to grasslands and dry forests of eastern Africa, from Kenya to South Africa; grown globally as a low-maintenance interior plant.",
+  "collectorPopularity": 2,
+  "rarityStatus": "Common",
+  "availability": "High",
+  "priceGuideTier": "£",
+  "aboutText": "The ZZ Plant is built for survival, storing water in thick rhizomes beneath the soil that let it shrug off weeks of neglect. Its glossy, dark green pinnate leaves grow in stiff upright stalks that catch the light almost like plastic foliage, which is part of why it reads as so architectural in interior spaces. Native to semi-arid regions of East Africa, it has evolved to cope with drought and low light, making it one of the most forgiving aroids available to home growers. It is slow growing but essentially indestructible, tolerating fluorescent office lighting and irregular watering schedules with ease.",
+  "quickFacts": {
+    "growthHabit": "Rhizomatous, upright rosette",
+    "matureSize": "45-90cm tall and wide",
+    "light": "Low to bright indirect light",
+    "humidity": "Tolerates dry air",
+    "temperature": "18-26°C",
+    "difficulty": "Very Easy",
+    "growthSpeed": "Slow"
+  },
+  "morphology": {
+    "leafShape": "Pinnately compound, elliptic leaflets",
+    "leafLength": "40-60cm (whole stalk)",
+    "leafWidth": "3-6cm per leaflet",
+    "petioleColor": "Pale green",
+    "venation": "Pinnate",
+    "texture": "Glossy, waxy",
+    "variegation": "N/A",
+    "growthHabit": "Upright rosette from tuberous rhizomes"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Zamioculcas zamiifolia ZZ Plant",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "ZZ Plant",
+      "Zanzibar Gem",
+      "Zamioculcas zamiifolia",
+      "Eternity Plant",
+      "Emerald Palm"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

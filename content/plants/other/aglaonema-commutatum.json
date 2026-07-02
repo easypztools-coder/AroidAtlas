@@ -1,0 +1,83 @@
+{
+  "contentTier": "sketch",
+  "name": "Aglaonema commutatum",
+  "slug": "aglaonema-commutatum",
+  "scientificName": "Aglaonema commutatum",
+  "commonName": "Chinese Evergreen",
+  "statusTag": "Common Houseplant Staple",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Aglaonema",
+  "species": "commutatum",
+  "origin": "Native to the tropical understorey forests of the Philippines and Sulawesi; a mainstay of interior plantscaping worldwide.",
+  "collectorPopularity": 2,
+  "rarityStatus": "Common",
+  "availability": "High",
+  "priceGuideTier": "£",
+  "aboutText": "Chinese Evergreen has long been a fixture of offices and shopping centres thanks to its unmatched tolerance for low light, dry air, and inconsistent care. Its lance-shaped leaves carry silvery-grey mottling along the veins, giving even the plain species a decorative, hand-marbled look without any variegation instability to manage. In its native Southeast Asian understorey it grows beneath a dense forest canopy, which is exactly the low-light logic that makes it thrive metres away from a window indoors. It grows slowly into a dense clump of upright cane-like stems and, unlike many aroids, rarely needs staking or support.",
+  "quickFacts": {
+    "growthHabit": "Clumping, cane-forming",
+    "matureSize": "30-60cm tall",
+    "light": "Low to medium indirect light",
+    "humidity": "Average household humidity",
+    "temperature": "18-27°C",
+    "difficulty": "Very Easy",
+    "growthSpeed": "Slow to Moderate"
+  },
+  "morphology": {
+    "leafShape": "Lanceolate to ovate",
+    "leafLength": "15-30cm",
+    "leafWidth": "6-12cm",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Semi-glossy, leathery",
+    "variegation": "Silvery-grey mottling along veins",
+    "growthHabit": "Upright clumping canes"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Aglaonema commutatum Chinese Evergreen",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Chinese Evergreen",
+      "Aglaonema commutatum",
+      "Aglaonema plant",
+      "Silver Bay Aglaonema",
+      "Poison Dart Plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

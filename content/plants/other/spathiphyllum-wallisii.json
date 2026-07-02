@@ -1,0 +1,83 @@
+{
+  "contentTier": "sketch",
+  "name": "Spathiphyllum wallisii",
+  "slug": "spathiphyllum-wallisii",
+  "scientificName": "Spathiphyllum wallisii",
+  "commonName": "Peace Lily",
+  "statusTag": "Common Houseplant Staple",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Spathiphyllum",
+  "species": "wallisii",
+  "origin": "Native to tropical rainforests of Central and South America, particularly Colombia and Venezuela; widely cultivated indoors worldwide.",
+  "collectorPopularity": 2,
+  "rarityStatus": "Common",
+  "availability": "High",
+  "priceGuideTier": "£",
+  "aboutText": "The Peace Lily is one of the few common aroids grown as much for its flowers as its foliage, producing elegant white spathes that curve around a creamy central spadix. Its glossy, dark green lance-shaped leaves form a dense rosette that tolerates the low light of shaded interiors better than almost any other houseplant, and it famously droops dramatically when thirsty before recovering within hours of watering. Native to the forest floor of Central and South American rainforests, it grows in the deep shade beneath the canopy, which explains its unusual comfort indoors away from bright windows. It is frequently cited in indoor air quality studies, adding to its popularity in homes and offices alike.",
+  "quickFacts": {
+    "growthHabit": "Clumping rosette",
+    "matureSize": "30-90cm depending on cultivar",
+    "light": "Low to medium indirect light",
+    "humidity": "Prefers higher humidity but adaptable",
+    "temperature": "18-27°C",
+    "difficulty": "Easy",
+    "growthSpeed": "Moderate"
+  },
+  "morphology": {
+    "leafShape": "Lanceolate, elliptic",
+    "leafLength": "20-40cm",
+    "leafWidth": "8-15cm",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Glossy",
+    "variegation": "N/A",
+    "growthHabit": "Basal clumping rosette"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Spathiphyllum wallisii Peace Lily",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Peace Lily",
+      "Spathiphyllum wallisii",
+      "White Sails Plant",
+      "Spathe Flower",
+      "Spathiphyllum plant"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

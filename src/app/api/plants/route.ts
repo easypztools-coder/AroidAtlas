@@ -11,6 +11,7 @@ interface SearchPlant {
   rarityStatus: string;
   priceGuideTier: string;
   botanicalType: string;
+  contentTier: "plate" | "sketch";
 }
 
 export async function GET() {
@@ -39,6 +40,7 @@ export async function GET() {
             rarityStatus: data.rarityStatus,
             priceGuideTier: data.priceGuideTier,
             botanicalType: data.botanicalType || "variegated",
+            contentTier: data.contentTier === "sketch" ? "sketch" : "plate",
           });
         } catch (err) {
           console.error(`Error reading plant file for API: ${file}`, err);

@@ -2,10 +2,11 @@
 
 import { useMemo, useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { getStaticTierLabel } from "@/lib/prices/priceRarityTier";
 import { getBotanicalTypeDetails } from "@/components/GenusPlantList";
+import { LeafIcon } from "@/components/SimplifiedPlateCard";
+import PlantPlateImage from "@/components/PlantPlateImage";
 
 export interface CatalogPlant {
   slug: string;
@@ -17,6 +18,7 @@ export interface CatalogPlant {
   rarityStatus: string;
   priceGuideTier: string;
   botanicalType: string;
+  contentTier: "plate" | "sketch";
   marketStatus: string | null;
   currentMedianPriceGBP: number | null;
 }
@@ -29,20 +31,6 @@ interface PlantCatalogProps {
 
 const RARITY_ORDER = ["Extremely Rare", "Ultra Rare", "Very Rare", "Rare", "Uncommon", "Common"];
 const MARKET_STATUS_OPTIONS = ["Volatile", "Stable"];
-
-// Leaf SVG used as a botanical accent inside genus chips
-function LeafIcon({ className }: { className?: string }) {
-  return (
-    <svg
-      className={className}
-      viewBox="0 0 24 24"
-      fill="currentColor"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path d="M17 8C8 10 5.9 16.17 3.82 21.34L5.71 22l1-2.3A4.49 4.49 0 0 0 8 20C19 20 22 3 22 3c-1 2-8 2-8 2l-.26-.05C11.89 4.45 10 4 8 4c-4 0-7 3-7 3l3 4c0-1 .5-3 4-4l2.15-.43A22.37 22.37 0 0 1 17 8Z" />
-    </svg>
-  );
-}
 
 function toggleInSet(set: Set<string>, value: string): Set<string> {
   const next = new Set(set);
@@ -362,35 +350,17 @@ export default function PlantCatalog({ plants, initialSearch = "", initialGenus 
                         className="group block overflow-hidden rounded-xl border border-border/40 bg-surface shadow-card-sm transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:border-border-strong hover:shadow-glass hover:opacity-95"
                       >
                         <div className="relative aspect-[3/4] overflow-hidden bg-background-soft">
-                          <Image
+                          <PlantPlateImage
                             src={`/plants/${plant.genus}/${plant.slug}.png`}
                             alt={plant.commonName}
-                            fill
+                            scientificName={plant.scientificName}
+                            botanicalType={plant.botanicalType}
+                            contentTier={plant.contentTier}
+                            size="card"
                             className="object-contain object-center transition-transform duration-500 ease-out group-hover:scale-[1.015]"
                             sizes="(max-width: 640px) 100vw, (max-width: 1280px) 50vw, 33vw"
-                            onError={(e) => {
-                              (e.currentTarget as HTMLImageElement).src =
-                                "/images/plant-placeholder.png";
-                            }}
                           />
                           <div className="pointer-events-none absolute bottom-0 left-0 right-0 h-2/5 bg-gradient-to-t from-surface via-surface/80 to-transparent" />
-
-                          {/* Genus label — top left */}
-                          <div className="absolute top-3 left-3">
-                            <span className="inline-flex items-center gap-1 rounded-md border border-border/40 bg-surface/90 px-2 py-0.5 text-[9px] font-bold uppercase tracking-wide text-muted">
-                              {plant.genusLabel}
-                            </span>
-                          </div>
-
-                          {/* Botanical type badge — bottom left */}
-                          <div className="absolute bottom-4 left-4">
-                            <span
-                              className={`inline-flex items-center gap-1 rounded-md border px-2 py-0.5 text-[9px] font-bold uppercase tracking-wide ${details.badgeClass}`}
-                            >
-                              <span className={`h-1 w-1 rounded-full ${details.dotClass}`} />
-                              {details.label}
-                            </span>
-                          </div>
                         </div>
 
                         <div className="px-4 pb-4 pt-3">
@@ -404,6 +374,15 @@ export default function PlantCatalog({ plants, initialSearch = "", initialGenus 
                               {plant.currentMedianPriceGBP
                                 ? `£${plant.currentMedianPriceGBP.toFixed(0)} AA Price`
                                 : `${plant.priceGuideTier} · ${getStaticTierLabel(plant.priceGuideTier)}`}
+                            </span>
+                            <span className="inline-flex items-center gap-1 rounded-md border border-border/40 bg-background-soft px-2 py-0.5 text-[9px] font-bold uppercase tracking-wide text-muted">
+                              {plant.genusLabel}
+                            </span>
+                            <span
+                              className={`inline-flex items-center gap-1 rounded-md border px-2 py-0.5 text-[9px] font-bold uppercase tracking-wide ${details.badgeClass}`}
+                            >
+                              <span className={`h-1 w-1 rounded-full ${details.dotClass}`} />
+                              {details.label}
                             </span>
                             {plant.marketStatus &&
                               (plant.marketStatus === "Volatile" ||

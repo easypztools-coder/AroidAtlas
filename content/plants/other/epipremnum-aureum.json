@@ -1,0 +1,83 @@
+{
+  "contentTier": "sketch",
+  "name": "Epipremnum aureum",
+  "slug": "epipremnum-aureum",
+  "scientificName": "Epipremnum aureum",
+  "commonName": "Golden Pothos",
+  "statusTag": "Common Houseplant Staple",
+  "botanicalType": "species",
+  "family": "Araceae",
+  "genus": "Epipremnum",
+  "species": "aureum",
+  "origin": "Native to Mo'orea in the Society Islands, French Polynesia; now naturalised and cultivated worldwide as one of the most widely grown houseplants.",
+  "collectorPopularity": 2,
+  "rarityStatus": "Common",
+  "availability": "High",
+  "priceGuideTier": "£",
+  "aboutText": "The Golden Pothos is the archetypal beginner houseplant, prized for its trailing vines of heart-shaped leaves splashed with irregular yellow variegation. In the wild it climbs rainforest trunks as a hemiepiphyte, its juvenile leaves staying small until it finds something to scale, at which point the foliage enlarges dramatically. Its tolerance of low light, irregular watering, and general neglect has made it a fixture of offices and homes across the globe. Propagation is famously easy from stem cuttings rooted in water, which has helped cement its status as the plant most people grow first.",
+  "quickFacts": {
+    "growthHabit": "Trailing/climbing hemiepiphyte",
+    "matureSize": "Long trailing vines, 1-3m indoors",
+    "light": "Low to bright indirect light",
+    "humidity": "Average household humidity",
+    "temperature": "16-27°C",
+    "difficulty": "Very Easy",
+    "growthSpeed": "Fast"
+  },
+  "morphology": {
+    "leafShape": "Cordate (heart-shaped)",
+    "leafLength": "10-20cm (larger when climbing)",
+    "leafWidth": "8-15cm",
+    "petioleColor": "Green",
+    "venation": "Pinnate",
+    "texture": "Glossy, waxy",
+    "variegation": "Irregular golden-yellow splashes on green",
+    "growthHabit": "Trailing or climbing"
+  },
+  "marketMetrics": {
+    "currentMedianPriceGBP": null,
+    "threeMonthChangePercent": null,
+    "marketStatus": null
+  },
+  "priceTracking": {
+    "enabled": true,
+    "source": "soldcomps",
+    "marketplace": "ebay.co.uk",
+    "query": "Epipremnum aureum Golden Pothos",
+    "requiredTerms": [],
+    "acceptedTerms": [
+      "Golden Pothos",
+      "Devil's Ivy",
+      "Epipremnum aureum",
+      "Pothos plant",
+      "Money Plant Pothos"
+    ],
+    "excludeTerms": [
+      "seeds",
+      "seed",
+      "bulb",
+      "rhizome",
+      "corm",
+      "poster",
+      "print",
+      "book",
+      "magazine",
+      "care guide",
+      "artificial",
+      "fake",
+      "plastic",
+      "silk",
+      "soil",
+      "perlite",
+      "fertiliser",
+      "fertilizer",
+      "moss pole",
+      "pot only",
+      "label",
+      "tag",
+      "cutting board"
+    ],
+    "marketCurrency": "GBP"
+  },
+  "recommendedPlants": []
+}

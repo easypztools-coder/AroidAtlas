@@ -18,8 +18,11 @@ const PlantPhotoCarousel = dynamic(() => import("@/components/PlantPhotoCarousel
 
 import type { PriceHistoryPoint } from "@/lib/prices/types";
 import { getPriceRarityTier, getStaticTierLabel } from "@/lib/prices/priceRarityTier";
+import { computeMarketTrend } from "@/lib/prices/marketTrend";
+import { RETAIL_MARKUP_FACTOR, confidenceToWeight } from "@/lib/prices/sizeRatios";
 import { getBotanicalTypeDetails } from "@/components/GenusPlantList";
 import PriceCalculator from "@/components/PriceCalculator";
+import PlantPlateImage from "@/components/PlantPlateImage";
 
 interface PricePoint {
   date: string;
@@ -84,6 +87,7 @@ interface PlantData {
   commonName: string;
   statusTag: string;
   botanicalType: string;
+  contentTier?: "plate" | "sketch";
   family: string;
   genus: string;
   species: string;
@@ -296,9 +300,8 @@ export default function PlantDetailPage({
 
   // Retail whole-plant 7cm equivalent: strip the retail markup factor.
   // Retail prices are ~35% above secondhand market value.
-  const RETAIL_MARKUP = 1.35;
   const retailWholesaleEquiv =
-    retailAverage !== null ? retailAverage.value / RETAIL_MARKUP : null;
+    retailAverage !== null ? retailAverage.value / RETAIL_MARKUP_FACTOR : null;
 
   const aaDisplayPrice: { value: number; source: "ebay" | "retail" | "blended" | "estimate" } | null =
     (() => {
@@ -308,8 +311,7 @@ export default function PlantDetailPage({
 
       if (hasEbay && hasRetail) {
         // Confidence-weighted blend: eBay weight scales with grade quality
-        const ebayWeight =
-          priceConfidence === "A" ? 4 : priceConfidence === "B" ? 3 : priceConfidence === "C" ? 2 : 1;
+        const ebayWeight = confidenceToWeight(priceConfidence ?? "D");
         const retailWeight = 1;
         const blended =
           (ebayWeight * ebayBase! + retailWeight * retailWholesaleEquiv!) /
@@ -326,19 +328,7 @@ export default function PlantDetailPage({
   const latestWeek = soldCompsData.length > 0 ? soldCompsData[soldCompsData.length - 1] : null;
   const showTypicalRange = latestWeek !== null && !fairPriceIsEstimate && latestWeek.p25 < latestWeek.p75;
 
-  const liveMarketTrend: { changePct: number; status: "Rising" | "Declining" | "Stable" } | null = (() => {
-    if (soldCompsData.length < 4) return null;
-    const recent = soldCompsData.slice(-3);
-    const older = soldCompsData.slice(0, soldCompsData.length - 3);
-    const recentMed = recent.reduce((s, p) => s + p.median, 0) / recent.length;
-    const olderMed = older.reduce((s, p) => s + p.median, 0) / older.length;
-    if (olderMed === 0) return null;
-    const changePct = ((recentMed - olderMed) / olderMed) * 100;
-    return {
-      changePct,
-      status: changePct > 10 ? "Rising" : changePct < -10 ? "Declining" : "Stable",
-    };
-  })();
+  const liveMarketTrend = computeMarketTrend(soldCompsData);
 
   const combinedTier =
     aaDisplayPrice !== null
@@ -437,16 +427,16 @@ export default function PlantDetailPage({
           {/* Main Feature Image */}
           <div className="relative overflow-hidden rounded-xl border border-border/40 bg-background-soft shadow-card-sm">
             <div className="relative aspect-[3/4]">
-              <Image
+              <PlantPlateImage
                 src={`/plants/${genus}/${data.slug}.png`}
                 alt={data.commonName}
-                fill
+                scientificName={data.scientificName}
+                botanicalType={data.botanicalType}
+                contentTier={data.contentTier ?? "plate"}
+                size="feature"
                 className="object-contain"
                 sizes="(max-width: 768px) 100vw, 50vw"
                 priority
-                onError={(e) => {
-                  (e.currentTarget as HTMLImageElement).src = "/images/plant-placeholder.png";
-                }}
               />
             </div>
           </div>
@@ -1247,8 +1237,8 @@ export default function PlantDetailPage({
                       {liveMarketTrend.status}
                     </span>
                     <span className="text-[10px] text-muted">
-                      ({liveMarketTrend.changePct > 0 ? "+" : ""}
-                      {liveMarketTrend.changePct.toFixed(0)}%)
+                      ({liveMarketTrend.changePercent > 0 ? "+" : ""}
+                      {liveMarketTrend.changePercent.toFixed(0)}%)
                     </span>
                   </>
                 ) : (

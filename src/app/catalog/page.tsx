@@ -49,6 +49,7 @@ function getAllPlants(): CatalogPlant[] {
         rarityStatus: data.rarityStatus,
         priceGuideTier: data.priceGuideTier,
         botanicalType: data.botanicalType || "variegated",
+        contentTier: data.contentTier === "sketch" ? "sketch" : "plate",
         marketStatus: data.marketMetrics?.marketStatus ?? null,
         currentMedianPriceGBP: data.marketMetrics?.currentMedianPriceGBP ?? null,
       });

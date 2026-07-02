@@ -6,6 +6,7 @@ import { normaliseListing } from "@/lib/prices/normaliseListing";
 import { filterPlantListings } from "@/lib/prices/filterPlantListings";
 import { classifyListing } from "@/lib/prices/classifyPlantListing";
 import { calculateStats } from "@/lib/prices/calculatePriceStats";
+import { bucketListingsByWeek, computeMarketTrend, loadListingHistoryForTrend } from "@/lib/prices/marketTrend";
 import { fetchUsdToGbpRate } from "@/lib/prices/fetchExchangeRate";
 import { getDbPool } from "@/lib/db";
 import type { PriceTrackingConfig } from "@/lib/prices/types";
@@ -289,7 +290,7 @@ export async function GET(request: NextRequest) {
         "utf-8"
       );
 
-      // ── Update plant JSON median price ────────────────────────────────────
+      // ── Update plant JSON median price + 3-month trend ──────────────────────
       if (stats.trimmedMean > 0) {
         try {
           const plantJson = JSON.parse(fs.readFileSync(filePath, "utf-8"));
@@ -297,6 +298,20 @@ export async function GET(request: NextRequest) {
             plantJson.marketMetrics = { currentMedianPriceGBP: null, threeMonthChangePercent: null, marketStatus: null };
           }
           plantJson.marketMetrics.currentMedianPriceGBP = Math.round(stats.trimmedMean);
+
+          let weeklyPoints;
+          try {
+            const rawHistory = db
+              ? await loadListingHistoryForTrend(db, slug)
+              : classified.map((l) => ({ soldDate: l.soldDate, price: l.totalPrice }));
+            weeklyPoints = bucketListingsByWeek(rawHistory);
+          } catch {
+            weeklyPoints = bucketListingsByWeek(classified.map((l) => ({ soldDate: l.soldDate, price: l.totalPrice })));
+          }
+          const trend = computeMarketTrend(weeklyPoints);
+          plantJson.marketMetrics.threeMonthChangePercent = trend ? Math.round(trend.changePercent * 10) / 10 : null;
+          plantJson.marketMetrics.marketStatus = trend ? trend.status : null;
+
           fs.writeFileSync(filePath, JSON.stringify(plantJson, null, 2), "utf-8");
         } catch {
           // non-fatal

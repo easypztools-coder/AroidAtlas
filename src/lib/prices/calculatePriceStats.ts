@@ -1,33 +1,58 @@
-import { ClassifiedListing, PriceStats, ConfidenceGrade } from "./types";
+import { PriceStats, ConfidenceGrade } from "./types";
+import { percentile } from "./percentile";
+import { getListingRatio } from "./sizeRatios";
+
+export interface PriceStatsInput {
+  unitPrice: number;
+  listingType: string;
+  potSizeCm?: number;
+  soldDate?: string | null;
+}
+
+const RECENCY_HALF_LIFE_DAYS = 45;
+const STALE_DAYS_SOFT_CAP = 90; // beyond this, confidence can't exceed C
+const STALE_DAYS_HARD_CAP = 180; // beyond this, confidence can't exceed D
+
+const GRADE_RANK: Record<ConfidenceGrade, number> = { A: 4, B: 3, C: 2, D: 1 };
 
 /**
- * Calculate robust price statistics from a set of classified listings.
+ * Calculate robust, size-normalised price statistics from listings.
  *
- * Uses unitPrice (price per item, accounting for lot sizes).
+ * Every unit price is first divided by its listing-type/pot-size ratio (see
+ * sizeRatios.ts) so a sample skewed toward nodes one week and mature plants
+ * the next doesn't read as a genuine price move — everything is expressed
+ * as a 7cm-whole-plant equivalent before any statistics are computed.
  *
- * Outlier handling:
- * - Standard IQR method: remove values below Q1 - 1.5*IQR and above Q3 + 1.5*IQR
- * - Remove values under £5
- * - For very small samples (< 5), don't remove outliers aggressively
+ * Pipeline:
+ * 1. Normalise every unit price to its 7cm-whole-plant equivalent.
+ * 2. IQR outlier removal (Q1 - 1.5*IQR .. Q3 + 1.5*IQR), skipped under 5 samples.
+ * 3. Trim the top/bottom 10% of what's left when there's enough volume (n >= 10).
+ * 4. Aggregate the surviving prices with a recency-weighted mean (half-life
+ *    ~45 days) instead of a flat average, so the headline price tracks
+ *    current momentum rather than being anchored by older sales.
  *
  * Confidence scoring:
- * - A: sampleSize >= 30
- * - B: sampleSize >= 15
- * - C: sampleSize >= 5
- * - D: sampleSize < 5
- * - Downgrade if > 50% of results were rejected
+ * - A: sampleSize >= 30, B: >= 15, C: >= 5, D: < 5
+ * - Downgraded one grade if > 50% of results were rejected at the filter stage
+ * - Downgraded one grade if > 30% of accepted prices were IQR outliers
+ * - Capped at C if the most recent accepted sale is > 90 days old, capped at D
+ *   if > 180 days — a large sample of stale sales shouldn't read as
+ *   high-confidence "current" data.
  */
 export function calculateStats(
-  listings: ClassifiedListing[],
+  listings: PriceStatsInput[],
   totalRejectedCount: number
 ): PriceStats {
-  // ─── Extract unit prices ───────────────────────────────────────────────
-  const prices = listings
-    .map((l) => l.unitPrice)
-    .filter((p) => p > 0 && !isNaN(p))
-    .sort((a, b) => a - b);
+  // ─── Normalise to 7cm-equivalent price ──────────────────────────────────
+  const priced = listings
+    .map((l) => ({
+      price: l.unitPrice / getListingRatio(l.listingType, l.potSizeCm),
+      soldDate: l.soldDate ?? null,
+    }))
+    .filter((p) => p.price > 0 && !isNaN(p.price))
+    .sort((a, b) => a.price - b.price);
 
-  if (prices.length === 0) {
+  if (priced.length === 0) {
     return {
       sampleSize: 0,
       min: 0,
@@ -45,7 +70,7 @@ export function calculateStats(
     };
   }
 
-  // ─── Basic stats ───────────────────────────────────────────────────────
+  const prices = priced.map((p) => p.price);
   const sampleSize = prices.length;
   const min = prices[0];
   const max = prices[prices.length - 1];
@@ -55,28 +80,35 @@ export function calculateStats(
   const p25 = percentile(prices, 25);
   const p75 = percentile(prices, 75);
   const iqr = p75 - p25;
-
-  // ─── Median ────────────────────────────────────────────────────────────
   const median = percentile(prices, 50);
 
   // ─── Outlier detection (IQR method) ────────────────────────────────────
   let outlierCount = 0;
-  let cleanedPrices = [...prices];
-
+  let cleaned = priced;
   if (sampleSize >= 5) {
     const lowerBound = p25 - 1.5 * iqr;
     const upperBound = p75 + 1.5 * iqr;
-
-    cleanedPrices = prices.filter((p) => p >= lowerBound && p <= upperBound);
-    outlierCount = prices.length - cleanedPrices.length;
+    cleaned = priced.filter((p) => p.price >= lowerBound && p.price <= upperBound);
+    outlierCount = priced.length - cleaned.length;
   }
 
-  // ─── Trimmed mean (remove top and bottom 10%) ──────────────────────────
+  // ─── Trim top/bottom 10% when there's enough volume ────────────────────
+  let trimmed = cleaned;
+  if (cleaned.length >= 10) {
+    const trimCount = Math.max(1, Math.floor(cleaned.length * 0.1));
+    trimmed = cleaned.slice(trimCount, cleaned.length - trimCount);
+  }
+
+  // ─── Recency-weighted mean of the surviving set ────────────────────────
   let trimmedMean = mean;
-  if (cleanedPrices.length >= 10) {
-    const trimCount = Math.max(1, Math.floor(cleanedPrices.length * 0.1));
-    const trimmed = cleanedPrices.slice(trimCount, cleanedPrices.length - trimCount);
-    trimmedMean = trimmed.reduce((a, b) => a + b, 0) / trimmed.length;
+  if (trimmed.length > 0) {
+    const now = Date.now();
+    const weights = trimmed.map((p) => recencyWeight(p.soldDate, now));
+    const weightSum = weights.reduce((a, b) => a + b, 0);
+    trimmedMean =
+      weightSum > 0
+        ? trimmed.reduce((s, p, i) => s + p.price * weights[i], 0) / weightSum
+        : trimmed.reduce((s, p) => s + p.price, 0) / trimmed.length;
   }
 
   // ─── Confidence score ──────────────────────────────────────────────────
@@ -96,6 +128,14 @@ export function calculateStats(
     confidence = confidence === "A" ? "B" : confidence === "B" ? "C" : "D";
   }
 
+  // Cap if the sample is stale — a big count of old sales isn't "current" data
+  const mostRecentSaleAgeDays = latestSaleAgeDays(priced, Date.now());
+  if (mostRecentSaleAgeDays !== null) {
+    const cap: ConfidenceGrade | null =
+      mostRecentSaleAgeDays > STALE_DAYS_HARD_CAP ? "D" : mostRecentSaleAgeDays > STALE_DAYS_SOFT_CAP ? "C" : null;
+    if (cap && GRADE_RANK[cap] < GRADE_RANK[confidence]) confidence = cap;
+  }
+
   return {
     sampleSize,
     min,
@@ -113,16 +153,24 @@ export function calculateStats(
   };
 }
 
-// ─── Helper: Calculate percentile ─────────────────────────────────────────
+/** Exponential recency weight, half-life ~45 days. Unknown dates get a neutral mid-weight. */
+function recencyWeight(soldDate: string | null, now: number): number {
+  if (!soldDate) return 0.5;
+  const days = (now - new Date(soldDate).getTime()) / 86_400_000;
+  if (!isFinite(days) || days < 0) return 0.5;
+  return Math.pow(0.5, days / RECENCY_HALF_LIFE_DAYS);
+}
 
-function percentile(sorted: number[], pct: number): number {
-  if (sorted.length === 0) return 0;
-  if (sorted.length === 1) return sorted[0];
-
-  const index = (pct / 100) * (sorted.length - 1);
-  const lower = Math.floor(index);
-  const upper = Math.ceil(index);
-
-  if (lower === upper) return sorted[lower];
-  return sorted[lower] + (sorted[upper] - sorted[lower]) * (index - lower);
+function latestSaleAgeDays(
+  priced: { price: number; soldDate: string | null }[],
+  now: number
+): number | null {
+  let latest: number | null = null;
+  for (const p of priced) {
+    if (!p.soldDate) continue;
+    const t = new Date(p.soldDate).getTime();
+    if (isNaN(t)) continue;
+    if (latest === null || t > latest) latest = t;
+  }
+  return latest === null ? null : (now - latest) / 86_400_000;
 }

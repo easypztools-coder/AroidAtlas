@@ -17,6 +17,7 @@ import { normaliseListing } from "../src/lib/prices/normaliseListing";
 import { filterPlantListings } from "../src/lib/prices/filterPlantListings";
 import { classifyListing } from "../src/lib/prices/classifyPlantListing";
 import { calculateStats } from "../src/lib/prices/calculatePriceStats";
+import { bucketListingsByWeek, computeMarketTrend, loadListingHistoryForTrend } from "../src/lib/prices/marketTrend";
 import { fetchUsdToGbpRate } from "../src/lib/prices/fetchExchangeRate";
 import { getPriceRarityTier } from "../src/lib/prices/priceRarityTier";
 import { getDbPool } from "../src/lib/db";
@@ -220,29 +221,7 @@ async function main() {
       const stats = calculateStats(classified, rejected.length);
       console.log(`  ✓ Filtered: ${classified.length} accepted, ${rejected.length} rejected.`);
 
-      // Update plant file data locally
-      let updatedTier = config.marketCurrency === "GBP" ? getPriceRarityTier(stats.trimmedMean).tier : "£££";
-      if (stats.trimmedMean > 0) {
-        const plantJson = JSON.parse(fs.readFileSync(filePath, "utf-8"));
-        const oldTier = plantJson.priceGuideTier;
-        const oldMedian = plantJson.marketMetrics?.currentMedianPriceGBP;
-
-        plantJson.priceGuideTier = updatedTier;
-        if (!plantJson.marketMetrics) {
-          plantJson.marketMetrics = { currentMedianPriceGBP: null, threeMonthChangePercent: null, marketStatus: null };
-        }
-        
-        // Save rounded trimmed mean as the median price
-        const roundedPrice = Math.round(stats.trimmedMean);
-        plantJson.marketMetrics.currentMedianPriceGBP = roundedPrice;
-        
-        fs.writeFileSync(filePath, JSON.stringify(plantJson, null, 2), "utf-8");
-        console.log(`  ✓ Updated plant configuration:`);
-        console.log(`    - Price Tier: ${oldTier} → ${updatedTier}`);
-        console.log(`    - Median Price: ${oldMedian ? `£${oldMedian}` : "null"} → £${roundedPrice}`);
-      } else {
-        console.log(`  ⚠️ Trimmed mean price is 0, skipping plant config update.`);
-      }
+      const updatedTier = config.marketCurrency === "GBP" ? getPriceRarityTier(stats.trimmedMean).tier : "£££";
 
       // Create Snapshot
       const checkedAt = new Date().toISOString();
@@ -363,6 +342,48 @@ async function main() {
         } catch (dbErr) {
           console.error(`  ✗ DB write failed for ${slug}:`, dbErr instanceof Error ? dbErr.message : String(dbErr));
         }
+      }
+
+      // ─── Update plant file: median price, tier, and 3-month trend ──────────
+      // Runs after the DB save so the trend calc (when DB is available) sees
+      // this run's freshly inserted listings, not just prior runs'.
+      if (stats.trimmedMean > 0) {
+        const plantJson = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+        const oldTier = plantJson.priceGuideTier;
+        const oldMedian = plantJson.marketMetrics?.currentMedianPriceGBP;
+
+        plantJson.priceGuideTier = updatedTier;
+        if (!plantJson.marketMetrics) {
+          plantJson.marketMetrics = { currentMedianPriceGBP: null, threeMonthChangePercent: null, marketStatus: null };
+        }
+
+        // Save rounded recency-weighted trimmed mean as the median price
+        const roundedPrice = Math.round(stats.trimmedMean);
+        plantJson.marketMetrics.currentMedianPriceGBP = roundedPrice;
+
+        // Prefer the full accumulated sold-listing history from Postgres (spans
+        // many fetch runs, deduped); fall back to this run's own listings when
+        // there's no DB, which usually still spans weeks for slow-moving rare aroids.
+        let weeklyPoints: ReturnType<typeof bucketListingsByWeek>;
+        try {
+          const rawHistory = db
+            ? await loadListingHistoryForTrend(db, slug)
+            : classified.map((l) => ({ soldDate: l.soldDate, price: l.totalPrice }));
+          weeklyPoints = bucketListingsByWeek(rawHistory);
+        } catch {
+          weeklyPoints = bucketListingsByWeek(classified.map((l) => ({ soldDate: l.soldDate, price: l.totalPrice })));
+        }
+        const trend = computeMarketTrend(weeklyPoints);
+        plantJson.marketMetrics.threeMonthChangePercent = trend ? Math.round(trend.changePercent * 10) / 10 : null;
+        plantJson.marketMetrics.marketStatus = trend ? trend.status : null;
+
+        fs.writeFileSync(filePath, JSON.stringify(plantJson, null, 2), "utf-8");
+        console.log(`  ✓ Updated plant configuration:`);
+        console.log(`    - Price Tier: ${oldTier} → ${updatedTier}`);
+        console.log(`    - Median Price: ${oldMedian ? `£${oldMedian}` : "null"} → £${roundedPrice}`);
+        console.log(`    - Market Trend: ${trend ? `${trend.status} (${trend.changePercent.toFixed(1)}%)` : "insufficient history"}`);
+      } else {
+        console.log(`  ⚠️ Trimmed mean price is 0, skipping plant config update.`);
       }
     } catch (err) {
       console.error(`  ✗ Error processing ${slug}:`, err instanceof Error ? err.message : String(err));

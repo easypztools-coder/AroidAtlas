@@ -2,9 +2,9 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { getStaticTierLabel } from "@/lib/prices/priceRarityTier";
+import PlantPlateImage from "@/components/PlantPlateImage";
 
 interface PlantSummary {
   slug: string;
@@ -14,6 +14,7 @@ interface PlantSummary {
   rarityStatus: string;
   priceGuideTier: string;
   botanicalType: string;
+  contentTier: "plate" | "sketch";
   marketStatus: string | null;
   currentMedianPriceGBP: number | null;
 }
@@ -185,15 +186,15 @@ export default function GenusPlantList({ initialPlants, genus }: GenusPlantListP
                   >
                     {/* Image area */}
                     <div className="relative aspect-[3/4] overflow-hidden bg-background-soft">
-                      <Image
+                      <PlantPlateImage
                         src={`/plants/${genus}/${plant.slug}.png`}
                         alt={plant.commonName}
-                        fill
+                        scientificName={plant.scientificName}
+                        botanicalType={plant.botanicalType}
+                        contentTier={plant.contentTier}
+                        size="card"
                         className="object-contain object-center transition-transform duration-500 ease-out group-hover:scale-[1.015]"
                         sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                        onError={(e) => {
-                          (e.currentTarget as HTMLImageElement).src = "/images/plant-placeholder.png";
-                        }}
                       />
                       {/* Warm ivory gradient at the base for text */}
                       <div className="pointer-events-none absolute bottom-0 left-0 right-0 h-2/5 bg-gradient-to-t from-surface via-surface/80 to-transparent" />
